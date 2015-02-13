@@ -1,0 +1,20 @@
+
+Ecstasy 1.6 - 1 Feb 2015
+Added: Fixed Navbar + dropdown menu
+
+files affected the change:
+1. custom-header.html (new file added)
+2. custom.js (search for the custom-header to see the change)
+3. all skin files (search for the custom-header to see the change)
+
+—————————————————————
+
+Ecstasy 1.5 - 30 Jan 2015
+
+Fixed: Slides Pagination in Firefox
+
+What has changed? Just add "display: inline" in the following style in styles.css file:
+
+.slides-alt .slides-pagination a{
+    display: inline
+}
