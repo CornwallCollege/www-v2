@@ -32,10 +32,12 @@
    }
     
     
-   /* MENU TOGGLING - the if clause added in 1.6 update for the custom-header to work */
+   /* MENU TOGGLING - 1.7 update
+   
+   */
    if ( $( "#cbp-spmenu-s2" ).length ){
-      var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
-         openRightPush = document.getElementById( 'openRightPush' ),
+      var openRightPush = document.getElementById( 'openRightPush' ),
+         menuRight = document.getElementById( 'cbp-spmenu-s2' ),
          body = document.body;
          
       openRightPush.onclick = function() {
@@ -43,12 +45,26 @@
          classie.toggle( menuRight, 'cbp-spmenu-open' );
       };
       
-      /* update 1.4 for the one-page menu smooth scrolling */
-      menuRight.onclick = function() {
+   }
+   
+   /* the id="menu-container" has to be added to the one-page template,
+      to the <div class="container"> of the <nav id="cbp-spmenu-s2">
+      
+   */
+   
+   if ( $( "#menu-container" ).length ){
+      var menuContainer = document.getElementById( 'menu-container' ),
+      menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+      body = document.body;
+      
+      menuContainer.onclick = function() {
          classie.toggle( this, 'active' );
          classie.toggle( menuRight, 'cbp-spmenu-open' );
       };
+   
    }
+   
+   /* end of 1.7 update */
          
               
    /* JCAROUSEL RESPONSIVENESS */
@@ -488,7 +504,6 @@
          var $spy = jQuery(this).scrollspy('refresh')
        });
    }
-
     /* Shrink logo on scroll */
     function init() {
     window.addEventListener('scroll', function(e){
