@@ -69,7 +69,73 @@ Tags: responsive, html5, css3, portfolio, creative, business, agency
     font-weight: normal;
     font-style: normal;
 }
+/* Sector colours*/
+h2.full-time span,
+h2.part-time span,
+h2.university span,
+h2.leisure span,
+h2.business span,
+h2.apprenticeships span{
+    color:#333!important;
+}
 
+a.full-time{
+    color:#FF0078!important;
+    border-color:#FF0078!important;
+}
+h2.full-time{
+    color:#FF0078!important;    
+}
+
+a.part-time{
+    color:#05BC86!important;
+    border-color:#05BC86!important;
+}
+h2.part-time{
+    color:#05BC86!important;    
+}
+h2.part-time span{
+    color:#333!important;
+}
+
+a.university{
+    color:#06CEDB!important;
+    border-color:#06CEDB!important;
+}
+h2.university{
+    color:#06CEDB!important;
+}
+a.leisure{
+    color:#8703B7!important;
+    border-color:#8703B7!important;
+}
+h2.leisure{
+    color:#8703B7!important;
+}
+a.business{
+    color:#E04502!important;
+    border-color:#E04502!important;
+}
+h2.business{
+    color:#E04502!important;
+}
+a.apprenticeships{
+    color:#971A17!important;
+    border-color:#971A17!important;
+}
+h2.apprenticeships{
+    color:#971A17!important;
+    font-size: 75px!important;
+}
+@media(max-width:991px){
+    h2.apprenticeships{font-size: 50px!important;}
+}
+@media(max-width:570px){
+    h2.apprenticeships{font-size: 30px!important;}
+}
+
+
+/* Sector colours ends*/
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -3329,23 +3395,26 @@ section > h2 strong,
 /* alternative slides */
 
 .slides-alt .slides-pagination a.current:first-child:after {
-    content: "1";
+    content: "FT";
 }
 
 .slides-alt .slides-pagination a.current:nth-child(2):after {
-    content: "2";
+    content: "PT";
 }
 
 .slides-alt .slides-pagination a.current:nth-child(3):after {
-    content: "3";
+    content: "HE";
 }
 
 .slides-alt .slides-pagination a.current:nth-child(4):after {
-    content: "4";
+    content: "EW";
 }
 
 .slides-alt .slides-pagination a.current:nth-child(5):after {
-    content: "5";
+    content: "BT";
+}
+.slides-alt .slides-pagination a.current:nth-child(6):after {
+    content: "A";
 }
 
 .slides-alt .slides-pagination {
