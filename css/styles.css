@@ -2672,12 +2672,14 @@ section > h2 strong,
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
-
+.btn-wrap{
+    margin-top:-18px;
+}
 .fixed-btn {
-    position: absolute;
-    bottom: 0;
     z-index: 99;
-    width: 100%
+    position: relative;
+    width: 100%;
+    padding-top:-25px;    
 }
 
 .fixed-btn .col-md-2 {
@@ -2685,12 +2687,14 @@ section > h2 strong,
 }
 
 .fixed-btn .btn {
-    padding: 5px;
+    padding: 10px 5px;
 }
 
 @media(min-width: 991px) {
     .fixed-btn .btn {
         padding: 15px 0;
+        position: absolute;
+        bottom: 0;
     }
 }
 
