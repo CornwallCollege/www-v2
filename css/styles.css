@@ -2835,6 +2835,9 @@ section > h2 strong,
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+@media(max-width:400px){
+    #cc-logo {width:70px;}
+}
 /* logo text */
 
 #logo-wrapper .logo-letter,
