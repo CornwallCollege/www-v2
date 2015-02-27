@@ -521,6 +521,31 @@
 }
 window.onload = init();
 
+    
+		var isSequenceComplete = true;
+		$( document ).ready(function(){
+		
+		
+			if(isSequenceComplete === false) return true;
+			isSequenceComplete = false;
+
+			$('#openRightPush').grumble(
+				{
+					text: 'Click here for our course search!',
+					angle: 200,
+					distance: 50,
+					showAfter: 2000,
+					hideAfter: 5000,
+                    type: 'alt-',
+					hasHideButton: false, // just shows the button
+					buttonHideText: 'Pop!'
+				}
+			);
+
+
+		});
+	    
+    
 })(jQuery);
 
 
