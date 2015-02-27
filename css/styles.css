@@ -76,7 +76,7 @@ h2.university span,
 h2.leisure span,
 h2.business span,
 h2.apprenticeships span{
-    color:#333!important;
+    color:#fff!important;
 }
 
 a.full-time{
@@ -94,10 +94,6 @@ a.part-time{
 h2.part-time{
     color:#05BC86!important;    
 }
-h2.part-time span{
-    color:#333!important;
-}
-
 a.university{
     color:#06CEDB!important;
     border-color:#06CEDB!important;
@@ -3393,28 +3389,77 @@ section > h2 strong,
     bottom: 192px;
 }
 /* alternative slides */
-
+/* full time sector*/
+.slides-alt .slides-pagination a:first-child {
+    background:#FF0078;
+    opacity: .3;
+}
+.slides-alt .slides-pagination a.current:first-child {
+    background:#FF0078!important;
+    opacity: 1
+}
 .slides-alt .slides-pagination a.current:first-child:after {
-    content: "FT";
+    content: "";
 }
-
+/* part time sector*/
+.slides-alt .slides-pagination a:nth-child(2) {
+    background:#05BC86;
+    opacity: .3;
+}
+.slides-alt .slides-pagination a.current:nth-child(2){
+    background:#05BC86!important;
+    opacity: 1
+}
 .slides-alt .slides-pagination a.current:nth-child(2):after {
-    content: "PT";
+    content: "";
 }
-
+/* university sector*/
+.slides-alt .slides-pagination a:nth-child(3) {
+    background:#06CEDB;
+    opacity: .3;
+}
+.slides-alt .slides-pagination a.current:nth-child(3){
+    background:#06CEDB!important;
+    opacity: 1
+}
 .slides-alt .slides-pagination a.current:nth-child(3):after {
-    content: "HE";
+    content: "";
 }
-
+/* leisure sector*/
+.slides-alt .slides-pagination a:nth-child(4) {
+    background:#8703B7;
+    opacity: .3;
+}
+.slides-alt .slides-pagination a.current:nth-child(4){
+    background:#8703B7!important;
+    opacity: 1
+}
 .slides-alt .slides-pagination a.current:nth-child(4):after {
-    content: "EW";
+    content: "";
 }
-
+/* business sector*/
+.slides-alt .slides-pagination a:nth-child(5) {
+    background:#E04502;
+    opacity: .3;
+}
+.slides-alt .slides-pagination a.current:nth-child(5){
+    background:#E04502!important;
+    opacity: 1
+}
 .slides-alt .slides-pagination a.current:nth-child(5):after {
-    content: "BT";
+    content: "";
+}
+/* apprenticeships sector*/
+.slides-alt .slides-pagination a:nth-child(6) {
+    background:#971A17;
+    opacity: .3;
+}
+.slides-alt .slides-pagination a.current:nth-child(6){
+    background:#971A17!important;
+    opacity: 1
 }
 .slides-alt .slides-pagination a.current:nth-child(6):after {
-    content: "A";
+    content: "";
 }
 
 .slides-alt .slides-pagination {
@@ -3426,7 +3471,7 @@ section > h2 strong,
 }
 
 .slides-alt .slides-pagination a {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     border-radius: 0;
     -webkit-radius: 0;
     width: 110px;
@@ -3435,6 +3480,7 @@ section > h2 strong,
     vertical-align: middle;
     margin: 2px;
     overflow: hidden;
+    padding:10px 1px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
