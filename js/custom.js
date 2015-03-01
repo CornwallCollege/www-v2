@@ -531,10 +531,10 @@ window.onload = init();
 
 			$('#openRightPush').grumble(
 				{
-					text: 'Click here for our course search!',
-					angle: 200,
-					distance: 50,
-					showAfter: 2000,
+					text: 'Click here for our <span style="color:#52B3D9;font-weight:bold;">course search</span>!',
+					angle: 275,
+					distance: 0,
+					showAfter: 3000,
 					hideAfter: 5000,
                     type: 'alt-',
 					hasHideButton: false, // just shows the button

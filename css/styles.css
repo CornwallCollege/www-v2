@@ -101,6 +101,12 @@ a.university{
 h2.university{
     color:#06CEDB!important;
 }
+@media(max-width:991px){
+    h2.university{font-size: 70px!important;}
+}
+@media(max-width:570px){
+    h2.university{font-size: 40px!important;}
+}
 a.leisure{
     color:#8703B7!important;
     border-color:#8703B7!important;
