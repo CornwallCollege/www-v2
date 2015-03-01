@@ -2843,6 +2843,7 @@ section > h2 strong,
 }
 @media(max-width:400px){
     #cc-logo {width:70px;}
+    .cc-logo-scroll {margin-top: -65px;}
 }
 /* logo text */
 
