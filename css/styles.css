@@ -70,74 +70,143 @@ Tags: responsive, html5, css3, portfolio, creative, business, agency
     font-style: normal;
 }
 /* Sector colours*/
+
 h2.full-time span,
 h2.part-time span,
 h2.university span,
 h2.leisure span,
 h2.business span,
-h2.apprenticeships span{
-    color:#fff!important;
+h2.apprenticeships span {
+    color: #fff!important;
 }
 
-a.full-time{
-    color:#FF0078!important;
-    border-color:#FF0078!important;
-}
-h2.full-time{
-    color:#FF0078!important;    
+a.full-time {
+    color: #FF0078!important;
+    border-color: #FF0078!important;
 }
 
-a.part-time{
-    color:#05BC86!important;
-    border-color:#05BC86!important;
+h2.full-time {
+    color: #FF0078!important;
 }
-h2.part-time{
-    color:#05BC86!important;    
+
+a.part-time {
+    color: #05BC86!important;
+    border-color: #05BC86!important;
 }
-a.university{
-    color:#06CEDB!important;
-    border-color:#06CEDB!important;
+
+h2.part-time {
+    color: #05BC86!important;
 }
-h2.university{
-    color:#06CEDB!important;
+
+a.university {
+    color: #06CEDB!important;
+    border-color: #06CEDB!important;
 }
-@media(max-width:991px){
-    h2.university{font-size: 70px!important;}
+
+h2.university {
+    color: #06CEDB!important;
 }
-@media(max-width:570px){
-    h2.university{font-size: 40px!important;}
+
+@media(max-width:991px) {
+    h2.university {
+        font-size: 70px!important;
+    }
 }
-a.leisure{
-    color:#8703B7!important;
-    border-color:#8703B7!important;
+
+@media(max-width:570px) {
+    h2.university {
+        font-size: 40px!important;
+    }
 }
-h2.leisure{
-    color:#8703B7!important;
+
+a.leisure {
+    color: #8703B7!important;
+    border-color: #8703B7!important;
 }
-a.business{
-    color:#E04502!important;
-    border-color:#E04502!important;
+
+h2.leisure {
+    color: #8703B7!important;
 }
-h2.business{
-    color:#E04502!important;
+
+a.business {
+    color: #E04502!important;
+    border-color: #E04502!important;
 }
-a.apprenticeships{
-    color:#971A17!important;
-    border-color:#971A17!important;
+
+h2.business {
+    color: #E04502!important;
 }
-h2.apprenticeships{
-    color:#971A17!important;
+
+a.apprenticeships {
+    color: #971A17!important;
+    border-color: #971A17!important;
+}
+
+h2.apprenticeships {
+    color: #971A17!important;
     font-size: 75px!important;
 }
-@media(max-width:991px){
-    h2.apprenticeships{font-size: 50px!important;}
-}
-@media(max-width:570px){
-    h2.apprenticeships{font-size: 30px!important;}
+
+@media(max-width:991px) {
+    h2.apprenticeships {
+        font-size: 50px!important;
+    }
 }
 
+@media(max-width:570px) {
+    h2.apprenticeships {
+        font-size: 30px!important;
+    }
+}
+/* Help Bar */
 
+.help-bar {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: 999;
+}
+
+.help-button {
+    background: #52B3D9;
+    padding:10px;
+    display: inline-block;
+    margin-right: 3px
+}
+
+p.help-button-text {
+    display: none;
+}
+
+p.help-button-text:hover {
+    display:block;
+    position: relative;
+}
+
+.help-button i {
+    color: white;
+    position: relative;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    min-width: 20px;
+    text-align:center;    
+}
+
+.help-button:hover i {
+    color: white;
+    font-size: 25px;
+}
+/* Help Bar ends */
 /* Sector colours ends*/
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -2379,6 +2448,21 @@ h5 {
     }
 }
 
+.event-title-wrap {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    background: url(../images/subtle_carbon.png) center repeat;
+}
+
+h4.event-title {
+    font-size: 120%;
+    color: white;
+    line-height: normal;
+    font-weight: normal;
+}
+
 a {
     color: #52B3D9;
     font-size: 12px;
@@ -2423,7 +2507,8 @@ p {
 
 .intro h2,
 section > h2,
-.intro header h2 {
+.intro header h2,
+{
     color: #aaa;
     margin-top: 0;
     margin-bottom: 20px;
@@ -2431,7 +2516,8 @@ section > h2,
 
 .intro h2 strong,
 section > h2 strong,
-.intro header strong {
+.intro header strong,
+section h2 strong {
     color: #52B3D9;
 }
 
@@ -2572,6 +2658,10 @@ section > h2 strong,
     border: 1px solid #52B3D9;
     color: #52B3D9;
 }
+
+.color-bg {
+    background: #52B3D9;
+}
 /* HEADER TITLE
  * ==============================
  */
@@ -2658,7 +2748,7 @@ section > h2 strong,
     padding: 7px 10px;
     display: inline-block;
     background: transparent;
-    border: 1px solid #D4B181;
+    border: 1px solid #52B3D9;
     margin-right: 5px;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -2740,14 +2830,16 @@ section > h2 strong,
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
-.btn-wrap{
-    margin-top:-18px;
+
+.btn-wrap {
+    margin-top: -18px;
 }
+
 .fixed-btn {
     z-index: 99;
     position: relative;
     width: 100%;
-    padding-top:-25px;    
+    padding-top: -25px;
 }
 
 .fixed-btn .col-md-2 {
@@ -2808,7 +2900,6 @@ section > h2 strong,
 .color-bg h2 {
     text-transform: uppercase;
     color: #fff;
-    font-weight: 700;
 }
 
 .color-bg p {
@@ -2841,9 +2932,14 @@ section > h2 strong,
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-@media(max-width:400px){
-    #cc-logo {width:70px;}
-    .cc-logo-scroll {margin-top: -65px;}
+
+@media(max-width:400px) {
+    #cc-logo {
+        width: 70px;
+    }
+    .cc-logo-scroll {
+        margin-top: -65px;
+    }
 }
 /* logo text */
 
@@ -3400,74 +3496,92 @@ section > h2 strong,
 }
 /* alternative slides */
 /* full time sector*/
+
 .slides-alt .slides-pagination a:first-child {
-    background:#FF0078;
+    background: #FF0078;
     opacity: .3;
 }
+
 .slides-alt .slides-pagination a.current:first-child {
-    background:#FF0078!important;
+    background: #FF0078!important;
     opacity: 1
 }
+
 .slides-alt .slides-pagination a.current:first-child:after {
     content: "";
 }
 /* part time sector*/
+
 .slides-alt .slides-pagination a:nth-child(2) {
-    background:#05BC86;
+    background: #05BC86;
     opacity: .3;
 }
-.slides-alt .slides-pagination a.current:nth-child(2){
-    background:#05BC86!important;
+
+.slides-alt .slides-pagination a.current:nth-child(2) {
+    background: #05BC86!important;
     opacity: 1
 }
+
 .slides-alt .slides-pagination a.current:nth-child(2):after {
     content: "";
 }
 /* university sector*/
+
 .slides-alt .slides-pagination a:nth-child(3) {
-    background:#06CEDB;
+    background: #06CEDB;
     opacity: .3;
 }
-.slides-alt .slides-pagination a.current:nth-child(3){
-    background:#06CEDB!important;
+
+.slides-alt .slides-pagination a.current:nth-child(3) {
+    background: #06CEDB!important;
     opacity: 1
 }
+
 .slides-alt .slides-pagination a.current:nth-child(3):after {
     content: "";
 }
 /* leisure sector*/
+
 .slides-alt .slides-pagination a:nth-child(4) {
-    background:#8703B7;
+    background: #8703B7;
     opacity: .3;
 }
-.slides-alt .slides-pagination a.current:nth-child(4){
-    background:#8703B7!important;
+
+.slides-alt .slides-pagination a.current:nth-child(4) {
+    background: #8703B7!important;
     opacity: 1
 }
+
 .slides-alt .slides-pagination a.current:nth-child(4):after {
     content: "";
 }
 /* business sector*/
+
 .slides-alt .slides-pagination a:nth-child(5) {
-    background:#E04502;
+    background: #E04502;
     opacity: .3;
 }
-.slides-alt .slides-pagination a.current:nth-child(5){
-    background:#E04502!important;
+
+.slides-alt .slides-pagination a.current:nth-child(5) {
+    background: #E04502!important;
     opacity: 1
 }
+
 .slides-alt .slides-pagination a.current:nth-child(5):after {
     content: "";
 }
 /* apprenticeships sector*/
+
 .slides-alt .slides-pagination a:nth-child(6) {
-    background:#971A17;
+    background: #971A17;
     opacity: .3;
 }
-.slides-alt .slides-pagination a.current:nth-child(6){
-    background:#971A17!important;
+
+.slides-alt .slides-pagination a.current:nth-child(6) {
+    background: #971A17!important;
     opacity: 1
 }
+
 .slides-alt .slides-pagination a.current:nth-child(6):after {
     content: "";
 }
@@ -3482,6 +3596,7 @@ section > h2 strong,
 
 .slides-alt .slides-pagination a {
     /*border: 1px solid #000;*/
+    
     border-radius: 0;
     -webkit-radius: 0;
     width: 110px;
@@ -3490,7 +3605,7 @@ section > h2 strong,
     vertical-align: middle;
     margin: 2px;
     overflow: hidden;
-    padding:10px 1px;
+    padding: 10px 1px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -4034,12 +4149,19 @@ section > h2 strong,
 /* block items */
 
 .item-blocks {
-    margin-top: 150px;
+    margin: 100px 0px;
+}
+
+.another-title {
+    margin-top: 50px;
 }
 
 @media(max-width: 767px) {
     .item-blocks {
         margin-top: 50px;
+    }
+    .another-title {
+        margin-top: 0px;
     }
 }
 
@@ -7163,7 +7285,6 @@ form textarea.error {
         margin-bottom: 30px
     }
 }
-
 /* Full time section call to action */
 
 .fulltime-bar {
@@ -7180,7 +7301,7 @@ form textarea.error {
     margin-top: 70px;
 }
 
-.fulltime-bar  section {
+.fulltime-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
     
@@ -7189,7 +7310,7 @@ form textarea.error {
     margin: 0;
 }
 
-.fulltime-bar  h2 {
+.fulltime-bar h2 {
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
@@ -7198,7 +7319,7 @@ form textarea.error {
     text-align: center
 }
 
-.fulltime-bar  .btn {
+.fulltime-bar .btn {
     background: transparent;
     border: 5px #52B3D9 solid;
     color: #52B3D9;
@@ -7217,18 +7338,16 @@ form textarea.error {
 }
 
 @media(max-width: 480px) {
-    .fulltime-bar  h2 {
+    .fulltime-bar h2 {
         padding-top: 70px;
         font-size: 40px;
     }
-    .fulltime-bar  .btn {
+    .fulltime-bar .btn {
         font-size: 20px;
         padding: 10px 20px;
         margin-bottom: 70px;
     }
 }
-
-
 /* =================================
  *
         FOOTER
