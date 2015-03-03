@@ -2662,6 +2662,14 @@ section h2 strong {
 .color-bg {
     background: #52B3D9;
 }
+.events{
+    padding:100px 0;
+}
+@media(max-width:480px){
+    .events{
+        padding:70px 0;
+    }
+}
 /* HEADER TITLE
  * ==============================
  */
@@ -7493,6 +7501,45 @@ form textarea.error {
     letter-spacing: 1.5px;
 }
 
+/* Cluster Colors*/
+.career-filter ul li a.bpi{
+    border-left: 1px solid #E73029
+}
+.career-filter ul li a.bpi:hover{
+    border: 1px solid #E73029;
+}
+.career-filter ul li a.cve{
+    border-left: 1px solid #C7D301
+}
+.career-filter ul li a.cve:hover{
+    border: 1px solid #C7D301;
+}
+.career-filter ul li a.hw{
+    border-left: 1px solid #DE006E
+}
+.career-filter ul li a.hw:hover{
+    border: 1px solid #DE006E;
+}
+.career-filter ul li a.re{
+    border-left: 1px solid #20A64B
+}
+.career-filter ul li a.re:hover{
+    border: 1px solid #20A64B;
+}
+.career-filter ul li a.sne{
+    border-left: 1px solid #004B93
+}
+.career-filter ul li a.sne:hover{
+    border: 1px solid #004B93;
+}
+.career-filter ul li a.et{
+    border-left: 1px solid #00ACCD
+}
+.career-filter ul li a.et:hover{
+    border: 1px solid #00ACCD;
+}
+
+/* Cluster colors ends*/
 .career-filter ul li a:hover,
 .career-filter ul li a:focus {
     color: #000;
