@@ -4139,7 +4139,7 @@ section h2 strong {
 }
 
 .box-square-alt article {
-    padding: 100px;
+    padding: 50px;
     height: auto;
     min-height: 400px;
 }
@@ -6241,6 +6241,19 @@ section h2 strong {
     margin-bottom: 11px;
 }
 
+.inner h5 {
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.inner h5 span {
+    display: block;
+    font-weight: 700;
+    font-size: 44px;
+    color: #333;
+    margin-bottom: 11px;
+}
+
 .counters-alt .inner i {
     color: #fff;
     font-size: 84px;
@@ -7597,4 +7610,9 @@ form textarea.error {
 
 .noscroll {
 	overflow: hidden;
+}
+
+.job-profile-link a{
+	color: white;
+	font-size: 12px;
 }

@@ -54,7 +54,7 @@
 			var popupName = $(this).attr("id");						
 			$("[data-popup='"+popupName+"']" ).on('click',function() {
 				$('html, body').addClass('noscroll');
-				var popupName = $(this).attr("data-popup");
+				var popupName = 'engineering'//$(this).attr("data-popup");
 				var popup = document.getElementById(popupName);
 			 	classie.toggle( popup, 'cbp-spmenu-open' );
 				
