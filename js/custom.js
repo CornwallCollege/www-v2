@@ -242,9 +242,12 @@
                      required: true,
                      email: true
                  },
-                 message: {
+                 intrest: {
                      required: true
-                 }
+                 },
+                 contact: {
+                     required: true
+                 }                 
              },
              messages: {
                  name: {
@@ -253,9 +256,12 @@
                  email: {
                      required: ""
                  },
-                 message: {
+                 intrest: {
                      required: ""
-                 }
+                 },
+                 contact: {
+                     required: ""
+                 }                 
              },
    
                submitHandler: function(form) {
