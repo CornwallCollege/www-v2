@@ -14,6 +14,9 @@
 
 		$('div.career-filter ul a').click(function(){
 			var selector = $(this).attr('data-filter');
+			$('html, body').animate({
+        		scrollTop: $( '#career-grid-anchor' ).offset().top
+    		}, 500);
 			$container.isotope({
 				filter: selector,
 				animationOptions: {
@@ -48,17 +51,23 @@
 		});
 		
  		$( ".career-popup" ).each(function(index){
-			var popupName = $(this).attr("id");			
-
+			var popupName = $(this).attr("id");						
 			$("[data-popup='"+popupName+"']" ).on('click',function() {
+				$('html, body').addClass('noscroll');
 				var popupName = $(this).attr("data-popup");
 				var popup = document.getElementById(popupName);
 			 	classie.toggle( popup, 'cbp-spmenu-open' );
+				
 				$('.counter').counterUp({
 				   delay: 60,
 				   time: 1000
 			   });
 		 	});
 	   });
+		
+		$(".career-help-bar > .og-close" ).on('click',function() {
+			$('html, body').removeClass('noscroll');
+			$(this).parent().parent().removeClass('cbp-spmenu-open');
+		});
 	}	
 })(jQuery);
