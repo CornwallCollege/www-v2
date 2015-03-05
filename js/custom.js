@@ -507,7 +507,7 @@
       /* scroll spy */
    function updateScrollSpy() {
        jQuery('[data-spy="scroll"]').each(function () {
-         var $spy = jQuery(this).scrollspy('refresh')
+         var $spy = jQuery(this).scrollspy('refresh');
        });
    }
     /* Shrink logo on scroll */
