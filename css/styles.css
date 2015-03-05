@@ -4243,6 +4243,13 @@ section h2 strong {
 .team article {
     padding-right: 0;
     padding-left: 0;
+	height: 285px;
+}
+
+.team img{
+	width: 285px;
+	clip: rect(0px,285px,285px,0px);
+	position: absolute;
 }
 
 .team article section {
