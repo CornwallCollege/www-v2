@@ -7757,3 +7757,16 @@ form textarea.error {
 	width:95%;
 	margin: 0 auto;
 }
+
+#apply{
+    width: 100%;
+    overflow-x:hidden;
+    height: 100%;
+    top: 0;
+    z-index: 2000;
+    right: -100%;
+}
+
+#apply.cbp-spmenu-open {
+    right: 0;
+}

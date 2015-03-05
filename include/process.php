@@ -1,19 +1,30 @@
 <?php
 
-    $to = "youremail@domain.com";
+    $to = $_REQUEST['email'];//"enquires@cornwall.ac.uk";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
+    $contact = $_REQUEST['contact'];
     $headers = "From: $from";
-    $subject = $_REQUEST['subject'];;
+    $interest = $_REQUEST['interest'];
 
-    $fields = array();
-    $fields{"name"} = "name";
-    $fields{"email"} = "email";
-    $fields{"subject"} = "subject";
-    $fields{"message"} = "message";
+    $subject = $name+": "+$interest;
 
-    $body = "Here is what was sent:\n\n"; foreach($fields as $a => $b){   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); }
+    $details = "Name: "+$name+"\n";
+    $details += "Email: "+$from+"\n";
+    $details += "Contact: "+$contact+"\n";
+    $details += "Career Interest: "+$interest+"\n";
+
+    $body = "Online application:\n\n";
+    $body += $details;
 
     $send = mail($to, $subject, $body, $headers);
+
+    $applicantsubject = "Cornwall College Application";
+    $applicantbody = "Thank for your application, we recieved the following from you:\n\n";
+    $applicantbody += $details;
+    $applicantbody += "\n\nA member of our team will be in touch shortly.";
+    $applicantheaders = "From: enquires@cornwall.ac.uk";
+
+    $send = mail($from, $applicantsubject, $applicantbody, $headers);
 
 ?>
