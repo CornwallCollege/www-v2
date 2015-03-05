@@ -7694,3 +7694,8 @@ form textarea.error {
 	color: white;
 	font-size: 12px;
 }
+
+.navbar-fixed-top{
+	width:95%;
+	margin: 0 auto;
+}
