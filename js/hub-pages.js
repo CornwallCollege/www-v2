@@ -57,6 +57,10 @@
 				var popupName = 'engineering';//$(this).attr("data-popup");
 				var popup = document.getElementById(popupName);
 			 	classie.toggle( popup, 'cbp-spmenu-open' );
+                var close = document.getElementById("close");
+			 	classie.toggle( close, 'show-close' );
+                
+
 				
 				$('.counter').counterUp({
 				   delay: 100,

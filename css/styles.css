@@ -161,12 +161,16 @@ h2.apprenticeships {
 
 /* Career Help Bar */
 .career-help-bar {
-    position: absolute;
-    bottom: -10px;
-    left: -10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     height: 70px;
     width: 70px;
     z-index: 999;
+    display: none;
+}
+.show-close{
+    display: block;
 }
 /* left slide in close button */
 .ls-close {
