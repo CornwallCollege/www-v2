@@ -57,6 +57,8 @@
 				var popupName = 'engineering';//$(this).attr("data-popup");
 				var popup = document.getElementById(popupName);
 			 	classie.toggle( popup, 'cbp-spmenu-open' );
+                $ ("#close").addClass ('show-close');    
+
 				
 				$('.counter').counterUp({
 				   delay: 100,
@@ -68,6 +70,7 @@
 		$(".career-help-bar > .ls-close" ).on('click',function() {
 			$('html, body').removeClass('noscroll');
 			$(this).parent().parent().removeClass('cbp-spmenu-open');
+            $ ("#close").removeClass ('show-close');
 		});
 	}	
 })(jQuery);
