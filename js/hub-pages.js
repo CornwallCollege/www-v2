@@ -65,7 +65,7 @@
 		 	});
 	   });
 		
-		$(".career-help-bar > .og-close" ).on('click',function() {
+		$(".career-help-bar > .ls-close" ).on('click',function() {
 			$('html, body').removeClass('noscroll');
 			$(this).parent().parent().removeClass('cbp-spmenu-open');
 		});
