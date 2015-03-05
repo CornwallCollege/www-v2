@@ -162,9 +162,10 @@ h2.apprenticeships {
 /* Career Help Bar */
 .career-help-bar {
     position: fixed;
-    bottom: 70px;
+    bottom: 60px;
     right: 30px;
-    z-index: 9999;
+    z-index: 999;
+    background-color: green;
 }
 
 /* Help Bar */
@@ -5336,6 +5337,49 @@ section h2 strong {
         opacity: 0;
     }
 }
+
+/* left slide in close button */
+.ls-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: white;
+    border: solid 2px #52B3D9;
+}
+
+.ls-close::before,
+.ls-close::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background: #52B3D9;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.ls-close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ls-close:hover::before,
+.ls-close:hover::after {
+    background: #333;
+}
+
+/* left slide in close ENDS */
 /* 
  * 	Owl Carousel - Auto Height Plugin
  */
