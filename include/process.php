@@ -15,7 +15,7 @@
     $details .= "Career Interest: ".$interest."\n";
 
     $body = "Online application:\n\n";
-    $body += $details;
+    $body .= $details;
 
     $send = mail($to, $subject, $body, $headers);
 
