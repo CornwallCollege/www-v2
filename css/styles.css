@@ -4161,9 +4161,12 @@ section h2 strong {
 
 .box-square article:nth-child(3) {
     background: #000;
+    clear: left;
 }
 
-.box-square article:nth-child(3) h3 {
+.box-square article:nth-child(3) h3,
+.box-square article:nth-child(3) h2,
+.box-square article:nth-child(3) p{
     color: #fff;
 }
 
@@ -4186,6 +4189,10 @@ section h2 strong {
 .box-square article:nth-child(4) h3:after,
 .box-square article:nth-child(4) h3:before {
     background-color: #fff;
+}
+.box-square article:nth-child(5) {
+    background: #000;
+    clear: left;
 }
 
 @media(max-width: 1100px) {
@@ -4311,72 +4318,74 @@ section h2 strong {
 /* =================================
  *
         TEAM MEMBERS
- */
+ */         
+ 
+ 
+.team{
 
-.team {}
-
-.team > header > h2 {
-    color: #000;
-    font-weight: 700;
 }
-
-.team article {
-    padding-right: 0;
-    padding-left: 0;
-	height: 285px;
-}
-
-.team img{
-	width: 285px;
-	clip: rect(0px,285px,285px,0px);
-	position: absolute;
-}
-
-.team article section {
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    transition: all 0.4s;
-    padding-bottom: 50px;
-}
-
-.team footer {
-    margin-top: 30px;
-}
-
-.team figure {
-    text-align: center;
-    padding: 0;
-}
-
-@media (max-width: 480px) {
-    .team article,
-    .team article section,
-    .team figure {
-        width: 100%;
+    .team > header > h2{
+        color: #000;
+        font-weight: 700;
     }
-    .team article {
-        margin-bottom: 15px;
+    
+    .team article{
+        padding-right: 0;
+        padding-left: 0;
     }
-    .team article section {
-        background: #f7f7f7;
-    }
-    .team article:hover > section {
+
+    .team article section{
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        transition: all 0.4s;
         padding-bottom: 50px;
     }
-}
+    
+    .team footer{
+        margin-top: 30px;
+    }
 
-.team-founder span {
+        .team figure{
+            text-align: center;
+            padding: 0;
+            height: 366px;
+            overflow: hidden;
+        }
+
+        @media (max-width: 480px){
+            .team article,
+            .team article section,
+            .team figure{
+                width: 100%;
+            }
+            .team figure{
+                text-align: center;
+                padding: 0;
+                height: 340px;
+            }            
+            .team article{
+                margin-bottom: 15px;
+            }
+            .team article section{
+                background: #f7f7f7;
+            }
+            .team article:hover > section{
+                padding-bottom: 50px;
+            }
+        }
+ 
+.team-founder span{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #999;
 }
-
-.team-founder footer {
+.team-founder footer{
     margin-top: 30px;
 }
-/* popup used in team about us page */
+
+/* popup used in team about us page */      
 
 .popup {
     background: #fff;
@@ -4475,7 +4484,7 @@ section h2 strong {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-    height: 30px;
+    height: auto;
     margin-bottom: 20px;
     margin-top: 5px;
     box-shadow: none;
@@ -4491,12 +4500,13 @@ section h2 strong {
     text-align: left;
     padding-left: 20px;
     padding-top: 5px;
+    padding-bottom: 5px;
     color: #52B3D9;
+    margin-right: 10px;
 }
 
 .custom-progress span {
     color: #fff;
-    margin-left: 10px;
     letter-spacing: normal;
 }
 
