@@ -3332,7 +3332,7 @@ section h2 strong {
 .menu-item-links {
     width: 100%;
     list-style: none;
-    margin-top: 20%;
+    margin-top: 5%;
     padding-left: 0;
     text-align: center;
     padding-top: 0;
@@ -3387,14 +3387,14 @@ section h2 strong {
 
 @media(min-width: 681px) and (max-width: 991px) {
     .menu-item-links {
-        margin-top: 30%;
+        margin-top: 10%;
     }
 }
 
 @media(max-width: 680px) {
     .menu-item-links {
         margin-bottom: 20px;
-        margin-top: 30%;
+        margin-top: 10%;
         text-indent: 5%;
         text-align: left;
     }
@@ -3475,7 +3475,7 @@ section h2 strong {
 
 #search-form {
     clear: both;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 0;
 }
 
@@ -3506,6 +3506,17 @@ section h2 strong {
 
 #search-form:hover input {
     border-color: #000;
+}
+@media(min-width: 681px) and (max-width: 991px) {
+    #search-form {
+        margin-top: 25%;
+    }
+}
+
+@media(max-width: 680px) {
+    #search-form {
+        margin-top: 35%;
+    }
 }
 
 .input-group-addon {
