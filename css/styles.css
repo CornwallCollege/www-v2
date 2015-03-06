@@ -7793,6 +7793,15 @@ form textarea.error {
 	overflow: hidden;
 }
 
+.app-form-visible{
+	overflow: hidden;
+}
+
+.job-profile-link a{
+	color: white;
+	font-size: 12px;
+}
+
 .navbar-fixed-top{
 	width:95%;
 	margin: 0 auto;
@@ -7810,3 +7819,4 @@ form textarea.error {
 #apply.cbp-spmenu-open {
     right: 0;
 }
+

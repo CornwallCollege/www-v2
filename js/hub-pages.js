@@ -78,12 +78,14 @@
                 $("#interest").hide();
             }else{
                  $("#interest").show();
-            };
+            }
+			$('html, body').addClass('app-form-visible');
             $('#apply').addClass('cbp-spmenu-open');
         });
 
         $("#cancel-btn").on("click", function () {
             $('#apply').removeClass('cbp-spmenu-open');
+			$('html, body').removeClass('app-form-visible');
             $('#apply :input').val('');
         });
 
@@ -140,6 +142,7 @@
                                     $('#apply :input').val('');
                                 });
                                 $('#apply').removeClass('cbp-spmenu-open');
+								$('html, body').removeClass('app-form-visible');
                                 $("#submit-btn").removeAttr('disabled');
                                 $("#cancel-btn").removeAttr('disabled');
                             },
