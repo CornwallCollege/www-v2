@@ -2974,6 +2974,31 @@ section h2 strong {
 .dark-bg {
     background: #000;
 }
+
+.ghost{
+    background: transparent;
+    color: #52B3D9;
+    border: 4px solid #52B3D9;
+    font-size: 13px;
+    padding: 5px 15px;
+}
+.light{
+    color: white;
+    border: 4px solid white;
+}
+@media(min-width: 1200px ){
+   .ghost{
+        background: transparent;
+        color: #52B3D9;
+        border: 5px solid #52B3D9;
+        font-size: 18px;
+        padding: 10px 30px;
+   } 
+    .light{
+        color: white;
+        border: 5px solid white;
+    }    
+}
 /* =================================
  *
         LOGO
@@ -4126,10 +4151,11 @@ section h2 strong {
 }
 
 .box-square article:nth-child(2) {
-    background: #f7f7f7;
+    background: #EAEAEA;
 }
 
-.box-square article:nth-child(2) h3 {
+.box-square article:nth-child(2) h3,
+.box-square article:nth-child(2) h4{
     color: #52B3D9;
 }
 
@@ -4150,8 +4176,11 @@ section h2 strong {
     background: #52B3D9;
 }
 
-.box-square article:nth-child(4) h3 {
-    color: #000;
+.box-square article:nth-child(4) h3,
+.box-square article:nth-child(4) h2,
+.box-square article:nth-child(4) p
+{
+    color: white;
 }
 
 .box-square article:nth-child(4) h3:after,
@@ -4211,14 +4240,18 @@ section h2 strong {
     color: #333;
 }
 
-.box-square-alt article:last-child {
+/*.box-square-alt article:last-child {
     background: #000;
-}
+}*/
 
 .box-square-alt h4 {
     color: #fff;
     font-weight: 700;
+    padding-top:20px;
     letter-spacing: 1.5px;
+}
+.box-square-alt p {
+    font-size:125%;
 }
 /* block items */
 
@@ -6281,7 +6314,10 @@ section h2 strong {
     height: auto;
     background-size: cover;
 }
-
+.career-areas #counters{
+    background: none;
+    
+}
 #counters .inner {
     display: inline;
     background: rgba(255, 255, 255, 0.5);
@@ -6317,9 +6353,18 @@ section h2 strong {
 .inner h5 span {
     display: block;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 35px;
     color: #333;
     margin-bottom: 11px;
+}
+@media(max-width: 991px){
+    .inner h5 {
+        text-align: center;
+    }
+    .inner h5 span {
+        font-size: 40px;
+        text-align: center;
+    }
 }
 
 .counters-alt .inner i {
@@ -7746,11 +7791,6 @@ form textarea.error {
 
 .noscroll {
 	overflow: hidden;
-}
-
-.job-profile-link a{
-	color: white;
-	font-size: 12px;
 }
 
 .navbar-fixed-top{
