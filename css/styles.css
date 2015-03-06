@@ -7748,6 +7748,10 @@ form textarea.error {
 	overflow: hidden;
 }
 
+.app-form-visible{
+	overflow: hidden;
+}
+
 .job-profile-link a{
 	color: white;
 	font-size: 12px;
@@ -7770,3 +7774,4 @@ form textarea.error {
 #apply.cbp-spmenu-open {
     right: 0;
 }
+
