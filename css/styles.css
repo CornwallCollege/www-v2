@@ -7180,10 +7180,16 @@ ul.bullets li a:hover {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(http://placehold.it/1400x300) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-
-.form-horizontal {
-    margin-top: 50px;
-    margin-bottom: 100px;
+#apply-head {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+#apply-head h2 span{
+padding-top:44px;
+}
+ .form-horizontal {
+ margin-top: 50px;
+ margin-bottom: 100px;
 }
 
 .form-horizontal input,
@@ -7838,3 +7844,9 @@ form textarea.error {
     right: 0;
 }
 
+.grumble{
+    display: none;
+}
+body.home .grumble{
+    display: block;
+}

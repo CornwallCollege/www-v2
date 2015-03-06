@@ -531,7 +531,7 @@ window.onload = init();
 		var isSequenceComplete = true;
 		$( document ).ready(function(){
 		
-		
+		if ($("body").hasClass("home")) {
 			if(isSequenceComplete === false) return true;
 			isSequenceComplete = false;
 
@@ -547,7 +547,7 @@ window.onload = init();
 					buttonHideText: 'Pop!'
 				}
 			);
-
+        }
 
 		});
 	    
