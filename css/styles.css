@@ -2981,11 +2981,13 @@ section h2 strong {
     border: 4px solid #52B3D9;
     font-size: 13px;
     padding: 5px 15px;
+    
 }
 .light{
     color: white;
     border: 4px solid white;
 }
+
 @media(min-width: 1200px ){
    .ghost{
         background: transparent;
@@ -2997,8 +2999,14 @@ section h2 strong {
     .light{
         color: white;
         border: 5px solid white;
-    }    
+    }  
 }
+@media(max-width: 380px){
+    .ghost{
+        white-space: normal;
+        width: 100%;
+    }
+}  
 /* =================================
  *
         LOGO
