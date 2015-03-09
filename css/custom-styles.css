@@ -110,15 +110,17 @@ h2.apprenticeships {
 /* left slide in close button */
 .ls-close {
     position: absolute;
-    width: 70px;
-    height: 70px;
     top: 0px;
     right: 0px;
+    width: 70px;
+    height: 70px;    
     cursor: pointer;
     background: white;
     border: solid 10px #52B3D9;
     border-top:solid 5px #52B3D9;
     border-right:solid 5px #52B3D9;
+    /* Mobile fixed position FIX*/
+    -webkit-backface-visibility: hidden;
 }
 
 .ls-close::before,
