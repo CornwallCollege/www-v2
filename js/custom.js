@@ -550,7 +550,15 @@ window.onload = init();
         }
 
 		});
-	    
+
+           // lazy load settings
+    $(function() {
+        $("img.lazy").lazyload({
+            threshold : 200,
+            effect : "fadeIn",
+            event : "click"
+        });
+    }); 
     
 })(jQuery);
 
