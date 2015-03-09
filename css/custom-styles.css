@@ -811,50 +811,62 @@ padding-top:44px;
 
 /* Cluster Colors*/
 .career-filter ul li a.bpi{
-    border: 1px solid #E73029
+    border: 1px solid #E73029;
+    border-left:5px solid #E73029;    
 }
 .career-filter ul li a.bpi:hover{
-    border: 1px solid #E73029;    
+    border: 1px solid #E73029;
+    border-left:5px solid #E73029;     
     background-color: #E73029;
     color:white;
 }
 .career-filter ul li a.cve{
-    border: 1px solid #C7D301
+    border: 1px solid #C7D301;
+    border-left:5px solid #C7D301;     
 }
 .career-filter ul li a.cve:hover{
-    border: 1px solid #C7D301;    
+    border: 1px solid #C7D301; 
+    border-left:5px solid #C7D301;     
     background-color: #C7D301;
 }
 .career-filter ul li a.hw{
-    border: 1px solid #DE006E
+    border: 1px solid #DE006E;
+    border-left:5px solid #DE006E;     
 }
 .career-filter ul li a.hw:hover{
-    background-color: #DE006E;
-    border: 1px solid #DE006E;    
+    background-color: #DE006E;    
+    border: 1px solid #DE006E;
+    border-left:5px solid #DE006E;     
     color: white;
 }
 .career-filter ul li a.re{
-    border: 1px solid #20A64B
+    border: 1px solid #20A64B;
+    border-left:5px solid #20A64B;     
 }
 .career-filter ul li a.re:hover{
-    background-color: #20A64B;
-    border: 1px solid #20A64B;    
+    background-color: #20A64B;    
+    border: 1px solid #20A64B;
+    border-left:5px solid #20A64B;      
     color: white;
 }
 .career-filter ul li a.sne{
-    border: 1px solid #004B93
+    border: 1px solid #004B93;
+    border-left:5px solid #004B93;     
 }
 .career-filter ul li a.sne:hover{
-    background-color: #004B93;
-    border: 1px solid #004B93;    
+    background-color: #004B93;  
+    border: 1px solid #004B93;
+    border-left:5px solid #004B93;        
     color: white;
 }
 .career-filter ul li a.et{
-    border: 1px solid #00ACCD
+    border: 1px solid #00ACCD;
+    border-left:5px solid #00ACCD;     
 }
 .career-filter ul li a.et:hover{
     background-color: #00ACCD;
-    border: 1px solid #00ACCD;    
+    border: 1px solid #00ACCD;
+    border-left:5px solid #00ACCD;        
     color: white;
 }
 
