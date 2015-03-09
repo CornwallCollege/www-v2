@@ -3254,13 +3254,13 @@ section h2 strong {
     color: #fff;
 }
 
-.menu-icon:hover i {
+/*.menu-icon:hover i {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
+}*/
 
 .menu-text {
     color: #52B3D9;
