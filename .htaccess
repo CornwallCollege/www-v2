@@ -1,4 +1,0 @@
-<Directorymatch "^/.*/\.git/">
-Order deny,allow
-Deny from all
-</Directorymatch>
