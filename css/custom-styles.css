@@ -945,7 +945,15 @@ padding-top:44px;
 .career-popup-left.cbp-spmenu-open {
     left: 0;
 }
-
+@media(max-width:380px){
+    .career-areas .box-square{
+        padding-left:0;
+        padding-right:0;
+    }
+    .career-areas article{
+        padding:30px;
+    }
+}
 /* ---------  Career Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
 .menu-item-links > li:before {
