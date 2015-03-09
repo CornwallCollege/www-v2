@@ -812,86 +812,110 @@ padding-top:44px;
     letter-spacing: 1.5px;
 }
 
-/* Cluster Colors*/
-.career-filter ul li a.bpi{
-    border: 1px solid #E73029;
-    border-left:5px solid #E73029;    
-}
-.career-filter ul li a.bpi:hover{
-    border: 1px solid #E73029;
-    border-left:5px solid #E73029;     
-    background-color: #E73029;
-    color:white;
-}
-.career-filter ul li a.cve{
-    border: 1px solid #C7D301;
-    border-left:5px solid #C7D301;     
-}
-.career-filter ul li a.cve:hover{
-    border: 1px solid #C7D301; 
-    border-left:5px solid #C7D301;     
-    background-color: #C7D301;
-}
-.career-filter ul li a.hw{
-    border: 1px solid #DE006E;
-    border-left:5px solid #DE006E;     
-}
-.career-filter ul li a.hw:hover{
-    background-color: #DE006E;    
-    border: 1px solid #DE006E;
-    border-left:5px solid #DE006E;     
-    color: white;
-}
-.career-filter ul li a.re{
-    border: 1px solid #20A64B;
-    border-left:5px solid #20A64B;     
-}
-.career-filter ul li a.re:hover{
-    background-color: #20A64B;    
-    border: 1px solid #20A64B;
-    border-left:5px solid #20A64B;      
-    color: white;
-}
-.career-filter ul li a.sne{
-    border: 1px solid #004B93;
-    border-left:5px solid #004B93;     
-}
-.career-filter ul li a.sne:hover{
-    background-color: #004B93;  
-    border: 1px solid #004B93;
-    border-left:5px solid #004B93;        
-    color: white;
-}
-.career-filter ul li a.et{
-    border: 1px solid #00ACCD;
-    border-left:5px solid #00ACCD;     
-}
-.career-filter ul li a.et:hover{
-    background-color: #00ACCD;
-    border: 1px solid #00ACCD;
-    border-left:5px solid #00ACCD;        
-    color: white;
-}
-
 /* Cluster colors ends*/
 .career-filter ul li a:hover,
 .career-filter ul li a:focus {
-    color: #000;
-    border: 1px solid #52B3D9;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
 }
+.career-filter ul li a{
+    margin-bottom: 5px;
+    text-align: center;
+    padding:10px 15px;
+    font-weight: 700;        
+}    
 
-.career-filter li a.selected,
+/* Cluster Colors*/    
+.career-filter ul li a.bpi{
+    border: 5px solid #E73029;  
+    color :#E73029;  
+}
+.career-filter ul li a.bpi:hover{
+    border: 5px solid #E73029;  
+    background-color: #E73029;
+}
+.career-filter li a.selected.bpi{
+    background-color: #E73029;
+    color:white;
+}
+.career-filter ul li a.cve{
+    border: 5px solid #C7D301;
+    color: #C7D301;     
+}
+.career-filter ul li a.cve:hover{
+    border: 5px solid #C7D301;
+    background-color: #C7D301;
+}
+.career-filter li a.selected.cve{
+    background-color: #C7D301;
+    color:white;
+}
+.career-filter ul li a.hw{
+    border: 5px solid #DE006E;
+    color:#DE006E;     
+}
+.career-filter ul li a.hw:hover{
+    background-color: #DE006E;    
+    border: 5px solid #DE006E;
+}
+.career-filter li a.selected.hw{
+    background-color: #DE006E;
+    color:white;
+}
+.career-filter ul li a.re{
+    border: 5px solid #20A64B;
+    color:#20A64B;     
+}
+.career-filter ul li a.re:hover{
+    background-color: #20A64B;    
+    border: 5px solid #20A64B;  
+}
+.career-filter li a.selected.re{
+    background-color: #20A64B;
+    color:white;
+}
+.career-filter ul li a.sne{
+    border: 5px solid #004B93;
+    color: #004B93;     
+}
+.career-filter ul li a.sne:hover{
+    background-color: #004B93;  
+    border: 5px solid #004B93;  
+}
+.career-filter li a.selected.sne{
+    background-color: #004B93;
+    color:white;
+}
+.career-filter ul li a.et{
+    border: 5px solid #00ACCD;
+    color:#00accd;
+}
+.career-filter ul li a.et:hover{
+    background-color: #00ACCD;
+    border: 5px solid #00ACCD;
+} 
+.career-filter li a.selected.et{
+    background-color: #00ACCD;
+    color:white;
+}
+@media(max-width:765px){
+   .career-filter ul li a{
+       margin-right:0;
+   } 
+}
+.career-filter ul li a:hover{
+    color:white;
+}
+/*.career-filter li a.selected,
 .career-filter li a.selected:hover,
 .career-filter li a.selected:focus {
     color: #fff;
     background-color: #000;
     border-color: #000;
-}
+}*/
 
 .career-items {
     margin-left: -15px;
