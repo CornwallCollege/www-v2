@@ -591,6 +591,7 @@ section h2 strong {
 /* ---------- Services ----------*/
 #services {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 /* ---------- Servicces ENDS ------------ */
 /* ---------- Counters -----------*/
@@ -637,8 +638,7 @@ padding-top:44px;
     text-align: center;
     padding: 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
-    /*height: 400px;*/
-    
+    height: 400px;
     background-size: cover;
 }
 
@@ -811,40 +811,51 @@ padding-top:44px;
 
 /* Cluster Colors*/
 .career-filter ul li a.bpi{
-    border-left: 1px solid #E73029
+    border: 1px solid #E73029
 }
 .career-filter ul li a.bpi:hover{
-    border: 1px solid #E73029;
+    border: 1px solid #E73029;    
+    background-color: #E73029;
+    color:white;
 }
 .career-filter ul li a.cve{
-    border-left: 1px solid #C7D301
+    border: 1px solid #C7D301
 }
 .career-filter ul li a.cve:hover{
-    border: 1px solid #C7D301;
+    border: 1px solid #C7D301;    
+    background-color: #C7D301;
 }
 .career-filter ul li a.hw{
-    border-left: 1px solid #DE006E
+    border: 1px solid #DE006E
 }
 .career-filter ul li a.hw:hover{
-    border: 1px solid #DE006E;
+    background-color: #DE006E;
+    border: 1px solid #DE006E;    
+    color: white;
 }
 .career-filter ul li a.re{
-    border-left: 1px solid #20A64B
+    border: 1px solid #20A64B
 }
 .career-filter ul li a.re:hover{
-    border: 1px solid #20A64B;
+    background-color: #20A64B;
+    border: 1px solid #20A64B;    
+    color: white;
 }
 .career-filter ul li a.sne{
-    border-left: 1px solid #004B93
+    border: 1px solid #004B93
 }
 .career-filter ul li a.sne:hover{
-    border: 1px solid #004B93;
+    background-color: #004B93;
+    border: 1px solid #004B93;    
+    color: white;
 }
 .career-filter ul li a.et{
-    border-left: 1px solid #00ACCD
+    border: 1px solid #00ACCD
 }
 .career-filter ul li a.et:hover{
-    border: 1px solid #00ACCD;
+    background-color: #00ACCD;
+    border: 1px solid #00ACCD;    
+    color: white;
 }
 
 /* Cluster colors ends*/
@@ -895,6 +906,16 @@ padding-top:44px;
 }
 
 /* ---------  Career Section ENDS --------- */
+/* --------- Main Menu indent Fix ----------*/
+.menu-item-links > li:before {
+    margin-left: -40px;
+}
+
+.menu-item-links li a {
+    padding: 10px;
+    line-height: 15px;
+}
+/* --------- Main Menu indent Fix ENDS ----------*/
 
 .noscroll {
 	overflow: hidden;
