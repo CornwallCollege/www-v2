@@ -555,8 +555,7 @@ window.onload = init();
     $(function() {
         $("img.lazy").lazyload({
             threshold : 200,
-            effect : "fadeIn",
-            event : "click"
+            effect : "fadeIn"
         });
     }); 
     

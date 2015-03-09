@@ -543,6 +543,9 @@ section h2 strong {
 .box-square article:nth-child(4) p{
     color: white;
 }
+.box-square article:nth-child(4) {
+    background: #52B3D9;
+}
 .box-square article:nth-child(5) {
     background: #000;
     clear: left;
@@ -552,9 +555,9 @@ section h2 strong {
     height: auto;
     min-height: 400px;
 }
-.box-square-alt article:last-child {
+/*.box-square-alt article:last-child {
     background:none;
-}
+}*/
 .box-square-alt h4 {
     padding-top:20px;
 }
