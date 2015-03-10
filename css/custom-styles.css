@@ -779,6 +779,11 @@ padding-top:44px;
     background-color: #fff;
     padding-left: 0;
 }
+@media(max-width:380px){
+    #career-list{
+        padding-right:0;
+    }
+}
 
 #career-list p {
     margin-bottom: 70px;
@@ -827,7 +832,8 @@ padding-top:44px;
     margin-bottom: 5px;
     text-align: center;
     padding:10px 15px;
-    font-weight: 700;        
+    font-weight: 700;  
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
 }    
 
 /* Cluster Colors*/    
