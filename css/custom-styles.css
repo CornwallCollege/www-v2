@@ -159,17 +159,21 @@ h2.apprenticeships {
     bottom: 0;
     right: 10px;
     z-index: 999;
+    width: 100%; 
+        
 }
 
 .help-button {
-    background: #52B3D9;
-    padding:10px;
-    display: inline-block;
-    margin-right: 3px
+    position:fixed; 
+    bottom:0px; 
+    width:100%;
 }
 
-p.help-button-text {
-    display: none;
+.help-button-text {
+    display:none;
+}
+.help-button-text:hover {
+    display: block;
 }
 
 p.help-button-text:hover {
@@ -555,7 +559,7 @@ section h2 strong {
 .box-square-alt article {
     padding: 50px;
     height: auto;
-    min-height: 400px;
+    min-height: 170px;
 }
 /*.box-square-alt article:last-child {
     background:none;
@@ -970,6 +974,12 @@ padding-top:44px;
     padding: 10px;
     line-height: 15px;
 }
+@media(max-width:320px){
+    .menu-item-links li a {
+        line-height: 28px;
+    }    
+    
+}
 /* --------- Main Menu indent Fix ENDS ----------*/
 
 .noscroll {
@@ -1008,4 +1018,85 @@ padding-top:44px;
 }
 body.home .grumble{
     display: block;
+}
+
+.help-tab {
+    background: #52b3d9;
+    padding: 10px;
+}
+
+.help-window {
+    max-height:50%; 
+    background:#52B3D9; 
+    z-index:999999; 
+
+}
+.help-window p{
+    color:white;
+    padding:50px;
+    font-size:200%;
+}
+/* FEEDBACK button*/
+.feedback{
+    right: 130px;
+    position:absolute; 
+    top:-58px;     
+}
+.feedback span {
+    display: none;
+    font-size: 90%;
+    padding-left:5px; 
+}
+.feedback:hover{
+
+}
+.feedback:hover span {
+    display: inline-block;
+
+}
+/* QUESTION button*/
+.ask-a-question{
+    right: 70px;
+    position:absolute; 
+    top:-58px;     
+}
+.ask-a-question span {
+    display: none;
+    font-size: 90%;
+    padding-left:5px; 
+}
+.ask-a-question:hover{
+
+}
+.ask-a-question:hover span {
+    display: inline-block;
+
+}
+/* LIVECHAT button*/
+.live-chat{
+    right: 10px;
+    position:absolute; 
+    top:-58px;     
+}
+.live-chat span {
+    display: none;
+    font-size: 90%;
+    padding-left:5px; 
+}
+.live-chat:hover{
+}
+.live-chat:hover span {
+    display: inline-block;
+
+}
+/* colapsed section styles*/
+.collapsed h2:hover{
+    cursor:pointer;
+}
+div.collapsed h2 span.readmore{
+    display: block;
+    font-size:90%;
+}
+div h2 span.readmore{
+    display: none;
 }
