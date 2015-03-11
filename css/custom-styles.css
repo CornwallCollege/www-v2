@@ -656,8 +656,14 @@ section h2 strong {
 
 /* --------- Contacts section ------------*/
 #apply-head {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
+}
+@media(min-width:768px){
+    #apply-head {
+        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    } 
 }
 #apply-head h2 span{
 padding-top:44px;
@@ -669,9 +675,15 @@ padding-top:44px;
     clear: both;
     text-align: center;
     padding: 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;
     height: 400px;
     background-size: cover;
+}
+@media(min-width:768px){
+    .fulltime-bar {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    } 
 }
 
 .margin-top {
@@ -737,7 +749,7 @@ padding-top:44px;
 }
 @media(min-width:768px){
     .engineering-bar {
-        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }    
 }
@@ -865,7 +877,7 @@ padding-top:44px;
     text-align: center;
     padding:10px 15px;
     font-weight: 700;  
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    /*text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);*/
 }    
 
 /* Cluster Colors*/    
@@ -992,6 +1004,53 @@ padding-top:44px;
         padding:30px;
     }
 }
+
+/* --------------- Career area titles --------------- */
+.career-area{
+    position:absolute; 
+    bottom:5px; 
+    left:7px;
+    background
+}
+/* add image overlay */
+.career-items .entry figure:after {
+    background: url(../images/subtle_carbon.png) center repeat;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: 0;
+}
+/* Hide the title on hover/click */
+.career-items .entry figure:hover span.career-area h4{
+    display:none;
+}
+.career-area > h4{
+    margin-bottom: 0px!important;
+    margin-top:0;
+    padding:0;
+    text-transform:uppercase; 
+    color:white;
+    font-size:200%; 
+    text-align:left;
+    font-weight: 100;
+    z-index: 1;
+    position: relative;
+}
+.career-area > h4.small{
+    font-size:150%;   
+}
+.career-area > h4.large{
+    font-size:250%;   
+}
+.top{
+    top:5px;
+}
+/* --------------- Career area titles ENDS------------ */
+
 /* ---------  Career Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
 .menu-item-links > li:before {
