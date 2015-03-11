@@ -8,8 +8,57 @@
         {
             showPopup(hash);    
         }
+        
+        /* Shrink logo on scroll */
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                logo = document.getElementById("cc-logo");
+            if (distanceY > shrinkOn) {
+                classie.add(logo,"cc-logo-scroll");
+            } else {
+                if (classie.has(logo,"cc-logo-scroll")) {
+                    classie.remove(logo,"cc-logo-scroll");
+                }
+            }
+        });        
+        
     });
     
+       /* MENU TOGGLING - 1.7 update
+   
+   */
+   if ( $( "#cbp-spmenu-s2" ).length ){
+      var openRightPush = document.getElementById( 'openRightPush' ),
+         menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+         body = document.body;
+         
+      openRightPush.onclick = function() {
+         classie.toggle( this, 'active' );
+         classie.toggle( menuRight, 'cbp-spmenu-open' );
+      };
+      
+   }
+   
+   /* the id="menu-container" has to be added to the one-page template,
+      to the <div class="container"> of the <nav id="cbp-spmenu-s2">
+      
+   */
+   
+   if ( $( "#menu-container" ).length ){
+      var menuContainer = document.getElementById( 'menu-container' ),
+      menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+      body = document.body;
+      
+      menuContainer.onclick = function() {
+         classie.toggle( this, 'active' );
+         classie.toggle( menuRight, 'cbp-spmenu-open' );
+      };
+   
+   }
+   
+   /* end of 1.7 update */
+        
     /* ISOTOPE FOR PORTFOLIO ITEMS */
     if ($("#career-grid").length) {
         var $container = $('#career-grid').imagesLoaded(function () {
