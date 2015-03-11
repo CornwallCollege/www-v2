@@ -561,6 +561,16 @@ section h2 strong {
     height: auto;
     min-height: 170px;
 }
+@media(min-width:768px) and (max-width:1199px) {
+    .box-square-alt article {
+        min-height: 350px;
+    }
+}
+@media(min-width:1200px){
+    .box-square-alt article {
+        min-height: 320px;
+    }
+}
 /*.box-square-alt article:last-child {
     background:none;
 }*/
