@@ -61,7 +61,8 @@
         });
 
 
-        $("[data-popup]").on('click', function () {
+        $("[data-popup]").on('click', function (event) {
+            event.preventDefault();
             $('html, body').addClass('noscroll');
             showPopup('engineering'); //$(this).attr("data-popup");
            
