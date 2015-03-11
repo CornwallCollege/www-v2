@@ -4,6 +4,7 @@
     $( document ).ready(function(){
       $('#loader').fadeOut(1500);   
     });
+    
     /* ISOTOPE FOR PORTFOLIO ITEMS */
     if ($("#career-grid").length) {
         var $container = $('#career-grid').imagesLoaded(function () {
@@ -57,20 +58,12 @@
 
         $("[data-popup]").on('click', function () {
             $('html, body').addClass('noscroll');
-            var popupName = 'engineering'; //$(this).attr("data-popup");
-            $.get('./career-pages/' + popupName + '.html', function (data) {
-                $("#career-content").html(data);
-                $('.career-popup').addClass('cbp-spmenu-open');
-                $("#close").addClass('show-close');
-                $('.counter').counterUp({
-                    delay: 100,
-                    time: 3000
-                });
-            });
-        });
+            showPopup('engineering'); //$(this).attr("data-popup");
+           
+        });               
 
         $(document).on("click",".career-help-bar > .ls-close", function (event) {
-             event.preventDefault();
+            event.preventDefault();
             $('html, body').removeClass('noscroll');
             $(this).parent().parent().parent().removeClass('cbp-spmenu-open');
             $("#close").removeClass('show-close');
@@ -88,7 +81,8 @@
             $('#apply').addClass('cbp-spmenu-open');
         });
 
-        $("#cancel-btn").on("click", function () {
+        $(document).on("click", "#cancel-btn", function () {
+            event.preventDefault();
             $('#apply').removeClass('cbp-spmenu-open');
 			$('html, body').removeClass('app-form-visible');
             $('#apply :input').val('');
@@ -164,6 +158,16 @@
         });
     }
     
-  
+   function showPopup(area){
+             $("#career-content").load('./career-pages/' + area + '.html #content', function () {
+                //$("#career-content").html($(data).find("#content"));
+                $('.career-popup').addClass('cbp-spmenu-open');
+                $("#close").addClass('show-close');
+                $('.counter').counterUp({
+                    delay: 100,
+                    time: 3000
+                });
+            });
+        }
     
 })(jQuery);
