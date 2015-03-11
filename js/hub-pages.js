@@ -1,5 +1,24 @@
+"use strict";
+
+function incrementCount(counter)
+{
+    var max = Number($(counter).attr("data-count-to"));
+    var stepSize = Number($(counter).attr("data-count-step"));
+    if(Number($(counter).html())<max)
+    {
+        var nextNumber = Number($(counter).html())+stepSize
+        $(counter).html(nextNumber.toFixed(0) );
+        if(Number($(counter).html())>max)
+        {
+            $(counter).html(max);
+        }
+        window.setTimeout(function(){incrementCount(counter)},10);
+    }
+
+}
+
 (function ($) {
-    "use strict";
+
     
     $( document ).ready(function(){
         $('#loader').fadeOut(1500);
@@ -115,8 +134,28 @@
             $('html, body').addClass('noscroll');
             showPopup('engineering'); //$(this).attr("data-popup");
            
-        });               
-
+        });
+        
+         $(document).on("click","[aria-expanded]", function (event) {
+            var item =  $(this).attr("aria-controls");
+             if($("#"+item).hasClass("in")===false)
+             {
+                $("#"+item).find(".counter").each(function(){
+                        var countTo=0;
+                        if($(this).attr("data-count-to")==undefined)
+                        {
+                            var max = Number($(this).html().replace(",",""));
+                            $(this).attr("data-count-to", max );
+                            var stepSize = max/2/100;
+                            $(this).attr("data-count-step", stepSize );
+                        }
+                        $(this).html("0");
+                        countTo = $(item).attr("data-count-to");                        
+                        incrementCount(this);
+                    });                
+             }             
+        }); 
+                
         $(document).on("click",".career-help-bar > .ls-close", function (event) {
             event.preventDefault();
             $('html, body').removeClass('noscroll');
@@ -217,11 +256,7 @@
              $("#career-content").load('./career-pages/' + area + '.html #content', function () {
                 //$("#career-content").html($(data).find("#content"));
                 $('.career-popup').addClass('cbp-spmenu-open');
-                $("#close").addClass('show-close');
-                $('.counter').counterUp({
-                    delay: 100,
-                    time: 3000
-                });
+                $("#close").addClass('show-close');                
             });
         }
     
