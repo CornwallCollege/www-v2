@@ -2,7 +2,12 @@
     "use strict";
     
     $( document ).ready(function(){
-      $('#loader').fadeOut(1500);   
+        $('#loader').fadeOut(1500);
+        var hash = location.hash.replace('#', '').toLowerCase();
+        if(hash.length)
+        {
+            showPopup(hash);    
+        }
     });
     
     /* ISOTOPE FOR PORTFOLIO ITEMS */
