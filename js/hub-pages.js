@@ -1,5 +1,9 @@
 (function ($) {
     "use strict";
+    
+    $( document ).ready(function(){
+      $('#loader').fadeOut(1500);   
+    });
     /* ISOTOPE FOR PORTFOLIO ITEMS */
     if ($("#career-grid").length) {
         var $container = $('#career-grid').imagesLoaded(function () {
