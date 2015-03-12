@@ -294,7 +294,7 @@ var trackScrollAndMouseDistance = function(className, func, radius, hoverAtYPerc
     window.addEventListener('scroll', function(){apply()}, false);
     window.addEventListener('resize', function(){apply()}, false);
 };
-var thenDoThis1 = function(e,p) { e.style.opacity = p*2; };
+var thenDoThis1 = function(e,p) { e.style.opacity = Math.min(1,p*1.5); };
 trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
 
 
