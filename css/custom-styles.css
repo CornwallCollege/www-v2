@@ -1037,7 +1037,7 @@ padding-top:44px;
     font-size:200%; 
     text-align:left;
     font-weight: 100;
-    z-index: 1;
+    z-index: 10;
     position: relative;
 }
 .career-area > h4.small{
