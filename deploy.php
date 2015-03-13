@@ -17,7 +17,7 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/home/site1/public_html/";
+$LOCAL_ROOT         = "/home/tmp/";
 $LOCAL_REPO_NAME    = "m.cornwall.ac.uk";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "https://github.com/CornwallCollege/www-v2.git";
@@ -31,13 +31,13 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
 	echo shell_exec("cd {$LOCAL_REPO} && git reset --hard origin/master");
     echo shell_exec("cd {$LOCAL_REPO} && git pull 2>&1 ");
 
-    die("done " . mktime());
   } else {
     // If the repo does not exist, then clone it into the parent directory
     echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1");
-    
-    die("done " . mktime());
   }
+    
+    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/");
+    die("done " . mktime());
 }
 
 ?>
