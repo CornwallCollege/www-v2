@@ -1024,14 +1024,6 @@ padding-top:44px;
 }
 /* --------- Main Menu indent Fix ENDS ----------*/
 
-.noscroll {
-	overflow: hidden;
-}
-
-.app-form-visible{
-	overflow: hidden;
-}
-
 .job-profile-link a{
 	color: white;
 	font-size: 12px;
@@ -1042,18 +1034,6 @@ padding-top:44px;
 	margin: 0 auto;
 }
 
-#apply{
-    width: 100%;
-    overflow-x:hidden;
-    height: 100%;
-    top: 0;
-    z-index: 2000;
-    right: -100%;
-}
-
-#apply.cbp-spmenu-open {
-    right: 0;
-}
 
 .grumble{
     display: none;
