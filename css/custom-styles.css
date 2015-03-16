@@ -18,6 +18,8 @@ h2.apprenticeships span {
 a.full-time {
     border-color: #FF0078!important;
     color: #FF0078!important;
+    
+    
 }
 
 h2.full-time {
@@ -95,7 +97,15 @@ h2.apprenticeships {
     }
     h2.leisure{
         font-size: 35px!important;
-    }    
+    }  
+    a.full-time,
+    a.part-time,
+    a.university,
+    a.leisure,
+    a.business,
+    a.apprenticeships{
+        background: rgba(0,0,0,.5)!important;
+    }
 }
 
 /* Career Help Bar */
