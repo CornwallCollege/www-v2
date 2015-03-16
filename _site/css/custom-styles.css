@@ -55,12 +55,12 @@ h2.university {
 }
 
 a.leisure {
-    border-color: #8703B7!important;    
-    color: #8703B7!important;
+    border-color: #CFFF19!important;    
+    color: #CFFF19!important;
 }
 
 h2.leisure {
-    color: #8703B7!important;
+    color: #CFFF19!important;
 }
 
 a.business {
@@ -83,15 +83,19 @@ h2.apprenticeships {
 }
 
 @media(max-width:991px) {
-    h2.apprenticeships {
+    h2.apprenticeships,
+    h2.leisure{
         font-size: 50px!important;
     }
 }
 
 @media(max-width:570px) {
-    h2.apprenticeships {
-        font-size: 30px!important;
+    h2.apprenticeships{
+        font-size: 27px!important;
     }
+    h2.leisure{
+        font-size: 35px!important;
+    }    
 }
 
 /* Career Help Bar */
@@ -277,6 +281,10 @@ section h2 strong {
     padding: 0;
 }
 
+.fixed-btn .col-xs-6{
+    
+}
+
 .fixed-btn .btn {
     padding: 10px 5px;
 }
@@ -289,6 +297,10 @@ section h2 strong {
     }
 }
 
+.fixed-btn .row .col-xs-6 a {
+    padding:40px 0;
+    white-space: normal;
+}
 .fixed-btn .row a {
     margin-top: 0;
     width: 100%;
