@@ -16,71 +16,59 @@ h2.apprenticeships span {
 }
 
 a.full-time {
-    border-color: #FF0078!important;
-    color: #FF0078!important;
+    border-color: #009989!important;
+    color: #009989!important;
     
     
 }
 
 h2.full-time {
-    color: #FF0078!important;
+    color: #009989!important;
 }
 
 a.part-time {
-    border-color: #05BC86!important;
-    color: #05BC86!important;
+    border-color: #ABDB25!important;
+    color: #ABDB25!important;
 }
 
 h2.part-time {
-    color: #05BC86!important;
+    color: #ABDB25!important;
 }
 
 a.university {
-    border-color: #06CEDB!important;    
-    color: #06CEDB!important;
+    border-color: #EDB92E!important;    
+    color: #EDB92E!important;
 }
 
 h2.university {
-    color: #06CEDB!important;
-}
-
-@media(max-width:991px) {
-    h2.university {
-        font-size: 70px!important;
-    }
-}
-
-@media(max-width:570px) {
-    h2.university {
-        font-size: 40px!important;
-    }
+    color: #EDB92E!important;
 }
 
 a.leisure {
-    border-color: #CFFF19!important;    
-    color: #CFFF19!important;
+    border-color: #F85931!important;    
+    color: #F85931!important;
 }
 
 h2.leisure {
-    color: #CFFF19!important;
+    color: #F85931!important;
 }
 
 a.business {
-    border-color: #E04502!important;    
-    color: #E04502!important;
+    border-color: #CE1836!important;    
+    color: #CE1836!important;
 }
 
 h2.business {
-    color: #E04502!important;
+    color: #CE1836!important;
 }
 
 a.apprenticeships {
-    color: #971A17!important;
-    border-color: #971A17!important;
+    color: #BD0A41!important;
+    border-color: #BD0A41!important;
 }
 
 h2.apprenticeships {
-    color: #971A17!important;
+    color: #BD0A41!important;
     font-size: 75px!important;
 }
 
@@ -89,6 +77,9 @@ h2.apprenticeships {
     h2.leisure{
         font-size: 50px!important;
     }
+    h2.university {
+        font-size: 70px!important;
+    }    
 }
 
 @media(max-width:570px) {
@@ -98,6 +89,9 @@ h2.apprenticeships {
     h2.leisure{
         font-size: 35px!important;
     }  
+    h2.university {
+        font-size: 40px!important;
+    }    
     a.full-time,
     a.part-time,
     a.university,
@@ -1140,4 +1134,14 @@ div.collapsed h2 span.readmore{
 }
 div h2 span.readmore{
     display: none;
+}
+/* ----------------------------------- landscape mobile fixes -------------------------------------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .header-title {
+        padding-top: 107px;
+        height: 225px;
+    }
+    
+}
+    
 }
