@@ -351,7 +351,6 @@ section h2 strong {
 }  
 /*---------------- Ghost button styles ENDS ---------------*/
 /* --------------- Logo styles -----------------*/
-.cc-logo {}
 
 .cc-logo-scroll {
     margin-top: -84px;
@@ -385,6 +384,16 @@ section h2 strong {
 }
 .menu-item-links {
     margin-top: 5%;
+}
+
+@media(min-width:681px){
+    .menu-item-links {
+        border-top:solid 1px #d1d1d1; 
+        padding-top:10px;
+    }
+    .menu-item-links > li:before {
+      content: "\f107";
+    }    
 }
 @media(min-width: 681px) and (max-width: 991px) {
     .menu-item-links {
@@ -1051,17 +1060,15 @@ section h2 strong {
 
 /* ---------  Career Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
-.menu-item-links > li:before {
-    margin-left: -40px;
-}
+
 
 .menu-item-links li a {
-    padding: 10px;
+   /* padding: 10px;*/
     line-height: 15px;
 }
-@media(max-width:320px){
+@media(min-width:300px) and (max-width:680px){
     .menu-item-links li a {
-        line-height: 28px;
+        line-height: 30px;
     }    
     
 }
