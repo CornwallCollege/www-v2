@@ -516,6 +516,14 @@ section h2 strong {
         bottom: auto;
     }
 }
+.click-through{
+    pointer-events: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='your_transparent.png', sizingMethod='scale');
+    background: none !important;
+}
+.click-me{
+    pointer-events: auto;
+}
 /* ------------ Menu styles ENDS --------------*/
 /* ------------ Slide Pagination styles ------------- */
 /* full time sector*/
@@ -1222,6 +1230,7 @@ div.collapsed h2 span.readmore {
 div h2 span.readmore {
     display: none;
 }
+
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
