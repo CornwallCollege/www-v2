@@ -93,7 +93,51 @@
         <a class="btn btn-primary ask-a-question" data-toggle="collapse" href="#ask-a-question" aria-expanded="false" aria-controls="ask-a-question"><i class="fa fa-question fa-lg"></i><span>Ask a Question</span></a>
         <div class="collapse" id="ask-a-question" >
             <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
+        <section class="container">
+            <section class="col-md-12">
+                <span class="question-text">
+                <p class="lead">Do you have a question? please let us know the details and a member of our enquiries team will be in touch</p>
+                </span>    
+        <!-- contact form with input fields -->
+                <!-- contact form with input fields -->
+                <form id="question" class="col-md-8 form-horizontal help-form" role="form" novalidate="novalidate">
+                    <div id="result"></div>
+                    <!-- FULL NAME -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Full Name*">
+                        </div>
+                    </div>
+                    <!-- EMAIL -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                        </div>
+                    </div>
+                  <!-- MESSAGE -->
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <textarea class="form-control" rows="7" name="message" id="message" placeholder="Message*"></textarea>
+                        </div>
+                      </div>
+
+                    <!-- SUBMIT BUTTON -->
+                    <div class="form-group text-left">
+                        <div class="col-sm-12">
+                            <button id="submit-btn" type="submit" class="custom-btn transition">
+                                Send!
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="success" class="alert alert-sucess">
+                    <span class="green text-center container layer-size-1">
+                        <i class="fa fa-check fa-3x"></i>
+                    </span>
+                </div>
+            </section>
+        </section>
             </div>
         </div>
     </div>  

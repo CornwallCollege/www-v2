@@ -2,8 +2,6 @@
 
 
 */
-
-
 /* ------------------------- Sector colours ------------------------- */
 
 h2.full-time span,
@@ -18,8 +16,6 @@ h2.apprenticeships span {
 a.full-time {
     border-color: #009989!important;
     color: #009989!important;
-    
-    
 }
 
 h2.full-time {
@@ -36,7 +32,7 @@ h2.part-time {
 }
 
 a.university {
-    border-color: #EDB92E!important;    
+    border-color: #EDB92E!important;
     color: #EDB92E!important;
 }
 
@@ -45,7 +41,7 @@ h2.university {
 }
 
 a.leisure {
-    border-color: #F85931!important;    
+    border-color: #F85931!important;
     color: #F85931!important;
 }
 
@@ -54,7 +50,7 @@ h2.leisure {
 }
 
 a.business {
-    border-color: #CE1836!important;    
+    border-color: #CE1836!important;
     color: #CE1836!important;
 }
 
@@ -73,36 +69,35 @@ h2.apprenticeships {
 }
 
 @media(max-width:991px) {
-    h2.apprenticeships,
-    h2.leisure{
+    h2.apprenticeships, h2.leisure {
         font-size: 50px!important;
     }
     h2.university {
         font-size: 70px!important;
-    }    
+    }
 }
 
 @media(max-width:570px) {
-    h2.apprenticeships{
+    h2.apprenticeships {
         font-size: 27px!important;
     }
-    h2.leisure{
+    h2.leisure {
         font-size: 35px!important;
-    }  
+    }
     h2.university {
         font-size: 40px!important;
-    }    
+    }
     a.full-time,
     a.part-time,
     a.university,
     a.leisure,
     a.business,
-    a.apprenticeships{
-        background: rgba(0,0,0,.5)!important;
+    a.apprenticeships {
+        background: rgba(0, 0, 0, .5)!important;
     }
 }
-
 /* Career Help Bar */
+
 .career-help-bar {
     position: fixed;
     bottom: 0px;
@@ -112,22 +107,25 @@ h2.apprenticeships {
     z-index: 999;
     display: none;
 }
-.show-close{
+
+.show-close {
     display: block;
 }
 /* left slide in close button */
+
 .ls-close {
     position: absolute;
     top: 0px;
     right: 0px;
     width: 70px;
-    height: 70px;    
+    height: 70px;
     cursor: pointer;
     background: white;
     border: solid 10px #52B3D9;
-    border-top:solid 5px #52B3D9;
-    border-right:solid 5px #52B3D9;
+    border-top: solid 5px #52B3D9;
+    border-right: solid 5px #52B3D9;
     /* Mobile fixed position FIX*/
+    
     -webkit-backface-visibility: hidden;
 }
 
@@ -159,7 +157,6 @@ h2.apprenticeships {
 .ls-close:hover::after {
     background: #333;
 }
-
 /* ------------------------- Help Bar ------------------------- */
 
 .help-bar {
@@ -167,28 +164,30 @@ h2.apprenticeships {
     bottom: 0;
     right: 10px;
     z-index: 999;
-    width: 100%; 
-        
+    width: 100%;
 }
 
 .help-button {
-    position:fixed; 
-    bottom:0px; 
-    width:100%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 999;
 }
-.help-button a{
-    border:none;
+
+.help-button a {
+    border: none;
 }
 
 .help-button-text {
-    display:none;
+    display: none;
 }
+
 .help-button-text:hover {
     display: block;
 }
 
 p.help-button-text:hover {
-    display:block;
+    display: block;
     position: relative;
 }
 
@@ -206,64 +205,95 @@ p.help-button-text:hover {
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
     min-width: 20px;
-    text-align:center; 
+    text-align: center;
     font-size: 20px;
 }
 
 .help-button:hover i {
     color: white;
 }
+
 .help-tab {
     background: #52b3d9;
     padding: 5px 10px;
 }
 
 .help-window {
-    max-height:70%; 
-    background:#52B3D9; 
-    z-index:999999; 
+    max-height: 70%;
+    background: #52B3D9;
+    z-index: 999;
+    position: relative
+}
+
+.help-window p {
+    color: white;
 
 }
-.help-window p{
-    color:white;
-    padding:50px;
-    font-size:200%;
-}
 /* QUESTION button*/
-.ask-a-question{
+
+a.ask-a-question {
     right: 5px;
-    position:absolute; 
-    top:-31px; 
-    padding:5px 10px;
+    position: absolute;
+    top: -31px;
+    padding: 5px 10px;
     margin-top: 0;
 }
-.ask-a-question:hover{
-    border:none;
-    background:#52B3D9; 
+
+a.ask-a-question:hover,
+a.ask-a-question:focus{
+    border: none;
+    background-color: #52B3D9!important;
 }
+
 .ask-a-question span {
     display: inline-block;
     font-size: 80%;
-    padding-left:5px; 
+    padding-left: 5px;
 }
+
 .ask-a-question:hover span {
     display: inline-block;
+}
+/*-------Help form-----------*/
 
+.help-form {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.help-form input,
+.help-form textarea {
+    font-weight: 300;
+}
+
+.help-form .submit-btn:hover {
+    background-color:white;
+    color:#52B3D9;
+}
+
+.question-text {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .question-text {
+        display: block;
+    }
 }
 /* Help Bar ends */
 /* Sector colours ends*/
 
 .fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-
 /* ---------------- Help bar ENDS -------------------- */
 /* ---------------- event styles --------------------*/
+
 .event-title-wrap {
     position: absolute;
     bottom: 0;
@@ -279,7 +309,6 @@ h4.event-title {
     font-weight: normal;
 }
 
-
 .intro h2 strong,
 section > h2 strong,
 .intro header strong,
@@ -292,16 +321,17 @@ section h2 strong {
     margin-bottom: 30px;
 }
 
-
 .color-bg {
     background: #52B3D9;
 }
-.events{
-    padding:50px 0 70px;
+
+.events {
+    padding: 50px 0 70px;
 }
-@media(max-width:480px){
-    .events{
-        padding:70px 0;
+
+@media(max-width:480px) {
+    .events {
+        padding: 70px 0;
     }
 }
 /* ---------------- event styles ENDS--------------------*/
@@ -325,9 +355,7 @@ section h2 strong {
     padding: 0;
 }
 
-.fixed-btn .col-xs-6{
-    
-}
+.fixed-btn .col-xs-6 {}
 
 .fixed-btn .btn {
     padding: 10px 5px;
@@ -342,9 +370,10 @@ section h2 strong {
 }
 
 .fixed-btn .row .col-xs-6 a {
-    padding:40px 0;
+    padding: 40px 0;
     white-space: normal;
 }
+
 .fixed-btn .row a {
     margin-top: 0;
     width: 100%;
@@ -354,41 +383,41 @@ section h2 strong {
     text-transform: uppercase;
     color: #fff;
 }
-
 /*------------------ Ghost button styles --------------------*/
 
-.ghost{
+.ghost {
     background: transparent;
     color: #52B3D9;
     border: 4px solid #52B3D9;
     font-size: 13px;
     padding: 5px 15px;
-    
 }
-.light{
+
+.light {
     color: white;
     border: 4px solid white;
 }
 
-@media(min-width: 1200px ){
-   .ghost{
+@media(min-width: 1200px) {
+    .ghost {
         background: transparent;
         color: #52B3D9;
         border: 5px solid #52B3D9;
         font-size: 18px;
         padding: 10px 30px;
-   } 
-    .light{
+    }
+    .light {
         color: white;
         border: 5px solid white;
-    }  
+    }
 }
-@media(max-width: 380px){
-    .ghost{
+
+@media(max-width: 380px) {
+    .ghost {
         white-space: normal;
         width: 100%;
     }
-}  
+}
 /*---------------- Ghost button styles ENDS ---------------*/
 /* --------------- Logo styles -----------------*/
 
@@ -409,54 +438,57 @@ section h2 strong {
         margin-top: -65px;
     }
 }
-
 /* ------------- Logo styles ENDS --------------*/
 /* ------------- Menu styles ----------------*/
+
 .menu-icon {
     z-index: 1010;
 }
+
 .menu-icon:hover i {
-    -webkit-transform:none;
-    -moz-transform:none;
-    -o-transform:none;
-    -ms-transform:none;
-    transform:none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
 }
+
 .menu-item-links {
     margin-top: 5%;
 }
 
-@media(min-width:681px){
+@media(min-width:681px) {
     .menu-item-links {
-        border-top:solid 1px #d1d1d1; 
-        padding-top:10px;
+        border-top: solid 1px #d1d1d1;
+        padding-top: 10px;
     }
     .menu-item-links > li:before {
-      content: "\f107";
-    }    
+        content: "\f107";
+    }
 }
+
 @media(min-width: 681px) and (max-width: 991px) {
     .menu-item-links {
         margin-top: 10%;
     }
 }
+
 @media(max-width: 680px) {
     .menu-item-links {
         margin-top: 10%;
     }
 }
-
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
     z-index: 1003;
 }
-
 /* menu search form */
 
 #search-form {
     margin-top: 20%;
 }
+
 @media(min-width: 681px) and (max-width: 991px) {
     #search-form {
         margin-top: 25%;
@@ -475,17 +507,17 @@ section h2 strong {
     position: absolute;
     bottom: 0px
 }
-@media(max-width:680px ){
+
+@media(max-width:680px) {
     .menu-social-icons {
         padding: 50px 15px;
         margin-top: 0;
         position: relative;
-        bottom:auto;
-}
+        bottom: auto;
+    }
 }
 /* ------------ Menu styles ENDS --------------*/
 /* ------------ Slide Pagination styles ------------- */
-
 /* full time sector*/
 
 .slides-alt .slides-pagination a:first-child {
@@ -578,66 +610,77 @@ section h2 strong {
 }
 
 .slides-alt .slides-pagination a {
-    border:none;
+    border: none;
     padding: 10px 1px;
 }
 /* ----------------- Slide Pagination styles ENDS ------------------ */
-
 /* =================================
         Cluster area header images 
 */
+
 #technology-engineering {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     #technology-engineering {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
-    }    
+    }
 }
 /* =================================
 
 /* ----------------- Staff area styles ---------------------*/
+
 .box-square article:nth-child(2) {
     background: #EAEAEA;
 }
+
 .box-square article:nth-child(2) h3,
-.box-square article:nth-child(2) h4{
+.box-square article:nth-child(2) h4 {
     color: #52B3D9;
 }
+
 .box-square article:nth-child(3) {
     background: #000;
     clear: left;
 }
+
 .box-square article:nth-child(3) h3,
 .box-square article:nth-child(3) h2,
-.box-square article:nth-child(3) p{
+.box-square article:nth-child(3) p {
     color: #fff;
 }
+
 .box-square article:nth-child(4) h3,
 .box-square article:nth-child(4) h2,
-.box-square article:nth-child(4) p{
+.box-square article:nth-child(4) p {
     color: white;
 }
+
 .box-square article:nth-child(4) {
     background: #52B3D9;
 }
+
 .box-square article:nth-child(5) {
     background: #000;
     clear: left;
 }
+
 .box-square-alt article {
     padding: 50px;
     height: auto;
     min-height: 170px;
 }
+
 @media(min-width:768px) and (max-width:1199px) {
     .box-square-alt article {
         min-height: 350px;
     }
 }
-@media(min-width:1200px){
+
+@media(min-width:1200px) {
     .box-square-alt article {
         min-height: 320px;
     }
@@ -645,12 +688,15 @@ section h2 strong {
 /*.box-square-alt article:last-child {
     background:none;
 }*/
+
 .box-square-alt h4 {
-    padding-top:20px;
+    padding-top: 20px;
 }
+
 .box-square-alt p {
-    font-size:125%;
+    font-size: 125%;
 }
+
 .item-blocks {
     margin: 100px 0px;
 }
@@ -659,6 +705,7 @@ section h2 strong {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+
 @media(max-width: 767px) {
     .another-title {
         margin-top: 0px;
@@ -670,32 +717,36 @@ section h2 strong {
 .custom-progress {
     height: auto;
 }
+
 .custom-progress .progress-bar {
     padding-bottom: 5px;
     margin-right: 10px;
 }
+
 .custom-progress span {
-    margin-left:0;
+    margin-left: 0;
 }
 /* ---------- Key stats bar ENDS -----------*/
 /* ---------- Services ----------*/
+
 #services {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     #services {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
-    } 
+    }
 }
-
 /* ---------- Servicces ENDS ------------ */
 /* ---------- Counters -----------*/
-.career-areas #counters{
+
+.career-areas #counters {
     background: none;
-    
 }
+
 .inner h5 {
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
@@ -708,7 +759,8 @@ section h2 strong {
     color: #333;
     margin-bottom: 11px;
 }
-@media(max-width: 991px){
+
+@media(max-width: 991px) {
     .inner h5 {
         text-align: center;
     }
@@ -718,17 +770,18 @@ section h2 strong {
     }
 }
 /* --------- Counters ENDS ------------*/
-
 /* --------- Contacts section ------------*/
+
 #apply-head {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     #apply-head {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
-    } 
+    }
 }
 /* --------- Contact Section ENDS -----------*/
 /* --------- Full time section call to action --------- */
@@ -741,11 +794,12 @@ section h2 strong {
     height: 400px;
     background-size: cover;
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     .fulltime-bar {
         background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
-    } 
+    }
 }
 
 .margin-top {
@@ -799,21 +853,23 @@ section h2 strong {
         margin-bottom: 70px;
     }
 }
-
 /* engineering and technology | apply now bar */
+
 .engineering-bar {
     clear: both;
     text-align: center;
     padding: 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     /*height: 400px;*/
+    
     background-size: cover;
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     .engineering-bar {
         background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
-    }    
+    }
 }
 
 .margin-top {
@@ -869,12 +925,10 @@ section h2 strong {
 }
 /* --------- Full time section call to action ENDS --------- */
 
-.dark-bg h2{
+.dark-bg h2 {
     color: white;
 }
-
 /* ---------  Career Section --------- */
-
 
 #career {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(http://placehold.it/1400x300) 50% 0 no-repeat fixed;
@@ -885,9 +939,10 @@ section h2 strong {
     background-color: #fff;
     padding-left: 0;
 }
-@media(max-width:380px){
-    #career-list{
-        padding-right:0;
+
+@media(max-width:380px) {
+    #career-list {
+        padding-right: 0;
     }
 }
 
@@ -926,23 +981,25 @@ section h2 strong {
     text-align: center;
 }
 
-@media(min-width:768px){
+@media(min-width:768px) {
     .career-filter ul li a {
         min-height: 260px;
     }
 }
-@media(min-width:992px){
+
+@media(min-width:992px) {
     .career-filter ul li a {
         min-height: 215px;
     }
 }
-@media(min-width:1200px){
+
+@media(min-width:1200px) {
     .career-filter ul li a {
         min-height: 170px;
     }
 }
-
 /* Cluster colors ends*/
+
 .career-filter ul li a:hover,
 .career-filter ul li a:focus {
     transition: all 0.3s ease;
@@ -950,88 +1007,107 @@ section h2 strong {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-}   
+}
+/* Cluster Colors*/
 
-/* Cluster Colors*/    
-.career-filter ul li a.bpi{
-    border: 5px solid #E73029;  
-    color :#E73029;  
+.career-filter ul li a.bpi {
+    border: 5px solid #E73029;
+    color: #E73029;
 }
-.career-filter ul li a.bpi:hover{
-    border: 5px solid #E73029;  
+
+.career-filter ul li a.bpi:hover {
+    border: 5px solid #E73029;
     background-color: #E73029;
 }
-.career-filter li a.selected.bpi{
+
+.career-filter li a.selected.bpi {
     background-color: #E73029;
-    color:white;
+    color: white;
 }
-.career-filter ul li a.cve{
+
+.career-filter ul li a.cve {
     border: 5px solid #C7D301;
-    color: #C7D301;     
+    color: #C7D301;
 }
-.career-filter ul li a.cve:hover{
+
+.career-filter ul li a.cve:hover {
     border: 5px solid #C7D301;
     background-color: #C7D301;
 }
-.career-filter li a.selected.cve{
+
+.career-filter li a.selected.cve {
     background-color: #C7D301;
-    color:white;
+    color: white;
 }
-.career-filter ul li a.hw{
+
+.career-filter ul li a.hw {
     border: 5px solid #DE006E;
-    color:#DE006E;     
+    color: #DE006E;
 }
-.career-filter ul li a.hw:hover{
-    background-color: #DE006E;    
-    border: 5px solid #DE006E;
-}
-.career-filter li a.selected.hw{
+
+.career-filter ul li a.hw:hover {
     background-color: #DE006E;
-    color:white;
+    border: 5px solid #DE006E;
 }
-.career-filter ul li a.re{
+
+.career-filter li a.selected.hw {
+    background-color: #DE006E;
+    color: white;
+}
+
+.career-filter ul li a.re {
     border: 5px solid #20A64B;
-    color:#20A64B;     
+    color: #20A64B;
 }
-.career-filter ul li a.re:hover{
-    background-color: #20A64B;    
-    border: 5px solid #20A64B;  
-}
-.career-filter li a.selected.re{
+
+.career-filter ul li a.re:hover {
     background-color: #20A64B;
-    color:white;
+    border: 5px solid #20A64B;
 }
-.career-filter ul li a.sne{
+
+.career-filter li a.selected.re {
+    background-color: #20A64B;
+    color: white;
+}
+
+.career-filter ul li a.sne {
     border: 5px solid #004B93;
-    color: #004B93;     
+    color: #004B93;
 }
-.career-filter ul li a.sne:hover{
-    background-color: #004B93;  
-    border: 5px solid #004B93;  
-}
-.career-filter li a.selected.sne{
+
+.career-filter ul li a.sne:hover {
     background-color: #004B93;
-    color:white;
+    border: 5px solid #004B93;
 }
-.career-filter ul li a.et{
+
+.career-filter li a.selected.sne {
+    background-color: #004B93;
+    color: white;
+}
+
+.career-filter ul li a.et {
     border: 5px solid #00ACCD;
-    color:#00accd;
+    color: #00accd;
 }
-.career-filter ul li a.et:hover{
+
+.career-filter ul li a.et:hover {
     background-color: #00ACCD;
     border: 5px solid #00ACCD;
-} 
-.career-filter li a.selected.et{
+}
+
+.career-filter li a.selected.et {
     background-color: #00ACCD;
-    color:white;
+    color: white;
 }
-@media(max-width:765px){
-   .career-filter ul li a{
-       margin-right:0;
-   } 
+
+@media(max-width:765px) {
+    .career-filter ul li a {
+        margin-right: 0;
+    }
 }
-.career-filter ul li a:hover{
-    color:white;
+
+.career-filter ul li a:hover {
+    color: white;
 }
 /*.career-filter li a.selected,
 .career-filter li a.selected:hover,
@@ -1041,24 +1117,26 @@ section h2 strong {
     border-color: #000;
 }*/
 
-.career-filter ul li a h3{
-    margin-bottom:5px; 
-    font-size:110%;
+.career-filter ul li a h3 {
+    margin-bottom: 5px;
+    font-size: 110%;
     font-weight: 700;
     line-height: 27px;
     margin-top: 5px;
 }
-.career-filter ul li a span{
-    color:#555; 
-    font-size:80%; 
-    font-weight:normal;
-    text-rendering: optimizeLegibility; 
-    -webkit-font-smoothing: antialiased; 
-    line-height:20px;
+
+.career-filter ul li a span {
+    color: #555;
+    font-size: 80%;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
 }
+
 .career-filter ul li a:hover span,
-.career-filter ul li a.selected span{
-    color:white;
+.career-filter ul li a.selected span {
+    color: white;
 }
 
 .career-items {
@@ -1074,7 +1152,7 @@ section h2 strong {
 
 .career-popup {
     width: 100%;
-	overflow-x:hidden;
+    overflow-x: hidden;
     height: 100%;
     top: 0;
     z-index: 1000;
@@ -1087,75 +1165,73 @@ section h2 strong {
 .career-popup-left.cbp-spmenu-open {
     left: 0;
 }
-@media(max-width:380px){
-    .career-areas .box-square{
-        padding-left:0;
-        padding-right:0;
+
+@media(max-width:380px) {
+    .career-areas .box-square {
+        padding-left: 0;
+        padding-right: 0;
     }
-    .career-areas article{
-        padding:30px;
+    .career-areas article {
+        padding: 30px;
     }
 }
-
-
 /* ---------  Career Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
 
-
 .menu-item-links li a {
-   /* padding: 10px;*/
+    /* padding: 10px;*/
+    
     line-height: 15px;
 }
-@media(min-width:300px) and (max-width:680px){
+
+@media(min-width:300px) and (max-width:680px) {
     .menu-item-links li a {
         line-height: 30px;
-    }    
-    
+    }
 }
 /* --------- Main Menu indent Fix ENDS ----------*/
 
-.job-profile-link a{
-	color: white;
-	font-size: 12px;
+.job-profile-link a {
+    color: white;
+    font-size: 12px;
 }
 
-.navbar-fixed-top{
-	width:95%;
-	margin: 0 auto;
+.navbar-fixed-top {
+    width: 95%;
+    margin: 0 auto;
 }
 
-
-.grumble{
+.grumble {
     display: none;
 }
-body.home .grumble{
+
+body.home .grumble {
     display: block;
 }
-
-
 /* colapsed section styles*/
-.collapsed h2:hover{
-    cursor:pointer;
+
+.collapsed h2:hover {
+    cursor: pointer;
 }
-div.collapsed h2 span.readmore{
+
+div.collapsed h2 span.readmore {
     display: block;
-    font-size:90%;
+    font-size: 90%;
 }
-div h2 span.readmore{
+
+div h2 span.readmore {
     display: none;
 }
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
     .header-title {
         padding-top: 107px;
         height: 225px;
     }
-    .menu-icon{
+    .menu-icon {
         padding: 5px 25px;
     }
-/* ----------------------------------- landscape mobile fixes ENDS-------------------------------------- */    
-
-    
+    /* ----------------------------------- landscape mobile fixes ENDS-------------------------------------- */
 }
-    
 }
