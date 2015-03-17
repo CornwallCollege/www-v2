@@ -1188,7 +1188,6 @@ section h2 strong {
 
 .menu-item-links li a {
     /* padding: 10px;*/
-    
     line-height: 15px;
 }
 
@@ -1196,6 +1195,9 @@ section h2 strong {
     .menu-item-links li a {
         line-height: 30px;
     }
+    .submenu-items {
+        text-indent: 11%;
+    }    
 }
 /* --------- Main Menu indent Fix ENDS ----------*/
 
