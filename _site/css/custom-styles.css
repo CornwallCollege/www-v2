@@ -176,6 +176,9 @@ h2.apprenticeships {
     bottom:0px; 
     width:100%;
 }
+.help-button a{
+    border:none;
+}
 
 .help-button-text {
     display:none;
@@ -203,12 +206,49 @@ p.help-button-text:hover {
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
     min-width: 20px;
-    text-align:center;    
+    text-align:center; 
+    font-size: 20px;
 }
 
 .help-button:hover i {
     color: white;
-    font-size: 25px;
+}
+.help-tab {
+    background: #52b3d9;
+    padding: 5px 10px;
+}
+
+.help-window {
+    max-height:70%; 
+    background:#52B3D9; 
+    z-index:999999; 
+
+}
+.help-window p{
+    color:white;
+    padding:50px;
+    font-size:200%;
+}
+/* QUESTION button*/
+.ask-a-question{
+    right: 5px;
+    position:absolute; 
+    top:-31px; 
+    padding:5px 10px;
+    margin-top: 0;
+}
+.ask-a-question:hover{
+    border:none;
+    background:#52B3D9; 
+}
+.ask-a-question span {
+    display: inline-block;
+    font-size: 80%;
+    padding-left:5px; 
+}
+.ask-a-question:hover span {
+    display: inline-block;
+
 }
 /* Help Bar ends */
 /* Sector colours ends*/
@@ -1092,75 +1132,7 @@ body.home .grumble{
     display: block;
 }
 
-.help-tab {
-    background: #52b3d9;
-    padding: 10px;
-}
 
-.help-window {
-    max-height:50%; 
-    background:#52B3D9; 
-    z-index:999999; 
-
-}
-.help-window p{
-    color:white;
-    padding:50px;
-    font-size:200%;
-}
-/* FEEDBACK button*/
-.feedback{
-    right: 130px;
-    position:absolute; 
-    top:-58px;     
-}
-.feedback span {
-    display: none;
-    font-size: 90%;
-    padding-left:5px; 
-}
-.feedback:hover{
-
-}
-.feedback:hover span {
-    display: inline-block;
-
-}
-/* QUESTION button*/
-.ask-a-question{
-    right: 70px;
-    position:absolute; 
-    top:-58px;     
-}
-.ask-a-question span {
-    display: none;
-    font-size: 90%;
-    padding-left:5px; 
-}
-.ask-a-question:hover{
-
-}
-.ask-a-question:hover span {
-    display: inline-block;
-
-}
-/* LIVECHAT button*/
-.live-chat{
-    right: 10px;
-    position:absolute; 
-    top:-58px;     
-}
-.live-chat span {
-    display: none;
-    font-size: 90%;
-    padding-left:5px; 
-}
-.live-chat:hover{
-}
-.live-chat:hover span {
-    display: inline-block;
-
-}
 /* colapsed section styles*/
 .collapsed h2:hover{
     cursor:pointer;
