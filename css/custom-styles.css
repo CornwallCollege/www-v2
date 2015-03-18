@@ -630,14 +630,8 @@ section h2 strong {
 */
 
 #technology-engineering {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
+    background:url(../images/engineering-technology-bg-mobile.jpg) 0 0 no-repeat fixed;
     background-size: cover;
-}
-@media(min-width:320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #technology-engineering {
-        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
-    }
 }
 @media(min-width:768px) {
     #technology-engineering {
