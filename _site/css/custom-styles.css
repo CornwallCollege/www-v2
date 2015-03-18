@@ -881,7 +881,7 @@ section h2 strong {
     background-size: cover;
 }
 @media(min-width:320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #services {
+    .engineering-bar {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
