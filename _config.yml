@@ -1,10 +1,10 @@
 # Site settings
-title: Your awesome title
+title: The Career College | The Cornwall College Group
 email: webmaster@cornwall.ac.uk
-description: > # this means to ignore newlines until "baseurl:"
-  Cornwall College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://m.cornwall.ac.uk" # the base hostname & protocol for your site
+author: Cornwall College
+description: "Cornwall College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://m.cornwall.ac.uk" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
