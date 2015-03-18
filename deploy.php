@@ -17,7 +17,7 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/home/tmp/";
+$LOCAL_ROOT         = "/home/site1/public_html/";
 $LOCAL_REPO_NAME    = "m.cornwall.ac.uk";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "https://github.com/CornwallCollege/www-v2.git";
@@ -36,7 +36,7 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
     echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1");
   }
     
-    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/");
+    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/public");
     die("done " . mktime());
 }
 
