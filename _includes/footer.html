@@ -6,12 +6,7 @@
                 <h5>The Cornwall College Group</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="about.html">more</a>
                 </p>
-                <span class="social-icons">
-	    <a href="#" class="transition"><i class="fa fa-twitter fa-lg"></i></a>
-	    <a href="#" class="transition"><i class="fa fa-facebook fa-lg"></i></a>
-	    <a href="#" class="transition"><i class="fa fa-youtube fa-lg"></i></a>
-	  
-      </span>
+               {% include socialmedia.html %}
             </article>
             <!-- footer column 2 -->
             <article class="col-sm-6 col-md-4">
@@ -28,7 +23,7 @@
                         <tr>
                             <td class="text-center"><i class="fa fa-location-arrow fa-2x"></i>
                             </td>
-                            <td><address>Trevenson Rd. Pool TR16 3RD </address>
+                            <td><address>Trevenson Rd. Pool TR15 3RD </address>
                             </td>
                         </tr>
                         <tr>
@@ -90,29 +85,58 @@
     <!-- END OF FOOTER -->
 
     <div class="help-button" style="">
-        <a class="btn btn-primary feedback" data-toggle="collapse" href="#feedback" aria-expanded="false" aria-controls="feedback"><i class="fa fa-comment fa-lg"></i><span>Feedback</span></a>
-        <div class="collapse" id="feedback" >
-            <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
-            </div>
-        </div>
-    </div>  
-    <div class="help-button" style="">
-        <a class="btn btn-primary ask-a-question" data-toggle="collapse" href="#ask-a-question" aria-expanded="false" aria-controls="ask-a-question"><i class="fa fa-question fa-lg"></i><span>Question</span></a>
+        <a class="btn btn-primary ask-a-question" data-toggle="collapse" href="#ask-a-question" aria-expanded="false" aria-controls="ask-a-question"><i class="fa fa-question fa-lg"></i><span>Ask a Question</span></a>
         <div class="collapse" id="ask-a-question" >
             <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
+        <section class="container">
+            <section class="col-md-12">
+                <span class="question-text">
+                <p class="lead">Do you have a question? please let us know the details and a member of our enquiries team will be in touch</p>
+                </span>    
+        <!-- contact form with input fields -->
+                <!-- contact form with input fields -->
+                <form id="question" class="col-md-8 form-horizontal help-form" role="form" novalidate="novalidate">
+                    <div id="result"></div>
+                    <!-- FULL NAME -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Full Name*">
+                        </div>
+                    </div>
+                    <!-- EMAIL -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                        </div>
+                    </div>
+                  <!-- MESSAGE -->
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <textarea class="form-control" rows="7" name="message" id="message" placeholder="Message*"></textarea>
+                        </div>
+                      </div>
+
+                    <!-- SUBMIT BUTTON -->
+                    <div class="form-group text-left">
+                        <div class="col-sm-12">
+                            <button id="submit-btn" type="submit" class="custom-btn transition">
+                                Send!
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="success" class="alert alert-sucess">
+                    <span class="green text-center container layer-size-1">
+                        <i class="fa fa-check fa-3x"></i>
+                    </span>
+                </div>
+            </section>
+        </section>
             </div>
         </div>
     </div>  
-    <div class="help-button" >
-        <a class="btn btn-primary live-chat" data-toggle="collapse" href="#live-chat" aria-expanded="false" aria-controls="live-chat"><i class="fa fa-life-ring fa-lg"></i><span>Help</span></a>
-        <div class="collapse" id="live-chat" >
-            <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
-            </div>
-        </div>
-    </div>      
+    
     <!-- JS FILES  -->
     <script src="//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -124,7 +148,7 @@
     <script src="//cdn.jsdelivr.net/lightbox/0.5/js/jquery.lightbox-0.5.min.js"></script>
     <script src="//cdn.jsdelivr.net/jquery.form/3.51/jquery.form.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>  
-    <script src="js/classie.js"></script>
+    <script src="/js/classie.js"></script>
     <script src="/js/grid.js"></script>      
     <script src="/js/hub-pages.js"></script>
     <script type="text/javascript">

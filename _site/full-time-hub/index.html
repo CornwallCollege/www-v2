@@ -8,33 +8,44 @@
     <meta name="description" content="Cornwall College">
     <meta name="author" content="Cornwall College">
     <link rel="shortcut icon" href="/images/favicon-cornwall.ico" type="image/vnd.microsoft.icon" />
+    <link rel="shortcut icon" href="/images/favicon-cornwall.ico" type="image/vnd.microsoft.icon" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.2/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="/css/styles.css" />
     <link type="text/css" rel="stylesheet" href="/css/custom-styles.css" />
     <!-- the two fonts used in the template -->
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lato:700,300,400,100" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:700,300,400,100" rel="stylesheet" type="text/css"> 
 </head>
 
 
 
   <body>
 
-    <header>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5PH3GW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PH3GW');</script>
+<!-- End Google Tag Manager -->
+
+<header>
 <div id="loader"></div>
     <!-- LOGO SECTION ====================================================================== -->
-    <nav class="navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
+    <nav class="navbar-fixed-top click-through" role="navigation">
+        <div class="container click-through">
+            <div class="navbar-header ">
 
-                <a class="" href="index.html">
+                <a class="click-me" href="index.html">
                     <div id="logo-wrapper" class="logo-other">
                         <span><img id="cc-logo" src="/images/ccg-logo-small-blue.jpg" alt="The Cornwall College Group"/></span>
                     </div>
                 </a>
                 <!-- MENU ICON ON THE RIGHT -->
-                <span id="openRightPush" class="menu-icon">
+                <span id="openRightPush" class="menu-icon click-me">
                     <span class="menu-text">MENU</span> <i class="fa fa fa-bars transition"></i>
                 </span>
 
@@ -72,7 +83,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#">Our Campuses</a>
+                    <a href="#">Our Colleges</a>
                     <ul class="submenu-items transition">
                         <li><a href="//www.cornwall.ac.uk/campus/cornwall-college-camborne">Camborne</a>
                         </li>
@@ -120,10 +131,9 @@
 
         <!-- menu social icons -->
         <div class="social-icons menu-social-icons col-sm-12 text-center">
-            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-            <a href="#"><i class="fa fa-github fa-lg"></i></a>
-            <a href="#"><i class="fa fa-behance fa-lg"></i></a>
-            <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+            <a href="https://www.facebook.com/cornwallcollegeuk"><i class="fa fa-facebook fa-lg"></i></a>
+            <a href="https://twitter.com/cornwallcollege"><i class="fa fa-twitter fa-lg"></i></a>
+            <a href="https://plus.google.com/+cornwallcollege/videos"><i class="fa fa-google-plus fa-lg"></i></a>
         </div>
 
     </nav>
@@ -135,7 +145,8 @@
 
     <section id="services" class="col-md-12 jumbotron header-title">
         <header class="container">
-            <h2><a href="index.html"><small>Home / Full Time /</small></a> <span>FULL TIME STUDY</span></h2>
+            <h2><a href="/"><small>Home </small></a><span>FULL TIME STUDY</span></h2>
+            <a href="/">&lt;&lt; Back</a>
         </header>
     </section>
     <!-- END OF HEADER -->
@@ -151,7 +162,7 @@
 ====================================================================== -->
     <section class="container main-section-margins">
         <header class="col-sm-12 text-center">
-            <h2 class="text-uppercase">Choose your intended <strong>Career</strong> area</h2>
+            <h2 class="text-uppercase">WHAT’S YOUR DREAM <strong>Career</strong>?</h2>
         </header>
         <section class="container">
             <p class="lead col-sm-8 col-xs-12">We don't need you to look through lists of confusing courses, select the career area that interests you and we'll work with you to make a <strong>programme of study</strong> fit your needs.</p>
@@ -167,22 +178,40 @@
                 <!-- CAREER FILTER OPTIONS -->
                 <ul>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="#" class="transition bpi" data-filter=".bpi">Business, Professional &amp; IT [5]</a>
+                        <a href="#" class="transition bpi" data-filter=".bpi">
+                        <h3>Business, Professional &amp; IT [5]</h3>
+                        <span>Accounting – Business – Computer Science – Customer Service – Law - Sales</span>
+                        </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="#" class="transition cve" data-filter=".cve">Cultural &amp; Vistor Economy [4]</a>
+                        <a href="#" class="transition cve" data-filter=".cve">
+                            <h3>Cultural &amp; Vistor Economy [4]</h3>
+                            <span>Arts – Catering – Hospitality – Media – Music – Performing Arts – Tourism - Travel</span>
+                        </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="#" class="transition hw" data-filter=".hw">Health &amp; Wellbeing [6]</a>
+                        <a href="#" class="transition hw" data-filter=".hw">
+                            <h3>Health &amp; Wellbeing [6]</h3>
+                        <span>Beauty – Early Years – Fitness – Hairdressing – Health – Public Services – Social Care - Sport</span>
+                        </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="#" class="transition re" data-filter=".re">Rural Economy [2]</a>
+                        <a href="#" class="transition re" data-filter=".re">
+                            <h3>Rural Economy [2]</h3>
+                            <span>Agriculture – Animal Care – Countryside Management – Equine – Floristry – Food Technology &amp; Production - Horticulture</span>
+                        </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="#" class="transition sne" data-filter=".sne">Science &amp; Natural Environment [3]</a>
+                        <a href="#" class="transition sne" data-filter=".sne">
+                            <h3>Science &amp; Natural Environment [3]</h3>
+                        <span>Agriculture – Animal Care – Countryside Management – Equine – Floristry – Food Technology &amp; Production - Horticulture</span>
+                        </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="#" class="transition et" data-filter=".et">Engineering &amp; Technology [5]</a>
+                        <a href="#" class="transition et" data-filter=".et">
+                            <h3>Engineering &amp; Technology [5]</h3>
+                        <span>Agriculture – Animal Care – Countryside Management – Equine – Floristry – Food Technology &amp; Production - Horticulture</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -194,15 +223,12 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry bpi">
                         <figure>
                             <img src="/images/bpi/education.jpg" alt="CAREER AREA | business and prof and IT | Education" class="lazy img-responsive">
-                            
-                            <div>
+                            <div class="auto-hover">
                                 <h4>Education</h4>
-                                <figure class="auto-hover">
                                 <span>Careers in Teaching and supporting teaching.</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
-                                </figure>
                             </div>
                         </figure>
                     </li>
@@ -214,7 +240,7 @@
                             <div class="auto-hover">
                                 <h4>Customer Service</h4>
                                 <span>Careers in Customer Service, Retail, Sales &amp; Marketing</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -228,7 +254,7 @@
                             <div class="auto-hover">
                                 <h4>Business</h4>
                                 <span>Financial, Legeal &amp; Administrative</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -242,7 +268,7 @@
                             <div class="auto-hover">
                                 <h4>Leadership &amp; Management</h4>
                                 <span>Careers connected with leading Projects, Teams and Business</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -256,7 +282,7 @@
                             <div class="auto-hover">
                                 <h4>IT &amp; Communications</h4>
                                 <span>Networks, Security and Software Development Careers</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -270,7 +296,7 @@
                             <div class="auto-hover">
                                 <h4>Hospitality</h4>
                                 <span>??</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -284,7 +310,7 @@
                             <div class="auto-hover">
                                 <h4>Professional Cookery</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -322,11 +348,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
                         <figure>
                             <img src="/images/hw/hair.jpg" alt="CAREER AREA | health and welfare | Hair & Beauty" class="lazy img-responsive">
-                            <span class="career-area"><h4>Hair &amp; Beauty</h4></span>
+                         
                             <div class="auto-hover">
                                 <h4>Hair &amp; Beauty</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -336,11 +362,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
                         <figure>
                             <img src="/images/hw/public-services.jpg" alt="CAREER AREA | health and welfare | Public Services" class="lazy img-responsive">
-                            <span class="career-area top"><h4>Public Services</h4></span>
+
                             <div class="auto-hover">
                                 <h4>Public Services</h4>
                                 <span>Careers in Armed Forces, Police, Fire &amp; Ambulance</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -350,11 +376,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
                         <figure>
                             <img src="/images/hw/childcare.jpg" alt="CAREER AREA | health and welfare | Early Years" class="lazy img-responsive">
-                            <span class="career-area"><h4>Early Years</h4></span>
+                        
                             <div class="auto-hover">
                                 <h4>Early Years</h4>
                                 <span>Careers linked to supporting the development of young children</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -364,11 +390,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry logo hw">
                         <figure>
                             <img src="/images/hw/sport.jpg" alt="CAREER AREA | health and welfare | Sport" class="lazy img-responsive">
-                            <span class="career-area top"><h4 class="large">Sport</h4></span>
+                
                             <div class="auto-hover">
                                 <h4>Sport</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -378,11 +404,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
                         <figure>
                             <img src="/images/hw/health.jpg" alt="CAREER AREA | health and welfare | Social Care" class="img-responsive">
-                            <span class="career-area top"><h4 class="large">Social Care</h4></span>
+                
                             <div class="auto-hover">
                                 <h4>Social Care</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -392,11 +418,10 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
                         <figure>
                             <img src="/images/hw/health2.jpg" alt="CAREER AREA | health and welfare | Health" class="img-responsive">
-                            <span class="career-area top"><h4 class="large">Health</h4></span>
                             <div class="auto-hover">
                                 <h4>Health</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -406,7 +431,7 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry re">
                         <figure>
                             <img src="/images/re/animal-care.jpg" alt="CAREER AREA | Rural Economy | Animal Sciences" class="img-responsive">
-                            <span class="career-area top"><h4>Animal Sciences</h4></span>
+                           
                             <div class="auto-hover">
                                 <h4>Animal Sciences</h4>
                                 <span></span>
@@ -420,11 +445,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry logo re">
                         <figure>
                             <img src="/images/re/agriculture.jpg" alt="CAREER AREA | Rural Economy | Agriculture and Food" class="img-responsive">
-                            <span class="career-area"><h4>Agriculture &amp; Food</h4></span>
+                            
                             <div class="auto-hover">
                                 <h4>Agriculture &amp; Food</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -434,11 +459,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry sne">
                         <figure>
                             <img src="/images/sne/science.jpg" alt="CAREER AREA | Science and the natral enviroment | Science" class="img-responsive">
-                            <span class="career-area"><h4 class="large">Science</h4></span>
+                            
                             <div class="auto-hover">
                                 <h4>Science</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -448,11 +473,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry sne">
                         <figure>
                             <img src="/images/sne/marine-science2.jpg" alt="CAREER AREA | Science and the natral enviroment | Marine Science" class="img-responsive">
-                            <span class="career-area top"><h4>Marine Science</h4></span>
+                           
                             <div class="auto-hover">
                                 <h4>Marine Science</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -462,11 +487,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry sne">
                         <figure>
                             <img src="/images/sne/zoo.jpg" alt="CAREER AREA | Science and the natral enviroment | Zoology & Conservation" class="img-responsive">
-                            <span class="career-area"><h4>Zoology &amp; Conservation</h4></span>
+
                             <div class="auto-hover">
                                 <h4>Zoology &amp; Conservation</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -476,11 +501,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry et">
                         <figure>
                             <img src="/images/et/construction.jpg" alt="CAREER AREA | engineering-technology | Construction" class="img-responsive">
-                            <span class="career-area"><h4>Construction</h4></span>
+                        
                             <div class="auto-hover">
                                 <h4>Construction</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -490,11 +515,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry et">
                         <figure>
                             <img src="/images/et/electrotechnical-technology.jpg" alt="CAREER AREA | engineering-technology | Electrical Engineering" class="img-responsive">
-                            <span class="career-area"><h4>Electrical Engineering</h4></span>
+                            
                             <div class="auto-hover">
                                 <h4>Electrical Engineering</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -504,11 +529,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry et">
                         <figure>
                             <img src="/images/et/construction-plant.jpg" alt="CAREER AREA | engineering-technology | Plant Engineering" class="img-responsive">
-                            <span class="career-area top"><h4 class="large">Plant Engineering</h4></span>
+                           
                             <div class="auto-hover">
                                 <h4>Plant Engineering</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -518,11 +543,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry et">
                         <figure>
                             <img src="/images/et/engineering.jpg" alt="CAREER AREA | engineering-technology | Engineering" class="img-responsive">
-                            <span class="career-area"><h4>Engineering</h4></span>
+                            
                             <div class="auto-hover">
                                 <h4>Engineering</h4>
                                 <span>Manufacturing and Engineering Careers</span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="padding-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -532,11 +557,11 @@
                     <li class="col-xs-12 col-sm-6 col-md-4 entry et">
                         <figure>
                             <img src="/images/et/engineering-technology.jpg" alt="CAREER AREA | engineering-technology | Aerospace" class="img-responsive">
-                            <span class="career-area"><h4 class="large">Aerospace</h4></span>
+                            
                             <div class="auto-hover">
                                 <h4>Aerospace</h4>
                                 <span></span>
-                                <a href="/career-pages/engineering.html" class="icon-btn" data-popup="engineering">
+                                <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
@@ -674,7 +699,7 @@
     <section class="col-sm-12 fulltime-bar clearfix">
         <div class="container">
             <h2>Seen enough, apply now! </h2>
-            <a href="apply.html" class="apply-btn btn">Apply NOW</a>
+            <a href="/apply/" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>
 
@@ -688,12 +713,12 @@
                 <h5>The Cornwall College Group</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="about.html">more</a>
                 </p>
-                <span class="social-icons">
-	    <a href="#" class="transition"><i class="fa fa-twitter fa-lg"></i></a>
-	    <a href="#" class="transition"><i class="fa fa-facebook fa-lg"></i></a>
-	    <a href="#" class="transition"><i class="fa fa-youtube fa-lg"></i></a>
-	  
-      </span>
+                <!-- menu social icons -->
+        <div class="social-icons menu-social-icons col-sm-12 text-center">
+            <a href="https://www.facebook.com/cornwallcollegeuk"><i class="fa fa-facebook fa-lg"></i></a>
+            <a href="https://twitter.com/cornwallcollege"><i class="fa fa-twitter fa-lg"></i></a>
+            <a href="https://plus.google.com/+cornwallcollege/videos"><i class="fa fa-google-plus fa-lg"></i></a>
+        </div>
             </article>
             <!-- footer column 2 -->
             <article class="col-sm-6 col-md-4">
@@ -710,7 +735,7 @@
                         <tr>
                             <td class="text-center"><i class="fa fa-location-arrow fa-2x"></i>
                             </td>
-                            <td><address>Trevenson Rd. Pool TR16 3RD </address>
+                            <td><address>Trevenson Rd. Pool TR15 3RD </address>
                             </td>
                         </tr>
                         <tr>
@@ -772,29 +797,58 @@
     <!-- END OF FOOTER -->
 
     <div class="help-button" style="">
-        <a class="btn btn-primary feedback" data-toggle="collapse" href="#feedback" aria-expanded="false" aria-controls="feedback"><i class="fa fa-comment fa-lg"></i><span>Feedback</span></a>
-        <div class="collapse" id="feedback" >
-            <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
-            </div>
-        </div>
-    </div>  
-    <div class="help-button" style="">
-        <a class="btn btn-primary ask-a-question" data-toggle="collapse" href="#ask-a-question" aria-expanded="false" aria-controls="ask-a-question"><i class="fa fa-question fa-lg"></i><span>Question</span></a>
+        <a class="btn btn-primary ask-a-question" data-toggle="collapse" href="#ask-a-question" aria-expanded="false" aria-controls="ask-a-question"><i class="fa fa-question fa-lg"></i><span>Ask a Question</span></a>
         <div class="collapse" id="ask-a-question" >
             <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
+        <section class="container">
+            <section class="col-md-12">
+                <span class="question-text">
+                <p class="lead">Do you have a question? please let us know the details and a member of our enquiries team will be in touch</p>
+                </span>    
+        <!-- contact form with input fields -->
+                <!-- contact form with input fields -->
+                <form id="question" class="col-md-8 form-horizontal help-form" role="form" novalidate="novalidate">
+                    <div id="result"></div>
+                    <!-- FULL NAME -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Full Name*">
+                        </div>
+                    </div>
+                    <!-- EMAIL -->
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                        </div>
+                    </div>
+                  <!-- MESSAGE -->
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <textarea class="form-control" rows="7" name="message" id="message" placeholder="Message*"></textarea>
+                        </div>
+                      </div>
+
+                    <!-- SUBMIT BUTTON -->
+                    <div class="form-group text-left">
+                        <div class="col-sm-12">
+                            <button id="submit-btn" type="submit" class="custom-btn transition">
+                                Send!
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="success" class="alert alert-sucess">
+                    <span class="green text-center container layer-size-1">
+                        <i class="fa fa-check fa-3x"></i>
+                    </span>
+                </div>
+            </section>
+        </section>
             </div>
         </div>
     </div>  
-    <div class="help-button" >
-        <a class="btn btn-primary live-chat" data-toggle="collapse" href="#live-chat" aria-expanded="false" aria-controls="live-chat"><i class="fa fa-life-ring fa-lg"></i><span>Help</span></a>
-        <div class="collapse" id="live-chat" >
-            <div class="help-window">
-                <p style="margin-bottom:0;">This is where the help section is</p>
-            </div>
-        </div>
-    </div>      
+    
     <!-- JS FILES  -->
     <script src="//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -806,7 +860,7 @@
     <script src="//cdn.jsdelivr.net/lightbox/0.5/js/jquery.lightbox-0.5.min.js"></script>
     <script src="//cdn.jsdelivr.net/jquery.form/3.51/jquery.form.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>  
-    <script src="js/classie.js"></script>
+    <script src="/js/classie.js"></script>
     <script src="/js/grid.js"></script>      
     <script src="/js/hub-pages.js"></script>
     <script type="text/javascript">
