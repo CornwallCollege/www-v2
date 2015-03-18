@@ -744,7 +744,12 @@ section h2 strong {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-
+@media(min-width:320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #services {
+        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
 @media(min-width:768px) {
     #services {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
@@ -875,7 +880,12 @@ section h2 strong {
     
     background-size: cover;
 }
-
+@media(min-width:320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #services {
+        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
 @media(min-width:768px) {
     .engineering-bar {
         background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
