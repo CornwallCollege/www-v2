@@ -36,7 +36,7 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
     echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1");
   }
     
-    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/public");
+    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/m.cornwall.ac.uk/public");
     die("done " . mktime());
 }
 

@@ -13,3 +13,7 @@ markdown: kramdown
 exclude: [vendor]
 
 # Plugins
+asset_bundler:
+  compress:
+    js: yui
+    css: yui
