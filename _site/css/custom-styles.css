@@ -361,17 +361,20 @@ section h2 strong {
     padding: 10px 5px;
 }
 
+.fixed-btn .row .col-xs-6 a {
+    padding: 40px 0;
+    white-space: normal;
+}
+
 @media(min-width: 991px) {
     .fixed-btn .btn {
         padding: 15px 0;
         position: absolute;
-        bottom: 0;
+        bottom: 0;    
     }
-}
-
-.fixed-btn .row .col-xs-6 a {
-    padding: 40px 0;
-    white-space: normal;
+    .fixed-btn .row .col-xs-6 a {
+        padding: 20px 0;
+    }
 }
 
 .fixed-btn .row a {
