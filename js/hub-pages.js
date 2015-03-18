@@ -228,9 +228,9 @@ function incrementCount(counter) {
             $(document).on("click", "#cancel-btn", function () {
                 event.preventDefault();
                 if (hash.length) {
-                    location.href = "/career-pages/" + hash + ".html";
+                    location.href = "/career-pages/" + hash + "/";
                 } else {
-                    location.href = "/full-time-hub.html";
+                    location.href = "/full-time-hub/";
                 }
             });
 
