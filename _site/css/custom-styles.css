@@ -876,7 +876,7 @@ section h2 strong {
     text-align: center;
     padding: 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
-    /*height: 400px;*/
+    height: 400px;
     
     background-size: cover;
 }
