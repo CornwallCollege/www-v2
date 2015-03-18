@@ -217,7 +217,7 @@ function incrementCount(counter) {
     /* APPLY FORM */
 
     $(document).ready(function () {
-        if (location.pathname === "/apply.html") {
+        if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
             $('#loader').fadeOut(1500);
             var hash = location.hash.replace('#', '').toLowerCase();
             if (hash.length) {
