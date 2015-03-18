@@ -30,10 +30,12 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
     // If there is already a repo, just run a git pull to grab the latest changes
 	echo shell_exec("cd {$LOCAL_REPO} && git reset --hard origin/master");
     echo shell_exec("cd {$LOCAL_REPO} && git pull 2>&1 ");
+    echo shell_exec("cd {$LOCAL_REPO} && git submodule foreach git pull 2>&1");
+      
 
   } else {
     // If the repo does not exist, then clone it into the parent directory
-    echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1");
+    echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1 && git submodule foreach git pull 2>&1");
   }
     
     echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/m.cornwall.ac.uk/public");
