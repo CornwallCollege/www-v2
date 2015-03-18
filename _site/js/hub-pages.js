@@ -212,7 +212,10 @@ function incrementCount(counter) {
     });
 
 
-
+   /* PORTFOLIO EXPANDER GRID INITIALIZER */
+   if ( $( "#og-grid" ).length ) {
+      Grid.init();
+   }  
 
     /* APPLY FORM */
 
@@ -302,4 +305,6 @@ function incrementCount(counter) {
             });
         }
     });
+      
+    
 })(jQuery);
