@@ -220,7 +220,7 @@ function incrementCount(counter) {
     /* APPLY FORM */
 
     $(document).ready(function () {
-        if (location.pathname === "/apply.html") {
+        if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
             $('#loader').fadeOut(1500);
             var hash = location.hash.replace('#', '').toLowerCase();
             if (hash.length) {
@@ -231,9 +231,9 @@ function incrementCount(counter) {
             $(document).on("click", "#cancel-btn", function () {
                 event.preventDefault();
                 if (hash.length) {
-                    location.href = "/career-pages/" + hash + ".html";
+                    location.href = "/career-pages/" + hash + "/";
                 } else {
-                    location.href = "/full-time-hub.html";
+                    location.href = "/full-time-hub/";
                 }
             });
 
