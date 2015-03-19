@@ -636,7 +636,7 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #technology-engineering {
-            background-size: auto 300px;
+            background-size: auto 400px;
     }
 }
 
@@ -753,7 +753,7 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #services {
-            background-size: auto 300px;
+            background-size: auto 400px;
     }
 }
 @media(min-width:768px) {
@@ -807,7 +807,7 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #apply-head {
-            background-size: auto 400px;
+            background-size: auto 500px;
     }
 }
 @media(min-width:768px) {
@@ -830,7 +830,7 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #fulltime-bar {
-            background-size: auto 400px;
+            background-size: auto 500px;
     }
 }
 @media(min-width:768px) {
@@ -905,7 +905,7 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #ngineering-bar {
-            background-size: auto 400px;
+            background-size: auto 500px;
     }
 }
 @media(min-width:768px) {
