@@ -829,7 +829,7 @@ section h2 strong {
 }
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #fulltime-bar {
+    .fulltime-bar {
             background-size: auto 500px;
     }
 }
@@ -904,7 +904,7 @@ section h2 strong {
 }
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #ngineering-bar {
+    .engineering-bar {
             background-size: auto 500px;
     }
 }
