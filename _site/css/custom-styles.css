@@ -636,7 +636,8 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #technology-engineering {
-            background-size: auto 400px;
+        background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;        
+        background-size: auto 400px;
     }
 }
 
@@ -747,19 +748,14 @@ section h2 strong {
 /* ---------- Services ----------*/
 
 #services {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #services {
-            background-size: auto 400px;
-    }
-}
-@media(min-width:768px) {
-    #services {
-        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
+        background: url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
+        background-size: auto 400px;
     }
 }
 @media(min-width:768px) {
@@ -807,7 +803,8 @@ section h2 strong {
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     #apply-head {
-            background-size: auto 500px;
+        background: url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;        
+        background-size: auto 400px;
     }
 }
 @media(min-width:768px) {
@@ -824,13 +821,13 @@ section h2 strong {
     text-align: center;
     padding: 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;
-    height: 400px;
     background-size: cover;
 }
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     .fulltime-bar {
-            background-size: auto 500px;
+        background: url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;        
+        background-size: auto 500px;
     }
 }
 @media(min-width:768px) {
@@ -897,15 +894,14 @@ section h2 strong {
     clear: both;
     text-align: center;
     padding: 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
-    /*height: 400px;*/
-    
+    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 /* Safari fix iPhone 4 (with retina display) ----------- */
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     .engineering-bar {
-            background-size: auto 500px;
+        background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;        
+        background-size: auto 500px;
     }
 }
 @media(min-width:768px) {
@@ -974,7 +970,7 @@ section h2 strong {
 /* ---------  Career Section --------- */
 
 #career {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(http://placehold.it/1400x300) 50% 0 no-repeat fixed;
+    background: url(http://placehold.it/1400x300) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
