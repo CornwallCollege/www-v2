@@ -13,8 +13,10 @@
   * 5. Go into your Github Repo > Settings > Service Hooks > WebHook URLs and add the public URL 
   *    (e.g., http://example.com/webhook.php)
   *
-**/
+ **/
 
+// testing redeployment works
+ 
 // Set Variables
 $LOCAL_ROOT         = "/var/www/html/";
 $LOCAL_REPO_NAME    = "m.cornwall.ac.uk";
