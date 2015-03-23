@@ -2,7 +2,6 @@
 /** 
   * This script is for easily deploying updates to Github repos to your local server. It will automatically git clone or 
   * git pull in your repo directory every time an update is pushed to your $BRANCH (configured below).
-  * 
   * Read more about how to use this script at http://behindcompanies.com/2014/01/a-simple-script-for-deploying-code-with-githubs-webhooks/
   * 
   * INSTRUCTIONS:\
@@ -14,10 +13,12 @@
   * 5. Go into your Github Repo > Settings > Service Hooks > WebHook URLs and add the public URL 
   *    (e.g., http://example.com/webhook.php)
   *
-**/
+ **/
 
+// testing redeployment works
+ 
 // Set Variables
-$LOCAL_ROOT         = "/home/site1/public_html/";
+$LOCAL_ROOT         = "/var/www/html/";
 $LOCAL_REPO_NAME    = "m.cornwall.ac.uk";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "https://github.com/CornwallCollege/www-v2.git";
@@ -36,7 +37,7 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
     echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1 && git submodule foreach git pull 2>&1");
   }
     
-    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /home/site1/public_html/m.cornwall.ac.uk/public");
+    echo shell_exec("jekyll build -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /var/www/html/public");
     die("done " . mktime());
 }
 
