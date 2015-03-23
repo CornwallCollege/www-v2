@@ -6,3 +6,8 @@
       });
    }
    
+   /* BACK BUTTON */
+    function goBack() {
+        window.history.back()
+    }
+   /* BACK BUTTON ENDS*/

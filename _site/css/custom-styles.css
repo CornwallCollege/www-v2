@@ -270,7 +270,7 @@ p.help-button-text:hover {
 .help-window {
     max-height: 70%;
     background: #52B3D9;
-    z-index: 999;
+    z-index: 9999;
     position: relative
 }
 
@@ -1328,21 +1328,20 @@ div.collapsed h2 span.readmore {
 div h2 span.readmore {
     display: none;
 }
-.back-button,
-.back-button i{
+.back-button{
     display: none
 }
-@media(max-width:768px){}
+@media(max-width:768px){
     .back-button{
-        display:inline-block;
+        display:block;
         position:absolute;
         top: 250px;
-        left:10px;
-        z-index: 9999;
+        left:15px;
+        z-index: 9991;
         color: white;
     }
     .back-button i{
-        font-size:60px;
+        font-size:55px;
         opacity: .4;
     }
     .back-button i:hover{
