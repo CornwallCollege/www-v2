@@ -685,6 +685,11 @@ section h2 strong {
     background-size: -moz-cover;
     background-size: cover;
 }
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #technology-engineering {
+        background-size: auto 568px;
+    }
+}
 
 @media(min-width:768px) {
     #technology-engineering {
@@ -799,7 +804,11 @@ section h2 strong {
     background-size: -moz-cover;
     background-size: cover;
 }
-
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #services {
+        background-size: auto 568px;
+    }
+}
 @media(min-width:768px) {
     #services {
         background: url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
@@ -844,6 +853,11 @@ section h2 strong {
     background-size: -o-cover;
     background-size: -moz-cover;
     background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #apply-head {
+        background-size: auto 568px;
+    }
 }
 @media(min-width:768px) {
     #apply-head {
@@ -946,6 +960,11 @@ section h2 strong {
     background-position: 50% 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .engineering-bar {
+        background-size: auto 568px;
+    }
 }
 @media(min-width:768px) {
     .engineering-bar {
