@@ -15,5 +15,5 @@ exclude: [vendor]
 # Plugins
 asset_bundler:
   compress:
-    js: yui
+    js: closure
     css: yui
