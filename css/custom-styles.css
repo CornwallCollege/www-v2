@@ -1328,7 +1328,27 @@ div.collapsed h2 span.readmore {
 div h2 span.readmore {
     display: none;
 }
-
+.back-button,
+.back-button i{
+    display: none
+}
+@media(max-width:768px){}
+    .back-button{
+        display:inline-block;
+        position:absolute;
+        top: 250px;
+        left:10px;
+        z-index: 9999;
+        color: white;
+    }
+    .back-button i{
+        font-size:60px;
+        opacity: .4;
+    }
+    .back-button i:hover{
+        opacity: 1;
+    }
+}
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
