@@ -1146,6 +1146,20 @@ section h2 strong {
     -o-transition: all 0.3s ease;
 }
 /* Cluster Colors*/
+.career-filter ul li a.as {
+    border: 5px solid #712180;
+    color: #712180;
+}
+
+.career-filter ul li a.as:hover {
+    border: 5px solid #712180;
+    background-color: #712180;
+}
+
+.career-filter li a.selected.as {
+    background-color: #712180;
+    color: white;
+}
 
 .career-filter ul li a.bpi {
     border: 5px solid #E73029;
