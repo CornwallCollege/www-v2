@@ -469,7 +469,11 @@ section h2 strong {
     color: #fff;
 }
 /*------------------ Ghost button styles --------------------*/
-
+.portal > a.ghost{
+    width:80%; 
+    margin-top:10px;
+    border-width: 1px;
+}
 .ghost {
     background: transparent;
     color: #52B3D9;
