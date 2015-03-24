@@ -20,12 +20,16 @@ function incrementCount(counter) {
 
 
     $(document).ready(function () {
-        $('#loader').fadeOut(1500);
-        /*var hash = location.hash.replace('#', '').toLowerCase();
-        if(hash.length)
-        {
-            showPopup(hash);    
-        }*/
+        $('#loader').fadeOut(1500);    
+        /*
+            $(window).load(function() { // makes sure the whole site is loaded
+
+            var hash = location.hash.replace('#', '').toLowerCase();
+            if(hash.length)
+            {
+                showPopup(hash);    
+            }
+        */
 
         /* Shrink logo on scroll */
         window.addEventListener('scroll', function (e) {
