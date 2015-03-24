@@ -240,7 +240,7 @@ p.help-button-text:hover {
     position: relative;
 }
 
-.help-button i {
+.help-button > i {
     color: white;
     position: relative;
     -webkit-transition: all 0.4s;
@@ -258,13 +258,13 @@ p.help-button-text:hover {
     font-size: 20px;
 }
 
-.help-button:hover i {
+.help-button:hover > i {
     color: white;
 }
 
 .help-tab {
     background: #52b3d9;
-    padding: 5px 10px;
+    padding: 6px 10px;
 }
 
 .help-window {

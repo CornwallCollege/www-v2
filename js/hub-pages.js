@@ -230,6 +230,8 @@ function incrementCount(counter) {
             if (hash.length) {
                 $("#interest").val(hash);
                 $("#interest").hide();
+                $("#interest-label").val(hash);
+                $("#interest-label").hide();                
             }
 
             $(document).on("click", "#cancel-btn", function () {
