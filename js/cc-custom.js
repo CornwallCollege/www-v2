@@ -304,13 +304,7 @@ function incrementCount(counter) {
                                 url: "/include/process.php",
 
                                 success: function () {
-
-                                    $('#success').fadeIn('slow', function () {
-                                        //setTimeout("$('#success').fadeOut('slow');", 2000);
-                                        $('#apply :input').val('');
-                                    });
-                                    $("#submit-btn").removeAttr('disabled');
-                                    $("#cancel-btn").removeAttr('disabled');
+                                    document.location="/apply/success/";
                                 },
 
                                 error: function () {
