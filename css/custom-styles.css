@@ -1317,13 +1317,14 @@ section h2 strong {
     left: 0;
 }
 
-@media(max-width:380px) {
+@media(max-width:420px) {
     .career-areas .box-square {
         padding-left: 0;
         padding-right: 0;
     }
     .career-areas article {
-        padding: 30px;
+        padding: 15px 20px;
+        text-align: center;
     }
 }
 /* ---------  Career Section ENDS --------- */
