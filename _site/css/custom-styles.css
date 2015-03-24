@@ -304,6 +304,39 @@ a.ask-a-question:focus{
     display: inline-block;
 }
 /*-------Help form-----------*/
+.form-horizontal {
+	display: block;
+	width: 100%;
+	margin: 50px auto 0;
+	text-align: left;
+}
+
+.form-horizontal label {
+	position: relative;
+	z-index: 13;
+	padding-left: 10px;
+    line-height: 41px;
+}
+.form-horizontal label i {
+    color:dimgrey;
+}
+.form-horizontal input,
+.form-horizontal textarea,
+.form-horizontal select {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	min-height: 50px;
+	margin-top: -50px;
+	line-height: 50px;
+	font-size: 1em;
+	padding-left: 30px;
+	padding-right: 10px;
+	width: 100%;
+	color: #666666;
+	background: #ffffff;
+	border: 2px solid #eeeeee;
+}
 
 .help-form {
     margin-top: 30px;
