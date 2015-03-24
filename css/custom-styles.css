@@ -469,10 +469,38 @@ section h2 strong {
     color: #fff;
 }
 /*------------------ Ghost button styles --------------------*/
-.portal > a.ghost{
-    width:80%; 
-    margin-top:10px;
+.portal{
+    margin-top: 3%;
+}
+.portal a.ghost{
     border-width: 1px;
+    width:85%;
+}
+.portal a.ghost:last-of-type{
+    margin-top: 7px;
+}
+.portal a.ghost i{
+    padding-right:10px;
+    font-size:15px;
+}
+@media ( min-width:769px){
+    .portal{
+        position:absolute;
+        top: 0;
+    }
+    .portal a.ghost{
+        width:100%; 
+    }    
+}
+@media ( min-width:1200px){
+    .portal{
+        position:absolute;
+        top: 0;
+    }
+    .portal .ghost {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
 }
 .ghost {
     background: transparent;
@@ -564,7 +592,7 @@ section h2 strong {
 
 @media(max-width: 680px) {
     .menu-item-links {
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
 /* Orientation-dependent styles for the content of the menu */
