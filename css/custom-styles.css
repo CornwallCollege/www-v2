@@ -742,7 +742,9 @@ section h2 strong {
 /* =================================
         Cluster area header images 
 */
-
+.jumbotron{
+    z-index: 1;
+} 
 #technology-engineering {
     background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: -webkit-cover;
@@ -1417,7 +1419,7 @@ div h2 span.readmore {
         position:absolute;
         top: 250px;
         left:15px;
-        z-index: 9991;
+        z-index: 99;
         color: white;
     }
     .back-button i{
