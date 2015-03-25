@@ -1428,6 +1428,17 @@ div h2 span.readmore {
         opacity: 1;
     }
 }
+.search-submit{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0 25px;
+    background: none;
+    border: none;
+}
+#search-form .input-group-addon{
+    padding:0;
+}
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
