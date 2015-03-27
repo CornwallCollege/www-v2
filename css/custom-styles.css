@@ -1030,6 +1030,7 @@ section h2 strong {
 }
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     .engineering-bar {
+        background: url(../images/engineering-technology-bg-mobile.jpg); /* Standard syntax */     
         background-size: auto 568px;
     }
 }
