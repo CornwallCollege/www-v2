@@ -745,26 +745,6 @@ section h2 strong {
 .jumbotron{
     z-index: 1;
 } 
-#technology-engineering {
-    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #technology-engineering {
-        background-size: auto 568px;
-    }
-}
-
-@media(min-width:768px) {
-    #technology-engineering {
-        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
-    }
-}
-/* =================================
 
 /* ----------------- Staff area styles ---------------------*/
 
@@ -1010,16 +990,45 @@ section h2 strong {
         margin-bottom: 70px;
     }
 }
+/* engineering and technology | header bar */
+#technology-engineering {
+    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: -webkit-cover;
+    background-size: -o-cover;
+    background-size: -moz-cover;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #technology-engineering {
+        background-size: auto 568px;
+    }
+}
+
+@media(min-width:768px) {
+    #technology-engineering {
+        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+
+.apply-bar h2:before {
+    background: url(../images/subtle_carbon.png) center repeat;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
 /* engineering and technology | apply now bar */
 
 .engineering-bar {
     clear: both;
     text-align: center;
     padding: 0;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/engineering-technology-bg-mobile.jpg); /* Standard syntax */     
+    background: url(../images/engineering-technology-bg-mobile.jpg); /* Standard syntax */     
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
@@ -1027,6 +1036,7 @@ section h2 strong {
     background-position: 50% 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    z-index: 0;
 }
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
     .engineering-bar {
@@ -1040,6 +1050,7 @@ section h2 strong {
         background-size: cover;
     }
 }
+/* engineering and technology | apply now bar */
 
 .margin-top {
     margin-top: 70px;
