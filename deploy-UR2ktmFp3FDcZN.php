@@ -21,7 +21,7 @@
 $LOCAL_ROOT         = "/var/www/html/";
 $LOCAL_REPO_NAME    = "m.cornwall.ac.uk";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
-$REMOTE_REPO        = "https://github.com/CornwallCollege/www-v2.git";
+$REMOTE_REPO        = "https://7437530e3c5ed64e03de83c71ff46b234995ffc2@github.com/CornwallCollege/www-v2.git";
 $BRANCH             = "master";
 
 // check for Github useragent - changed to allow wget for daily
