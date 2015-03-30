@@ -990,26 +990,7 @@ section h2 strong {
         margin-bottom: 70px;
     }
 }
-/* engineering and technology | header bar */
-#technology-engineering {
-    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #technology-engineering {
-        background-size: auto 568px;
-    }
-}
 
-@media(min-width:768px) {
-    #technology-engineering {
-        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
-    }
-}
 .apply-bar{
     background-size: -webkit-cover;
     background-size: -o-cover;
@@ -1034,6 +1015,138 @@ section h2 strong {
     opacity: 0.7;
     z-index: -1;
 }
+/* engineering and technology | Engineering | header bar */
+#technology-engineering {
+    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #technology-engineering {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #technology-engineering {
+        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* ACADEMIC STUDIES | A-Levels | header bar */
+#a-levels {
+    background: url(../images/area-banners/a-levels-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #a-levels {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #a-levels {
+        background: url(../images/area-banners/a-levels-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* BUSINESS AND PRO | Accountancy & Financial | header bar */
+#accountancy-financial {
+    background: url(../images/area-banners/accountancy-financial-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #accountancy-financial {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #accountancy-financial {
+        background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* BUSINESS AND PRO | Education and Teaching | header bar */
+#education-teaching {
+    background: url(../images/area-banners/education-teaching-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #education-teaching {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #education-teaching {
+        background: url(../images/area-banners/education-teaching-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* BUSINESS AND PRO | sales marketing and customer services | header bar */
+#sales-marketing {
+    background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #sales-marketing {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #sales-marketing {
+        background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* BUSINESS AND PRO | Business and admin | header bar */
+#business-admin {
+    background: url(../images/area-banners/business-admin-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #business-admin {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #business-admin {
+        background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* BUSINESS AND PRO | health and safety | header bar */
+#health-safety {
+    background: url(../images/area-banners/health-safety-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #health-safety {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #health-safety {
+        background: url(../images/area-banners/health-safety-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* BUSINESS AND PRO | digital-technologies | header bar */
+#digital-technologies {
+    background: url(../images/area-banners/digital-technologies-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #digital-technologies {
+        background-size: auto 568px;
+    }
+}
+@media(min-width:768px) {
+    #digital-technologies {
+        background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/*====================================================================================================
+APPLY BARS =========================================================================================
+====================================================================================================*/
+
 /* engineering and technology | apply now bar */
 
 .engineering-bar {
@@ -1051,22 +1164,141 @@ section h2 strong {
         background-size: cover;
     }
 }
-/* engineering and technology | apply now bar */
-
-.margin-top {
-    margin-top: 70px;
+/* A-levels | apply now bar */
+.a-levels-bar {
+    background: url(../images/area-banners/a-levels-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .a-levels-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .a-levels-bar {
+        background: url(../images/area-banners/a-levels-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* Accountancy Financial | apply now bar */
+.accountancy-bar {
+    background: url(../images/area-banners/accountancy-financial-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .accountancy-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .accountancy-bar {
+        background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* education-teaching | apply now bar */
+.education-teaching-bar {
+    background: url(../images/area-banners/education-teaching-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .education-teaching-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .education-teaching-bar {
+        background: url(../images/area-banners/education-teaching-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* education-teaching | apply now bar */
+.sales-marketing-bar {
+    background: url(../images/area-banners/customer-service-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .sales-marketing-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .sales-marketing-bar {
+        background: url(../images/area-banners/customer-service-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* business and admin | apply now bar */
+.business-admin-bar {
+    background: url(../images/area-banners/business-admin-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .business-admin-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .business-admin-bar {
+        background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* health and safety | apply now bar */
+.health-safety-bar {
+    background: url(../images/area-banners/health-safety-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .health-safety-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .health-safety-bar {
+        background: url(../images/area-banners/health-safety-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* digital-technologies | apply now bar */
+.digital-technologies-bar {
+    background: url(../images/area-banners/digital-technologies-mobile.jpg); /* Standard syntax */     
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .digital-technologies-bar {     
+        background-size: auto 520px;
+    }
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .digital-technologies-bar {
+        background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
 }
 
-.engineering-bar section {
+
+.engineering-bar section,
+.a-levels-bar section,
+.accountancy-bar section,
+.sales-marketing-bar section,
+.business-admin-bar section,
+.health-safety-bar section,
+.digital-technologies-bar section{
     letter-spacing: 1.5px;
     /*height: 400px;*/
-    
     font-family: "Raleway";
     font-weight: 400;
     margin: 0;
 }
 
-.engineering-bar h2 {
+.engineering-bar h2,
+.a-levels-bar h2,
+.accountancy-bar h2,
+.sales-marketing-bar h2,
+.business-admin-bar h2,
+.health-safety-bar h2,
+.digital-technologies-bar h2{
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1075,7 +1307,13 @@ section h2 strong {
     text-align: center
 }
 
-.engineering-bar .btn {
+.engineering-bar .btn,
+.a-levels-bar .btn,
+.accountancy-bar .btn,
+.sales-marketing-bar .btn,
+.business-admin-bar .btn,
+.health-safety-bar .btn,
+.digital-technologies-bar .btn{
     background: transparent;
     border: 5px #52B3D9 solid;
     color: #52B3D9;
@@ -1087,23 +1325,45 @@ section h2 strong {
     margin-bottom: 120px;
 }
 
-.engineering-bar .btn:hover {
+.engineering-bar .btn:hover,
+.a-levels-bar .btn:hover,
+.accountancy-bar .btn:hover,
+.business-admin-bar .btn:hover,
+.health-safety-bar .btn:hover,
+.digital-technologies-bar .btn:hover{
     border: 5px #fff solid;
     color: #fff;
     opacity: 1;
 }
 
 @media(max-width: 480px) {
-    .engineering-bar h2 {
+    .engineering-bar h2,
+    .a-levels-bar h2,
+    .accountancy-bar h2,
+    .sales-marketing-bar h2,
+    .business-admin-bar h2,
+    .health-safety-bar h2,
+    .digital-technologies-bar h2{
         padding-top: 70px;
         font-size: 40px;
     }
-    .engineering-bar .btn {
+    .engineering-bar .btn,
+    .a-levels-bar .btn,
+    .accountancy-bar .btn,
+    .sales-marketing-bar .btn,
+    .business-admin-bar .btn,
+    .health-safety-bar .btn,
+    .digital-technologies-bar .btn{
         font-size: 20px;
         padding: 10px 20px;
         margin-bottom: 70px;
     }
 }
+
+.margin-top {
+    margin-top: 70px;
+}
+
 /* --------- Full time section call to action ENDS --------- */
 
 .dark-bg h2 {
