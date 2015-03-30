@@ -990,6 +990,26 @@ section h2 strong {
         margin-bottom: 70px;
     }
 }
+/* engineering and technology | header bar */
+#technology-engineering {
+    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: -webkit-cover;
+    background-size: -o-cover;
+    background-size: -moz-cover;
+    background-size: cover;
+}
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #technology-engineering {
+        background-size: auto 568px;
+    }
+}
+
+@media(min-width:768px) {
+    #technology-engineering {
+        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
 .apply-bar{
     background-size: -webkit-cover;
     background-size: -o-cover;
@@ -1012,59 +1032,32 @@ section h2 strong {
     right: 0;
     top: 0;
     opacity: 0.7;
-    z-index: 0;
+    z-index: -1;
 }
-/* engineering and technology | header bar | apply bar */
-#technology-engineering,
-.engineering-bar{
-    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
+/* engineering and technology | apply now bar */
+
+.engineering-bar {
+    background: url(../images/engineering-technology-bg-mobile.jpg); /* Standard syntax */     
 }
 @media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #technology-engineering,
-    .engineering-bar{
-        background-size: auto 568px;
+    .engineering-bar {     
+        background-size: auto 520px;
     }
 }
-
+/*DESKTOP version of the background*/
 @media(min-width:768px) {
-    #technology-engineering,
-    .engineering-bar{
+    .engineering-bar {
         background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
-/* A-Levels | header bar | apply bar*/
-#a-levels,
-.a-levels-bar{
-    background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #a-levels,
-    .a-levels-bar{
-        background-size: auto 568px;
-    }
-}
-
-@media(min-width:768px) {
-    #a-levels,
-    .a-levels-bar{
-        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
-    }
-}
+/* engineering and technology | apply now bar */
 
 .margin-top {
     margin-top: 70px;
 }
 
-.engineering-bar section,
-.a-levels-bar section{
+.engineering-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
     
@@ -1073,8 +1066,7 @@ section h2 strong {
     margin: 0;
 }
 
-.engineering-bar h2,
-.a-levels-bar h2{
+.engineering-bar h2 {
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1083,8 +1075,7 @@ section h2 strong {
     text-align: center
 }
 
-.engineering-bar .btn,
-.a-levels-bar .btn{
+.engineering-bar .btn {
     background: transparent;
     border: 5px #52B3D9 solid;
     color: #52B3D9;
@@ -1096,22 +1087,18 @@ section h2 strong {
     margin-bottom: 120px;
 }
 
-.engineering-bar .btn:hover,
-.a-levels-bar .btn:hover{
+.engineering-bar .btn:hover {
     border: 5px #fff solid;
     color: #fff;
     opacity: 1;
 }
 
 @media(max-width: 480px) {
-    .engineering-bar h2,
-    .a-levels-bar h2
-    {
+    .engineering-bar h2 {
         padding-top: 70px;
         font-size: 40px;
     }
-    .engineering-bar .btn,
-    .a-levels-bar .btn{
+    .engineering-bar .btn {
         font-size: 20px;
         padding: 10px 20px;
         margin-bottom: 70px;
