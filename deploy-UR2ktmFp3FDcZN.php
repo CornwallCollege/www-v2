@@ -21,13 +21,13 @@
 $LOCAL_ROOT         = "/var/www/html/";
 $LOCAL_REPO_NAME    = "m.cornwall.ac.uk";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
-$REMOTE_REPO        = "https://github.com/CornwallCollege/www-v2.git";
+$REMOTE_REPO        = "https://7437530e3c5ed64e03de83c71ff46b234995ffc2@github.com/CornwallCollege/www-v2.git";
 $BRANCH             = "master";
 
-if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
-  // Only respond to requests from Github
-  
-  if( file_exists($LOCAL_REPO) ) {  
+// check for Github useragent - changed to allow wget for daily
+//if (stristr($_SERVER[‘HTTP_USER_AGENT’],"GitHub-Hookshot") == !FALSE) {
+
+    if( file_exists($LOCAL_REPO) ) {  
     // If there is already a repo, just run a git pull to grab the latest changes
 	echo shell_exec("cd {$LOCAL_REPO} && git reset --hard origin/master");
     echo shell_exec("cd {$LOCAL_REPO} && git pull 2>&1 ");      
@@ -39,6 +39,6 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
     
     echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /var/www/html/m.cornwall.ac.uk/public 2>&1");
     die("done " . mktime());
-}
+//}
 
 ?>
