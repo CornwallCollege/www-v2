@@ -483,7 +483,7 @@ section h2 strong {
     padding-right:10px;
     font-size:15px;
 }
-@media ( min-width:769px){
+@media ( min-width:767px){
     .portal{
         position:absolute;
         top: 0;
@@ -618,11 +618,14 @@ section h2 strong {
     }
 }
 
-.menu-social-icons {
+.cbp-spmenu .menu-social-icons {
     padding: 20px 15px;
     margin-top: 0;
     position: absolute;
     bottom: 0px
+}
+.menu-social-icons {
+    padding: 20px 15px;
 }
 
 @media(max-width:680px) {
@@ -1713,6 +1716,11 @@ div h2 span.readmore {
 }
 #search-form .input-group-addon{
     padding:0;
+}
+@media(max-width:769px){
+    .ccg-brands{
+        clear:both;
+    }
 }
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
