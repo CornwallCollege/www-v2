@@ -563,45 +563,8 @@ description: The Cornwall College Group enable you to study for a range of caree
             </header>
             <div class="main">
                 <ul id="og-grid" class="og-grid">
-                    <!-- EVENT ITEM 1 -->
-                    <li>
-
-                        <a href="#" data-largesrc="http://placehold.it/400x400" data-title="Event 1" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot." data-category="Newquay" data-date="15.Nov.2015">
-                            <div class="event-title-wrap caption">
-                                <h4 class="event-title">Event title 1</h4>
-                            </div>
-                            <img src="http://placehold.it/250x250" alt="img01" />
-                        </a>
-                    </li>
-                    <!-- EVENT ITEM 2 -->
-                    <li>
-                        <a href="#" data-largesrc="http://placehold.it/400x400" data-title="Event 2" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu." data-category="Saltash" data-date="15.Nov.2015">
-                            <div class="event-title-wrap caption">
-                                <h4 class="event-title">Event title 2</h4>
-                            </div>
-                            <img src="http://placehold.it/250x250" alt="img02" />
-                        </a>
-                    </li>
-                    <!-- EVENT ITEM 3 -->
-                    <li>
-                        <a href="#" data-largesrc="http://placehold.it/400x400" data-title="Event 3" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato." data-category="St Austell" data-date="15.Nov.2015">
-                            <div class="event-title-wrap caption">
-                                <h4 class="event-title">Event title 3</h4>
-                            </div>
-                            <img src="http://placehold.it/250x250" alt="img03" />
-                        </a>
-                    </li>
-                    <!-- EVENT ITEM 4 -->
-                    <li>
-                        <a href="#" data-largesrc="http://placehold.it/400x400" data-title="Event 4" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot." data-category="Rosewarne" data-date="15.Nov.2015">
-                            <div class="event-title-wrap caption">
-                                <h4 class="event-title">Event title 4</h4>
-                            </div>
-                            <img src="http://placehold.it/250x250" alt="img01" />
-                        </a>
-                    </li>
+                    
                 </ul>
-
             </div>
 
         </section>
@@ -666,3 +629,47 @@ description: The Cornwall College Group enable you to study for a range of caree
             <a href="/apply/" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>
+
+    <script>
+        
+        
+        (function () {
+            var t="<li>";
+            t+="<a href='[url]' data-largesrc='http://placehold.it/400x400' data-title='[title]' data-description='[description]' data-category='[campus]' data-date='[date]'>";
+            t+=" <div class='event-title-wrap caption'>";
+            t+="  <h4 class='event-title'>[title]</h4>";
+            t+=" </div>";
+            t+=" <img src='[img]' alt='[title]' />";
+            t+=" </a>";
+            t+="</li>";
+            function loadJSON(callback) {   
+                var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+                xobj.open('GET', '../data/CollegeEvents.json', true);
+                xobj.onreadystatechange = function () {
+                    if (xobj.readyState == 4 && xobj.status == "200") {
+                        callback(xobj.responseText);
+                    }
+                };
+                xobj.send(null);  
+             }
+             loadJSON(function(response) {
+                var events = JSON.parse(response);
+                var h = '';
+                for (var i = 0; i < events.length; i++) {
+                    var e=t;
+                    e=e.replace('[url]',events[i].DetailUrl);
+                    var imgurl = 'http://placehold.it/250x250';
+                    e=e.replace('[img]',imgurl);
+                    e=e.replace('[title]',events[i].Title);
+                    e=e.replace('[title]',events[i].Title);
+                    e=e.replace('[title]',events[i].Title);
+                    e=e.replace('[campus]',events[i].Campus);
+                    e=e.replace('[date]',events[i].Date);
+                    e=e.replace('[description]',events[i].Description);
+                    h+=e;
+                };
+                document.getElementById('og-grid').innerHTML = h;
+            });
+        })();
+    </script>
