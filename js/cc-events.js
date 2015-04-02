@@ -16,9 +16,9 @@ cc.events.nearest = function (events, c) {
         return a.geoDist - b.geoDist;
     });
     return events;
-}; 
+};
 cc.events.formatDate = function (d) {
-    return $.datepicker.formatDate('DD dd.MM.yy', new Date(d));
+    return $.datepicker.formatDate('dd.MM.yy', new Date(d));
 };
 cc.events.load = function (jsonFilepath, at, take) {
     var t = "<li>";
@@ -30,30 +30,36 @@ cc.events.load = function (jsonFilepath, at, take) {
     t += " </a>";
     t += "</li>";
     $.getJSON(jsonFilepath, function (events) {
-        navigator.geolocation.getCurrentPosition(function (p) {
-            events = cc.events.soonest(events);
-            events = cc.events.nearest(events, p.coords);
+        events = cc.events.soonest(events);
+        var placeEvents = function (events) {
             events = events.slice(0, Math.min(take, events.length));
             $.each(events, function (i, e) {
-                var h = '';                
+                var h = '';
                 for (var i = 0; i < events.length; i++) {
                     var e = t;
-                    e = e.replace('[url]', events[i].DetailUrl);                     
+                    e = e.replace('[url]', events[i].DetailUrl);
                     e = e.replace('[img]', events[i].Image);
                     e = e.replace('[img]', events[i].Image);
-                    e = e.replace('[title]', events[i].Title); 
+                    e = e.replace('[title]', events[i].Title);
                     e = e.replace('[title]', events[i].Title);
                     e = e.replace('[title]', events[i].Title);
                     e = e.replace('[campus]', events[i].Campus);
                     e = e.replace('[date]', cc.events.formatDate(events[i].Date));
                     e = e.replace('[description]', events[i].Description);
-                    h += e;                     
-                };                
+                    h += e;
+                };
                 document.getElementById(at).innerHTML = h;
-                var grid = $('#og-grid');   
+                var grid = $('#og-grid');
                 var items = grid.children('li');
-                Grid.addItems(items);                 
+                Grid.addItems(items);
             });
+        };
+        navigator.geolocation.getCurrentPosition(function (p) {
+            events = cc.events.nearest(events, p.coords);
+            placeEvents(events);
+        }, function() {
+            placeEvents(events);
         });
-    });  
+
+    });
 };
