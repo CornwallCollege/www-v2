@@ -483,7 +483,7 @@ section h2 strong {
     padding-right:10px;
     font-size:15px;
 }
-@media ( min-width:769px){
+@media ( min-width:767px){
     .portal{
         position:absolute;
         top: 0;
@@ -618,11 +618,14 @@ section h2 strong {
     }
 }
 
-.menu-social-icons {
+.cbp-spmenu .menu-social-icons {
     padding: 20px 15px;
     margin-top: 0;
     position: absolute;
     bottom: 0px
+}
+.menu-social-icons {
+    padding: 20px 15px;
 }
 
 @media(max-width:680px) {
@@ -1020,11 +1023,6 @@ section h2 strong {
     background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #technology-engineering {
-        background-size: auto 568px;
-    }
-}
 @media(min-width:768px) {
     #technology-engineering {
         background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
@@ -1035,11 +1033,6 @@ section h2 strong {
 #a-levels {
     background: url(../images/area-banners/a-levels-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #a-levels {
-        background-size: auto 568px;
-    }
 }
 @media(min-width:768px) {
     #a-levels {
@@ -1052,11 +1045,6 @@ section h2 strong {
     background: url(../images/area-banners/accountancy-financial-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #accountancy-financial {
-        background-size: auto 568px;
-    }
-}
 @media(min-width:768px) {
     #accountancy-financial {
         background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1067,11 +1055,6 @@ section h2 strong {
 #education-teaching {
     background: url(../images/area-banners/education-teaching-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #education-teaching {
-        background-size: auto 568px;
-    }
 }
 @media(min-width:768px) {
     #education-teaching {
@@ -1084,11 +1067,6 @@ section h2 strong {
     background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #sales-marketing {
-        background-size: auto 568px;
-    }
-}
 @media(min-width:768px) {
     #sales-marketing {
         background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1099,11 +1077,6 @@ section h2 strong {
 #business-admin {
     background: url(../images/area-banners/business-admin-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #business-admin {
-        background-size: auto 568px;
-    }
 }
 @media(min-width:768px) {
     #business-admin {
@@ -1116,11 +1089,6 @@ section h2 strong {
     background: url(../images/area-banners/health-safety-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #health-safety {
-        background-size: auto 568px;
-    }
-}
 @media(min-width:768px) {
     #health-safety {
         background: url(../images/area-banners/health-safety-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1132,15 +1100,318 @@ section h2 strong {
     background: url(../images/area-banners/digital-technologies-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    #digital-technologies {
-        background-size: auto 568px;
-    }
-}
 @media(min-width:768px) {
     #digital-technologies {
         background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
+    }
+}
+
+/* -------------------------------------- CULTURE AND VISITOR ECONOMY -------------------------------------------------- */
+
+/* CULTURE & VISITOR ECONOMY | catering & hospitality | header bar */
+#catering-hospitality {
+    background: url(../images/area-banners/catering-hospitality-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #catering-hospitality {
+        background: url(../images/area-banners/catering-hospitality-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* CULTURE & VISITOR ECONOMY | Catering & Hospitality | header bar */
+#travel-visitor-attractions {
+    background: url(../images/area-banners/travel-visitor-attractions-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #travel-visitor-attractions {
+        background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* CULTURE & VISITOR ECONOMY | Media Digital Creativity | header bar */
+#media-digital-creativity {
+    background: url(../images/area-banners/media-digital-creativity-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #media-digital-creativity {
+        background: url(../images/area-banners/media-digital-creativity-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* CULTURE & VISITOR ECONOMY | performing-arts | header bar */
+#performing-arts {
+    background: url(../images/area-banners/performing-arts-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #performing-arts {
+        background: url(../images/area-banners/performing-arts-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+
+/* -------------------------------------- Health and Wellbeing -------------------------------------------------- */
+/* HELTH & WELLBEING | Hair and beauty | header bar */
+#hair-beauty {
+    background: url(../images/area-banners/hair-beauty-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #hair-beauty {
+        background: url(../images/area-banners/hair-beauty-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* HELTH & WELLBEING | Public Services | header bar */
+#public-services {
+    background: url(../images/area-banners/public-services-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #public-services {
+        background: url(../images/area-banners/public-services-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* HELTH & WELLBEING | Childrens Workforce | header bar */
+#childrens-workforce {
+    background: url(../images/area-banners/childrens-workforce-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #childrens-workforce {
+        background: url(../images/area-banners/childrens-workforce-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* HELTH & WELLBEING | Social Care | header bar */
+#social-care {
+    background: url(../images/area-banners/social-care-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #social-care {
+        background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* HELTH & WELLBEING | Sport and fitness | header bar */
+#social-care {
+    background: url(../images/area-banners/social-care-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #social-care {
+        background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* HELTH & WELLBEING | Health | header bar */
+#health {
+    background: url(../images/area-banners/health-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #health {
+        background: url(../images/area-banners/health-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* -------------------------------------- RURAL ECONOMY -------------------------------------------------- */
+/* RURAL ECONOMY | Animal Science and Management | header bar */
+#animal-science-management {
+    background: url(../images/area-banners/animal-science-management-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #animal-science-management {
+        background: url(../images/area-banners/animal-science-management-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | agriculture horticulture | header bar */
+#agriculture-horticulture {
+    background: url(../images/area-banners/agriculture-horticulture-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #agriculture-horticulture {
+        background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | countryside management | header bar */
+#countryside-management {
+    background: url(../images/area-banners/countryside-management-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #countryside-management {
+        background: url(../images/area-banners/countryside-management-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | food production | header bar */
+#food-production {
+    background: url(../images/area-banners/food-production-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #food-production {
+        background: url(../images/area-banners/food-production-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | APPLIED FORENSIC SCIENCE | header bar */
+#applied-forensic-science {
+    background: url(../images/area-banners/applied-forensic-science-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #applied-forensic-science {
+        background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
+/* SCIENCE AND THE NATURAL ENVIROMENT | applied-forensic-science | header bar */
+#applied-forensic-science {
+    background: url(../images/area-banners/applied-forensic-science-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #applied-forensic-science {
+        background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* SCIENCE AND THE NATURAL ENVIROMENT | marine-natural-science-conservation | header bar */
+#marine-natural-science-conservation {
+    background: url(../images/area-banners/marine-natural-science-conservation-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #marine-natural-science-conservation {
+        background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* SCIENCE AND THE NATURAL ENVIROMENT | environmental-science | header bar */
+#environmental-science {
+    background: url(../images/area-banners/environmental-science-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #environmental-science { 
+        background: url(../images/area-banners/environmental-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* --------------------------------------- TECHNOLOGY -------------------------------------------------- */
+/* TECHNOLOGY | environmental-science | header bar */
+#construction {
+    background: url(../images/area-banners/construction-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #construction { 
+        background: url(../images/area-banners/construction-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | electrical | header bar */
+#electrical {
+    background: url(../images/area-banners/electrical-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #electrical { 
+        background: url(../images/area-banners/electrical-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | automotive | header bar */
+#automotive {
+    background: url(../images/area-banners/automotive-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #automotive { 
+        background: url(../images/area-banners/automotive-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | boatbuilding | header bar */
+#boatbuilding {
+    background: url(../images/area-banners/boatbuilding-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #boatbuilding { 
+        background: url(../images/area-banners/boatbuilding-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | construction-plant | header bar */
+#construction-plant {
+    background: url(../images/area-banners/construction-plant-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #construction-plant { 
+        background: url(../images/area-banners/construction-plant-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | aerospace | header bar */
+#aerospace {
+    background: url(../images/area-banners/aerospace-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #aerospace { 
+        background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* ---------------------------iPhone Fix ----------------------------------------*/
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    #aerospace,
+    #construction-plant,
+    #boatbuilding,
+    #automotive,
+    #electrical,
+    #construction,
+    #environmental-science,
+    #marine-natural-science-conservation,
+    #applied-forensic-science,
+    #equine,
+    #food-production,
+    #countryside-management,
+    #agriculture-horticulture,
+    #animal-science-management,
+    #health,
+    #social-care,
+    #sport,
+    #childrens-workforce,
+    #hair-beauty,
+    #performing-arts,
+    #media-digital-creativity,
+    #travel-visitor-attractions,
+    #catering-hospitality,
+    #digital-technologies,
+    #health-safety,
+    #business-admin,
+    #sales-marketing
+    #education-teaching,
+    #accountancy-financial,
+    #a-levels,
+    #technology-engineering{
+        background-size: auto 568px;
     }
 }
 /*====================================================================================================
@@ -1152,11 +1423,6 @@ APPLY BARS =====================================================================
 .engineering-bar {
     background: url(../images/engineering-technology-bg-mobile.jpg); /* Standard syntax */     
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .engineering-bar {     
-        background-size: auto 520px;
-    }
-}
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
     .engineering-bar {
@@ -1164,14 +1430,10 @@ APPLY BARS =====================================================================
         background-size: cover;
     }
 }
+/* ----------------------------------------- A Levels -------------------------------------------------- */
 /* A-levels | apply now bar */
 .a-levels-bar {
     background: url(../images/area-banners/a-levels-mobile.jpg); /* Standard syntax */     
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .a-levels-bar {     
-        background-size: auto 520px;
-    }
 }
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
@@ -1180,14 +1442,10 @@ APPLY BARS =====================================================================
         background-size: cover;
     }
 }
+/* -------------------------------------- BUSINESS AND PRO -------------------------------------------------- */
 /* Accountancy Financial | apply now bar */
 .accountancy-bar {
     background: url(../images/area-banners/accountancy-financial-mobile.jpg); /* Standard syntax */     
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .accountancy-bar {     
-        background-size: auto 520px;
-    }
 }
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
@@ -1200,11 +1458,6 @@ APPLY BARS =====================================================================
 .education-teaching-bar {
     background: url(../images/area-banners/education-teaching-mobile.jpg); /* Standard syntax */     
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .education-teaching-bar {     
-        background-size: auto 520px;
-    }
-}
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
     .education-teaching-bar {
@@ -1215,11 +1468,6 @@ APPLY BARS =====================================================================
 /* education-teaching | apply now bar */
 .sales-marketing-bar {
     background: url(../images/area-banners/customer-service-mobile.jpg); /* Standard syntax */     
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .sales-marketing-bar {     
-        background-size: auto 520px;
-    }
 }
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
@@ -1232,11 +1480,6 @@ APPLY BARS =====================================================================
 .business-admin-bar {
     background: url(../images/area-banners/business-admin-mobile.jpg); /* Standard syntax */     
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .business-admin-bar {     
-        background-size: auto 520px;
-    }
-}
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
     .business-admin-bar {
@@ -1247,11 +1490,6 @@ APPLY BARS =====================================================================
 /* health and safety | apply now bar */
 .health-safety-bar {
     background: url(../images/area-banners/health-safety-mobile.jpg); /* Standard syntax */     
-}
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .health-safety-bar {     
-        background-size: auto 520px;
-    }
 }
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
@@ -1264,11 +1502,6 @@ APPLY BARS =====================================================================
 .digital-technologies-bar {
     background: url(../images/area-banners/digital-technologies-mobile.jpg); /* Standard syntax */     
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
-    .digital-technologies-bar {     
-        background-size: auto 520px;
-    }
-}
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
     .digital-technologies-bar {
@@ -1277,14 +1510,318 @@ APPLY BARS =====================================================================
     }
 }
 
+/* -------------------------------------- CULTURE AND VISITOR ECONOMY -------------------------------------------------- */
 
-.engineering-bar section,
-.a-levels-bar section,
-.accountancy-bar section,
-.sales-marketing-bar section,
-.business-admin-bar section,
-.health-safety-bar section,
-.digital-technologies-bar section{
+/* CULTURE AND VISITOR ECONOMY | Catering & Hospitality | apply now bar */
+.catering-hospitality-bar {
+    background: url(../images/area-banners/catering-hospitality-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .catering-hospitality-bar {
+        background: url(../images/area-banners/catering-hospitality-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* CULTURE AND VISITOR ECONOMY | travel-visitor-attractions | apply now bar */
+.travel-visitor-attractions-bar {
+    background: url(../images/area-banners/travel-visitor-attractions-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .travel-visitor-attractions-bar {
+        background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* CULTURE AND VISITOR ECONOMY | media-digital-creativity | apply now bar */
+.media-digital-creativity-bar {
+    background: url(../images/area-banners/media-digital-creativity-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .media-digital-creativity-bar {
+        background: url(../images/area-banners/media-digital-creativity-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* CULTURE AND VISITOR ECONOMY | performing-arts | apply now bar */
+.performing-arts-bar {
+    background: url(../images/area-banners/performing-arts-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .performing-arts-bar {
+        background: url(../images/area-banners/performing-arts-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+
+/* -------------------------------------- HEALTH & WELLBEING -------------------------------------------------- */
+/* HEALTH & WELLBEING | hair and beauty | apply now bar */
+.hair-beauty-bar {
+    background: url(../images/area-banners/hair-beauty-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .hair-beauty-bar {
+        background: url(../images/area-banners/hair-beauty-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* HEALTH & WELLBEING | public service | apply now bar */
+.public-services-bar {
+    background: url(../images/area-banners/public-services-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .public-services-bar {
+        background: url(../images/area-banners/public-services-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* HEALTH & WELLBEING | Childrens Workforce | apply now bar */
+.childrens-workforce-bar {
+    background: url(../images/area-banners/childrens-workforce-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .childrens-workforce-bar {
+        background: url(../images/area-banners/childrens-workforce-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* HEALTH & WELLBEING | Sport and Fitness | apply now bar */
+.sport-bar {
+    background: url(../images/area-banners/sport-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .sport-bar {
+        background: url(../images/area-banners/sport-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* HEALTH & WELLBEING | Social Care | apply now bar */
+.social-care-bar {
+    background: url(../images/area-banners/social-care-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .social-care-bar {
+        background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* HEALTH & WELLBEING | Health | apply now bar */
+.health-bar {
+    background: url(../images/area-banners/health-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .health-bar {
+        background: url(../images/area-banners/health-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+} 
+/* -------------------------------------- RURAL ECONOMY -------------------------------------------------- */
+/* RURAL ECONOMY | Animal Science and Management | apply now bar */
+.animal-science-management-bar {
+    background: url(../images/area-banners/animal-science-management-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .animal-science-management-bar {
+        background: url(../images/area-banners/animal-science-management-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | agriculture horticulture | apply now bar */
+.agriculture-horticulture-bar {
+    background: url(../images/area-banners/agriculture-horticulture-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .agriculture-horticulture-bar {
+        background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | countryside management | apply now bar */
+.countryside-management-bar {
+    background: url(../images/area-banners/countryside-management-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .countryside-management-bar {
+        background: url(../images/area-banners/countryside-management-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | food production | apply now bar */
+.food-production-bar {
+    background: url(../images/area-banners/food-production-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .food-production-bar {
+        background: url(../images/area-banners/food-production-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | equine | apply now bar */
+.equine-bar {
+    background: url(../images/area-banners/equine-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .equine-bar {
+        background: url(../images/area-banners/equine-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+
+/* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
+
+/* SCIENCE AND THE NATURAL ENVIROMENT | applied-forensic-science | apply now bar */
+.applied-forensic-science-bar {
+    background: url(../images/area-banners/applied-forensic-science-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .applied-forensic-science-bar {
+        background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* SCIENCE AND THE NATURAL ENVIROMENT | marine natural science conservation | apply now bar */
+.marine-natural-science-conservation-bar {
+    background: url(../images/area-banners/marine-natural-science-conservation-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .marine-natural-science-conservation-bar {
+        background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* SCIENCE AND THE NATURAL ENVIROMENT | environmental-science | apply now bar */
+.environmental-science-bar {
+    background: url(../images/area-banners/environmental-science-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .environmental-science-bar {
+        background: url(../images/area-banners/environmental-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* --------------------------------------- TECHNOLOGY -------------------------------------------------- */
+/* TECHNOLOGY | construction | apply now bar */
+.construction-bar {
+    background: url(../images/area-banners/construction-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .construction-bar {
+        background: url(../images/area-banners/construction-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | electrical | apply now bar */
+.electrical-bar {
+    background: url(../images/area-banners/electrical-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .electrical-bar {
+        background: url(../images/area-banners/electrical-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | automotive | apply now bar */
+.automotive-bar {
+    background: url(../images/area-banners/automotive-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .automotive-bar {
+        background: url(../images/area-banners/automotive-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | boatbuilding | apply now bar */
+.boatbuilding-bar {
+    background: url(../images/area-banners/boatbuilding-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .boatbuilding-bar {
+        background: url(../images/area-banners/boatbuilding-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | construction-plant | apply now bar */
+.construction-plant-bar {
+    background: url(../images/area-banners/construction-plant-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .construction-plant-bar {
+        background: url(../images/area-banners/construction-plant-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* TECHNOLOGY | aerospace | apply now bar */
+.aerospace-bar {
+    background: url(../images/area-banners/aerospace-mobile.jpg); /* Standard syntax */     
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .aerospace-bar {
+        background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* -------------------------------------iPhone Background FIX ---------------------------------------------*/ 
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+    .aerospace-bar,
+    .construction-plant-bar,
+    .boatbuilding-bar,
+    .automotive-bar,
+    .electrical-bar,
+    .construction-bar,
+    .environmental-science-bar,
+    .marine-natural-science-conservation-bar,
+    .applied-forensic-science-bar,
+    .equine-bar,
+    .food-production-bar,
+    .countryside-management-bar,
+    .agriculture-horticulture-bar,
+    .animal-science-management-bar,
+    .health-bar,
+    .social-care-bar,
+    .hair-beauty-bar,
+    .performing-arts-bar,
+    .media-digital-creativity-bar,
+    .travel-visitor-attractions-bar,
+    .catering-hospitality-bar,
+    .digital-technologies-bar,
+    .health-safety-bar,
+    .business-admin-bar,
+    .sales-marketing-bar,
+    .education-teaching-bar,
+    .accountancy-bar,
+    .a-levels-bar,
+    .engineering-bar,
+    .public-services-bar,
+    .childrens-workforce,
+    .sport-bar{     
+        background-size: auto 520px;
+    }
+}
+
+.apply-bar section{
     letter-spacing: 1.5px;
     /*height: 400px;*/
     font-family: "Raleway";
@@ -1292,13 +1829,7 @@ APPLY BARS =====================================================================
     margin: 0;
 }
 
-.engineering-bar h2,
-.a-levels-bar h2,
-.accountancy-bar h2,
-.sales-marketing-bar h2,
-.business-admin-bar h2,
-.health-safety-bar h2,
-.digital-technologies-bar h2{
+.apply-bar h2{
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1307,13 +1838,7 @@ APPLY BARS =====================================================================
     text-align: center
 }
 
-.engineering-bar .btn,
-.a-levels-bar .btn,
-.accountancy-bar .btn,
-.sales-marketing-bar .btn,
-.business-admin-bar .btn,
-.health-safety-bar .btn,
-.digital-technologies-bar .btn{
+.apply-bar .btn{
     background: transparent;
     border: 5px #52B3D9 solid;
     color: #52B3D9;
@@ -1325,35 +1850,18 @@ APPLY BARS =====================================================================
     margin-bottom: 120px;
 }
 
-.engineering-bar .btn:hover,
-.a-levels-bar .btn:hover,
-.accountancy-bar .btn:hover,
-.business-admin-bar .btn:hover,
-.health-safety-bar .btn:hover,
-.digital-technologies-bar .btn:hover{
+.apply-bar .btn:hover{
     border: 5px #fff solid;
     color: #fff;
     opacity: 1;
 }
 
 @media(max-width: 480px) {
-    .engineering-bar h2,
-    .a-levels-bar h2,
-    .accountancy-bar h2,
-    .sales-marketing-bar h2,
-    .business-admin-bar h2,
-    .health-safety-bar h2,
-    .digital-technologies-bar h2{
+    .apply-bar h2{
         padding-top: 70px;
         font-size: 40px;
     }
-    .engineering-bar .btn,
-    .a-levels-bar .btn,
-    .accountancy-bar .btn,
-    .sales-marketing-bar .btn,
-    .business-admin-bar .btn,
-    .health-safety-bar .btn,
-    .digital-technologies-bar .btn{
+    .apply-bar .btn{
         font-size: 20px;
         padding: 10px 20px;
         margin-bottom: 70px;
@@ -1713,6 +2221,11 @@ div h2 span.readmore {
 }
 #search-form .input-group-addon{
     padding:0;
+}
+@media(max-width:769px){
+    .ccg-brands{
+        clear:both;
+    }
 }
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
