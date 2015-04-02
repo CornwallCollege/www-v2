@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 using System.Web.Script.Serialization;
@@ -15,12 +17,25 @@ namespace GetEventsData
             var webDriver = new RemoteWebDriver(new Uri("http://CAM-202D6X1:4444/wd/hub"), DesiredCapabilities.Chrome());
             webDriver.Url = "http://www.cornwall.ac.uk/events/all";
             var collegeEvents = GetAllCollegeEvents(webDriver);
-            StoreAsJson(collegeEvents, Path.Combine(Environment.CurrentDirectory, "CollegeEvents.json"));
+            collegeEvents = EnrichWithDetails(webDriver, collegeEvents);
+            StoreAsJson(collegeEvents, Path.Combine(@"C:\Git\www-v2\data", "CollegeEvents.json"));
         }
-         
+
+        private static List<CollegeEvent> EnrichWithDetails(RemoteWebDriver webDriver, List<CollegeEvent> collegeEvents)
+        {
+            foreach (var collegeEvent in collegeEvents)
+            {
+                webDriver.Url = collegeEvent.DetailUrl;
+                collegeEvent.Title = webDriver.FindText(By.Id("page-title"));
+                collegeEvent.Image =
+                    webDriver.FindElementByCssSelector("ARTICLE>DIV:nth-of-type(1)>DIV:nth-of-type(2)>DIV>DIV>DIV>IMG").GetAttribute("src");
+                //var image = Help.LoadImageFromUrl(collegeEvent.Image);                
+            }
+            return collegeEvents;
+        }
 
         private static void StoreAsJson(List<CollegeEvent> collegeEvents, string path)
-        {
+        {            
             var json = new JavaScriptSerializer().Serialize(collegeEvents);
             File.WriteAllText(path, json);
         }
@@ -75,9 +90,10 @@ namespace GetEventsData
                                               Title = title,
                                               Image = image,
                                               Category = category,
-                                              Date = date,
+                                              Date = DateTime.Parse(date).ToString("dd MMM yyy"),
                                               Campus = campus,
                                               Location = location,
+                                              GeoLoc = Help.PostCodeGeoLocs[location.Split(',').Last().Trim()],
                                               Description = description
                                           });
                 }
@@ -107,7 +123,14 @@ namespace GetEventsData
         public string Date { get; set; }
         public string Campus { get; set; }
         public string Location { get; set; }
+        public GeoLoc GeoLoc { get; set; }
         public string Description { get; set; }
+    }
+    
+    internal class GeoLoc
+    {
+        public double Lat { get; set; }
+        public double Lng { get; set; }
     }
 
     static class Help
@@ -119,7 +142,35 @@ namespace GetEventsData
             {
                 context = context.FindElements(by).First();
             }
-            return ((IWebElement)context).Text.Trim();
+            return ((IWebElement)context).Text.Trim().TrimStart(Environment.NewLine.ToCharArray()).TrimEnd(Environment.NewLine.ToCharArray());
+        }
+
+        internal static Dictionary<string,GeoLoc> PostCodeGeoLocs {get
+        {
+            var locs = new Dictionary<string, GeoLoc>();
+            locs.Add("TR15 3RD", new GeoLoc() { Lat = 50.2268425, Lng = -5.2758395 });
+            locs.Add("TR7 2LZ", new GeoLoc() { Lat = 50.4105492, Lng = -5.0682225 });
+            locs.Add("PL12 4AE", new GeoLoc() { Lat = 50.4055478, Lng = -4.2279294 });
+            locs.Add("PL25 4DJ", new GeoLoc() { Lat = 50.3464922, Lng = -4.7850022 });
+            locs.Add("TR14 0AB", new GeoLoc() { Lat = 50.223385, Lng = -5.3013473 });
+            locs.Add("PL17 8PB", new GeoLoc() { Lat = 50.5461939, Lng = -4.3212666 });
+            locs.Add("TR11 3QS", new GeoLoc() { Lat = 50.1528966, Lng = -5.0742430 });
+            locs.Add("EX9 7BH", new GeoLoc() { Lat = 50.6657793, Lng = -3.3089837 });
+            locs.Add("EX9 7BY", new GeoLoc() { Lat = 50.6657793, Lng = -3.3089837 });
+            return locs;
+        }}
+
+        public static Image LoadImageFromUrl(string imageUrl)
+        {
+            var webRequest = (HttpWebRequest) HttpWebRequest.Create(imageUrl);
+            using (var webResponse = (HttpWebResponse)webRequest.GetResponse())
+            {
+                using (var stream = webResponse.GetResponseStream())
+                {
+                    return Image.FromStream(stream);
+                }
+            }
         }
     }
+
 }

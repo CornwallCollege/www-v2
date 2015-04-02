@@ -665,8 +665,7 @@ description: The Cornwall College Group enable you to study for a range of caree
                 <h2 class="text-uppercase">Our latest <strong style="color:white;">events</strong></h2>
             </header>
             <div class="main">
-                <ul id="og-grid" class="og-grid">
-                    
+                <ul id="og-grid" class="og-grid">                    
                 </ul>
             </div>
 
@@ -726,7 +725,7 @@ description: The Cornwall College Group enable you to study for a range of caree
             </footer>
         </section>
     </section>
-    
+     
 
     <!-- action to call section -->
     <section class="col-sm-12 fulltime-bar clearfix">
@@ -736,46 +735,6 @@ description: The Cornwall College Group enable you to study for a range of caree
         </div>
     </section>
 
-    <script>
-        
-        
-        (function () {
-            var t="<li>";
-            t+="<a href='[url]' data-largesrc='http://placehold.it/400x400' data-title='[title]' data-description='[description]' data-category='[campus]' data-date='[date]'>";
-            t+=" <div class='event-title-wrap caption'>";
-            t+="  <h4 class='event-title'>[title]</h4>";
-            t+=" </div>";
-            t+=" <img src='[img]' alt='[title]' />";
-            t+=" </a>";
-            t+="</li>";
-            function loadJSON(callback) {   
-                var xobj = new XMLHttpRequest();
-                xobj.overrideMimeType("application/json");
-                xobj.open('GET', '../data/CollegeEvents.json', true);
-                xobj.onreadystatechange = function () {
-                    if (xobj.readyState == 4 && xobj.status == "200") {
-                        callback(xobj.responseText);
-                    }
-                };
-                xobj.send(null);  
-             }
-             loadJSON(function(response) {
-                var events = JSON.parse(response);
-                var h = '';
-                for (var i = 0; i < events.length; i++) {
-                    var e=t;
-                    e=e.replace('[url]',events[i].DetailUrl);
-                    var imgurl = 'http://placehold.it/250x250';
-                    e=e.replace('[img]',imgurl);
-                    e=e.replace('[title]',events[i].Title);
-                    e=e.replace('[title]',events[i].Title);
-                    e=e.replace('[title]',events[i].Title);
-                    e=e.replace('[campus]',events[i].Campus);
-                    e=e.replace('[date]',events[i].Date);
-                    e=e.replace('[description]',events[i].Description);
-                    h+=e;
-                };
-                document.getElementById('og-grid').innerHTML = h;
-            });
-        })();
+    <script>    
+        window.loadFuncs.push(function() { cc.events.load('../data/CollegeEvents.json','og-grid',3); });
     </script>
