@@ -6,6 +6,12 @@ cc.events.soonest = function (events) {
     });
     return events;
 };
+cc.events.stillOn = function (events) {
+    events.filter(function(e) {
+        return new Date(e.Date) >= new Date();
+    });
+    return events;
+};
 cc.events.nearest = function (events, c) {
     events = events.map(function (e) {
         e.geoDist = cc.geo.calcGeoDistance(c.latitude, c.longitude, e.GeoLoc.Lat, e.GeoLoc.Lng);
@@ -21,7 +27,7 @@ cc.events.formatDate = function (d) {
     return $.datepicker.formatDate('dd.MM.yy', new Date(d));
 };
 cc.events.load = function (jsonFilepath, at, take) {
-    var t = "<li>";
+    var t = "<li>"; 
     t += "<a href='[url]' data-largesrc='[img]' data-title='[title]' data-description='[description]' data-category='[campus]' data-date='[date]'>";
     t += " <div class='event-title-wrap caption'>";
     t += "  <h4 class='event-title'>[title]</h4>";
@@ -30,6 +36,7 @@ cc.events.load = function (jsonFilepath, at, take) {
     t += " </a>";
     t += "</li>";
     $.getJSON(jsonFilepath, function (events) {
+        events = cc.events.stillOn(events);
         events = cc.events.soonest(events);
         var placeEvents = function (events) {
             events = events.slice(0, Math.min(take, events.length));
