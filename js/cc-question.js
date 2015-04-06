@@ -40,7 +40,7 @@ cc.question.form.validation = function () {
             $(form).ajaxSubmit({
                 type: "POST",
                 data: $(form).serialize(),
-                url: "http://core.cornwall.ac.uk/sherpa/enquiries/email/question",
+                url: "https://core.cornwall.ac.uk/sherpa/enquiries/email/question",
             });
             $("#ask-a-question-button").click();
             return true; 
