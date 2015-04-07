@@ -20,16 +20,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $question = validatePostField('question', 'Question', $errList);        
             $topic = "Question: $question";
             $subject = $name.": Question";
-            break;
+            break; 
     } 
     
-    if(count($errList)==0) {        
+    if(count($errList)==0) {         
         $details  = "Name: $name\n";
         $details .= "Email: $email\n";
         $details .= "Contact: $phone\n";        
         $details .= "$topic\n";        
         sendEmailToEnquiries($email, $type, $details, $subject);
-        sendEmailToLearner($email, $type, $details);        
+        sendEmailToLearner($email, $type, $details);     
+        echo "here!";
     }else{
         http_response_code(400);   
         echo json_encode($errList);
@@ -59,7 +60,7 @@ function sendEmailToLearner($email, $type, $details) {
     $send = mail($email, $subject, $body, $headers);
 }
 
-function validatePost($field, $message, $errList) {
+function validatePostField($field, $message, $errList) {
      if(empty($_POST[$field]))
     {
         $errList[] = array("field"=> $data,"message"=> "$message is required.");                      
@@ -73,6 +74,6 @@ function test_input($data) {
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;
-}
+} 
 
 ?>
