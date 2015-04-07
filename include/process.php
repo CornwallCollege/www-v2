@@ -1,76 +1,78 @@
 <?php
+
 $errList = array();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if(empty($_POST['email']))
-    {
-        $errList[] = array("field"=> "email","message"=> "Email Address required.");
-                      
-    }else{
-        $to = test_input($_POST['email']);//"enquires@cornwall.ac.uk";
-        $from = test_input($_POST['email']);
-    }
     
-    if(empty($_POST['name']))
-    {
-          $errList[] = array("field"=>"name","message"=> "Name is required.");
+    $email = validatePostField('email', 'Email Address', $errList);
+    $name = validatePostField('name', 'Name', $errList);
+    $phone = validatePostField('phone', 'Contact number', $errList);        
+    
+    $type = test_input($_POST['source']);        
+    
+    switch ($type) {
+        case "application":
+            $careerInterest = validatePostField('interest', 'Career Interest', $errList);        
+            $topic = "Career Interest: $careerInterest";
+            $subject = $name.": ".$careerInterest;
+            break;
+        case "question":
+            $question = validatePostField('question', 'Question', $errList);        
+            $topic = "Question: $question";
+            $subject = $name.": Question";
+            break;
+    } 
+    
+    if(count($errList)==0) {        
+        $details  = "Name: $name\n";
+        $details .= "Email: $email\n";
+        $details .= "Contact: $phone\n";        
+        $details .= "$topic\n";        
+        sendEmailToEnquiries($email, $type, $details, $subject);
+        sendEmailToLearner($email, $type, $details);        
     }else{
-       $name = test_input($_POST['name']); 
-    }
-     
-    if(empty($_POST['contact']))
-    {
-         $errList[]= array("field"=>"contact","message"=>"Contact number is required.");
-    }else{
-       $contact = test_input($_POST['contact']); 
-    }
-       
-    if(empty($_POST['interest']))
-    {
-         $errList[] = array("field"=> "interest","message"=> "Career Interest is required.");
-    }else{
-       $interest = test_input($_POST['interest']); 
-    }
-   
-    if(count($errList)==0)
-   {    
-    $enquiries_team_email_headers = "From: $from";
-   
-    $enquiries_team_email_subject = $name.": ".$interest;
-
-    $details = "Name: ".$name."\n";
-    $details .= "Email: ".$from."\n";
-    $details .= "Contact: ".$contact."\n";
-    $details .= "Career Interest: ".$interest."\n";
-
-    $body = "Online application:\n\n";
-    $body .= $details;
-
-    $send = mail($to, $enquiries_team_email_subject, $body, $enquiries_team_email_headers);
-
-    $applicantheaders = "From: $to";
-    $applicantsubject = "Cornwall College Application";
-    $applicantbody = "Thank for your application, we recieved the following from you:\n\n";
-    $applicantbody .= $details;
-    $applicantbody .= "\n\nA member of our team will be in touch shortly.";
-    $applicantheaders = "From: enquires@cornwall.ac.uk";
-
-    $send = mail($from, $applicantsubject, $applicantbody, $applicantheaders);
-   }else{
         http_response_code(400);   
         echo json_encode($errList);
         exit();
-   }
+    }
 
 }else{
     http_response_code(400); 
     exit();
 }
 
+function sendEmailToEnquiries($email, $type, $details, $subject) {
+    $headers = "From: $email";    
+    $body = "Online ".ucfirst($type).":\n\n";
+    $body .= $details;
+    //$to = 'enquiries@cornwall.ac.uk';
+    $to = $email;
+    $send = mail($to, $subject, $body, $headers);        
+}
+
+function sendEmailToLearner($email, $type, $details) {    
+    $subject = "Cornwall College ".ucfirst($type);
+    $body = "Thank for your $type, we recieved the following from you:\n\n";
+    $body .= $details;
+    $body .= "\n\nA member of our team will be in touch shortly.";
+    $headers = "From: enquires@cornwall.ac.uk";
+    $send = mail($email, $subject, $body, $headers);
+}
+
+function validatePost($field, $message, $errList) {
+     if(empty($_POST[$field]))
+    {
+        $errList[] = array("field"=> $data,"message"=> "$message is required.");                      
+    }else{        
+        return test_input($_POST[$field]);
+    }
+}
+
 function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
 }
 
 ?>

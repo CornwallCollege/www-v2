@@ -19,6 +19,7 @@ description: Complete our application form and take the first step towards your 
                 <p class="lead">Complete the simple application form and a member of our team will be in touch to discuss your next steps and help find the right course for you.</p>
                 <!-- contact form with input fields -->
                 <form id="application" class="form-horizontal" role="form" novalidate="novalidate">
+                    <input type="hidden" name="source" id="source" value="application">
                     <div id="result"></div>
                     <!-- FULL NAME -->
                     <div class="form-group">
@@ -38,7 +39,7 @@ description: Complete our application form and take the first step towards your 
                     <div class="form-group">
                         <div class="col-sm-12">              
                             <label for="phone" accesskey="P"><i class="fa fa-phone"></i></label>
-                            <input type="text" class="form-control" name="contact" id="contact" placeholder="Contact Number*">
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Contact Number*">
                         </div>
                     </div>
                     <!-- Area of Intrest -->

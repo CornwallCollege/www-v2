@@ -38,17 +38,17 @@ $(document).ready(function () {
                     }
                 },
 
-                submitHandler: function (form) {
-                    $("#submit-btn").attr('disabled', 'disabled');
+                submitHandler: function (form) {                    
                     $(form).ajaxSubmit({
                         type: "POST",
-                        data: $(form).serialize(),
-                        url: "https://core.cornwall.ac.uk/sherpa/enquiries/email/question",
+                        data: $(form).serialize(),                        
+                        url: "/include/process.php"
                     });
                     $("#ask-a-question-button").click();
                     return true;
                 }
-            });
+            });            
         };
+        cc.question.form.validation();
     }
 });
