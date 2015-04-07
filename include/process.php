@@ -33,9 +33,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
     if(count($errList)==0)
    {    
-    $headers = "From: $from";
+    $enquiries_team_email_headers = "From: $from";
    
-    $subject = $name.": ".$interest;
+    $enquiries_team_email_subject = $name.": ".$interest;
 
     $details = "Name: ".$name."\n";
     $details .= "Email: ".$from."\n";
@@ -45,15 +45,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body = "Online application:\n\n";
     $body .= $details;
 
-    $send = mail($to, $subject, $body, $headers);
+    $send = mail($to, $enquiries_team_email_subject, $body, $enquiries_team_email_headers);
 
+    $applicantheaders = "From: $to";
     $applicantsubject = "Cornwall College Application";
     $applicantbody = "Thank for your application, we recieved the following from you:\n\n";
     $applicantbody .= $details;
     $applicantbody .= "\n\nA member of our team will be in touch shortly.";
     $applicantheaders = "From: enquires@cornwall.ac.uk";
 
-    $send = mail($from, $applicantsubject, $applicantbody, $headers);
+    $send = mail($from, $applicantsubject, $applicantbody, $applicantheaders);
    }else{
         http_response_code(400);   
         echo json_encode($errList);
