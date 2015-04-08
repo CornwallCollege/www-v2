@@ -760,31 +760,47 @@ section h2 strong {
     color: #52B3D9;
 }
 
-.box-square article:nth-child(3) {
+.box-square article:nth-child(4) {
     background: #000;
-    clear: left;
-}
 
-.box-square article:nth-child(3) h3,
-.box-square article:nth-child(3) h2,
-.box-square article:nth-child(3) p {
-    color: #fff;
 }
 
 .box-square article:nth-child(4) h3,
 .box-square article:nth-child(4) h2,
 .box-square article:nth-child(4) p {
+    color: #fff;
+}
+
+.box-square article:nth-child(3) h2,
+.box-square article:nth-child(3) h3 {
+    color:#52B3D9;
+}
+
+.box-square article:nth-child(3) {
+    /*background: #52B3D9;*/
+    background: white;
+    clear: left;    
+}
+.box-square article:nth-child(5) h3,
+.box-square article:nth-child(5) h2,
+.box-square article:nth-child(5) p {
     color: white;
 }
 
-.box-square article:nth-child(4) {
+.box-square article:nth-child(5) {
     background: #52B3D9;
+        clear: left;
 }
 
-.box-square article:nth-child(5) {
-    background: #000;
-    clear: left;
+.box-square article:nth-child(6) {
+    background: #EAEAEA;
 }
+
+.box-square article:nth-child(6) h3,
+.box-square article:nth-child(6) h4 {
+    color: #52B3D9;
+}
+
 
 .box-square-alt article {
     padding: 50px;
@@ -1817,8 +1833,14 @@ APPLY BARS =====================================================================
     .public-services-bar,
     .childrens-workforce,
     .sport-bar{     
-        background-size: auto 520px;
-    }
+        /*background-size: auto 520px;*/
+        -webkit-background-size:cover;  
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: 50% 0
+;    }
 }
 
 .apply-bar section{
@@ -1873,6 +1895,85 @@ APPLY BARS =====================================================================
 }
 
 /* --------- Full time section call to action ENDS --------- */
+
+/* --------- Career area H1 size fixes --------- 
+    #aerospace,
+    #construction-plant,
+    #boatbuilding,
+    #automotive,
+    #electrical,
+    #construction,
+    #environmental-science,
+    #marine-natural-science-conservation,
+    #applied-forensic-science,
+    #equine,
+    #food-production,
+    #countryside-management,
+    #agriculture-horticulture,
+    #animal-science-management,
+    #health,
+    #social-care,
+    #sport,
+    #childrens-workforce,
+    #hair-beauty,
+    #performing-arts,
+    #media-digital-creativity,
+    #travel-visitor-attractions,
+    #catering-hospitality,
+    #digital-technologies,
+    #health-safety,
+    #business-admin,
+    #sales-marketing
+    #education-teaching,
+    #accountancy-financial,
+    #a-levels,
+    #technology-engineering
+*/
+@media(min-width:993px){
+    #accountancy-financial h2,
+    #education-teaching h2,
+    #business-admin h2{
+        margin-top: 47px;
+    }    
+    #accountancy-financial h2 span,
+    #education-teaching h2 span,
+    #business-admin h2 span{
+        font-size: 60px;
+    }    
+}
+@media(min-width:481px) and (max-width:992px){
+    #accountancy-financial h2,
+    #education-teaching h2,
+    #business-admin h2{
+        margin-top: 46px;
+    }      
+    #accountancy-financial h2 span,
+    #education-teaching h2 span,
+    #business-admin h2 span{
+        font-size:30px;
+    }    
+}
+@media(max-width:480px){
+    #accountancy-financial h2,
+    #education-teaching h2,
+    #business-admin h2{
+        margin-top: 8px;
+    }    
+    #accountancy-financial header a small,
+    #education-teaching header a small,
+    #business-admin header a small{
+        font-size: 120%;
+    }
+    #accountancy-financial h2 span,
+    #education-teaching h2 span,
+    #business-admin h2 span{
+        font-size: 99%;
+        line-height: 85%;
+    }
+}
+
+/* ------- Career area H1 size fixes ENDS ------- */
+
 
 .dark-bg h2 {
     color: white;
@@ -2286,6 +2387,7 @@ div h2 span.readmore {
   width: 100%;
   height: 100%;
   margin-top: 0;
+    border: none;
 }
 
 .BetterTube-playBtn {
