@@ -4,7 +4,7 @@ $errList = array();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
-    $email = validatePostField('email', 'Email Address', $errList);
+    $email = validateEmail(validatePostField('email', 'Email Address', $errList), $errList);
     $name = validatePostField('name', 'Name', $errList);
     $phone = validatePostField('phone', 'Contact number', $errList);        
     
@@ -30,7 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $details .= "$topic\n";        
         sendEmailToEnquiries($email, $type, $details, $subject);
         sendEmailToLearner($email, $type, $details);     
-        echo "here!";
     }else{
         http_response_code(400);   
         echo json_encode($errList);
@@ -60,10 +59,18 @@ function sendEmailToLearner($email, $type, $details) {
     $send = mail($email, $subject, $body, $headers);
 }
 
-function validatePostField($field, $message, $errList) {
-     if(empty($_POST[$field]))
+function validateEmail($email, &$errList) {
+    if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+        $errList[] = array("field"=> 'email',"message"=> "A valid email address is required.");
+    }else {
+        return $email;
+    }
+}
+
+function validatePostField($field, $message, &$errList) {
+    if(empty($_POST[$field]))
     {
-        $errList[] = array("field"=> $data,"message"=> "$message is required.");                      
+        $errList[] = array("field"=> $field,"message"=> "$message is required."); 
     }else{        
         return test_input($_POST[$field]);
     }
@@ -74,6 +81,6 @@ function test_input($data) {
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;
-} 
+}  
 
 ?>

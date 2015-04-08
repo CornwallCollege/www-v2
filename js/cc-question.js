@@ -17,7 +17,8 @@ $(document).ready(function () {
                         email: true
                     },
                     phone: {
-                        required: true
+                        required: true,
+                        phonesUK: true
                     },
                     question: {
                         required: true
@@ -38,14 +39,24 @@ $(document).ready(function () {
                     }
                 },
 
-                submitHandler: function (form) {                    
+                submitHandler: function (form) { 
+                    $('#question-submit-btn').prop("disabled", true);
                     $(form).ajaxSubmit({
-                        type: "POST",
+                        type: "POST", 
                         data: $(form).serialize(),                        
-                        url: "/include/process.php"
+                        url: "/include/process.php",
+                        success: function() {
+                            $("#ask-a-question-button").click();
+                            $('#question-submit-btn').prop("disabled", false);
+                            return true;
+                        },
+                        error: function(err) {
+                            var errors = JSON.parse(err.responseText);
+                            alert(JSON.stringify(errors));
+                            $('#question-submit-btn').prop("disabled", false);
+                            return false;
+                        }
                     });
-                    $("#ask-a-question-button").click();
-                    return true;
                 }
             });            
         };
