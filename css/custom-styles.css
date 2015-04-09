@@ -1080,12 +1080,12 @@ section h2 strong {
 }
 /* BUSINESS AND PRO | sales marketing and customer services | header bar */
 #sales-marketing {
-    background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/area-banners/customer-service-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 @media(min-width:768px) {
     #sales-marketing {
-        background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+        background: url(../images/area-banners/customer-service-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
@@ -1930,46 +1930,64 @@ APPLY BARS =====================================================================
     #technology-engineering
 */
 @media(min-width:993px){
-    #accountancy-financial h2,
-    #education-teaching h2,
-    #business-admin h2{
+    .career-title header h2{
         margin-top: 47px;
     }    
-    #accountancy-financial h2 span,
-    #education-teaching h2 span,
-    #business-admin h2 span{
+    #sales-marketing h2{
+        margin-top: 62px;
+    }       
+    .career-title header h2 span{
         font-size: 60px;
-    }    
+    } 
+    #sales-marketing h2 span{
+        font-size: 44px;
+    }     
 }
 @media(min-width:481px) and (max-width:992px){
-    #accountancy-financial h2,
-    #education-teaching h2,
-    #business-admin h2{
+    /* Small title top margin */
+    .career-title header h2{
         margin-top: 46px;
-    }      
-    #accountancy-financial h2 span,
-    #education-teaching h2 span,
-    #business-admin h2 span{
+    }  
+    /* Extra small title top margin */
+    #sales-marketing h2{
+        margin-top: 55px;
+    }  
+    /* Small title */
+    .career-title header h2 span{
         font-size:30px;
-    }    
+    }
+    /* Extra small title */
+    #sales-marketing h2 span{
+        font-size:20px;
+    }     
 }
 @media(max-width:480px){
-    #accountancy-financial h2,
-    #education-teaching h2,
-    #business-admin h2{
-        margin-top: 8px;
-    }    
-    #accountancy-financial header a small,
-    #education-teaching header a small,
-    #business-admin header a small{
-        font-size: 120%;
+    /* two line titles */
+    .career-title header h2{ 
+        margin-top: -1px;        
     }
-    #accountancy-financial h2 span,
-    #education-teaching h2 span,
-    #business-admin h2 span{
-        font-size: 99%;
+    /* three line titles */
+    #sales-marketing h2,    
+    #travel-visitor-attractions h2,
+    #performing-arts h2{
+        margin-top:3px;
+    } 
+    /* Small breadcrumb */
+    .career-title header a small{
+        font-size: 115%;
+    }
+    /* Small title */
+    .career-title header h2 span{    
         line-height: 85%;
+        font-size: 116%;
     }
+    /* three line title */
+    #sales-marketing h2 span,
+    #travel-visitor-attractions h2 span,
+    #performing-arts h2 span{
+        font-size: 97%;
+        line-height: 98%;
+    }    
 }
 
 /* ------- Career area H1 size fixes ENDS ------- */
@@ -2299,7 +2317,7 @@ div h2 span.readmore {
     .back-button{
         display:block;
         position:absolute;
-        top: 250px;
+        top: 150px;
         left:15px;
         z-index: 99;
         color: white;
