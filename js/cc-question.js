@@ -40,20 +40,24 @@ $(document).ready(function () {
                 },
 
                 submitHandler: function (form) { 
+                    $('#question-error').html('');
                     $('#question-submit-btn').prop("disabled", true);
                     $(form).ajaxSubmit({
                         type: "POST", 
                         data: $(form).serialize(),                        
                         url: "/include/process.php",
                         success: function() {
+                            $('#question-submit-btn').prop("disabled", false);
                             $("#ask-a-question-button").click();
-                            $('#question-submit-btn').prop("disabled", false);
                             return true;
-                        },
+                        }, 
                         error: function(err) {
-                            var errors = JSON.parse(err.responseText);
-                            alert(JSON.stringify(errors));
                             $('#question-submit-btn').prop("disabled", false);
+                            var errors = JSON.parse(err.responseText);
+                            var items = '';
+                            $.each(errors, function(i,v) { items+= '<li>'+ v.message +'</li>' });
+                            $('#question-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>'+items+'</ul></div>');
+                            
                             return false;
                         }
                     });

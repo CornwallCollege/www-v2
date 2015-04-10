@@ -29,7 +29,6 @@
                incrementCount(counter)
            }, 10);
        }
-
    }
 
    (function ($) {
@@ -290,8 +289,8 @@
                            },
 
                            submitHandler: function (form) {
-                               $("#submit-btn").attr('disabled', 'disabled');
-                               $("#cancel-btn").attr('disabled', 'disabled');
+                               $("#submit-btn").prop("disabled", true);
+                               $("#cancel-btn").prop("disabled", true);
                                $(".alert-danger").remove();
                                $('#success').hide();
                                $(form).ajaxSubmit({
@@ -305,8 +304,8 @@
 
                                    error: function () {
                                        $('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Something went wrong</strong><br/> Check the data you have entered and try again.</div>').insertBefore($("#submit-btn").parent().parent());
-                                       $("#submit-btn").removeAttr('disabled');
-                                       $("#cancel-btn").removeAttr('disabled');
+                                       $("#submit-btn").prop("disabled", false);
+                                       $("#cancel-btn").prop("disabled", false);
                                    }
                                });
                            }

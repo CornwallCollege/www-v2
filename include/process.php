@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $email = validateEmail(validatePostField('email', 'Email Address', $errList), $errList);
     $name = validatePostField('name', 'Name', $errList);
-    $phone = validatePostField('phone', 'Contact number', $errList);        
+    $phone = validatePhone(validatePostField('phone', 'Contact number', $errList), $errList);        
     
     $type = test_input($_POST['source']);        
     
@@ -60,10 +60,26 @@ function sendEmailToLearner($email, $type, $details) {
 }
 
 function validateEmail($email, &$errList) {
-    if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-        $errList[] = array("field"=> 'email',"message"=> "A valid email address is required.");
-    }else {
-        return $email;
+    if (!empty($email)) {
+        if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+            $errList[] = array("field"=> 'email',"message"=> "A valid email address is required.");
+        }else {
+            return $email;
+        }
+    }
+}
+
+function validatePhone($phone, &$errList) {
+    if (!empty($phone)) {
+        $matchPhone = preg_replace('#\(|\)|\s+|-/g#', "", $phone);
+        $isPhone = (strlen($matchPhone) > 9 && preg_match(
+            '#^(?:(?:(?:00\s?|\+)44\s?|0)(?:1\d{8,9}|[23]\d{9}|7(?:[1345789]\d{8}|624\d{6})))$#',
+            $matchPhone) == 1);
+        if (!$isPhone) {
+            $errList[] = array("field"=> 'phone',"message"=> "A valid contact number is required.");
+        }else {
+            return $phone;
+        }
     }
 }
 
