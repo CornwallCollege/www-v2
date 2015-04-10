@@ -760,31 +760,47 @@ section h2 strong {
     color: #52B3D9;
 }
 
-.box-square article:nth-child(3) {
+.box-square article:nth-child(4) {
     background: #000;
-    clear: left;
-}
 
-.box-square article:nth-child(3) h3,
-.box-square article:nth-child(3) h2,
-.box-square article:nth-child(3) p {
-    color: #fff;
 }
 
 .box-square article:nth-child(4) h3,
 .box-square article:nth-child(4) h2,
 .box-square article:nth-child(4) p {
+    color: #fff;
+}
+
+.box-square article:nth-child(3) h2,
+.box-square article:nth-child(3) h3 {
+    color:#52B3D9;
+}
+
+.box-square article:nth-child(3) {
+    /*background: #52B3D9;*/
+    background: white;
+    clear: left;    
+}
+.box-square article:nth-child(5) h3,
+.box-square article:nth-child(5) h2,
+.box-square article:nth-child(5) p {
     color: white;
 }
 
-.box-square article:nth-child(4) {
+.box-square article:nth-child(5) {
     background: #52B3D9;
+        clear: left;
 }
 
-.box-square article:nth-child(5) {
-    background: #000;
-    clear: left;
+.box-square article:nth-child(6) {
+    background: #EAEAEA;
 }
+
+.box-square article:nth-child(6) h3,
+.box-square article:nth-child(6) h4 {
+    color: #52B3D9;
+}
+
 
 .box-square-alt article {
     padding: 50px;
@@ -1064,12 +1080,12 @@ section h2 strong {
 }
 /* BUSINESS AND PRO | sales marketing and customer services | header bar */
 #sales-marketing {
-    background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/area-banners/customer-service-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 @media(min-width:768px) {
     #sales-marketing {
-        background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+        background: url(../images/area-banners/customer-service-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
@@ -1817,8 +1833,14 @@ APPLY BARS =====================================================================
     .public-services-bar,
     .childrens-workforce,
     .sport-bar{     
-        background-size: auto 520px;
-    }
+        /*background-size: auto 520px;*/
+        -webkit-background-size:cover;  
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: 50% 0
+;    }
 }
 
 .apply-bar section{
@@ -1873,6 +1895,103 @@ APPLY BARS =====================================================================
 }
 
 /* --------- Full time section call to action ENDS --------- */
+
+/* --------- Career area H1 size fixes --------- 
+    #aerospace,
+    #construction-plant,
+    #boatbuilding,
+    #automotive,
+    #electrical,
+    #construction,
+    #environmental-science,
+    #marine-natural-science-conservation,
+    #applied-forensic-science,
+    #equine,
+    #food-production,
+    #countryside-management,
+    #agriculture-horticulture,
+    #animal-science-management,
+    #health,
+    #social-care,
+    #sport,
+    #childrens-workforce,
+    #hair-beauty,
+    #performing-arts,
+    #media-digital-creativity,
+    #travel-visitor-attractions,
+    #catering-hospitality,
+    #digital-technologies,
+    #health-safety,
+    #business-admin,
+    #sales-marketing
+    #education-teaching,
+    #accountancy-financial,
+    #a-levels,
+    #technology-engineering
+*/
+@media(min-width:993px){
+    .career-title header h2{
+        margin-top: 47px;
+    }    
+    #sales-marketing h2{
+        margin-top: 62px;
+    }       
+    .career-title header h2 span{
+        font-size: 60px;
+    } 
+    #sales-marketing h2 span{
+        font-size: 44px;
+    }     
+}
+@media(min-width:481px) and (max-width:992px){
+    /* Small title top margin */
+    .career-title header h2{
+        margin-top: 46px;
+    }  
+    /* Extra small title top margin */
+    #sales-marketing h2{
+        margin-top: 55px;
+    }  
+    /* Small title */
+    .career-title header h2 span{
+        font-size:30px;
+    }
+    /* Extra small title */
+    #sales-marketing h2 span{
+        font-size:20px;
+    }     
+}
+@media(max-width:480px){
+    /* two line titles */
+    .career-title header h2{ 
+        margin-top: -1px;        
+    }
+    /* three line titles */
+    #sales-marketing h2,    
+    #travel-visitor-attractions h2,
+    #performing-arts h2{
+        margin-top:3px;
+    } 
+    /* Small breadcrumb */
+    .career-title header a small{
+        font-size: 115%;
+    }
+    /* Small title */
+    .career-title header h2 span{    
+        line-height: 85%;
+        font-size: 116%;
+    }
+    /* three line title */
+    #sales-marketing h2 span,
+    #travel-visitor-attractions h2 span,
+    #performing-arts h2 span{
+        font-size: 97%;
+        line-height: 98%;
+    }    
+}
+
+/* ------- Career area H1 size fixes ENDS ------- */
+
 
 .dark-bg h2 {
     color: white;
@@ -2198,7 +2317,7 @@ div h2 span.readmore {
     .back-button{
         display:block;
         position:absolute;
-        top: 250px;
+        top: 150px;
         left:15px;
         z-index: 99;
         color: white;
@@ -2286,6 +2405,7 @@ div h2 span.readmore {
   width: 100%;
   height: 100%;
   margin-top: 0;
+    border: none;
 }
 
 .BetterTube-playBtn {
