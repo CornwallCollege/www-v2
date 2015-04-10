@@ -145,6 +145,18 @@ h2.apprenticeships {
         background: rgba(0, 0, 0, .5)!important;
     }
 }
+.blog-post-quote {
+    border: 10px #52B3D9 solid;
+}
+.blog-post-quote p{
+    font-size: 25px;
+}
+.blog-post-quote p strong{
+    color: #52B3D9;
+}
+.blog-post-quote i{
+    font-size: 60px
+}
 /* Career Help Bar */
 
 .career-help-bar {
@@ -1426,7 +1438,8 @@ section h2 strong {
     #education-teaching,
     #accountancy-financial,
     #a-levels,
-    #technology-engineering{
+    #technology-engineering,
+    #public-services{
         background-size: auto 568px;
     }
 }
@@ -1831,7 +1844,7 @@ APPLY BARS =====================================================================
     .a-levels-bar,
     .engineering-bar,
     .public-services-bar,
-    .childrens-workforce,
+    .childrens-workforce-bar,
     .sport-bar{     
         /*background-size: auto 520px;*/
         -webkit-background-size:cover;  
