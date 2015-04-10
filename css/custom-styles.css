@@ -569,7 +569,11 @@ section h2 strong {
 }
 /* ------------- Logo styles ENDS --------------*/
 /* ------------- Menu styles ----------------*/
-
+@media(max-width: 480px) {
+    .menu-icon {
+        padding: 16px 27px;
+    }
+}
 .menu-icon {
     z-index: 1010;
 }
@@ -1228,13 +1232,13 @@ section h2 strong {
     }
 }
 /* HELTH & WELLBEING | Sport and fitness | header bar */
-#social-care {
-    background: url(../images/area-banners/social-care-mobile.jpg) 50% 0 no-repeat fixed;
+#sport {
+    background: url(../images/area-banners/sport-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 @media(min-width:768px) {
-    #social-care {
-        background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
+    #sport {
+        background: url(../images/area-banners/sport-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
@@ -1294,17 +1298,7 @@ section h2 strong {
         background-size: cover;
     }
 }
-/* RURAL ECONOMY | APPLIED FORENSIC SCIENCE | header bar */
-#applied-forensic-science {
-    background: url(../images/area-banners/applied-forensic-science-mobile.jpg) 50% 0 no-repeat fixed;
-    background-size: cover;
-}
-@media(min-width:768px) {
-    #applied-forensic-science {
-        background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
-    }
-}
+
 /* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
 /* SCIENCE AND THE NATURAL ENVIROMENT | applied-forensic-science | header bar */
 #applied-forensic-science {
@@ -2000,6 +1994,11 @@ APPLY BARS =====================================================================
     #performing-arts h2 span{
         font-size: 97%;
         line-height: 98%;
+    }
+    /*one word title*/
+    #health h2 span{
+        line-height: 122%;
+        font-size: 195%;
     }    
 }
 
