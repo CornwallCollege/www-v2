@@ -267,10 +267,11 @@
                                    email: true
                                },
                                interest: {
-                                   required: true
+                                   required: true,
                                },
-                               contact: {
-                                   required: true
+                               phone: {
+                                   required: true,
+                                   phonesUK: true
                                }
                            },
                            messages: {
@@ -283,12 +284,13 @@
                                interest: {
                                    required: ""
                                },
-                               contact: {
+                               phone: {
                                    required: ""
                                }
                            },
 
                            submitHandler: function (form) {
+                               $('#apply-error').html('');
                                $("#submit-btn").prop("disabled", true);
                                $("#cancel-btn").prop("disabled", true);
                                $(".alert-danger").remove();
@@ -302,10 +304,16 @@
                                        document.location = "/apply/success/";
                                    },
 
-                                   error: function () {
-                                       $('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Something went wrong</strong><br/> Check the data you have entered and try again.</div>').insertBefore($("#submit-btn").parent().parent());
+                                   error: function (err) {
                                        $("#submit-btn").prop("disabled", false);
                                        $("#cancel-btn").prop("disabled", false);
+                                       var errors = JSON.parse(err.responseText);
+                                       var items = '';
+                                       $.each(errors, function (i, v) { 
+                                           items += '<li>' + v.message + '</li>'
+                                       });
+                                       $('#apply-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>' + items + '</ul></div>');
+                                       return false;
                                    }
                                });
                            }
