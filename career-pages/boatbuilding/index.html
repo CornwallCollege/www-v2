@@ -15,7 +15,7 @@ description: Find out more about starting a Career in Boatbuilding at The Cornwa
         <!-- END OF HEADER -->
         <!-- BODY SECTION -->
         <section class="container">
-            <p class="lead">If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch</p>
+            <p class="lead">If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch.</p>
             <p class="lead">You'll need good practical skills, the ability to work in a team and an interest in learning traditional boatbuilding skills as well as modern engineering methods.</p>
         {% youtube https://youtu.be/4wl08vd9Zxg %}
         </section>
@@ -24,31 +24,7 @@ description: Find out more about starting a Career in Boatbuilding at The Cornwa
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Boat &amp; Ship Builder or Repairer<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-                        <p>Boat and ship builders and repairers construct, install and repair wooden structures and fittings, and shape, position, rivet and seal metal plates and girders to form the metal structures and frameworks for marine craft.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">1169</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">1043</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span>£</span><span class="counter">15,000</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>       
+                {% include career-example-article.html number='1' title='Boat &amp; Ship Builder or Repairer' paragraph='Boat and ship builders and repairers construct, install and repair wooden structures and fittings, and shape, position, rivet and seal metal plates and girders to form the metal structures and frameworks for marine craft.' jobsIn='the Southwest' jobsNow=1169 jobsFuture=1043 startingSalary=15000 %} 
             </section>
         </section>
         <!-- call to action section --
@@ -65,7 +41,6 @@ description: Find out more about starting a Career in Boatbuilding at The Cornwa
             <section class="container">
                 <article class="col-sm-12 text-center">
                     <h2>MEET OUR <strong>ALUMNI</strong></h2>
-
                 </article>
             </section>
         </section>
@@ -82,10 +57,4 @@ description: Find out more about starting a Career in Boatbuilding at The Cornwa
             </article>
         </section>
 
-        <!-- call to action section -->
-        <section class="col-sm-12 boatbuilding-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Take the first step in your new career</h2>
-                <a href="/apply#boatbuilding" class="apply-btn btn" data-career="Boatbuilding">Apply NOW</a>
-            </div>
-        </section>     
+        {% include career-apply-bar.html career='boatbuilding' %}

@@ -1,0 +1,29 @@
+<article class="col-sm-6">
+    <div data-toggle="collapse" href="#career-{{include.number}}" aria-expanded="false" aria-controls="career-{{include.number}}" class="collapsed">
+        <h2>{{include.title}}<span class="readmore"><br/>Read more...</span></h2>
+    </div>
+    <div class="collapse transition" id="career-{{include.number}}">
+        <p>{{include.paragraph}}</p>
+        <section id="counters">
+            <div class="container" style="width:auto;">
+                <div class="counters counters-alt">
+                    {% if include.jobsNow %}
+                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
+                        <h5><span class="counter">{{include.jobsNow}}</span> Jobs in {{include.where}}</h5>
+                    </div> 
+                    {% endif %}
+                    {% if include.jobsFuture %}
+                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
+                        <h5><span class="counter">{{include.jobsFuture}}</span> Jobs by <br/> 2020</h5>
+                    </div>
+                    {% endif %}
+                    {% if include.startingSalary %}
+                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
+                        <h5><span>£</span><span class="counter">{{include.startingSalary}}</span> Starting Salary</h5>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+    </div>
+</article>

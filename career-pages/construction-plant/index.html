@@ -24,31 +24,7 @@ description: Find out more about starting a Career in Construction Plant at The 
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Plant &amp; Machine Operative<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-                        <p>Workers in this area operate a variety of plant and machinery.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">2122</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">1726</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span>£</span><span class="counter">12,000</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>       
+                {% include career-example-article.html number='1' title='Plant &amp; Machine Operative' paragraph='Workers in this area operate a variety of plant and machinery.' jobsIn='the Southwest' jobsNow=2122 jobsFuture=1726 startingSalary=12000 %} 
             </section>
         </section>
         <!-- call to action section --
@@ -94,10 +70,4 @@ description: Find out more about starting a Career in Construction Plant at The 
             </section>
         </section>
 -->
-        <!-- call to action section -->
-        <section class="col-sm-12 construction-plant-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Take the first step in your new career</h2>
-                <a href="/apply#construction-plant" class="apply-btn btn" data-career="Construction Plant">Apply NOW</a>
-            </div>
-        </section>     
+        {% include career-apply-bar.html career='construction-plant' %}   
