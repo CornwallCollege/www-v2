@@ -2378,6 +2378,20 @@ div h2 span.readmore {
         width: 100%;
     }    
 }
+/* ---------- Example job styling --------*/
+@media(min-width:480px){
+    .inner h5 span {
+        font-size: 32px;
+    }
+    #counters .inner {
+        padding: 30px 15px;
+        text-align: center;
+    }    
+}
+
+span.pound-sign{
+    float:left;
+}
 
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
