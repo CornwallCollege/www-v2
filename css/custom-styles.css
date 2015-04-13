@@ -2013,9 +2013,10 @@ APPLY BARS =====================================================================
     #automotive h2 span,
     #boatbuilding h2 span,
     #aerospace h2 span,
-    #technology-engineering h2 span
+    #technology-engineering h2 span,
+    #a-levels h2 span
     {
-        line-height: 220%;
+        line-height: 194%;
         font-size: 129%;
     }    
 }
