@@ -20,87 +20,7 @@ description: Find out more about studieing A-Levels at The Cornwall College Grou
              {% youtube https://youtu.be/8ydETK6g1Lo %}
         </section>
 
-        <!-- TWO ABOUT US BLOCKS FOR HISTORY AND OBJECTIVES -->
-
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#c-eng" aria-expanded="false" aria-controls="c-eng" class="collapsed">
-                        <h2>Psychologists<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="c-eng">
-                        <p>Psychologists research, study and assess emotional, cognitive and behavioural processes and abnormalities in humans and animals and how these are affected by different factors.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">2250</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">2548</span> Jobs in the SW by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span>£</span><span class="counter">25000</span>+ Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#dd-eng" aria-expanded="false" aria-controls="dd-eng" class="collapsed">
-                        <h2>Research And Development Managers<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="dd-eng">
-                        <p>Plan, organise, co-ordinate and manage resources to undertake the systematic investigation necessary for the development of new, or to enhance the performance of existing, products and services.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">3440</span> Jobs in Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">3745</span> Jobs in SW by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">22,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#m-eng" aria-expanded="false" aria-controls="m-eng" class="collapsed">
-                        <h2>Social And Humanities Scientists<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="m-eng">
-                        <p>Social and humanities scientists  undertake research and analyse areas such as sociology, economics, politics, archaeology, history, philosophy, literature and the arts.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">1229</span> Jobs in Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">1336</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">23,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-            </section>
-        </section>
+ 
         <!-- call to action section -->
         <section class="col-sm-12 a-levels-bar apply-bar margin-top clearfix">
             <div class="container">
@@ -168,9 +88,4 @@ description: Find out more about studieing A-Levels at The Cornwall College Grou
 
 
         <!-- call to action section -->
-        <section class="col-sm-12 a-levels-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Take the first step in your new career</h2>
-                <a href="/apply#a-levels" class="apply-btn btn" data-career="A-levels">Apply NOW</a>
-            </div>
-        </section>     
+        {% include career-apply-bar.html career='a-levels' %}
