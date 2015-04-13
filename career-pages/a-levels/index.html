@@ -195,38 +195,10 @@ description: Find out more about studieing A-Levels at The Cornwall College Grou
         <!-- WORK PROCESS END -->
  
         <!-- call to action section -->
-        <section class="col-sm-12 a-levels-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Seen Enough? Apply Now! </h2>
-                <a href="/apply#a-levels" class="apply-btn btn" data-career="A-levels">Apply NOW</a>
-            </div>
-        </section>
+        {% include career-apply-bar.html career='a-levels' order='first' %}
 
         <!-- skills -->
-
-        <section id="skills" class="col-md-12 main-section-margins ">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>OUR <strong>STATS</strong></h2>
-                </article>
-
-                <article class="progress-bars col-md-11 col-lg-6 col-md-offset-1 col-lg-offset-3 ">
-
-                    <section class="progress custom-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
-                            Lectures know the subject well <span>98% </span>
-                        </div>
-                    </section>
-
-                    <section class="progress custom-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="99.2" aria-valuemin="0" aria-valuemax="100" style="width: 99.2%">
-                            Pass rate <span>99.2% </span>
-                        </div>
-                    </section>
-                </article>
-            </section>
-        </section>
-        {% include career-stats.html percent1=98 end1='Of lectures know the subject well' %}
+        {% include career-stats.html percent1=98 end1='Of lectures know the subject well' begin2='Pass Rate' percent2=99.2 %}
 
         <!-- TEAM intro -->
         <section class="col-md-12 main-section-margins intro">

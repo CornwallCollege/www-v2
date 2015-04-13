@@ -1,7 +1,11 @@
 <!-- call to action section -->
 <section class="col-sm-12 {{include.career | replace:' ','-' | downcase }}-bar apply-bar margin-top clearfix">
     <div class="container">
-        <h2>Take the first step in your new career</h2>
+        {% if include.order == "first" %}
+            <h2>Seen Enough?</h2>
+        {% else %}
+            <h2>Take the first step in your new career</h2>
+        {% endif %}
         <a href="/apply#{{include.career | replace:' ','-' | downcase }}" class="apply-btn btn" data-career="{{ include.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
     </div>
 </section>
