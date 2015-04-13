@@ -1298,7 +1298,17 @@ section h2 strong {
         background-size: cover;
     }
 }
-
+/* RURAL ECONOMY | equine | header bar */
+#equine {
+    background: url(../images/area-banners/equine-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #equine {
+        background: url(../images/area-banners/equine-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
 /* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
 /* SCIENCE AND THE NATURAL ENVIROMENT | applied-forensic-science | header bar */
 #applied-forensic-science {
