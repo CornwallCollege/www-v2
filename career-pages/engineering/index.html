@@ -18,6 +18,7 @@ description: Find out more about starting an Engineering Career at The Cornwall 
             <p class="lead">Fundamentally, engineers are problem solvers. The first hand work of engineers can be experienced in all parts of a our daily lives including making a telephone call, riding a mountain bike, flying in a plane, walking across a bridge and even wearing perfume or aftershave!</p>
             <p class="lead">Engineers solve scientific and practical problems which affect all aspects of our lives underpinning economic activity and quality of life.</p>
             <p class="lead">As an engineer you may be involved in design, production, research or running businesses. You may work for a small or large business or even a multi-national company anywhere in the world. Engineering gives you great opportunities for travel and working abroad.</p>
+            {% youtube https://youtu.be/Cz2wrXyYS7s %}
         </section>
 
         <!-- TWO ABOUT US BLOCKS FOR HISTORY AND OBJECTIVES -->
@@ -247,9 +248,4 @@ description: Find out more about starting an Engineering Career at The Cornwall 
         </section>
 
         <!-- call to action section -->
-        <section class="col-sm-12 engineering-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Take the first step in your new career</h2>
-                <a href="/apply#engineering" class="apply-btn btn" data-career="Engineering">Apply NOW</a>
-            </div>
-        </section>     
+        {% include career-apply-bar.html career='engineering' %}
