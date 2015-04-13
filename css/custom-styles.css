@@ -2006,9 +2006,16 @@ APPLY BARS =====================================================================
         line-height: 98%;
     }
     /*one word title*/
-    #health h2 span{
-        line-height: 122%;
-        font-size: 195%;
+    #health h2 span,
+    #electrical h2 span,
+    #construction h2 span,
+    #automotive h2 span,
+    #boatbuilding h2 span,
+    #aerospace h2 span,
+    #technology-engineering h2 span
+    {
+        line-height: 220%;
+        font-size: 129%;
     }    
 }
 
