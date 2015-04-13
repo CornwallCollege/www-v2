@@ -1981,7 +1981,7 @@ APPLY BARS =====================================================================
 @media(max-width:480px){
     /* two line titles */
     .career-title header h2{ 
-        margin-top: -1px;        
+        margin-top: 4px;        
     }
     /* three line titles */
     #sales-marketing h2,    
@@ -1996,12 +1996,13 @@ APPLY BARS =====================================================================
     /* Small title */
     .career-title header h2 span{    
         line-height: 85%;
-        font-size: 116%;
+        font-size: 108%;
     }
     /* three line title */
     #sales-marketing h2 span,
     #travel-visitor-attractions h2 span,
-    #performing-arts h2 span{
+    #performing-arts h2 span,
+    #media-digital-creativity h2 span{
         font-size: 97%;
         line-height: 98%;
     }
