@@ -560,8 +560,11 @@ section h2 strong {
 }
 
 @media(max-width:400px) {
+    #logo-wrapper{
+        margin-left:10px;
+    }
     #cc-logo {
-        width: 70px;
+        width: 80px;
     }
     .cc-logo-scroll {
         margin-top: -65px;
