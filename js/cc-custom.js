@@ -16,6 +16,10 @@
 
    cc = {};
 
+   function numberWithCommas(x) {
+       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+   }
+
    function incrementCount(counter) {
        var max = Number($(counter).attr("data-count-to"));
        var stepSize = Number($(counter).attr("data-count-step"));
@@ -27,11 +31,11 @@
        }
        if (current < max) {
            var nextNumber = current + stepSize
-           var newNumber = Number(nextNumber.toFixed(0)).toLocaleString();
+           var nextNumber = Number(nextNumber.toFixed(0));
            if (nextNumber > max) {
-               newNumber = Number(max.toFixed(0)).toLocaleString();
+               nextNumber = Number(max.toFixed(0));
            }
-           $(counter).html(prefix + newNumber);
+           $(counter).html(prefix + numberWithCommas(nextNumber));
            window.setTimeout(function () {
                incrementCount(counter)
            }, 10);
