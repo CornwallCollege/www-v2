@@ -666,6 +666,21 @@ section h2 strong {
 .click-me{
     pointer-events: auto;
 }
+/* 2nd line indent fix on main navigation*/
+.submenu-items > li:before {
+    margin-left: -49px;
+}
+.submenu-items li {
+    padding-left: 55px;
+}
+@media(max-width:680px){
+    .submenu-items > li:before {
+        margin-left: -56px;
+    }
+    .submenu-items li {
+        padding-left: 55px;
+    }
+}
 /* ------------ Menu styles ENDS --------------*/
 /* ------------ Slide Pagination styles ------------- */
 /* full time sector*/
