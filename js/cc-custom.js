@@ -19,14 +19,19 @@
    function incrementCount(counter) {
        var max = Number($(counter).attr("data-count-to"));
        var stepSize = Number($(counter).attr("data-count-step"));
-       var current = Number($(counter).html().replace(',',''));
+       var numberText = $(counter).html();
+       var current = Number(numberText.replace(',','').replace('£',''));
+       var prefix = '';
+       if (numberText.substring(0,1) === '£') {
+           prefix = '£';
+       }
        if (current < max) {
            var nextNumber = current + stepSize
+           var newNumber = Number(nextNumber.toFixed(0)).toLocaleString();
            if (nextNumber > max) {
-               $(counter).html(Number(max.toFixed(0)).toLocaleString());
-           } else {
-               $(counter).html(Number(nextNumber.toFixed(0)).toLocaleString());
+               newNumber = Number(max.toFixed(0)).toLocaleString();
            }
+           $(counter).html(prefix + newNumber);
            window.setTimeout(function () {
                incrementCount(counter)
            }, 10);
@@ -218,12 +223,17 @@
                        $("#" + item).find(".counter").each(function () {
                            var countTo = 0;
                            if ($(this).attr("data-count-to") == undefined) {
-                               var max = Number($(this).html().replace(",", ""));
+                               var max = Number($(this).html().replace(",", "").replace('£',''));
                                $(this).attr("data-count-to", max);
                                var stepSize = max / 2 / 100;
                                $(this).attr("data-count-step", stepSize);
                            }
-                           $(this).html("0");
+                           var html = $(this).html();
+                           if (html.substring(0,1) === '£') {
+                               $(this).html("£0");
+                           } else {
+                               $(this).html("0");
+                           }
                            countTo = $(item).attr("data-count-to");
                            incrementCount(this);
                        });
