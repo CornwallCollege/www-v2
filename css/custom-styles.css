@@ -3,54 +3,56 @@
 
 */
 /* ----------------------- GOOGLE FONTS ------------------------*/
+
 @font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(../fonts/Raleway-Light.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), url(../fonts/Raleway-Regular.ttf) format('truetype');    
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(../fonts/Raleway-Bold.ttf) format('truetype');    
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(../fonts/Lato-Hairline.ttf) format('truetype');    
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(../fonts/Lato-Light.ttf) format('truetype');
-    
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/Lato-Regular.ttf) format('truetype');
-    
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/Lato-Bold.ttf) format('truetype');
-    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway Light'), local('Raleway-Light'), url(../fonts/Raleway-Light.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url(../fonts/Raleway-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(../fonts/Raleway-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(../fonts/Lato-Hairline.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(../fonts/Lato-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/Lato-Bold.ttf) format('truetype');
+}
 /* ----------------------- GOOGLE FONTS ENDS------------------------*/
-
 /* ------------------------- Sector colours ------------------------- */
 
 h2.full-time span,
@@ -145,16 +147,20 @@ h2.apprenticeships {
         background: rgba(0, 0, 0, .5)!important;
     }
 }
+
 .blog-post-quote {
     border: 10px #52B3D9 solid;
 }
-.blog-post-quote p{
+
+.blog-post-quote p {
     font-size: 25px;
 }
-.blog-post-quote p strong{
+
+.blog-post-quote p strong {
     color: #52B3D9;
 }
-.blog-post-quote i{
+
+.blog-post-quote i {
     font-size: 60px
 }
 /* Career Help Bar */
@@ -288,7 +294,6 @@ p.help-button-text:hover {
 
 .help-window p {
     color: white;
-
 }
 /* QUESTION button*/
 
@@ -301,7 +306,7 @@ a.ask-a-question {
 }
 
 a.ask-a-question:hover,
-a.ask-a-question:focus{
+a.ask-a-question:focus {
     border: none;
     background-color: #52B3D9!important;
 }
@@ -316,38 +321,41 @@ a.ask-a-question:focus{
     display: inline-block;
 }
 /*-------Help form-----------*/
+
 .form-horizontal {
-	display: block;
-	width: 100%;
-	margin: 50px auto 0;
-	text-align: left;
+    display: block;
+    width: 100%;
+    margin: 50px auto 0;
+    text-align: left;
 }
 
 .form-horizontal label {
-	position: relative;
-	z-index: 13;
-	padding-left: 10px;
+    position: relative;
+    z-index: 13;
+    padding-left: 10px;
     line-height: 41px;
 }
+
 .form-horizontal label i {
-    color:dimgrey;
+    color: dimgrey;
 }
+
 .form-horizontal input,
 .form-horizontal textarea,
 .form-horizontal select {
-	display: block;
-	position: relative;
-	overflow: hidden;
-	min-height: 50px;
-	margin-top: -50px;
-	line-height: 15px;
-	font-size: 1em;
-	padding-left: 30px;
-	padding-right: 10px;
-	width: 100%;
-	color: #666666;
-	background: #ffffff;
-	border: 2px solid #eeeeee;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-height: 50px;
+    margin-top: -50px;
+    line-height: 15px;
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 100%;
+    color: #666666;
+    background: #ffffff;
+    border: 2px solid #eeeeee;
 }
 
 .help-form {
@@ -361,8 +369,8 @@ a.ask-a-question:focus{
 }
 
 .help-form .submit-btn:hover {
-    background-color:white;
-    color:#52B3D9;
+    background-color: white;
+    color: #52B3D9;
 }
 
 .question-text {
@@ -437,164 +445,86 @@ section h2 strong {
 .btn-wrap {
     margin-top: -18px;
 }
-@media(max-width:993px){
-.btn-wrap {
-    margin-top: -5px;
-    width:100%;
-    z-index: 999;
-    position:relative;    
-}
-.element-animation{
-  
-  animation: animationFrames linear 0.8s;
-  animation-iteration-count: 2;
-  transform-origin: 50% 50%;
-  -webkit-animation: animationFrames linear 0.8s;
-  -webkit-animation-iteration-count: 2;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: animationFrames linear 0.8s;
-  -moz-animation-iteration-count: 2;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: animationFrames linear 0.8s;
-  -o-animation-iteration-count: 2;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: animationFrames linear 0.8s;
-  -ms-animation-iteration-count: 1;
-  -ms-transform-origin: 50% 50%;
-    -webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
-    animation-delay: 3s;      
-}
 
-@keyframes animationFrames{
-  0% {
-    transform:  translate(0px,0px)  ;
-  }
-  15% {
-    transform:  translate(0px,-55px)  ;
-  }
-  30% {
-    transform:  translate(0px,0px)  ;
-  }
-  45% {
-    transform:  translate(0px,-30px)  ;
-  }
-  60% {
-    transform:  translate(0px,0px)  ;
-  }
-  75% {
-    transform:  translate(0px,-15px)  ;
-  }
-  100% {
-    transform:  translate(0px,0px)  ;
-  }
-}
-
-@-moz-keyframes animationFrames{
-  0% {
-    -moz-transform:  translate(0px,0px)  ;
-  }
-  15% {
-    -moz-transform:  translate(0px,-55px)  ;
-  }
-  30% {
-    -moz-transform:  translate(0px,0px)  ;
-  }
-  45% {
-    -moz-transform:  translate(0px,-30px)  ;
-  }
-  60% {
-    -moz-transform:  translate(0px,0px)  ;
-  }
-  75% {
-    -moz-transform:  translate(0px,-15px)  ;
-  }
-  100% {
-    -moz-transform:  translate(0px,0px)  ;
-  }
-}
-
-@-webkit-keyframes animationFrames {
-  0% {
-    -webkit-transform:  translate(0px,0px)  ;
-  }
-  15% {
-    -webkit-transform:  translate(0px,-55px)  ;
-  }
-  30% {
-    -webkit-transform:  translate(0px,0px)  ;
-  }
-  45% {
-    -webkit-transform:  translate(0px,-30px)  ;
-  }
-  60% {
-    -webkit-transform:  translate(0px,0px)  ;
-  }
-  75% {
-    -webkit-transform:  translate(0px,-15px)  ;
-  }
-  100% {
-    -webkit-transform:  translate(0px,0px)  ;
-  }
-}
-
-@-o-keyframes animationFrames {
-  0% {
-    -o-transform:  translate(0px,0px)  ;
-  }
-  15% {
-    -o-transform:  translate(0px,-55px)  ;
-  }
-  30% {
-    -o-transform:  translate(0px,0px)  ;
-  }
-  45% {
-    -o-transform:  translate(0px,-30px)  ;
-  }
-  60% {
-    -o-transform:  translate(0px,0px)  ;
-  }
-  75% {
-    -o-transform:  translate(0px,-15px)  ;
-  }
-  100% {
-    -o-transform:  translate(0px,0px)  ;
-  }
-}
-
-@-ms-keyframes animationFrames {
-  0% {
-    -ms-transform:  translate(0px,0px)  ;
-  }
-  15% {
-    -ms-transform:  translate(0px,-55px)  ;
-  }
-  30% {
-    -ms-transform:  translate(0px,0px)  ;
-  }
-  45% {
-    -ms-transform:  translate(0px,-30px)  ;
-  }
-  60% {
-    -ms-transform:  translate(0px,0px)  ;
-  }
-  75% {
-    -ms-transform:  translate(0px,-15px)  ;
-  }
-  100% {
-    -ms-transform:  translate(0px,0px)  ;
-  }
-}
+@media(max-width:993px) {
     .btn-wrap {
-    
+        margin-top: -5px;
+        width: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    /*--Added mobile bounce animation home page menu--*/
+    .bounce {
+        animation: bounceFrames linear 0.8s;
+        animation-iteration-count: 2;
+        transform-origin: 50% 50%;
+        -webkit-animation: bounceFrames linear 0.8s;
+        -webkit-animation-iteration-count: 2;
+        -webkit-transform-origin: 50% 50%;
+        -moz-animation: bounceFrames linear 0.8s;
+        -moz-animation-iteration-count: 2;
+        -moz-transform-origin: 50% 50%;
+        -o-animation: bounceFrames linear 0.8s;
+        -o-animation-iteration-count: 2;
+        -o-transform-origin: 50% 50%;
+        -ms-animation: bounceFrames linear 0.8s;
+        -ms-animation-iteration-count: 1;
+        -ms-transform-origin: 50% 50%;
+        -webkit-animation-delay: 3s;
+        /* Chrome, Safari, Opera */ animation-delay: 3s;
+    }
+    @keyframes bounceFrames {
+        0% { transform: translate(0px, 0px);}
+        15% { transform: translate(0px, -55px);}
+        30% { transform: translate(0px, 0px);}
+        45% { transform: translate(0px, -30px);}
+        60% { transform: translate(0px, 0px);}
+        75% { transform: translate(0px, -15px);}
+        100% { transform: translate(0px, 0px);}
+    }
+    @-moz-keyframes bounceFrames {
+        0% { -moz-transform: translate(0px, 0px); }
+        15% { -moz-transform: translate(0px, -55px);}
+        30% { -moz-transform: translate(0px, 0px);}
+        45% { -moz-transform: translate(0px, -30px);}
+        60% { -moz-transform: translate(0px, 0px);}
+        75% { -moz-transform: translate(0px, -15px);}
+        100% { -moz-transform: translate(0px, 0px);}
+    }
+    @-webkit-keyframes bounceFrames {
+        0% { -webkit-transform: translate(0px, 0px);}
+        15% { -webkit-transform: translate(0px, -55px);}
+        30% { -webkit-transform: translate(0px, 0px);}
+        45% { -webkit-transform: translate(0px, -30px);}
+        60% { -webkit-transform: translate(0px, 0px);}
+        75% { -webkit-transform: translate(0px, -15px);}
+        100% { -webkit-transform: translate(0px, 0px);}
+    }
+    @-o-keyframes bounceFrames {
+        0% { -o-transform: translate(0px, 0px);}
+        15% { -o-transform: translate(0px, -55px);}
+        30% { -o-transform: translate(0px, 0px);}
+        45% { -o-transform: translate(0px, -30px);}
+        60% { -o-transform: translate(0px, 0px);}
+        75% { -o-transform: translate(0px, -15px);}
+        100% { -o-transform: translate(0px, 0px);}
+    }
+    @-ms-keyframes bounceFrames {
+        0% { -ms-transform: translate(0px, 0px);}
+        15% { -ms-transform: translate(0px, -55px);}
+        30% { -ms-transform: translate(0px, 0px);}
+        45% { -ms-transform: translate(0px, -30px);}
+        60% { -ms-transform: translate(0px, 0px);}
+        75% { -ms-transform: translate(0px, -15px);}
+        100% { -ms-transform: translate(0px, 0px);}
     }
     .btn-wrap a {
         font-size: 14px
     }
-    .btn-wrap a:hover {    
-      letter-spacing:normal;
+    .btn-wrap a:hover {
+        letter-spacing: normal;
     }
 }
-
 
 .fixed-btn {
     z-index: 99;
@@ -622,7 +552,7 @@ section h2 strong {
     .fixed-btn .btn {
         padding: 15px 0;
         position: absolute;
-        bottom: 0;    
+        bottom: 0;
     }
     .fixed-btn .row .col-xs-6 a {
         padding: 20px 0;
@@ -639,32 +569,38 @@ section h2 strong {
     color: #fff;
 }
 /*------------------ Ghost button styles --------------------*/
-.portal{
+
+.portal {
     margin-top: 3%;
 }
-.portal a.ghost{
+
+.portal a.ghost {
     border-width: 1px;
-    width:85%;
+    width: 85%;
 }
-.portal a.ghost:last-of-type{
+
+.portal a.ghost:last-of-type {
     margin-top: 7px;
 }
-.portal a.ghost i{
-    padding-right:10px;
-    font-size:15px;
+
+.portal a.ghost i {
+    padding-right: 10px;
+    font-size: 15px;
 }
-@media ( min-width:767px){
-    .portal{
-        position:absolute;
+
+@media ( min-width: 767px) {
+    .portal {
+        position: absolute;
         top: 0;
     }
-    .portal a.ghost{
-        width:100%; 
-    }    
+    .portal a.ghost {
+        width: 100%;
+    }
 }
-@media ( min-width:1200px){
-    .portal{
-        position:absolute;
+
+@media ( min-width: 1200px) {
+    .portal {
+        position: absolute;
         top: 0;
     }
     .portal .ghost {
@@ -672,6 +608,7 @@ section h2 strong {
         padding: 5px 15px;
     }
 }
+
 .ghost {
     background: transparent;
     color: #52B3D9;
@@ -718,8 +655,8 @@ section h2 strong {
 }
 
 @media(max-width:400px) {
-    #logo-wrapper{
-        margin-left:10px;
+    #logo-wrapper {
+        margin-left: 10px;
     }
     #cc-logo {
         width: 80px;
@@ -730,11 +667,13 @@ section h2 strong {
 }
 /* ------------- Logo styles ENDS --------------*/
 /* ------------- Menu styles ----------------*/
+
 @media(max-width: 480px) {
     .menu-icon {
         padding: 16px 27px;
     }
 }
+
 .menu-icon {
     z-index: 1010;
 }
@@ -801,6 +740,7 @@ section h2 strong {
     position: absolute;
     bottom: 0px
 }
+
 .menu-social-icons {
     padding: 20px 15px;
 }
@@ -813,25 +753,31 @@ section h2 strong {
         bottom: auto;
     }
 }
+
 .menu-social-icons a {
     display: inline;
 }
-.click-through{
+
+.click-through {
     pointer-events: none;
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='your_transparent.png', sizingMethod='scale');
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='your_transparent.png', sizingMethod='scale');
     background: none !important;
 }
-.click-me{
+
+.click-me {
     pointer-events: auto;
 }
 /* 2nd line indent fix on main navigation*/
+
 .submenu-items > li:before {
     margin-left: -49px;
 }
+
 .submenu-items li {
     padding-left: 55px;
 }
-@media(max-width:680px){
+
+@media(max-width:680px) {
     .submenu-items > li:before {
         margin-left: -56px;
     }
@@ -940,10 +886,10 @@ section h2 strong {
 /* =================================
         Cluster area header images 
 */
-.jumbotron{
-    z-index: 1;
-} 
 
+.jumbotron {
+    z-index: 1;
+}
 /* ----------------- Staff area styles ---------------------*/
 
 .box-square article:nth-child(2) {
@@ -957,7 +903,6 @@ section h2 strong {
 
 .box-square article:nth-child(4) {
     background: #000;
-
 }
 
 .box-square article:nth-child(4) h3,
@@ -968,14 +913,16 @@ section h2 strong {
 
 .box-square article:nth-child(3) h2,
 .box-square article:nth-child(3) h3 {
-    color:#52B3D9;
+    color: #52B3D9;
 }
 
 .box-square article:nth-child(3) {
     /*background: #52B3D9;*/
+    
     background: white;
-    clear: left;    
+    clear: left;
 }
+
 .box-square article:nth-child(5) h3,
 .box-square article:nth-child(5) h2,
 .box-square article:nth-child(5) p {
@@ -984,7 +931,7 @@ section h2 strong {
 
 .box-square article:nth-child(5) {
     background: #52B3D9;
-        clear: left;
+    clear: left;
 }
 
 .box-square article:nth-child(6) {
@@ -995,7 +942,6 @@ section h2 strong {
 .box-square article:nth-child(6) h4 {
     color: #52B3D9;
 }
-
 
 .box-square-alt article {
     padding: 50px;
@@ -1065,11 +1011,13 @@ section h2 strong {
     background-size: -moz-cover;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
     #services {
         background-size: auto 568px;
     }
 }
+
 @media(min-width:768px) {
     #services {
         background: url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
@@ -1115,11 +1063,13 @@ section h2 strong {
     background-size: -moz-cover;
     background-size: cover;
 }
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
     #apply-head {
         background-size: auto 568px;
     }
 }
+
 @media(min-width:768px) {
     #apply-head {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
@@ -1133,22 +1083,30 @@ section h2 strong {
     clear: both;
     text-align: center;
     padding: 0;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg); /* Standard syntax */     
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
+    /* Standard syntax */
+    
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
 
 @media(min-width:768px) {
     .fulltime-bar {
-        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),   url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
@@ -1205,7 +1163,7 @@ section h2 strong {
     }
 }
 
-.apply-bar{
+.apply-bar {
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
@@ -1216,8 +1174,9 @@ section h2 strong {
     z-index: 0;
     clear: both;
     text-align: center;
-    padding: 0;    
+    padding: 0;
 }
+
 .apply-bar h2:before {
     background: url(../images/subtle_carbon.png) center repeat;
     content: "";
@@ -1230,10 +1189,12 @@ section h2 strong {
     z-index: -1;
 }
 /* engineering and technology | Engineering | header bar */
+
 #technology-engineering {
     background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #technology-engineering {
         background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
@@ -1241,10 +1202,12 @@ section h2 strong {
     }
 }
 /* ACADEMIC STUDIES | A-Levels | header bar */
+
 #a-levels {
     background: url(../images/area-banners/a-levels-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #a-levels {
         background: url(../images/area-banners/a-levels-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1252,10 +1215,12 @@ section h2 strong {
     }
 }
 /* BUSINESS AND PRO | Accountancy & Financial | header bar */
+
 #accountancy-financial {
     background: url(../images/area-banners/accountancy-financial-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #accountancy-financial {
         background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1263,10 +1228,12 @@ section h2 strong {
     }
 }
 /* BUSINESS AND PRO | Education and Teaching | header bar */
+
 #education-teaching {
     background: url(../images/area-banners/education-teaching-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #education-teaching {
         background: url(../images/area-banners/education-teaching-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1274,10 +1241,12 @@ section h2 strong {
     }
 }
 /* BUSINESS AND PRO | sales marketing and customer services | header bar */
+
 #sales-marketing {
     background: url(../images/area-banners/customer-service-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #sales-marketing {
         background: url(../images/area-banners/customer-service-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1285,10 +1254,12 @@ section h2 strong {
     }
 }
 /* BUSINESS AND PRO | Business and admin | header bar */
+
 #business-admin {
     background: url(../images/area-banners/business-admin-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #business-admin {
         background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1296,10 +1267,12 @@ section h2 strong {
     }
 }
 /* BUSINESS AND PRO | health and safety | header bar */
+
 #health-safety {
     background: url(../images/area-banners/health-safety-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #health-safety {
         background: url(../images/area-banners/health-safety-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1307,24 +1280,26 @@ section h2 strong {
     }
 }
 /* BUSINESS AND PRO | digital-technologies | header bar */
+
 #digital-technologies {
     background: url(../images/area-banners/digital-technologies-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #digital-technologies {
         background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
-
 /* -------------------------------------- CULTURE AND VISITOR ECONOMY -------------------------------------------------- */
-
 /* CULTURE & VISITOR ECONOMY | catering & hospitality | header bar */
+
 #catering-hospitality {
     background: url(../images/area-banners/catering-hospitality-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #catering-hospitality {
         background: url(../images/area-banners/catering-hospitality-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1332,10 +1307,12 @@ section h2 strong {
     }
 }
 /* CULTURE & VISITOR ECONOMY | Catering & Hospitality | header bar */
+
 #travel-visitor-attractions {
     background: url(../images/area-banners/travel-visitor-attractions-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #travel-visitor-attractions {
         background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1343,10 +1320,12 @@ section h2 strong {
     }
 }
 /* CULTURE & VISITOR ECONOMY | Media Digital Creativity | header bar */
+
 #media-digital-creativity {
     background: url(../images/area-banners/media-digital-creativity-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #media-digital-creativity {
         background: url(../images/area-banners/media-digital-creativity-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1354,23 +1333,26 @@ section h2 strong {
     }
 }
 /* CULTURE & VISITOR ECONOMY | performing-arts | header bar */
+
 #performing-arts {
     background: url(../images/area-banners/performing-arts-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #performing-arts {
         background: url(../images/area-banners/performing-arts-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
-
 /* -------------------------------------- Health and Wellbeing -------------------------------------------------- */
 /* HELTH & WELLBEING | Hair and beauty | header bar */
+
 #hair-beauty {
     background: url(../images/area-banners/hair-beauty-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #hair-beauty {
         background: url(../images/area-banners/hair-beauty-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1378,10 +1360,12 @@ section h2 strong {
     }
 }
 /* HELTH & WELLBEING | Public Services | header bar */
+
 #public-services {
     background: url(../images/area-banners/public-services-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #public-services {
         background: url(../images/area-banners/public-services-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1389,10 +1373,12 @@ section h2 strong {
     }
 }
 /* HELTH & WELLBEING | Childrens Workforce | header bar */
+
 #childrens-workforce {
     background: url(../images/area-banners/childrens-workforce-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #childrens-workforce {
         background: url(../images/area-banners/childrens-workforce-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1400,10 +1386,12 @@ section h2 strong {
     }
 }
 /* HELTH & WELLBEING | Social Care | header bar */
+
 #social-care {
     background: url(../images/area-banners/social-care-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #social-care {
         background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1411,10 +1399,12 @@ section h2 strong {
     }
 }
 /* HELTH & WELLBEING | Sport and fitness | header bar */
+
 #sport {
     background: url(../images/area-banners/sport-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #sport {
         background: url(../images/area-banners/sport-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1422,10 +1412,12 @@ section h2 strong {
     }
 }
 /* HELTH & WELLBEING | Health | header bar */
+
 #health {
     background: url(../images/area-banners/health-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #health {
         background: url(../images/area-banners/health-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1434,10 +1426,12 @@ section h2 strong {
 }
 /* -------------------------------------- RURAL ECONOMY -------------------------------------------------- */
 /* RURAL ECONOMY | Animal Science and Management | header bar */
+
 #animal-science-management {
     background: url(../images/area-banners/animal-science-management-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #animal-science-management {
         background: url(../images/area-banners/animal-science-management-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1445,10 +1439,12 @@ section h2 strong {
     }
 }
 /* RURAL ECONOMY | agriculture horticulture | header bar */
+
 #agriculture-horticulture {
     background: url(../images/area-banners/agriculture-horticulture-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #agriculture-horticulture {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1456,10 +1452,12 @@ section h2 strong {
     }
 }
 /* RURAL ECONOMY | countryside management | header bar */
+
 #countryside-management {
     background: url(../images/area-banners/countryside-management-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #countryside-management {
         background: url(../images/area-banners/countryside-management-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1467,10 +1465,12 @@ section h2 strong {
     }
 }
 /* RURAL ECONOMY | food production | header bar */
+
 #food-production {
     background: url(../images/area-banners/food-production-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #food-production {
         background: url(../images/area-banners/food-production-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1478,10 +1478,12 @@ section h2 strong {
     }
 }
 /* RURAL ECONOMY | equine | header bar */
+
 #equine {
     background: url(../images/area-banners/equine-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #equine {
         background: url(../images/area-banners/equine-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1490,10 +1492,12 @@ section h2 strong {
 }
 /* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
 /* SCIENCE AND THE NATURAL ENVIROMENT | applied-forensic-science | header bar */
+
 #applied-forensic-science {
     background: url(../images/area-banners/applied-forensic-science-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #applied-forensic-science {
         background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1501,10 +1505,12 @@ section h2 strong {
     }
 }
 /* SCIENCE AND THE NATURAL ENVIROMENT | marine-natural-science-conservation | header bar */
+
 #marine-natural-science-conservation {
     background: url(../images/area-banners/marine-natural-science-conservation-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
     #marine-natural-science-conservation {
         background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1512,85 +1518,100 @@ section h2 strong {
     }
 }
 /* SCIENCE AND THE NATURAL ENVIROMENT | environmental-science | header bar */
+
 #environmental-science {
     background: url(../images/area-banners/environmental-science-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #environmental-science { 
+    #environmental-science {
         background: url(../images/area-banners/environmental-science-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* --------------------------------------- TECHNOLOGY -------------------------------------------------- */
 /* TECHNOLOGY | environmental-science | header bar */
+
 #construction {
     background: url(../images/area-banners/construction-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #construction { 
+    #construction {
         background: url(../images/area-banners/construction-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* TECHNOLOGY | electrical | header bar */
+
 #electrical {
     background: url(../images/area-banners/electrical-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #electrical { 
+    #electrical {
         background: url(../images/area-banners/electrical-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* TECHNOLOGY | automotive | header bar */
+
 #automotive {
     background: url(../images/area-banners/automotive-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #automotive { 
+    #automotive {
         background: url(../images/area-banners/automotive-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* TECHNOLOGY | boatbuilding | header bar */
+
 #boatbuilding {
     background: url(../images/area-banners/boatbuilding-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #boatbuilding { 
+    #boatbuilding {
         background: url(../images/area-banners/boatbuilding-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* TECHNOLOGY | construction-plant | header bar */
+
 #construction-plant {
     background: url(../images/area-banners/construction-plant-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #construction-plant { 
+    #construction-plant {
         background: url(../images/area-banners/construction-plant-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* TECHNOLOGY | aerospace | header bar */
+
 #aerospace {
     background: url(../images/area-banners/aerospace-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
+
 @media(min-width:768px) {
-    #aerospace { 
+    #aerospace {
         background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
 /* ---------------------------iPhone Fix ----------------------------------------*/
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
     #aerospace,
     #construction-plant,
     #boatbuilding,
@@ -1617,25 +1638,25 @@ section h2 strong {
     #digital-technologies,
     #health-safety,
     #business-admin,
-    #sales-marketing
-    #education-teaching,
+    #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
     #technology-engineering,
-    #public-services{
+    #public-services {
         background-size: auto 568px;
     }
 }
 /*====================================================================================================
 APPLY BARS =========================================================================================
 ====================================================================================================*/
-
 /* engineering and technology | apply now bar */
 
 .engineering-bar {
-    background: url(../images/engineering-technology-bg-mobile.jpg); /* Standard syntax */     
+    background: url(../images/engineering-technology-bg-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .engineering-bar {
         background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
@@ -1644,10 +1665,13 @@ APPLY BARS =====================================================================
 }
 /* ----------------------------------------- A Levels -------------------------------------------------- */
 /* A-levels | apply now bar */
+
 .a-levels-bar {
-    background: url(../images/area-banners/a-levels-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/a-levels-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .a-levels-bar {
         background: url(../images/area-banners/a-levels-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1656,10 +1680,13 @@ APPLY BARS =====================================================================
 }
 /* -------------------------------------- BUSINESS AND PRO -------------------------------------------------- */
 /* Accountancy Financial | apply now bar */
+
 .accountancy-bar {
-    background: url(../images/area-banners/accountancy-financial-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/accountancy-financial-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .accountancy-bar {
         background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1667,10 +1694,13 @@ APPLY BARS =====================================================================
     }
 }
 /* education-teaching | apply now bar */
+
 .education-teaching-bar {
-    background: url(../images/area-banners/education-teaching-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/education-teaching-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .education-teaching-bar {
         background: url(../images/area-banners/education-teaching-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1678,10 +1708,13 @@ APPLY BARS =====================================================================
     }
 }
 /* education-teaching | apply now bar */
+
 .sales-marketing-bar {
-    background: url(../images/area-banners/customer-service-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/customer-service-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .sales-marketing-bar {
         background: url(../images/area-banners/customer-service-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1689,10 +1722,13 @@ APPLY BARS =====================================================================
     }
 }
 /* business and admin | apply now bar */
+
 .business-admin-bar {
-    background: url(../images/area-banners/business-admin-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/business-admin-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .business-admin-bar {
         background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1700,10 +1736,13 @@ APPLY BARS =====================================================================
     }
 }
 /* health and safety | apply now bar */
+
 .health-safety-bar {
-    background: url(../images/area-banners/health-safety-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/health-safety-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .health-safety-bar {
         background: url(../images/area-banners/health-safety-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1711,24 +1750,28 @@ APPLY BARS =====================================================================
     }
 }
 /* digital-technologies | apply now bar */
+
 .digital-technologies-bar {
-    background: url(../images/area-banners/digital-technologies-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/digital-technologies-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .digital-technologies-bar {
         background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
-
 /* -------------------------------------- CULTURE AND VISITOR ECONOMY -------------------------------------------------- */
-
 /* CULTURE AND VISITOR ECONOMY | Catering & Hospitality | apply now bar */
+
 .catering-hospitality-bar {
-    background: url(../images/area-banners/catering-hospitality-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/catering-hospitality-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .catering-hospitality-bar {
         background: url(../images/area-banners/catering-hospitality-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1736,10 +1779,13 @@ APPLY BARS =====================================================================
     }
 }
 /* CULTURE AND VISITOR ECONOMY | travel-visitor-attractions | apply now bar */
+
 .travel-visitor-attractions-bar {
-    background: url(../images/area-banners/travel-visitor-attractions-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/travel-visitor-attractions-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .travel-visitor-attractions-bar {
         background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1747,101 +1793,127 @@ APPLY BARS =====================================================================
     }
 }
 /* CULTURE AND VISITOR ECONOMY | media-digital-creativity | apply now bar */
+
 .media-digital-creativity-bar {
-    background: url(../images/area-banners/media-digital-creativity-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/media-digital-creativity-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .media-digital-creativity-bar {
         background: url(../images/area-banners/media-digital-creativity-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* CULTURE AND VISITOR ECONOMY | performing-arts | apply now bar */
+
 .performing-arts-bar {
-    background: url(../images/area-banners/performing-arts-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/performing-arts-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .performing-arts-bar {
         background: url(../images/area-banners/performing-arts-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
-
+}
 /* -------------------------------------- HEALTH & WELLBEING -------------------------------------------------- */
 /* HEALTH & WELLBEING | hair and beauty | apply now bar */
+
 .hair-beauty-bar {
-    background: url(../images/area-banners/hair-beauty-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/hair-beauty-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .hair-beauty-bar {
         background: url(../images/area-banners/hair-beauty-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* HEALTH & WELLBEING | public service | apply now bar */
+
 .public-services-bar {
-    background: url(../images/area-banners/public-services-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/public-services-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .public-services-bar {
         background: url(../images/area-banners/public-services-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* HEALTH & WELLBEING | Childrens Workforce | apply now bar */
+
 .childrens-workforce-bar {
-    background: url(../images/area-banners/childrens-workforce-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/childrens-workforce-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .childrens-workforce-bar {
         background: url(../images/area-banners/childrens-workforce-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* HEALTH & WELLBEING | Sport and Fitness | apply now bar */
+
 .sport-bar {
-    background: url(../images/area-banners/sport-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/sport-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .sport-bar {
         background: url(../images/area-banners/sport-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* HEALTH & WELLBEING | Social Care | apply now bar */
+
 .social-care-bar {
-    background: url(../images/area-banners/social-care-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/social-care-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .social-care-bar {
         background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* HEALTH & WELLBEING | Health | apply now bar */
+
 .health-bar {
-    background: url(../images/area-banners/health-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/health-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .health-bar {
         background: url(../images/area-banners/health-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
-} 
+}
 /* -------------------------------------- RURAL ECONOMY -------------------------------------------------- */
 /* RURAL ECONOMY | Animal Science and Management | apply now bar */
+
 .animal-science-management-bar {
-    background: url(../images/area-banners/animal-science-management-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/animal-science-management-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .animal-science-management-bar {
         background: url(../images/area-banners/animal-science-management-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1849,10 +1921,13 @@ APPLY BARS =====================================================================
     }
 }
 /* RURAL ECONOMY | agriculture horticulture | apply now bar */
+
 .agriculture-horticulture-bar {
-    background: url(../images/area-banners/agriculture-horticulture-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/agriculture-horticulture-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .agriculture-horticulture-bar {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1860,10 +1935,13 @@ APPLY BARS =====================================================================
     }
 }
 /* RURAL ECONOMY | countryside management | apply now bar */
+
 .countryside-management-bar {
-    background: url(../images/area-banners/countryside-management-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/countryside-management-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .countryside-management-bar {
         background: url(../images/area-banners/countryside-management-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1871,10 +1949,13 @@ APPLY BARS =====================================================================
     }
 }
 /* RURAL ECONOMY | food production | apply now bar */
+
 .food-production-bar {
-    background: url(../images/area-banners/food-production-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/food-production-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .food-production-bar {
         background: url(../images/area-banners/food-production-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1882,24 +1963,28 @@ APPLY BARS =====================================================================
     }
 }
 /* RURAL ECONOMY | equine | apply now bar */
+
 .equine-bar {
-    background: url(../images/area-banners/equine-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/equine-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .equine-bar {
         background: url(../images/area-banners/equine-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
-
 /* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
-
 /* SCIENCE AND THE NATURAL ENVIROMENT | applied-forensic-science | apply now bar */
+
 .applied-forensic-science-bar {
-    background: url(../images/area-banners/applied-forensic-science-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/applied-forensic-science-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .applied-forensic-science-bar {
         background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1907,10 +1992,13 @@ APPLY BARS =====================================================================
     }
 }
 /* SCIENCE AND THE NATURAL ENVIROMENT | marine natural science conservation | apply now bar */
+
 .marine-natural-science-conservation-bar {
-    background: url(../images/area-banners/marine-natural-science-conservation-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/marine-natural-science-conservation-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .marine-natural-science-conservation-bar {
         background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1918,10 +2006,13 @@ APPLY BARS =====================================================================
     }
 }
 /* SCIENCE AND THE NATURAL ENVIROMENT | environmental-science | apply now bar */
+
 .environmental-science-bar {
-    background: url(../images/area-banners/environmental-science-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/environmental-science-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .environmental-science-bar {
         background: url(../images/area-banners/environmental-science-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1930,10 +2021,13 @@ APPLY BARS =====================================================================
 }
 /* --------------------------------------- TECHNOLOGY -------------------------------------------------- */
 /* TECHNOLOGY | construction | apply now bar */
+
 .construction-bar {
-    background: url(../images/area-banners/construction-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/construction-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .construction-bar {
         background: url(../images/area-banners/construction-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1941,10 +2035,13 @@ APPLY BARS =====================================================================
     }
 }
 /* TECHNOLOGY | electrical | apply now bar */
+
 .electrical-bar {
-    background: url(../images/area-banners/electrical-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/electrical-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .electrical-bar {
         background: url(../images/area-banners/electrical-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1952,10 +2049,13 @@ APPLY BARS =====================================================================
     }
 }
 /* TECHNOLOGY | automotive | apply now bar */
+
 .automotive-bar {
-    background: url(../images/area-banners/automotive-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/automotive-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .automotive-bar {
         background: url(../images/area-banners/automotive-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1963,10 +2063,13 @@ APPLY BARS =====================================================================
     }
 }
 /* TECHNOLOGY | boatbuilding | apply now bar */
+
 .boatbuilding-bar {
-    background: url(../images/area-banners/boatbuilding-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/boatbuilding-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .boatbuilding-bar {
         background: url(../images/area-banners/boatbuilding-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1974,10 +2077,13 @@ APPLY BARS =====================================================================
     }
 }
 /* TECHNOLOGY | construction-plant | apply now bar */
+
 .construction-plant-bar {
-    background: url(../images/area-banners/construction-plant-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/construction-plant-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .construction-plant-bar {
         background: url(../images/area-banners/construction-plant-desktop.jpg) 50% 0 no-repeat fixed;
@@ -1985,18 +2091,22 @@ APPLY BARS =====================================================================
     }
 }
 /* TECHNOLOGY | aerospace | apply now bar */
+
 .aerospace-bar {
-    background: url(../images/area-banners/aerospace-mobile.jpg); /* Standard syntax */     
+    background: url(../images/area-banners/aerospace-mobile.jpg);
+    /* Standard syntax */
 }
 /*DESKTOP version of the background*/
+
 @media(min-width:768px) {
     .aerospace-bar {
         background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
-/* -------------------------------------iPhone Background FIX ---------------------------------------------*/ 
-@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio : 2) {
+/* -------------------------------------iPhone Background FIX ---------------------------------------------*/
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
     .aerospace-bar,
     .construction-plant-bar,
     .boatbuilding-bar,
@@ -2028,26 +2138,28 @@ APPLY BARS =====================================================================
     .engineering-bar,
     .public-services-bar,
     .childrens-workforce-bar,
-    .sport-bar{     
+    .sport-bar {
         /*background-size: auto 520px;*/
-        -webkit-background-size:cover;  
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
+        
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         background-attachment: fixed;
-        background-position: 50% 0
-;    }
+        background-position: 50% 0;
+    }
 }
 
-.apply-bar section{
+.apply-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
+    
     font-family: "Raleway";
     font-weight: 400;
     margin: 0;
 }
 
-.apply-bar h2{
+.apply-bar h2 {
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
@@ -2056,7 +2168,7 @@ APPLY BARS =====================================================================
     text-align: center
 }
 
-.apply-bar .btn{
+.apply-bar .btn {
     background: transparent;
     border: 5px #52B3D9 solid;
     color: #52B3D9;
@@ -2068,18 +2180,18 @@ APPLY BARS =====================================================================
     margin-bottom: 120px;
 }
 
-.apply-bar .btn:hover{
+.apply-bar .btn:hover {
     border: 5px #fff solid;
     color: #fff;
     opacity: 1;
 }
 
 @media(max-width: 480px) {
-    .apply-bar h2{
+    .apply-bar h2 {
         padding-top: 70px;
         font-size: 40px;
     }
-    .apply-bar .btn{
+    .apply-bar .btn {
         font-size: 20px;
         padding: 10px 20px;
         margin-bottom: 70px;
@@ -2089,9 +2201,7 @@ APPLY BARS =====================================================================
 .margin-top {
     margin-top: 70px;
 }
-
 /* --------- Full time section call to action ENDS --------- */
-
 /* --------- Career area H1 size fixes --------- 
     #aerospace,
     #construction-plant,
@@ -2125,67 +2235,80 @@ APPLY BARS =====================================================================
     #a-levels,
     #technology-engineering
 */
-@media(min-width:993px){
-    .career-title header h2{
+
+@media(min-width:993px) {
+    .career-title header h2 {
         margin-top: 47px;
-    }    
-    #sales-marketing h2{
+    }
+    #sales-marketing h2 {
         margin-top: 62px;
-    }       
-    .career-title header h2 span{
+    }
+    .career-title header h2 span {
         font-size: 60px;
-    } 
-    #sales-marketing h2 span{
+    }
+    #sales-marketing h2 span {
         font-size: 44px;
-    }     
+    }
 }
-@media(min-width:481px) and (max-width:992px){
+
+@media(min-width:481px) and (max-width:992px) {
     /* Small title top margin */
-    .career-title header h2{
+    
+    .career-title header h2 {
         margin-top: 46px;
-    }  
+    }
     /* Extra small title top margin */
-    #sales-marketing h2{
+    
+    #sales-marketing h2 {
         margin-top: 55px;
-    }  
+    }
     /* Small title */
-    .career-title header h2 span{
-        font-size:30px;
+    
+    .career-title header h2 span {
+        font-size: 30px;
     }
     /* Extra small title */
-    #sales-marketing h2 span{
-        font-size:20px;
-    }     
+    
+    #sales-marketing h2 span {
+        font-size: 20px;
+    }
 }
-@media(max-width:480px){
+
+@media(max-width:480px) {
     /* two line titles */
-    .career-title header h2{ 
-        margin-top: 4px;        
+    
+    .career-title header h2 {
+        margin-top: 4px;
     }
     /* three line titles */
-    #sales-marketing h2,    
+    
+    #sales-marketing h2,
     #travel-visitor-attractions h2,
-    #performing-arts h2{
-        margin-top:3px;
-    } 
+    #performing-arts h2 {
+        margin-top: 3px;
+    }
     /* Small breadcrumb */
-    .career-title header a small{
+    
+    .career-title header a small {
         font-size: 115%;
     }
     /* Small title */
-    .career-title header h2 span{    
+    
+    .career-title header h2 span {
         line-height: 85%;
         font-size: 108%;
     }
     /* three line title */
+    
     #sales-marketing h2 span,
     #travel-visitor-attractions h2 span,
     #performing-arts h2 span,
-    #media-digital-creativity h2 span{
+    #media-digital-creativity h2 span {
         font-size: 97%;
         line-height: 98%;
     }
     /*one word title*/
+    
     #health h2 span,
     #electrical h2 span,
     #construction h2 span,
@@ -2193,15 +2316,12 @@ APPLY BARS =====================================================================
     #boatbuilding h2 span,
     #aerospace h2 span,
     #technology-engineering h2 span,
-    #a-levels h2 span
-    {
+    #a-levels h2 span {
         line-height: 194%;
         font-size: 129%;
-    }    
+    }
 }
-
 /* ------- Career area H1 size fixes ENDS ------- */
-
 
 .dark-bg h2 {
     color: white;
@@ -2290,6 +2410,7 @@ APPLY BARS =====================================================================
     -o-transition: all 0.3s ease;
 }
 /* Cluster Colors*/
+
 .career-filter ul li a.as {
     border: 5px solid #712180;
     color: #712180;
@@ -2476,6 +2597,7 @@ APPLY BARS =====================================================================
 
 .menu-item-links li a {
     /* padding: 10px;*/
+    
     line-height: 15px;
 }
 
@@ -2485,7 +2607,7 @@ APPLY BARS =====================================================================
     }
     .submenu-items {
         text-indent: 11%;
-    }    
+    }
 }
 /* --------- Main Menu indent Fix ENDS ----------*/
 
@@ -2520,27 +2642,30 @@ div.collapsed h2 span.readmore {
 div h2 span.readmore {
     display: none;
 }
-.back-button{
+
+.back-button {
     display: none
 }
-@media(max-width:768px){
-    .back-button{
-        display:block;
-        position:absolute;
+
+@media(max-width:768px) {
+    .back-button {
+        display: block;
+        position: absolute;
         top: 150px;
-        left:15px;
+        left: 15px;
         z-index: 99;
         color: white;
     }
-    .back-button i{
-        font-size:55px;
+    .back-button i {
+        font-size: 55px;
         opacity: .4;
     }
-    .back-button i:hover{
+    .back-button i:hover {
         opacity: 1;
     }
 }
-.search-submit{
+
+.search-submit {
     position: relative;
     height: 100%;
     width: 100%;
@@ -2548,39 +2673,42 @@ div h2 span.readmore {
     background: none;
     border: none;
 }
-#search-form .input-group-addon{
-    padding:0;
+
+#search-form .input-group-addon {
+    padding: 0;
 }
-@media(max-width:769px){
-    .ccg-brands{
-        clear:both;
+
+@media(max-width:769px) {
+    .ccg-brands {
+        clear: both;
     }
 }
-@media(max-width:480px){
+
+@media(max-width:480px) {
     .blocks header {
-        min-height:inherit;
+        min-height: inherit;
         border-bottom: none;
         padding-top: 0px;
     }
     .blocks h5 {
         width: 100%;
-    }    
+    }
 }
 /* ---------- Example job styling --------*/
-@media(min-width:480px){
+
+@media(min-width:480px) {
     .inner h5 span {
         font-size: 32px;
     }
     #counters .inner {
         padding: 30px 15px;
         text-align: center;
-    }    
+    }
 }
 
-span.pound-sign{
-    float:left;
+span.pound-sign {
+    float: left;
 }
-
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
@@ -2596,71 +2724,73 @@ span.pound-sign{
 /********************************************BETTERTUBE PLUGIN STYLES*****************************************/
 
 .BetterTube {
-  margin-bottom: 3.5em;
-  display: block;
-  position: relative;
-  height: 50px;
+    margin-bottom: 3.5em;
+    display: block;
+    position: relative;
+    height: 50px;
 }
 
 .BetterTube a {
-  background: #ccc;
-  position: absolute;
-  color: #666;
-  display: block;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-size: cover !important;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 25%;
+    background: #ccc;
+    position: absolute;
+    color: #666;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover !important;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 25%;
 }
 
 .BetterTube a:hover {
-  text-decoration: none;
-  color: #FFF;
+    text-decoration: none;
+    color: #FFF;
 }
 
 .BetterTube figcaption {
-  position: absolute;
-  left: 0;
-  bottom: -50px;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-.BetterTube iframe,.BetterTube object,
-.BetterTube embed,.BetterTube video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin-top: 0;
+.BetterTube iframe,
+.BetterTube object,
+.BetterTube embed,
+.BetterTube video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
     border: none;
 }
 
 .BetterTube-playBtn {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABNCAQAAABJACE7AAAEvklEQVR4AdyYX0hbVxzHv5CH4kMZVUighTLxKXmMCBGF/MKC26Qy5x6njMEsGCgU8zBQygaDsJVC2IOCoIPhAqtjbFxmXsJl4EPgPpSGhTDSQDPXEbUNRSpGZ/6cwSHk5MaYa8498WGf39sVrt/c8/vz/R38X+mDE4PwwAsfxuEHwY9x+OCFB4Nwog9XjgMuuDEKsoxRuOGCA1fCADwg8Jic2VwyNvKJYvq4cHZULbNatXx2dFwopvMJY2NzaXKmIdGDAfSUWxgB/1cri5mtN8+ZJW+eZ7ZWFuvyRnALPeEmfCDQwmwqVjpgXVE6SMUWZrk8H25CKTfgBYEioV2dSbOrR0Jcnhc3oIgh8K+VTzDb5BP1rzcE21zHMAhkbLC2HD7Lanp0NRyaG5vqDzoC/cGxqdDcaliPZrXDZ6wtxgYXN4zrsIELftDyfDHNzvFiR4tMTIM6xcS0Fnmxw85RTC/P8x7ogiS3QaD4Q1ZrSeq95JpZlJXA5Fppj5mpxR/yv96GBIMgUCrGTJy81KMgmdCjJy+ZiVSM/2VQSlgu3voyZxAkG85g6w/NxbsXx48ynzAn/KN7ILvx6J65OPKJ7o7Vdf6L5bavBUAq4logt93my7ku1y78rTlmrINUhrF+Luf8l2klw7wqm5BMfIuiYE3wah2+ROdfnmc1eWFS4mq8zw11npUEKqZlj1L+WItp/qzDbPWaR1JuG9TLyG23jC/vxbaHFmab24X9qrSq1uZWwgf/BZbJZ+5lEn1Mos+19DhfewdLkZC5pC+KfeP+J4rEmdoU93NtnPAIaFcXs7LTSGKsWvnz1/c+VCHNGRSzdVfnNr2FAZFn1i2DccolY/3td9W2EZ5vAzDhaf60pb3OL2t2/T9/5bBdLKU9Uxp5zHslgcQyklyzliZ4neE5YiOSa+Kn8icO00BfWWQNrIwia6X29++ffSwvbWKaNVhZNA97NyizJaw1qCtpnEo5/Xjkjqw4YdMzWyC40WAUJBZeLSIhjfPvoR596x0ZaVpELNUgjIpLFZqcMR2npDT+6r+++9zekfLriD5wnKDNJTGeQHLSBK+ecifRVYiRtbkEgrOxB4ihntXkpQmqtVz8zkfdSMtqYtCLfcHTPDv1qH1pMi1Zj4pZKnqbt9mjrYZVSBN96revL+dfVsMm7+ZtOI7jAqsTmlMlTWTvt/et3xmaY3WOC8KBjIPOjlidsSnF0jj/7Fi15LEpVufsCIRxcPygapnV6Q/alybTkvuDjRIq8w2LQyCxqDgCvZFWrWU1+uDidzoCYuzxJ1f11V5nvrgLEmH91Xqfa3x8xb/hVSqRaz2rUO6Gf+EZJlGhvetr4oqP5PtaT6bBaVGLiJKSnQbKZ2i1kvlJHKP8DFXuPF49DX8Ksu88FPu106JYY+z7NWUut1L+40f3+yAVLlfpbnDwhG/0yncDmxtV6eDxlyD1G5XNPbRSTv0gjlH9Hiq9ve8bd2dB6rd3m3cepf3YA1Bv7zwkbooqp0++F75f/U2R9P1aIck965Xdr/3XrB0IAAAAMAzyt06jY3zFr2T95T4P+N8N/tryN6q67MU9tK7ITXv/xcLvPH4d85uiWmLlfq1Wf7mVfIVp4HIDzfwP/+fzW/C0yiYAAAAASUVORK5CYII=") center center no-repeat;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABNCAQAAABJACE7AAAEvklEQVR4AdyYX0hbVxzHv5CH4kMZVUighTLxKXmMCBGF/MKC26Qy5x6njMEsGCgU8zBQygaDsJVC2IOCoIPhAqtjbFxmXsJl4EPgPpSGhTDSQDPXEbUNRSpGZ/6cwSHk5MaYa8498WGf39sVrt/c8/vz/R38X+mDE4PwwAsfxuEHwY9x+OCFB4Nwog9XjgMuuDEKsoxRuOGCA1fCADwg8Jic2VwyNvKJYvq4cHZULbNatXx2dFwopvMJY2NzaXKmIdGDAfSUWxgB/1cri5mtN8+ZJW+eZ7ZWFuvyRnALPeEmfCDQwmwqVjpgXVE6SMUWZrk8H25CKTfgBYEioV2dSbOrR0Jcnhc3oIgh8K+VTzDb5BP1rzcE21zHMAhkbLC2HD7Lanp0NRyaG5vqDzoC/cGxqdDcaliPZrXDZ6wtxgYXN4zrsIELftDyfDHNzvFiR4tMTIM6xcS0Fnmxw85RTC/P8x7ogiS3QaD4Q1ZrSeq95JpZlJXA5Fppj5mpxR/yv96GBIMgUCrGTJy81KMgmdCjJy+ZiVSM/2VQSlgu3voyZxAkG85g6w/NxbsXx48ynzAn/KN7ILvx6J65OPKJ7o7Vdf6L5bavBUAq4logt93my7ku1y78rTlmrINUhrF+Luf8l2klw7wqm5BMfIuiYE3wah2+ROdfnmc1eWFS4mq8zw11npUEKqZlj1L+WItp/qzDbPWaR1JuG9TLyG23jC/vxbaHFmab24X9qrSq1uZWwgf/BZbJZ+5lEn1Mos+19DhfewdLkZC5pC+KfeP+J4rEmdoU93NtnPAIaFcXs7LTSGKsWvnz1/c+VCHNGRSzdVfnNr2FAZFn1i2DccolY/3td9W2EZ5vAzDhaf60pb3OL2t2/T9/5bBdLKU9Uxp5zHslgcQyklyzliZ4neE5YiOSa+Kn8icO00BfWWQNrIwia6X29++ffSwvbWKaNVhZNA97NyizJaw1qCtpnEo5/Xjkjqw4YdMzWyC40WAUJBZeLSIhjfPvoR596x0ZaVpELNUgjIpLFZqcMR2npDT+6r+++9zekfLriD5wnKDNJTGeQHLSBK+ecifRVYiRtbkEgrOxB4ihntXkpQmqtVz8zkfdSMtqYtCLfcHTPDv1qH1pMi1Zj4pZKnqbt9mjrYZVSBN96revL+dfVsMm7+ZtOI7jAqsTmlMlTWTvt/et3xmaY3WOC8KBjIPOjlidsSnF0jj/7Fi15LEpVufsCIRxcPygapnV6Q/alybTkvuDjRIq8w2LQyCxqDgCvZFWrWU1+uDidzoCYuzxJ1f11V5nvrgLEmH91Xqfa3x8xb/hVSqRaz2rUO6Gf+EZJlGhvetr4oqP5PtaT6bBaVGLiJKSnQbKZ2i1kvlJHKP8DFXuPF49DX8Ksu88FPu106JYY+z7NWUut1L+40f3+yAVLlfpbnDwhG/0yncDmxtV6eDxlyD1G5XNPbRSTv0gjlH9Hiq9ve8bd2dB6rd3m3cepf3YA1Bv7zwkbooqp0++F75f/U2R9P1aIck965Xdr/3XrB0IAAAAMAzyt06jY3zFr2T95T4P+N8N/tryN6q67MU9tK7ITXv/xcLvPH4d85uiWmLlfq1Wf7mVfIVp4HIDzfwP/+fzW/C0yiYAAAAASUVORK5CYII=") center center no-repeat;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .BetterTube-playBtn:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
+    filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
 }
 /********************************************BETTERTUBE PLUGIN STYLES ENDS*****************************************/
