@@ -455,69 +455,14 @@ section h2 strong {
     }
     /*--Added mobile bounce animation home page menu--*/
     .bounce {
-        animation: bounceFrames linear 0.8s;
         animation-iteration-count: 2;
-        transform-origin: 50% 50%;
-        -webkit-animation: bounceFrames linear 0.8s;
         -webkit-animation-iteration-count: 2;
-        -webkit-transform-origin: 50% 50%;
-        -moz-animation: bounceFrames linear 0.8s;
         -moz-animation-iteration-count: 2;
-        -moz-transform-origin: 50% 50%;
-        -o-animation: bounceFrames linear 0.8s;
         -o-animation-iteration-count: 2;
-        -o-transform-origin: 50% 50%;
-        -ms-animation: bounceFrames linear 0.8s;
-        -ms-animation-iteration-count: 1;
-        -ms-transform-origin: 50% 50%;
+        -ms-animation-iteration-count: 2;
         -webkit-animation-delay: 3s;
-        /* Chrome, Safari, Opera */ 
+        /* Chrome, Safari, Opera */
         animation-delay: 3s;
-    }
-    @keyframes bounceFrames {
-        0% { transform: translate(0px, 0px);}
-        15% { transform: translate(0px, -55px);}
-        30% { transform: translate(0px, 0px);}
-        45% { transform: translate(0px, -30px);}
-        60% { transform: translate(0px, 0px);}
-        75% { transform: translate(0px, -15px);}
-        100% { transform: translate(0px, 0px);}
-    }
-    @-moz-keyframes bounceFrames {
-        0% { -moz-transform: translate(0px, 0px); }
-        15% { -moz-transform: translate(0px, -55px);}
-        30% { -moz-transform: translate(0px, 0px);}
-        45% { -moz-transform: translate(0px, -30px);}
-        60% { -moz-transform: translate(0px, 0px);}
-        75% { -moz-transform: translate(0px, -15px);}
-        100% { -moz-transform: translate(0px, 0px);}
-    }
-    @-webkit-keyframes bounceFrames {
-        0% { -webkit-transform: translate(0px, 0px);}
-        15% { -webkit-transform: translate(0px, -55px);}
-        30% { -webkit-transform: translate(0px, 0px);}
-        45% { -webkit-transform: translate(0px, -30px);}
-        60% { -webkit-transform: translate(0px, 0px);}
-        75% { -webkit-transform: translate(0px, -15px);}
-        100% { -webkit-transform: translate(0px, 0px);}
-    }
-    @-o-keyframes bounceFrames {
-        0% { -o-transform: translate(0px, 0px);}
-        15% { -o-transform: translate(0px, -55px);}
-        30% { -o-transform: translate(0px, 0px);}
-        45% { -o-transform: translate(0px, -30px);}
-        60% { -o-transform: translate(0px, 0px);}
-        75% { -o-transform: translate(0px, -15px);}
-        100% { -o-transform: translate(0px, 0px);}
-    }
-    @-ms-keyframes bounceFrames {
-        0% { -ms-transform: translate(0px, 0px);}
-        15% { -ms-transform: translate(0px, -55px);}
-        30% { -ms-transform: translate(0px, 0px);}
-        45% { -ms-transform: translate(0px, -30px);}
-        60% { -ms-transform: translate(0px, 0px);}
-        75% { -ms-transform: translate(0px, -15px);}
-        100% { -ms-transform: translate(0px, 0px);}
     }
     .btn-wrap a {
         font-size: 14px
