@@ -19,11 +19,13 @@
    function incrementCount(counter) {
        var max = Number($(counter).attr("data-count-to"));
        var stepSize = Number($(counter).attr("data-count-step"));
-       if (Number($(counter).html()) < max) {
-           var nextNumber = Number($(counter).html()) + stepSize
-           $(counter).html(nextNumber.toFixed(0));
-           if (Number($(counter).html()) > max) {
-               $(counter).html(max);
+       var current = Number($(counter).html().replace(',',''));
+       if (current < max) {
+           var nextNumber = current + stepSize
+           if (nextNumber > max) {
+               $(counter).html(Number(max.toFixed(0)).toLocaleString());
+           } else {
+               $(counter).html(Number(nextNumber.toFixed(0)).toLocaleString());
            }
            window.setTimeout(function () {
                incrementCount(counter)
