@@ -437,6 +437,164 @@ section h2 strong {
 .btn-wrap {
     margin-top: -18px;
 }
+@media(max-width:993px){
+.btn-wrap {
+    margin-top: -5px;
+    width:100%;
+    z-index: 999;
+    position:relative;    
+}
+.element-animation{
+  
+  animation: animationFrames linear 0.8s;
+  animation-iteration-count: 2;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames linear 0.8s;
+  -webkit-animation-iteration-count: 2;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationFrames linear 0.8s;
+  -moz-animation-iteration-count: 2;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationFrames linear 0.8s;
+  -o-animation-iteration-count: 2;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationFrames linear 0.8s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+    -webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+    animation-delay: 3s;      
+}
+
+@keyframes animationFrames{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  15% {
+    transform:  translate(0px,-55px)  ;
+  }
+  30% {
+    transform:  translate(0px,0px)  ;
+  }
+  45% {
+    transform:  translate(0px,-30px)  ;
+  }
+  60% {
+    transform:  translate(0px,0px)  ;
+  }
+  75% {
+    transform:  translate(0px,-15px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -moz-transform:  translate(0px,-55px)  ;
+  }
+  30% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -moz-transform:  translate(0px,-30px)  ;
+  }
+  60% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -moz-transform:  translate(0px,-15px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -webkit-transform:  translate(0px,-55px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -webkit-transform:  translate(0px,-30px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -webkit-transform:  translate(0px,-15px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -o-transform:  translate(0px,-55px)  ;
+  }
+  30% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -o-transform:  translate(0px,-30px)  ;
+  }
+  60% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -o-transform:  translate(0px,-15px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -ms-transform:  translate(0px,-55px)  ;
+  }
+  30% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -ms-transform:  translate(0px,-30px)  ;
+  }
+  60% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -ms-transform:  translate(0px,-15px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+    .btn-wrap {
+    
+    }
+    .btn-wrap a {
+        font-size: 14px
+    }
+    .btn-wrap a:hover {    
+      letter-spacing:normal;
+    }
+}
+
 
 .fixed-btn {
     z-index: 99;
