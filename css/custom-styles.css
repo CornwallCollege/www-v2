@@ -648,12 +648,15 @@ section h2 strong {
 }
 
 @media(max-width:680px) {
-    .menu-social-icons {
+    .cbp-spmenu .menu-social-icons {
         padding: 50px 15px;
         margin-top: 0;
         position: relative;
         bottom: auto;
     }
+}
+.menu-social-icons a {
+    display: inline;
 }
 .click-through{
     pointer-events: none;
