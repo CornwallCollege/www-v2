@@ -471,7 +471,8 @@ section h2 strong {
         -ms-animation-iteration-count: 1;
         -ms-transform-origin: 50% 50%;
         -webkit-animation-delay: 3s;
-        /* Chrome, Safari, Opera */ animation-delay: 3s;
+        /* Chrome, Safari, Opera */ 
+        animation-delay: 3s;
     }
     @keyframes bounceFrames {
         0% { transform: translate(0px, 0px);}
