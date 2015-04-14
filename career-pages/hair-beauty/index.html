@@ -5,13 +5,7 @@ description: Find out more about starting an Education and Teaching Career at Th
 ---
 
         <!-- HEADER SECTION -->
-
-        <section id="hair-beauty" class="col-md-12 jumbotron header-title career-title">
-            <header class="container">
-                <h2><a href="/"><small>Home / </small></a><a href="/full-time-hub/"><small>Full-time Hub</small></a> <span>Hair &amp; Beauty</span></h2>
-            </header>
-            
-        </section>
+        {% include career-header.html career='hair-beauty' title='Hair &amp; Beauty' %}
         <!-- END OF HEADER -->
         <!-- BODY SECTION -->
         <section class="container">
@@ -126,37 +120,17 @@ description: Find out more about starting an Education and Teaching Career at Th
               </section>
               <!-- TEAM FOUNDER PICTURE -->
               <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="https://www.placehold.it/350x350" class="img-responsive" alt="Fran Clapham">
+                <img src="/images/alumni/hair-beauty-fran-clapham.jpg" class="img-responsive" alt="Fran Clapham">
               </figure>
             </article>
 
         </section>
 
 
-        <section class="col-sm-12 hair-beauty-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Seen Enough? Apply Now! </h2>
-                <a href="/apply#hair-beauty" class="apply-btn btn" data-career="hair and beauty">Apply NOW</a>
-            </div>
-        </section>   
+        {% include career-apply-bar.html career='hair-beauty' order='first' %}  
 
         <!-- skills -->
-
-        <section id="skills" class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="side-text col-xs-6 col-md-4 col-md-offset-1">
-                    <h2>OUR <strong>STATS</strong></h2>
-                </article>
-
-                <article class="progress-bars col-xs-6 col-md-5 col-md-offset-1">
-                    <section class="progress custom-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%">
-                            <span>100%</span> of our Hairdressing Diploma students say that teaching on their course is good. 
-                        </div>
-                    </section>
-                </article>
-            </section>
-        </section>
+        {% include career-stats.html percent1=100 end1='of our Hairdressing Diploma students say that teaching on their course is good.' %}
 
         <!-- TEAM intro -->
         <section class="col-md-12 main-section-margins intro">
@@ -187,10 +161,5 @@ description: Find out more about starting an Education and Teaching Career at Th
 
         </section>
 
-        <!-- call to action section -->
-        <section class="col-sm-12 hair-beauty-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Take the first step in your new career</h2>
-                <a href="/apply#hair-beauty" class="apply-btn btn" data-career="hair and beauty">Apply NOW</a>
-            </div>
-        </section>     
+        <!-- call to action section -->  
+        {% include career-apply-bar.html career='hair-beauty' %}    
