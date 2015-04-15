@@ -14,7 +14,7 @@ function replaceThumbnailWithIframe(e){
     // w = parent.getAttribute('data-player-width');
     // h = parent.getAttribute('data-player-height');
     style = 'style="frameborder=0;"';
-    inner = '<iframe class="youtubePlayer" src="https://www.youtube.com/embed/' + id + '?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1"' + style + ' />'
+    inner = '<iframe id="ytplayer" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/' + id + '?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1"' + style + ' allowfullscreen/>'
     parent.innerHTML = inner;
   }
 }
