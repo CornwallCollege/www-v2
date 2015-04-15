@@ -19,107 +19,14 @@ description: Find out more about starting a career in the Marine, Natural Scienc
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Biological Scientist or Biochemist<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-                        <p>Biological scientists and biochemists examine and investigate the morphology, structure, chemistry and physical characteristics of living organisms, including their inter-relationships, environments and diseases.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">6848</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">7451</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="pound-sign">£</span><span class="counter">21,200</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-2" aria-expanded="false" aria-controls="career-2" class="collapsed">
-                        <h2>Conservation or Environmental Associate Professional<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-2">
-                        <p>Conservation and environmental associate professionals are responsible for the day-to-day running and management of areas of the countryside and the wider environment in a way that reconciles the interests of conservation, land owners and the public. They carry out practical conservation activities and assist in promoting awareness of the natural environment.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">718</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">821</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">17,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-3" aria-expanded="false" aria-controls="career-3" class="collapsed">
-                        <h2>Conservation Professional<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-3">
-                        <p>Conservation professionals are responsible for ensuring that landscapes, habitats and species are protected and enhanced via appropriate management and conservation. They promote public understanding and awareness of the natural environment and help to develop and implement appropriate policies to achieve these objectives.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">1313</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">1430</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">17,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-4" aria-expanded="false" aria-controls="career-4" class="collapsed">
-                        <h2>Fishing or Agriculture Operative<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse" id="career-4">
-                        <p>Workers in this area perform a variety of tasks in relation to the breeding and rearing of animals and fish, catch fish at sea and from inland waterways, assist in the picking and lifting of crops, plant and maintain hedges, oversee the incubation and hatching of eggs and perform other fishing and elementary agricultural tasks</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">2527</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">2570</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">13,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
+                
+{% include career-example-job.html number='1' title='Biological Scientist or Biochemist' paragraph='Biological scientists and biochemists examine and investigate the morphology, structure, chemistry and physical characteristics of living organisms, including their inter-relationships, environments and diseases.' jobsIn='the Southwest' jobsNow=6848 jobsFuture=7451 startingSalary=21200 %} 
+                
+{% include career-example-job.html number='2' title='Conservation or Environmental Associate Professional' paragraph='Conservation and environmental associate professionals are responsible for the day-to-day running and management of areas of the countryside and the wider environment in a way that reconciles the interests of conservation, land owners and the public. They carry out practical conservation activities and assist in promoting awareness of the natural environment.' jobsIn='the Southwest' jobsNow=718 jobsFuture=821 startingSalary=17000 %} 
               
+{% include career-example-job.html number='3' title='Conservation Professional' paragraph='Conservation professionals are responsible for ensuring that landscapes, habitats and species are protected and enhanced via appropriate management and conservation. They promote public understanding and awareness of the natural environment and help to develop and implement appropriate policies to achieve these objectives.' jobsIn='the Southwest' jobsNow=1313 jobsFuture=1430 startingSalary=17000 %} 
+              
+{% include career-example-job.html number='4' title='Fishing or Agriculture Operative' paragraph='Workers in this area perform a variety of tasks in relation to the breeding and rearing of animals and fish, catch fish at sea and from inland waterways, assist in the picking and lifting of crops, plant and maintain hedges, oversee the incubation and hatching of eggs and perform other fishing and elementary agricultural tasks.' jobsIn='the Southwest' jobsNow=2527 jobsFuture=2570 startingSalary=13000 %}
             </section>
         </section>
         <!-- call to action section -->
