@@ -460,11 +460,13 @@ section h2 strong {
         -moz-animation-iteration-count: 2;
         -o-animation-iteration-count: 2;
         -ms-animation-iteration-count: 2;
-        -webkit-animation-delay: 3s;
+        -webkit-animation-delay: 4s;
         /* Chrome, Safari, Opera */
-        animation-delay: 3s;
-        -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-        animation-duration: 1s;        
+        animation-delay: 4s;
+        -webkit-animation-duration: .5s;
+        -moz-animation-duration: .5s;
+        -o-animation-duration: .5s;       
+        animation-duration: .5s;        
     }
     .btn-wrap a {
         font-size: 14px
