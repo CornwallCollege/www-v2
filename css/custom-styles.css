@@ -2397,6 +2397,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.as:hover {
     border: 5px solid #712180;
     background-color: white;
+    color: #712180;    
 }
 
 .career-filter li a.selected.as {
@@ -2414,6 +2415,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.bpi:hover {
     border: 5px solid #E73029;
     background-color: white;
+    color: #E73029;    
 }
 
 .career-filter li a.selected.bpi {
@@ -2431,6 +2433,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.cve:hover {
     border: 5px solid #C7D301;
     background-color: white;
+    color: #C7D301;    
 }
 
 .career-filter li a.selected.cve {
@@ -2448,6 +2451,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.hw:hover {
     background-color: white;
     border: 5px solid #DE006E;
+    color: #DE006E;    
 }
 
 .career-filter li a.selected.hw {
@@ -2465,6 +2469,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.re:hover {
     background-color: white;
     border: 5px solid #20A64B;
+    color: #20A64B;    
 }
 
 .career-filter li a.selected.re {
@@ -2482,6 +2487,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.sne:hover {
     background-color: white;
     border: 5px solid #004B93;
+    color: #004B93;    
 }
 
 .career-filter li a.selected.sne {
@@ -2499,6 +2505,7 @@ APPLY BARS =====================================================================
 .career-filter ul li a.et:hover {
     background-color: white;
     border: 5px solid #00ACCD;
+    color: #00ACCD;    
 }
 
 .career-filter li a.selected.et {
@@ -2516,13 +2523,6 @@ APPLY BARS =====================================================================
 .career-filter ul li a:hover {
     color: white;
 }
-/*.career-filter li a.selected,
-.career-filter li a.selected:hover,
-.career-filter li a.selected:focus {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-}*/
 
 .career-filter ul li a h3 {
     margin-bottom: 5px;
