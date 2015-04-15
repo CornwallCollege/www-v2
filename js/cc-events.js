@@ -26,7 +26,7 @@ $(document).ready(function () {
                 };
                 cc.events.formatDate = function (d) {
                     return $.datepicker.formatDate('dd.MM.yy', new Date(d));
-                };
+                };                
                 cc.events.load = function (jsonFilepath, at, take) {
                     var t = "<li>";
                     t += "<a href='[url]' data-largesrc='[img]' data-title='[title]' data-description='[description]' data-category='[campus]' data-date='[date]'>";
@@ -45,9 +45,10 @@ $(document).ready(function () {
                                 var h = '';
                                 for (var i = 0; i < events.length; i++) {
                                     var e = t;
+                                    console.log(events[i].Image);
                                     e = e.replace('[url]', events[i].DetailUrl.replace('http:','https:'));
-                                    e = e.replace('[img]', events[i].Image);
-                                    e = e.replace('[img]', events[i].Image);
+                                    e = e.replace('[img]', events[i].Image.replace('http:','https:'));
+                                    e = e.replace('[img]', events[i].Image.replace('http:','https:'));
                                     e = e.replace('[title]', events[i].Title);
                                     e = e.replace('[title]', events[i].Title);
                                     e = e.replace('[title]', events[i].Title);
