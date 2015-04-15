@@ -17,7 +17,6 @@ $(document).ready(function () {
                 cc.events.nearest = function (events, c) {
                     events = events.map(function (e) {
                         e.geoDist = cc.geo.calcGeoDistance(c.latitude, c.longitude, e.GeoLoc.Lat, e.GeoLoc.Lng);
-                        //e.geoDist = cc.geo.calcGeoDistance(50.23, -5.275, e.GeoLoc.Lat, e.GeoLoc.Lng);
                         return e;
                     });
                     events.sort(function (a, b) {
@@ -46,7 +45,7 @@ $(document).ready(function () {
                                 var h = '';
                                 for (var i = 0; i < events.length; i++) {
                                     var e = t;
-                                    e = e.replace('[url]', events[i].DetailUrl);
+                                    e = e.replace('[url]', events[i].DetailUrl.replace('http:','https:'));
                                     e = e.replace('[img]', events[i].Image);
                                     e = e.replace('[img]', events[i].Image);
                                     e = e.replace('[title]', events[i].Title);
