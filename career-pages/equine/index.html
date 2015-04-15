@@ -5,7 +5,7 @@ description: Love working with horses? Find out more about starting an Equine ca
 ---
 
         <!-- HEADER SECTION -->
-        {% include career-header.html career='equine' title='equine' %}
+        {% include career-header.html career='equine' %}
         <!-- END OF HEADER -->
         <!-- BODY SECTION -->
         <section class="container">
@@ -17,40 +17,11 @@ description: Love working with horses? Find out more about starting an Equine ca
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Horse Riding Instructor<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="pound-sign">£</span><span class="counter">12000</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-2" aria-expanded="false" aria-controls="career-2" class="collapsed">
-                        <h2>Horse Groom<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-2">
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">10,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>                
+                
+{% include career-example-job.html number='1' title='Horse Riding Instructor' paragraph='' jobsIn='' startingSalary=12000 %} 
+                
+{% include career-example-job.html number='2' title='Horse Groom' paragraph='' jobsIn='' startingSalary=10000 %}                 
+                        
             </section>
         </section>
         <!-- call to action section -->

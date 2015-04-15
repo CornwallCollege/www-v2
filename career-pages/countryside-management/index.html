@@ -5,7 +5,7 @@ description: Find out more about starting a career in the Countryside Management
 ---
 
         <!-- HEADER SECTION -->
-        {% include career-header.html career='food-production' title='Food Production' %}
+        {% include career-header.html career='food-production' %}
 
         <!-- END OF HEADER -->
         <!-- BODY SECTION -->
@@ -18,57 +18,11 @@ description: Find out more about starting a career in the Countryside Management
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Property, Housing or Estate Manager<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-                        <p>Job holders within this group manage shopping centres, residential areas and private estates, and arrange for the sale, purchase, rental and leasing of property on behalf of clients and employers.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">1945</span> Jobs in Cornwall</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">2161</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="pound-sign">£</span><span class="counter">21,000</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-2" aria-expanded="false" aria-controls="career-2" class="collapsed">
-                        <h2>Forestry Worker<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-2">
-                        <p>Forestry workers perform a variety of tasks related to the planting, cultivation and protection of trees.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">1226</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">1249</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">12,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                       
+                
+{% include career-example-job.html number='1' title='Property, Housing or Estate Manager' paragraph='Job holders within this group manage shopping centres, residential areas and private estates, and arrange for the sale, purchase, rental and leasing of property on behalf of clients and employers.' jobsIn='Cornwall' jobsNow=1945 jobsFuture=2161 startingSalary=21000 %} 
+               
+{% include career-example-job.html number='2' title='Forestry Worker' paragraph='Forestry workers perform a variety of tasks related to the planting, cultivation and protection of trees.' jobsIn='the Southwest' jobsNow=1226 jobsFuture=1249 startingSalary=12000 %} 
+                              
             </section>
         </section>
 
