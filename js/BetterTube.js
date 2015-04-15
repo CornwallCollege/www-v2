@@ -7,8 +7,7 @@ else {
 
 function replaceThumbnailWithIframe(e){
   e = e || window.event;
-  var target = e.target || e.srcElement;    
-  alert("classname = " + target.className);
+  var target = e.target || e.srcElement;      
   if (target.className.indexOf('BetterTube') > -1){      
     parent = target.parentNode;
     id = parent.getAttribute('data-youtube-id');
