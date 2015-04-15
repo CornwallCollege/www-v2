@@ -2186,13 +2186,15 @@ APPLY BARS =====================================================================
     .career-title header h2 {
         margin-top: 47px;
     }
-    #sales-marketing h2 {
+    #sales-marketing h2,
+    #marine-natural-science-conservation h2    {
         margin-top: 62px;
     }
     .career-title header h2 span {
         font-size: 60px;
     }
-    #sales-marketing h2 span {
+    #sales-marketing h2 span,
+    #marine-natural-science-conservation h2 span    {
         font-size: 44px;
     }
 }
@@ -2205,7 +2207,8 @@ APPLY BARS =====================================================================
     }
     /* Extra small title top margin */
     
-    #sales-marketing h2 {
+    #sales-marketing h2,
+    #marine-natural-science-conservation h2{
         margin-top: 55px;
     }
     /* Small title */
@@ -2215,7 +2218,8 @@ APPLY BARS =====================================================================
     }
     /* Extra small title */
     
-    #sales-marketing h2 span {
+    #sales-marketing h2 span,
+    #marine-natural-science-conservation h2 span{
         font-size: 20px;
     }
 }
@@ -2230,7 +2234,8 @@ APPLY BARS =====================================================================
     
     #sales-marketing h2,
     #travel-visitor-attractions h2,
-    #performing-arts h2 {
+    #performing-arts h2,
+    #marine-natural-science-conservation h2{
         margin-top: 3px;
     }
     /* Small breadcrumb */
@@ -2249,9 +2254,14 @@ APPLY BARS =====================================================================
     #sales-marketing h2 span,
     #travel-visitor-attractions h2 span,
     #performing-arts h2 span,
-    #media-digital-creativity h2 span {
+    #media-digital-creativity h2 span{
         font-size: 97%;
         line-height: 98%;
+    }
+    /*extreem small title style*/ 
+    #marine-natural-science-conservation h2 span{
+        font-size: 70%;
+        line-height: 88%;  
     }
     /*one word title*/
     
