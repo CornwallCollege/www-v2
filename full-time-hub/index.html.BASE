@@ -28,8 +28,8 @@ description: The Cornwall College Group enable you to study for a range of caree
         <section class="container">
             <p class="lead col-sm-8 col-xs-12">We don't need you to look through lists of confusing courses, select the career area that interests you and we'll work with you to make a <strong>programme of study</strong> fit your needs.</p>
             <p class="lead col-md-4 col-xs-12">
-                <a class="btn" style="text-align:left;width:100%;" href="//www.cornwall.ac.uk/advanced-search">
-				<i class="fa fa-search pull-right" style="padding:3px 5px;font-size:50px"></i> No Thanks,<br/> I'll search for<br/>a course
+                <a class="btn text-center" style="width:100%;" href="//www.cornwall.ac.uk/advanced-search">
+				No Thanks,<br/> I'll search for a course
 			</a>
             </p>
         </section>
@@ -41,7 +41,7 @@ description: The Cornwall College Group enable you to study for a range of caree
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <a href="#" class="transition as" data-filter=".as">
                         <h3>Academic Studies</h3>
-                        <span>A-levels</span>
+                        <span>A levels</span>
                         </a>
                     </li>                    
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -71,13 +71,13 @@ description: The Cornwall College Group enable you to study for a range of caree
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <a href="#" class="transition sne" data-filter=".sne">
                             <h3>Science &amp; Natural Environment</h3>
-                        <span>Applied Science – Forensic Science – Marine Biology &amp; Ecology – Wildlife &amp; Conservation - Zoology</span>
+                        <span>Agriculture – Animal Care – Countryside Management – Equine – Floristry – Food Technology &amp; Production - Horticulture</span>
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <a href="#" class="transition et" data-filter=".et">
                             <h3>Technology</h3>
-                        <span>Boatbuilding – Construction Plant – Construction Trades – Engineering – Motor Vehicle</span>
+                        <span>Agriculture – Animal Care – Countryside Management – Equine – Floristry – Food Technology &amp; Production - Horticulture</span>
                         </a>
                     </li>
                 </ul>
@@ -95,8 +95,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/as/a-levels-lnd-mobile.jpg" /> 
                                 <img src="/images/as/a-levels-lnd-mobile.jpg" alt="CAREER AREA | Academic studies | A Levels" class="lazy img-responsive" />
                             </picture>
-                            <div class="auto-hover animClass">
-                                <h4>A-Levels</h4>
+                            <div class="auto-hover">
+                                <h4>A Levels</h4>
+                                <span>??</span>
                                 <a href="/career-pages/a-levels/" class="icon-btn">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -112,8 +113,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/bpi/accountancy-financial-lnd-mobile.jpg" /> 
                                 <img src="/images/bpi/accountancy-financial-lnd-mobile.jpg" alt="CAREER AREA | business and prof and IT | Accountancy & Financial" class="lazy img-responsive" />
                             </picture>                            
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Accountancy &amp; Financial</h4>
+                                <span>??</span>
                                 <a href="/career-pages/accountancy-financial/" class="icon-btn">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -128,8 +130,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/bpi/education-mobile.jpg" /> 
                                 <img src="/images/bpi/education-mobile.jpg" alt="CAREER AREA | business and prof and IT | Education & Teaching" class="lazy img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Education &amp; Teaching</h4>
+                                <span>Careers in Teaching and supporting teaching.</span>
                                 <a href="/career-pages/education-teaching/" class="icon-btn">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -144,8 +147,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/bpi/customer-service-mobile.jpg" /> 
                                 <img src="/images/bpi/customer-service-mobile.jpg" alt="CAREER AREA | business and prof and IT | Sales, Marketing & Customer Service" class="lazy img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Sales, Marketing &amp; Customer Service</h4>
+                                <span>Careers in Customer Service, Retail, Sales &amp; Marketing</span>
                                 <a href="/career-pages/sales-marketing" class="icon-btn" data-popup="sales-marketing">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -160,8 +164,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/bpi/business-mobile.jpg" /> 
                                 <img src="/images/bpi/business-mobile.jpg" alt="CAREER AREA | business and prof and IT | Business & Administration" class="lazy img-responsive">
                             </picture>                                                        
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Business &amp; Administration</h4>
+                                <span>Financial, Legeal &amp; Administrative</span>
                                 <a href="/career-pages/business-admin" class="icon-btn" data-popup="business-admin">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -176,8 +181,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/bpi/health-safety-prt-mobile.jpg" /> 
                                 <img src="/images/bpi/health-safety-prt-mobile.jpg" alt="CAREER AREA | business and prof and IT | Health & Safety" class="lazy img-responsive" />
                             </picture>                                    
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Health &amp; Safety</h4>
+                                <span>Careers connected with leading Projects, Teams and Business</span>
                                 <a href="/career-pages/health-safety" class="icon-btn" data-popup="health-safety">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -192,8 +198,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/bpi/it-comms-mobile.jpg" /> 
                                 <img src="/images/bpi/it-comms-mobile.jpg" alt="CAREER AREA | business and prof and IT | Digital Technologies" class="lazy img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Digital Technologies</h4>
+                                <span>Networks, Security and Software Development Careers</span>
                                 <a href="/career-pages/digital-technologies" class="icon-btn" data-popup="digital-technologies">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -208,8 +215,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/cve/hospitality-mobile.jpg" /> 
                                 <img src="/images/cve/hospitality-mobile.jpg" alt="CAREER AREA | Cultural & Vistor Economy | Catering & Hospitality" class="lazy img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Catering &amp; Hospitality</h4>
+                                <span>??</span>
                                 <a href="/career-pages/catering-hospitality" class="icon-btn" data-popup="catering-hospitality">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -224,8 +232,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/cve/travel-visitor-attractions-mobile.jpg" /> 
                                 <img src="/images/cve/travel-visitor-attractions-mobile.jpg" alt="CAREER AREA | Cultural & Vistor Economy | Travel & Visitor Attractions" class="lazy img-responsive">
                             </picture>                                                           
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Travel &amp; Visitor Attractions</h4>
+                                <span></span>
                                 <a href="/career-pages/travel-visitor-attractions" class="icon-btn" data-popup="travel-visitor-attractions">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -240,8 +249,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/cve/art-mobile.jpg" /> 
                                 <img src="/images/cve/art-mobile.jpg" alt="CAREER AREA | Cultural & Vistor Economy | Performing & Visual Arts" class="lazy img-responsive">
                             </picture>                               
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Performing &amp; Visual Arts</h4>
+                                <span></span>
                                 <a href="/career-pages/performing-arts" class="icon-btn" data-popup="performing-arts">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -256,8 +266,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/cve/media-digital-creativity-prt-mobile.jpg" /> 
                                 <img src="/images/cve/media-digital-creativity-prt-mobile.jpg" alt="CAREER AREA | Cultural & Vistor Economy | Performing & Visual Arts" class="lazy img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Media &amp; Digital Creativity</h4>
+                                <span></span>
                                 <a href="/career-pages/media-digital-creativity" class="icon-btn" data-popup="media-digital-creativity">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -272,8 +283,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/hw/hair-mobile.jpg" /> 
                                 <img src="/images/hw/hair-mobile.jpg" alt="CAREER AREA | health and welfare | Hair & Beauty" class="lazy img-responsive">
                             </picture>                                                          
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Hair &amp; Beauty</h4>
+                                <span></span>
                                 <a href="/career-pages/hair-beauty/" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -288,8 +300,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/hw/public-services-mobile.jpg" /> 
                                 <img src="/images/hw/public-services-mobile.jpg" alt="CAREER AREA | health and welfare | Public Services" class="lazy img-responsive">
                             </picture>                            
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Public Services</h4>
+                                <span>Careers in Armed Forces, Police, Fire &amp; Ambulance</span>
                                 <a href="/career-pages/public-services" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -304,8 +317,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/hw/childcare-mobile.jpg" /> 
                                 <img src="/images/hw/childcare-mobile.jpg" alt="CAREER AREA | health and welfare | Children's Workforce" class="lazy img-responsive">
                             </picture>                                               
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Children's Workforce</h4>
+                                <span>Careers linked to supporting the development of young children</span>
                                 <a href="/career-pages/childrens-workforce" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -320,8 +334,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/hw/sport-mobile.jpg" /> 
                                 <img src="/images/hw/sport-mobile.jpg" alt="CAREER AREA | health and welfare | Sport & Fitness" class="lazy img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Sport &amp; Fitness</h4>
+                                <span></span>
                                 <a href="/career-pages/sport" class="icon-btn" data-popup="sport">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -336,8 +351,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/hw/health-mobile.jpg" /> 
                                 <img src="/images/hw/health-mobile.jpg" alt="CAREER AREA | health and welfare | Social Care" class="img-responsive">
                             </picture>                         
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Social Care</h4>
+                                <span></span>
                                 <a href="/career-pages/social-care" class="icon-btn" data-popup="social care">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -352,8 +368,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/hw/health2-mobile.jpg" /> 
                                 <img src="/images/hw/health2-mobile.jpg" alt="CAREER AREA | health and welfare | Health" class="img-responsive">
                             </picture>   
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Health</h4>
+                                <span></span>
                                 <a href="/career-pages/health" class="icon-btn" data-popup="health">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -368,8 +385,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/re/animal-care-mobile.jpg" /> 
                                 <img src="/images/re/animal-care-mobile.jpg" alt="CAREER AREA | health and welfare | Social Care" class="img-responsive">
                             </picture>                                                         
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Animal Science &amp; Management</h4>
+                                <span></span>
                                 <a href="/career-pages/animal-science-management" class="icon-btn" data-popup="animal-science-management">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -384,8 +402,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/re/agriculture-mobile.jpg" /> 
                                 <img src="/images/re/agriculture.jpg" alt="CAREER AREA | Rural Economy | Agriculture & Horticulture" class="img-responsive">
                             </picture>                                 
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Agriculture &amp; Horticulture</h4>
+                                <span></span>
                                 <a href="/career-pages/agriculture-horticulture" class="icon-btn" data-popup="agriculture-horticulture">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -400,8 +419,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/re/countryside-lnd-mobile.jpg" /> 
                                 <img src="/images/re/countryside-lnd-mobile.jpg" alt="CAREER AREA | Rural Economy | Countryside Management" class="img-responsive">
                             </picture>                                                           
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Countryside Management</h4>
+                                <span></span>
                                 <a href="/career-pages/countryside-management" class="icon-btn" data-popup="countryside-management">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -416,8 +436,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/re/food-production-mobile.jpg" /> 
                                 <img src="/images/re/food-production-mobile.jpg" alt="CAREER AREA | Rural Economy | Food Production" class="img-responsive">
                             </picture>                              
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Food Production</h4>
+                                <span></span>
                                 <a href="/career-pages/food-production" class="icon-btn" data-popup="food-production">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -432,8 +453,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/re/equine-mobile.jpg" /> 
                                 <img src="/images/re/equine-mobile.jpg" alt="CAREER AREA | Rural Economy | Equine" class="img-responsive">
                             </picture>                            
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Equine</h4>
+                                <span></span>
                                 <a href="/career-pages/equine" class="icon-btn" data-popup="equine">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -448,8 +470,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/sne/applied-forensic-science-mobile.jpg" /> 
                                 <img src="/images/sne/applied-forensic-science-mobile.jpg" alt="CAREER AREA | Science and the natral enviroment | Applied & Forensic Science" class="img-responsive">
                             </picture>                                  
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Applied &amp; Forensic Science</h4>
+                                <span></span>
                                 <a href="/career-pages/applied-forensic-science" class="icon-btn" data-popup="applied-forensic-science">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -464,8 +487,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/sne/marine-science2-mobile.jpg" /> 
                                 <img src="/images/sne/marine-science2-mobile.jpg" alt="CAREER AREA | Science and the natral enviroment | Marine, Natural Science & Conservation" class="img-responsive">
                             </picture>                                  
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Marine, Natural Science &amp; Conservation</h4>
+                                <span></span>
                                 <a href="/career-pages/marine-natural-science-conservation" class="icon-btn" data-popup="marine-natural-science-conservation">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -480,8 +504,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/sne/environmental-science-mobile.jpg" /> 
                                 <img src="/images/sne/environmental-science-mobile.jpg" alt="CAREER AREA | Science and the natral enviroment | Environmental Science" class="img-responsive">
                             </picture>                                
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Environmental Science</h4>
+                                <span></span>
                                 <a href="/career-pages/environmental-science" class="icon-btn" data-popup="environmental-science">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -496,8 +521,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/et/construction-mobile.jpg" /> 
                                 <img src="/images/et/construction.jpg" alt="CAREER AREA | engineering-technology | Construction" class="img-responsive">
                             </picture>                                  
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Construction</h4>
+                                <span></span>
                                 <a href="/career-pages/construction" class="icon-btn" data-popup="construction">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -512,8 +538,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/et/electrotechnical-technology-mobile.jpg" /> 
                                 <img src="/images/et/electrotechnical-technology-mobile.jpg" alt="CAREER AREA | engineering-technology | Electrical Engineering" class="img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Electrical</h4>
+                                <span></span>
                                 <a href="/career-pages/electrical" class="icon-btn" data-popup="electrical">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -528,8 +555,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/et/automotive-mobile.jpg" /> 
                                 <img src="/images/et/automotive-mobile.jpg" alt="CAREER AREA | engineering-technology | Automotive" class="img-responsive">
                             </picture>                                                           
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Automotive</h4>
+                                <span></span>
                                 <a href="/career-pages/automotive" class="icon-btn" data-popup="automotive">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -544,8 +572,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/et/boatbuilding-mobile.jpg" /> 
                                 <img src="/images/et/boatbuilding-mobile.jpg" alt="CAREER AREA | engineering-technology | Boatbuilding" class="img-responsive">
                             </picture>                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Boatbuilding</h4>
+                                <span></span>
                                 <a href="/career-pages/boatbuilding" class="icon-btn" data-popup="boatbuilding">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -560,8 +589,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/et/construction-plant-mobile.jpg" /> 
                                 <img src="/images/et/construction-plant-mobile.jpg" alt="CAREER AREA | engineering-technology | Construction Plant" class="img-responsive">
                             </picture>                                              
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Construction Plant</h4>
+                                <span></span>
                                 <a href="/career-pages/construction-plant" class="icon-btn" data-popup="construction-plant">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -576,8 +606,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                                 <source srcset="/images/et/engineering-mobile.jpg" /> 
                                 <img src="/images/et/engineering-mobile.jpg" alt="CAREER AREA | engineering-technology | Engineering" class="img-responsive">
                             </picture>                              
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Engineering</h4>
+                                <span>Manufacturing and Engineering Careers</span>
                                 <a href="/career-pages/engineering" class="icon-btn" data-popup="engineering">
                                     <i class="fa fa-expand" style="padding-right:7px;"></i>Find out more...
                                 </a>
@@ -594,8 +625,9 @@ description: The Cornwall College Group enable you to study for a range of caree
                             </picture>                             
                             
                             
-                            <div class="auto-hover animClass">
+                            <div class="auto-hover">
                                 <h4>Aerospace</h4>
+                                <span></span>
                                 <a href="/career-pages/aerospace" class="icon-btn" data-popup="aerospace">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
@@ -650,7 +682,7 @@ description: The Cornwall College Group enable you to study for a range of caree
             <header class="col-sm-12 text-center">
                 <h2 class="text-uppercase">Programme of <strong>study</strong></h2>                
                 {% youtube https://youtu.be/0EeuuNW0tj4 %}
-            <p class="lead white">We’ll work with you to create the perfect combination of building blocks for success. As unique as you are, each study programme is tailored to your individual needs and career ambitions; enabling you to be work ready in every way.</p>                
+            <p class="lead">We’ll work with you to create the perfect combination of building blocks for success. As unique as you are, each study programme is tailored to your individual needs and career ambitions; enabling you to be work ready in every way.</p>                
             </header>
 
             <footer class="item-blocks">
@@ -673,7 +705,7 @@ description: The Cornwall College Group enable you to study for a range of caree
 
             <header class="col-sm-12 text-center another-title">
                 <h2 class="text-uppercase">The <strong>College</strong></h2>
-                <p class="lead white">Show us some ambition, we’ll show you a better life.</p>
+                <p class="lead">Show us some ambition, we’ll show you a better life.</p>
             </header>
             <footer class="item-blocks">
                 <!-- BLOCK 1 -->
