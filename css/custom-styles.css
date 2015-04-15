@@ -444,6 +444,8 @@ section h2 strong {
 
 .btn-wrap {
     margin-top: -18px;
+    z-index: 10;
+    position: relative;    
 }
 
 @media(max-width:993px) {
