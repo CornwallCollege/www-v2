@@ -463,6 +463,8 @@ section h2 strong {
         -webkit-animation-delay: 3s;
         /* Chrome, Safari, Opera */
         animation-delay: 3s;
+        -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+        animation-duration: 1s;        
     }
     .btn-wrap a {
         font-size: 14px
