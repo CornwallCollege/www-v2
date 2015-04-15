@@ -118,6 +118,9 @@ h2.apprenticeships {
     color: #BD0A41!important;
     font-size: 75px!important;
 }
+p.white{
+    color: white
+}
 
 @media(max-width:991px) {
     h2.apprenticeships, h2.leisure {
@@ -148,20 +151,26 @@ h2.apprenticeships {
     }
 }
 
-.blog-post-quote {
-    border: 10px #52B3D9 solid;
+.block-quote {
+    border: 5px #52B3D9 solid;
 }
 
-.blog-post-quote p {
+.block-quote p {
     font-size: 25px;
 }
 
-.blog-post-quote p strong {
+.block-quote p.lead{
+    margin-top: 14px;
+}
+.block-quote p strong {
     color: #52B3D9;
 }
 
-.blog-post-quote i {
-    font-size: 60px
+.block-quote i {
+    font-size: 60px;
+}
+blockquote{
+    padding:10px 20px 3px;
 }
 /* Career Help Bar */
 
@@ -2658,6 +2667,11 @@ div h2 span.readmore {
         width: 100%;
     }
 }
+/*----------- EVENTS Styling --------*/
+#portfolio-list p {
+    margin-bottom: 20px;
+}
+
 /* ---------- Example job styling --------*/
 
 @media(min-width:480px) {
