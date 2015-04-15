@@ -13,8 +13,8 @@ function replaceThumbnailWithIframe(e){
     id = parent.getAttribute('data-youtube-id');
     // w = parent.getAttribute('data-player-width');
     // h = parent.getAttribute('data-player-height');
-    style = 'style="frameborder=0;"';
-    inner = '<iframe id="ytplayer" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/' + id + '?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1"' + style + ' allowfullscreen/>'
+    // style = 'style="frameborder=0;"';
+    inner = '<iframe id="player" type="text/html" src="http://www.youtube.com/embed/' + id + '" frameborder="0" ></iframe>';
     parent.innerHTML = inner;
-  }
+  } 
 }
