@@ -8,7 +8,8 @@ else {
 function replaceThumbnailWithIframe(e){
   e = e || window.event;
   var target = e.target || e.srcElement;    
-  if (target.className === 'BetterTube-playBtn' || target.className.match(/BetterTube-playBtn/)){      
+  alert("classname = " + target.className);
+  if (target.className.indexOf('BetterTube') > -1){      
     parent = target.parentNode;
     id = parent.getAttribute('data-youtube-id');
     // w = parent.getAttribute('data-player-width');
