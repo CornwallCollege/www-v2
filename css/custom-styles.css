@@ -2241,7 +2241,8 @@ APPLY BARS =====================================================================
     #sales-marketing h2,
     #travel-visitor-attractions h2,
     #performing-arts h2,
-    #marine-natural-science-conservation h2{
+    #marine-natural-science-conservation h2,
+    #animal-science-management h2{
         margin-top: 3px;
     }
     /* Small breadcrumb */
@@ -2260,7 +2261,8 @@ APPLY BARS =====================================================================
     #sales-marketing h2 span,
     #travel-visitor-attractions h2 span,
     #performing-arts h2 span,
-    #media-digital-creativity h2 span{
+    #media-digital-creativity h2 span,
+    #animal-science-management h2 span{
         font-size: 97%;
         line-height: 98%;
     }
