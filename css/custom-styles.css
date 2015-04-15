@@ -2342,7 +2342,7 @@ APPLY BARS =====================================================================
 .career-filter ul li {
     display: inline-block;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .career-filter ul li > a {
@@ -2390,108 +2390,128 @@ APPLY BARS =====================================================================
 /* Cluster Colors*/
 
 .career-filter ul li a.as {
-    border: 5px solid #712180;
-    color: #712180;
+    color: white;
+    background-color: #712180;    
 }
 
 .career-filter ul li a.as:hover {
     border: 5px solid #712180;
-    background-color: #712180;
+    background-color: white;
+    color: #712180;    
 }
 
 .career-filter li a.selected.as {
+    border: 5px solid #712180;    
     background-color: #712180;
-    color: white;
+    color: #712180;
 }
 
 .career-filter ul li a.bpi {
     border: 5px solid #E73029;
-    color: #E73029;
+    color:  white;
+    background-color: #E73029;      
 }
 
 .career-filter ul li a.bpi:hover {
     border: 5px solid #E73029;
-    background-color: #E73029;
+    background-color: white;
+    color: #E73029;    
 }
 
 .career-filter li a.selected.bpi {
     background-color: #E73029;
-    color: white;
+    color: #E73029;
+    border: 5px solid #E73029;    
 }
 
 .career-filter ul li a.cve {
     border: 5px solid #C7D301;
-    color: #C7D301;
+    color:  white;
+    background-color: #C7D301;    
 }
 
 .career-filter ul li a.cve:hover {
     border: 5px solid #C7D301;
-    background-color: #C7D301;
+    background-color: white;
+    color: #C7D301;    
 }
 
 .career-filter li a.selected.cve {
-    background-color: #C7D301;
-    color: white;
+    border: 5px solid #C7D301;    
+    background-color: white;
+    color: #C7D301;
 }
 
 .career-filter ul li a.hw {
     border: 5px solid #DE006E;
-    color: #DE006E;
+    color:  white;
+    background-color: #DE006E;    
 }
 
 .career-filter ul li a.hw:hover {
-    background-color: #DE006E;
+    background-color: white;
     border: 5px solid #DE006E;
+    color: #DE006E;    
 }
 
 .career-filter li a.selected.hw {
-    background-color: #DE006E;
-    color: white;
+    border: 5px solid #DE006E;    
+    background-color: white;
+    color: #DE006E;
 }
 
 .career-filter ul li a.re {
     border: 5px solid #20A64B;
-    color: #20A64B;
+    color:  white;
+    background-color: #20A64B;    
 }
 
 .career-filter ul li a.re:hover {
-    background-color: #20A64B;
+    background-color: white;
     border: 5px solid #20A64B;
+    color: #20A64B;    
 }
 
 .career-filter li a.selected.re {
-    background-color: #20A64B;
-    color: white;
+    background-color: white;
+    border: 5px solid #20A64B;    
+    color: #20A64B;
 }
 
 .career-filter ul li a.sne {
     border: 5px solid #004B93;
-    color: #004B93;
+    color:  white;
+    background-color: #004B93;    
 }
 
 .career-filter ul li a.sne:hover {
-    background-color: #004B93;
+    background-color: white;
     border: 5px solid #004B93;
+    color: #004B93;    
 }
 
 .career-filter li a.selected.sne {
-    background-color: #004B93;
-    color: white;
+    background-color: white;
+    color: #004B93;
+    border: 5px solid #004B93;    
 }
 
 .career-filter ul li a.et {
     border: 5px solid #00ACCD;
-    color: #00accd;
+    color:  white;
+    background-color: #00ACCD;    
 }
 
 .career-filter ul li a.et:hover {
-    background-color: #00ACCD;
+    background-color: white;
     border: 5px solid #00ACCD;
+    color: #00ACCD;    
 }
 
 .career-filter li a.selected.et {
-    background-color: #00ACCD;
-    color: white;
+    background-color: white;
+    color: #00ACCD;
+    border: 5px solid #00ACCD;    
 }
 
 @media(max-width:765px) {
@@ -2503,24 +2523,17 @@ APPLY BARS =====================================================================
 .career-filter ul li a:hover {
     color: white;
 }
-/*.career-filter li a.selected,
-.career-filter li a.selected:hover,
-.career-filter li a.selected:focus {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-}*/
 
 .career-filter ul li a h3 {
     margin-bottom: 5px;
-    font-size: 110%;
+    font-size: 140%;
     font-weight: 700;
     line-height: 27px;
     margin-top: 5px;
 }
 
 .career-filter ul li a span {
-    color: #555;
+    color: white;
     font-size: 80%;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -2530,7 +2543,7 @@ APPLY BARS =====================================================================
 
 .career-filter ul li a:hover span,
 .career-filter ul li a.selected span {
-    color: white;
+    color: #555;
 }
 
 .career-items {
