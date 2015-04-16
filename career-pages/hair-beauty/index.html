@@ -5,7 +5,7 @@ description: Find out more about starting an Education and Teaching Career at Th
 ---
 
         <!-- HEADER SECTION -->
-        {% include career-header.html career='hair-beauty' title='Hair &amp; Beauty' %}
+        {% include career-header.html career='hair-beauty' title='Hair & Beauty' %}
         <!-- END OF HEADER -->
         <!-- BODY SECTION -->
         <section class="container">
@@ -17,81 +17,12 @@ description: Find out more about starting an Education and Teaching Career at Th
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Beautician or Related Occupation<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-                        <p>Beauticians and related workers give facial and body beauty treatments, apply cosmetics and dress wigs.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">6324</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">6378</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="pound-sign">£</span><span class="counter">12,000</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-2" aria-expanded="false" aria-controls="career-2" class="collapsed">
-                        <h2>Hairdresser or Barber<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-2">
-                        <p>Hairdressers and barbers shampoo, cut, colour, style and treat hair.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">16383</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">16517</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">14,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-3" aria-expanded="false" aria-controls="career-3" class="collapsed">
-                        <h2>Hairdressing or Beauty Salon Manager or Owner<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-3">
-                        <p>Salon managers plan, organise, direct and co-ordinate the activities and resources of hairdressing salons, beauty treatment and similar establishments.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">2697</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">2997</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">14,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
+                
+{% include career-example-job.html number='1' title='Beautician or Related Occupation' paragraph='Beauticians and related workers give facial and body beauty treatments, apply cosmetics and dress wigs.' jobsIn='the Southwest' jobsNow=6324 jobsFuture=6378 startingSalary=12000 %}
+                                
+{% include career-example-job.html number='2' title='Hairdresser or Barber' paragraph='Hairdressers and barbers shampoo, cut, colour, style and treat hair.' jobsIn='the Southwest' jobsNow=16383 jobsFuture=16517 startingSalary=14000 %}
+                
+{% include career-example-job.html number='3' title='Hairdressing or Beauty Salon Manager or Owner' paragraph='Salon managers plan, organise, direct and co-ordinate the activities and resources of hairdressing salons, beauty treatment and similar establishments.' jobsIn='the Southwest' jobsNow=2697 jobsFuture=2997 startingSalary=14000 %}                           
                  
             </section>
         </section>
