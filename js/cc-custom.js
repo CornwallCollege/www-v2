@@ -347,5 +347,8 @@
            }
        });
 
-
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.apply-bar').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
    })(jQuery);

@@ -2082,46 +2082,15 @@ APPLY BARS =====================================================================
 /* -------------------------------------iPhone Background FIX ---------------------------------------------*/
 
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .aerospace-bar,
-    .construction-plant-bar,
-    .boatbuilding-bar,
-    .automotive-bar,
-    .electrical-bar,
-    .construction-bar,
-    .environmental-science-bar,
-    .marine-natural-science-conservation-bar,
-    .applied-forensic-science-bar,
-    .equine-bar,
-    .food-production-bar,
-    .countryside-management-bar,
-    .agriculture-horticulture-bar,
-    .animal-science-management-bar,
-    .health-bar,
-    .social-care-bar,
-    .hair-beauty-bar,
-    .performing-arts-bar,
-    .media-digital-creativity-bar,
-    .travel-visitor-attractions-bar,
-    .catering-hospitality-bar,
-    .digital-technologies-bar,
-    .health-safety-bar,
-    .business-admin-bar,
-    .sales-marketing-bar,
-    .education-teaching-bar,
-    .accountancy-bar,
-    .a-levels-bar,
-    .engineering-bar,
-    .public-services-bar,
-    .childrens-workforce-bar,
-    .sport-bar {
+.apply-bar {
         /*background-size: auto 520px;*/
-        
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-attachment: fixed;
         background-position: 50% 0;
+        background-attachment:scroll;    
     }
 }
 
