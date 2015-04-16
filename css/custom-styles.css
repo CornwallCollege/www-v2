@@ -252,7 +252,7 @@ blockquote{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .help-button a {
@@ -2684,6 +2684,13 @@ div h2 span.readmore {
     .blocks h5 {
         width: 100%;
     }
+}
+.header-icon:hover i {
+    border-bottom-right-radius: 0;
+    border-color: #52B3D9;
+}
+.header-icon h4 {
+    border-top: 10px #f7f7f7 solid;
 }
 /*----------- EVENTS Styling --------*/
 #portfolio-list p {
