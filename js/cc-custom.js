@@ -220,7 +220,7 @@
                    e.style.opacity = 0.25 + Math.max(0, p);
                }
            };
-           trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 33);
+           trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
 
        }
 
