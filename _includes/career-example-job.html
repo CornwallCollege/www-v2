@@ -18,16 +18,15 @@
                     <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
                         <h5><span class="counter">{{include.jobsFuture}}</span> Jobs by <br/> 2020</h5>
                     </div>
-                    {% endif %}
-                    {% if include.altStartingSalary %}
-                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                        <h5><span><small><strong>{{include.altStartingSalary}}</strong></small></span> Starting Salary</h5>
-                    </div>                    
-                    {% endif %}
+                    {% endif %}                    
                     {% if include.startingSalary %}
                     <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
                         <h5><span class="counter">£{{include.startingSalary}}</span> Starting Salary</h5>
                     </div>
+                    {% else %}
+                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
+                        <h5><span><small><strong>variable</strong></small></span> Starting Salary</h5>
+                    </div>   
                     {% endif %}
                 </div>
             </div>
