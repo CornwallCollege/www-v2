@@ -24,9 +24,9 @@
        var max = Number($(counter).attr("data-count-to"));
        var stepSize = Number($(counter).attr("data-count-step"));
        var numberText = $(counter).html();
-       var current = Number(numberText.replace(',','').replace('£',''));
+       var current = Number(numberText.replace(',', '').replace('£', ''));
        var prefix = '';
-       if (numberText.substring(0,1) === '£') {
+       if (numberText.substring(0, 1) === '£') {
            prefix = '£';
        }
        if (current < max) {
@@ -198,7 +198,7 @@
                            return true;
                        });
                }
-
+               
                document.documentElement.addEventListener('mousemove', function (me) {
                    apply(me)
                }, false);
@@ -209,10 +209,18 @@
                    apply()
                }, false);
            };
+
            var thenDoThis1 = function (e, p) {
                e.style.opacity = Math.min(1, p * 1.5);
            };
            trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
+
+           var thenDoThis2 = function (e, p) {
+               if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                   e.style.opacity = 0.25 + Math.max(0, p);
+               }
+           };
+           trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 33);
 
        }
 
@@ -227,13 +235,13 @@
                        $("#" + item).find(".counter").each(function () {
                            var countTo = 0;
                            if ($(this).attr("data-count-to") == undefined) {
-                               var max = Number($(this).html().replace(",", "").replace('£',''));
+                               var max = Number($(this).html().replace(",", "").replace('£', ''));
                                $(this).attr("data-count-to", max);
                                var stepSize = max / 2 / 100;
                                $(this).attr("data-count-step", stepSize);
                            }
                            var html = $(this).html();
-                           if (html.substring(0,1) === '£') {
+                           if (html.substring(0, 1) === '£') {
                                $(this).html("£0");
                            } else {
                                $(this).html("0");
@@ -325,7 +333,7 @@
                                        $("#cancel-btn").prop("disabled", false);
                                        var errors = JSON.parse(err.responseText);
                                        var items = '';
-                                       $.each(errors, function (i, v) { 
+                                       $.each(errors, function (i, v) {
                                            items += '<li>' + v.message + '</li>'
                                        });
                                        $('#apply-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>' + items + '</ul></div>');
