@@ -1,12 +1,6 @@
 /* Custom over writing styles fro the Cornwall COllege child theme of the Ecstasy template
 */
 
-/* ------------- HARDWARE ACCELERATION FOR MOBILE --------------*/
-.animClass {
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
-}
-
 /* ----------------------- GOOGLE FONTS ------------------------*/
 
 @font-face {

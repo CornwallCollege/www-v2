@@ -198,7 +198,7 @@
                            return true;
                        });
                }
-               
+
                document.documentElement.addEventListener('mousemove', function (me) {
                    apply(me)
                }, false);
@@ -216,13 +216,29 @@
            trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
 
            var thenDoThis2 = function (e, p) {
-               if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+               if (/iPhone|iPod/i.test(navigator.userAgent)) {
                    e.style.opacity = 0.25 + Math.max(0, p);
                }
            };
            trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
 
        }
+
+
+       /* FULL-TIME-HUB - Job Lookup */
+       $(document).ready(function () {
+           if (location.pathname.indexOf("full-time-hub") !== -1) {
+               SimpleJekyllSearch.init({
+                   searchInput: document.getElementById('jobs-input'),
+                   resultsContainer: document.getElementById('jobs-results'),
+                   dataSource: 'http://localhost:81/data/jobs.json',
+                   searchResultTemplate: '<li><a href="/career-pages/{url}" title="{title}">{title}</a></li>',
+                   noResultsText: 'None found, please choose from below',
+                   limit: 10,
+                   fuzzy: false,
+               })
+           }
+       });
 
 
        /* CAREER PAGES */
