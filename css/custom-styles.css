@@ -2089,8 +2089,7 @@ APPLY BARS =====================================================================
         -o-background-size: cover;
         background-size: cover;
         background-attachment: fixed;
-        background-position: 50% 0;
-        background-attachment:scroll;    
+        background-position: 50% 0;   
     }
 }
 
