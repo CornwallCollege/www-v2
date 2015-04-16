@@ -5,7 +5,7 @@ description: Find out more about starting a career in the Travel and Visitor Att
 ---
 
         <!-- HEADER SECTION -->
-        {% include career-header.html career='travel-visitor-attractions' title='Travel &amp; Visitor Attractions' %}
+        {% include career-header.html career='travel-visitor-attractions' title='Travel & Visitor Attractions' %}
 
         <!-- END OF HEADER -->
         <!-- BODY SECTION -->
@@ -19,56 +19,10 @@ description: Find out more about starting a career in the Travel and Visitor Att
 
         <section class="col-md-12 main-section-margins clearfix career-areas">
             <section class="container box-square box-square-alt">
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-1" aria-expanded="false" aria-controls="career-1" class="collapsed">
-                        <h2>Archivist or Curator<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-1">
-                        <p>Archivists and curators collect, appraise and preserve collections of recorded and other material of historical interest.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">894</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">1024</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="pound-sign">£</span><span class="counter">18,000</span> Starting Salary</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-                <article class="col-sm-6">
-                    <div data-toggle="collapse" href="#career-2" aria-expanded="false" aria-controls="career-2" class="collapsed">
-                        <h2>Travel Agent<span class="readmore"><br/>Read more...</span></h2>
-                    </div>
-                    <div class="collapse trasition" id="career-2">
-                        <p>Travel agents advise travellers upon travel arrangements, make bookings and receive payment for travel arrangements made.</p>
-                        <section id="counters">
-                            <div class="container" style="width:auto;">
-                                <div class="counters counters-alt">
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">3546</span> Jobs in the Southwest</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
-                                        <h5><span class="counter">3571</span> Jobs by <br/> 2020</h5>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
-                                        <h5><span class="counter">13,000</span> Starting Salary £</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
+                
+{% include career-example-job.html number='1' title='Archivist or Curator' paragraph='Archivists and curators collect, appraise and preserve collections of recorded and other material of historical interest.' jobsIn='the Southwest' jobsNow=894 jobsFuture=1024 startingSalary=18000 %} 
+                
+{% include career-example-job.html number='2' title='Travel Agent' paragraph='Travel agents advise travellers upon travel arrangements, make bookings and receive payment for travel arrangements made.' jobsIn='the Southwest' jobsNow=3546 jobsFuture=3571 startingSalary=13000 %}                                                
                  
             </section>
         </section>
