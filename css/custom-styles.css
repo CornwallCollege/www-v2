@@ -1149,7 +1149,31 @@ footer a.btn{
     }
 }
 
+.apply-bar {
+    background-size: -webkit-cover;
+    background-size: -o-cover;
+    background-size: -moz-cover;
+    background-size: cover;
+    background-position: 50% 0;    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 0;
+    clear: both;
+    text-align: center;
+    padding: 0;
+}
 
+.apply-bar h2:before {
+    background: url(../images/subtle_carbon.png) center repeat;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
 /* engineering and technology | Engineering | header bar */
 
 #technology-engineering {
@@ -2074,7 +2098,7 @@ APPLY BARS =====================================================================
 /*iPhone 6*/    
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
 .apply-bar {
-        /*background-size: auto 520px;
+        background-size: auto 520px;
         background-position: 50% 0;
     
         /*-webkit-background-size: cover;
@@ -2085,31 +2109,7 @@ APPLY BARS =====================================================================
         background-position: 50% 0;*/   
     }
 }
-.apply-bar {
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-    background-position: 50% 0;    
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    z-index: 0;
-    clear: both;
-    text-align: center;
-    padding: 0;
-}
 
-.apply-bar h2:before {
-    background: url(../images/subtle_carbon.png) center repeat;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    opacity: 0.7;
-    z-index: -1;
-}
 .apply-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
