@@ -1070,6 +1070,7 @@ footer a.btn{
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed;
+    position: fixed;
     background-repeat: no-repeat;
 }
 
@@ -1139,6 +1140,7 @@ footer a.btn{
     background-size: cover;
     background-position: 50% 0;
     background-attachment: fixed;
+    position: fixed;
     background-repeat: no-repeat;
     z-index: 0;
     clear: both;
@@ -2087,6 +2089,7 @@ APPLY BARS =====================================================================
         -o-background-size: cover;
         background-size: cover;
         background-attachment: fixed;
+        position: fixed;
         background-position: 50% 0;*/   
     }
 }
