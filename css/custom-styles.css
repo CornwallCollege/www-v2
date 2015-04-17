@@ -2662,22 +2662,35 @@ div h2 span.readmore {
 #search-form .input-group-addon {
     padding: 0;
 }
-
+.blocks article {
+    padding: 10px 30px 15px 30px;
+    min-height: 245px;  
+}
+.blocks header{
+    min-height: 80px;
+}
+.blocks footer {
+  margin-top: 0px;
+}
 @media(max-width:769px) {
     .ccg-brands {
         clear: both;
     }
 }
-
 @media(max-width:480px) {
     .blocks header {
         min-height: inherit;
         border-bottom: none;
-        padding-top: 0px;
     }
+    .blocks footer {
+      margin-top: 10px;
+    }    
     .blocks h5 {
         width: 100%;
     }
+    .blocks article {
+        min-height: 0;  
+    }    
 }
 .header-icon:hover i {
     border-bottom-right-radius: 0;
@@ -2727,6 +2740,9 @@ ul#jobs-results li a{
 @media(max-width:480px){
     ul#jobs-results {
     }    
+}
+.a-levels h5{
+    padding-left: 10px;
 }
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
