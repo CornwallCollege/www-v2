@@ -2084,6 +2084,8 @@ APPLY BARS =====================================================================
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
 .apply-bar {
         background-size: auto 520px;
+        background-position: 50% 0;
+    
         /*-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
