@@ -2708,28 +2708,24 @@ span.pound-sign {
 }
 /*----------- job search dropdown ---------*/
 ul#jobs-results {
-    position: absolute;
-    top: 38px;
-    z-index: 9;
     width: 100%;
     padding: 0;
 }
 ul#jobs-results li{
-    padding: 5px 15px;
+    padding: 5px 15px 5px 10px;
     text-align: left;
-    background: white;
     list-style-type: none;
-    border-left: solid 3px #52B3D9;
-    margin-bottom: 2px;
-    
+    border: solid 1px white;
+    margin-bottom: 7px;
 }
 ul#jobs-results li a{
-    line-height: normal!important;
+    line-height: normal;
+    display: block;
+    text-align: left;    
+    color:white;
 }
 @media(max-width:480px){
     ul#jobs-results {
-        max-height: 200px;
-        overflow-y: scroll;
     }    
 }
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
