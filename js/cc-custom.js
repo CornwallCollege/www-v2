@@ -163,7 +163,7 @@
            window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
 
            var thenDoThis2 = function (e, p) {
-               if (/iPhone|iPod/i.test(navigator.userAgent)) {
+               if ($(window).width() <= 480) {
                    e.style.opacity = 0.25 + Math.max(0, p);
                }
            };
