@@ -9,6 +9,7 @@ window.trackScrollAndMouseDistance = function (className, func, radius, hoverAtY
             x: window.innerWidth / 2,
             y: window.innerHeight * yp
         };
+        console.log(v);
         var r = el.getBoundingClientRect();
         var e = {
             x: r.left + ((r.right - r.left) / 2),
@@ -46,6 +47,19 @@ window.trackScrollAndMouseDistance = function (className, func, radius, hoverAtY
         apply()
     }, false);
     window.addEventListener('resize', function () {
+        apply()
+    }, false);
+    
+    window.addEventListener('swipeleft', function () {
+        apply()
+    }, false);
+    window.addEventListener('swiperight', function () {
+        apply()
+    }, false);
+    window.addEventListener('swipeup', function () {
+        apply()
+    }, false);
+    window.addEventListener('swipedown', function () {
         apply()
     }, false);
 };
