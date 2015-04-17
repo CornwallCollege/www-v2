@@ -25,8 +25,8 @@ $(document).ready(function () {
             return events;
         };
         cc.events.relevant = function (events, categories) {
-            events = events.filter(function(e) {
-                return $.inArray(e.Category, categories);
+            events = events.filter(function(e) {                
+                return categories.indexOf(e.Category) > 0;
             });
             return events;
         };
@@ -43,7 +43,7 @@ $(document).ready(function () {
             t += " </a>";
             t += "</li>";
             $.getJSON(jsonFilepath, function (events) {
-                events = cc.events.relevant(events, ['Information Events', 'Taster Days']);
+                events = cc.events.relevant(events, 'Information Events,Taster Days');
                 events = cc.events.stillOn(events);
                 events = cc.events.soonest(events);
                 var placeEvents = function (events) {
