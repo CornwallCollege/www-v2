@@ -9,7 +9,6 @@ window.trackScrollAndMouseDistance = function (className, func, radius, hoverAtY
             x: window.innerWidth / 2,
             y: window.innerHeight * yp
         };
-        console.log(v);
         var r = el.getBoundingClientRect();
         var e = {
             x: r.left + ((r.right - r.left) / 2),
