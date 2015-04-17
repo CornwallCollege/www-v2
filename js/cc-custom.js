@@ -178,7 +178,7 @@
                SimpleJekyllSearch.init({
                    searchInput: document.getElementById('jobs-input'),
                    resultsContainer: document.getElementById('jobs-results'),
-                   dataSource: 'http://localhost:81/data/jobs.json',
+                   dataSource: '/data/jobs.json',
                    searchResultTemplate: '<li><a href="/career-pages/{url}" title="{title}">{title}</a></li>',
                    noResultsText: 'None found, please choose from below',
                    limit: 10,

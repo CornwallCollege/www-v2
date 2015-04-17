@@ -337,13 +337,27 @@ a.ask-a-question:focus {
     text-align: left;
 }
 
-.form-horizontal label {
+.form-horizontal label,
+.career-search label{
     position: relative;
     z-index: 13;
     padding-left: 10px;
     line-height: 41px;
 }
-
+.career-search .form-horizontal{
+    margin: 10px 0
+}
+.career-search a{
+    text-align:left;
+    width:100%;
+    white-space:normal; 
+    text-align:center;
+}
+.career-search h2{
+    padding: 10px 0 25px;
+    text-align: center; 
+    color:#555;
+}
 .form-horizontal label i {
     color: dimgrey;
 }
@@ -1118,6 +1132,9 @@ footer a.btn{
     border: 5px #fff solid;
     color: #fff;
     opacity: 1;
+}
+.blue-bg{
+   background-color:#52B3D9; 
 }
 
 @media(max-width: 480px) {
@@ -2688,6 +2705,32 @@ div h2 span.readmore {
 
 span.pound-sign {
     float: left;
+}
+/*----------- job search dropdown ---------*/
+ul#jobs-results {
+    position: absolute;
+    top: 38px;
+    z-index: 9;
+    width: 100%;
+    padding: 0;
+}
+ul#jobs-results li{
+    padding: 5px 15px;
+    text-align: left;
+    background: white;
+    list-style-type: none;
+    border-left: solid 3px #52B3D9;
+    margin-bottom: 2px;
+    
+}
+ul#jobs-results li a{
+    line-height: normal!important;
+}
+@media(max-width:480px){
+    ul#jobs-results {
+        max-height: 200px;
+        overflow-y: scroll;
+    }    
 }
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
