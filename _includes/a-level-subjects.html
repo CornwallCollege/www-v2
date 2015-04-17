@@ -1,0 +1,12 @@
+{% if include.align == "right" %}
+<article class="col-xs-12 col-sm-5 popup-alt popup-right-alt">
+{% else %}
+<article class="col-xs-12 col-sm-5 col-sm-offset-1 popup-alt popup-left-alt">
+{% endif %}
+    <header>
+        <h5 class="col-xs-10 text-uppercase">{{include.a-level | upcase }}</h5>
+    </header>
+    <footer>
+        <p>{{include.a-level-summery }}</p>
+    </footer>
+</article>
