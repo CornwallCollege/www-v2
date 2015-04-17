@@ -1069,7 +1069,7 @@ footer a.btn{
     background-size: -moz-cover;
     background-size: cover;
     background-position: 50% 0;
-    position: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
@@ -1138,7 +1138,7 @@ footer a.btn{
     background-size: -moz-cover;
     background-size: cover;
     background-position: 50% 0;    
-    position: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     z-index: 0;
     clear: both;
