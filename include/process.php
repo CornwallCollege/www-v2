@@ -45,6 +45,7 @@ function sendEmailToEnquiries($email, $type, $details, $subject) {
     $headers = "From: $email";    
     $body = "Online ".ucfirst($type).":\n\n";
     $body .= $details;
+    $body .= "(page:".$_SERVER['REQUEST_URI'].")";
     $to = 'mtest@cornwall.ac.uk';//'enquiries@cornwall.ac.uk';
     $send = mail($to, $subject, $body, $headers);        
 }
