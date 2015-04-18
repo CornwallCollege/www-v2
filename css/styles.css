@@ -1342,6 +1342,10 @@ Tags: responsive, html5, css3, portfolio, creative, business, agency
 }
 
 .fa-question:before {
+    content: "\f063";
+}
+
+a.collapsed .fa-question:before {
     content: "\f128";
 }
 
