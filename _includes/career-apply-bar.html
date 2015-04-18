@@ -6,6 +6,6 @@
         {% else %}
             <h2>Take the first step in your new career</h2>
         {% endif %}
-        <a href="/apply#{{include.career | replace:' ','-' | downcase }}" class="apply-btn btn" data-career="{{ include.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
+        <a href="/apply?hash={{include.career | replace:' ','-' | downcase }}" class="apply-btn btn" data-career="{{ include.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
     </div>
 </section>
