@@ -220,5 +220,14 @@
            }
        });
 
+       $(function () {
+           window.smoothScrollTo = function (id) {
+               $('html, body').animate({
+                   scrollTop: $('#' + id).offset().top - 50
+               }, 500);
+               return false;
+           }
+       });
+
 
    })(jQuery);
