@@ -3,17 +3,20 @@
 $(document).ready(function () {
     if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
         $('#loader').fadeOut(1500);
-        var hash = location.href.substring(location.href.indexOf('hash=')+5).toLowerCase();
-        if (hash.length) {
-            $("#interest").val(hash);
-            $("#interest").hide();
-            $("#interest-label").val(hash);
-            $("#interest-label").hide();
+        var hasHash = (location.href.indexOf('hash=') > -1);
+        if (hasHash) {
+            var hash = location.href.substring(location.href.indexOf('hash=') + 5).toLowerCase();
+            if (hash.length) {
+                $("#interest").val(hash);
+                $("#interest").hide();
+                $("#interest-label").val(hash);
+                $("#interest-label").hide();
+            }
         }
 
         $(document).on("click", "#cancel-btn", function () {
             event.preventDefault();
-            if (hash.length) {
+            if (hasHash) {
                 location.href = "/career-pages/" + hash + "/";
             } else {
                 location.href = "/full-time-hub/";
