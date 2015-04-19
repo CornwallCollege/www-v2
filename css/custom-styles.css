@@ -1667,14 +1667,14 @@ APPLY BARS =====================================================================
 /* -------------------------------------- BUSINESS AND PRO -------------------------------------------------- */
 /* Accountancy Financial | apply now bar */
 
-.accountancy-bar {
+.accountancy-financial-bar {
     background: url(../images/area-banners/accountancy-financial-mobile.jpg);
     /* Standard syntax */
 }
 /*DESKTOP version of the background*/
 
 @media(min-width:768px) {
-    .accountancy-bar {
+    .accountancy-financial-bar {
         background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
