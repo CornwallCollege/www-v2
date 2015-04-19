@@ -121,18 +121,21 @@
 
            $('div.career-filter ul a').click(function () {
                var selector = $(this).attr('data-filter');
-               $('html, body').animate({
-                   scrollTop: $('#career-grid-anchor').offset().top
-               }, 500);
-               $container.isotope({
-                   filter: selector,
-                   animationOptions: {
-                       duration: 750,
-                       easing: 'linear',
-                       queue: false
-                   }
-               });
-               return false;
+               if (selector) {
+                   $('html, body').animate({
+                       scrollTop: $('#career-grid-anchor').offset().top
+                   }, 500);
+                   $container.isotope({
+                       filter: selector,
+                       animationOptions: {
+                           duration: 750,
+                           easing: 'linear',
+                           queue: false
+                       }
+                   });
+                   return false;
+               }
+               return true;
            });
 
            var $optionSets = $('div.career-filter ul'),
@@ -217,5 +220,5 @@
            }
        });
 
-       
+
    })(jQuery);
