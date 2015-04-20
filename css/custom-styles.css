@@ -140,6 +140,15 @@ p.white{
     h2.university {
         font-size: 40px!important;
     }
+    h2.full-time {
+        font-size: 35px!important;
+    }
+    h2.part-time {
+        font-size: 35px!important;
+    }
+    h2.business {
+        font-size: 35px!important;
+    }
     a.full-time,
     a.part-time,
     a.university,
@@ -2744,6 +2753,15 @@ ul#jobs-results li a{
 .a-levels h5{
     padding-left: 10px;
 }
+
+@media(max-width:480px){
+    .fixed-bottom {
+        position:absolute;
+        bottom:-10px;
+        width:100%;
+    }    
+}
+
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {

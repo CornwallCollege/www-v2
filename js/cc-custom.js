@@ -2,7 +2,7 @@
    if ($("#slides").length) {
        $('#slides').superslides({
            animation: 'fade',
-           play: 5000,
+           play: 5000
        });
    }
 
