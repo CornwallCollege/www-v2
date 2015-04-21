@@ -2452,19 +2452,19 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .career-filter ul li a {
-        min-height: 260px;
+        min-height: 280px;
     }
 }
 
 @media(min-width:992px) {
     .career-filter ul li a {
-        min-height: 215px;
+        min-height: 237px;
     }
 }
 
 @media(min-width:1200px) {
     .career-filter ul li a {
-        min-height: 170px;
+        min-height: 190px;
     }
 }
 /* Cluster colors ends*/
