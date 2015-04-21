@@ -2125,7 +2125,7 @@ APPLY BARS =====================================================================
         background-position: 50% 0; 
     }
 }
-/*iPad*/
+/*iPads*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
     #aerospace,
     #construction-plant,
@@ -2162,9 +2162,7 @@ APPLY BARS =====================================================================
     #apply-head{
         background-size: auto 768px;
     }
-    .apply-bar {
-            background-size: auto 786px;
-    }    
+ 
 }
 
 .apply-bar section {
