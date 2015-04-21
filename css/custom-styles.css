@@ -2165,6 +2165,8 @@ APPLY BARS =====================================================================
     .apply-bar,
     .aerospace-bar{
         background-size: auto 786px;
+        background-position: 50% 0; 
+
     }    
 }
 
