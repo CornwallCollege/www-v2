@@ -1654,6 +1654,7 @@ footer a.btn{
         background-size: auto 568px;
     }
 }
+
 /*====================================================================================================
 APPLY BARS =========================================================================================
 ====================================================================================================*/
@@ -2126,13 +2127,45 @@ APPLY BARS =====================================================================
 }
 /*iPad*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
-    .apply-bar,
-    .header-title{
-        background-size: auto 768px;
-        background-position: 50% 0; 
+    #aerospace,
+    #construction-plant,
+    #boatbuilding,
+    #automotive,
+    #electrical,
+    #construction,
+    #environmental-science,
+    #marine-natural-science-conservation,
+    #applied-forensic-science,
+    #equine,
+    #food-production,
+    #countryside-management,
+    #agriculture-horticulture,
+    #animal-science-management,
+    #health,
+    #social-care,
+    #sport,
+    #childrens-workforce,
+    #hair-beauty,
+    #performing-arts,
+    #media-digital-creativity,
+    #travel-visitor-attractions,
+    #catering-hospitality,
+    #digital-technologies,
+    #health-safety,
+    #business-admin,
+    #sales-marketing #education-teaching,
+    #accountancy-financial,
+    #a-levels,
+    #technology-engineering,
+    #public-services {
+        background-size: auto 568px;
     }
+    .apply-bar {
+            background-size: auto 786px;
+            background-position: 50% 0; 
+        }
+    }    
 }
-
 
 .apply-bar section {
     letter-spacing: 1.5px;
