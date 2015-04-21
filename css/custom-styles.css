@@ -2121,16 +2121,18 @@ APPLY BARS =====================================================================
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
 .apply-bar {
         background-size: auto 520px;
-        background-position: 50% 0;
-    
-        /*-webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-attachment: fixed;        
-        background-position: 50% 0;*/   
+        background-position: 50% 0; 
     }
 }
+/*iPad*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+    .apply-bar,
+    .header-title{
+        background-size: auto 768px;
+        background-position: 50% 0; 
+    }
+}
+
 
 .apply-bar section {
     letter-spacing: 1.5px;
