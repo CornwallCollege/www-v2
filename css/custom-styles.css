@@ -2220,7 +2220,37 @@ APPLY BARS =====================================================================
     #apply-head{
         background-size: auto 768px;
     } 
-    .apply-bar {
+    .aerospace-bar,
+    .construction-plant-bar,
+    .boatbuilding-bar,
+    .automotive-bar,
+    .electrical-bar,
+    .construction-bar,
+    .environmental-science-bar,
+    .marine-natural-science-conservation-bar,
+    .applied-forensic-science-bar,
+    .equine-bar,
+    .food-production-bar,
+    .countryside-management-bar,
+    .agriculture-horticulture-bar,
+    .animal-science-management-bar,
+    .health-bar,
+    .social-care-bar,
+    .sport-bar,
+    .childrens-workforce-bar,
+    .hair-beauty-bar,
+    .performing-arts-bar,
+    .media-digital-creativity-bar,
+    .travel-visitor-attractions-bar,
+    .catering-hospitality-bar,
+    .digital-technologies-bar,
+    .health-safety-bar,
+    .business-admin-bar,
+    .sales-marketing #education-teaching-bar,
+    .accountancy-financial-bar,
+    .a-levels-bar,
+    .technology-engineering-bar,
+    .public-services-bar{
         background-size: auto 768px;
         background-position: 50% 0; 
     }    
