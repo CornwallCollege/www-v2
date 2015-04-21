@@ -1183,6 +1183,19 @@ footer a.btn{
     opacity: 0.7;
     z-index: -1;
 }
+/* IOS LAYER FIX*/
+.content-layer:before {
+    z-index: 0;
+}
+.content-layer h1,
+.content-layer h2,
+.content-layer h2 span,
+.content-layer p,
+.content-layer a
+{
+    z-index:1;
+    position:relative;
+}
 /* engineering and technology | Engineering | header bar */
 
 #technology-engineering {
