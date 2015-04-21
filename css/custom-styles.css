@@ -1184,7 +1184,7 @@ footer a.btn{
     z-index: -1;
 }
 /* IOS LAYER FIX*/
-.content-layer:before {
+.content-layer:after {
     z-index: 0;
 }
 .content-layer h1,
