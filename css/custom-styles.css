@@ -2217,7 +2217,17 @@ APPLY BARS =====================================================================
         margin-bottom: 70px;
     }
 }
+.aerospace-bar {
+    background: url(../images/area-banners/aerospace-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
 
+@media(min-width:768px) {
+    .aerospace-bar {
+        background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
 .margin-top {
     margin-top: 70px;
 }
