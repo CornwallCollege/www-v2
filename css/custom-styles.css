@@ -2100,9 +2100,9 @@ APPLY BARS =====================================================================
     }
 }
 /* TECHNOLOGY | aerospace | apply now bar */
-
 .aerospace-bar {
-    background: url(../images/area-banners/aerospace-mobile.jpg);
+    background: url(../images/area-banners/aerospace-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
     /* Standard syntax */
 }
 /*DESKTOP version of the background*/
