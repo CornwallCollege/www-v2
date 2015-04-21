@@ -161,7 +161,9 @@
            });
 
            var thenDoThis1 = function (e, p) {
-               e.style.opacity = Math.min(1, p * 1.5);
+               if ($(window).width() <= 480) {
+                    e.style.opacity = Math.min(1, p * 1.5);
+               }
            };
            window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
 
