@@ -971,6 +971,7 @@ footer a.btn{
 
 .item-blocks {
     margin: 100px 0px;
+    clear: left
 }
 
 .another-title {
