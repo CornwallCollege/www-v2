@@ -2220,6 +2220,10 @@ APPLY BARS =====================================================================
     #apply-head{
         background-size: auto 768px;
     } 
+    .apply-bar {
+        background-size: auto 768px;
+        background-position: 50% 0; 
+    }    
 }
 
 .margin-top {
