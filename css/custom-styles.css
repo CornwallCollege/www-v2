@@ -2220,7 +2220,7 @@ APPLY BARS =====================================================================
     #apply-head{
         background-size: auto 768px;
     } 
-    .aerospace-bar,
+    /*.aerospace-bar,
     .construction-plant-bar,
     .boatbuilding-bar,
     .automotive-bar,
@@ -2252,7 +2252,7 @@ APPLY BARS =====================================================================
     .technology-engineering-bar,
     .public-services-bar{
         background-size: auto 768px;
-    }    
+    } */   
 }
 
 .margin-top {
