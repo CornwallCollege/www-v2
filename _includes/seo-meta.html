@@ -6,3 +6,7 @@
     {% else %}
     <meta name="description" content="{{site.description }}" />
     {% endif %}
+
+    {% if canonical.link %}
+        <link rel="canonical" href="https://www.cornwall.ac.uk{{canonical.link}}" />
+    {% endif %}
