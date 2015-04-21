@@ -2157,13 +2157,13 @@ APPLY BARS =====================================================================
     #accountancy-financial,
     #a-levels,
     #technology-engineering,
-    #public-services {
+    #public-services,
+    #services,
+    #apply-head{
         background-size: auto 768px;
     }
     .apply-bar {
             background-size: auto 786px;
-            background-position: 50% 0; 
-        }
     }    
 }
 
