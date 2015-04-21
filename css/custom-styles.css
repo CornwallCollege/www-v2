@@ -1166,7 +1166,7 @@ footer a.btn{
     background-position: 50% 0;    
     background-attachment: fixed;
     background-repeat: no-repeat;
-    z-index: 0;
+    z-index: 1;
     clear: both;
     text-align: center;
     padding: 0;
