@@ -230,6 +230,10 @@
                return false;
            }
        });
-
-
+       
+       // prevent default action on example career expand
+        jQuery('.collapsed').bind('click',function(e){
+              e.preventDefault();
+        });
+       
    })(jQuery);
