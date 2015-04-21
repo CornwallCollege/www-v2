@@ -2217,8 +2217,7 @@ APPLY BARS =====================================================================
     #technology-engineering,
     #public-services,
     #services,
-    #apply-head,
-    .apply-bar{
+    #apply-head{
         background-size: auto 768px;
     } 
 }
