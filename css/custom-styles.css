@@ -884,6 +884,9 @@ footer a.btn{
 }
 /* ----------------- Staff area styles ---------------------*/
 
+.box-square article:nth-child(1) a{
+    color: #fff;
+}
 .box-square article:nth-child(2) {
     background: #EAEAEA;
 }
@@ -898,12 +901,12 @@ footer a.btn{
 }
 
 .box-square article:nth-child(4) h3,
-.box-square article:nth-child(4) h2,
+.box-square article:nth-child(4) a,
 .box-square article:nth-child(4) p {
     color: #fff;
 }
 
-.box-square article:nth-child(3) h2,
+.box-square article:nth-child(3) a,
 .box-square article:nth-child(3) h3 {
     color: #52B3D9;
 }
@@ -916,7 +919,7 @@ footer a.btn{
 }
 
 .box-square article:nth-child(5) h3,
-.box-square article:nth-child(5) h2,
+.box-square article:nth-child(5) a,
 .box-square article:nth-child(5) p {
     color: white;
 }
@@ -934,7 +937,9 @@ footer a.btn{
 .box-square article:nth-child(6) h4 {
     color: #52B3D9;
 }
-
+.box-square article a:hover{
+    letter-spacing: inherit
+}
 .box-square-alt article {
     padding: 50px;
     height: auto;
@@ -2744,12 +2749,25 @@ body.home .grumble {
     cursor: pointer;
 }
 
-div.collapsed h2 span.readmore {
+a.collapsed h2 span.readmore {
     display: block;
     font-size: 90%;
 }
 
-div h2 span.readmore {
+a i.close-icon {
+    font-size:30px; 
+    position:absolute; 
+    top:10px; 
+    right:10px;    
+    display: block;
+    
+}
+a.collapsed i.close-icon {
+    display: none;
+    font-size: 90%;
+}
+
+a h2 span.readmore {
     display: none;
 }
 
