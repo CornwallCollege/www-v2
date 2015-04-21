@@ -1300,6 +1300,19 @@ footer a.btn{
         background-size: cover;
     }
 }
+/* BUSINESS AND PRO | legal | header bar */
+
+#legal {
+    background: url(../images/area-banners/legal-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+@media(min-width:768px) {
+    #legal {
+        background: url(../images/area-banners/legal-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
 /* -------------------------------------- CULTURE AND VISITOR ECONOMY -------------------------------------------------- */
 /* CULTURE & VISITOR ECONOMY | catering & hospitality | header bar */
 
@@ -1650,7 +1663,8 @@ footer a.btn{
     #accountancy-financial,
     #a-levels,
     #technology-engineering,
-    #public-services {
+    #public-services,
+    #legal{
         background-size: auto 568px;
     }
 }
@@ -1819,6 +1833,19 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .digital-technologies-bar {
         background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* legal | apply now bar */
+.legal-bar{
+    background: url(../images/area-banners/legal-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    /* Standard syntax */
+}
+/*DESKTOP version of the background*/
+@media(min-width:768px) {
+    .legal-bar {
+        background: url(../images/area-banners/legal-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
 }
@@ -2217,7 +2244,8 @@ APPLY BARS =====================================================================
     #technology-engineering,
     #public-services,
     #services,
-    #apply-head{
+    #apply-head,
+    #legal{
         background-size: auto 768px;
     } 
     /*.aerospace-bar,
@@ -2385,7 +2413,8 @@ APPLY BARS =====================================================================
     #boatbuilding h2 span,
     #aerospace h2 span,
     #technology-engineering h2 span,
-    #a-levels h2 span {
+    #a-levels h2 span,
+    #legal h2 span{
         line-height: 194%;
         font-size: 129%;
     }
@@ -2533,21 +2562,21 @@ APPLY BARS =====================================================================
 }
 
 .career-filter ul li a.hw {
-    border: 5px solid #DE006E;
+    border: 5px solid #be2d2b;
     color:  white;
-    background-color: #DE006E;    
+    background-color: #be2d2b;    
 }
 
 .career-filter ul li a.hw:hover {
     background-color: white;
-    border: 5px solid #DE006E;
-    color: #DE006E;    
+    border: 5px solid #be2d2b;
+    color: #be2d2b;    
 }
 
 .career-filter li a.selected.hw {
-    border: 5px solid #DE006E;    
+    border: 5px solid #be2d2b;    
     background-color: white;
-    color: #DE006E;
+    color: #be2d2b;
 }
 
 .career-filter ul li a.re {
