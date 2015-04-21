@@ -1181,7 +1181,7 @@ footer a.btn{
     right: 0;
     top: 0;
     opacity: 0.7;
-    z-index: -1;
+    z-index: 0;
 }
 /* IOS LAYER FIX*/
 .content-layer:after {
@@ -2162,7 +2162,9 @@ APPLY BARS =====================================================================
     #apply-head{
         background-size: auto 768px;
     }
- 
+    .apply-bar {
+        background-size: auto 786px;
+    }    
 }
 
 .apply-bar section {
@@ -2356,7 +2358,6 @@ APPLY BARS =====================================================================
 /* ---------  Career Section --------- */
 
 #career {
-    background: url(http://placehold.it/1400x300) 50% 0 no-repeat fixed;
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
