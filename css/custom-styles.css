@@ -1673,8 +1673,8 @@ footer a.btn{
     #legal{
         background-repeat: no-repeat;
         background-size: auto 568px;
-background-position-x: 50%;
-background-position-y: 0%;
+        background-position-x: 50%;
+        background-position-y: 0%;
     }
 }
 
@@ -2203,23 +2203,26 @@ APPLY BARS =====================================================================
 /*iPhones*/
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
+        background-repeat: no-repeat;
         background-size: auto 568px;
-background-position-x: 120%;
-background-position-y: 0%;
+        background-position-x: 50%;
+        background-position-y: 0%;
     }    
 } 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
+        background-repeat: no-repeat;
         background-size: auto 568px;
-background-position-x: 120%;
-background-position-y: 0%;
+        background-position-x: 50%;
+        background-position-y: 0%;
     }    
 }   
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
+        background-repeat: no-repeat;
         background-size: auto 568px;
-background-position-x: 120%;
-background-position-y: 0%;
+        background-position-x: 50%;
+        background-position-y: 0%;
     }
 }
 /*iPads*/
@@ -2260,7 +2263,7 @@ background-position-y: 0%;
     #legal{
         background-size: auto 768px;
     } 
-    /*.aerospace-bar,
+    .aerospace-bar,
     .construction-plant-bar,
     .boatbuilding-bar,
     .automotive-bar,
@@ -2291,8 +2294,11 @@ background-position-y: 0%;
     .a-levels-bar,
     .technology-engineering-bar,
     .public-services-bar{
-        background-size: auto 768px;
-    } */   
+        background-repeat: no-repeat;
+        background-size: auto 568px;
+        background-position-x: 50%;
+        background-position-y: 0%;
+    }  
 }
 
 .margin-top {
