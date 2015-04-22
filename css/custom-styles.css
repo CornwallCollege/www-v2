@@ -782,12 +782,12 @@ footer a.btn{
 /* full time sector*/
 
 .slides-alt .slides-pagination a:first-child {
-    background: #FF0078;
+    background: #009989;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:first-child {
-    background: #FF0078!important;
+    background: #009989!important;
     opacity: 1
 }
 
@@ -797,12 +797,12 @@ footer a.btn{
 /* part time sector*/
 
 .slides-alt .slides-pagination a:nth-child(2) {
-    background: #05BC86;
+    background: #98C321;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(2) {
-    background: #05BC86!important;
+    background: #98C321!important;
     opacity: 1
 }
 
@@ -812,12 +812,12 @@ footer a.btn{
 /* university sector*/
 
 .slides-alt .slides-pagination a:nth-child(3) {
-    background: #06CEDB;
+    background: #EDB92E;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(3) {
-    background: #06CEDB!important;
+    background: #EDB92E!important;
     opacity: 1
 }
 
@@ -827,12 +827,12 @@ footer a.btn{
 /* leisure sector*/
 
 .slides-alt .slides-pagination a:nth-child(4) {
-    background: #8703B7;
+    background: #F85931;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(4) {
-    background: #8703B7!important;
+    background: #F85931!important;
     opacity: 1
 }
 
@@ -842,12 +842,12 @@ footer a.btn{
 /* business sector*/
 
 .slides-alt .slides-pagination a:nth-child(5) {
-    background: #E04502;
+    background: #CE1836;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(5) {
-    background: #E04502!important;
+    background: #CE1836!important;
     opacity: 1
 }
 
@@ -857,12 +857,12 @@ footer a.btn{
 /* apprenticeships sector*/
 
 .slides-alt .slides-pagination a:nth-child(6) {
-    background: #971A17;
+    background: #BD0A41;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(6) {
-    background: #971A17!important;
+    background: #BD0A41!important;
     opacity: 1
 }
 
@@ -1671,7 +1671,10 @@ footer a.btn{
     #technology-engineering,
     #public-services,
     #legal{
-        background-size: auto 568px;
+        /*background-size: auto 568px;*/
+        background-position: calc(100% - 20px) calc(100% - 20px);
+        background-repeat: no-repeat;
+        height: 500px;
     }
 }
 
@@ -2200,20 +2203,23 @@ APPLY BARS =====================================================================
 /*iPhones*/
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
-        background-size: auto 520px;
-        background-position: 50% 0; 
+        background-position: calc(100% - 20px) calc(100% - 20px);
+        background-repeat: no-repeat;
+        height: 500px;
     }    
 } 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
-        background-size: auto 520px;
-        background-position: 50% 0; 
+        background-position: calc(100% - 20px) calc(100% - 20px);
+        background-repeat: no-repeat;
+        height: 500px;
     }    
 }   
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
-        background-size: auto 520px;
-        background-position: 50% 0; 
+        background-position: calc(100% - 20px) calc(100% - 20px);
+        background-repeat: no-repeat;
+        height: 500px;
     }
 }
 /*iPads*/
@@ -2783,6 +2789,7 @@ a h2 span.readmore {
         top:-100px;
         left:42%;
         color:white;       
+        display: block;
     }
     .back-button {
         display: block;
@@ -2791,6 +2798,7 @@ a h2 span.readmore {
         left: 15px;
         z-index: 99;
         color: white;
+        
     }
     .back-button i,
     .scroll-down i{
