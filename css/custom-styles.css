@@ -1025,9 +1025,44 @@ footer a.btn{
 /* ---------- Servicces ENDS ------------ */
 /* ---------- Counters -----------*/
 
-.career-areas #counters {
+.career-areas #counters-1,
+.career-areas #counters-2,
+.career-areas #counters-3,
+.career-areas #counters-4,
+.career-areas #counters-5,
+.career-areas #counters-6{
     background: none;
 }
+
+#counters-1 .inner,
+#counters-2 .inner,
+#counters-3 .inner,
+#counters-4 .inner,
+#counters-5 .inner,
+#counters-6 .inner{
+    display: inline;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+}
+
+#counters-1 .inner-even,
+#counters-2 .inner-even,
+#counters-3 .inner-even,
+#counters-4 .inner-even,
+#counters-5 .inner-even,
+#counters-6 .inner-even{
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#counters-1 .inner:hover,
+#counters-2 .inner:hover,
+#counters-3 .inner:hover,
+#counters-4 .inner:hover,
+#counters-5 .inner:hover,
+#counters-6 .inner:hover{
+    background: rgba(255, 255, 255, 0.8);
+}
+
 
 .inner h5 {
     color: rgba(0, 0, 0, 0.5);
