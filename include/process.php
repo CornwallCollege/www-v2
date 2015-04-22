@@ -10,17 +10,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $type = test_input($_POST['source']);        
     
-    switch ($type) {
-        case "application":
-            $careerInterest = validatePostField('interest', 'Career Interest', $errList);        
-            $topic = "Career Interest: $careerInterest";
-            $subject = $name.": ".$careerInterest;
-            break;
-        case "question":
-            $question = validatePostField('question', 'Question', $errList);        
-            $topic = "Question: $question";
-            $subject = $name.": Question";
-            break; 
+    if ($type == "application") {
+        $careerInterest = validatePostField('interest', 'Career Interest', $errList);        
+        $topic = "Career Interest: $careerInterest";
+        $subject = $name.": ".$careerInterest;
+    } else {
+        $question = validatePostField('question', 'Question', $errList);        
+        $topic = "Question: $question";
+        $subject = $name.": Question";
     } 
     
     if(count($errList)==0) {         
