@@ -429,13 +429,14 @@ Grid = (function () {
 
         },
         open: function () {
-
+            
             setTimeout($.proxy(function () {
                 // set the height for the preview and the item
                 this.setHeights();
                 // scroll to position the preview in the right place
                 this.positionPreview();
             }, this), 25);
+            this.update();
 
         },
         close: function () {
