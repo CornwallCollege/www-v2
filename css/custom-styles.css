@@ -1672,9 +1672,8 @@ footer a.btn{
     #public-services,
     #legal{
         background-size: auto 568px;
-        background-position: calc(100% - 20px) calc(100% - 20px);
-        background-repeat: no-repeat;
-        height: 500px;
+background-position-x: 120%;
+background-position-y: 0%;
     }
 }
 
@@ -2204,25 +2203,22 @@ APPLY BARS =====================================================================
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
         background-size: auto 568px;
-        background-position: calc(100% - 20px) calc(100% - 20px);
-        background-repeat: no-repeat;
-        height: 500px;
+background-position-x: 120%;
+background-position-y: 0%;
     }    
 } 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
         background-size: auto 568px;
-        background-position: calc(100% - 20px) calc(100% - 20px);
-        background-repeat: no-repeat;
-        height: 500px;
+background-position-x: 120%;
+background-position-y: 0%;
     }    
 }   
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
         background-size: auto 568px;
-        background-position: calc(100% - 20px) calc(100% - 20px);
-        background-repeat: no-repeat;
-        height: 500px; 
+background-position-x: 120%;
+background-position-y: 0%;
     }
 }
 /*iPads*/
