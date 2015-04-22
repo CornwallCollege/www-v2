@@ -228,7 +228,7 @@
                    scrollTop: $('#' + id).offset().top - 50
                }, 500);
                return false;
-           }
+           }    
        });
        
        // prevent default action on example career expand

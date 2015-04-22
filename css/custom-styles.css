@@ -2772,11 +2772,18 @@ a h2 span.readmore {
     display: none;
 }
 
-.back-button {
+.back-button,
+.scroll-down{
     display: none
 }
 
 @media(max-width:768px) {
+    .scroll-down{
+        position:absolute;
+        top:-100px;
+        left:42%;
+        color:white;       
+    }
     .back-button {
         display: block;
         position: absolute;
@@ -2785,11 +2792,13 @@ a h2 span.readmore {
         z-index: 99;
         color: white;
     }
-    .back-button i {
-        font-size: 55px;
+    .back-button i,
+    .scroll-down i{
+        font-size: 60px;
         opacity: .4;
     }
-    .back-button i:hover {
+    .back-button i:hover,
+    .scroll-down i:hover{
         opacity: 1;
     }
 }
