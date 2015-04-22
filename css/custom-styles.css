@@ -1671,6 +1671,7 @@ footer a.btn{
     #technology-engineering,
     #public-services,
     #legal{
+        background-repeat: no-repeat;
         background-size: auto 568px;
 background-position-x: 120%;
 background-position-y: 0%;
