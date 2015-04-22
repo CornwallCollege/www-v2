@@ -2783,6 +2783,7 @@ a h2 span.readmore {
         top:-100px;
         left:42%;
         color:white;       
+        display: block;
     }
     .back-button {
         display: block;
@@ -2791,6 +2792,7 @@ a h2 span.readmore {
         left: 15px;
         z-index: 99;
         color: white;
+        
     }
     .back-button i,
     .scroll-down i{
