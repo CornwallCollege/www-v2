@@ -782,12 +782,12 @@ footer a.btn{
 /* full time sector*/
 
 .slides-alt .slides-pagination a:first-child {
-    background: #FF0078;
+    background: #009989;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:first-child {
-    background: #FF0078!important;
+    background: #009989!important;
     opacity: 1
 }
 
@@ -797,12 +797,12 @@ footer a.btn{
 /* part time sector*/
 
 .slides-alt .slides-pagination a:nth-child(2) {
-    background: #05BC86;
+    background: #98C321;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(2) {
-    background: #05BC86!important;
+    background: #98C321!important;
     opacity: 1
 }
 
@@ -812,12 +812,12 @@ footer a.btn{
 /* university sector*/
 
 .slides-alt .slides-pagination a:nth-child(3) {
-    background: #06CEDB;
+    background: #EDB92E;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(3) {
-    background: #06CEDB!important;
+    background: #EDB92E!important;
     opacity: 1
 }
 
@@ -827,12 +827,12 @@ footer a.btn{
 /* leisure sector*/
 
 .slides-alt .slides-pagination a:nth-child(4) {
-    background: #8703B7;
+    background: #F85931;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(4) {
-    background: #8703B7!important;
+    background: #F85931!important;
     opacity: 1
 }
 
@@ -842,12 +842,12 @@ footer a.btn{
 /* business sector*/
 
 .slides-alt .slides-pagination a:nth-child(5) {
-    background: #E04502;
+    background: #CE1836;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(5) {
-    background: #E04502!important;
+    background: #CE1836!important;
     opacity: 1
 }
 
@@ -857,12 +857,12 @@ footer a.btn{
 /* apprenticeships sector*/
 
 .slides-alt .slides-pagination a:nth-child(6) {
-    background: #971A17;
+    background: #BD0A41;
     opacity: .3;
 }
 
 .slides-alt .slides-pagination a.current:nth-child(6) {
-    background: #971A17!important;
+    background: #BD0A41!important;
     opacity: 1
 }
 
