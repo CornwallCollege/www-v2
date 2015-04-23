@@ -1,4 +1,3 @@
-/*
 window.trackScrollAndMouseDistance = function (className, func, radius, hoverAtYPercent) {
     var calcDistanceInPercentageFromMouseAndViewportCentre = function (me, el) {
         var distanceBetween = function (p1, p2) {
@@ -63,4 +62,3 @@ window.trackScrollAndMouseDistance = function (className, func, radius, hoverAtY
         apply()
     }, false);
 };
-*/
