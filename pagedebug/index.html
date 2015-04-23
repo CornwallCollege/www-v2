@@ -730,13 +730,6 @@ link: 14-18
         </div>
     </section>
 
-<script>        
-    window.onerror = function(error, url, line) {  
-        var xmlhttp= window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-        xmlhttp.open('POST','/include/email-errors.php', true);
-        xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xmlhttp.send("error="+JSON.stringify({ error:error, line:line, url:url, agent:navigator.userAgent}));  
-        return false;
-    };    
+<script>            
     throw new Error("blah!");
 </script>
