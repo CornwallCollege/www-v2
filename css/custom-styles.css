@@ -2231,8 +2231,10 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .aerospace-bar {
         background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
-        background-size: auto 768px;
+       -webkit-background-size: cover; 
+       -moz-background-size: cover; 
+       -o-background-size: cover; 
+         background-size: cover;
     }
 }
 /* -------------------------------------iPhone Background FIX ---------------------------------------------*/
