@@ -2330,7 +2330,7 @@ APPLY BARS =====================================================================
     .technology-engineering-bar,
     .public-services-bar{
         background-repeat: no-repeat;
-        background-size: auto 568px;
+        /*background-size: auto 568px;*/
         background-position-x: 50%;
         background-position-y: 0%;
     }  
