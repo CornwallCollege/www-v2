@@ -160,6 +160,7 @@
                }
            });
 
+           /*
            var thenDoThis1 = function (e, p) {
                if ($(window).width() <= 480) {
                     e.style.opacity = Math.min(1, p * 1.5);
@@ -173,7 +174,7 @@
                }
            };
            window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
-
+*/
        }
 
 
