@@ -13,13 +13,17 @@ jQuery(document).ready(function ($) {
     }
 
     $('.BetterTube-playBtn').each(function (i, e) {
-        //if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        if (/iPhone|iPad|iPod|IEMobile/i.test(navigator.userAgent)) {
+        if (location.pathname.indexOf("pagedebug") !== -1) {
             replaceThumbnailWithIframe(e, false);
         } else {
-            $(e).on('click', function () {
-                replaceThumbnailWithIframe(e, true)
-            });
+            //if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            if (/iPhone|iPad|iPod|IEMobile/i.test(navigator.userAgent)) {
+                replaceThumbnailWithIframe(e, false);
+            } else {
+                $(e).on('click', function () {
+                    replaceThumbnailWithIframe(e, true)
+                });
+            }
         }
     });
 
