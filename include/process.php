@@ -25,8 +25,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $details .= "Email: $email\n";
         $details .= "Contact: $phone\n";        
         $details .= "$topic\n";        
-        sendEmailToEnquiries($email, $type, $details, $subject);
         sendEmailToLearner($email, $type, $details);     
+        sendEmailToEnquiries($email, $type, $details, $subject);        
     }else{
         http_response_code(400);   
         echo json_encode($errList);
@@ -43,8 +43,9 @@ function sendEmailToEnquiries($email, $type, $details, $subject) {
     $body = "Online ".ucfirst($type).":\n\n";
     $body .= $details;
     $body .= "\n\n(page:".$_SERVER['HTTP_REFERER'].")";
-    $to = 'mtest@cornwall.ac.uk';//'enquiries@cornwall.ac.uk';
+    $to = 'enquiries@cornwall.ac.uk';
     $send = mail($to, $subject, $body, $headers);        
+    $send = mail('mtest@cornwall.ac.uk', "$subject (dev team copy)", $body, $headers);        
 }
 
 function sendEmailToLearner($email, $type, $details) {    
