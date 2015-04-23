@@ -731,8 +731,20 @@ link: 14-18
     </section>
 
 <script>        
-    window.onerror = function(error, url, line) {        
-        alert("error-" + error + " line-" + line + " at-" + url);
+    window.onerror = function(error, url, line) {  
+        var myForm = document.createElement('form');
+        myForm.setAttribute('action', '/include/email-errors.php');
+        myForm.setAttribute('method', 'post');
+        myForm.setAttribute('hidden', 'true');
+        var myInput = document.createElement('input');
+        myInput.setAttribute('type', 'text');
+        myInput.setAttribute('name', 'error');
+        myInput.setAttribute('value', "ERROR="+error+" LINE="+line+" URL="+url+" AGENT="+navigator.userAgent);
+        myForm.appendChild(myInput);
+        document.body.appendChild(myForm);
+        myForm.submit();
+        document.body.removeChild(myForm);
         return true;
     };    
+    throw new Error("blah!");
 </script>
