@@ -1200,14 +1200,6 @@ footer a.btn{
 }
 
 .apply-bar {
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-    background-position: 50% 0;    
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    z-index: 0;
     clear: both;
     text-align: center;
     padding: 0;
@@ -2336,6 +2328,14 @@ APPLY BARS =====================================================================
         /*background-size: auto 568px;
         background-position-x: 50%;
         background-position-y: 0%;*/
+        background-size: -webkit-cover;
+        background-size: -o-cover;
+        background-size: -moz-cover;
+        background-size: cover;
+        background-position: 50% 0;    
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        z-index: 1;        
     }  
 }
 
@@ -2343,39 +2343,7 @@ APPLY BARS =====================================================================
     margin-top: 70px;
 }
 /* --------- Full time section call to action ENDS --------- */
-/* --------- Career area H1 size fixes --------- 
-    #aerospace,
-    #construction-plant,
-    #boatbuilding,
-    #automotive,
-    #electrical,
-    #construction,
-    #environmental-science,
-    #marine-natural-science-conservation,
-    #applied-forensic-science,
-    #equine,
-    #food-production,
-    #countryside-management,
-    #agriculture-horticulture,
-    #animal-science-management,
-    #health,
-    #social-care,
-    #sport,
-    #childrens-workforce,
-    #hair-beauty,
-    #performing-arts,
-    #media-digital-creativity,
-    #travel-visitor-attractions,
-    #catering-hospitality,
-    #digital-technologies,
-    #health-safety,
-    #business-admin,
-    #sales-marketing
-    #education-teaching,
-    #accountancy-financial,
-    #a-levels,
-    #technology-engineering
-*/
+/* --------- Career area H1 size fixes ---------*/
 
 @media(min-width:993px) {
     .career-title header h2 {
