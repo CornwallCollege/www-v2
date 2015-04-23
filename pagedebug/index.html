@@ -735,7 +735,7 @@ link: 14-18
         var xmlhttp= window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
         xmlhttp.open('GET','/include/email-errors.php');
         xmlhttp.setRequestHeader('Content-type','application/json;charset=UTF-8');
-        xmlhttp.send("error="+JSON.stringify({ error:error, line:line, url:url, agent:navigator.userAgent}));  
+        xmlhttp.send("error=fred");  
         return false;
     };    
     throw new Error("blah!");
