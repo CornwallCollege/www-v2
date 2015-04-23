@@ -2,7 +2,8 @@ jQuery(document).ready(function ($) {
 
     replaceThumbnailWithIframe = function (e, autoplay) {
         parent = e.parentNode;
-        id = parent.getAttribute('data-youtube-id');
+        //id = parent.getAttribute('data-youtube-id');  
+        id = e.getAttribute('data-youtube-id');
         // w = parent.getAttribute('data-player-width');
         // h = parent.getAttribute('data-player-height');    
         var autoplayBit = 1
@@ -12,17 +13,13 @@ jQuery(document).ready(function ($) {
     }
 
     $('.BetterTube-playBtn').each(function (i, e) {
-        if (/IEMobile/i.test(navigator.userAgent)) {
-            //do nothing
+        //if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            replaceThumbnailWithIframe(e, false);
         } else {
-            //if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-                replaceThumbnailWithIframe(e, false);
-            } else {
-                $(e).on('click', function () {
-                    replaceThumbnailWithIframe(e, true)
-                });
-            }
+            $(e).on('click', function () {
+                replaceThumbnailWithIframe(e, true)
+            });
         }
     });
 
