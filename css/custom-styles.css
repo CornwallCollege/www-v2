@@ -1199,7 +1199,7 @@ footer a.btn{
     }
 }
 
-/*.apply-bar {
+.apply-bar {
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
@@ -1211,7 +1211,7 @@ footer a.btn{
     clear: both;
     text-align: center;
     padding: 0;
-}*/
+}
 
 .apply-bar h2:before {
     background: url(../images/subtle_carbon.png) center repeat;
@@ -2232,7 +2232,7 @@ APPLY BARS =====================================================================
     .aerospace-bar {
         background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
-        background-size: auto 768px;
+        background-size: 400px 768px;
     }
 }
 /* -------------------------------------iPhone Background FIX ---------------------------------------------*/
