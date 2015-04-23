@@ -734,7 +734,7 @@ link: 14-18
     window.onerror = function(error, url, line) {  
         var xmlhttp= window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
         xmlhttp.open('POST','/include/email-errors.php');
-        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlhttp.setRequestHeader('Content-type','/json-handler');
         xmlhttp.send(JSON.stringify({ error:error, line:line, url:url, agent:navigator.userAgent}));        
         return false;
     };    
