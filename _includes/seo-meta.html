@@ -7,6 +7,12 @@
     <meta name="description" content="{{site.description }}" />
     {% endif %}
 
-    {% if page.link %}
+    {% if page.link and page.brand == "CC" %}
+        <link rel="canonical" href="https://www.cornwall.ac.uk/{{page.link }}" />
+    {% elsif page.link and page.brand == "DC" %}
+        <link rel="canonical" href="https://www.duchy.ac.uk/{{page.link }}" />
+    {% elsif page.link and page.brand == "FMS" %}
+        <link rel="canonical" href="https://www.falmouthmarineschool.ac.uk/{{page.link }}" />
+    {% elsif page.link %}
         <link rel="canonical" href="https://www.cornwall.ac.uk/{{page.link }}" />
     {% endif %}
