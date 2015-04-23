@@ -2290,9 +2290,7 @@ APPLY BARS =====================================================================
     #public-services,
     #services,
     #apply-head,
-    #legal{
-        background-size: auto 768px;
-    } 
+    #legal,
     .aerospace-bar,
     .construction-plant-bar,
     .boatbuilding-bar,
@@ -2324,26 +2322,15 @@ APPLY BARS =====================================================================
     .a-levels-bar,
     .technology-engineering-bar,
     .public-services-bar{
-        background-repeat: no-repeat;
-        /*background-size: auto 568px;
-        background-position-x: 50%;
-        background-position-y: 0%;*/
-        background-size: -webkit-cover;
-        background-size: -o-cover;
-        background-size: -moz-cover;
-        background-size: cover;
-        background-position: 50% 0;    
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        z-index: 1;        
-    }  
+        background-size: auto 768px;
+    } 
 }
 
 .margin-top {
     margin-top: 70px;
 }
 /* --------- Full time section call to action ENDS --------- */
-/* --------- Career area H1 size fixes ---------*/
+/* --------- Career area H1 size fixes --------- */
 
 @media(min-width:993px) {
     .career-title header h2 {
