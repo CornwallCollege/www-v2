@@ -2323,6 +2323,7 @@ APPLY BARS =====================================================================
     .technology-engineering-bar,
     .public-services-bar{
         background-size: auto 768px;
+        z-index: 1;
     } 
 }
 
