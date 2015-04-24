@@ -2241,7 +2241,8 @@ APPLY BARS =====================================================================
 /* -------------------------------------iPhone Background FIX ---------------------------------------------*/
 /*iPhones*/
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
-    .apply-bar {
+    .apply-bar,
+    .fulltime-bar {
         background-repeat: no-repeat;
         background-size: auto 568px;
         background-position-x: 50%;
@@ -2256,7 +2257,8 @@ APPLY BARS =====================================================================
     }      
 } 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
-    .apply-bar {
+    .apply-bar,
+    .fulltime-bar {
         background-repeat: no-repeat;
         background-size: auto 568px;
         background-position-x: 50%;
@@ -2271,7 +2273,8 @@ APPLY BARS =====================================================================
     }    
 }   
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
-    .apply-bar {
+    .apply-bar,
+    .fulltime-bar {
         background-repeat: no-repeat;
         background-size: auto 568px;
         background-position-x: 50%;
@@ -2312,14 +2315,14 @@ APPLY BARS =====================================================================
     #catering-hospitality,
     #digital-technologies,
     #health-safety,
+    #sales-marketing,
     #business-admin,
+    #education-teaching,
     #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
     #technology-engineering,
     #public-services,
-    #services,
-    #apply-head,
     #legal,
     .aerospace-bar,
     .construction-plant-bar,
@@ -2351,7 +2354,8 @@ APPLY BARS =====================================================================
     .accountancy-financial-bar,
     .a-levels-bar,
     .technology-engineering-bar,
-    .public-services-bar{
+    .public-services-bar,
+    .fulltime-bar {
         background-size: auto 768px;
         z-index: 1;
     } 
