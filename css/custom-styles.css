@@ -1204,6 +1204,9 @@ footer a.btn{
     text-align: center;
     padding: 0;
     z-index: 1;
+    background-position:  50% 0;
+    background-repeat:  no-repeat;
+    background-attachment:  fixed;
 }
 
 .apply-bar h2:before {
@@ -1712,7 +1715,6 @@ APPLY BARS =====================================================================
 .apply-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
-    
     font-family: "Raleway";
     font-weight: 400;
     margin: 0;
@@ -2215,7 +2217,7 @@ APPLY BARS =====================================================================
 }
 /* TECHNOLOGY | aerospace | apply now bar */
 .aerospace-bar {
-    background: url(../images/area-banners/aerospace-mobile.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/area-banners/aerospace-mobile.jpg);
     background-size: cover;
     /* Standard syntax */
 }
@@ -2224,10 +2226,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .aerospace-bar {
         background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
-       -webkit-background-size: cover; 
-       -moz-background-size: cover; 
-       -o-background-size: cover; 
-         background-size: cover;
+        background-size: cover;
     }
 }
 /* -------------------------------------iPhone Background FIX ---------------------------------------------*/
@@ -2238,6 +2237,7 @@ APPLY BARS =====================================================================
         background-size: auto 568px;
         background-position-x: 50%;
         background-position-y: 0%;
+        background-attachment: scroll
     }    
 } 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
@@ -2246,6 +2246,7 @@ APPLY BARS =====================================================================
         background-size: auto 568px;
         background-position-x: 50%;
         background-position-y: 0%;
+        background-attachment: scroll
     }    
 }   
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
@@ -2254,6 +2255,7 @@ APPLY BARS =====================================================================
         background-size: auto 568px;
         background-position-x: 50%;
         background-position-y: 0%;
+        background-attachment: scroll
     }
 }
 /*iPads*/
