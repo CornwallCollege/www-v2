@@ -2947,7 +2947,19 @@ ul#jobs-results li a{
         width:100%;
     }    
 }
-
+/*--------- home page title fix ----------*/
+.content-layer {
+    top: 25%;
+    padding-top:0;
+}
+.content-layer:after {
+    top: -100%;
+}
+@media (max-width:768px ){
+    .content-layer {
+        top: 30%;
+    }   
+}
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
