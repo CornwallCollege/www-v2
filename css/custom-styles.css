@@ -2820,7 +2820,7 @@ a h2 span.readmore {
 @media(max-width:768px) {
     .scroll-down{
         position:absolute;
-        top:-100px;
+        top:-65px;
         left:42%;
         color:white;       
         display: block;
