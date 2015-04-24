@@ -1701,12 +1701,19 @@ footer a.btn{
     #a-levels,
     #technology-engineering,
     #public-services,
-    #legal{
+    #legal
+    {
         background-repeat: no-repeat;
-        background-size: auto 568px;
+        background-size: auto 400px;
         background-position-x: 50%;
         background-position-y: 0%;
     }
+    #legal{
+        background-position-x: 75%;
+    }
+    #aerospace{
+        background-position-x: 0%;
+    }    
 }
 
 /*====================================================================================================
@@ -2239,6 +2246,12 @@ APPLY BARS =====================================================================
         background-position-y: 0%;
         background-attachment: scroll
     }    
+    .legal-bar{
+        background-position-x: 75%;
+    }
+    .aerospace-bar{
+        background-position-x: 10%;
+    }      
 } 
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar {
@@ -2247,6 +2260,12 @@ APPLY BARS =====================================================================
         background-position-x: 50%;
         background-position-y: 0%;
         background-attachment: scroll
+    }    
+    .legal-bar{
+        background-position-x: 75%;
+    }
+    .aerospace-bar{
+        background-position-x: 10%;
     }    
 }   
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
@@ -2257,6 +2276,12 @@ APPLY BARS =====================================================================
         background-position-y: 0%;
         background-attachment: scroll
     }
+    .legal-bar{
+        background-position-x: 75%;
+    }
+    .aerospace-bar{
+        background-position-x: 10%;
+    }      
 }
 /*iPads*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
