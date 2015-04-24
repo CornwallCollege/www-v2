@@ -22,14 +22,18 @@
     </style>
     
     <!-- special case javascript to catch any further javascript errors and email to dev team -->
-    <script>        
-        window.onerror = function (error, url, line) {
-            var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-            xmlhttp.open('POST', '/include/email-errors.php', true);
-            xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-            xmlhttp.send("error=" + JSON.stringify({ error: error, line: line, url: url, agent: navigator.userAgent }));
-            return false;
-        };
+    <script>
+        try {
+            window.onerror = function (error, url, line) {
+                try {
+                    var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+                    xmlhttp.open('POST', '/include/email-errors.php', true);
+                    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    xmlhttp.send("error=" + JSON.stringify({ error: error, line: line, url: url, agent: navigator.userAgent }));
+                } catch(e) {}
+                return false;
+            };        
+        } catch(e) {}
     </script>
     
 <!-- Latest compiled and minified CSS -->
