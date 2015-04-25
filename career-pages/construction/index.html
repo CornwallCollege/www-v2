@@ -2,9 +2,10 @@
 layout: career-page
 title: Construction Careers
 description: Find out more about starting a Career in Construction at The Cornwall College Group
+career: construction
 ---
 
-        {% include career-header.html career='construction' %} 
+        {% include career-header.html %} 
 
         <!-- BODY SECTION -->
         <section class="container">
@@ -82,16 +83,11 @@ description: Find out more about starting a Career in Construction at The Cornwa
                 </section>                
             </section>
         </section>
-        <!-- call to action section --
-        <section class="col-sm-12 countryside-management-bar apply-bar margin-top clearfix">
-            <div class="container">
-                <h2>Seen Enough? Apply Now! </h2>
-                <a href="/apply#countryside-management" class="apply-btn btn" data-career="countryside-management">Apply NOW</a>
-            </div>
-        </section>
 
+{% include career-apply-bar-first.html %}
+       
         <!-- skills -->
-{% include career-stats.html percent1=100 end1='of our construction students say that the teaching on their course is good.' begin2='Our building &amp; construction courses have an' percent2=80.7 end2='success rate (higher than the national average).' %}
+{% include career-stats.html percent1=100 end1='of our construction students say that the teaching on their course is good.' begin2='Our building & construction courses have an' percent2=80.7 end2='success rate (higher than the national average).' %}
 
  
        
@@ -120,4 +116,4 @@ description: Find out more about starting a Career in Construction at The Cornwa
             </article>
         </section>
 
-        {% include career-apply-bar.html career='construction' %}
+{% include career-apply-bar-second.html %}
