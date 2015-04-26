@@ -4,42 +4,19 @@ title: Countryside Management
 description: Find out more about starting a career in the Countryside Management industry with courses from The Cornwall College Group
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html career='countryside-management' %}
+{% include career-header.html career='countryside-management' %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">If you love the countyrside, are passionate about its protection and conservation and the livelihoods that rely on its existence, this could be the career path for you. You'll need to love working outdoors, and want to understand how nature works and how we interract with it in a sustainable way.</p>
-        {% youtube https://youtu.be/zj2ddSyyjIE %}
-        </section>
+{% include career-intro.html p1="If you love the countyrside, are passionate about its protection and conservation and the livelihoods that rely on its existence, this could be the career path for you. You'll need to love working outdoors, and want to understand how nature works and how we interract with it in a sustainable way." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/zj2ddSyyjIE %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='Property, Housing or Estate Manager' paragraph='Job holders within this group manage shopping centres, residential areas and private estates, and arrange for the sale, purchase, rental and leasing of property on behalf of clients and employers.' jobsIn='Cornwall' jobsNow=1945 jobsFuture=2161 startingSalary=21000 %} 
-               
-{% include career-example-job.html number='2' title='Forestry Worker' paragraph='Forestry workers perform a variety of tasks related to the planting, cultivation and protection of trees.' jobsIn='the Southwest' jobsNow=1226 jobsFuture=1249 startingSalary=12000 %} 
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                
-                              
-            </section>
-        </section>
+{% include career-examples-head.html %}
 
+{% include career-example-job.html number='1' title='Property, Housing or Estate Manager' paragraph='Job holders within this group manage shopping centres, residential areas and private estates, and arrange for the sale, purchase, rental and leasing of property on behalf of clients and employers.' jobsIn='Cornwall' jobsNow=1945 jobsFuture=2161 startingSalary=21000 %}
+
+{% include career-example-job.html number='2' title='Forestry Worker' paragraph='Forestry workers perform a variety of tasks related to the planting, cultivation and protection of trees.' jobsIn='the Southwest' jobsNow=1226 jobsFuture=1249 startingSalary=12000 %}
+
+{% include career-examples-foot.html %}
         <!-- skills -->
 
         <section id="skills" class="col-md-12 main-section-margins intro">
@@ -59,5 +36,4 @@ description: Find out more about starting a career in the Countryside Management
             </section>
         </section>
 
-        <!-- call to action section -->  
-        {% include career-apply-bar.html career='countryside-management' %}   
+{% include career-apply-bar.html career='countryside-management' %}

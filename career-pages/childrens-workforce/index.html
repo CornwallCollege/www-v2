@@ -4,79 +4,30 @@ title: Children, Schools & Families
 description: Find out more about starting career working wityh childen at The Cornwall College Group
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html career='childrens-workforce' title='Children, Schools & Families' %}            
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">Shaping the way our world grows by working with a new generation is an exciting prospect. Whether youare working in a childcare setting with babies and toddlers or developing youth projects, children's workforce careers are so important to how our society develops and offer a truly challenging and rewarding experience.
-            </p>
-            {% youtube https://youtu.be/uEv33C_B6Xs %}
-        </section>
+{% include career-header.html career='childrens-workforce' title='Children, Schools & Families' %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+{% include career-intro.html p1="Shaping the way our world grows by working with a new generation is an exciting prospect. Whether youare working in a childcare setting with babies and toddlers or developing youth projects, children's workforce careers are so important to how our society develops and offer a truly challenging and rewarding experience." %}
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
+<section class="container">{% youtube https://youtu.be/uEv33C_B6Xs %}</section>
+
+{% include career-examples-head.html %}
 
 {% include career-example-job.html number='1' title='Nursery Nurse or Assistant' paragraph='Nursery nurses and assistants care for children from birth up to seven years of age in day or residential nurseries, children’s homes, maternity units and similar establishments.' jobsIn='Cornwall' jobsNow=1806 jobsFuture=1988 startingSalary=10000 %}
-                
+
 {% include career-example-job.html number='2' title='Childminder or Related Occupation' paragraph='Childminders and related occupations provide day-to-day care of children within a domestic setting, and supervise and participate in their play, educational and other activities.' jobsIn='Cornwall' jobsNow=1220 jobsFuture=1343 altStartingSalary='variable' %}
-                                
+
 {% include career-example-job.html number='3' title='Playworker' paragraph='Playworkers deliver and facilitate play opportunities for children in a range of formal and informal settings including play groups, play schemes, free play locations, and in pre- and after-school activities.' jobsIn='Cornwall' jobsNow=381 jobsFuture=419 startingSalary=12000 %}
 
 {% include career-example-job.html number='4' title='Youth & Community Worker' paragraph='Youth and community workers provide support to individuals or groups of individuals through a range of activities or services that aim to encourage participation in social and community life and promote personal and social development.' jobsIn='Cornwall' jobsNow=449 jobsFuture=500 startingSalary=14000 %}
-                
-{% include career-example-job.html number='5' title='Teaching Assistant' paragraph='Teaching assistants assist teachers with their day-to-day classroom work, supporting young people while learning and with routine administrative tasks.' jobsIn='Cornwall' jobsNow=3380 jobsFuture=3719 startingSalary=13000 %}                
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>               
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar.html career='childrens-workforce' order='first' %}    
-        <!-- skills -->
-        {% include career-stats.html percent1=100 end1='of our childcare students say that their lecturers are constantly challenging them to do their best.' %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
+{% include career-example-job.html number='5' title='Teaching Assistant' paragraph='Teaching assistants assist teachers with their day-to-day classroom work, supporting young people while learning and with routine administrative tasks.' jobsIn='Cornwall' jobsNow=3380 jobsFuture=3719 startingSalary=13000 %}
 
-                </article>
-            </section>
-        </section>
+{% include career-examples-foot.html %}
 
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Matthew White</h4>
+{% include career-apply-bar.html career='childrens-workforce' order='first' %}
 
-              <footer>
-                <p>Matthew is passionate about helping children to have the best start in life. He worked in the Flying Start nursery at Stoke Climsland whilst completing his Foundation Degree in Children &amp; Young People's Workforce.</p>
+{% include career-stats.html percent1=100 end1='of our childcare students say that their lecturers are constantly challenging them to do their best.' %}
 
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/childrens-workforce-matthew-white.jpg" class="img-responsive" alt="Matthew White">
-              </figure>
-            </article>
+{% include career-alumni.html name="Matthew White" text="Matthew is passionate about helping children to have the best start in life. He worked in the Flying Start nursery at Stoke Climsland whilst completing his Foundation Degree in Children &amp; Young People's Workforce." photo="alumni/childrens-workforce-matthew-white.jpg" %}
 
-        </section>
-
-        <!-- call to action section -->
-        {% include career-apply-bar.html career='childrens-workforce' %}    
+{% include career-apply-bar.html career='childrens-workforce' %}

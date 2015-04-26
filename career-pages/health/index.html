@@ -4,49 +4,27 @@ title: Health
 description: Find out more about starting a career in the Health sector with courses from The Cornwall College Group
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html career='health' %}
+{% include career-header.html career='health' %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">If you're interested in the human body, how it works and heals, and want to work to help people live better lives: a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people.</p>
-            {% youtube https://youtu.be/t6dhvGJJMT4 %}
-        </section>
+{% include career-intro.html p1="If you're interested in the human body, how it works and heals, and want to work to help people live better lives: a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/t6dhvGJJMT4 %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
+{% include career-examples-head.html %}
+
 {% include career-example-job.html number='1' title='Midwife' paragraph='Midwives deliver, or assist in the delivery of babies, provide antenatal and postnatal care and advise parents on baby care. They work with other healthcare professionals, and advise on and teach midwifery practice.' jobsIn='the Southwest' jobsNow=3645 jobsFuture=4127 startingSalary=21400 %}
-                
+
 {% include career-example-job.html number='2' title='Nurse' paragraph='Nurses provide general or specialised nursing care for the sick, injured and others in need of such care, assist medical doctors with their tasks and work with other healthcare professionals and within teams of healthcare workers. They advise on and teach nursing practice.' jobsIn='Cornwall' jobsNow=4918 jobsFuture=5569 startingSalary=21500 %}
-                                
+
 {% include career-example-job.html number='3' title='Occupational Therapist' paragraph='Occupational therapists work with people who have a physical or learning disability or mental illness, actively engaging them in purposeful activities in order to maximise self-confidence, independent functioning and well-being.' jobsIn='Cornwall' jobsNow=2666 jobsFuture=3019 startingSalary=21400 %}
-              
+
 {% include career-example-job.html number='4' title='Physiotherapist' paragraph='Physiotherapists plan and apply massage, promote and encourage movement and exercise, use hydrotherapy, electro-therapy and other technological equipment in the treatment of a wide range of injuries, diseases and disabilities in order to assist rehabilitation by developing and restoring body systems.' jobsIn='Cornwall' jobsNow=3919 jobsFuture=4438 startingSalary=21400 %}
-              
+
 {% include career-example-job.html number='5' title='Dental Nurse' paragraph='Dental nurses prepare patients for, and assist with, dental examinations, prepare and sterilise instruments and maintain case records.' jobsIn='the Southwest' jobsNow=4959 jobsFuture=5459 startingSalary=16000 %}
-              
+
 {% include career-example-job.html number='6' title='Dental Practitioner' paragraph='Dental practitioners diagnose dental and oral diseases, injuries and disorders, prescribe and administer treatment, recommend preventative action and, where necessary, refer the patient to a specialist.' jobsIn='the Southwest' jobsNow=3389 jobsFuture=3836 startingSalary=38000 %}
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                
-                
-            </section>
-        </section>
+
+{% include career-examples-foot.html %}
 
         <!-- skills -->
 
@@ -66,5 +44,4 @@ description: Find out more about starting a career in the Health sector with cou
             </section>
         </section>
 
-        <!-- call to action section -->  
-        {% include career-apply-bar.html career='health' %} 
+{% include career-apply-bar.html career='health' %}

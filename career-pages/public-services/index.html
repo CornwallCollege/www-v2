@@ -4,82 +4,32 @@ title: Public Services
 description: Find out more about starting a career in the public-services with The Cornwall College Group
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html career='public-services' %}
+{% include career-header.html career='public-services' %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">A career in the armed forces or the blue light public services is for anyone who cares about others, wants variety and a new challenge every day.Working with people to help keep them safe, happy and healthy is the driver for public servants and provides opportunity for careers locally, nationally and around the world.</p>
-         {% youtube https://youtu.be/A3RbzLwnTi4 %}
-        </section>
+{% include career-intro.html p1="A career in the armed forces or the blue light public services is for anyone who cares about others, wants variety and a new challenge every day.Working with people to help keep them safe, happy and healthy is the driver for public servants and provides opportunity for careers locally, nationally and around the world." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/A3RbzLwnTi4 %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
+{% include career-examples-head.html %}
+
 {% include career-example-job.html number='1' title='Fire Service Officer' paragraph='Fire service officers co-ordinate and participate in firefighting activities, provide emergency services in the event of accidents or bomb alerts, and advise on fire prevention.' jobsIn='the Southwest' jobsNow=2441 jobsFuture=2475 startingSalary=21000 %}
-                
+
 {% include career-example-job.html number='2' title='Non-commissioned Officer or Other Rank' paragraph='Workers in this area are full-time members of the armed forces of the UK, the Commonwealth and other foreign countries and perform military duties for which there is no civilian equivalent.' jobsIn='the Southwest' jobsNow=4223 jobsFuture=4284 startingSalary=13400 %}
-                                          
+
 {% include career-example-job.html number='3' title='Paramedic' paragraph='Higher education teaching professionals deliver lectures and teach students to at least first degree level, undertake research and write journal articles and books in their chosen field of study.' jobsIn='Cornwall' jobsNow=1148 jobsFuture=1294 startingSalary=21400 %}
-                
+
 {% include career-example-job.html number='4' title='Police Officer' paragraph='Police officers (Sergeant and below) co-ordinate and undertake the investigation of crimes, patrol public areas, arrest offenders and suspects and enforce law and order. Officers of the British Transport Police operate within the specialised police service for the railway network across Britain.' jobsIn='Cornwall' jobsNow=10860 jobsFuture=11016 startingSalary=19000 %}
-                              
+
 {% include career-example-job.html number='5' title='Prison Service Officer' paragraph='Prison service officers (below principal officer) direct, co-ordinate and participate in guarding inmates and maintaining discipline in prisons and other detention centres.' jobsIn='the Southwest' jobsNow=2744 jobsFuture=2783 startingSalary=16000 %}
 
 {% include career-example-job.html number='6' title='Senior Officer In Fire, Ambulance, Prison or Related Services' paragraph='Fire officers plan, organise, direct and co-ordinate the activities and resources of a specific physical or functional area of a statutory or private fire brigade/service and the resources necessary for the protection of property at fires within a salvage corps area. Ambulance officers plan, organise, direct and co-ordinate the resources necessary for the provision of ambulance services. Prison officers (principal officer and above) plan, organise, direct, and co-ordinate the activities and resources necessary for the running of a prison, remand or detention centre. Customs officers plan and direct the work of customs, excise and immigration staff in the monitoring and inspection of goods and persons crossing national borders.' jobsIn='the Southwest' jobsNow=1343 jobsFuture=1524 startingSalary=32000 %}
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                                  
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar.html career='public-services' order='first' %}    
 
-        <!-- skills -->
-        {% include career-stats.html percent1=100 end1='of our Public Services Diploma students say that their lecturers are constantly challenging them to do their best.' %}
+{% include career-examples-foot.html %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
+{% include career-apply-bar.html career='public-services' order='first' %}
 
-                </article>
-            </section>
-        </section>
+{% include career-stats.html percent1=100 end1='of our Public Services Diploma students say that their lecturers are constantly challenging them to do their best.' %}
 
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Owen Marks</h4>
+{% include career-alumni.html name="Owen Marks" text="After boosting his confidence, fitness and military knowledge with us, Owen is looking forward to a career in the military police." photo="alumni/public-services-owen-marks.jpg" %}
 
-              <footer>
-                <p>After boosting his confidence, fitness and military knowledge with us, Owen is looking forward to a career in the military police.</p>
-
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/public-services-owen-marks.jpg" class="img-responsive" alt="Owen Marks">
-              </figure>
-            </article>
-
-        </section>
-
-        <!-- call to action section -->
-        {% include career-apply-bar.html career='public-services' %}    
+{% include career-apply-bar.html career='public-services' %}

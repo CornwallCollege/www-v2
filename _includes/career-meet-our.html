@@ -1,0 +1,22 @@
+<!-- TEAM intro -->
+<section class="col-md-12 main-section-margins intro">
+    <section class="container">
+        <article class="col-sm-12 text-center">
+            <h2>MEET OUR <strong>{{include.our}}</strong></h2>
+        </article>
+    </section>
+</section>
+<section class="col-md-12 main-section-margins ">
+    <article class="container white-bg">
+      <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
+          <h4 class="text-uppercase">{{ include.name }}</h4>
+      <footer>
+        <p>{{ include.text }}</p>
+      </footer>
+      </section>
+      <!-- TEAM FOUNDER PICTURE -->
+      <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
+        <img src="/images/{{ include.photo }}" class="img-responsive" alt="{{ include.name }}">
+      </figure>
+    </article>
+</section>

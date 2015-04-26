@@ -4,43 +4,21 @@ title: Travel and Visitor Attractions
 description: Find out more about starting a career in the Travel and Visitor Attractions sector at The Cornwall College Group
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html career='travel-visitor-attractions' title='Travel & Visitor Attractions' %}
+{% include career-header.html career='travel-visitor-attractions' title='Travel & Visitor Attractions' %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">The 21st century has seen Cornwall emerge as one of the world's iconic destinations for its beaches, culture, waterpsorts, countryside and history.</p> 
-            <p class="lead">It's an amazing time and location to start a career in this vital industry if you are passionate about the wonders of the world and the people who inhabit it.</p>
-            {% youtube https://youtu.be/sljkUyGrhmQ %}
-        </section>
+{% include career-intro.html p1="The 21st century has seen Cornwall emerge as one of the world's iconic destinations for its beaches, culture, waterpsorts, countryside and history." p2="It's an amazing time and location to start a career in this vital industry if you are passionate about the wonders of the world and the people who inhabit it." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/sljkUyGrhmQ %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='Archivist or Curator' paragraph='Archivists and curators collect, appraise and preserve collections of recorded and other material of historical interest.' jobsIn='the Southwest' jobsNow=894 jobsFuture=1024 startingSalary=18000 %} 
-                
-{% include career-example-job.html number='2' title='Travel Agent' paragraph='Travel agents advise travellers upon travel arrangements, make bookings and receive payment for travel arrangements made.' jobsIn='the Southwest' jobsNow=3546 jobsFuture=3571 startingSalary=13000 %}                                                
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                 
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar.html career='travel-visitor-attractions' order='first' %}
+{% include career-examples-head.html %}
+
+{% include career-example-job.html number='1' title='Archivist or Curator' paragraph='Archivists and curators collect, appraise and preserve collections of recorded and other material of historical interest.' jobsIn='the Southwest' jobsNow=894 jobsFuture=1024 startingSalary=18000 %}
+
+{% include career-example-job.html number='2' title='Travel Agent' paragraph='Travel agents advise travellers upon travel arrangements, make bookings and receive payment for travel arrangements made.' jobsIn='the Southwest' jobsNow=3546 jobsFuture=3571 startingSalary=13000 %}
+
+{% include career-examples-foot.html %}
+
+{% include career-apply-bar.html career='travel-visitor-attractions' order='first' %}
 
 
         <!-- skills -->
@@ -54,7 +32,7 @@ description: Find out more about starting a career in the Travel and Visitor Att
                 <article class="progress-bars col-xs-6 col-md-5 col-md-offset-1">
                     <section class="progress custom-progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                            <span>100%</span> of our Travel &amp; Tourism Diploma Level 3 students say that their lecturers are constantly challenging them to do their best. 
+                            <span>100%</span> of our Travel &amp; Tourism Diploma Level 3 students say that their lecturers are constantly challenging them to do their best.
                         </div>
                     </section>
 
@@ -62,34 +40,6 @@ description: Find out more about starting a career in the Travel and Visitor Att
             </section>
         </section>
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
+{% include career-alumni.html name="Hayley Watts and Alesha Banfield" text="Hayley and Alesha represented the UK at an international conference exploring the importance of sustainability in the tourism industry; both impressed judges with their presentation and research." photo="alumni/travel-visitor-attractions-hayley-watts-and-alesha-banfield.jpg" %}
 
-                </article>
-            </section>
-        </section>
-
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Hayley Watts and Alesha Banfield</h4>
-
-              <footer>
-                <p>Hayley and Alesha represented the UK at an international conference exploring the importance of sustainability in the tourism industry; both impressed judges with their presentation and research.</p>
-
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/travel-visitor-attractions-hayley-watts-and-alesha-banfield.jpg" class="img-responsive" alt="Hayley Watts and Alesha Banfield">
-              </figure>
-            </article>
-
-        </section>
-
-        <!-- call to action section -->
-        {% include career-apply-bar.html career='travel-visitor-attractions' %} 
+{% include career-apply-bar.html career='travel-visitor-attractions' %}
