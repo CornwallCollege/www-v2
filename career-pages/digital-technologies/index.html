@@ -2,9 +2,10 @@
 layout: career-page
 title: Digital Technologies
 description: Find out more about starting a career in the Digital Technologies sector at The Cornwall College Group
+career: digital-technologies
 ---
 
-{% include career-header.html career='digital-technologies' %}
+{% include career-header.html %}
 
 {% include career-intro.html p1="Computers, information networks and communication channels are rapidly changing and evolving in the modern world. This is a growth industry, as more of the planet goes on-line we rely on technology more and more to improve the quality of our lives." p2="For anyone interested in digital technology, this is a great time to start a career in this sector." %}
 
@@ -25,35 +26,11 @@ description: Find out more about starting a career in the Digital Technologies s
 
 {% include career-examples-foot.html %}
 
-{% include career-apply-bar.html career='digital-technologies' order='first' %}
+{% include career-apply-bar-first.html %}
 
-
-        <!-- skills -->
-
-        <section id="skills" class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="side-text col-xs-6 col-md-4 col-md-offset-1">
-                    <h2>OUR <strong>STATS</strong></h2>
-                </article>
-
-                <article class="progress-bars col-xs-6 col-md-5 col-md-offset-1">
-                    <section class="progress custom-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 97%">
-                            <span>97% </span>of our ICT students say that lecturers know their subject well.
-                        </div>
-                    </section>
-
-                    <section class="progress custom-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="96.5" aria-valuemin="0" aria-valuemax="100" style="width: 96.5%;">
-                            Our ICT for users courses have an <span>96.5%</span> success rate (<span>7.7%</span> higher than the national average).
-                        </div>
-                    </section>
-
-                </article>
-            </section>
-        </section>
+{% include career-stats.html percent1=97 end1='of our ICT students say that lecturers know their subject well.' begin2='Our ICT for users courses have an' percent2=96.5 end2='success rate (<span>7.7%</span> higher than the national average).' %}
 
 
 {% include career-alumni.html name="Mark Rowland" text="After leaving Cornwall College Mark started working as an IT engineer, something he is incredibly passionate about. Mark is now the director of Plymouth-based IT company Cutec Ltd." photo="alumni/digital-technologies-mark-rowland.jpg" %}
 
-{% include career-apply-bar.html career='digital-technologies' %}
+{% include career-apply-bar-second.html %} 

@@ -2,9 +2,12 @@
 layout: career-page
 title: Catering & Hospitality
 description: Find out more about starting a career in the catering and hospitality sector at The Cornwall College Group
-career: catering-hospitality
+<<<<<<< HEAD
 link: course-subjects/catering-hospitality
 brand: CC
+=======
+career: catering-hospitality
+>>>>>>> origin/master
 ---
 
 

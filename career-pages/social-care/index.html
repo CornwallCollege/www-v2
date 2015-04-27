@@ -2,9 +2,10 @@
 layout: career-page
 title: Social Care
 description: Find out more about starting a career in Social Care with help from The Cornwall College Group
+career: social-care
 ---
 
-{% include career-header.html career='social-care' %}
+{% include career-header.html %}
 
 {% include career-intro.html p1="Having an interest in other people's stories, their lives and wellbeing is a gift that can change the world for those who most need it. Caring for others, working with them to improve their lives and their environment makes for a rewarding career in a sector that is rapidly growing locally and nationally." %}
 
@@ -26,24 +27,8 @@ description: Find out more about starting a career in Social Care with help from
 
 {% include career-examples-foot.html %}
 
-{% include career-apply-bar.html career='social-care' order='first' %}
+{% include career-apply-bar-first.html %}
 
-        <!-- skills -->
+{% include career-stats.html percent1=100 end1='of our BTEC Extended Diploma in Health & Social Care students are happy with their course and with the college.' %}
 
-        <section id="skills" class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="side-text col-xs-6 col-md-4 col-md-offset-1">
-                    <h2>OUR <strong>STATS</strong></h2>
-                </article>
-
-                <article class="progress-bars col-xs-6 col-md-5 col-md-offset-1">
-                    <section class="progress custom-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%">
-                            <span>100%</span> of our BTEC Extended Diploma in Health &amp; Social Care students are happy with their course and with the college.
-                        </div>
-                    </section>
-                </article>
-            </section>
-        </section>
-
-{% include career-apply-bar.html career='social-care' %}
+{% include career-apply-bar-second.html %} 

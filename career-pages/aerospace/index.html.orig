@@ -2,8 +2,12 @@
 layout: career-page
 title: Aerospace
 description: Find out more about starting an Electrical Career at The Cornwall College Group
-career: aerospace
+<<<<<<< HEAD
+link: course-subjects/engineering
 brand: CC
+=======
+career: aerospace
+>>>>>>> origin/master
 ---
 
 {% include career-header.html %}

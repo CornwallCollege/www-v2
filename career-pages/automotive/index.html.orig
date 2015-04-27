@@ -2,9 +2,12 @@
 layout: career-page
 title: Automotive Careers
 description: Find out more about starting an Automotive Career at The Cornwall College Group
-career: automotive
+<<<<<<< HEAD
 link: course-subjects/motor-vehicle
 brand: CC
+=======
+career: automotive
+>>>>>>> origin/master
 ---
 
 {% include career-header.html %} 

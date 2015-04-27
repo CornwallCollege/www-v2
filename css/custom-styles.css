@@ -1235,13 +1235,13 @@ footer a.btn{
 }
 /* engineering and technology | Engineering | header bar */
 
-#technology-engineering {
+#engineering {
     background: url(../images/engineering-technology-bg-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
 @media(min-width:768px) {
-    #technology-engineering {
+    #engineering {
         background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
@@ -1701,7 +1701,7 @@ footer a.btn{
     #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
-    #technology-engineering,
+    #engineering,
     #public-services,
     #legal
     {
@@ -2321,7 +2321,7 @@ APPLY BARS =====================================================================
     #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
-    #technology-engineering,
+    #engineering,
     #public-services,
     #legal,
     .aerospace-bar,
@@ -2353,7 +2353,7 @@ APPLY BARS =====================================================================
     .sales-marketing #education-teaching-bar,
     .accountancy-financial-bar,
     .a-levels-bar,
-    .technology-engineering-bar,
+    .engineering-bar,
     .public-services-bar,
     .fulltime-bar {
         background-size: auto 768px;
@@ -2458,7 +2458,7 @@ APPLY BARS =====================================================================
     #automotive h2 span,
     #boatbuilding h2 span,
     #aerospace h2 span,
-    #technology-engineering h2 span,
+    #engineering h2 span,
     #a-levels h2 span,
     #legal h2 span{
         line-height: 194%;

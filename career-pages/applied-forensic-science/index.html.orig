@@ -2,9 +2,12 @@
 layout: career-page
 title: Applied & Forensic Science
 description: Find out more about starting a career in Applied and Forensic Science at The Cornwall College Group
-career: applied-forensic-science
+<<<<<<< HEAD
 link: course-subjects/science
 brand: CC
+=======
+career: applied-forensic-science
+>>>>>>> origin/master
 ---
 
 {% include career-header.html %}            
