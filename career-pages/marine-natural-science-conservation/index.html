@@ -5,84 +5,33 @@ description: Find out more about starting a career in the Marine, Natural Scienc
 career: marine-natural-science-conservation
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html %}
+{% include career-header.html %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">Our world is precious and it takes a special set of skills to nuture and protect it. Careers in this area are all about sustaining our world, supporting flora and fauna and educating future generations to create a sustainable environment. You'll need an interest in sciences and a passion for our world's living creatures.</p>
-        <article class="col-sm-6">{% youtube https://youtu.be/vWEm63JLRw4 %}</article>
-        <article class="col-sm-6">{% youtube https://youtu.be/b8hzto-fQ18 %}</article>    
-        </section>
+{% include career-intro.html p1="Our world is precious and it takes a special set of skills to nuture and protect it. Careers in this area are all about sustaining our world, supporting flora and fauna and educating future generations to create a sustainable environment. You'll need an interest in sciences and a passion for our world's living creatures." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">
+  <article class="col-sm-6">{% youtube https://youtu.be/vWEm63JLRw4 %}</article>
+  <article class="col-sm-6">{% youtube https://youtu.be/b8hzto-fQ18 %}</article>
+</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='Biological Scientist or Biochemist' paragraph='Biological scientists and biochemists examine and investigate the morphology, structure, chemistry and physical characteristics of living organisms, including their inter-relationships, environments and diseases.' jobsIn='the Southwest' jobsNow=6848 jobsFuture=7451 startingSalary=21200 %} 
-                
-{% include career-example-job.html number='2' title='Conservation or Environmental Associate Professional' paragraph='Conservation and environmental associate professionals are responsible for the day-to-day running and management of areas of the countryside and the wider environment in a way that reconciles the interests of conservation, land owners and the public. They carry out practical conservation activities and assist in promoting awareness of the natural environment.' jobsIn='the Southwest' jobsNow=718 jobsFuture=821 startingSalary=17000 %} 
-              
-{% include career-example-job.html number='3' title='Conservation Professional' paragraph='Conservation professionals are responsible for ensuring that landscapes, habitats and species are protected and enhanced via appropriate management and conservation. They promote public understanding and awareness of the natural environment and help to develop and implement appropriate policies to achieve these objectives.' jobsIn='the Southwest' jobsNow=1313 jobsFuture=1430 startingSalary=17000 %} 
-              
+{% include career-examples-head.html %}
+
+{% include career-example-job.html number='1' title='Biological Scientist or Biochemist' paragraph='Biological scientists and biochemists examine and investigate the morphology, structure, chemistry and physical characteristics of living organisms, including their inter-relationships, environments and diseases.' jobsIn='the Southwest' jobsNow=6848 jobsFuture=7451 startingSalary=21200 %}
+
+{% include career-example-job.html number='2' title='Conservation or Environmental Associate Professional' paragraph='Conservation and environmental associate professionals are responsible for the day-to-day running and management of areas of the countryside and the wider environment in a way that reconciles the interests of conservation, land owners and the public. They carry out practical conservation activities and assist in promoting awareness of the natural environment.' jobsIn='the Southwest' jobsNow=718 jobsFuture=821 startingSalary=17000 %}
+
+{% include career-example-job.html number='3' title='Conservation Professional' paragraph='Conservation professionals are responsible for ensuring that landscapes, habitats and species are protected and enhanced via appropriate management and conservation. They promote public understanding and awareness of the natural environment and help to develop and implement appropriate policies to achieve these objectives.' jobsIn='the Southwest' jobsNow=1313 jobsFuture=1430 startingSalary=17000 %}
+
 {% include career-example-job.html number='4' title='Fishing or Agriculture Operative' paragraph='Workers in this area perform a variety of tasks in relation to the breeding and rearing of animals and fish, catch fish at sea and from inland waterways, assist in the picking and lifting of crops, plant and maintain hedges, oversee the incubation and hatching of eggs and perform other fishing and elementary agricultural tasks.' jobsIn='the Southwest' jobsNow=2527 jobsFuture=2570 startingSalary=13000 %}
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar-first.html %}   
-         <section class="col-sm-12 margin-top clearfix">
-            <div class="container">       
-            {% youtube https://youtu.be/ZsZn8hwCjs0 %}
-             </div>
-        </section> 
-        <!-- skills -->
 
-        {% include career-stats.html percent1=100 end1='of our marine biology students say that teaching on their course was good.' percent2=88.8 start2='Our science courses have an' end2='success rate' %}
+{% include career-examples-foot.html %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
+{% include career-apply-bar-first.html %}
 
-                </article>
-            </section>
-        </section>
+<section class="col-sm-12 margin-top clearfix"><div class="container">{% youtube https://youtu.be/ZsZn8hwCjs0 %}</div></section>
 
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Lauren Pestana</h4>
+{% include career-stats.html percent1=100 end1='of our marine biology students say that teaching on their course was good.' percent2=88.8 start2='Our science courses have an' end2='success rate' %}
 
-              <footer>
-                <p>Lauren is a budding marine biologist with a passion for one of the most feared animals in the world: the great white shark. She recently secured the opportunity of a lifetime, study the much maligned creatures alongside teams from National Geographic and the Discovery Channel. </p>
+{% include career-alumni.html name="Lauren Pestana" text="Lauren is a budding marine biologist with a passion for one of the most feared animals in the world: the great white shark. She recently secured the opportunity of a lifetime, study the much maligned creatures alongside teams from National Geographic and the Discovery Channel." photo="alumni/marine-natural-science-conservation-lauren-pestana.jpg" %}
 
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/marine-natural-science-conservation-lauren-pestana.jpg" class="img-responsive" alt="Lauren Pestana">
-              </figure>
-            </article>
-
-        </section>
-
-        <!-- call to action section -->
-        {% include career-apply-bar-second.html %}    
+{% include career-apply-bar-second.html %}    

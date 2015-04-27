@@ -5,47 +5,24 @@ description: Find out more about starting a career in Food Production at The Cor
 career: food-production
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html %}
+{% include career-header.html %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currenlty in the food and grocery sector, so there's plenty of choice!</p>
-            {% youtube https://youtu.be/Yr9C_3eKj2M %}
-        </section>
+{% include career-intro.html p1="The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currenlty in the food and grocery sector, so there's plenty of choice!" %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/Yr9C_3eKj2M %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='Butcher' paragraph='Butchers direct and undertake the slaughter of animals and prepare carcasses for storage, processing and sale.' jobsIn='Cornwall' jobsNow=356 jobsFuture=300 startingSalary=12500 %} 
-                
-{% include career-example-job.html number='2' title='Process Plant Operative' paragraph='Workers in this area assist the work of machine operatives and perform a variety of manual tasks in foundries, engineering and allied trades and in other process and plant operations.' jobsIn='Cornwall' jobsNow=886 jobsFuture=902 startingSalary=12000 %} 
-                
-{% include career-example-job.html number='3' title='Food, Drink or Tobacco Process Operative' paragraph='Food, drink and tobacco process operatives set, operate and attend machinery to bake, freeze, heat, crush, mix, blend and otherwise process foodstuffs, beverages and tobacco leaves.' jobsIn='the Southwest' jobsNow=9585 jobsFuture=7800 startingSalary=12000 %} 
-                
-{% include career-example-job.html number='4' title='Packer, Bottler, Canner or Filler' paragraph='Workers in this area pack, wrap, fill, label and seal containers by hand or machine.' jobsIn='the Southwest' jobsNow=14788 jobsFuture=15052 startingSalary=12000 %} 
-                
-{% include career-example-job.html number='5' title='Planning, Process or Production Technician' paragraph='Jobs in this group perform a variety of technical support functions to assist production, process and planning engineers with production programmes and schedules and with manufacturing and processing procedures in order to ensure accuracy, cost-effectiveness and efficiency.' jobsIn='the Southwest' jobsNow=2100 jobsFuture=2190 startingSalary=12000 %} 
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                
-                  
-            </section>
-        </section>
- 
-        <!-- call to action section -->
-        {% include career-apply-bar-second.html %}    
+{% include career-examples-head.html %}
+
+{% include career-example-job.html number='1' title='Butcher' paragraph='Butchers direct and undertake the slaughter of animals and prepare carcasses for storage, processing and sale.' jobsIn='Cornwall' jobsNow=356 jobsFuture=300 startingSalary=12500 %}
+
+{% include career-example-job.html number='2' title='Process Plant Operative' paragraph='Workers in this area assist the work of machine operatives and perform a variety of manual tasks in foundries, engineering and allied trades and in other process and plant operations.' jobsIn='Cornwall' jobsNow=886 jobsFuture=902 startingSalary=12000 %}
+
+{% include career-example-job.html number='3' title='Food, Drink or Tobacco Process Operative' paragraph='Food, drink and tobacco process operatives set, operate and attend machinery to bake, freeze, heat, crush, mix, blend and otherwise process foodstuffs, beverages and tobacco leaves.' jobsIn='the Southwest' jobsNow=9585 jobsFuture=7800 startingSalary=12000 %}
+
+{% include career-example-job.html number='4' title='Packer, Bottler, Canner or Filler' paragraph='Workers in this area pack, wrap, fill, label and seal containers by hand or machine.' jobsIn='the Southwest' jobsNow=14788 jobsFuture=15052 startingSalary=12000 %}
+
+{% include career-example-job.html number='5' title='Planning, Process or Production Technician' paragraph='Jobs in this group perform a variety of technical support functions to assist production, process and planning engineers with production programmes and schedules and with manufacturing and processing procedures in order to ensure accuracy, cost-effectiveness and efficiency.' jobsIn='the Southwest' jobsNow=2100 jobsFuture=2190 startingSalary=12000 %}
+
+{% include career-examples-foot.html %}
+
+{% include career-apply-bar-second.html %}    

@@ -5,81 +5,32 @@ description: Find out more about starting a career in the Digital Technologies s
 career: digital-technologies
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html %}
+{% include career-header.html %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">Computers, information networks and communication channels are rapidly changing and evolving in the modern world. This is a growth industry, as more of the planet goes on-line we rely on technology more and more to improve the quality of our lives.</p>
-            <p class="lead">For anyone interested in digital technology, this is a great time to start a career in this sector.</p>
-            {% youtube https://youtu.be/kq3V5sKSl3k %}
-        </section>
+{% include career-intro.html p1="Computers, information networks and communication channels are rapidly changing and evolving in the modern world. This is a growth industry, as more of the planet goes on-line we rely on technology more and more to improve the quality of our lives." p2="For anyone interested in digital technology, this is a great time to start a career in this sector." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/kq3V5sKSl3k %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='IT Engineer' paragraph='IT engineers install, maintain and repair the physical components of computer systems and equipment and the networks they operate across.' jobsIn='the Southwest' jobsNow=3474 jobsFuture=3101 startingSalary=18000 %}                 
+{% include career-examples-head.html %}
 
-{% include career-example-job.html number='2' title='IT Operations Technician' paragraph='IT operations technicians are responsible for the day-to-day running of networks including the preparation of back-up systems, and for performing regular checks to ensure smooth running.' jobsIn='the Southwest' jobsNow=8886 jobsFuture=9272 startingSalary=18000 %}                 
-                
-{% include career-example-job.html number='3' title='IT Project or Programme Manager' paragraph='IT project managers manage, co-ordinate and technically supervise specific IT projects and programmes of a discrete duration and/or budget.' jobsIn='the Southwest' jobsNow=5643 jobsFuture=6142 startingSalary=25000 %}                 
-{% include career-example-job.html number='4' title='Programmer or Software Development Professional' paragraph='Design, develop, test, implement and maintain software systems for a business or even design and develop specialist software e.g. for computer games.' jobsIn='the Southwest' jobsNow=22303 jobsFuture=24273 startingSalary=22000 %}                               
-                
-{% include career-example-job.html number='5' title='Telecommunications Engineer' paragraph='Telecommunications engineers install, maintain and repair public and private telephone systems and maintain, test and repair telecommunications cables.' jobsIn='the Southwest' jobsNow=6107 jobsFuture=5448 startingSalary=18000 %}                               
-                                
-{% include career-example-job.html number='6' title='Web Design & Development Professional' paragraph='Design, develop and maintain websites to meet a client’s specified requirements. This creative and technical career is in a fast-paced industry, that allows you to work anywhere in the world.' jobsIn='the Southwest' jobsNow=5804 jobsFuture=6317 startingSalary=18000 %}                               
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                                           
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar-first.html %}
+{% include career-example-job.html number='1' title='IT Engineer' paragraph='IT engineers install, maintain and repair the physical components of computer systems and equipment and the networks they operate across.' jobsIn='the Southwest' jobsNow=3474 jobsFuture=3101 startingSalary=18000 %}
+
+{% include career-example-job.html number='2' title='IT Operations Technician' paragraph='IT operations technicians are responsible for the day-to-day running of networks including the preparation of back-up systems, and for performing regular checks to ensure smooth running.' jobsIn='the Southwest' jobsNow=8886 jobsFuture=9272 startingSalary=18000 %}
+
+{% include career-example-job.html number='3' title='IT Project or Programme Manager' paragraph='IT project managers manage, co-ordinate and technically supervise specific IT projects and programmes of a discrete duration and/or budget.' jobsIn='the Southwest' jobsNow=5643 jobsFuture=6142 startingSalary=25000 %}
+{% include career-example-job.html number='4' title='Programmer or Software Development Professional' paragraph='Design, develop, test, implement and maintain software systems for a business or even design and develop specialist software e.g. for computer games.' jobsIn='the Southwest' jobsNow=22303 jobsFuture=24273 startingSalary=22000 %}
+
+{% include career-example-job.html number='5' title='Telecommunications Engineer' paragraph='Telecommunications engineers install, maintain and repair public and private telephone systems and maintain, test and repair telecommunications cables.' jobsIn='the Southwest' jobsNow=6107 jobsFuture=5448 startingSalary=18000 %}
+
+{% include career-example-job.html number='6' title='Web Design & Development Professional' paragraph='Design, develop and maintain websites to meet a client’s specified requirements. This creative and technical career is in a fast-paced industry, that allows you to work anywhere in the world.' jobsIn='the Southwest' jobsNow=5804 jobsFuture=6317 startingSalary=18000 %}
+
+{% include career-examples-foot.html %}
+
+{% include career-apply-bar-first.html %}
 
 {% include career-stats.html percent1=97 end1='of our ICT students say that lecturers know their subject well.' begin2='Our ICT for users courses have an' percent2=96.5 end2='success rate (<span>7.7%</span> higher than the national average).' %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
 
-                </article>
-            </section>
-        </section>
+{% include career-alumni.html name="Mark Rowland" text="After leaving Cornwall College Mark started working as an IT engineer, something he is incredibly passionate about. Mark is now the director of Plymouth-based IT company Cutec Ltd." photo="alumni/digital-technologies-mark-rowland.jpg" %}
 
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Mark Rowland</h4>
-
-              <footer>
-                <p>After leaving Cornwall College Mark started working as an IT engineer, something he is incredibly passionate about. Mark is now the director of Plymouth-based IT company Cutec Ltd.</p>
-
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/digital-technologies-mark-rowland.jpg" class="img-responsive" alt="Mark Rowland">
-              </figure>
-            </article>
-
-        </section>
-
-        <!-- call to action section -->
-        {% include career-apply-bar-second.html %} 
+{% include career-apply-bar-second.html %} 

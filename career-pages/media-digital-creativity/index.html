@@ -5,82 +5,34 @@ description: Find out more about starting an career in the media digital and cre
 career: media-digital-creativity
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html %}
+{% include career-header.html %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">Make films, create magazines, explore journalism and design brands. These and many more pathways are available for anyone with a creative soul and passion for new ideas. You'll need drive to succeed in this highly competitive industry but the skills you learn from us will help you in a wide range of careers.</p>
-        {% youtube https://youtu.be/rOjVeWHKHxE %}
-        </section>
+{% include career-intro.html p1="Make films, create magazines, explore journalism and design brands. These and many more pathways are available for anyone with a creative soul and passion for new ideas. You'll need drive to succeed in this highly competitive industry but the skills you learn from us will help you in a wide range of careers." %}
 
+<section class="container">{% youtube https://youtu.be/rOjVeWHKHxE %}</section>
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+{% include career-examples-head.html %}
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
 {% include career-example-job.html number='1' title='Author, Writer or Translator' paragraph='Workers in this area write, edit and evaluate literary material for publication excluding material for newspapers, magazines and other periodicals but including scripts and narrative for film, TV, radio and computer games and animations; and translate spoken and written statements into different languages.' jobsIn='Cornwall' jobsNow=725 jobsFuture=851 altStartingSalary='variable' %}
-                                
-{% include career-example-job.html number='2' title='Graphic Designer' paragraph='Graphic designers use illustrative, sound, visual and multimedia techniques to convey a message for information, entertainment, advertising, promotion or publicity purposes, and create special visual effects and animations for computer games, film, interactive and other media.' jobsIn='the Southwest' jobsNow=6242 jobsFuture=7329 startingSalary=14000 %}
-                
-{% include career-example-job.html number='3' title='Newspaper & Periodical Editor or Journalist' paragraph='Workers in this area investigate and write up stories and features for broadcasting and for newspapers, magazines and other periodicals, evaluate and manage their style and content and oversee the editorial direction of these types of output and publication.' jobsIn='the Southwest' jobsNow=5513 jobsFuture=6307 startingSalary=15000 %}
-                                
-{% include career-example-job.html number='4' title='Audio-visual & Broadcasting Equipment Operator or Photographer' paragraph='Workers in this area operate and assist with still, cine and television cameras and operate other equipment to record, manipulate and project sound and vision for entertainment, cultural, commercial and industrial purposes.' jobsIn='the Southwest' jobsNow=5937 jobsFuture=6974 startingSalary=12000 %}
-                
-{% include career-example-job.html number='5' title='Printing Machine Assistant' paragraph='Printing machine assistants set and operate letterpress, platen or cylinder, lithographic and photogravure printing machines, photocopiers, office printers, duplication machines and other reprographic equipment.' jobsIn='the Southwest' jobsNow=1067 jobsFuture=867 startingSalary=18000 %}               
 
-{% include career-example-job.html number='6' title='TV, Video or Audio Engineer' paragraph='TV, video and audio engineers service and repair domestic television, video and audio appliances.' jobsIn='the Southwest' jobsNow=836 jobsFuture=746 startingSalary=18000 %}               
-                 <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                              
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar-first.html %}
+{% include career-example-job.html number='2' title='Graphic Designer' paragraph='Graphic designers use illustrative, sound, visual and multimedia techniques to convey a message for information, entertainment, advertising, promotion or publicity purposes, and create special visual effects and animations for computer games, film, interactive and other media.' jobsIn='the Southwest' jobsNow=6242 jobsFuture=7329 startingSalary=14000 %}
+
+{% include career-example-job.html number='3' title='Newspaper & Periodical Editor or Journalist' paragraph='Workers in this area investigate and write up stories and features for broadcasting and for newspapers, magazines and other periodicals, evaluate and manage their style and content and oversee the editorial direction of these types of output and publication.' jobsIn='the Southwest' jobsNow=5513 jobsFuture=6307 startingSalary=15000 %}
+
+{% include career-example-job.html number='4' title='Audio-visual & Broadcasting Equipment Operator or Photographer' paragraph='Workers in this area operate and assist with still, cine and television cameras and operate other equipment to record, manipulate and project sound and vision for entertainment, cultural, commercial and industrial purposes.' jobsIn='the Southwest' jobsNow=5937 jobsFuture=6974 startingSalary=12000 %}
+
+{% include career-example-job.html number='5' title='Printing Machine Assistant' paragraph='Printing machine assistants set and operate letterpress, platen or cylinder, lithographic and photogravure printing machines, photocopiers, office printers, duplication machines and other reprographic equipment.' jobsIn='the Southwest' jobsNow=1067 jobsFuture=867 startingSalary=18000 %}
+
+{% include career-example-job.html number='6' title='TV, Video or Audio Engineer' paragraph='TV, video and audio engineers service and repair domestic television, video and audio appliances.' jobsIn='the Southwest' jobsNow=836 jobsFuture=746 startingSalary=18000 %}
+
+{% include career-examples-foot.html %}
 
 {% include career-stats.html percent1=100 end1='of our BTEC Extended Diploma in Creative Media students say that teaching on their course is good.' %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
+{% include career-apply-bar.html career='media-digital-creativity' order='first' %}
 
-                </article>
-            </section>
-        </section>
+{% include career-alumni.html name="Jamie Coupland" text="Hollywood is calling for Jamie: the talented producer and cameraman has already worked on numerous music videos for band Funeral for a Friend as well as filming concerts and an IMAX movie." photo="alumni/media-jamie-coupland.jpg" %}
 
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Jamie Coupland</h4>
-
-              <footer>
-                <p>Hollywood is calling for Jamie: the talented producer and cameraman has already worked on numerous music videos for band Funeral for a Friend as well as filming concerts and an IMAX movie.</p>
-
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/media-jamie-coupland.jpg" class="img-responsive" alt="Jamie Coupland">
-              </figure>
-            </article>
-
-        </section>
         <section class="col-md-12 main-section-margins intro">
             <section class="container">
                 <article class="col-sm-12 text-center">
@@ -99,11 +51,9 @@ career: media-digital-creativity
               <p><strong>30</strong> awards in <strong>10</strong> years - 3 from the Royal Television Society</p>
               <footer>Awards</footer>
             </blockquote>
-        </figure>                  
+        </figure>
             </article>
-           
-        </section>
-   
 
-        <!-- call to action section -->
-        {% include career-apply-bar-second.html %} 
+        </section>
+
+{% include career-apply-bar-second.html %} 

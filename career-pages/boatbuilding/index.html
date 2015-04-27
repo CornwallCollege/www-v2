@@ -5,62 +5,20 @@ description: Find out more about starting a Career in Boatbuilding at The Cornwa
 career: boatbuilding
 ---
 
-        {% include career-header.html %} 
+{% include career-header.html %} 
 
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch.</p>
-            <p class="lead">You'll need good practical skills, the ability to work in a team and an interest in learning traditional boatbuilding skills as well as modern engineering methods.</p>
-        {% youtube https://youtu.be/4wl08vd9Zxg %}
-        </section>
+{% include career-intro.html p1="If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch." p2="You'll need good practical skills, the ability to work in a team and an interest in learning traditional boatbuilding skills as well as modern engineering methods." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/4wl08vd9Zxg %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                {% include career-example-job.html number='1' title='Boat &amp; Ship Builder or Repairer' paragraph='Boat and ship builders and repairers construct, install and repair wooden structures and fittings, and shape, position, rivet and seal metal plates and girders to form the metal structures and frameworks for marine craft.' jobsIn='the Southwest' jobsNow=1169 jobsFuture=1043 startingSalary=15000 %} 
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                
-            </section>
-        </section>
-       
+{% include career-examples-head.html %}
+
+{% include career-example-job.html number='1' title='Boat &amp; Ship Builder or Repairer' paragraph='Boat and ship builders and repairers construct, install and repair wooden structures and fittings, and shape, position, rivet and seal metal plates and girders to form the metal structures and frameworks for marine craft.' jobsIn='the Southwest' jobsNow=1169 jobsFuture=1043 startingSalary=15000 %}
+
+{% include career-examples-foot.html %}
+
 {% include career-stats.html percent1=100 end1='of our boatbuilding students say that teaching on their course is good.' %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>ALUMNI</strong></h2>
-                </article>
-            </section>
-        </section>
+{% include career-alumni.html name="National Maritime Museum Cornwall" text="Students from Falmouth Marine School have been involved in creating a high profile exhibition at the National Maritime Museum Cornwall. The Viking faering they built is the centrepiece of a touch and feel exhibition in the award-winning museum." photo="alumni/maritime-museum-logo.jpg" %}
 
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                <h4 class="text-uppercase">National Maritime Museum Cornwall</h4>
-              <footer>
-                <p>Students from Falmouth Marine School have been involved in creating a high profile exhibition at the National Maritime Museum Cornwall. The Viking faering they built is the centrepiece of a touch and feel exhibition in the award-winning museum.</p>
-              </footer>
-              </section>
-             <!-- PICTURE -->
-               <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/maritime-museum-logo.jpg" class="img-responsive" alt="maritime museum Cornwall">
-              </figure>                
-            </article>
-        </section>
-
-        {% include career-apply-bar-second.html %}
+{% include career-apply-bar-second.html %}

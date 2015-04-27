@@ -5,74 +5,24 @@ description: Love working with horses? Find out more about starting an Equine ca
 career: equine
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html %}
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">Equine sector jobs allow you to follow a career working with something you are passionate about: horses. Whether that's the welfare, husbandry and supervision of horses in a stable or livery, training thoroughbred racehorses or coaching and breeding. You could be a jockey, showjumper or support technician, there is a wide range of careers to choose from.</p>
-            {% youtube https://youtu.be/DKWdE7pkQiY %}
-        </section>
+{% include career-header.html %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+{% include career-intro.html p1="Equine sector jobs allow you to follow a career working with something you are passionate about: horses. Whether that's the welfare, husbandry and supervision of horses in a stable or livery, training thoroughbred racehorses or coaching and breeding. You could be a jockey, showjumper or support technician, there is a wide range of careers to choose from." %}
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='Horse Riding Instructor' paragraph='' jobsIn='' startingSalary=12000 %} 
-                
-{% include career-example-job.html number='2' title='Horse Groom' paragraph='' jobsIn='' startingSalary=10000 %} 
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                
-                        
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar-first.html %}
+<section class="container">{% youtube https://youtu.be/DKWdE7pkQiY %}</section>
+
+{% include career-examples-head.html %}
+
+{% include career-example-job.html number='1' title='Horse Riding Instructor' paragraph='' jobsIn='' startingSalary=12000 %}
+
+{% include career-example-job.html number='2' title='Horse Groom' paragraph='' jobsIn='' startingSalary=10000 %}
+
+{% include career-examples-foot.html %}
+
+{% include career-apply-bar-first.html %}
 
 {% include career-stats.html percent1=100 end1='of our equine students say that teaching on their course was good.' %}
 
-        <!-- TEAM intro -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2>MEET OUR <strong>STAFF</strong></h2>
+{% include career-staff.html name="Dr Hayley Randle" text="Duchy College lecturer, Dr Hayley Randle is the Honorary President of the International Society for Equitation Science. The organisation was set up to promote and encourage the application of research and advanced practice which will ultimately improve the welfare of horses around the world." photo="alumni/equine-dr-randel.jpg" %}
 
-                </article>
-            </section>
-        </section>
-
-        <!-- Alumni -->
-        <section class="col-md-12 main-section-margins ">
-            <article class="container white-bg">
-              <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-                  <h4 class="text-uppercase">Dr Hayley Randle</h4>
-
-              <footer>
-                <p>Duchy College lecturer, Dr Hayley Randle is the Honorary President of the International Society for Equitation Science. The organisation was set up to promote and encourage the application of research and advanced practice which will ultimately improve the welfare of horses around the world.
-</p>
-
-              </footer>
-              </section>
-              <!-- TEAM FOUNDER PICTURE -->
-              <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                <img src="/images/alumni/equine-dr-randel.jpg" class="img-responsive" alt="Dr Hayley Randle">
-              </figure>
-            </article>
-
-        </section>
-
-        <!-- call to action section -->
-        {% include career-apply-bar-second.html %}      
+{% include career-apply-bar-second.html %}      

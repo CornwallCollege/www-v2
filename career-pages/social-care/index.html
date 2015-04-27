@@ -5,53 +5,30 @@ description: Find out more about starting a career in Social Care with help from
 career: social-care
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html %}
+{% include career-header.html %}
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">Having an interest in other people's stories, their lives and wellbeing is a gift that can change the world for those who most need it. Caring for others, working with them to improve their lives and their environment makes for a rewarding career in a sector that is rapidly growing locally and nationally.</p>
-        {% youtube https://youtu.be/HfMnBFMwDxg %}    
-        </section>
+{% include career-intro.html p1="Having an interest in other people's stories, their lives and wellbeing is a gift that can change the world for those who most need it. Caring for others, working with them to improve their lives and their environment makes for a rewarding career in a sector that is rapidly growing locally and nationally." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/HfMnBFMwDxg %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
+{% include career-examples-head.html %}
+
 {% include career-example-job.html number='1' title='Care Worker or Home Carer' paragraph='Care workers and home carers attend to the personal needs and comforts of the elderly and the infirm (service users) with care and support needs. This may happen in a residential or day care establishments or in their own homes.' jobsIn='Cornwall' jobsNow=6765 jobsFuture=7444 startingSalary=12500 %}
 
 {% include career-example-job.html number='2' title='Housing Officer' paragraph='Housing officers assess and address housing needs of particular localities and individuals and oversee the day-to-day management of rented properties belonging to local authorities or housing associations.' jobsIn='the Southwest' jobsNow=3041 jobsFuture=3428 startingSalary=21000 %}
-                              
+
 {% include career-example-job.html number='3' title='Residential, Day or Domiciliary Care Manager' paragraph='Managers and proprietors in this sector plan, organise, direct and co-ordinate the resources necessary in the provision and running of residential and day care establishments and domiciliary care services for persons who require specialised care and/or supervision.' jobsIn='Cornwall' jobsNow=586 jobsFuture=652 startingSalary=20000 %}
 
 {% include career-example-job.html number='4' title='Social Services Manager or Director' paragraph='Social services managers and directors plan, organise, direct and co-ordinate the resources necessary to protect the welfare of certain groups within local authorities including children and young people, families under stress, people with disabilities, elderly people and people needing help as a result of illness.' jobsIn='Cornwall' jobsNow=437 jobsFuture=496 startingSalary=21000 %}
-                
+
 {% include career-example-job.html number='5' title='Social Worker' paragraph='Social workers provide information, advice and support to those who are socially excluded or are experiencing crisis; they protect the welfare of vulnerable groups including children, young people, people with disabilities, elderly people and people who are mentally or physically ill, and they may specialise in specific areas of work.' jobsIn='Cornwall' jobsNow=795 jobsFuture=910 startingSalary=19500 %}
 
 {% include career-example-job.html number='6' title='Welfare Professional' paragraph='Workers in this sector perform a variety of welfare-related professional occupations.' jobsIn='the Southwest' jobsNow=2247 jobsFuture=2572 startingSalary=21000 %}
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>                
-                                        
-            </section>
-        </section>
-        <!-- call to action section -->
-        {% include career-apply-bar-first.html %}
+
+{% include career-examples-foot.html %}
+
+{% include career-apply-bar-first.html %}
 
 {% include career-stats.html percent1=100 end1='of our BTEC Extended Diploma in Health & Social Care students are happy with their course and with the college.' %}
 
-        <!-- call to action section -->
-        {% include career-apply-bar-second.html %} 
+{% include career-apply-bar-second.html %} 

@@ -5,47 +5,22 @@ description: Find out more about starting a career in Applied and Forensic Scien
 career: applied-forensic-science
 ---
 
-        <!-- HEADER SECTION -->
-        {% include career-header.html title='Applied &amp; Forensic Science' %}            
+{% include career-header.html %}            
 
-        <!-- END OF HEADER -->
-        <!-- BODY SECTION -->
-        <section class="container">
-            <p class="lead">For those who love science, have an enquiring mind and attention to detail a career in applied or forensics could be perfect. Whether working as a forensic scientist helping to solve crimes, in an industrial laboratory or in research and development there is a broad range of careers available to you.</p>
-            {% youtube https://youtu.be/OQTmjVePtqw %}
-        </section>
+{% include career-intro.html p1="For those who love science, have an enquiring mind and attention to detail a career in applied or forensics could be perfect. Whether working as a forensic scientist helping to solve crimes, in an industrial laboratory or in research and development there is a broad range of careers available to you." %}
 
-        <!-- example careers in this area -->
-        <section class="col-md-12 main-section-margins intro">
-            <section class="container">
-                <article class="col-sm-12 text-center">
-                    <h2><strong>CAREERS</strong></h2>
+<section class="container">{% youtube https://youtu.be/OQTmjVePtqw %}</section>
 
-                </article>
-            </section>
-        </section>
-        <section class="col-md-12 main-section-margins clearfix career-areas">
-            <section class="container box-square box-square-alt">
-                
-{% include career-example-job.html number='1' title='Chemical or Related Process Operative' paragraph='Workers in this area operate plant and machinery in the processing of chemical and related materials by chemical, heat or other treatment, manufacture synthetic materials and bleach, dye or otherwise treat textiles, and treat hides, skins and pelts for making into fur, leather and skin products.' jobsIn='the Southwest' jobsNow=3515 jobsFuture=2862 startingSalary=15000 %} 
-                
-{% include career-example-job.html number='2' title='Laboratory Technician' paragraph='Laboratory technicians carry out routine laboratory tests and checks, and perform a variety of technical support functions requiring the application of established or prescribed procedures and techniques to assist scientists with their research, development, analysis and testing, and to verify the physical, chemical and other characteristics of materials and products.' jobsIn='the Southwest' jobsNow=5877 jobsFuture=6133 startingSalary=13500 %} 
-                                
-{% include career-example-job.html number='3' title='Chemical Scientist' paragraph='Chemical scientists analyse and research physical aspects of chemical structure and change within substances and develop chemical techniques used in the manufacture or modification of natural substances and processed products.' jobsIn='the Southwest' jobsNow=2494 jobsFuture=2715 startingSalary=20000 %} 
-                <!-- And many more section -->
-                <section class="col-sm-12 margin-top header-icon"> 
-                    <header>	              
-                      <i class="fa fa-plus fa-4x fa-border transition" style="color:#52B3D9;"></i>
-                      <h4 style="color:black;">MANY MORE!</h4>
-                    </header>
-                </section>
-            </section>
-        </section>
+{% include career-examples-head.html %}
 
-        <!-- skills -->
+{% include career-example-job.html number='1' title='Chemical or Related Process Operative' paragraph='Workers in this area operate plant and machinery in the processing of chemical and related materials by chemical, heat or other treatment, manufacture synthetic materials and bleach, dye or otherwise treat textiles, and treat hides, skins and pelts for making into fur, leather and skin products.' jobsIn='the Southwest' jobsNow=3515 jobsFuture=2862 startingSalary=15000 %}
+
+{% include career-example-job.html number='2' title='Laboratory Technician' paragraph='Laboratory technicians carry out routine laboratory tests and checks, and perform a variety of technical support functions requiring the application of established or prescribed procedures and techniques to assist scientists with their research, development, analysis and testing, and to verify the physical, chemical and other characteristics of materials and products.' jobsIn='the Southwest' jobsNow=5877 jobsFuture=6133 startingSalary=13500 %}
+
+{% include career-example-job.html number='3' title='Chemical Scientist' paragraph='Chemical scientists analyse and research physical aspects of chemical structure and change within substances and develop chemical techniques used in the manufacture or modification of natural substances and processed products.' jobsIn='the Southwest' jobsNow=2494 jobsFuture=2715 startingSalary=20000 %}
+
+{% include career-examples-foot.html %}
+
 {% include career-stats.html percent1=95 end1='of our science mathematics students say they are given useful feedback which helps them to improve.' %}
 
-
-
-        <!-- call to action section -->     
-        {% include career-apply-bar.html %}    
+{% include career-apply-bar.html %}    
