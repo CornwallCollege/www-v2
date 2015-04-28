@@ -28,6 +28,11 @@ prose:
           element: "text"
           label: "Event Date"
           value: ""
+      - name: "time"
+        field:
+          element: "text"
+          label: "Event Time"
+          value: ""
       - name: "campus"
         field:
           element: "select"
@@ -53,7 +58,7 @@ prose:
       - name: "description"
         field:
           element: "text"
-          label: "Description"
+          label: "Summary"
           value: ""
       - name: "image-filename"
         field:
