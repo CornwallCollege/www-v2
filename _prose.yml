@@ -4,7 +4,7 @@ prose:
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
-    _posts:
+    Content:
       - name: "category"
         field:
           element: "hidden"
