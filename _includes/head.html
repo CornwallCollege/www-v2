@@ -29,7 +29,7 @@
                     var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
                     xmlhttp.open('POST', '/include/email-errors.php', true);
                     xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                    xmlhttp.send("error=" + JSON.stringify({ error: '\nERROR='+error+'\nLINE='+line+'\nURL='+url+'\nUSERAGENT='+navigator.userAgent }));
+                    xmlhttp.send("error=" + JSON.stringify({ error: '  ERROR='+error+'  LINE='+line+'  URL='+url+'  USERAGENT='+navigator.userAgent }));
                 } catch(e) {}
                 return false;
             };        
