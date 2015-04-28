@@ -10,4 +10,3 @@ description: "Our Information Events are your chance to find out why there, more
 "image-filename": Business.jpg
 ---
 
-![Business.jpg](/content-media/Business.jpg)
