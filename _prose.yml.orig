@@ -1,7 +1,13 @@
 prose:
   rooturl: 'Content'
-  siteurl: 'https://m.cornwall.ac.uk'
+<<<<<<< HEAD
+  siteurl: 'https://github.com/CornwallCollege/www-v2'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'content-media'
+=======
+  siteurl: 'https://m.cornwall.ac.uk'
+  media: 'media'
+>>>>>>> e34d0b73ee978113eee4cbf47cea6a3574b16543
   metadata:
     Content/Events:
       - name: "category"
