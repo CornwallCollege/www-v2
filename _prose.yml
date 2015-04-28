@@ -52,7 +52,7 @@ prose:
               value: "BC"
       - name: "summary"
         field:
-          element: "textarea"
+          element: "text"
           label: "Summary"
           value: ""
       - name: "image-filename"
