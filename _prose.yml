@@ -50,10 +50,10 @@ prose:
               value: "FMS"
             - name: "Bicton College"
               value: "BC"
-      - name: "summary"
+      - name: "description"
         field:
           element: "text"
-          label: "Summary"
+          label: "Description"
           value: ""
       - name: "image-filename"
         field:
