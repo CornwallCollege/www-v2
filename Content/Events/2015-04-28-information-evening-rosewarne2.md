@@ -1,7 +1,7 @@
 ---
 layout: event
 published: false
-title: "Information Evening - Rosewarne2"
+title: "Information Evening - Rosewarne"
 category: information
 campus: CCR
 date: 15 May 2015
