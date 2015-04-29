@@ -25,7 +25,7 @@ $(document).ready(function () {
             return events;
         };
         cc.events.relevant = function (events, categories) {
-            events = events.filter(function(e) {                
+            events = events.filter(function (e) {
                 return categories.indexOf(e.Category) > 0;
             });
             return events;
@@ -70,12 +70,16 @@ $(document).ready(function () {
                         Grid.addItems(items);
                     });
                 };
-                navigator.geolocation.getCurrentPosition(function (p) {
-                    events = cc.events.nearest(events, p.coords);
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function (p) {
+                        events = cc.events.nearest(events, p.coords);
+                        placeEvents(events);
+                    }, function () {
+                        placeEvents(events);
+                    });
+                } else {
                     placeEvents(events);
-                }, function () {
-                    placeEvents(events);
-                });
+                }
             });
         };
         cc.events.load('../data/CollegeEvents.json', 'og-grid', 3);
