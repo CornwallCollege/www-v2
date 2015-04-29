@@ -15,7 +15,6 @@
   *
  **/
 
-// testing redeployment works
 // develop branch
  
 // Set Variables
