@@ -1,9 +1,9 @@
 prose:
-  rooturl: 'Content'
+  rooturl: '_posts/Content'
   siteurl: 'https://m.cornwall.ac.uk'
   media: 'content-media'
   metadata:
-    Content/Events:
+    _posts/Content/Events:
       - name: "layout"
         field:
           element: "hidden"
@@ -60,12 +60,12 @@ prose:
           element: "text"
           label: "Summary"
           value: ""
-      - name: "image-filename"
+      - name: "imagefilename"
         field:
           element: "text"
           label: "Image Filename"
           value: ""
-      - name: "main-link"
+      - name: "mainlink"
         field:
           element: "text"
           label: "Main site event link"
