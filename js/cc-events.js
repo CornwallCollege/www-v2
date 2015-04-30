@@ -69,7 +69,7 @@ $(document).ready(function () {
                 navigator.geolocation.getCurrentPosition(function (p) {
                     events = cc.events.nearest(events, p.coords);
                     cc.events.show(events, take);
-                });
+                }, cc.events.show(events, take));
             } else {
                 cc.events.show(events, take);
             }            
