@@ -436,8 +436,6 @@ Grid = (function () {
                 // scroll to position the preview in the right place
                 this.positionPreview();
             }, this), 25);
-            this.update();
-
         },
         close: function () {
 
