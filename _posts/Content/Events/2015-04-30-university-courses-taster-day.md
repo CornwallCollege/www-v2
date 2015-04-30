@@ -1,11 +1,10 @@
-﻿---
-layout: event
+---
 published: true
+category: Content/Events/taster
 title: "University courses taster day"
-category: taster
 campus: CCN
-date: 27 Jun 2015
+eventdate: 27 Jun 2015
 description: "Become a student for the day ..."
 mainlink: "university-courses-taster-day-2"
-imagefilename: _MG_2791_5.jpg
+imagefilename: MG27915.jpg
 ---

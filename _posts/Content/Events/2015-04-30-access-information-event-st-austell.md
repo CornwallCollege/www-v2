@@ -1,11 +1,10 @@
-﻿---
-layout: event
+---
 published: true
+category: Content/Events/information
 title: "Access Information Event - St Austell"
-category: information
 campus: CCSA
-date: 08 Jul 2015
+eventdate: 08 Jul 2015
 description: "If you would like to study for a degree but don't have the qualifications you need, then an..."
 mainlink: "access-information-event-st-austell"
-imagefilename: Cornwall%20College%20St%20Austell%20%284%29.jpg
+imagefilename: CornwallCollegeStAustell(4).jpg
 ---
