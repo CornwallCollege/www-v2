@@ -1,0 +1,22 @@
+<section class="col-md-12  color-bg events" style="background:#52B3D9;">        
+        <!-- list of events -->
+        <section id="portfolio-list" class="container color-bg" style="background:#52B3D9;">
+            <header class="col-sm-12 text-center">
+                <h2 class="text-uppercase">Our latest <strong style="color:white;">events</strong></h2>
+            </header>
+            <div class="main">
+                <ul id="og-grid" class="og-grid">
+                    {% assign posts = site.posts | sort:"date" %}
+                    {% for post in posts %}
+                        {% if post.category contains 'Content/Events' %}
+                            {% include event.html event=post %}
+                        {% endif %}
+                    {% endfor %}                 
+                </ul>
+            </div>
+            <footer class="col-sm-12 text-center">
+                <a href="https://www.cornwall.ac.uk/events/all" class="btn ghost light">VIEW ALL OUR EVENTS</a>
+            </footer>
+        </section>
+        <!-- end of events-list id -->
+    </section>

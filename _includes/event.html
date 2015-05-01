@@ -1,8 +1,8 @@
 <li class="college-event" style="display: none">
-	<a href='https://www.cornwall.ac.uk/events/{{include.event.mainlink}}' data-largesrc='/content-media/{{include.event.imagefilename}}' data-title='{{include.event.title}}' data-description='{{include.event.description}}' data-category='{{include.event.campus}}' data-date='{{include.event.eventdate}}'>
+	<a href='https://www.cornwall.ac.uk/events/{{include.event.mainlink}}' data-largesrc='/content-media/{{include.event.imagefilename}}' data-title='{{include.event.title | escape}}' data-description='{{include.event.description | escape}}' data-category='{{include.event.campus}}' data-date='{{include.event.date | date: "%d %b %Y" }}'>
     <div class='event-title-wrap caption'>
-    	<h4 class='event-title'>{{include.event.title}}</h4>
+    	<h4 class='event-title'>{{include.event.title | escape}}</h4>
     </div>
-    <img src='/content-media/{{include.event.imagefilename}}' alt='{{include.event.title}}' />
+    <img src='/content-media/{{include.event.imagefilename}}' alt='{{include.event.title | escape}}' />
     </a>
 </li>
