@@ -1,7 +1,7 @@
 ---
 eventdate: 27 Jun 2015
 published: true
-category: Content/Events/taster
+category: content/events/taster
 title: "University courses taster day"
 campus: CCN
 description: "Become a student for the day ..."

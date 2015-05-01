@@ -1,5 +1,4 @@
 ---
-layout: event
 eventdate: 08 Jul 2015
 published: true
 category: content/events/information

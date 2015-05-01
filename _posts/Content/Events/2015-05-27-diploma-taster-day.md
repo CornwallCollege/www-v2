@@ -1,7 +1,7 @@
 ---
 eventdate: 27 May 2015
 published: true
-category: Content/Events/taster
+category: content/events/taster
 title: "Diploma taster day"
 campus: CCN
 description: "If you would love to work with animals or would like to study outdoors, then our A-level..."
