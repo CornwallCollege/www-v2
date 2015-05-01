@@ -1,5 +1,5 @@
 ---
-date: 08 Jul 2015
+eventdate: 08 Jul 2015
 published: true
 category: Content/Events/information
 title: "Access Information Event - Camborne"
