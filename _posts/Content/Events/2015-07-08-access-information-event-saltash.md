@@ -1,5 +1,5 @@
 ---
-eventdate: 08 Jul 2015
+eventdate: 2015-07-08
 published: true
 category: content/events/information
 title: "Access Information Event - Saltash"

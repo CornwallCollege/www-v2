@@ -3,15 +3,7 @@
 "use strict";
 $(document).ready(function () {
     if ($("#og-grid").length) {
-        cc.events = {};
-        cc.events.sort = function(events) {
-            var parent = $(events[0]).parent();
-            events.sort(function(a,b) {
-                return Date.parse($(a).data('date')) > Date.parse($(b).data('date')); 
-            });            
-            $(events).detach().appendTo(parent);  
-            return events;
-        };              
+        cc.events = {};                
         cc.events.stillOn = function (events) {
             events.filter(function (e) {
                 return new Date(e.Date) >= new Date();
@@ -58,8 +50,7 @@ $(document).ready(function () {
             if (campus === 'BC') return 'Bicton College';
         };
         cc.events.load = function (at, take) {  
-            var events = $('.college-event');
-            events = cc.events.sort(events);            
+            var events = $('.college-event');                        
             events = Array.prototype.map.call(events, function(e) {
                var link = $($(e).children('a')[0]);
                var campus = link.data('category');
