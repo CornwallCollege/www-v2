@@ -1,5 +1,5 @@
 ---
-eventdate: 27 May 2015
+eventdate: 2015-05-27
 published: true
 category: content/events/taster
 title: "Diploma taster day"

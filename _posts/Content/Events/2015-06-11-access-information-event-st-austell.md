@@ -1,5 +1,5 @@
 ---
-eventdate: 11 Jun 2015
+eventdate: 2015-06-11
 published: true
 category: content/events/information
 title: "Access Information Event - St Austell"

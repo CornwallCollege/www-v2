@@ -1,5 +1,5 @@
 ---
-eventdate: 27 Jun 2015
+eventdate: 2015-06-27
 published: true
 category: content/events/taster
 title: "University courses taster day"

@@ -1,5 +1,5 @@
 ---
-eventdate: 14 May 2015
+eventdate: 2015-05-14
 published: true
 category: content/events/information
 title: "Information Evening - Rosewarne"

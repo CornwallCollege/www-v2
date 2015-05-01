@@ -1,5 +1,5 @@
 ---
-eventdate: 08 Jul 2015
+eventdate: 2015-07-08
 published: true
 category: content/events/information
 title: "Access Information Event - St Austell"
@@ -8,4 +8,3 @@ description: "If you would like to study for a degree but don't have the qualifi
 mainlink: "access-information-event-st-austell"
 imagefilename: CornwallCollegeStAustell(4).jpg
 ---
-

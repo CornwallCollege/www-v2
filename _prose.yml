@@ -24,6 +24,7 @@ prose:
           element: "text"
           label: "Event Date"
           value: ""
+          placeholder: "yyyy-mm-dd"
       - name: "time"
         field:
           element: "text"
