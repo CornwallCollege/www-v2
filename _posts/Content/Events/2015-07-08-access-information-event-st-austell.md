@@ -1,6 +1,6 @@
 ---
 layout: event
-date: 08 Jul 2016
+date: 08 Jul 2015
 published: true
 category: 
   - Content/Events/information
