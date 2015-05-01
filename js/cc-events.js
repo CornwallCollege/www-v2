@@ -4,12 +4,14 @@
 $(document).ready(function () {
     if ($("#og-grid").length) {
         cc.events = {};
-        cc.events.soonest = function (events) {
-            events.sort(function (a, b) {
-                return new Date(a.Date) - new Date(b.Date);
-            });
+        cc.events.sort = function(events) {
+            var parent = $(events[0]).parent();
+            events.sort(function(a,b) {
+                return Date.parse($(a).data('date')) > Date.parse($(b).data('date')); 
+            });            
+            $(events).detach().appendTo(parent);  
             return events;
-        };
+        };              
         cc.events.stillOn = function (events) {
             events.filter(function (e) {
                 return new Date(e.Date) >= new Date();
@@ -28,12 +30,12 @@ $(document).ready(function () {
         };
         cc.events.show = function (events, take) {
             events = events.slice(0, Math.min(take, events.length));
-            $(events).each(function(i,v) {                
-                $(v.e).css("display","inline-block");
-                var campus = $(v.e).find('a')[0].getAttribute('data-category');
-                campus = cc.events.getCampus(campus);
-                $(v.e).find('a')[0].setAttribute('data-category', campus);
-            });
+            $(events).each(function(i,v) {           
+                var link = $($(v.e).children('a')[0]);                     
+                var campus = cc.events.getCampus(link.data('category'));
+                link.data('category', campus);
+                $(v.e).css("display","inline-block");                
+            });            
         };
         cc.events.getGeoLoc = function (campus) {
             if (campus === 'CCC') return { Lat:50.2268425, Lng:-5.2758395 };
@@ -57,14 +59,15 @@ $(document).ready(function () {
         };
         cc.events.load = function (at, take) {  
             var events = $('.college-event');
+            events = cc.events.sort(events);            
             events = Array.prototype.map.call(events, function(e) {
-               var campus = $(e).find('a')[0].getAttribute('data-category');
+               var link = $($(e).children('a')[0]);
+               var campus = link.data('category');
                var geoLoc = cc.events.getGeoLoc(campus);
-               var date = $(e).find('a')[0].getAttribute('data-date');               
+               var date = link.data('date');               
                return { e:e, GeoLoc:geoLoc, Date:date };
-            });
-            events = cc.events.stillOn(events);
-            events = cc.events.soonest(events);            
+            });            
+            events = cc.events.stillOn(events);                        
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function (p) {
                     events = cc.events.nearest(events, p.coords);

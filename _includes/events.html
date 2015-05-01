@@ -5,9 +5,8 @@
                 <h2 class="text-uppercase">Our latest <strong style="color:white;">events</strong></h2>
             </header>
             <div class="main">
-                <ul id="og-grid" class="og-grid">
-                    {% assign posts = site.posts | sort:"date" %}
-                    {% for post in posts %}
+                <ul id="og-grid" class="og-grid">                    
+                    {% for post in site.posts %}
                         {% if post.category contains 'Content/Events' %}
                             {% include event.html event=post %}
                         {% endif %}

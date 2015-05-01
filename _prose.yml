@@ -23,7 +23,7 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "date"
+      - name: "eventdate"
         field:
           element: "text"
           label: "Event Date"
