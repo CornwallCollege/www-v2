@@ -1,3 +1,5 @@
+/* global Grid */
+/* global cc */
 "use strict";
 $(document).ready(function () {
     if ($("#og-grid").length) {
@@ -24,65 +26,57 @@ $(document).ready(function () {
             });
             return events;
         };
-        cc.events.relevant = function (events, categories) {
-            events = events.filter(function (e) {
-                return categories.indexOf(e.Category) > 0;
-            });
-            return events;
-        };
-        cc.events.formatDate = function (d) {
-            return $.datepicker.formatDate('dd.MM.yy', new Date(d));
-        };
-        cc.events.load = function (jsonFilepath, at, take) {
-            var t = "<li>";
-            t += "<a href='[url]' data-largesrc='[img]' data-title='[title]' data-description='[description]' data-category='[campus]' data-date='[date]'>";
-            t += " <div class='event-title-wrap caption'>";
-            t += "  <h4 class='event-title'>[title]</h4>";
-            t += " </div>";
-            t += " <img src='[img]' alt='[title]' />";
-            t += " </a>";
-            t += "</li>";
-            $.getJSON(jsonFilepath, function (events) {
-                events = cc.events.relevant(events, 'Information Events,Taster Days');
-                events = cc.events.stillOn(events);
-                events = cc.events.soonest(events);
-                var placeEvents = function (events) {
-                    events = events.slice(0, Math.min(take, events.length));
-                    $.each(events, function (i, e) {
-                        var h = '';
-                        for (var i = 0; i < events.length; i++) {
-                            var e = t;
-                            console.log(events[i].Image);
-                            e = e.replace('[url]', events[i].DetailUrl.replace('http:', 'https:'));
-                            e = e.replace('[img]', events[i].Image.replace('http:', 'https:'));
-                            e = e.replace('[img]', events[i].Image.replace('http:', 'https:'));
-                            e = e.replace('[title]', events[i].Title);
-                            e = e.replace('[title]', events[i].Title);
-                            e = e.replace('[title]', events[i].Title);
-                            e = e.replace('[campus]', events[i].Campus);
-                            e = e.replace('[date]', cc.events.formatDate(events[i].Date));
-                            e = e.replace('[description]', events[i].Description);
-                            h += e;
-                        };
-                        document.getElementById(at).innerHTML = h;
-                        var grid = $('#og-grid');
-                        var items = grid.children('li');
-                        Grid.addItems(items);
-                    });
-                };
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(function (p) {
-                        events = cc.events.nearest(events, p.coords);
-                        placeEvents(events);
-                    }, function () {
-                        placeEvents(events);
-                    });
-                } else {
-                    placeEvents(events);
-                }
+        cc.events.show = function (events, take) {
+            events = events.slice(0, Math.min(take, events.length));
+            $(events).each(function(i,v) {                
+                $(v.e).css("display","inline-block");
+                var campus = $(v.e).find('a')[0].getAttribute('data-category');
+                campus = cc.events.getCampus(campus);
+                $(v.e).find('a')[0].setAttribute('data-category', campus);
             });
         };
-        cc.events.load('../data/CollegeEvents.json', 'og-grid', 3);
+        cc.events.getGeoLoc = function (campus) {
+            if (campus === 'CCC') return { Lat:50.2268425, Lng:-5.2758395 };
+            if (campus === 'CCN') return { Lat:50.4105492, Lng:-5.0682225 };
+            if (campus === 'CCS') return { Lat:50.4055478, Lng:-4.2279294 };
+            if (campus === 'CCSA') return { Lat:50.3464922, Lng:-4.7850022 };
+            if (campus === 'CCR') return { Lat:50.223385, Lng:-5.3013473 };
+            if (campus === 'CCSC') return { Lat:50.5461939, Lng:-4.3212666 };
+            if (campus === 'FMS') return { Lat:50.1528966, Lng:-5.074243 };
+            if (campus === 'BC') return { Lat:50.670602, Lng:-3.316736 };
+        };
+        cc.events.getCampus = function (campus) {
+            if (campus === 'CCC') return 'Cornwall College Camborne';
+            if (campus === 'CCN') return 'Cornwall College Newquay';
+            if (campus === 'CCS') return 'Cornwall College Saltash';
+            if (campus === 'CCSA') return 'Cornwall College St Austell';
+            if (campus === 'CCR') return 'Duchy College Rosewarne';
+            if (campus === 'CCSC') return 'Duchy College Stoke Climsland';
+            if (campus === 'FMS') return 'Falmouth Marine School';
+            if (campus === 'BC') return 'Bicton College';
+        };
+        cc.events.load = function (at, take) {  
+            var events = $('.college-event');
+            events = Array.prototype.map.call(events, function(e) {
+               var campus = $(e).find('a')[0].getAttribute('data-category');
+               var geoLoc = cc.events.getGeoLoc(campus);
+               var date = $(e).find('a')[0].getAttribute('data-date');               
+               return { e:e, GeoLoc:geoLoc, Date:date };
+            });
+            events = cc.events.stillOn(events);
+            events = cc.events.soonest(events);            
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (p) {
+                    events = cc.events.nearest(events, p.coords);
+                    cc.events.show(events, take);
+                }, function () {
+                    cc.events.show(events, take);
+                });
+            } else {
+                cc.events.show(events, take);
+            }            
+        };
+        cc.events.load('og-grid', 3);                
         Grid.init();
     }
 });

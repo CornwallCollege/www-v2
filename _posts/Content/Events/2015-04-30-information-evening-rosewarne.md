@@ -1,11 +1,10 @@
-﻿---
-layout: event
+---
 published: true
+category: Content/Events/information
 title: "Information Evening - Rosewarne"
-category: information
 campus: CCR
-date: 14 May 2015
+eventdate: 14 May 2015
 description: "Our Information Events are your chance to find out why there's more for you at Duchy College: ..."
 mainlink: "information-evening-rosewarne"
-imagefilename: _T1_7674.jpg
+imagefilename: T17674.jpg
 ---

@@ -15,15 +15,15 @@ prose:
           placeholder: "Choose Category"
           options: 
             - name: "Information Events"
-              value: "information"
+              value: "content/events/information"
             - name: "Taster Days"
-              value: "taster"
+              value: "content/event/taster"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
-      - name: "date"
+      - name: "eventdate"
         field:
           element: "text"
           label: "Event Date"
