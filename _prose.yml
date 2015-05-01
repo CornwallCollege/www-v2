@@ -4,10 +4,6 @@ prose:
   media: 'content-media'
   metadata:
     _posts/Content/Events:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "event"      
       - name: "category"
         field:
           element: "select"
