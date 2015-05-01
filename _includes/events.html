@@ -7,7 +7,7 @@
             <div class="main">
                 <ul id="og-grid" class="og-grid">                    
                     {% for post in site.posts %}
-                        {% if post.category contains 'Content/Events' %}
+                        {% if post.category contains 'content/events' %}
                             {% include event.html event=post %}
                         {% endif %}
                     {% endfor %}                 
