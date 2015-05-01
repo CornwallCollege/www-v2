@@ -1,7 +1,7 @@
 ---
 eventdate: 14 May 2015
 published: true
-category: Content/Events/information
+category: content/events/information
 title: "Information Evening - Rosewarne"
 campus: CCR
 description: "Our Information Events are your chance to find out why there's more for you at Duchy College: ..."
