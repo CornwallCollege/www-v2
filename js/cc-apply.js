@@ -78,7 +78,7 @@ $(document).ready(function () {
                             url: "/include/process.php",
 
                             success: function () {
-                                document.location = "/apply/success/";
+                                document.location = "/success/";
                             },
 
                             error: function (err) {

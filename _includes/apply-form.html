@@ -1,0 +1,66 @@
+<section class="container">
+	<section class="col-sm-5">
+		<h4>The first step to your new career!</h4>
+		<p class="lead">Complete the simple form and a member of our team will be in touch to discuss your next steps and help find the right course
+			for you.</p>
+		<!-- contact form with input fields -->
+		<form id="application" class="form-horizontal" role="form" novalidate="novalidate">
+			<input type="hidden" name="source" id="source" value="{{ include.source }}">
+			<div id="apply-result"></div>
+			<!-- FULL NAME -->
+			<div class="form-group">
+				<div class="col-sm-12">
+					<label for="apply-name" accesskey="N">
+						<i class="fa fa-user"></i>
+					</label>
+					<input type="text" class="form-control" name="name" id="apply-name" placeholder="Full Name*" autocomplete="name">
+				</div>
+			</div>
+			<!-- EMAIL -->
+			<div class="form-group">
+				<div class="col-sm-12">
+					<label for="apply-email" accesskey="E">
+						<i class="fa fa-envelope-o"></i>
+					</label>
+					<input type="email" class="form-control" name="email" id="apply-email" placeholder="Email*" autocomplete="email">
+				</div>
+			</div>
+			<!-- CONTACT NUMBER -->
+			<div class="form-group">
+				<div class="col-sm-12">
+					<label for="apply-phone" accesskey="P">
+						<i class="fa fa-phone"></i>
+					</label>
+					<input type="text" class="form-control" name="phone" id="apply-phone" placeholder="Contact Number*" autocomplete="tel">
+				</div>
+			</div>
+			<!-- Area of Intrest -->
+			<div class="form-group">
+				<div class="col-sm-12">
+					<label for="interest" accesskey="I" id="interest-label">
+						<i class="fa fa-crosshairs"></i>
+					</label>
+					<input type="text" class="form-control" name="interest" id="interest" placeholder="Career Area of Interest*">
+				</div>
+			</div>
+			<!-- SERVER ERROR -->
+			<div class="form-group">
+				<div class="col-sm-12">
+					<div id='apply-error'></div>
+				</div>
+			</div>
+			<!-- SUBMIT BUTTON -->
+			<div class="form-group text-left">
+				<div class="col-sm-12">
+					<button id="submit-btn" type="submit" class="custom-btn transition">Send</button>
+				</div>
+			</div>
+			<!-- CANCEL BUTTON -->
+			<div class="form-group text-left">
+				<div class="col-sm-12">
+					<button id="cancel-btn" type="button" class="custom-btn transition">Cancel</button>
+				</div>
+			</div>
+		</form>
+	</section>
+</section>

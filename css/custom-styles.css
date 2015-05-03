@@ -1089,7 +1089,7 @@ footer a.btn{
 /* --------- Counters ENDS ------------*/
 /* --------- Contacts section ------------*/
 
-#apply-head {
+#contact-head {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/apply-now-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: -webkit-cover;
     background-size: -o-cover;
@@ -1098,13 +1098,13 @@ footer a.btn{
 }
 
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    #apply-head {
+    #contact-head {
         background-size: auto 568px;
     }
 }
 
 @media(min-width:768px) {
-    #apply-head {
+    #contact-head {
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
