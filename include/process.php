@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $topic = "Career Interest: $careerInterest";
         $subject = $name.": ".$careerInterest;
     } else if ($type == "career-help") {
-        $careerInterest = validatePostField('interest', 'Career Interest', $errList);        
+        $careerInterest = test_input('interest', 'Career Interest', $errList);        
         $topic = "Career help with: $careerInterest";
         $subject = $name.": Career Help";
         $type = "career help request";
