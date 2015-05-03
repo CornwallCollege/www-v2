@@ -1,7 +1,7 @@
 /* APPLY FORM */
 
 $(document).ready(function () {
-    if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
+    if (location.pathname === "/apply/index.html" || location.pathname === "/apply/" || location.pathname === "/career-help/") {
         $('#loader').fadeOut(1500);
         var hasHash = (location.href.indexOf('hash=') > -1);
         if (hasHash) {
