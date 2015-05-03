@@ -43,9 +43,6 @@ $(document).ready(function () {
                             required: true,
                             email: true
                         },
-                        interest: {
-                            required: true,
-                        },
                         phone: {
                             required: true,
                             phonesUK: true
@@ -56,9 +53,6 @@ $(document).ready(function () {
                             required: ""
                         },
                         email: {
-                            required: ""
-                        },
-                        interest: {
                             required: ""
                         },
                         phone: {
