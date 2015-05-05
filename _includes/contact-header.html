@@ -1,0 +1,14 @@
+{% assign id = page.title | replace:' ','-' | downcase %}
+<section id="contact-head" class="col-md-12 jumbotron header-title">
+    <header class="container">
+        <h2>
+            <a href="/"><small>Home / </small></a>
+            <a href="/{{ id }}/"><small> {{ page.title }}</small></a>
+            {% if include.title %}
+            <span>{{ include.title }}</span>
+            {% else %}
+            <span>{{ page.title }}</span>
+            {% endif %}
+        </h2>
+    </header>
+</section>

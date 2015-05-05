@@ -1,7 +1,7 @@
 /* APPLY FORM */
 
 $(document).ready(function () {
-    if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
+    if (location.pathname === "/apply/index.html" || location.pathname === "/apply/" || location.pathname === "/career-help/") {
         $('#loader').fadeOut(1500);
         var hasHash = (location.href.indexOf('hash=') > -1);
         if (hasHash) {
@@ -43,9 +43,6 @@ $(document).ready(function () {
                             required: true,
                             email: true
                         },
-                        interest: {
-                            required: true,
-                        },
                         phone: {
                             required: true,
                             phonesUK: true
@@ -56,9 +53,6 @@ $(document).ready(function () {
                             required: ""
                         },
                         email: {
-                            required: ""
-                        },
-                        interest: {
                             required: ""
                         },
                         phone: {
@@ -78,7 +72,7 @@ $(document).ready(function () {
                             url: "/include/process.php",
 
                             success: function () {
-                                document.location = "/apply/success/";
+                                document.location = "/success/";
                             },
 
                             error: function (err) {
