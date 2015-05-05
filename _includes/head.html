@@ -21,21 +21,12 @@
         }    
     </style>
     
-    <!-- special case javascript to catch any further javascript errors and email to dev team -->
-    <script>
-        try {
-            window.onerror = function (error, url, line) {
-                try {
-                    var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-                    xmlhttp.open('POST', '/include/email-errors.php', true);
-                    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                    xmlhttp.send("error=" + JSON.stringify({ error: '  ERROR='+error+'  LINE='+line+'  URL='+url+'  USERAGENT='+navigator.userAgent }));
-                } catch(e) {}
-                return false;
-            };        
-        } catch(e) {}
-    </script>
-    
+    <!-- special case javascript to catch any further javascript errors and email to dev team -->        
+    <script src="/js/raygun.min.js"></script>    
+    <script>          
+      Raygun.init('pI9lN9RIYj5Vb8jxZXOFMw==').attach();
+    </script> 
+        
 <!-- Latest compiled and minified CSS -->
 
 {% bundle %}
