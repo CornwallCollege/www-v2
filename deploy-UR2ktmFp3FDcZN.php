@@ -13,32 +13,51 @@
   * 5. Go into your Github Repo > Settings > Service Hooks > WebHook URLs and add the public URL 
   *    (e.g., http://example.com/webhook.php)
   *
- **/
-
-// develop branch
- 
-// Set Variables
-$LOCAL_ROOT         = "/var/www/html/";
-$LOCAL_REPO_NAME    = "mtest.cornwall.ac.uk";
-$LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
-$REMOTE_REPO        = "https://7437530e3c5ed64e03de83c71ff46b234995ffc2@github.com/CornwallCollege/www-v2.git";
-$BRANCH             = "develop";
-
 // check for Github useragent - changed to allow wget for daily
 //if (stristr($_SERVER[‘HTTP_USER_AGENT’],"GitHub-Hookshot") == !FALSE) {
+**/
 
-    if( file_exists($LOCAL_REPO) ) {  
-    // If there is already a repo, just run a git pull to grab the latest changes
-	echo shell_exec("cd {$LOCAL_REPO} && git reset --hard origin/develop");
-    echo shell_exec("cd {$LOCAL_REPO} && git pull 2>&1 ");      
+// Set Variables
+$LOCAL_ROOT         = "/var/www/html/";
+$LOCAL_MASTER_REPO_NAME    = "m.cornwall.ac.uk";
+$LOCAL_DEVELOP_REPO_NAME    = "mtest.cornwall.ac.uk";
+$LOCAL_MASTER_REPO         = "{$LOCAL_ROOT}/{$LOCAL_MASTER_REPO_NAME}";
+$LOCAL_TEST_REPO         = "{$LOCAL_ROOT}/{$LOCAL_TEST_REPO_NAME}";
+$REMOTE_REPO        = "https://7437530e3c5ed64e03de83c71ff46b234995ffc2@github.com/CornwallCollege/www-v2.git";
 
-  } else {
-    // If the repo does not exist, then clone it into the parent directory
-    echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1 && git submodule foreach git pull 2>&1");
-  }
+// branch specific
+if (isset($_GET["branch"])){
+    $BRANCH = $_GET["branch"];
     
-    echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_REPO_NAME} -d /var/www/html/mtest.cornwall.ac.uk/public 2>&1");
-    die("done " . mktime());
-//}
+    switch ($BRANCH) {
+        case "master":
+            if( file_exists($LOCAL_MASTER_REPO) ) {  
+            // If there is already a repo, just run a git pull to grab the latest changes
+            echo shell_exec("cd {$LOCAL_MASTER_REPO} && git reset --hard origin/master");
+            echo shell_exec("cd {$LOCAL_MASTER_REPO} && git pull 2>&1 ");      
+            } else {
+            // If the repo does not exist, then clone it into the parent directory
+            echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1 && git submodule foreach git pull 2>&1");
+            }
+            // rebuild jekyl
+            echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_MASTER_REPO_NAME} -d /var/www/html/m.cornwall.ac.uk/public 2>&1");
+            die("done " . mktime());
+        break;
+        case "deploy":
+            if( file_exists($LOCAL_DEVELOP_REPO) ) {  
+            // If there is already a repo, just run a git pull to grab the latest changes
+            echo shell_exec("cd {$LOCAL_DEVELOP_REPO} && git reset --hard origin/develop");
+            echo shell_exec("cd {$LOCAL_DEVELOP_REPO} && git pull 2>&1 ");      
+            } else {
+            // If the repo does not exist, then clone it into the parent directory
+            echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1 && git submodule foreach git pull 2>&1");
+            }
+            // rebuild jekyl
+            echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_DEVELOP_REPO_NAME} -d /var/www/html/mtest.cornwall.ac.uk/public 2>&1");
+            die("done " . mktime());
+        break;        
+        
+//end branch specific
+}
 
 ?>
