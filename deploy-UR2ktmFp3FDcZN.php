@@ -22,7 +22,7 @@ $LOCAL_ROOT         = "/var/www/html/";
 $LOCAL_MASTER_REPO_NAME    = "m.cornwall.ac.uk";
 $LOCAL_DEVELOP_REPO_NAME    = "mtest.cornwall.ac.uk";
 $LOCAL_MASTER_REPO         = "{$LOCAL_ROOT}/{$LOCAL_MASTER_REPO_NAME}";
-$LOCAL_TEST_REPO         = "{$LOCAL_ROOT}/{$LOCAL_TEST_REPO_NAME}";
+$LOCAL_DEVELOP_REPO         = "{$LOCAL_ROOT}/{$LOCAL_DEVELOP_REPO_NAME}";
 $REMOTE_REPO        = "https://7437530e3c5ed64e03de83c71ff46b234995ffc2@github.com/CornwallCollege/www-v2.git";
 
 // branch specific
@@ -43,7 +43,7 @@ if (isset($_GET["branch"])){
             echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_MASTER_REPO_NAME} -d /var/www/html/m.cornwall.ac.uk/public 2>&1");
             die("done " . mktime());
         break;
-        case "deploy":
+        case "develop":
             if( file_exists($LOCAL_DEVELOP_REPO) ) {  
             // If there is already a repo, just run a git pull to grab the latest changes
             echo shell_exec("cd {$LOCAL_DEVELOP_REPO} && git reset --hard origin/develop");
