@@ -2977,6 +2977,7 @@ ul#jobs-results li a{
 /* iPhone Zoom Fix */
 input[type='text'],
 input[type='number'],
+input[type='email'],
 textarea {
   font-size: 16px;
 }
