@@ -29,7 +29,7 @@ link: 14-18
         <section class="col-sm-12 blue-bg bar2 career-search">
          <h2 class="text-uppercase">WHAT’S YOUR DREAM <strong style="color:white;">Career</strong>?</h2>
             <div class="col-sm-6 col-sm-offset-3 ">
-                <form  class="form-horizontal" role="form" novalidate="novalidate">
+                <form  class="form-horizontal" role="form" novalidate="novalidate" onsubmit="$('#jobs-input').blur(); return false;" >
                     <label for="jobs-input" ><i class="fa fa-search"></i></label>
                     <input type="text" data-items="10" id="jobs-input" class="form-control" placeholder="search...">
                 </form>
