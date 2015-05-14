@@ -231,6 +231,20 @@
            }    
        });
        
+       $(function () {
+           window.desktopRedirectOrMobileSmoothScrollTo = function (id, url) {
+               if ($(window).width() <= 480) {
+                   $('html, body').animate({
+                       scrollTop: $('#' + id).offset().top - 50
+                   }, 500);
+               } else {
+                   window.location.href = url;
+               }
+               return false;
+           } 
+       });
+       
+       
        // prevent default action on example career expand
         jQuery('.collapsed').bind('click',function(e){
               e.preventDefault();
