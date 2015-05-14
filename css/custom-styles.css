@@ -3060,14 +3060,3 @@ ul#jobs-results li a{
     opacity: 1;
 }
 /********************************************BETTERTUBE PLUGIN STYLES ENDS*****************************************/
-
-/** stop iphone zooming inputs **/
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-  select:focus,
-  textarea:focus,
-  input:focus {
-    font-size: 16px;
-    background: #eee;
-  }
-}
-/** end - stop iphone zooming inputs **/
