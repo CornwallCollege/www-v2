@@ -2974,6 +2974,13 @@ ul#jobs-results li a{
         font-size: 45px 
     }    
 }
+/* iPhone Zoom Fix */
+input[type='text'],
+input[type='number'],
+input[type='email'],
+textarea {
+  font-size: 16px;
+}
 
 /* ----------------------------------- landscape mobile fixes iPhone 5-------------------------------------- */
 

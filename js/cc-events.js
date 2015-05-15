@@ -5,8 +5,8 @@ $(document).ready(function () {
     if ($("#og-grid").length) {
         cc.events = {};                
         cc.events.stillOn = function (events) {
-            events.filter(function (e) {
-                return new Date(e.Date) >= new Date();
+            events = events.filter(function (e) {                                
+                return Date.parse(e.Date) >= Date.parse(new Date());
             });
             return events;
         };
