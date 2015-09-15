@@ -9,6 +9,8 @@ CACHE:
 {% for page in site.pages %}{% if page.url != '/manifest.appcache' %}{{ page.url }}{% endif %}
 {% endfor %}
 
+/bundles/mini.js
+/bundles/mini.css
 
 {% for item in site.static_files %}{% if item.extname != '.php' %}{{ item.path }}
 {% endif %}{% endfor %}
@@ -19,3 +21,5 @@ NETWORK:
 *
 http://*
 https://*
+https://www.googletagmanager.com/gtm.js?id=GTM-5PH3GW
+https://s3.amazonaws.com/ki.js/27626/bzv.js
