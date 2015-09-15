@@ -9,11 +9,13 @@ CACHE:
 {% for page in site.pages %}{% if page.url != '/manifest.appcache' %}{{ page.url }}{% endif %}
 {% endfor %}
 
-{% for item in site.static_files %}{{ item.path }}
-{% endfor %}
+
+{% for item in site.static_files %}{% if item.extname != '.php' %}{{ item.path }}
+{% endif %}{% endfor %}
 
 NETWORK:
-/include/process.php
+{% for item in site.static_files %}{% if item.extname == '.php'  %}{{ item.path }}
+{% endif %}{% endfor %}
 *
 http://*
 https://*
