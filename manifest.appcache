@@ -13,6 +13,7 @@ CACHE:
 {% endfor %}
 
 NETWORK:
+/include/process.php
 *
 http://*
 https://*
