@@ -1,13 +1,13 @@
 <head>
     <meta charset="utf-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    
-    
+
+
     {% include seo-meta.html %}
-    
-    
+
+
     <link rel="shortcut icon" href="/images/favicon-cornwall.ico" type="image/vnd.microsoft.icon" />
     <style>
         #loader {
@@ -18,20 +18,16 @@
             z-index: 2000;
             width: 100%;
             height: 100%;
-        }    
+        }
     </style>
-    
-    <!-- special case javascript to catch any further javascript errors and email to dev team -->        
-    <script src="/js/raygun.min.js"></script>    
-    <script>          
-      Raygun.init('pI9lN9RIYj5Vb8jxZXOFMw==').attach();
-    </script> 
-        
+
+
+
 <!-- Latest compiled and minified CSS -->
 
 {% bundle %}
     - /css/bootstrap-3.2.0.min.css
-    - /css/animate.css    
+    - /css/animate.css
     - /css/styles.css
     - /css/custom-styles.css
 {% endbundle %}
