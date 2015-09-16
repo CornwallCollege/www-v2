@@ -19,6 +19,6 @@ NETWORK:
 {% for item in site.static_files %}{% if item.extname == '.php'  %}{{ item.path }}
 {% endif %}{% endfor %}
 *
-http://*
+#http://*
 https://*
 https://www.googletagmanager.com/*
