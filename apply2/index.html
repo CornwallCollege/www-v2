@@ -1,0 +1,30 @@
+---
+layout: hub
+title: Apply
+description: Complete our application form and take the first step towards your new career
+---
+
+<section id="apply">
+  {% include contact-header.html %}
+  {% include apply-form.html source="application" %}
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalApplicationDelayed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Application will wait for connection</h4>
+        </div>
+        <div class="modal-body">
+          Your application has been saved and will be sent when you are connected to the internet.
+          <br/><br/>
+          Come back to the Cornwall College site when you are next connected to the internet and your stored applications will be sent.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

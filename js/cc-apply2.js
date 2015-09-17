@@ -1,7 +1,7 @@
 /* APPLY FORM */
 
 $(document).ready(function () {
-    if (location.pathname === "/apply/index.html" || location.pathname === "/apply/" || location.pathname === "/career-help/") {
+    if (location.pathname === "/apply2/index.html" || location.pathname === "/apply2/") {
         $('#loader').fadeOut(1500);
         var hasHash = (location.href.indexOf('hash=') > -1);
         if (hasHash) {
@@ -59,37 +59,66 @@ $(document).ready(function () {
                             required: ""
                         }
                     },
-
                     submitHandler: function (form) {
                         $('#apply-error').html('');
                         $("#submit-btn").prop("disabled", true);
                         $("#cancel-btn").prop("disabled", true);
                         $(".alert-danger").remove();
                         $('#success').hide();
-                        $(form).ajaxSubmit({
-                            type: "POST",
-                            data: $(form).serialize(),
-                            url: "/include/process.php",
-
-                            success: function () {
-                                document.location = "/success/.index.html";
+                        isOnline({
+                            no: function () {
+                                storeApplicationToLocalStorage({ data: $(form).serialize(), url: "/include/process.php" });
                             },
-
-                            error: function (err) {
-                                $("#submit-btn").prop("disabled", false);
-                                $("#cancel-btn").prop("disabled", false);
-                                var errors = JSON.parse(err.responseText);
-                                var items = '';
-                                $.each(errors, function (i, v) {
-                                    items += '<li>' + v.message + '</li>'
-                                });
-                                $('#apply-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>' + items + '</ul></div>');
-                                return false;
+                            yes: function () {
+                                sendApplicationNow(form);
                             }
                         });
                     }
                 });
             }
         });
+        
+        function storeApplicationToLocalStorage(application) {
+            var storage = $.localStorage;
+            var posts = storage.get("posts") || [];
+            posts.push(application);
+            storage.set("posts", posts);
+            $('#modalApplicationDelayed .btn-primary').click(function () {
+                document.location = "/success/index.html";
+            });
+            $('#modalApplicationDelayed').on('hidden.bs.modal', function () {
+                document.location = "/success/index.html";
+            });
+            $('#modalApplicationDelayed').modal('show');
+        }
+
+        function sendApplicationNow(form) {
+            $('#apply-error').html('');
+            $("#submit-btn").prop("disabled", true);
+            $("#cancel-btn").prop("disabled", true);
+            $(".alert-danger").remove();
+            $('#success').hide();
+            $(form).ajaxSubmit({
+                type: "POST",
+                data: $(form).serialize(),
+                url: "/include/process.php",
+
+                success: function () {
+                    document.location = "/success/index.html";
+                },
+
+                error: function (err) {
+                    $("#submit-btn").prop("disabled", false);
+                    $("#cancel-btn").prop("disabled", false);
+                    var errors = JSON.parse(err.responseText);
+                    var items = '';
+                    $.each(errors, function (i, v) {
+                        items += '<li>' + v.message + '</li>'
+                    });
+                    $('#apply-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>' + items + '</ul></div>');
+                    return false;
+                }
+            });
+        }
     }
 });
