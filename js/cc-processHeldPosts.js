@@ -37,7 +37,7 @@ var checkSavedApplications = function() {
 			var storage = $.localStorage;
 			var posts = storage.get("posts") || [];
 			if (posts.length > 0) {
-				$.notify({ message: posts.length.toString() + ' currently waiting for connection.'}, {type: 'warning'});
+				$.notify({ message: posts.length.toString() + ' applications or questions waiting for connection.'}, {type: 'warning'});
 			}
 		},
 		fin: function () {
