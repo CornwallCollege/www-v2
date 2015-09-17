@@ -16,7 +16,7 @@ CACHE:
 {% endif %}{% endfor %}
 
 FALLBACK:
-/apply/ /apply2/index.html
+/apply/ /apply/index.html
 
 NETWORK:
 {% for item in site.static_files %}{% if item.extname == '.php'  %}{{ item.path }}
