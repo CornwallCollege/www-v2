@@ -13,7 +13,7 @@ markdown: kramdown
 exclude: [vendor]
 
 # Plugins
-asset_bundler:
+asset_bundler: 
   bundle_name: mini-v4
   compress:
     js: closure
