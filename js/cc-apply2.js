@@ -84,10 +84,10 @@ $(document).ready(function () {
             posts.push(application);
             storage.set("posts", posts);
             $('#modalApplicationDelayed .btn-primary').click(function () {
-                document.location = "/success/";
+                document.location = "/success/index.html";
             });
             $('#modalApplicationDelayed').on('hidden.bs.modal', function () {
-                document.location = "/success/";
+                document.location = "/success/index.html";
             });
             $('#modalApplicationDelayed').modal('show');
         }
@@ -104,7 +104,7 @@ $(document).ready(function () {
                 url: "/include/process.php",
 
                 success: function () {
-                    document.location = "/success/";
+                    document.location = "/success/index.html";
                 },
 
                 error: function (err) {
