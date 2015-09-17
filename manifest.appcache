@@ -10,7 +10,7 @@ CACHE:
 {% endfor %}
 
 /bundles/mini-v3.js
-/bundles/mini-v3.css 
+/bundles/mini-v3.css
 
 {% for item in site.static_files %}{% if item.extname != '.php' %}{{ item.path }}
 {% endif %}{% endfor %}
