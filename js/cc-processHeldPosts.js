@@ -1,13 +1,3 @@
-
-var seedPosts = function() {
-	var storage = $.localStorage;
-	var posts = [];
-	for (var i=0; i<10; i++) {
-		posts.push({data:"",url:""});
-	}
-	storage.set("posts", posts);
-};
-
 var checkSavedApplications = function() {
 	isOnline({
 		yes: function () {
@@ -39,9 +29,6 @@ var checkSavedApplications = function() {
 			if (posts.length > 0) {
 				$.notify({ message: posts.length.toString() + ' applications or questions waiting for connection.'}, {type: 'warning'});
 			}
-		},
-		fin: function () {
-			//do nothing
 		}
 	});
 }

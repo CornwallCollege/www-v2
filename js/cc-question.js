@@ -40,33 +40,55 @@ $(document).ready(function () {
                 },
 
                 submitHandler: function (form) {
-                    $('#question-error').html('');
-                    $('#question-submit-btn').prop("disabled", true);
-                    $(form).ajaxSubmit({
-                        type: "POST",
-                        data: $(form).serialize(),
-                        url: "/include/process.php",
-                        success: function () {
-                            $('#question-submit-btn').prop("disabled", false);
-                            $("#ask-a-question-button").click();
-                            $.notify({ message: 'Your question has been sent.'}, {type: 'success'});
-                            return true;
+                    isOnline({
+                        no: function () {
+                            cc.question.storeToLocalStorage({ data: $(form).serialize(), url: "/include/process.php" });
                         },
-                        error: function (err) {
-                            $('#question-submit-btn').prop("disabled", false);
-                            var errors = JSON.parse(err.responseText);
-                            var items = '';
-                            $.each(errors, function (i, v) {
-                                items += '<li>' + v.message + '</li>'
-                            });
-                            $('#question-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>' + items + '</ul></div>');
-
-                            return false;
+                        yes: function () {
+                            cc.question.sendNow(form);
                         }
                     });
                 }
             });
         };
         cc.question.form.validation();
+
+        cc.question.storeToLocalStorage = function(message) {
+            var storage = $.localStorage;
+            var posts = storage.get("posts") || [];
+            posts.push(message);
+            storage.set("posts", posts);
+            $("#ask-a-question-button").click();
+            $('#modalQuestionDelayed').modal('show');
+        }
+
+        cc.question.sendNow = function(form) {
+            $('#question-error').html('');
+            $('#question-submit-btn').prop("disabled", true);
+            $(form).ajaxSubmit({
+                type: "POST",
+                data: $(form).serialize(),
+                url: "/include/process.php",
+                success: function () {
+                    $('#question-submit-btn').prop("disabled", false);
+                    $("#ask-a-question-button").click();
+                    $.notify({ message: 'Your question has been sent.' }, { type: 'success' });
+                    return true;
+                },
+                error: function (err) {
+                    $('#question-submit-btn').prop("disabled", false);
+                    var errors = JSON.parse(err.responseText);
+                    var items = '';
+                    $.each(errors, function (i, v) {
+                        items += '<li>' + v.message + '</li>'
+                    });
+                    $('#question-error').html('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Please correct the following</strong><br/><ul>' + items + '</ul></div>');
+
+                    return false;
+                }
+            });
+        }
     }
+
+
 });

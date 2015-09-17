@@ -60,11 +60,6 @@ $(document).ready(function () {
                         }
                     },
                     submitHandler: function (form) {
-                        $('#apply-error').html('');
-                        $("#submit-btn").prop("disabled", true);
-                        $("#cancel-btn").prop("disabled", true);
-                        $(".alert-danger").remove();
-                        $('#success').hide();
                         isOnline({
                             no: function () {
                                 storeApplicationToLocalStorage({ data: $(form).serialize(), url: "/include/process.php" });
