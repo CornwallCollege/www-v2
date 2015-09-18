@@ -1018,8 +1018,10 @@ footer a.btn{
 
 @media(min-width:768px) {
     #services {
-        background: url(../images/Teachingshots15.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
+        background-image: url(../images/Teachingshots15.jpg);
+        background-repeat: no-repeat;
+        background-position:50% 0 ;
+        /*background-size:cover;*/
     }
 }
 /* ---------- Servicces ENDS ------------ */
