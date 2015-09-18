@@ -23,9 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $question = validatePostField('question', 'Question', $errList);        
         $topic = "Question: $question";
         $subject = $name.": Question";
-    }     
+    }
     $when = $_POST['when'];
-    $note = $_POST['note'];        
+    $note = $_POST['note'];
     
     if(count($errList)==0) {         
         $details  = "Name: $name\n";
@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $details .= "Contact: $phone\n";        
         $details .= "$topic\n";        
         sendEmailToLearner($email, $type, $details);     
-        sendEmailToEnquiries($email, $type, $details, $subject, $when, $note);        
+        sendEmailToEnquiries($email, $type, $details, $subject, $when, $note);
     }else{
         http_response_code(400);   
         echo json_encode($errList);
@@ -49,16 +49,16 @@ function sendEmailToEnquiries($email, $type, $details, $subject, $when, $note) {
     $whenText = "";
     if (isset($when)) $whenText = " submitted:".$when;
     $noteText = "";
-    if (isset($note)) $noteText = " notes:".$note;    
+    if (isset($note)) $noteText = " notes:".$note;
     $pageText = " page:".$_SERVER['HTTP_REFERER'];
     $headers = "From: $email";    
-    $body = "Online ".ucfirst($type).":\n\n";    
+    $body = "Online ".ucfirst($type).":\n\n";
     $body .= $details;
     $body .= "\n\n(".$whenText.$noteText.$pageText.")";
     $to = 'enquiries@cornwall.ac.uk';
-    if (stripos($body, "ccgtest") == false) {    
+    if (stripos($body, "ccgtest") == false) {
         $send = mail($to, $subject, $body, $headers);
-    }        
+    }
     $send = mail('mtest@cornwall.ac.uk', "$subject (dev team copy)", $body, $headers);        
 }
 

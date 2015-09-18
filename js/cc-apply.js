@@ -60,7 +60,7 @@ $(document).ready(function () {
                             required: ""
                         }
                     },
-                    submitHandler: function (form) {                        
+                    submitHandler: function (form) {
                         isOnline({
                             no: function () {
                                 storeApplicationToLocalStorage({ data: $(form).serialize(), url: "/include/process.php" });
@@ -91,7 +91,7 @@ $(document).ready(function () {
             $('#modalApplicationDelayed').modal('show');
         }
 
-        function sendApplicationNow(form) {            
+        function sendApplicationNow(form) {
             $('#apply-error').html('');
             $("#submit-btn").prop("disabled", true);
             $("#cancel-btn").prop("disabled", true);
