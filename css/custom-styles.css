@@ -1021,7 +1021,7 @@ footer a.btn{
         background-image: url(../images/Teachingshots15.jpg);
         background-repeat: no-repeat;
         background-position:50% 0 ;
-        /*background-size:cover;*/
+        background-size:contain;
     }
 }
 /* ---------- Servicces ENDS ------------ */
@@ -1139,7 +1139,7 @@ footer a.btn{
     background-repeat: no-repeat;
 }
 
-@media(min-width:768px) {
+@media(device-width: 768px) {
     .fulltime-bar {
         background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
@@ -1211,7 +1211,9 @@ footer a.btn{
     background-attachment:  fixed;
 }
 
-.apply-bar h2:before {
+.apply-bar h2:before,
+.fulltime-bar h2:before
+{
     background: url(../images/subtle_carbon.png) center repeat;
     content: "";
     position: absolute;
@@ -1708,7 +1710,7 @@ footer a.btn{
     #legal
     {
         background-repeat: no-repeat;
-        background-size: auto 400px;
+        background-size: contain;
         background-position-x: 50%;
         background-position-y: 0%;
     }
