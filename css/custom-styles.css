@@ -1141,7 +1141,7 @@ footer a.btn{
 
 @media(device-width: 768px) {
     .fulltime-bar {
-        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg) 50% 0 no-repeat fixed;
+        background: url(../images/IMG_3996.jpg);
         background-size: cover;
     }
 }
