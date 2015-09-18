@@ -79,6 +79,7 @@ $(document).ready(function () {
             var posts = storage.get("posts") || [];
             posts.push(application);
             storage.set("posts", posts);
+            storage.remove("pageparams");
             $('#modalApplicationDelayed .btn-primary').click(function () {
                 document.location = "/success/index.html";
             });
@@ -115,6 +116,8 @@ $(document).ready(function () {
                     return false;
                 }
             });
+            var storage = $.localStorage;
+            storage.remove("pageparams");
         }
     }
 });
