@@ -2,34 +2,33 @@
 
 $(document).ready(function () {
     if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
-        ProcessPageParamsAsJson(function (pageParams) {
-            $('#loader').fadeOut(1500);
-            var hasHash = !(pageParams.hash === undefined || pageParams.hash === null);
-            if (hasHash) {
-                var hash = pageParams.hash.toLowerCase();
-                var callback = hash;
-                var hasCareer = !(pageParams.career === undefined || pageParams.career === null);
-                if (hasCareer) {
-                    hash += " - " + pageParams.career;
-                }
-                hash = decodeURIComponent(hash);
-                if (hash.length) {
-                    $("#interest").val(hash);
-                    $("#interest").hide();
-                    $("#interest-label").val(hash);
-                    $("#interest-label").hide();
-                }
+        var pageParams = ProcessPageParamsAsJson();
+        $('#loader').fadeOut(1500);
+        var hasHash = !(pageParams.hash === undefined || pageParams.hash === null);
+        if (hasHash) {
+            var hash = pageParams.hash.toLowerCase();
+            var callback = hash;
+            var hasCareer = !(pageParams.career === undefined || pageParams.career === null);
+            if (hasCareer) {
+                hash += " - " + pageParams.career;
             }
+            hash = decodeURIComponent(hash);
+            if (hash.length) {
+                $("#interest").val(hash);
+                $("#interest").hide();
+                $("#interest-label").val(hash);
+                $("#interest-label").hide();
+            }
+        }
 
-            $(document).on("click", "#cancel-btn", function () {
-                event.preventDefault();
-                if (hasHash) {
-                    location.href = "/career-pages/" + callback + "/";
-                } else {
-                    location.href = "/full-time-hub/";
-                }
-            });
-        });
+        $(document).on("click", "#cancel-btn", function () {
+            event.preventDefault();
+            if (hasHash) {
+                location.href = "/career-pages/" + callback + "/";
+            } else {
+                location.href = "/full-time-hub/";
+            }
+        });        
 
         /* CONTACT FORM VALIDATION SCRIPT */
         $(function () {

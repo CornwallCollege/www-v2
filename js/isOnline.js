@@ -11,38 +11,21 @@ function isOnline(func) {
         }
     }
     xhr.open("GET", "anypage.php", true);
-    xhr.send();    
+    xhr.send();
 }
 
 function redirectTo(url) {
     if (url.indexOf('?') === -1) {
         document.location = url;
     } else {
-        isOnline({
-            yes: function () {                
-                document.location = url;
-            },
-            no: function () {
-                var storage = $.localStorage;
-                var params = url.split('?')[1];
-                storage.set("pageparams", convertUrlParamsToJson(params));
-                document.location = url.split('?')[0];
-            }
-        });
-    }
+        var params = url.split('?')[1];
+        $.localStorage.set("pageparams", params);
+        document.location = url.split('?')[0];
+    };
 }
 
-function ProcessPageParamsAsJson(func) {
-    isOnline({
-       yes: function() {
-           func(convertUrlParamsToJson(window.location.search.substring(1)));
-       },
-       no: function() {
-           var storage = $.localStorage;
-           var pageParams = storage.get('pageparams');
-           func(pageParams);
-       }
-    });
+function ProcessPageParamsAsJson(func) {        
+    return convertUrlParamsToJson($.localStorage.get('pageparams'));     
 }
 
 function convertUrlParamsToJson(params) {
