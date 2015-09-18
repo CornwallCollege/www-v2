@@ -14,7 +14,7 @@ exclude: [vendor]
 
 # Plugins
 asset_bundler: 
-  bundle_name: mini-v4
+  bundle_name: mini-v5
   compress:
     js: closure
     css: yui
