@@ -1799,8 +1799,10 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .a-levels-bar {
-        background: url(../images/area-banners/a-levels-desktop.jpg) 50% 0 no-repeat fixed;
-        background-size: cover;
+        background: url(../images/area-banners/a-levels-desktop.jpg) ;
+        background-size:contain;
+        background-position:50% 0;
+        background-repeat: no-repeat;
     }
 }
 /* -------------------------------------- BUSINESS AND PRO -------------------------------------------------- */
