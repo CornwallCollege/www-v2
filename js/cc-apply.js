@@ -2,31 +2,33 @@
 
 $(document).ready(function () {
     if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
-        $('#loader').fadeOut(1500);
-        var hasHash = (location.href.indexOf('hash=') > -1);
-        if (hasHash) {
-            var hash = location.href.substring(location.href.indexOf('hash=') + 5).toLowerCase().split('&')[0];
-            var callback = hash;
-            var hasCareer = (location.href.indexOf('career=') > -1);
-            if (hasCareer) {
-                hash += " - " + location.href.substring(location.href.indexOf('career=') + 7);
-            }
-            hash = decodeURIComponent(hash);
-            if (hash.length) {
-                $("#interest").val(hash);
-                $("#interest").hide();
-                $("#interest-label").val(hash);
-                $("#interest-label").hide();
-            }
-        }
-
-        $(document).on("click", "#cancel-btn", function () {
-            event.preventDefault();
+        ProcessPageParamsAsJson(function (pageParams) {
+            $('#loader').fadeOut(1500);
+            var hasHash = !(pageParams.hash === undefined || pageParams.hash === null);
             if (hasHash) {
-                location.href = "/career-pages/" + callback + "/";
-            } else {
-                location.href = "/full-time-hub/";
+                var hash = pageParams.hash.toLowerCase();
+                var callback = hash;
+                var hasCareer = !(pageParams.career === undefined || pageParams.career === null);
+                if (hasCareer) {
+                    hash += " - " + pageParams.career;
+                }
+                hash = decodeURIComponent(hash);
+                if (hash.length) {
+                    $("#interest").val(hash);
+                    $("#interest").hide();
+                    $("#interest-label").val(hash);
+                    $("#interest-label").hide();
+                }
             }
+
+            $(document).on("click", "#cancel-btn", function () {
+                event.preventDefault();
+                if (hasHash) {
+                    location.href = "/career-pages/" + callback + "/";
+                } else {
+                    location.href = "/full-time-hub/";
+                }
+            });
         });
 
         /* CONTACT FORM VALIDATION SCRIPT */
@@ -72,7 +74,7 @@ $(document).ready(function () {
                 });
             }
         });
-        
+
         function storeApplicationToLocalStorage(application) {
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];

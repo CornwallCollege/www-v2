@@ -2,6 +2,6 @@
 <section class="col-sm-12 {{page.career | replace:' ','-' | downcase }}-bar apply-bar margin-top clearfix">
     <div class="container">
         <h2>{{ include.text }}</h2>
-        <a href="/apply/index.html?hash={{page.career | replace:' ','-' | downcase }}" class="apply-btn btn" data-career="{{ page.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
+        <a onclick="redirectTo('/apply/index.html?hash={{page.career | replace:' ','-' | downcase }}')" class="apply-btn btn" data-career="{{ page.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
     </div>
 </section>
