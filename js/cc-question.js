@@ -69,6 +69,7 @@ $(document).ready(function () {
             $('#question-submit-btn').prop("disabled", true);
             var data = $(form).serialize();
             data += "&when=" + encodeURI(new Date().toString());
+            data += "&note=" + encodeURI("none");
             $(form).ajaxSubmit({
                 type: "POST",
                 data: data,

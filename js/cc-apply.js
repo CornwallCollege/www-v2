@@ -81,6 +81,7 @@ $(document).ready(function () {
             var posts = storage.get("posts") || [];
             posts.push(application);
             storage.set("posts", posts);
+            $.localStorage.remove('pageparams');
             $('#modalApplicationDelayed .btn-primary').click(function () {
                 document.location = "/success/index.html";
             });
@@ -98,6 +99,7 @@ $(document).ready(function () {
             $('#success').hide();
             var data = $(form).serialize();
             data += "&when=" + encodeURI(new Date().toString());
+            data += "&note=" + encodeURI("none");
             $(form).ajaxSubmit({
                 type: "POST",
                 data: data,
