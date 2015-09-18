@@ -59,7 +59,7 @@ $(document).ready(function () {
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(message);
-            storage.set("posts", posts);
+            storage.set("posts", posts);            
             $("#ask-a-question-button").click();
             $('#modalQuestionDelayed').modal('show');
         }
