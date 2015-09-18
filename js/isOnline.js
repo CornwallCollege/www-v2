@@ -40,7 +40,6 @@ function ProcessPageParamsAsJson(func) {
        no: function() {
            var storage = $.localStorage;
            var pageParams = storage.get('pageparams');
-           alert("page params = " + pageParams);
            func(pageParams);
        }
     });
