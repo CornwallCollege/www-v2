@@ -24,7 +24,7 @@ function redirectTo(url) {
     };
 }
 
-function ProcessPageParamsAsJson(func) {        
+function GetPageParamsAsJson() {        
     return convertUrlParamsToJson($.localStorage.get('pageparams'));     
 }
 

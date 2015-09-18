@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
     if (location.pathname === "/apply/index.html" || location.pathname === "/apply/") {
-        var pageParams = ProcessPageParamsAsJson();
+        var pageParams = GetPageParamsAsJson();
         $('#loader').fadeOut(1500);
         var hasHash = !(pageParams.hash === undefined || pageParams.hash === null);
         if (hasHash) {
