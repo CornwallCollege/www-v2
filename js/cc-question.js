@@ -54,6 +54,8 @@ $(document).ready(function () {
         cc.question.form.validation();
 
         cc.question.storeToLocalStorage = function(message) {
+            message.data += "&when=" + encodeURI(new Date().toString());
+            message.data += "&note=" + encodeURI("Could be from marketing event (sent when offline)");
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(message);
@@ -65,9 +67,12 @@ $(document).ready(function () {
         cc.question.sendNow = function(form) {
             $('#question-error').html('');
             $('#question-submit-btn').prop("disabled", true);
+            var data = $(form).serialize();
+            data += "&when=" + encodeURI(new Date().toString());
+            data += "&note=" + encodeURI("none");
             $(form).ajaxSubmit({
                 type: "POST",
-                data: $(form).serialize(),
+                data: data,
                 url: "/include/process.php",
                 success: function () {
                     $('#question-submit-btn').prop("disabled", false);
