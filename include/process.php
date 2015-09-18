@@ -56,7 +56,9 @@ function sendEmailToEnquiries($email, $type, $details, $subject, $when, $note) {
     $body .= $details;
     $body .= "\n\n(".$whenText.$noteText.$pageText.")";
     $to = 'enquiries@cornwall.ac.uk';
-    $send = mail($to, $subject, $body, $headers);        
+    if (stripos($body, "ccgtest") == false) {    
+        $send = mail($to, $subject, $body, $headers);
+    }        
     $send = mail('mtest@cornwall.ac.uk', "$subject (dev team copy)", $body, $headers);        
 }
 
