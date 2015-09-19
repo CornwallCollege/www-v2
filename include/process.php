@@ -49,7 +49,9 @@ function sendEmailToEnquiries($email, $type, $details, $subject) {
     $body .= $details;
     $body .= "\n\n(page:".$_SERVER['HTTP_REFERER'].")";
     $to = 'enquiries@cornwall.ac.uk';
-    $send = mail($to, $subject, $body, $headers);        
+    if (stripos($body, "ccgtest") == false) {
+        $send = mail($to, $subject, $body, $headers);
+    }
     $send = mail('mtest@cornwall.ac.uk', "$subject (dev team copy)", $body, $headers);        
 }
 
