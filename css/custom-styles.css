@@ -1784,10 +1784,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .engineering-bar {
-        background: url(../images/engineering-technology-bg.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/engineering-technology-bg.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* ----------------------------------------- A Levels -------------------------------------------------- */
@@ -1801,10 +1799,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .a-levels-bar {
-        background: url(../images/area-banners/a-levels-desktop.jpg) ;
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/a-levels-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* -------------------------------------- BUSINESS AND PRO -------------------------------------------------- */
@@ -1818,10 +1814,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .accountancy-financial-bar {
-        background: url(../images/area-banners/accountancy-financial-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/accountancy-financial-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* education-teaching | apply now bar */
@@ -1834,10 +1828,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .education-teaching-bar {
-        background: url(../images/area-banners/education-teaching-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/education-teaching-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* education-teaching | apply now bar */
@@ -1850,10 +1842,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .sales-marketing-bar {
-        background: url(../images/area-banners/customer-service-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/customer-service-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* business and admin | apply now bar */
@@ -1866,10 +1856,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .business-admin-bar {
-        background: url(../images/area-banners/business-admin-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/business-admin-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* health and safety | apply now bar */
@@ -1882,10 +1870,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .health-safety-bar {
-        background: url(../images/area-banners/health-safety-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/health-safety-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* digital-technologies | apply now bar */
@@ -1898,10 +1884,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .digital-technologies-bar {
-        background: url(../images/area-banners/digital-technologies-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/digital-technologies-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* legal | apply now bar */
@@ -1913,10 +1897,8 @@ APPLY BARS =====================================================================
 /*DESKTOP version of the background*/
 @media(min-width:768px) {
     .legal-bar {
-        background: url(../images/area-banners/legal-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/legal-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* -------------------------------------- CULTURE AND VISITOR ECONOMY -------------------------------------------------- */
@@ -1930,10 +1912,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .catering-hospitality-bar {
-        background: url(../images/area-banners/catering-hospitality-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/catering-hospitality-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* CULTURE AND VISITOR ECONOMY | travel-visitor-attractions | apply now bar */
@@ -1946,10 +1926,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .travel-visitor-attractions-bar {
-        background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* CULTURE AND VISITOR ECONOMY | media-digital-creativity | apply now bar */
@@ -1962,10 +1940,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .media-digital-creativity-bar {
-        background: url(../images/area-banners/media-digital-creativity-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/media-digital-creativity-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* CULTURE AND VISITOR ECONOMY | performing-arts | apply now bar */
@@ -1978,10 +1954,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .performing-arts-bar {
-        background: url(../images/area-banners/performing-arts-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/performing-arts-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* -------------------------------------- HEALTH & WELLBEING -------------------------------------------------- */
@@ -1995,10 +1969,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .hair-beauty-bar {
-        background: url(../images/area-banners/hair-beauty-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/hair-beauty-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* HEALTH & WELLBEING | public service | apply now bar */
@@ -2011,10 +1983,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .public-services-bar {
-        background: url(../images/area-banners/public-services-desktop.jpg) ;
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/public-services-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* HEALTH & WELLBEING | Childrens Workforce | apply now bar */
@@ -2027,10 +1997,9 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .childrens-workforce-bar {
-        background: url(../images/area-banners/childrens-workforce-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/childrens-workforce-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
 }
 /* HEALTH & WELLBEING | Sport and Fitness | apply now bar */
 
@@ -2042,10 +2011,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .sport-bar {
-        background: url(../images/area-banners/sport-desktop.jpg) ;
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/sport-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* HEALTH & WELLBEING | Social Care | apply now bar */
@@ -2058,10 +2025,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .social-care-bar {
-        background: url(../images/area-banners/social-care-desktop.jpg) ;
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/social-care-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* HEALTH & WELLBEING | Health | apply now bar */
@@ -2074,10 +2039,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .health-bar {
-        background: url(../images/area-banners/health-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/health-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* -------------------------------------- RURAL ECONOMY -------------------------------------------------- */
@@ -2091,10 +2054,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .animal-science-management-bar {
-        background: url(../images/area-banners/animal-science-management-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/animal-science-management-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* RURAL ECONOMY | agriculture horticulture | apply now bar */
@@ -2107,10 +2068,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .agriculture-horticulture-bar {
-        background: url(../images/area-banners/agriculture-horticulture-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* RURAL ECONOMY | countryside management | apply now bar */
@@ -2123,10 +2082,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .countryside-management-bar {
-        background: url(../images/area-banners/countryside-management-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/countryside-management-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* RURAL ECONOMY | food production | apply now bar */
@@ -2139,10 +2096,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .food-production-bar {
-        background: url(../images/area-banners/food-production-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/food-production-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* RURAL ECONOMY | equine | apply now bar */
@@ -2155,10 +2110,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .equine-bar {
-        background: url(../images/area-banners/equine-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/equine-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* -------------------------------------- SCIENCE AND THE NATURAL ENVIROMENT -------------------------------------------------- */
@@ -2172,10 +2125,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .applied-forensic-science-bar {
-        background: url(../images/area-banners/applied-forensic-science-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/applied-forensic-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* SCIENCE AND THE NATURAL ENVIROMENT | marine natural science conservation | apply now bar */
@@ -2188,10 +2139,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .marine-natural-science-conservation-bar {
-        background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* SCIENCE AND THE NATURAL ENVIROMENT | environmental-science | apply now bar */
@@ -2204,10 +2153,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .environmental-science-bar {
-        background: url(../images/area-banners/environmental-science-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/environmental-science-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* --------------------------------------- TECHNOLOGY -------------------------------------------------- */
@@ -2221,10 +2168,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .construction-bar {
-        background: url(../images/area-banners/construction-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/construction-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* TECHNOLOGY | electrical | apply now bar */
@@ -2237,10 +2182,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .electrical-bar {
-        background: url(../images/area-banners/electrical-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/electrical-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* TECHNOLOGY | automotive | apply now bar */
@@ -2253,10 +2196,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .automotive-bar {
-        background: url(../images/area-banners/automotive-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/automotive-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* TECHNOLOGY | boatbuilding | apply now bar */
@@ -2269,10 +2210,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .boatbuilding-bar {
-        background: url(../images/area-banners/boatbuilding-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/boatbuilding-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* TECHNOLOGY | construction-plant | apply now bar */
@@ -2285,10 +2224,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .construction-plant-bar {
-        background: url(../images/area-banners/construction-plant-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/construction-plant-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* TECHNOLOGY | aerospace | apply now bar */
@@ -2301,10 +2238,8 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .aerospace-bar {
-        background: url(../images/area-banners/aerospace-desktop.jpg);
-        background-size:contain;
-        background-position:50% 0;
-        background-repeat: no-repeat;
+        background: url(../images/area-banners/aerospace-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
 }
 /* -------------------------------------iPhone Background FIX ---------------------------------------------*/
