@@ -75,6 +75,8 @@ $(document).ready(function () {
         });
 
         function storeApplicationToLocalStorage(application) {
+            application.data += "&when=" + encodeURI(new Date().toString());
+            application.data += "&note=" + encodeURI("could be from marketing event (sent when offline)");
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(application);
@@ -95,9 +97,11 @@ $(document).ready(function () {
             $("#cancel-btn").prop("disabled", true);
             $(".alert-danger").remove();
             $('#success').hide();
+            var data = $(form).serialize();
+            data += "&when=" + encodeURI(new Date().toString());
             $(form).ajaxSubmit({
                 type: "POST",
-                data: $(form).serialize(),
+                data: data,
                 url: "/include/process.php",
 
                 success: function () {
@@ -116,8 +120,7 @@ $(document).ready(function () {
                     return false;
                 }
             });
-            var storage = $.localStorage;
-            storage.remove("pageparams");
+            $.localStorage.remove("pageparams");
         }
     }
 });
