@@ -24,11 +24,14 @@ function redirectTo(url) {
     };
 }
 
-function GetPageParamsAsJson() {        
-    return convertUrlParamsToJson($.localStorage.get('pageparams'));     
+function GetPageParamsAsJson() {
+    return convertUrlParamsToJson($.localStorage.get('pageparams'));
 }
 
 function convertUrlParamsToJson(params) {
-    var json = '{"' + decodeURI(params).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}';
-    return JSON.parse(json);
+    if (params) {
+        var json = '{"' + decodeURI(params).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}';
+        return JSON.parse(json);
+    }
+    return [];
 }

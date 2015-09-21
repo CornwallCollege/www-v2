@@ -54,8 +54,13 @@ $(document).ready(function () {
         cc.question.form.validation();
 
         cc.question.storeToLocalStorage = function(message) {
+<<<<<<< HEAD
             message.data += "&when=" + encodeURI(new Date().toString());
             message.data += "&note=" + encodeURI("Could be from marketing event (sent when offline)");
+=======
+            message.data += "&when=" + encodeURI(new Date().toString());
+            message.data += "&note=" + encodeURI("could be from marketing event (sent when offline)");
+>>>>>>> origin/master
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(message);
@@ -67,12 +72,20 @@ $(document).ready(function () {
         cc.question.sendNow = function(form) {
             $('#question-error').html('');
             $('#question-submit-btn').prop("disabled", true);
+<<<<<<< HEAD
             var data = $(form).serialize();
             data += "&when=" + encodeURI(new Date().toString());
             data += "&note=" + encodeURI("none");
             $(form).ajaxSubmit({
                 type: "POST",
                 data: data,
+=======
+            var data = $(form).serialize();
+            data += "&when=" + encodeURI(new Date().toString());
+            $(form).ajaxSubmit({
+                type: "POST",
+                data: data,
+>>>>>>> origin/master
                 url: "/include/process.php",
                 success: function () {
                     $('#question-submit-btn').prop("disabled", false);
