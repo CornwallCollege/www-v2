@@ -15,7 +15,7 @@ exclude: [vendor]
 # Plugins
 asset_bundler:
 
-  bundle_name: mini-v8.20
+  bundle_name: mini-v8.21
 
   compress:
     js: closure

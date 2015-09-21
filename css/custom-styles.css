@@ -2885,15 +2885,24 @@ a h2 span.readmore {
 
 .back-button,
 .scroll-down{
-    display: none
+    display: none;
+    position:absolute;
+    top:-65px;
+    left:42%;
+    color:white;
+}
+.back-button i,
+.scroll-down i{
+    font-size: 60px;
+    opacity: .4;
+}
+.back-button i:hover,
+.scroll-down i:hover{
+    opacity: 1;
 }
 
 @media(max-width:768px) {
     .scroll-down{
-        position:absolute;
-        top:-65px;
-        left:42%;
-        color:white;       
         display: block;
     }
     .back-button {
@@ -2904,15 +2913,6 @@ a h2 span.readmore {
         z-index: 99;
         color: white;
         
-    }
-    .back-button i,
-    .scroll-down i{
-        font-size: 60px;
-        opacity: .4;
-    }
-    .back-button i:hover,
-    .scroll-down i:hover{
-        opacity: 1;
     }
 }
 
