@@ -75,22 +75,17 @@ $(document).ready(function () {
         });
 
         function storeApplicationToLocalStorage(application) {
-<<<<<<< HEAD
-            //application.data += "&when=" + encodeURI(new Date().toString());
-            //application.data += "&note=" + encodeURI("Could be from marketing event (sent when offline)");
-=======
+
             application.data += "&when=" + encodeURI(new Date().toString());
             application.data += "&note=" + encodeURI("could be from marketing event (sent when offline)");
->>>>>>> origin/master
+
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(application);
             storage.set("posts", posts);
-<<<<<<< HEAD
-            $.localStorage.remove('pageparams');
-=======
+
             storage.remove("pageparams");
->>>>>>> origin/master
+
             $('#modalApplicationDelayed .btn-primary').click(function () {
                 document.location = "/success/index.html";
             });
@@ -107,12 +102,9 @@ $(document).ready(function () {
             $(".alert-danger").remove();
             $('#success').hide();
             var data = $(form).serialize();
-<<<<<<< HEAD
-            //data += "&when=" + encodeURI(new Date().toString());
-            //data += "&note=" + encodeURI("none");
-=======
+
             data += "&when=" + encodeURI(new Date().toString());
->>>>>>> origin/master
+
             $(form).ajaxSubmit({
                 type: "POST",
                 data: data,

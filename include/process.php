@@ -25,11 +25,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $subject = $name.": Question";
     }
     $when = $_POST['when'];
-<<<<<<< HEAD
+
     $note = $_POST['note'];
-=======
-    $note = $_POST['note'];
->>>>>>> origin/master
 
     if(count($errList)==0) {
         $details  = "Name: $name\n";
@@ -37,11 +34,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $details .= "Contact: $phone\n";
         $details .= "$topic\n";
         sendEmailToLearner($email, $type, $details);
-<<<<<<< HEAD
+
         sendEmailToEnquiries($email, $type, $details, $subject, $when, $note);
-=======
-        sendEmailToEnquiries($email, $type, $details, $subject, $when, $note);
->>>>>>> origin/master
+
     }else{
         http_response_code(400);
         echo json_encode($errList);
@@ -57,11 +52,9 @@ function sendEmailToEnquiries($email, $type, $details, $subject, $when, $note) {
     $whenText = "";
     if (isset($when)) $whenText = " submitted:".$when;
     $noteText = "";
-<<<<<<< HEAD
+
     if (isset($note)) $noteText = " notes:".$note;
-=======
-    if (isset($note)) $noteText = " notes:".$note;
->>>>>>> origin/master
+
     $pageText = " page:".$_SERVER['HTTP_REFERER'];
     $headers = "From: $email";
     $body = "Online ".ucfirst($type).":\n\n";
