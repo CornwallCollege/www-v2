@@ -2419,12 +2419,14 @@ APPLY BARS =====================================================================
     .digital-technologies-bar,
     .health-safety-bar,
     .business-admin-bar,
-    .sales-marketing #education-teaching-bar,
+    .sales-marketing-bar,
+    .education-teaching-bar,
     .accountancy-financial-bar,
     .a-levels-bar,
     .engineering-bar,
     .public-services-bar,
-    .fulltime-bar {
+    .fulltime-bar,
+    .legal-bar{
         background-size: auto 768px;
         z-index: 1;
     } 
