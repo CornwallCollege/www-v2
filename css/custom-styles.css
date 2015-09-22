@@ -1021,7 +1021,7 @@ footer a.btn{
         background-image: url(../images/Teachingshots15.jpg);
         background-repeat: no-repeat;
         background-position:50% 0 ;
-        background-size:contain;
+
     }
 }
 /* ---------- Servicces ENDS ------------ */
@@ -1710,7 +1710,6 @@ footer a.btn{
     #legal
     {
         background-repeat: no-repeat;
-        background-size: contain;
         background-position-x: 50%;
         background-position-y: 0%;
     }
@@ -1785,7 +1784,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .engineering-bar {
         background: url(../images/engineering-technology-bg.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1802,7 +1801,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .a-levels-bar {
         background: url(../images/area-banners/a-levels-desktop.jpg) ;
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1819,7 +1818,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .accountancy-financial-bar {
         background: url(../images/area-banners/accountancy-financial-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1835,7 +1834,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .education-teaching-bar {
         background: url(../images/area-banners/education-teaching-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1851,7 +1850,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .sales-marketing-bar {
         background: url(../images/area-banners/customer-service-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1867,7 +1866,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .business-admin-bar {
         background: url(../images/area-banners/business-admin-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1883,7 +1882,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .health-safety-bar {
         background: url(../images/area-banners/health-safety-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1899,7 +1898,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .digital-technologies-bar {
         background: url(../images/area-banners/digital-technologies-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1914,7 +1913,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .legal-bar {
         background: url(../images/area-banners/legal-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1931,7 +1930,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .catering-hospitality-bar {
         background: url(../images/area-banners/catering-hospitality-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1947,7 +1946,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .travel-visitor-attractions-bar {
         background: url(../images/area-banners/travel-visitor-attractions-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1963,7 +1962,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .media-digital-creativity-bar {
         background: url(../images/area-banners/media-digital-creativity-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1979,7 +1978,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .performing-arts-bar {
         background: url(../images/area-banners/performing-arts-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -1996,7 +1995,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .hair-beauty-bar {
         background: url(../images/area-banners/hair-beauty-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2012,7 +2011,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .public-services-bar {
         background: url(../images/area-banners/public-services-desktop.jpg) ;
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2028,7 +2027,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .childrens-workforce-bar {
         background: url(../images/area-banners/childrens-workforce-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2044,7 +2043,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .sport-bar {
         background: url(../images/area-banners/sport-desktop.jpg) ;
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2060,7 +2059,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .social-care-bar {
         background: url(../images/area-banners/social-care-desktop.jpg) ;
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2076,7 +2075,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .health-bar {
         background: url(../images/area-banners/health-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2093,7 +2092,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .animal-science-management-bar {
         background: url(../images/area-banners/animal-science-management-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2109,7 +2108,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .agriculture-horticulture-bar {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2125,7 +2124,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .countryside-management-bar {
         background: url(../images/area-banners/countryside-management-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2141,7 +2140,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .food-production-bar {
         background: url(../images/area-banners/food-production-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2157,7 +2156,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .equine-bar {
         background: url(../images/area-banners/equine-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2174,7 +2173,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .applied-forensic-science-bar {
         background: url(../images/area-banners/applied-forensic-science-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2190,7 +2189,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .marine-natural-science-conservation-bar {
         background: url(../images/area-banners/marine-natural-science-conservation-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2206,7 +2205,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .environmental-science-bar {
         background: url(../images/area-banners/environmental-science-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2223,7 +2222,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .construction-bar {
         background: url(../images/area-banners/construction-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2239,7 +2238,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .electrical-bar {
         background: url(../images/area-banners/electrical-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2255,7 +2254,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .automotive-bar {
         background: url(../images/area-banners/automotive-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2271,7 +2270,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .boatbuilding-bar {
         background: url(../images/area-banners/boatbuilding-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2287,7 +2286,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .construction-plant-bar {
         background: url(../images/area-banners/construction-plant-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }
@@ -2303,7 +2302,7 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .aerospace-bar {
         background: url(../images/area-banners/aerospace-desktop.jpg);
-        background-size:contain;
+
         background-position:50% 0;
         background-repeat: no-repeat;
     }

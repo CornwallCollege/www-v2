@@ -9,8 +9,8 @@ CACHE:
 {% for page in site.pages %}{% if page.url != '/manifest.appcache' %}{{ page.url }}{% endif %}
 {% endfor %}
 
-/bundles/mini-v8.24.js
-/bundles/mini-v8.24.css 
+/bundles/mini-v8.25.js
+/bundles/mini-v8.25.css 
 
 {% for item in site.static_files %}{% if item.extname != '.php' %}{{ item.path }}
 {% endif %}{% endfor %}
