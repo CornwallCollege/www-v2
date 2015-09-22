@@ -13,8 +13,10 @@ markdown: kramdown
 exclude: [vendor]
 
 # Plugins
-asset_bundler: 
-  bundle_name: mini-v8.23
+asset_bundler:
+  bundle_name: mini-v8.24
+  bundle_name: mini-v8.24
+
   compress:
     js: closure
     css: yui

@@ -3,45 +3,48 @@
 $errList = array();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
+
     $email = validateEmail(validatePostField('email', 'Email Address', $errList), $errList);
     $name = validatePostField('name', 'Name', $errList);
-    $phone = validatePhone(validatePostField('phone', 'Contact number', $errList), $errList);        
-    
-    $type = test_input($_POST['source']);        
-    
+    $phone = validatePhone(validatePostField('phone', 'Contact number', $errList), $errList);
+
+    $type = test_input($_POST['source']);
+
     if ($type == "application") {
-        $careerInterest = validatePostField('interest', 'Career Interest', $errList);        
+        $careerInterest = validatePostField('interest', 'Career Interest', $errList);
         $topic = "Career Interest: $careerInterest";
         $subject = $name.": ".$careerInterest;
     } else if ($type == "career-help") {
-        $careerInterest = test_input($_POST['interest']);        
+        $careerInterest = test_input($_POST['interest']);
         $topic = "Career help with: $careerInterest";
         $subject = $name.": Career Help";
         $type = "career help request";
     } else {
-        $question = validatePostField('question', 'Question', $errList);        
+        $question = validatePostField('question', 'Question', $errList);
         $topic = "Question: $question";
         $subject = $name.": Question";
     }
     $when = $_POST['when'];
-    $note = $_POST['note'];  
-    
-    if(count($errList)==0) {         
+
+    $note = $_POST['note'];
+
+    if(count($errList)==0) {
         $details  = "Name: $name\n";
         $details .= "Email: $email\n";
-        $details .= "Contact: $phone\n";        
-        $details .= "$topic\n";        
-        sendEmailToLearner($email, $type, $details);     
-        sendEmailToEnquiries($email, $type, $details, $subject, $when, $note);        
+        $details .= "Contact: $phone\n";
+        $details .= "$topic\n";
+        sendEmailToLearner($email, $type, $details);
+
+        sendEmailToEnquiries($email, $type, $details, $subject, $when, $note);
+
     }else{
-        http_response_code(400);   
+        http_response_code(400);
         echo json_encode($errList);
         exit();
     }
 
 }else{
-    http_response_code(400); 
+    http_response_code(400);
     exit();
 }
 
@@ -49,9 +52,11 @@ function sendEmailToEnquiries($email, $type, $details, $subject, $when, $note) {
     $whenText = "";
     if (isset($when)) $whenText = " submitted:".$when;
     $noteText = "";
-    if (isset($note)) $noteText = " notes:".$note;    
+
+    if (isset($note)) $noteText = " notes:".$note;
+
     $pageText = " page:".$_SERVER['HTTP_REFERER'];
-    $headers = "From: $email";    
+    $headers = "From: $email";
     $body = "Online ".ucfirst($type).":\n\n";
     $body .= $details;
     $body .= "\n\n(".$whenText.$noteText.$pageText.")";
@@ -59,10 +64,10 @@ function sendEmailToEnquiries($email, $type, $details, $subject, $when, $note) {
     if (stripos($body, "ccgtest") == false) {
         $send = mail($to, $subject, $body, $headers);
     }
-    $send = mail('mtest@cornwall.ac.uk', "$subject (dev team copy)", $body, $headers);        
+    $send = mail('mtest@cornwall.ac.uk', "$subject (dev team copy)", $body, $headers);
 }
 
-function sendEmailToLearner($email, $type, $details) {    
+function sendEmailToLearner($email, $type, $details) {
     $subject = "Cornwall College ".ucfirst($type);
     $body = "Thank for your $type, we recieved the following from you:\n\n";
     $body .= $details;
@@ -98,8 +103,8 @@ function validatePhone($phone, &$errList) {
 function validatePostField($field, $message, &$errList) {
     if(empty($_POST[$field]))
     {
-        $errList[] = array("field"=> $field,"message"=> "$message is required."); 
-    }else{        
+        $errList[] = array("field"=> $field,"message"=> "$message is required.");
+    }else{
         return test_input($_POST[$field]);
     }
 }
@@ -109,6 +114,6 @@ function test_input($data) {
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;
-}  
+}
 
 ?>

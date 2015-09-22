@@ -75,13 +75,17 @@ $(document).ready(function () {
         });
 
         function storeApplicationToLocalStorage(application) {
+
             application.data += "&when=" + encodeURI(new Date().toString());
             application.data += "&note=" + encodeURI("could be from marketing event (sent when offline)");
+
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(application);
             storage.set("posts", posts);
+
             storage.remove("pageparams");
+
             $('#modalApplicationDelayed .btn-primary').click(function () {
                 document.location = "/success/index.html";
             });
@@ -98,7 +102,9 @@ $(document).ready(function () {
             $(".alert-danger").remove();
             $('#success').hide();
             var data = $(form).serialize();
+
             data += "&when=" + encodeURI(new Date().toString());
+
             $(form).ajaxSubmit({
                 type: "POST",
                 data: data,

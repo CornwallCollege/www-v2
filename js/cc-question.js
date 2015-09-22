@@ -54,12 +54,14 @@ $(document).ready(function () {
         cc.question.form.validation();
 
         cc.question.storeToLocalStorage = function(message) {
+
             message.data += "&when=" + encodeURI(new Date().toString());
             message.data += "&note=" + encodeURI("could be from marketing event (sent when offline)");
+
             var storage = $.localStorage;
             var posts = storage.get("posts") || [];
             posts.push(message);
-            storage.set("posts", posts);
+            storage.set("posts", posts);            
             $("#ask-a-question-button").click();
             $('#modalQuestionDelayed').modal('show');
         }
@@ -67,11 +69,13 @@ $(document).ready(function () {
         cc.question.sendNow = function(form) {
             $('#question-error').html('');
             $('#question-submit-btn').prop("disabled", true);
+
             var data = $(form).serialize();
             data += "&when=" + encodeURI(new Date().toString());
             $(form).ajaxSubmit({
                 type: "POST",
                 data: data,
+
                 url: "/include/process.php",
                 success: function () {
                     $('#question-submit-btn').prop("disabled", false);
