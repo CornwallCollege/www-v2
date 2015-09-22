@@ -2357,6 +2357,79 @@ APPLY BARS =====================================================================
         background-position-x: 10%;
     }      
 }
+
+/*desktops*/
+    #aerospace,
+    #construction-plant,
+    #boatbuilding,
+    #automotive,
+    #electrical,
+    #construction,
+    #environmental-science,
+    #marine-natural-science-conservation,
+    #applied-forensic-science,
+    #equine,
+    #food-production,
+    #countryside-management,
+    #agriculture-horticulture,
+    #animal-science-management,
+    #health,
+    #social-care,
+    #sport,
+    #childrens-workforce,
+    #hair-beauty,
+    #performing-arts,
+    #media-digital-creativity,
+    #travel-visitor-attractions,
+    #catering-hospitality,
+    #digital-technologies,
+    #health-safety,
+    #sales-marketing,
+    #business-admin,
+    #education-teaching,
+    #sales-marketing #education-teaching,
+    #accountancy-financial,
+    #a-levels,
+    #engineering,
+    #public-services,
+    #legal,
+    .aerospace-bar,
+    .construction-plant-bar,
+    .boatbuilding-bar,
+    .automotive-bar,
+    .electrical-bar,
+    .construction-bar,
+    .environmental-science-bar,
+    .marine-natural-science-conservation-bar,
+    .applied-forensic-science-bar,
+    .equine-bar,
+    .food-production-bar,
+    .countryside-management-bar,
+    .agriculture-horticulture-bar,
+    .animal-science-management-bar,
+    .health-bar,
+    .social-care-bar,
+    .sport-bar,
+    .childrens-workforce-bar,
+    .hair-beauty-bar,
+    .performing-arts-bar,
+    .media-digital-creativity-bar,
+    .travel-visitor-attractions-bar,
+    .catering-hospitality-bar,
+    .digital-technologies-bar,
+    .health-safety-bar,
+    .business-admin-bar,
+    .sales-marketing-bar,
+    .education-teaching-bar,
+    .accountancy-financial-bar,
+    .a-levels-bar,
+    .engineering-bar,
+    .public-services-bar,
+    .fulltime-bar,
+    .legal-bar{
+        background-size:cover;
+    }
+
 /*iPads*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
     #aerospace,
@@ -2429,9 +2502,10 @@ APPLY BARS =====================================================================
     .legal-bar{
         background-size: auto 768px;
         z-index: 1;
-        background-size:cover;
+        background-size:initial;
     } 
 }
+
 
 .margin-top {
     margin-top: 70px;
