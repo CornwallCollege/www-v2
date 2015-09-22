@@ -2429,6 +2429,7 @@ APPLY BARS =====================================================================
     .legal-bar{
         background-size: auto 768px;
         z-index: 1;
+        background-size:cover;
     } 
 }
 
