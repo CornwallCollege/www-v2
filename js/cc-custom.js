@@ -53,7 +53,7 @@
                var hash = location.hash.replace('#', '').toLowerCase();
                if(hash.length)
                {
-                   showPopup(hash);    
+                   showPopup(hash);
                }
            */
 
@@ -74,7 +74,7 @@
        });
 
        /* MENU TOGGLING - 1.7 update
-   
+
    */
        if ($("#cbp-spmenu-s2").length) {
            var openRightPush = document.getElementById('openRightPush'),
@@ -90,7 +90,7 @@
 
        /* the id="menu-container" has to be added to the one-page template,
           to the <div class="container"> of the <nav id="cbp-spmenu-s2">
-          
+
        */
 
        if ($("#menu-container").length) {
@@ -161,18 +161,18 @@
            });
 
            var thenDoThis1 = function (e, p) {
-               if ($(window).width() <= 480) {
+               if ($(window).width() <= 1024) {
                     e.style.opacity = Math.min(1, p * 1.5);
                }
            };
-           window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
+           window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 5, 33);
 
            var thenDoThis2 = function (e, p) {
-               if ($(window).width() <= 480) {
+               if ($(window).width() <= 1024) {
                    e.style.opacity = 0.25 + Math.max(0, p);
                }
            };
-           window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
+           window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 5, 50);
 
        }
 
@@ -228,9 +228,9 @@
                    scrollTop: $('#' + id).offset().top - 50
                }, 500);
                return false;
-           }    
+           }
        });
-       
+
        $(function () {
            window.desktopRedirectOrMobileSmoothScrollTo = function (id, url) {
                if ($(window).width() <= 480) {
@@ -243,9 +243,9 @@
                return false;
            };
        });
-       
+
        $(function () {
-           window.restoreZoomAndScrollTo = function(id) {            
+           window.restoreZoomAndScrollTo = function(id) {
                 //var scale = 'scale(1)';
                 //document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
                 //document.body.style.msTransform =   scale;       // IE 9
@@ -255,10 +255,10 @@
                 return false;
            };
        });
-       
+
        // prevent default action on example career expand
         jQuery('.collapsed').bind('click',function(e){
               e.preventDefault();
         });
-       
+
    })(jQuery);
