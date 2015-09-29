@@ -162,10 +162,14 @@
 
            var thenDoThis1 = function (e, p) {
                if ($(window).width() <= 480) {
+                    e.style.opacity = Math.min(1, p);
+                    return;
+               }
+               if ($(window).width() <= 1024) {
                     e.style.opacity = Math.min(1, p * 1.5);
                }
            };
-           window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 3, 33);
+           window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 6, 33);
 
            var thenDoThis2 = function (e, p) {
                if ($(window).width() <= 480) {
