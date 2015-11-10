@@ -1,4 +1,21 @@
-   /* SUPER SLIDES OPTIONS */
+/* SWIPER options (home page)*/
+
+    var swiperH = new Swiper('.swiper-container-h', {
+        pagination: '.swiper-pagination-h',
+        paginationClickable: true,
+        spaceBetween: 50,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    var swiperV = new Swiper('.swiper-container-v', {
+        pagination: '.swiper-pagination-v',
+        paginationClickable: true,
+        direction: 'vertical',
+        spaceBetween: 50
+    });
+
+
+/* SUPER SLIDES OPTIONS */
    if ($("#slides").length) {
        $('#slides').superslides({
            animation: 'fade',
@@ -53,7 +70,7 @@
                var hash = location.hash.replace('#', '').toLowerCase();
                if(hash.length)
                {
-                   showPopup(hash);    
+                   showPopup(hash);
                }
            */
 
@@ -74,7 +91,7 @@
        });
 
        /* MENU TOGGLING - 1.7 update
-   
+
    */
        if ($("#cbp-spmenu-s2").length) {
            var openRightPush = document.getElementById('openRightPush'),
@@ -90,7 +107,7 @@
 
        /* the id="menu-container" has to be added to the one-page template,
           to the <div class="container"> of the <nav id="cbp-spmenu-s2">
-          
+
        */
 
        if ($("#menu-container").length) {
@@ -232,9 +249,9 @@
                    scrollTop: $('#' + id).offset().top - 50
                }, 500);
                return false;
-           }    
+           }
        });
-       
+
        $(function () {
            window.desktopRedirectOrMobileSmoothScrollTo = function (id, url) {
                if ($(window).width() <= 480) {
@@ -247,9 +264,9 @@
                return false;
            };
        });
-       
+
        $(function () {
-           window.restoreZoomAndScrollTo = function(id) {            
+           window.restoreZoomAndScrollTo = function(id) {
                 //var scale = 'scale(1)';
                 //document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
                 //document.body.style.msTransform =   scale;       // IE 9
@@ -259,10 +276,10 @@
                 return false;
            };
        });
-       
+
        // prevent default action on example career expand
         jQuery('.collapsed').bind('click',function(e){
               e.preventDefault();
         });
-       
+
    })(jQuery);
