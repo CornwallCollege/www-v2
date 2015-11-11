@@ -7,22 +7,32 @@ link: index.php
     <!-- Swiper -->
     <div class="swiper-container swiper-container-h">
         <div class="swiper-wrapper">
-            <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
+            <div class="swiper-slide home">
+                <div class="swiper-container swiper-container-v">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
+                        <div class="swiper-slide home">{% include sweeper-slide-whats-on.html %}</div>
+                    </div>
+                </div>              
+            </div>
             <div class="swiper-slide">
                 <div class="swiper-container swiper-container-v">
                     <div class="swiper-wrapper ">
                         <div class="swiper-slide where">{% include sweeper-slide-where.html %}</div>
                         <div class="swiper-slide ">Vertical Slide 2</div>
-                        <div class="swiper-slide ">Vertical Slide 3</div>
-                        <div class="swiper-slide ">Vertical Slide 4</div>
-                        <div class="swiper-slide ">Vertical Slide 5</div>
                     </div>
-                    <div class="swiper-pagination swiper-pagination-v"></div>
                 </div>
             </div>
             <div class="swiper-slide what">{% include sweeper-slide-what.html %}</div>
             <div class="swiper-slide how">{% include sweeper-slide-how.html %}</div>
-            <div class="swiper-slide career">{% include sweeper-slide-career.html %}</div>
+            <div class="swiper-slide career">
+                <div class="swiper-container swiper-container-v">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide career">{% include sweeper-slide-career.html %}</div>
+                        <div class="swiper-slide ">Vertical Slide 2</div>
+                    </div>
+                </div>                
+            </div>
         </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>

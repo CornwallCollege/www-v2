@@ -11,7 +11,8 @@
         pagination: '.swiper-pagination-v',
         paginationClickable: true,
         direction: 'vertical',
-        spaceBetween: 50
+        spaceBetween: 50,
+        nextButton: '.swiper-button-more',        
     });
 
 
@@ -198,9 +199,9 @@
        }
 
 
-       /* FULL-TIME-HUB - Job Lookup */
+       /* CAREER-slide - Job Lookup */
        $(document).ready(function () {
-           if (location.pathname.indexOf("full-time-hub") !== -1) {
+           if (location.pathname.indexOf("") !== -1) {
                SimpleJekyllSearch.init({
                    searchInput: document.getElementById('jobs-input'),
                    resultsContainer: document.getElementById('jobs-results'),
@@ -283,3 +284,22 @@
         });
 
    })(jQuery);
+
+// SOCIALFEED init
+    $(document).ready(function(){
+        $('.social-feed-container').socialfeed({
+
+        // FACEBOOK
+        facebook:{
+            accounts: ['@118833098184945'],  //Array: Specify a list of accounts from which to pull wall posts
+            limit: 10,                                   //Integer: max number of posts to load
+            access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c'         //String: "APP_ID|APP_SECRET"
+        },
+
+
+            // GENERAL SETTINGS
+            show_media: true,
+            length:400                                      //Integer: For posts with text longer than this length, show an ellipsis.
+        });
+    });
+

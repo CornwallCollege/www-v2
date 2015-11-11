@@ -126,7 +126,9 @@ h2.apprenticeships {
 p.white{
     color: white
 }
-
+.white{
+    color:white!important;
+}
 @media(max-width:991px) {
     h2.apprenticeships, h2.leisure {
         font-size: 50px!important;
@@ -3246,10 +3248,22 @@ textarea {
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+        overflow-x: scroll;
     }
+
+
     .swiper-container-v {
         background: #eee;
     }
+.plus-button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.plus-button i{
+    color:white;
+    font-size:3rem;
+}
 /* slide background colours*/
     .swiper-wrapper .home{
         background: #52B3D9;
@@ -3280,7 +3294,7 @@ textarea {
 @media screen and (max-device-width: 420px){
         .sweeper-slide h1{
             font-size: 4rem;
-            margin-top:200px;
+            margin-top:120px;
         }
         .sweeper-slide h2{
             font-size: 2rem;
@@ -3324,4 +3338,8 @@ textarea {
         color:white;
     }
 }
+/* CAREER side */
+    .career-bg{
+        background-color:#7D7EBB;
+    }
 /* SWIPER styles ends
