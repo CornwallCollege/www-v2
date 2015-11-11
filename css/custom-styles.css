@@ -3250,6 +3250,7 @@ textarea {
     .swiper-container-v {
         background: #eee;
     }
+/* slide background colours*/
     .swiper-wrapper .home{
         background: #52B3D9;
     }
@@ -3266,4 +3267,61 @@ textarea {
         background: #666798;
     }
 
+/* slide font styles */
+    .sweeper-slide h1,
+    .sweeper-slide p{
+        color:white;
+    }
+    .sweeper-slide h1{
+        font-size: 9rem;
+        font-weight:300;
+    }
+
+@media screen and (max-device-width: 420px){
+        .sweeper-slide h1{
+            font-size: 4rem;
+            margin-top:200px;
+        }
+        .sweeper-slide h2{
+            font-size: 2rem;
+        }    
+    }
+/* slide input styles */
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+      background-image: none;
+      right: 20px;
+      left: auto;
+    }
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+      background-image: none;
+      left: 20px;
+    }
+    .swiper-button-next i,
+    .swiper-button-prev i {
+        font-size:11rem;
+        color:white;
+    }
+    .swiper-button-next{
+    
+    }
+    .swiper-button-disabled{
+        display:none;
+    }
+@media screen and (max-device-width: 420px){
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+    }    
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+    }    
+    .swiper-button-next i,
+    .swiper-button-prev i {
+        font-size:6rem;
+        color:white;
+    }
+}
 /* SWIPER styles ends
