@@ -270,7 +270,7 @@ if (typeof Object.create !== 'function') {
                                 if (element.entities.media && element.entities.media.length > 0) {
                                     var image_url = element.entities.media[0].media_url;
                                     if (image_url) {
-                                        post.attachment = '<img class="attachment" src="' + image_url + '" />';
+                                        post.attachment = '' + image_url + '';
                                     }
                                 }
                             }
@@ -330,7 +330,7 @@ if (typeof Object.create !== 'function') {
                         } else if (element.object_id) {
                             image_url = Feed.facebook.graph + element.object_id + '/picture/?type=normal';
                         }
-                        return '<img class="attachment" src="' + image_url + '" />';
+                        return image_url;
                     },
                     getExternalImageURL: function(image_url, parameter) {
                         image_url = decodeURIComponent(image_url).split(parameter + '=')[1];

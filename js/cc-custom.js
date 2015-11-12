@@ -201,7 +201,7 @@
 
        /* CAREER-slide - Job Lookup */
        $(document).ready(function () {
-           if (location.pathname.indexOf("") !== -1) {
+           if (location.pathname === "/") {
                SimpleJekyllSearch.init({
                    searchInput: document.getElementById('jobs-input'),
                    resultsContainer: document.getElementById('jobs-results'),
@@ -291,7 +291,7 @@
 
         // FACEBOOK
         facebook:{
-            accounts: ['@118833098184945'],  //Array: Specify a list of accounts from which to pull wall posts
+            accounts: ['@369758859743435'],  //Array: Specify a list of accounts from which to pull wall posts
             limit: 10,                                   //Integer: max number of posts to load
             access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c'         //String: "APP_ID|APP_SECRET"
         },

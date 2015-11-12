@@ -26,22 +26,6 @@ link: 14-18
 
 
 <section class="container main-section-margins ">
-        <section class="col-sm-12 blue-bg bar2 career-search">
-         <h2 class="text-uppercase">WHAT’S YOUR DREAM <strong style="color:white;">Career</strong>?</h2>
-            <div class="col-sm-6 col-sm-offset-3 ">
-                <form  class="form-horizontal" role="form" novalidate="novalidate" onsubmit="return window.restoreZoomAndScrollTo('jobs-input');" >
-                    <label for="jobs-input" ><i class="fa fa-search"></i></label>
-                    <input type="text" data-items="10" id="jobs-input" class="form-control" placeholder="search...">
-                </form>
-                <div><ul id="jobs-results"></ul></div>
-            </div>
-            <div class="col-sm-4 col-sm-offset-4 text-center">
-                <a class="btn ghost light" onclick="window.smoothScrollTo('topOfClusters');"><span>Not sure, browse our</span>&nbsp;<span><strong>Subjects</strong></span></a>
-            </div>
-            <div class="col-sm-4 col-sm-offset-4 text-center">
-                <a class="btn ghost light" href="/career-help"><span>or, book now for your</span>&nbsp;<span><strong>free</span>&nbsp;<span></strong>20 minute consultation</span></a>
-            </div>
-        </section>
 
         <!-- list of clusters(ish) -->
         <section id="career-list" class="container">
@@ -92,6 +76,19 @@ link: 14-18
                         <span>Automotive - Boatbuilding - Construction - Construction Plant - Engineering</span>
                         </a>
                     </li>
+                    <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <a href="#" class="transition et" data-filter=".ed">
+                            <h3>Education</h3>
+                        <span>????????</span>
+                        </a>
+                    </li>      
+                    <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <a href="#" class="transition et" data-filter=".dig">
+                            <h3></h3>
+                            <h3>Digital</h3>
+                        <span>????????</span>
+                        </a>
+                    </li>                       
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -635,12 +632,12 @@ link: 14-18
 
         </section>
         <div class="clearfix"></div>
-        <section class="col-sm-12 blue-bg bar2 career-search">
+        <!-- <section class="col-sm-12 blue-bg bar2 career-search">
             <h2 class="text-uppercase">Or <strong style="color:white;">Why Not</strong>...</h2>
             <div class="col-sm-4 col-sm-offset-4 text-center">
                 <a class="btn ghost light" href="//www.cornwall.ac.uk/advanced-search"><span>Search</span>&nbsp;<span>for a <strong>course</strong></span></a>
             </div>
-        </section>
+        </section> -->
         <div class="clearfix"></div>
     </section>
 
@@ -657,12 +654,12 @@ link: 14-18
 
 
     <!-- CAREER section ends -->
-
-    <!-- events SECTION
-====================================================================== -->
-    {% include events.html %}
-
-
+    <!-- socialfeed #career -->
+<section class="container main-section-margins">
+    <section class="portfolio-items container">
+        <ul id="portfolio-grid" class="grid-layout more-padding hover-effect social-feed-container"></ul>
+    </section>  
+</section>    
     <!-- why you choose us section -->
 
     <section class="col-md-12  main-section-padding dark-bg intro">

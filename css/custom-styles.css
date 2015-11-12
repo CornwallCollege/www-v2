@@ -3345,7 +3345,7 @@ textarea {
 /* SWIPER styles ends
 
 /* SOCIAL FEED styles */
-/* Plugin styles */
+/* Plugin styles 
 .social-feed-element.hidden{
     background-color:red !important;
 }
@@ -3369,7 +3369,7 @@ textarea {
     -ms-interpolation-mode: bicubic;
 }
 
-/* Link styles */
+/* Link styles 
 .social-feed-element a {
     color: #0088cc;
     text-decoration: none;
@@ -3386,7 +3386,7 @@ textarea {
     text-decoration: underline;
 }
 
-/* Text styles */
+/* Text styles 
 .social-feed-element small {
     font-size: 85%;
 }
@@ -3411,7 +3411,7 @@ textarea {
     -webkit-box-orient: vertical;
 }
 
-/* Message styles */
+/* Message styles 
 .social-feed-element,
 .social-feed-element .media-body {
     overflow: hidden;
