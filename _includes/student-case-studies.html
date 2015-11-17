@@ -1,0 +1,19 @@
+<!-- student case studies -->
+<section class="col-md-12 main-section-margins student-case-study">
+    <section class="col-md-12 main-section-margins intro">
+      <article class="col-sm-12 text-center"> <h2>OUR <strong>STUDENTS</strong></h2> </article>
+    </section>
+      <section class="container">
+
+          <ul>
+            <!-- STUDENT 1 -->
+                {% include student-case-studies-student.html studentImage=include.studentImage1 studentName=include.studentName1 studentRole=include.studentRole1 studentQuote=include.studentQuote1 %}
+            <!-- STUDENT 2 -->
+                {% include student-case-studies-student.html studentImage=include.studentImage2 studentName=include.studentName2 studentRole=include.studentRole2 studentQuote=include.studentQuote2 %}
+            <!-- STUDENT 3 -->
+                {% include student-case-studies-student.html studentImage=include.studentImage3 studentName=include.studentName3 studentRole=include.studentRole3 studentQuote=include.studentQuote3 %}
+          </ul>
+
+      </section>
+</section>
+<!-- END OF TEAM MEMBERS CAROUSEL -->

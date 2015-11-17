@@ -3373,3 +3373,8 @@ textarea {
         margin-bottom: 0px;
     }
 }
+/* STUDENT CASE STUDY styles */
+.student-case-study ul li {
+    list-style: none;
+}
+/* ends STUDENT CASE STUDY styles */
