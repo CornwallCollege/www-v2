@@ -61,7 +61,7 @@
                 var campuses = [
                     {% assign posts = site.posts %}                   
                     {% for post in posts %}
-                        {% if post.category contains 'content/campus' %}
+                        {% if post.category contains 'content/campuses' %}
                             {% include campus-locations-location.html campus=post %}
                         {% endif %}
                     {% endfor %} 
