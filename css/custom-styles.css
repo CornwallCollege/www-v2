@@ -3378,3 +3378,45 @@ textarea {
     list-style: none;
 }
 /* ends STUDENT CASE STUDY styles */
+
+/*KEY STATS section*/
+.stats li{
+    padding:25px 10px;
+    min-height:200px;
+}
+.stats li:nth-child(odd){
+    background:rgba(255, 255, 255, 0.8)!important;
+}
+.stats li:nth-child(odd) h4{
+    color:#52B3D9!important;
+}
+section.key-stats{
+    z-index:-2; 
+    background-size: cover; 
+    background-position: 50% 0; 
+    background-attachment: fixed;
+    margin-bottom:-70px;
+    padding-top:80px;
+}
+section.key-stats:after{
+    background: url(../images/subtle_carbon.png) center repeat;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
+/* Campus Maps section */
+    #gmap_canvas {
+        position: relative;
+        height: 600px;
+        width: 100%;
+    }
+        
+    #gmap_canvas img {
+        max-width: none!important;
+        background: none!important
+    }
