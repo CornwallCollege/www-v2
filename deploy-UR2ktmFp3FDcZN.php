@@ -43,7 +43,7 @@ if (isset($_GET["branch"])){
             echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_MASTER_REPO_NAME} -d /var/www/html/m.cornwall.ac.uk/public 2>&1");
             die("done " . mktime());
         break;
-        case "develop":
+        case "octopus":
             if( file_exists($LOCAL_DEVELOP_REPO) ) {  
             // If there is already a repo, just run a git pull to grab the latest changes
             echo shell_exec("cd {$LOCAL_DEVELOP_REPO} && git reset --hard origin/develop");
