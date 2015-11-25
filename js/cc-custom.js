@@ -306,6 +306,110 @@
         });
     });
 
+//Campus Google Map script
+
+       $(document).ready(function () {
+            //GOOGLE MAP
+           if (location.pathname.indexOf("career-pages") !== -1) {           
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById('gmap_canvas'), {
+                    zoom: 9,
+                    center: {
+                        lat: 50.304513,
+                        lng: -5.000000
+                    },
+                    scrollwheel: false,
+                    styles: [{
+                                "featureType": "administrative",
+                                "stylers": [
+                                    { "visibility": "off" }
+                                ]
+                                }, {
+                                "featureType": "poi",
+                                "stylers": [
+                                    { "visibility": "off" }
+                                ]
+                                }, {
+                                "featureType": "road",
+                                "stylers": [
+                                    { "visibility": "off" }
+                                ]
+                                }, {
+                                "featureType": "landscape",
+                                "stylers": [
+                                    { "visibility": "off" }
+                                ]
+                                }, {
+                                "featureType": "water",
+                                "elementType": "geometry.fill",
+                                "stylers": [
+                                    { "saturation": -13 },
+                                    { "color": "#52b3d9" },
+                                    { "visibility": "on" }
+                                ]
+                                }, {
+                                "featureType": "transit",
+                                "stylers": [
+                                    { "visibility": "off" }
+                                ]
+                                }, {
+                                "featureType": "landscape",
+                                "elementType": "geometry.fill",
+                                "stylers": [
+                                    { "color": "#ffffff" },
+                                    { "visibility": "on" },
+                                    { "weight": 5.2 }
+                                ]
+                                }]                    
+                            });
+
+                
+                map.fitBounds(setMarkers(map));
+
+            }
+
+            function setMarkers(map) {
+                var bounds = new google.maps.LatLngBounds();
+
+                // Data for the markers consisting of a name, a LatLng and a zIndex for the
+                // order in which these markers should display on top of each other.
+                
+                //init the info window and set the max width
+                var infowindow = new google.maps.InfoWindow({
+                  maxWidth: 200
+                });
+                
+                //Loop through the loactions
+                for (var i = 0; i < campuses.length; i++) {
+                    var campus = campuses[i];
+                    var marker = new google.maps.Marker({
+                        position: {
+                            lat: campus[1],
+                            lng: campus[2]
+                        },
+                        map: map,
+                        //icon: image,
+                        //shape: shape,
+                        title: campus[0]
+                            //zIndex: beach[3]
+                    });
+                      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                        return function() {
+                          infowindow.setContent('<h4>'+campuses[i][0]+'</h4>'+'<a href="'+campuses[i][3]+'" class="campus-button">Visit our campus site</a>');
+                          infowindow.open(map, marker);
+                        }
+                      })(marker, i));     
+                    
+                     bounds.extend(marker.getPosition());
+
+                }
+                return bounds;
+            }
+
+                        google.maps.event.addDomListener(window, 'load', initMap);
+                       };
+            });
+
 // ADD back button navigation to home hash links
 
 $(function(){
