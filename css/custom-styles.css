@@ -3423,3 +3423,20 @@ section.key-stats:after{
     .no-padding{
         padding:0!important;
     }
+
+/* Apprenticeship vacancy section */
+    .intro p.border {
+        border-top: 4px solid #bbb;
+        padding-top: 20px;
+        margin-top: 15px;
+    }
+    #portfolio-scroll article.right{
+        padding-bottom: 15px;
+    }
+    #portfolio-scroll h4{
+        line-height: 1.2;    
+    }
+    #portfolio-scroll p strong{
+        color:#52B3D9;
+        text-transform: uppercase;
+    }

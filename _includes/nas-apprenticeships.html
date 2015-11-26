@@ -1,0 +1,24 @@
+<section id="portfolio-scroll" class="col-md-12 main-section-margins intro ">
+  <section class="container">
+      <section class="col-md-12 main-section-margins intro">
+        <article class="col-sm-12 text-center"><h2 class="text-uppercase">Apprenticeship <strong>Vacancies</strong> </h2></article>
+      </section>      
+    </section>
+
+    {% for vacancy in site.data.apprenticeships.Vacancies %}
+          {% if include.sectors contains vacancy.Sector  %}
+              <article class="col-sm-6 col-md-5 col-md-offset-1 left">
+                  <h4>{{ vacancy.Title }}</h4>
+              </article>
+
+              <article class="col-sm-6 col-md-5 right">
+                  
+                  <p class="border">{{ vacancy.Description }}</p>
+                    <p><strong>Location:</strong> {{vacancy.Location}}</p>
+                  <p><strong>Role:</strong> {{vacancy.Role}}  
+                    <br/><a href="{{vacancy.Link}}" class="btn" target="_blank">View Vacancy</a></p>
+              </article>
+          {% endif %}
+    {% endfor %}   
+    <a href="#" class="apply-btn btn text-center">View our appreniceship courses</a>
+   </section>
