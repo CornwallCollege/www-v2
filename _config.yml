@@ -10,7 +10,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
+exclude:
+  - [vendor]
+  - SupportCode
 
 # Plugins
 asset_bundler:
