@@ -281,6 +281,7 @@ namespace NasDataPull
             var service = PhantomJSDriverService.CreateDefaultService();
             service.SslProtocol = "any";
             service.IgnoreSslErrors = true;
+            service.ProxyType = "none";
             return new PhantomJSDriver(service);
             //return new ChromeDriver();
             //return new PhantomJSDriver();
