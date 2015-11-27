@@ -35,6 +35,7 @@ namespace NasDataPull
                                    Vacancies = vacancies.ToList()
                                };
                 var json = JsonConvert.SerializeObject(data, Formatting.Indented);
+                Console.WriteLine("Writing file to " + args[0] + "/apprenticeships.json");
                 File.WriteAllText(args[0] + "/apprenticeships.json", json);
             }            
             finally
