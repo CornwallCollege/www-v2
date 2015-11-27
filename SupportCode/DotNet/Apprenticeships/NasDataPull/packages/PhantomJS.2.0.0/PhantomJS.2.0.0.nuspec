@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PhantomJS</id>
+    <version>2.0.0</version>
+    <authors>Ariya Hidayat</authors>
+    <owners>Ariya Hidayat</owners>
+    <licenseUrl>https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD</licenseUrl>
+    <projectUrl>http://phantomjs.org/</projectUrl>
+    <iconUrl>http://wesleyhales.com/images/icons/phantomjs.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PhantomJS is a headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.</description>
+    <releaseNotes>New features
+
+  - Switched to Qt 5 and updated WebKit (issue 10448)
+  - Implemented clearing of memory cache (issue 10357)
+  - Added support for HTTP header change for every request (issue 11299)
+
+Improvements
+
+  - Fixed rendering of CJK text by always linking the codecs (issue 10249)
+  - Ensured onResourceReceived is still fired on an error (issue 11163)
+  - Fixed possible crash in handling network requests (issue 11252)
+  - Removed hardcoded GhostDriver launching message (issue 12681)
+  - Allowed disk cache more than 2 GB (issue 12303)
+
+Examples
+
+  - Netsniff example should exit when fails to load (issue 11333)</releaseNotes>
+    <copyright>© Copyright 2010-2015 Ariya Hidayat</copyright>
+    <tags>PhantomJS headless browser console UI web testing</tags>
+  </metadata>
+</package>
