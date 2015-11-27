@@ -18,25 +18,31 @@ namespace NasDataPull
 
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            try
             {
-                Console.WriteLine("Usage: NasDataPull.exe {path} (where path is the location of the Jekyll _data folder. The file apprenticeships.json is created in this _data folder specified.  This exe relies on PhantomJs headless internet browser needing firewall access to the outside)");
-                return;
+                if (args.Length == 0)
+                {
+                    Console.WriteLine("Usage: NasDataPull.exe {path} (where path is the location of the Jekyll _data folder. The file apprenticeships.json is created in this _data folder specified.  This exe relies on PhantomJs headless internet browser needing firewall access to the outside)");
+                    return;
+                }
+                _driver = GetDriver();
+                var roleSectors = GetAllSectorsRoles();
+                var vacancies = GetAllVacanciesForLearningProviders("Cornwall College,Duchy College,Bicton College");
+                DeriveSectorFromRole(vacancies, roleSectors);
+                var data = new NasData
+                               {
+                                   Sectors = roleSectors.Values.Distinct().OrderBy(x => x).ToList(),
+                                   Vacancies = vacancies.ToList()
+                               };
+                var json = JsonConvert.SerializeObject(data, Formatting.Indented);
+                File.WriteAllText(args[0] + "/apprenticeships.json", json);
+            }            
+            finally
+            {
+                _driver.Close();
+                _driver.Dispose();
+                _driver = null;
             }
-            _driver = GetDriver();
-            var roleSectors = GetAllSectorsRoles();
-            var vacancies = GetAllVacanciesForLearningProviders("Cornwall College,Duchy College,Bicton College");            
-            DeriveSectorFromRole(vacancies, roleSectors);
-            var data = new NasData
-                           {
-                               Sectors = roleSectors.Values.Distinct().OrderBy(x => x).ToList(),
-                               Vacancies = vacancies.ToList()
-                           };
-            var json = JsonConvert.SerializeObject(data, Formatting.Indented);
-            File.WriteAllText(args[0] + "/apprenticeships.json",json);   
-            _driver.Close();
-            _driver.Dispose();
-            _driver = null;
         }
 
         private static void DeriveSectorFromRole(IEnumerable<Vacancy> vacancies, Dictionary<string, string> roleSectors)
