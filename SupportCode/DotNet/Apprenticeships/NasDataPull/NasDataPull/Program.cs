@@ -278,8 +278,12 @@ namespace NasDataPull
 
         private static RemoteWebDriver GetDriver()
         {
+            var service = PhantomJSDriverService.CreateDefaultService();
+            service.SslProtocol = "any";
+            service.IgnoreSslErrors = true;
+            return new PhantomJSDriver(service);
             //return new ChromeDriver();
-            return new PhantomJSDriver();
+            //return new PhantomJSDriver();
         }
     }
 
