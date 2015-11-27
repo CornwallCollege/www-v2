@@ -33,7 +33,10 @@ namespace NasDataPull
                                Vacancies = vacancies.ToList()
                            };
             var json = JsonConvert.SerializeObject(data, Formatting.Indented);
-            File.WriteAllText(args[0] + "/apprenticeships.json",json);            
+            File.WriteAllText(args[0] + "/apprenticeships.json",json);   
+            _driver.Close();
+            _driver.Dispose();
+            _driver = null;
         }
 
         private static void DeriveSectorFromRole(IEnumerable<Vacancy> vacancies, Dictionary<string, string> roleSectors)
@@ -98,7 +101,7 @@ namespace NasDataPull
 
         private static Dictionary<string,string> GetAllSectorsRoles()
         {
-            _driver.Url = "https://apprenticeshipvacancymatchingservice.lsc.gov.uk/navms/forms/candidate/apprenticeships.aspx";
+            OpenPage("https://apprenticeshipvacancymatchingservice.lsc.gov.uk/navms/forms/candidate/apprenticeships.aspx");
             ChooseOccupationTypeJobRole();
             var roleSector = new Dictionary<string,string>();
             int dups = 0;
@@ -111,6 +114,13 @@ namespace NasDataPull
                 }                
             }            
             return roleSector;
+        }
+
+        private static void OpenPage(string url)
+        {
+            Console.WriteLine("Open page " + url);
+            _driver.Url = url;
+            Console.WriteLine("At page " + _driver.Url);
         }
 
         private static IEnumerable<string> GetRoles()
@@ -146,7 +156,7 @@ namespace NasDataPull
 
         private static IEnumerable<Vacancy> GetAllVacanciesForLearningProviders(string learningProviders)
         {
-            _driver.Url = "https://apprenticeshipvacancymatchingservice.lsc.gov.uk/navms/forms/Vacancy/SearchVacancy.aspx";
+            OpenPage("https://apprenticeshipvacancymatchingservice.lsc.gov.uk/navms/forms/Vacancy/SearchVacancy.aspx");
             var result = new List<Vacancy>();
             foreach (var learningProvider in learningProviders.Split(','))
             {
