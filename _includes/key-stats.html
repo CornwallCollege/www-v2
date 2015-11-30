@@ -6,5 +6,11 @@
         {% include key-stats-stat.html stat=include.stat3 %}
         {% include key-stats-stat.html stat=include.stat4 %}
         </ul>
+<section class="col-sm-12 health-bar apply-bar margin-top clearfix" style="background:none;">
+    <div class="container">
+                <h2>Take the first step in your new career</h2>
+                <a onclick="redirectTo('/apply/index.html?hash={{page.career | replace:' ','-' | downcase }}')" class="apply-btn btn" data-career="{{ page.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
+    </div>
+        </section>
     </div> 
 </section>
