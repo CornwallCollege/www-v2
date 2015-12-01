@@ -3408,6 +3408,9 @@ section.key-stats:after{
     opacity: 0.7;
     z-index: -1;
 }
+.key-stats .apply-bar h2:before{
+    background: none;
+}
 /* Campus Maps section */
     #gmap_canvas {
         position: relative;
