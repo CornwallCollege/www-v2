@@ -3395,7 +3395,6 @@ section.key-stats{
     background-size: cover; 
     background-position: 50% 0; 
     background-attachment: fixed;
-    margin-bottom:-70px;
     padding-top:80px;
 }
 section.key-stats:after{
@@ -3439,4 +3438,15 @@ section.key-stats:after{
     #portfolio-scroll p strong{
         color:#52B3D9;
         text-transform: uppercase;
+    }
+    #portfolio-scroll > .btn {
+        background: transparent;
+        border: 5px #52B3D9 solid;
+        color: #52B3D9;
+        opacity: 1;
+        padding: 10px 30px;
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 120px;
     }

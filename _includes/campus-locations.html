@@ -1,3 +1,10 @@
+
+<section class="container">
+    <section class="col-md-12 main-section-margins intro">
+            <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
+    </section> 
+</section>    
+<section class="col-md-12 no-padding">  
     <script>
                 var campuses = [
                     {% assign posts = site.posts | sort:"code"  %}                   
@@ -9,14 +16,9 @@
                         {% endif %}
                     {% endfor %} 
                 ];      
-    </script>
+    </script>    
 
-<section class="col-md-12 no-padding">  
-    <section class="col-md-12 main-section-margins intro">    
-        <article class="col-sm-12 text-center">
-                <h2>COURSE <strong>LOCATIONS</strong></h2>
-        </article>
-    </section>    
     <!-- map -->
     <div id="gmap_canvas"></div>
 </section>    
+
