@@ -3248,7 +3248,6 @@ textarea {
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-        overflow-x: scroll;
     }
 
 
@@ -3302,7 +3301,7 @@ video {
         color:white;
     }
     .sweeper-slide h1{
-        font-size: 9rem;
+        font-size: 6rem;
         font-weight:300;
     }
 
@@ -3463,8 +3462,95 @@ section.key-stats:after{
         color: #52B3D9;
         opacity: 1;
         padding: 10px 30px;
-        font-weight: 700;
         font-size: 24px;
         margin-top: 30px;
         margin-bottom: 120px;
+        font-family: railway
     }
+/* Select or die styles */
+
+.cover
+    {
+        width: 100%;
+        height: 100%;
+        background: #000000 url(../../!pix/bg.jpg) center no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid #000000;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    .cover_sod
+        {
+            position: relative;
+            top:40px;
+            left: 120px;
+            -webkit-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                    transform: translate(-50%,-50%);
+            width: auto;
+            max-width: 500px;
+            min-width: 250px;
+            background: rgba(0,0,0,.3);
+            border:5px solid #ffffff;
+            border-radius: 0;
+            padding: 12px 20px;
+            color: #ffffff;
+            font-size: 46px;
+            font-weight: 400;
+            font-family: 'Raleway', serif;
+        }
+
+        .cover_sod:hover
+            {
+                background: rgba(0,0,0,.3);
+                border-color: #ffffff;
+            }
+
+        .cover_sod.open
+            {
+                background: #ffffff;
+                border-color: #ffffff;
+                color: #000000;
+                border-radius: 0;
+            }
+
+        .cover_sod.focus { border-color: #ffffff; }
+
+        .cover_sod:before
+            {
+                content: "";
+                top: 50%;
+                right: 20px;
+                -webkit-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                width: 24px;
+                height: 18px;
+                background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjQgMTcuNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMTcuNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjQsMHYzLjRIMFYwSDI0eiBNMCwxMC41aDI0VjcuMUgwVjEwLjV6IE0wLDE3LjZoMjR2LTMuNEgwVjE3LjZ6Ii8+DQo8L3N2Zz4NCg==);
+            }
+            .cover_sod.open:before { background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjQgMTcuNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMTcuNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjQsMHYzLjRIMFYwSDI0eiBNMCwxMC41aDI0VjcuMUgwVjEwLjV6IE0wLDE3LjZoMjR2LTMuNEgwVjE3LjZ6Ii8+DQo8L3N2Zz4NCg==); }
+
+            .cover_sod:after { display: none; }
+
+        .cover_sod .sod_label { padding-right: 30px; }
+
+        .cover_sod .sod_list_wrapper
+            {
+                top: calc(100% + 10px);
+                width: calc(100% + 10px);
+                margin-left: -5px;
+                border: none;
+                border-radius: 0;
+                font-size: 20px;
+                font-weight: 300;
+            }
+
+            .cover_sod .sod_option { 
+                padding: 15px 30px;
+                font-size: 16px;
+
+            }
+            .sod_select .sod_option.active {
+                background: #52b3d9;
+                color:white;
+            }
+
