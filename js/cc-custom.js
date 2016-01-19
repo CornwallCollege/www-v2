@@ -436,3 +436,10 @@ $(function(){
 });
 
 // Custom Google map settings
+
+// Select or die dropdown 
+$("select").selectOrDie({
+    links: true,
+    // Option below is not needed
+    placeholderOption: true
+});

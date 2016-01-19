@@ -5,36 +5,20 @@ link: index.php
 ---
 
     <!-- Swiper -->
+<video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="videos/polina.webm" type="video/webm">
+        <source src="/videos/343380914.mp4" type="video/mp4">
+    </video>
     <div class="swiper-container swiper-container-h">
         <div class="swiper-wrapper">
             <div class="swiper-slide home">
                 <div class="swiper-container swiper-container-v">
                     <div class="swiper-wrapper" >
+                            
                         <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
                         <div class="swiper-slide home">{% include sweeper-slide-whats-on.html %}</div>
                     </div>
                 </div>              
             </div>
-            <div class="swiper-slide">
-                <div class="swiper-container swiper-container-v">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide where">{% include sweeper-slide-where.html %}</div>
-                        <div class="swiper-slide ">Vertical Slide 2</div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide what">{% include sweeper-slide-what.html %}</div>
-            <div class="swiper-slide how">{% include sweeper-slide-how.html %}</div>
-            <div class="swiper-slide career">
-                <div class="swiper-container swiper-container-v">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide career">{% include sweeper-slide-career.html %}</div>
-                        <div class="swiper-slide ">Vertical Slide 2</div>
-                    </div>
-                </div>                
-            </div>
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
-        <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
     </div>
