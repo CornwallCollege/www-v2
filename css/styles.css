@@ -7001,6 +7001,20 @@ form textarea.error {
         margin-bottom: 30px
     }
 }
+
+/* CAREER COURSE LINK STYLES */
+.career-course{
+    padding-top:10px;
+    background: #f1f1f1
+}
+.career-course:nth-child(odd){
+    background: white;
+}
+.career-course .btn{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom:10px;    
+}
 /* =================================
  *
         FOOTER
