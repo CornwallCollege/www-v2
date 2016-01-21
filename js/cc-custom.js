@@ -443,3 +443,5 @@ $("select").selectOrDie({
     // Option below is not needed
     placeholderOption: true
 });
+
+// Select random video to play on home page

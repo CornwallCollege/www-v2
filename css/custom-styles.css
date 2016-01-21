@@ -3553,4 +3553,17 @@ section.key-stats:after{
                 background: #52b3d9;
                 color:white;
             }
+        /* The native select in touch mode. Keep this first line. Sorry, keep everything. */
+        .sod_select.touch select
+            {
+                color:black;
+                font-size:.5em;
+            }
+
+@media(max-width:570px){
+            .cover_sod {
+                font-size: 3.5rem;
+                margin-bottom: 10px;
+            }
+}
 
