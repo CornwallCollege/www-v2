@@ -55,7 +55,20 @@ if (isset($_GET["branch"])){
             // rebuild jekyl
             echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_DEVELOP_REPO_NAME} -d /var/www/html/mtest.cornwall.ac.uk/public 2>&1");
             die("done " . mktime());
-        break;        
+        break; 
+        case "octopus":
+            if( file_exists($LOCAL_DEVELOP_REPO) ) {  
+            // If there is already a repo, just run a git pull to grab the latest changes
+            echo shell_exec("cd {$LOCAL_DEVELOP_REPO} && git reset --hard origin/octopus");
+            echo shell_exec("cd {$LOCAL_DEVELOP_REPO} && git pull 2>&1 ");      
+            } else {
+            // If the repo does not exist, then clone it into the parent directory
+            echo shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO} 2>&1 && git submodule foreach git pull 2>&1");
+            }
+            // rebuild jekyl
+            echo shell_exec("jekyll build -V -s {$LOCAL_ROOT}/{$LOCAL_DEVELOP_REPO_NAME} -d /var/www/html/mtest.cornwall.ac.uk/public 2>&1");
+            die("done " . mktime());
+        break; 
         
 //end branch specific
 }
