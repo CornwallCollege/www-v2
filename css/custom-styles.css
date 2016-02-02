@@ -653,17 +653,108 @@ footer a.btn{
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+.cc-brand-logo{}
+.cc-brand-logo img{
+    width:174px;
+    height:174px;
+}
+.sub-brand{
+    top: 46px;
+    display: block;
+    float: left;
+    position: relative;
+    padding: 0px 5px;
+}
+.sub-brand img{
+    width:120px;
+    height:120px;    
+}
 
+.current-brand img{
+    top: 15px;
+    width:174px;
+    height:174px;    
+}
+.current-brand{
+    display: block;
+    float:left;
+    top: 10px;
+    padding: 0px 5px;   
+    position: relative;
+    z-index: 999;
+}
+.grow { transition: all .5s ease-in-out; }
+.grow:hover { transform: scale(1.4); }
+
+/*MOBILE styles*/
+@media (min-width:600px) and (max-width:768px){
+    .sub-brand img{
+        width:90px;
+        height:90px;    
+    }
+    .current-brand img{
+        top: 15px;
+        width:120px;
+        height:120px;    
+    }       
+    .sub-brand{
+        top: 25px;
+    }
+}
 @media(max-width:400px) {
-    #logo-wrapper {
+    /*#logo-wrapper {
         margin-left: 10px;
-    }
-    #cc-logo {
-        width: 80px;
-    }
+    }*/
     .cc-logo-scroll {
         margin-top: -58px;
     }
+}
+@media(max-width:599px){
+    .sub-brand img,
+    .current-brand img{
+        width:100px;
+        height:100px;         
+    }
+    .sub-brand,
+    .current-brand{
+        top: 10px;
+    }    
+    div#logo-wrap :nth-child(2),
+    div#logo-wrap :nth-child(3),
+    div#logo-wrap :nth-child(4){
+        margin-left:-102px;
+    }
+    div#logo-wrap :nth-child(2){
+        z-index:998;
+    }
+    div#logo-wrap :nth-child(3){
+        z-index:997;
+    }    
+    div#logo-wrap :nth-child(4){
+        z-index:996;
+    } 
+
+    div#logo-wrap .active :nth-child(2),
+    div#logo-wrap .active :nth-child(3),
+    div#logo-wrap .active :nth-child(4){
+        margin-top:102px;
+    }    
+    /*ACTIVE STATE*/
+    div#logo-wrap .active:nth-child(2),
+    div#logo-wrap .active:nth-child(3),
+    div#logo-wrap .active:nth-child(4){
+       margin-left:-110px;     
+    }
+    div#logo-wrap .active:nth-child(2){
+       top:115px;
+    }
+    div#logo-wrap .active:nth-child(3){
+       top:220px;
+    }    
+    div#logo-wrap .active:nth-child(4){
+       top:325px;
+
+    }      
 }
 /* ------------- Logo styles ENDS --------------*/
 /* ------------- Menu styles ----------------*/

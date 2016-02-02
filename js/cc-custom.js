@@ -445,3 +445,32 @@ $("select").selectOrDie({
 });
 
 // Select random video to play on home page
+
+/* sub band alter for mobile
+$('#logo-wrap .current-brand').click(function(e){
+    if(!$('#logo-wrap').children().hasClass('active')) {
+        $('#logo-wrap').removeClass('active');
+        $('#logo-wrap').children().addClass('active');   
+        $('#logo-wrap').delay(1000).removeClass('active');
+        e.preventDefault();
+
+});
+
+*/
+
+$('#logo-wrap .current-brand').click(function(e){
+    if(!$('#logo-wrap').children().hasClass('active')) {
+        $('#logo-wrap').removeClass('active');
+        $('#logo-wrap').children().addClass('active');   
+        e.preventDefault();
+    } else {
+        return true;
+    }    
+});  
+// 
+    $(document).click(function(e){
+        if ($(e.target).is('.brand-image') === false) {
+          $("#logo-wrap").children().removeClass("active");
+        }
+    });
+//
