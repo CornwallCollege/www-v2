@@ -22,5 +22,5 @@ asset_bundler:
   bundle_name: mini-v8.34
 
   compress:
-    js: false
-    css: yui
+    js: closure-compiler
+    css: false
