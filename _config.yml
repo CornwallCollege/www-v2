@@ -23,4 +23,4 @@ asset_bundler:
 
   compress:
     js: false
-    css: false
+    css: yui
