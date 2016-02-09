@@ -13,11 +13,14 @@ markdown: kramdown
 exclude:
   - [vendor]
   - SupportCode
+  
+gems:
+   - closure-compiler
 
 # Plugins.
 asset_bundler:
   bundle_name: mini-v8.34
 
   compress:
-    js: closure
-    css: yui
+    js: false
+    css: false
