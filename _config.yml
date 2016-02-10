@@ -19,7 +19,7 @@ gems:
 
 # Plugins.
 asset_bundler:
-  bundle_name: mini-v8.42
+  bundle_name: mini-v8.43
 
   compress:
     js: false
