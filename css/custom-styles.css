@@ -3624,7 +3624,7 @@ section.key-stats:after{
         .cover_sod .sod_list_wrapper
             {
                 top: calc(100% + 10px);
-                width: calc(100% + 10px);
+                width: 100%;
                 margin-left: -5px;
                 border: none;
                 border-radius: 0;
