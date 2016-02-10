@@ -3572,22 +3572,23 @@ section.key-stats:after{
     .cover_sod
         {
             position: relative;
-            top:40px;
-            left: 120px;
+            top: 40px;
+            left: 240px;
             -webkit-transform: translate(-50%,-50%);
-                -ms-transform: translate(-50%,-50%);
-                    transform: translate(-50%,-50%);
-            width: auto;
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            width: 100%;
             max-width: 500px;
             min-width: 250px;
             background: rgba(0,0,0,.3);
-            border:5px solid #ffffff;
+            border: 5px solid #ffffff;
             border-radius: 0;
             padding: 12px 20px;
             color: #ffffff;
             font-size: 46px;
             font-weight: 400;
             font-family: 'Raleway', serif;
+            text-align: center;
         }
 
         .cover_sod:hover
@@ -3653,8 +3654,12 @@ section.key-stats:after{
 
 @media(max-width:570px){
             .cover_sod {
-                font-size: 3.5rem;
+                font-size: 3.2rem;
                 margin-bottom: 10px;
+                left: 50%;
             }
+            .sweeper-slide h1{
+                font-size: 4rem;
+            }    
 }
 
