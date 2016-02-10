@@ -10,8 +10,8 @@ function isOnline(func) {
             func.no();
         }
     }
-    xhr.open("GET", "anypage.php", true);
-    xhr.send();
+//    xhr.open("GET", "anypage.php", true);
+//    xhr.send();
 }
 
 function redirectTo(url) {

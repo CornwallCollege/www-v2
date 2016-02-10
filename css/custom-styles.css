@@ -3325,8 +3325,8 @@ textarea {
         text-align: center;
         font-size: 18px;
         background:none;
-
-        /* Center slide text vertically */
+    }
+    #home-slide {
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -3339,20 +3339,33 @@ textarea {
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+        height:100%;
+        width: 100%;
     }
-
-
+    .whats-on{
+        overflow: auto;   
+    }
     .swiper-container-v {
         background: rgba(0, 0, 0, 0.4); 
     }
-.plus-button{
-    position: absolute;
+.plus-button,
+.less-button{
+    position: fixed;
     bottom: 0;
+    z-index: 9999;
+    left: 0;
     width: 100%;
 }
-.plus-button i{
+.plus-button i,
+.less-button i{
     color:white;
     font-size:3rem;
+}
+.whats-on-wrap{
+    padding-top:20%;
+}
+.whats-on-wrap h1{
+    color:white;
 }
 /* Home page video background*/
 video { 
@@ -3369,23 +3382,6 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-/* slide background colours*/
-    .swiper-wrapper .home{
-        /*background: #52B3D9;*/
-    }
-    .swiper-wrapper .where{
-        background: #6ACA6B;
-    }
-    .swiper-wrapper .what{
-        background: #FDCA2E;
-    }
-    .swiper-wrapper .how{
-        background: #FD676A;
-    }
-    .swiper-wrapper .career{
-        background: #666798;
-    }
-
 /* slide font styles */
     .sweeper-slide h1,
     .sweeper-slide p{
@@ -3654,12 +3650,11 @@ section.key-stats:after{
 
 @media(max-width:570px){
             .cover_sod {
-                font-size: 3.2rem;
+                font-size: 2.7rem;
                 margin-bottom: 10px;
                 left: 50%;
             }
             .sweeper-slide h1{
-                font-size: 4rem;
+                font-size: 3.5rem;
             }    
 }
-

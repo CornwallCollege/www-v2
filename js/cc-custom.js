@@ -12,7 +12,9 @@
         paginationClickable: true,
         direction: 'vertical',
         spaceBetween: 50,
-        nextButton: '.swiper-button-more',        
+        nextButton: '.swiper-button-more', 
+        prevButton: '.swiper-button-less', 
+        
     });
 
 
@@ -201,7 +203,7 @@
 
        /* CAREER-slide - Job Lookup */
        $(document).ready(function () {
-           if (location.pathname === "/") {
+           if (location.pathname === "career-pages") {
                SimpleJekyllSearch.init({
                    searchInput: document.getElementById('jobs-input'),
                    resultsContainer: document.getElementById('jobs-results'),
@@ -302,7 +304,7 @@
 
             // GENERAL SETTINGS
             show_media: true,
-            length:400                                      //Integer: For posts with text longer than this length, show an ellipsis.
+            length:280                                      //Integer: For posts with text longer than this length, show an ellipsis.
         });
     });
 
@@ -411,7 +413,7 @@
             });
 
 // ADD back button navigation to home hash links
-
+/*
 $(function(){
     if (location.pathname === "/") {  
       // Bind an event to window.onhashchange that, when the hash changes, gets the
@@ -434,7 +436,7 @@ $(function(){
       $(window).hashchange();
     }
 });
-
+*/
 // Custom Google map settings
 
 // Select or die dropdown 
