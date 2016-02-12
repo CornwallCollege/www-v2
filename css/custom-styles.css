@@ -494,21 +494,6 @@ section h2 strong {
         z-index: 999;
         position: relative;
     }
-    /*--Added mobile bounce animation home page menu--*/
-    .bounce {
-        animation-iteration-count: 2;
-        -webkit-animation-iteration-count: 2;
-        -moz-animation-iteration-count: 2;
-        -o-animation-iteration-count: 2;
-        -ms-animation-iteration-count: 2;
-        -webkit-animation-delay: 4s;
-        /* Chrome, Safari, Opera */
-        animation-delay: 4s;
-        -webkit-animation-duration: .5s;
-        -moz-animation-duration: .5s;
-        -o-animation-duration: .5s;       
-        animation-duration: .5s;        
-    }
     .btn-wrap a {
         font-size: 14px
     }
@@ -583,6 +568,8 @@ section h2 strong {
     .portal {
         position: absolute;
         top: 0;
+        margin-top: 15%;
+}
     }
     .portal a.ghost {
         width: 100%;
@@ -645,8 +632,7 @@ footer a.btn{
 /*---------------- Ghost button styles ENDS ---------------*/
 /* --------------- Logo styles -----------------*/
 
-.cc-logo-scroll {
-    margin-top: -84px;
+#cc-logo{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -683,8 +669,20 @@ footer a.btn{
     position: relative;
     z-index: 999;
 }
-.grow { transition: all .5s ease-in-out; }
-.grow:hover { transform: scale(1.4); }
+.grow { 
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.grow:hover { 
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+}
 
 /*MOBILE styles*/
 @media (min-width:600px) and (max-width:768px){
@@ -756,6 +754,32 @@ footer a.btn{
 
     }      
 }
+/*============== on scroll STYLES ===============*/
+
+    div.logo-wrap-scroll .sub-brand img,
+    div.logo-wrap-scroll .current-brand img{
+        width:100px;
+        height:100px;         
+    }
+    div.logo-wrap-scroll .sub-brand,
+    div.logo-wrap-scroll .current-brand{
+        top: 10px;
+    }    
+    div.logo-wrap-scroll :nth-child(2),
+    div.logo-wrap-scroll :nth-child(3),
+    div.logo-wrap-scroll :nth-child(4){
+        margin-left:-102px;
+    }
+    div.logo-wrap-scroll :nth-child(2){
+        z-index:998;
+    }
+    div.logo-wrap-scroll :nth-child(3){
+        z-index:997;
+    }    
+    div.logo-wrap-scroll :nth-child(4){
+        z-index:996;
+    }   
+
 /* ------------- Logo styles ENDS --------------*/
 /* ------------- Menu styles ----------------*/
 

@@ -66,7 +66,7 @@
 
 
        $(document).ready(function () {
-           $('#loader').fadeOut(1500);
+           $('#loader').fadeOut(800);
            /*
                $(window).load(function() { // makes sure the whole site is loaded
 
@@ -77,25 +77,36 @@
                }
            */
 
-           /* Shrink logo on scroll */
-           window.addEventListener('scroll', function (e) {
-               var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                   shrinkOn = 300,
-                   logo = document.getElementById("cc-logo");
-               if (distanceY > shrinkOn) {
-                   classie.add(logo, "cc-logo-scroll");
-               } else {
-                   if (classie.has(logo, "cc-logo-scroll")) {
-                       classie.remove(logo, "cc-logo-scroll");
-                   }
-               }
-           });
+  
+
 
        });
+        /* Shrink logo on scroll */
+       $(function() {
+            var logoWrap = $("#logo-wrap");
+            var currentBrand = $(".current-brand");
+            $(window).scroll(function() {    
+                var scroll = $(window).scrollTop();
 
-       /* MENU TOGGLING - 1.7 update
-
-   */
+                if (scroll >= 500) {
+                    //if page scrolls add scroll class and remove active class
+                    logoWrap.removeClass("logo-wrap").addClass("logo-wrap-scroll");
+                    currentBrand.addClass("current-brand-scroll");
+                    $("#logo-wrap").children().removeClass("active");
+                    
+                    // Add click to expand logo cluster
+                    $( ".brand-image" ).click(function() {
+                        logoWrap.removeClass("logo-wrap-scroll")
+                    });
+                    
+                } else {
+                    // if its at the top of the page
+                    logoWrap.removeClass("logo-wrap-scroll").addClass('logo-wrap');
+                }
+            });
+        });
+       
+       /* MENU TOGGLING - 1.7 update*/
        if ($("#cbp-spmenu-s2").length) {
            var openRightPush = document.getElementById('openRightPush'),
                menuRight = document.getElementById('cbp-spmenu-s2'),
@@ -462,3 +473,25 @@ $('#logo-wrap .current-brand').click(function(e){
           $("#logo-wrap").children().removeClass("active");
         }
     });
+
+//isotope for social feed section of the home page
+$(window).load(function() {
+
+    // cache container
+    var $container = $('.grid');
+    // initialize isotope
+    $container.isotope({
+        // options...
+        animationEngine: 'best-available',
+        itemSelector: '.isotope_selector'
+    });
+
+    // filter items when filter link is clicked
+    $('#isotope_filters li a').on('click', function() {
+        var selector = $(this).data('filter');
+        $container.isotope({
+        filter: selector
+        });
+
+    });
+});
