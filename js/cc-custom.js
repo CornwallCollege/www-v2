@@ -474,6 +474,7 @@ $('#logo-wrap .current-brand').click(function(e){
         }
     });
 
+
 //isotope for social feed section of the home page
 $(window).load(function() {
 
