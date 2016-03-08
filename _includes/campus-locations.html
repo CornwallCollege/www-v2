@@ -7,7 +7,7 @@
 <section class="col-md-12 no-padding">  
     <script>
                 var campuses = [
-                    {% assign posts = site.posts | sort:"code"  %}                   
+                    {% assign posts = site.data.campus | sort:"code"  %}                   
                     {% for campus in posts %}
                         {% if campus.category contains 'content/campus' %}
                             {% if include.campuscodes contains campus.code %}
