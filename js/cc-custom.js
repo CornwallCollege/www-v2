@@ -458,22 +458,51 @@ $("select").selectOrDie({
 });
 
 // resposive logo; first click open second click follow link
-
-$('#logo-wrap .current-brand').click(function(e){
-    if(!$('#logo-wrap').children().hasClass('active')) {
-        $('#logo-wrap').removeClass('active');
-        $('#logo-wrap').children().addClass('active');   
-        e.preventDefault();
-    } else {
-        return true;
-    }    
-});  
-    $(document).click(function(e){
-        if ($(e.target).is('.brand-image') === false) {
-          $("#logo-wrap").children().removeClass("active");
-        }
+    $('#logo-wrap .current-brand').click(function(e){
+        if(!$('#logo-wrap').children().hasClass('active')) {
+                $('#logo-wrap').removeClass('active');
+                $('#logo-wrap').children().addClass('active');   
+                e.preventDefault();
+        } else {
+            return true;
+        }    
+    });  
+        $(document).click(function(e){
+            if ($(e.target).is('.brand-image') === false) {
+              $("#logo-wrap").children().removeClass("active");
+            }
     });
+    
+        /* Shrink logo on scroll */
+       $(function() {
+            var logoWrap = $("#logo-wrap");
+            var currentBrand = $(".current-brand");
+            $(window).scroll(function() {    
+                var scroll = $(window).scrollTop();
 
+                if (scroll >= 300) {
+                    //if page scrolls add scroll class and remove active class
+                    logoWrap.removeClass("logo-wrap").addClass("logo-wrap-scroll");
+                    currentBrand.addClass("current-brand-scroll");
+                    $("#logo-wrap").children().removeClass("active");
+                    
+                    // Add click to expand logo cluster
+                    $( ".brand-image" ).click(function() {
+                        logoWrap.removeClass("logo-wrap-scroll")
+                    });
+                    
+                    //add active class to white bg behind logos (slides down)
+                    $('#white-nav-bg').addClass('active'); 
+                    
+                } else {
+                    // if its at the top of the page
+                    logoWrap.removeClass("logo-wrap-scroll").addClass('logo-wrap');
+                    //remove active class at the top of the page
+                    $('#white-nav-bg').removeClass('active');
+                    
+                }
+            });
+        });
 
 //isotope for social feed section of the home page
 $(window).load(function() {
