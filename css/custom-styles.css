@@ -3369,7 +3369,7 @@ textarea {
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background:none;
+        background: rgba(0, 0, 0, 0.4); 
     }
     #home-slide {
         display: -webkit-box;
@@ -3391,7 +3391,7 @@ textarea {
         overflow: auto;   
     }
     .swiper-container-v {
-        background: rgba(0, 0, 0, 0.4); 
+        
     }
 .plus-button,
 .less-button{
@@ -3414,7 +3414,7 @@ textarea {
 }
 /* Home page video background*/
 video { 
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -3423,9 +3423,9 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
+    background: url('') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
 }
 /* slide font styles */
     .sweeper-slide h1,

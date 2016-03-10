@@ -1,31 +1,43 @@
----
-layout: landing
-title: Home
-link: index.php
+--- 
+layout: landing 
+title: Home 
+link: index.php 
 ---
 
-    <!-- Swiper -->
-    <div class="swiper-container swiper-container-h">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide home">
-                <div class="swiper-container swiper-container-v">
-                    <div class="swiper-wrapper" >
-                            
-                        <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
-                        <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
-                    </div>
-                </div>              
+<!-- Swiper -->
+<div class="swiper-container swiper-container-h">
+    <div class="swiper-wrapper">
+        <div id="cornwall-brand" class="swiper-slide home" data-logo="cc" data-hash="cornwall">
+            <div class="swiper-container swiper-container-v">
+                <div class="brand-video"></div>
+                <div class="swiper-wrapper">
+
+
+                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
+                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
+                </div>
             </div>
+        </div>
+        <!-- Horizontal slides here -->
+        <div id="duchy-brand" class="swiper-slide" data-logo="dc" data-hash="duchy">
+            <div class="swiper-container swiper-container-v">
+               <div class="brand-video"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
+                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
+                </div>
+            </div>    
+        </div>
+        <div id="falmouth-brand" class="swiper-slide" data-logo="fms" data-hash="falmouth">
+            <div class="swiper-container swiper-container-v">
+                <div class="brand-video"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
+                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
+                </div>                
+            </div>
+        </div>
+        <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">Bicton
+        <div class="brand-video"></div></div>
     </div>
-<script>
-        var videos = [
-            '342934498',
-            '342960541',
-            '343380914'
-        ];
-
-        var index=Math.floor(Math.random() * videos.length);
-        var html='<video autoplay  poster="" id="bgvid" loop><source src="videos/'+ videos[index] +'.mp4" type="video/webm"><source src="/videos/' + videos[index] + '.webm" frameborder="0" allowfullscreen></iframe></div>'; 
-    
-        document.write(html);
-</script>
+</div>

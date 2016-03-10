@@ -3775,4 +3775,4 @@ else if (typeof define === 'function' && define.amd) {
         return window.Swiper;
     });
 }
-//# sourceMappingURL=maps/swiper.jquery.js.map
+// sourceMappingURL=maps/swiper.jquery.js.map

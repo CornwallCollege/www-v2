@@ -3,21 +3,103 @@
     var swiperH = new Swiper('.swiper-container-h', {
         pagination: '.swiper-pagination-h',
         paginationClickable: true,
-        spaceBetween: 50,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
+        spaceBetween: 0,
+        hashnav: true
     });
     var swiperV = new Swiper('.swiper-container-v', {
         pagination: '.swiper-pagination-v',
         paginationClickable: true,
         direction: 'vertical',
-        spaceBetween: 50,
+        spaceBetween: 0,
         nextButton: '.swiper-button-more', 
         prevButton: '.swiper-button-less', 
         
     });
 
+/* Swiper brand navigation */
+    changeCurrentLogo(); 
 
+    swiperH.on('slideChangeStart', function(){
+      changeCurrentLogo(); 
+    });               
+    
+    function loadVideo(slide) {
+        var video_options = [
+            {
+                brand: 'cornwall',
+                videos: ['clouds','steps', 'steps']
+            },
+            {
+                brand: 'duchy',
+                videos: ['cow','cows']
+            },
+            {
+                brand: 'falmouth',
+                videos:  ['ocean','pier','port','seagull']
+            },
+            {
+                brand: 'bicton',
+                videos:  []
+            },          
+        ]
+        
+        if(!$(slide).hasClass('video-in')) {
+             var brand = $(slide).attr('data-hash');
+             var brand_info = $.grep(video_options, function (e){return e.brand===brand;});
+             var videos = brand_info[0].videos;
+             var index = Math.floor(Math.random() * videos.length);
+             $(slide).find('.brand-video').html('<video autoplay  poster="" id="bgvid" loop><source src="videos/'+brand +'/' + videos[index] + '.mp4" type="video/webm"><source src="/videos/'+brand +'/' + videos[index] + '.webm" frameborder="0" allowfullscreen></video>');
+            $(slide).addClass('video-in');
+        }    
+    }
+
+    function changeCurrentLogo() {
+           
+      
+        
+        
+        var slide = swiperH.slides[swiperH.activeIndex];
+        var logo = $(slide).attr('data-logo');
+        $('.logo').removeClass('current-brand');
+        $('.logo').addClass('sub-brand grow');
+        
+        loadVideo(slide);
+        if(swiperH.slides.length > swiperH.activeIndex+1) {
+             loadVideo(swiperH.slides[swiperH.activeIndex+1]);
+        }
+        
+        if (swiperH.activeIndex>0) {
+            loadVideo(swiperH.slides[swiperH.activeIndex-1]);
+        }
+        
+        $('#'+logo+'-logo').parent().parent().parent().removeClass('sub-brand grow');
+        $('#'+logo+'-logo').parent().parent().parent().addClass('current-brand');
+            
+    }
+
+    $('#cc-logo').click(function(e){
+        e.preventDefault();
+        swiperH.slideTo(0, 1000, false);
+        changeCurrentLogo();
+    })
+    $('#dc-logo').click(function(e){
+        e.preventDefault();
+        swiperH.slideTo(1, 1000, false);
+        changeCurrentLogo();
+    })
+    $('#fms-logo').click(function(e){
+        e.preventDefault();
+        swiperH.slideTo(2, 1000, false);
+        changeCurrentLogo();
+    })
+    $('#bic-logo').click(function(e){
+        e.preventDefault();
+        swiperH.slideTo(3, 1000, false);
+        changeCurrentLogo();
+    })    
+
+
+/* swiper ends */
 /* SUPER SLIDES OPTIONS */
    if ($("#slides").length) {
        $('#slides').superslides({
@@ -525,4 +607,6 @@ $(window).load(function() {
 
     });
 });
+
+
 // file ends
