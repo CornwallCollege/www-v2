@@ -42,7 +42,7 @@ $(function(){
                 },
                 {
                     brand: 'bicton',
-                    videos:  []
+                    videos:  ['grass','tree']
                 },          
             ]
 

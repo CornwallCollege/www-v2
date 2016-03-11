@@ -37,7 +37,13 @@ link: index.php
                 </div>                
             </div>
         </div>
-        <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">Bicton
-        <div class="brand-video"></div></div>
+        <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">
+            <div class="swiper-container swiper-container-v">
+                <div class="brand-video"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
+                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
+                </div>                
+            </div>
     </div>
 </div>
