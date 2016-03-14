@@ -1,0 +1,49 @@
+
+{% for campus in site.data.campus-overview %}
+<section id="{{ campus.anchor }}" class="campus-overview">
+    <section class="container">
+        <a name="{{ campus.anchor }}"></a>
+                <section class="col-xs-12">
+                    
+                    <article class="col-sm-12 col-md-8">
+                        <h2>{{ campus.brand }} <strong>{{ campus.campus }}</strong></h2>
+                    </article>
+                    <article class="col-sm-12 col-md-8">
+                        <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;">{{ campus.contact-number }}</span></h5>                        
+                        {{ campus.copy }}
+                    </article>
+                    <section class="container">
+                    <article class="col-sm-12 col-md-4 campus-seach" >
+                        <h4><span>Courses@</span>{{ campus.campus }}</h4>
+                        <form method="get" id="searchform" action="http://open-for-business.cornwall.ac.uk/www-v2/">
+                            <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
+                            <div class="input-group-addon transition campus-seach-button">
+                                <button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button>
+                            </div>
+                            <input type="hidden" name="post_type" value="courses">
+                            <input type="hidden" name="campus" value="{{ campus.anchor }}">
+                        </form>
+                    </article>
+                    </section>    
+       
+                </section>
+        <section class="col-xs-12">
+            <section class="hidden-xs">
+            {% for image in campus.images %}
+                <div class="col-xs-12 col-sm-3 col-lg-3 blog-post-thumbnails">
+                    <a href="{{ image.link }}" data-lightbox="blog-gallery" title="{{ image.title }}" data-title="{{ image.title }}" rel="thickbox">
+                        <img src="{{ image.thumb }}" width="150" height="150" alt="{{ image.alt }}" class="img-square img-border img-fade img-responsive transition">
+                    </a>
+                </div>
+            {% endfor %}
+
+            </section>    
+            
+            <article class="col-sm-12 col-md-12">
+                <a title='view all courses in this area' href='{{ site.course_site_baseurl }}{{ campus.link }}' class="btn campus-link">View {{ campus.campus }} campus page</a>
+            </article>    
+                           
+        </section>
+    </section>
+</section>    
+{% endfor %}

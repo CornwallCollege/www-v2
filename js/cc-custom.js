@@ -455,7 +455,7 @@ $(function(){
                   maxWidth: 200
                 });
                 
-                //Loop through the loactions
+                //Loop through the locations
                 for (var i = 0; i < campuses.length; i++) {
                     var campus = campuses[i];
                     var marker = new google.maps.Marker({
@@ -466,15 +466,31 @@ $(function(){
                         map: map,
                         //icon: image,
                         //shape: shape,
-                        title: campus[0]
+                        title: campus[0],
+                        anchor: campus[4]
                             //zIndex: beach[3]
                     });
-                      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+               if(location.pathname.indexOf("location-hub") !== -1){
+                   
+                    // stuff just for the location hub map
+                        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                            return function() {
+//                            //window.location.href = this.anchor;
+                               //window.smoothScrollTo = this.anchor;
+                                window.smoothScrollTo(this.anchor)
+                            }    
+                        })(marker, i));      
+                    
+                } else {
+                    
+                       google.maps.event.addListener(marker, 'click', (function(marker, i) {
                         return function() {
                           infowindow.setContent('<h4>'+campuses[i][0]+'</h4>'+'<a href="'+campuses[i][3]+'" class="campus-button">Visit our campus site</a>');
                           infowindow.open(map, marker);
                         }
-                      })(marker, i));     
+                      })(marker, i));                     
+                    
+                }
                     
                      bounds.extend(marker.getPosition());
 
@@ -588,6 +604,5 @@ $(window).load(function() {
 
     });
 });
-
 
 // file ends

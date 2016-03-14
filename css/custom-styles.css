@@ -3571,7 +3571,166 @@ section.key-stats:after{
     .no-padding{
         padding:0!important;
     }
+/* Campus Overview / Location hub */
+.campus-overview{
+    padding: 20px 0 50px 0;
+}
+.campus-link{
+    font-size:1.5em;
+}
+@media(max-width:768px){
+    .campus-link{
+        font-size:1.2em;
+        width:100%;
+        white-space: normal;
+    }    
+}
+.campus-overview article h2,
+.campus-overview article h5,
+.campus-overview article p{
+    color:white;
+}
+/* Bicton Campus */
+#bicton{
+    background: #77BC43;
+}
+#bicton h2 strong,
+#bicton h5 span{
+    color: white;
+}
+#bicton .campus-seach{
+    background: white;
+}
+#bicton .campus-seach h4{
+    color: #77BC43;
+}
+#bicton .form-control{
+    border: solid 2px #77BC43;
+}
+#bicton .campus-link{
+    background: white;
+    color:#77BC43
+}
+#bicton .campus-seach-button{
+    background: #77BC43;
+}
+#bicton .campus-seach-button i{
+    color: white
+}
+/* camborne, newquay, saltash, st austell */
+#camborne,
+#newquay,
+#saltash,
+#st-austell{
+    background: #004b93;
+}
+/* Eden Campus */
+#eden-project{
+    background:#BF0D0D;
+}
+#eden-project h2 strong,
+#eden-project h5 span{
+    color: white;
+}
+#eden-project .campus-seach{
+    background: white;
+}
+#eden-project .campus-seach h4{
+    color: #BF0D0D;
+}
+#eden-project .form-control{
+    border: solid 2px #BF0D0D;
+}
+#eden-project .campus-link{
+    background: white;
+    color:#bf0d0d
+}
+#eden-project .campus-seach-button{
+    background: #bf0d0d;
+}
+#eden-project .campus-seach-button i{
+    color: white
+}
+/* Stoke Campus */
+#stoke,
+#rosewarne{
+    background: #007B4C;
+}
+#stoke h2 strong,
+#rosewarne h2 strong,
+#stoke h5 span,
+#rosewarne h5 span{
+    color: white;
+}
+#stoke .campus-seach,
+#rosewarne .campus-seach{
+    background: white;
+}
+#stoke .campus-seach h4,
+#rosewarne .campus-seach h4{
+    color:  #007B4C;
+}
+#stoke .form-control,
+#rosewarne .form-control{
+    border: solid 2px  #007B4C;
+}
+#stoke .campus-link,
+#rosewarne .campus-link{
+    background: white;
+    color: #007B4C
+}
+#stoke .campus-seach-button,
+#rosewarne .campus-seach-button{
+    background:  #007B4C;
+}
+#stoke .campus-seach-button i,
+#rosewarne .campus-seach-button i{
+    color: white
+}
 
+/* Falmouth Campus */
+#falmouth-marine-school{
+    background: #00A5B4;
+}
+#falmouth-marine-school h2 strong,
+#falmouth-marine-school h5 span{
+    color: white;
+}
+#falmouth-marine-school .campus-seach{
+    background: white;
+}
+#falmouth-marine-school .campus-seach h4{
+    color:  #00A5B4;
+}
+#falmouth-marine-school .form-control{
+    border: solid 2px  #00A5B4;
+}
+#falmouth-marine-school .campus-link{
+    background: white;
+    color: #00A5B4
+}
+#falmouth-marine-school .campus-seach-button{
+    background:  #00A5B4;
+}
+#falmouth-marine-school .campus-seach-button i{
+    color: white
+}
+
+.campus-seach{
+    background: #52b3d9;
+    padding:20px;    
+}
+.campus-seach h4{
+    color:white;
+    margin: 0 0 20px ;
+}
+.campus-seach h4 span {
+    font-weight: normal
+}
+.campus-seach-button{
+    margin-top: 15px;
+    background-color: #eee;
+}
 /* Apprenticeship vacancy section */
     .intro p.border {
         border-top: 4px solid #bbb;
