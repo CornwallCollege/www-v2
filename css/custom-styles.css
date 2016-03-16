@@ -3628,6 +3628,33 @@ section.key-stats:after{
 #st-austell{
     background: #004b93;
 }
+#dbs{
+   background: #AB1D88;
+}
+#dbs h2 strong,
+#dbs h5 span{
+    color: white;
+}
+#dbs .campus-seach{
+    background: white;
+}
+#dbs .campus-seach h4{
+    color: #AB1D88;
+}
+#dbs .form-control{
+    border: solid 2px #AB1D88;
+}
+#dbs .campus-link{
+    background: white;
+    color:#AB1D88
+}
+#dbs .campus-seach-button{
+    background: #AB1D88;
+}
+#dbs .campus-seach-button i{
+    color: white
+}
+
 /* Eden Campus */
 #eden-project{
     background:#BF0D0D;
