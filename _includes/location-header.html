@@ -1,0 +1,14 @@
+<!-- HEADER SECTION -->
+<section id="{{ page.campus | replace:' ','-' | downcase }}" class="col-md-12 jumbotron header-title campus-title">
+    <header class="container">
+        <h2><a href="/"><small>Home / </small></a><a href="/location-hub/index.html"><small> Location Hub</small></a>
+            <span>
+            {% if include.title %}
+                {{ include.title | capitalize }}
+            {% else %}
+                {{ page.title | capitalize }}
+            {% endif %}
+         </span></h2>
+    </header>
+</section>
+<!-- END OF HEADER -->
