@@ -25,3 +25,5 @@ asset_bundler:
   compress:
     js: false
     css: false
+
+relative_permalinks: false
