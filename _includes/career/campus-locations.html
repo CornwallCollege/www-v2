@@ -5,7 +5,7 @@
                     {% for campus in posts %}
                         {% if campus.category contains 'content/campus' %}
                             {% if include.campuscodes contains campus.code %}
-                                {% include campus-locations-location.html campus=campus %}
+                                {% include /career/campus-locations-location.html campus=campus %}
                             {% endif %}
                         {% endif %}
                     {% endfor %} 
