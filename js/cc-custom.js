@@ -583,6 +583,24 @@ $("select").selectOrDie({
             });
         });
 
+    /* Set brand cookie on home */
+    $(function(){
+        if (location.pathname === "/") { 
+            //get the hash from the URL
+            var hash = document.URL.substr(document.URL.indexOf('#')+1);
+            
+            // set up the brand based on hash
+            var brand = $.cookie('brand', hash, { expires: 1, path: '/' });
+
+            if (brand == null) {
+                $('.newsletter_layer').show();
+                $.cookie('brand', 'yes'); 
+                alert($.cookie("brand"));         
+            } else {alert($.cookie("brand"));}
+        }
+    });
+
+
 //isotope for social feed section of the home page
 $(window).load(function() {
 
