@@ -24,7 +24,7 @@
       thumb: /images/locations/Bicton/web-version/joe-wroe-equine.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/bicton/
+  query: https://network.cornwall.ac.uk/campus/bicton/
 
 
 - campus: Camborne
@@ -53,7 +53,7 @@
       thumb: /images/locations/Camborne/web-version/lauren-adele-martin-HND-music.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/camborne/
+  query: https://network.cornwall.ac.uk/campus/camborne/
   
   
   
@@ -83,7 +83,7 @@
       thumb: /images/cve/media.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/dbs-bristol/
+  query: https://network.cornwall.ac.uk/campus/dbs-bristol/
   
   
   
@@ -113,7 +113,7 @@
       thumb: /images/cve/media.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/eden-project/
+  query: https://network.cornwall.ac.uk/campus/eden-project/
   
   
   
@@ -143,7 +143,7 @@
       thumb: /images/cve/media.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/falmouth/
+  query: https://network.cornwall.ac.uk/campus/falmouth/
   
   
   
@@ -173,7 +173,7 @@
       thumb: /images/locations/Newquay/web-version/newquay-zoo-logo.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/newquay/
+  query: https://network.cornwall.ac.uk/campus/newquay/
   
   
   
@@ -203,7 +203,7 @@
       thumb: /images/locations/Rosewarne/web-version/rosewarne-campus.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/rosewarne/
+  query: https://network.cornwall.ac.uk/campus/rosewarne/
   
   
   
@@ -233,7 +233,7 @@
       thumb: /images/locations/Saltash/web-version/saltash-eng.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/saltash/
+  query: https://network.cornwall.ac.uk/campus/saltash/
   
   
   
@@ -263,7 +263,7 @@
       thumb: /images/locations/Stoke/web-version/stoke-sport.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/stoke/
+  query: https://network.cornwall.ac.uk/campus/stoke/
   
   
   
@@ -293,4 +293,4 @@
       thumb: /images/locations/StAustell/web-version/STAC-site-shots.jpg
       alt: an image
       title: image 4
-  query: https://courses.cornwall.ac.uk/campus/st-austell/
+  query: https://network.cornwall.ac.uk/campus/st-austell/
