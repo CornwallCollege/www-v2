@@ -30,11 +30,11 @@ $(function(){
             var video_options = [
                 {
                     brand: 'cornwall',
-                    videos: ['clouds','steps', 'steps']
+                    videos: ['clouds','steps','door','thunderstorm']
                 },
                 {
                     brand: 'duchy',
-                    videos: ['cow','cows']
+                    videos: ['cow','cows','tree']
                 },
                 {
                     brand: 'falmouth',
@@ -51,7 +51,7 @@ $(function(){
                  var brand_info = $.grep(video_options, function (e){return e.brand===brand;});
                  var videos = brand_info[0].videos;
                  var index = Math.floor(Math.random() * videos.length);
-                 $(slide).find('.brand-video').html('<video autoplay  poster="" id="bgvid" loop><source src="videos/'+brand +'/' + videos[index] + '.mp4" type="video/webm"><source src="/videos/'+brand +'/' + videos[index] + '.webm" frameborder="0" allowfullscreen></video>');
+                 $(slide).find('.brand-video').html('<video autoplay  poster="" id="bgvid" loop><source src="videos/'+brand +'/' + videos[index] + '.mp4" type="video/mp4"><source src="/videos/'+brand +'/' + videos[index] + '.webm" frameborder="0" allowfullscreen type="video/webm"></video>');
                 $(slide).addClass('video-in');
             }    
         }
