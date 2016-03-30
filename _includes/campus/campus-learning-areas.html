@@ -1,0 +1,20 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-6 col-md-3 left">
+        <h2>LEARNING AREAS @ <strong>{{ page.campus | upcase }} </strong></h2>
+        
+    </article>
+    
+    <article class="client-logo col-xs-12 col-sm-6 col-md-8 clearfix right">
+        {% for campus in site.data.campus %}
+            {% if campus.campus == page.campus' %}
+                {% for leaning-area in campus.leaning-areas %}
+                    {% for sub-area in leaning-area.sub-areas %}
+                        {% include /campus/campus-learning-area.html %}
+                    {% endfor %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </article>
+  </section>
+</section>
