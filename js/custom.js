@@ -202,11 +202,11 @@
         
    }
    
-   /* PORTFOLIO EXPANDER GRID INITIALIZER */
+   /* PORTFOLIO EXPANDER GRID INITIALIZER 
    if ( $( "#og-grid" ).length ) {
       Grid.init();
    }
-   
+   */
    
    /* FUN FACTS COUNTERS */	
    jQuery(document).ready(function($) {

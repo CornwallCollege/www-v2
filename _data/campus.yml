@@ -5,7 +5,115 @@
   code: B
   category: content/campus
   anchor: "bicton"
-  
+  facilities: 
+    - title: Learning Centre
+      location: Bicton
+      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi 
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Café Neo
+      location: Bicton
+      detail: The coffee bar in the students’ common room serves hot drinks and snacks
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      location: Bicton
+      detail: Student reps, campaigns, trips, parties, sports activities and Freshers’ Fair plus charity fundraising activities
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250      
+      
+    - title: Restaurant
+      location: Bicton
+      detail: The campus restaurant has a ‘live’ food servery where you can order your bespoke omelette or build-a-burger
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250  
+
+    - title: Accommodation
+      location: Bicton
+      detail: We offer halls of residence for learners who live too far away to commute every day, see page 257 for details
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250 
+      
+    - title: Sports & Outdoors
+      location: Bicton
+      detail: A range of facilities including a brand new sports hall and grass pitch, a fully equipped gym and rugby analysis suite
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250 
+      
+    - title: Equine
+      location: Bicton
+      detail: We have a large equine yard with livery facilities for students, plus indoor and outdoor arenas
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250     
+      
+    - title: Animal Management
+      detail: We have a brand new Animal Husbandry School, which is home to a huge range of animals
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250       
+
+  leaning-areas:  
+    - area-title: Foundation Learning
+      sub-areas: 
+      - sub-area-title: Independent Living Skills
+        sub-area-link: independent-living-skills
+    
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Hairdressing & Beauty Therapy   
+        sub-area-link: hairdressing-beauty-therapy
+        
+      - sub-area-title: Public Services & Military Academy   
+        sub-area-link: public-services-military-academy  
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness        
+    
+    - area-title: Rural Economy
+      sub-areas: 
+      - sub-area-title: Agriculture & Countryside Management    
+        sub-area-link: agriculture-countryside-management
+
+      - sub-area-title: Animal Management & Veterinary Nursing    
+        sub-area-link: animal-management-veterinary-nursing
+        
+      - sub-area-title: Equine    
+        sub-area-link: equine  
+        
+      - sub-area-title: Food Technology & Production    
+        sub-area-link: food-technology-production 
+        
+      - sub-area-title: Horticulture & Floristry    
+        sub-area-link: horticulture-floristry  
+        
+      - sub-area-title: Land-based Engineering & Technology    
+        sub-area-link: land-based-engineering-technology         
+
+    - area-title: Technology
+      sub-area: 
+      - sub-area-title: Boatbuilding & Marine Engineering    
+        sub-area-link: boatbuilding-marine-engineering
+        
+      - sub-area-title: Construction Trades    
+        sub-area-link: construction-trades  
+        
+      - sub-area-title: Engineering    
+        sub-area-link: engineering
+        
+      - sub-area-title: Motor Vehicle    
+        sub-area-link: motor-vehicle        
   
 - campus: Cornwall College Camborne
   long: 50.2268081
@@ -14,7 +122,24 @@
   code: C
   category: content/campus
   anchor: "camborne"
-
+  facilities: 
+    - title: Students Union
+      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi 
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: KoKo Hair and beauty
+      detail: The coffee bar in the students’ common room serves hot drinks and snacks
+      link: /bicton-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+  leaning-areas:  
+    - area: Foundation Learning
+    - area: Health & Wellbeing
+    - area: Rural Economy
+    - area: Technology   
 
 - campus: The Eden Project
   long: 50.360518

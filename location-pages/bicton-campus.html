@@ -2,13 +2,15 @@
 layout: location-page
 title: Bicton Campus
 description: Find out more about our Bicton campus | The Cornwall College Group
-campus: bicton
+campus: Bicton College
+intro: Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.
 link: course-subjects/business-administration-law
 brand: BIC
-phone:
-address:
-postcode:
-opening-times:
+email: info@cornwall.ac.uk
+phone: 01209 200200
+address: Trevenson road, Pool, Redruth
+postcode: TR16 3TD
+opening-times: 8.30am till 5.30pm
 directions:
 video:
 background-image: /images/location-banners/bicton-LG.jpg
@@ -19,5 +21,10 @@ learning-areas:
 
 {% include location-header.html %}
 
-{% include location-intro.html p1='Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian
-mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.' %}
+<section class="container">
+{%include campus/campus-intro.html%}
+
+{% include /campus/campus-contact.html %}
+</section>    
+
+{% include /campus/campus-facilities.html %}
