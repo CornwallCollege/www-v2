@@ -3,7 +3,6 @@
   lat: -3.316736
   link: 
   code: B
-  category: content/campus
   anchor: "bicton"
   facilities: 
     - title: Learning Centre
@@ -120,7 +119,6 @@
   lat: -5.2725985
   link: 
   code: C
-  category: content/campus
   anchor: "camborne"
   facilities: 
     - title: Students Union
@@ -146,7 +144,6 @@
   lat: -4.7466487
   link: 
   code: E
-  category: content/campus  
   anchor: "eden-project"
   
   
@@ -155,7 +152,6 @@
   lat: -5.074243
   link: 
   code: F
-  category: content/campus
   anchor: "falmouth-marine-school"  
   
   
@@ -164,7 +160,6 @@
   lat: -5.0682225
   link: 
   code: N
-  category: content/campus
   anchor: "newquay"
   
   
@@ -173,7 +168,6 @@
   lat: -5.2725985
   link: 
   code: R
-  category: content/campus
   anchor: "rosewarne"  
   
   
@@ -182,7 +176,6 @@
   lat: -4.2279294
   link: 
   code: S
-  category: content/campus
   anchor: "saltash"  
   
   
@@ -191,7 +184,6 @@
   lat: -4.7850022
   link: 
   code: A
-  category: content/campus
   anchor: "st-austell"  
   
   
@@ -200,7 +192,6 @@
   lat: -4.3212666
   link: 
   code: D
-  category: content/campus
   anchor: "stoke" 
   
   
@@ -209,6 +200,5 @@
   lat: -2.5838925
   link: 
   code: M
-  category: content/campus
   anchor: "dbs" 
 
