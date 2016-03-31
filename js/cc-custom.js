@@ -575,9 +575,16 @@ $(function(){
 
 // Select or die dropdown 
 $("select").selectOrDie({
-    links: true,
     // Option below is not needed
-    placeholderOption: true
+    placeholderOption: true,
+    onChange: function() { 
+        if ($(this).val() === 'course-search'){
+            $('.' + $(this).val()).show();
+            event.preventDefault();
+        } else {
+            window.location.href = $(this).val();
+        }
+    }    
 });
 
 // resposive logo; first click open second click follow link

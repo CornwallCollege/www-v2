@@ -178,6 +178,9 @@ p.white{
 .block-quote p.lead{
     margin-top: 14px;
 }
+.home-lead{
+    margin:15px 0 30px ;
+}
 .block-quote p strong {
     color: #52B3D9;
 }
@@ -3452,7 +3455,7 @@ video {
         color:white;
     }
     .sweeper-slide h1{
-        font-size: 6rem;
+        font-size: 5.8rem;
         font-weight:300;
     }
 
@@ -3832,14 +3835,13 @@ ul#og-grid li h4{
     .cover_sod
         {
             position: relative;
-            top: 40px;
-            left: 240px;
-            -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
+            left: 50%;
+            -webkit-transform: translate(-50%,-0%);
+            -ms-transform: translate(-50%,-0%);
+            transform: translate(-50%,-0%);
             width: 100%;
-            max-width: 500px;
-            min-width: 250px;
+            max-width: 930px;
+            min-width: 320px;
             background: rgba(0,0,0,.3);
             border: 5px solid #ffffff;
             border-radius: 0;
@@ -3849,6 +3851,8 @@ ul#og-grid li h4{
             font-weight: 400;
             font-family: 'Raleway', serif;
             text-align: center;
+            margin-top: 15px;
+            display: block;
         }
 
         .cover_sod:hover
@@ -3869,31 +3873,39 @@ ul#og-grid li h4{
 
         .cover_sod:before
             {
-                content: "";
-                top: 50%;
-                right: 20px;
-                -webkit-transform: translateY(-50%);
-                    -ms-transform: translateY(-50%);
-                        transform: translateY(-50%);
-                width: 24px;
-                height: 18px;
-                background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjQgMTcuNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMTcuNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjQsMHYzLjRIMFYwSDI0eiBNMCwxMC41aDI0VjcuMUgwVjEwLjV6IE0wLDE3LjZoMjR2LTMuNEgwVjE3LjZ6Ii8+DQo8L3N2Zz4NCg==);
+                content: "\f078";
+                font-size: .5em;
+                top: 35%;
+                right: 5%;
+                width: auto;
+                height: auto;
+                font-family: FontAwesome;
             }
-            .cover_sod.open:before { background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjQgMTcuNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMTcuNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjQsMHYzLjRIMFYwSDI0eiBNMCwxMC41aDI0VjcuMUgwVjEwLjV6IE0wLDE3LjZoMjR2LTMuNEgwVjE3LjZ6Ii8+DQo8L3N2Zz4NCg==); }
+            .cover_sod.open:before {}
 
             .cover_sod:after { display: none; }
 
-        .cover_sod .sod_label { padding-right: 30px; }
+        .cover_sod .sod_label { 
+            padding-right: 0px;
+            font-size: 2rem;
+            display: initial;
+            vertical-align: middle;
+        }
+
+        .sod_placeholder{
+            font-size: 4.5rem!important;
+        }
 
         .cover_sod .sod_list_wrapper
             {
-                top: calc(100% + 10px);
-                width: 100%;
-                margin-left: -5px;
+                top: calc(100% + 19px);
+                width: 90%;
+                margin-left: 5%;
                 border: none;
                 border-radius: 0;
                 font-size: 20px;
                 font-weight: 300;
+                padding: 10px 0;
             }
 
             .cover_sod .sod_option { 
@@ -3920,6 +3932,9 @@ ul#og-grid li h4{
             }
             .sweeper-slide h1{
                 font-size: 3.5rem;
+            }    
+            .sod_placeholder{
+                font-size: 2.5rem!important;
             }    
 }
 
