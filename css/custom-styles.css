@@ -437,6 +437,53 @@ a.ask-a-question:focus {
     -moz-osx-font-smoothing: grayscale;
 }
 /* ---------------- Help bar ENDS -------------------- */
+/* Hidden search form on home page */
+/* Hidden Search form */
+#hidden-search-form {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 0;
+    -webkit-transform: translate(-50%,-0%);
+    -ms-transform: translate(-50%,-0%);
+    transform: translate(-50%,-0%);
+    margin-bottom: 0;
+    left: 50%;
+    position: relative;    
+}
+
+#hidden-search-form input {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #52B3D9;
+    font-weight: 300;
+    height: 45px;
+    display: inline;
+    color: #52B3D9;
+}
+#hidden-search-form .input-group-addon{
+    padding:0;
+}
+
+#hidden-search-form input:focus,
+#hidden-search-form input:hover {
+    border-color: #000;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#hidden-search-form:hover .input-group-addon,
+#hidden-search-form input:focus + .input-group-addon {
+    background: #000;
+    color: #fff;
+}
+
+#hidden-search-form:hover input {
+    border-color: #000;
+}
+
+
 /* ---------------- event styles --------------------*/
 
 .event-title-wrap {
@@ -3822,7 +3869,10 @@ ul#og-grid li h4{
         font-family: railway
     }
 /* Select or die styles */
-
+#home-page-select-wrap{
+    z-index:1;
+    position: relative;
+}
 .cover
     {
         width: 100%;
