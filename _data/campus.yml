@@ -122,37 +122,250 @@
   anchor: "camborne"
   facilities: 
     - title: Students Union
-      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi 
-      link: /bicton-learning-area/
+      detail: The Students Union has its own building with a cafe, pool and table tennis facilities, music TV and student liason team 
+      link: /camborne-learning-area/
       image: http://placehold.it/500x500 
       image-thumb: http://placehold.it/250x250
       
     - title: KoKo Hair and beauty
-      detail: The coffee bar in the students’ common room serves hot drinks and snacks
-      link: /bicton-learning-area/
+      detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
+      link: /camborne-learning-area/
       image: http://placehold.it/500x500 
       image-thumb: http://placehold.it/250x250
       
-  leaning-areas:  
-    - area: Foundation Learning
-    - area: Health & Wellbeing
-    - area: Rural Economy
-    - area: Technology   
+    - title: Trevenson Restaurant
+      detail: This training restaurant is a Centre of Excellence and is part of the best catering college in the South West
+      link: /camborne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Demo Kitchen & Lecture Theatre
+      detail: The only 50+ seat demo kitchen and lecture theatre in Cornwall, great for when guest chefs deliver masterclasses
+      link: /camborne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Sports Science Lab & Performance Centre
+      detail: Ideal for any sports clubs or teams who want to boost their performance
+      link: /camborne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: dBs Music Studios
+      detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
+      link: /camborne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Learning Centre
+      detail: A university-standard library and over 400 PCs and laptops for you to use with free Wi-Fi
+      link: /camborne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Gym & Sports Centre
+      detail: Fully equipped gym with great student rates, plus dance studio, sports hall and artificial turf football pitch
+      link: /camborne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+
+    leaning-areas:
+    - area-title: Business & Professional
+      sub-areas: 
+      - sub-area-title: Accounting   
+        sub-area-link: accounting
+        
+      - sub-area-title: Business, Law & Medical Administration  
+        sub-area-link: business-law-medical-administration
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+    - area-title: Cultral & Visitor Economy
+      sub-areas: 
+      - sub-area-title: Arts & Media  
+        sub-area-link: arts-media
+        
+      - sub-area-title: Catering & Hospitality   
+        sub-area-link: catering-hospitality  
+        
+      - sub-area-title: Music & Performing Arts 
+        sub-area-link: music-performing-arts
+        
+      - sub-area-title: Travel & Tourism 
+        sub-area-link: travel-tourism
+  
+    - area-title: Education
+      sub-areas: 
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
+  
+    - area-title: Foundation Learning
+      sub-areas: 
+      - sub-area-title: Independent Living Skills
+        sub-area-link: independent-living-skills
+    
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Hairdressing & Beauty Therapy   
+        sub-area-link: hairdressing-beauty-therapy
+        
+      - sub-area-title: Public Services & Military Academy   
+        sub-area-link: public-services-military-academy  
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness        
+    
+    - area-title: Rural Economy
+      sub-areas: 
+      - sub-area-title: Agriculture & Countryside Management    
+        sub-area-link: agriculture-countryside-management
+
+      - sub-area-title: Animal Management & Veterinary Nursing    
+        sub-area-link: animal-management-veterinary-nursing
+        
+      - sub-area-title: Equine    
+        sub-area-link: equine  
+        
+      - sub-area-title: Food Technology & Production    
+        sub-area-link: food-technology-production 
+        
+      - sub-area-title: Horticulture & Floristry    
+        sub-area-link: horticulture-floristry  
+        
+      - sub-area-title: Land-based Engineering & Technology    
+        sub-area-link: land-based-engineering-technology         
+        
+    - area-title: Science & Natural Environment
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensic-science
+        
+      - sub-area-title: Marine Biology & Ecology
+        sub-area-link: marine-biology-ecology
+        
+      - sub-area-title: Wildlife Conservation & Zoology
+        sub-area-link: wildlife-conservation-zoology
+
+    - area-title: Technology
+      sub-area: 
+      - sub-area-title: Boatbuilding & Marine Engineering    
+        sub-area-link: boatbuilding-marine-engineering
+        
+      - sub-area-title: Construction Trades    
+        sub-area-link: construction-trades  
+        
+      - sub-area-title: Engineering    
+        sub-area-link: engineering
+        
+      - sub-area-title: Motor Vehicle    
+        sub-area-link: motor-vehicle
 
 - campus: The Eden Project
   long: 50.360518
   lat: -4.7466487
   link: 
   code: E
-  anchor: "eden-project"
-  
+  anchor: "eden-project"   
+
   
 - campus: Falmouth Marine School
   long: 50.1528966
   lat: -5.074243
   link: 
   code: F
-  anchor: "falmouth-marine-school"  
+  anchor: "falmouth-marine-school"
+  facilities: 
+    - title: Learning Centre
+      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Sails Café
+      detail: Offers a wide range of drinks, snacks and light meals for students throughout the day
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Ponsharden Workshops
+      detail: We have our own boatbuilding workshop in the heart of the industry at Ponsharden
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: National Maritime Museum Cornwall
+      detail: We have a close relationship with the museum, recently our students have worked on building a Viking boat
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Watersports Centre
+      detail: The coast off Falmouth is an excellent classroom for the watersports students, we have a dock in the heart of Falmouth
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Marine Science Lab
+      detail: Our renovated marine science laboratory has a range of tanks and equipment for marine breeding programmes
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Student Town
+      detail: Falmouth is a university town and offers a fantastic mix of Cornish social life, with an array of bars, clubs and restaurants
+      link: /falmouth-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+  
+  leaning-areas:
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Hairdressing & Beauty Therapy   
+        sub-area-link: hairdressing-beauty-therapy
+        
+      - sub-area-title: Public Services & Military Academy   
+        sub-area-link: public-services-military-academy  
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness        
+    
+    - area-title: Science & Natural Environment
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensic-science
+        
+      - sub-area-title: Marine Biology & Ecology
+        sub-area-link: marine-biology-ecology
+        
+      - sub-area-title: Wildlife Conservation & Zoology
+        sub-area-link: wildlife-conservation-zoology
+
+    - area-title: Technology
+      sub-area: 
+      - sub-area-title: Boatbuilding & Marine Engineering    
+        sub-area-link: boatbuilding-marine-engineering
+        
+      - sub-area-title: Construction Trades    
+        sub-area-link: construction-trades  
+        
+      - sub-area-title: Engineering    
+        sub-area-link: engineering
+        
+      - sub-area-title: Motor Vehicle    
+        sub-area-link: motor-vehicle
   
   
 - campus: Cornwall College Newquay
@@ -161,6 +374,66 @@
   link: 
   code: N
   anchor: "newquay"
+  facilities: 
+    - title: Learning Centre
+      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Watering Hole
+      detail: A small café offering all home-made locally sourced snacks and light meals  everyday
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Wild Things
+      detail: We have conservation areas including a pond and wildflower meadow that are great for studying nature up close
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Green Team
+      detail: The Green Team are a group of staff and student volunteers who strive to nurture our local environment
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Student Invasive Non-Native Group
+      detail: Enhance your CV, have fun and make a difference by joining our renowned SINNG group
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Beyond Wildflower Lane
+      detail: We have our own classrooms in Newquay Zoo and Blue Reef Aquarium and on Tolcarne Beach
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Gannel Estuary
+      detail: This tidal river provides a great place to research birds, plants and fish
+      link: /newquay-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+   leaning-areas:
+    - area-title: Science & Natural Environment
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensic-science
+        
+      - sub-area-title: Marine Biology & Ecology
+        sub-area-link: marine-biology-ecology
+        
+      - sub-area-title: Wildlife Conservation & Zoology
+        sub-area-link: wildlife-conservation-zoology
   
   
 - campus: Duchy College Rosewarne
@@ -168,15 +441,195 @@
   lat: -5.2725985
   link: 
   code: R
-  anchor: "rosewarne"  
+  anchor: "rosewarne"
+  facilities: 
+    - title: Learning Centre
+      detail: A dedicated library and study area with PCs and laptops for you to use with free  Wi-Fi
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Choughs Restaurant
+      detail: Offers a range of hot and cold drinks, snacks and hot meals every day
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Animal Management Centre
+      detail: Provides dog grooming training, specialist reptile and small mammal housing
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Working Nursery
+      detail: Acres of poly tunnels where the College grows and sells its own stock as a semi-commercial nursery
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Land-based engineering
+      detail: Understand the workings of traditional tractors and the very latest John Deere computer driven machinery
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Agriculture
+      detail: The working farm is home to cattle, ponies, pigs, goats and chickens, as well as a protected cropping unit
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Veterinary nursing facilities
+      detail: Study veterinary science to degree-level; our facilities are state-of-the-art, the only one of its kind in the county
+      link: /rosewarne-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
   
+    leaning-areas:
+    - area-title: Rural Economy
+      sub-areas: 
+      - sub-area-title: Agriculture & Countryside Management    
+        sub-area-link: agriculture-countryside-management
+
+      - sub-area-title: Animal Management & Veterinary Nursing    
+        sub-area-link: animal-management-veterinary-nursing
+        
+      - sub-area-title: Equine    
+        sub-area-link: equine  
+        
+      - sub-area-title: Food Technology & Production    
+        sub-area-link: food-technology-production 
+        
+      - sub-area-title: Horticulture & Floristry    
+        sub-area-link: horticulture-floristry  
+        
+      - sub-area-title: Land-based Engineering & Technology    
+        sub-area-link: land-based-engineering-technology
   
 - campus: Cornwall College Saltash
   long: 50.4055478
   lat: -4.2279294
   link: 
   code: S
-  anchor: "saltash"  
+  anchor: "saltash"
+  facilities: 
+    - title: Learning Centre
+      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: koko Hair & Beauty Salon
+      detail: Dedicated salons, nail bar, barbering and beauty therapy lounges, open to the public
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Training Kitchen
+      detail: State-of-the-art training kitchen. Service available to the public during term time
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Flamingo Café
+      detail: Offering a range of home-made snacks and light meals, plus fine dining events from professional chef students
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Job Spot
+      detail: For work experience, volunteering, part-time jobs, apprenticeships or advice on your first steps into a career
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: NORPRO
+      detail: Working in partnership with Norpro, our students gain great practical skills training in a commercial garage
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Sisna Park
+      detail: Professional skills training in welding, fabrication, engineering and electrical is now available at our Sisna Park site
+      link: /saltash-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+
+    leaning-areas:
+    - area-title: Business & Professional
+      sub-areas: 
+      - sub-area-title: Accounting   
+        sub-area-link: accounting
+        
+      - sub-area-title: Business, Law & Medical Administration  
+        sub-area-link: business-law-medical-administration
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+    - area-title: Cultral & Visitor Economy
+      sub-areas: 
+      - sub-area-title: Arts & Media  
+        sub-area-link: arts-media
+        
+      - sub-area-title: Catering & Hospitality   
+        sub-area-link: catering-hospitality  
+        
+      - sub-area-title: Music & Performing Arts 
+        sub-area-link: music-performing-arts
+        
+      - sub-area-title: Travel & Tourism 
+        sub-area-link: travel-tourism
+  
+    - area-title: Education
+      sub-areas: 
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
+  
+    - area-title: Foundation Learning
+      sub-areas: 
+      - sub-area-title: Independent Living Skills
+        sub-area-link: independent-living-skills
+    
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Hairdressing & Beauty Therapy   
+        sub-area-link: hairdressing-beauty-therapy
+        
+      - sub-area-title: Public Services & Military Academy   
+        sub-area-link: public-services-military-academy  
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness             
+
+    - area-title: Technology
+      sub-area: 
+      - sub-area-title: Boatbuilding & Marine Engineering    
+        sub-area-link: boatbuilding-marine-engineering
+        
+      - sub-area-title: Construction Trades    
+        sub-area-link: construction-trades  
+        
+      - sub-area-title: Engineering    
+        sub-area-link: engineering
+        
+      - sub-area-title: Motor Vehicle    
+        sub-area-link: motor-vehicle
   
   
 - campus: Cornwall College St Austell
@@ -184,7 +637,135 @@
   lat: -4.7850022
   link: 
   code: A
-  anchor: "st-austell"  
+  anchor: "st-austell"
+  facilities: 
+    - title: Learning Centre
+      detail: A recently renovated library and study space with PCs and laptops for you to use with free Wi-Fi
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      detail: Student reps, campaigns, trips, parties and Freshers’ Fair in your own dedicated student space
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Gym & Fitness Suite
+      detail: Fully equipped gym with great student rates, plus exercise classes and personal trainers
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: koko Hair & Beauty Salon
+      detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Cloisters Restaurant
+      detail: This training restaurant is a Centre of Excellence and part of the best catering college in the South West
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Bay
+      detail: A 150 seat outlet offering food for all tastes; breakfast, snacks, a salad bar and a wide choice of hot meals everyday
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Keay Theatre
+      detail: A 250 seat theatre and conference space, dance studios, music practice suites and rehearsal rooms
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: The Job Spot
+      detail: For work experience, volunteering, part-time jobs, apprenticeships or advice on your first steps into a career
+      link: /st-austell-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+
+    leaning-areas:
+    - area-title: AS & A-levels
+      sub-areas:
+      - sub-area-title: AS & A-level courses
+        sub-area-link: as-alevel-courses
+      
+    - area-title: Business & Professional
+      sub-areas: 
+      - sub-area-title: Accounting   
+        sub-area-link: accounting
+        
+      - sub-area-title: Business, Law & Medical Administration  
+        sub-area-link: business-law-medical-administration
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+    - area-title: Cultral & Visitor Economy
+      sub-areas: 
+      - sub-area-title: Arts & Media  
+        sub-area-link: arts-media
+        
+      - sub-area-title: Catering & Hospitality   
+        sub-area-link: catering-hospitality  
+        
+      - sub-area-title: Music & Performing Arts 
+        sub-area-link: music-performing-arts
+        
+      - sub-area-title: Travel & Tourism 
+        sub-area-link: travel-tourism
+  
+    - area-title: Education
+      sub-areas: 
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
+  
+    - area-title: Foundation Learning
+      sub-areas: 
+      - sub-area-title: Independent Living Skills
+        sub-area-link: independent-living-skills
+    
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Hairdressing & Beauty Therapy   
+        sub-area-link: hairdressing-beauty-therapy
+        
+      - sub-area-title: Public Services & Military Academy   
+        sub-area-link: public-services-military-academy  
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness             
+        
+    - area-title: Science & Natural Environment
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensic-science
+        
+      - sub-area-title: Marine Biology & Ecology
+        sub-area-link: marine-biology-ecology
+        
+      - sub-area-title: Wildlife Conservation & Zoology
+        sub-area-link: wildlife-conservation-zoology
+
+    - area-title: Technology
+      sub-area: 
+      - sub-area-title: Boatbuilding & Marine Engineering    
+        sub-area-link: boatbuilding-marine-engineering
+        
+      - sub-area-title: Construction Trades    
+        sub-area-link: construction-trades  
+        
+      - sub-area-title: Engineering    
+        sub-area-link: engineering
+        
+      - sub-area-title: Motor Vehicle    
+        sub-area-link: motor-vehicle
   
   
 - campus: Duchy College Stoke Climsland
@@ -192,8 +773,111 @@
   lat: -4.3212666
   link: 
   code: D
-  anchor: "stoke" 
+  anchor: "stoke"
+  facilities: 
+    - title: Learning Centre
+      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Students’ Union
+      detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Sam’s
+      detail: The campus restaurant has a hot food counter and snack shack open every day
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Accommodation
+      detail: We offer halls of residence for learners who live too far away to commute every day, see page 257 for details
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Sports & Outdoors
+      detail: A range of facilities; a 10m climbing tower, sports hall and grass pitches, plus a fully equipped gym and golf swing studio
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Equine
+      detail: We have a large equine yard with livery facilities for students on any programme, plus indoor and outdoor arenas
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Animal Management
+      detail: A dedicated animal management centre, with five animal paddocks and a dog grooming parlour
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+      
+    - title: Future Farm
+      detail: Investing £10m+ in the coming years to build Future Farm, a state-of-the-art research training and development facility
+      link: /stoke-climsland-learning-area/
+      image: http://placehold.it/500x500 
+      image-thumb: http://placehold.it/250x250
+
+    leaning-areas:
+    - area-title: Business & Professional
+      sub-areas: 
+      - sub-area-title: Accounting   
+        sub-area-link: accounting
+        
+      - sub-area-title: Business, Law & Medical Administration  
+        sub-area-link: business-law-medical-administration
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+          
+    - area-title: Education
+      sub-areas: 
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
   
+    - area-title: Foundation Learning
+      sub-areas: 
+      - sub-area-title: Independent Living Skills
+        sub-area-link: independent-living-skills
+    
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Hairdressing & Beauty Therapy   
+        sub-area-link: hairdressing-beauty-therapy
+        
+      - sub-area-title: Public Services & Military Academy   
+        sub-area-link: public-services-military-academy  
+        
+      - sub-area-title: Social Care & Health   
+        sub-area-link: social-care-health 
+        
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness        
+    
+    - area-title: Rural Economy
+      sub-areas: 
+      - sub-area-title: Agriculture & Countryside Management    
+        sub-area-link: agriculture-countryside-management
+
+      - sub-area-title: Animal Management & Veterinary Nursing    
+        sub-area-link: animal-management-veterinary-nursing
+        
+      - sub-area-title: Equine    
+        sub-area-link: equine  
+        
+      - sub-area-title: Food Technology & Production    
+        sub-area-link: food-technology-production 
+        
+      - sub-area-title: Horticulture & Floristry    
+        sub-area-link: horticulture-floristry  
+        
+      - sub-area-title: Land-based Engineering & Technology    
+        sub-area-link: land-based-engineering-technology
   
 - campus: dBs Music Bristol
   long: 51.4478973
