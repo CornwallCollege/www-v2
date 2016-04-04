@@ -297,7 +297,7 @@
       - sub-area-title: Boatbuilding & Marine Engineering    
         sub-area-link: boatbuilding-marine-engineering
   
-- campus: Falmouth Marine School
+- campus: Cornwall College Newquay
   long: 50.4105492
   lat: -5.0682225
   link: 
@@ -368,8 +368,8 @@
   
   
 - campus: Duchy College Rosewarne
-  long: 50.2268081
-  lat: -5.2725985
+  long: 50.2234417
+  lat: -5.3028398
   link: 
   code: R
   anchor: "rosewarne"
