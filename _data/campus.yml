@@ -60,7 +60,7 @@
       image: http://placehold.it/500x500 
       image-thumb: http://placehold.it/250x250       
 
-  leaning-areas:  
+  learning-areas:  
     - area-title: Foundation Learning
       sub-areas: 
       - sub-area-title: Independent Living Skills
@@ -68,17 +68,8 @@
     
     - area-title: Health & Wellbeing
       sub-areas: 
-      - sub-area-title: Hairdressing & Beauty Therapy   
-        sub-area-link: hairdressing-beauty-therapy
-        
       - sub-area-title: Public Services & Military Academy   
         sub-area-link: public-services-military-academy  
-        
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
-        
-      - sub-area-title: Sports & Fitness  
-        sub-area-link: sports-fitness        
     
     - area-title: Rural Economy
       sub-areas: 
@@ -91,9 +82,6 @@
       - sub-area-title: Equine    
         sub-area-link: equine  
         
-      - sub-area-title: Food Technology & Production    
-        sub-area-link: food-technology-production 
-        
       - sub-area-title: Horticulture & Floristry    
         sub-area-link: horticulture-floristry  
         
@@ -102,35 +90,26 @@
 
     - area-title: Technology
       sub-area: 
-      - sub-area-title: Boatbuilding & Marine Engineering    
-        sub-area-link: boatbuilding-marine-engineering
-        
       - sub-area-title: Construction Trades    
-        sub-area-link: construction-trades  
-        
-      - sub-area-title: Engineering    
-        sub-area-link: engineering
-        
-      - sub-area-title: Motor Vehicle    
-        sub-area-link: motor-vehicle        
+        sub-area-link: construction-trades         
   
 - campus: Cornwall College Camborne
   long: 50.2268081
   lat: -5.2725985
-  link: 
+  link:
   code: C
   anchor: "camborne"
-  facilities: 
+  facilities:
     - title: Students Union
       detail: The Students Union has its own building with a cafe, pool and table tennis facilities, music TV and student liason team 
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: http://placehold.it/500x500
+      image-thumb: http://placehold.it/250x250  
       
-    - title: KoKo Hair and beauty
+    - title: KoKo Hair & beauty
       detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
+      image: http://placehold.it/500x500
       image-thumb: http://placehold.it/250x250
       
     - title: Trevenson Restaurant
@@ -168,8 +147,8 @@
       link: /camborne-learning-area/
       image: http://placehold.it/500x500 
       image-thumb: http://placehold.it/250x250
-
-    leaning-areas:
+  
+  learning-areas:    
     - area-title: Business & Professional
       sub-areas: 
       - sub-area-title: Accounting   
@@ -178,8 +157,11 @@
       - sub-area-title: Business, Law & Medical Administration  
         sub-area-link: business-law-medical-administration
         
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
+      - sub-area-title: Customer Service   
+        sub-area-link: customer-service
+        
+      - sub-area-title: Digital Academy   
+        sub-area-link: digital-academy  
         
     - area-title: Cultral & Visitor Economy
       sub-areas: 
@@ -217,44 +199,15 @@
         sub-area-link: social-care-health 
         
       - sub-area-title: Sports & Fitness  
-        sub-area-link: sports-fitness        
-    
-    - area-title: Rural Economy
-      sub-areas: 
-      - sub-area-title: Agriculture & Countryside Management    
-        sub-area-link: agriculture-countryside-management
-
-      - sub-area-title: Animal Management & Veterinary Nursing    
-        sub-area-link: animal-management-veterinary-nursing
-        
-      - sub-area-title: Equine    
-        sub-area-link: equine  
-        
-      - sub-area-title: Food Technology & Production    
-        sub-area-link: food-technology-production 
-        
-      - sub-area-title: Horticulture & Floristry    
-        sub-area-link: horticulture-floristry  
-        
-      - sub-area-title: Land-based Engineering & Technology    
-        sub-area-link: land-based-engineering-technology         
+        sub-area-link: sports-fitness               
         
     - area-title: Science & Natural Environment
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
         sub-area-link: applied-science-forensic-science
-        
-      - sub-area-title: Marine Biology & Ecology
-        sub-area-link: marine-biology-ecology
-        
-      - sub-area-title: Wildlife Conservation & Zoology
-        sub-area-link: wildlife-conservation-zoology
 
     - area-title: Technology
       sub-area: 
-      - sub-area-title: Boatbuilding & Marine Engineering    
-        sub-area-link: boatbuilding-marine-engineering
-        
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades  
         
@@ -262,7 +215,8 @@
         sub-area-link: engineering
         
       - sub-area-title: Motor Vehicle    
-        sub-area-link: motor-vehicle
+        sub-area-link: motor-vehicle    
+   
 
 - campus: The Eden Project
   long: 50.360518
@@ -325,50 +279,25 @@
       detail: Falmouth is a university town and offers a fantastic mix of Cornish social life, with an array of bars, clubs and restaurants
       link: /falmouth-learning-area/
       image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
-  
-  leaning-areas:
+      image-thumb: http://placehold.it/250x250       
+
+  learning-areas:  
     - area-title: Health & Wellbeing
       sub-areas: 
-      - sub-area-title: Hairdressing & Beauty Therapy   
-        sub-area-link: hairdressing-beauty-therapy
-        
-      - sub-area-title: Public Services & Military Academy   
-        sub-area-link: public-services-military-academy  
-        
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
-        
       - sub-area-title: Sports & Fitness  
         sub-area-link: sports-fitness        
     
     - area-title: Science & Natural Environment
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
-        sub-area-link: applied-science-forensic-science
-        
-      - sub-area-title: Marine Biology & Ecology
-        sub-area-link: marine-biology-ecology
-        
-      - sub-area-title: Wildlife Conservation & Zoology
-        sub-area-link: wildlife-conservation-zoology
+    - sub-area-title: Marine Biology & Ecology
+      sub-area-link: marine-biology-ecology
 
     - area-title: Technology
       sub-area: 
       - sub-area-title: Boatbuilding & Marine Engineering    
         sub-area-link: boatbuilding-marine-engineering
-        
-      - sub-area-title: Construction Trades    
-        sub-area-link: construction-trades  
-        
-      - sub-area-title: Engineering    
-        sub-area-link: engineering
-        
-      - sub-area-title: Motor Vehicle    
-        sub-area-link: motor-vehicle
   
-  
-- campus: Cornwall College Newquay
+- campus: Falmouth Marine School
   long: 50.4105492
   lat: -5.0682225
   link: 
@@ -421,19 +350,21 @@
       detail: This tidal river provides a great place to research birds, plants and fish
       link: /newquay-learning-area/
       image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
-      
-   leaning-areas:
+      image-thumb: http://placehold.it/250x250       
+
+  learning-areas:  
     - area-title: Science & Natural Environment
-      sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
-        sub-area-link: applied-science-forensic-science
-        
+      sub-areas:        
       - sub-area-title: Marine Biology & Ecology
         sub-area-link: marine-biology-ecology
         
       - sub-area-title: Wildlife Conservation & Zoology
         sub-area-link: wildlife-conservation-zoology
+        
+    - area-title: Health & Wellbeing
+      sub-areas: 
+      - sub-area-title: Sports & Fitness  
+        sub-area-link: sports-fitness  
   
   
 - campus: Duchy College Rosewarne
@@ -489,9 +420,9 @@
       detail: Study veterinary science to degree-level; our facilities are state-of-the-art, the only one of its kind in the county
       link: /rosewarne-learning-area/
       image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
-  
-    leaning-areas:
+      image-thumb: http://placehold.it/250x250       
+
+  learning-areas:  
     - area-title: Rural Economy
       sub-areas: 
       - sub-area-title: Agriculture & Countryside Management    
@@ -499,13 +430,7 @@
 
       - sub-area-title: Animal Management & Veterinary Nursing    
         sub-area-link: animal-management-veterinary-nursing
-        
-      - sub-area-title: Equine    
-        sub-area-link: equine  
-        
-      - sub-area-title: Food Technology & Production    
-        sub-area-link: food-technology-production 
-        
+
       - sub-area-title: Horticulture & Floristry    
         sub-area-link: horticulture-floristry  
         
@@ -565,9 +490,9 @@
       detail: Professional skills training in welding, fabrication, engineering and electrical is now available at our Sisna Park site
       link: /saltash-learning-area/
       image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image-thumb: http://placehold.it/250x250       
 
-    leaning-areas:
+  learning-areas:  
     - area-title: Business & Professional
       sub-areas: 
       - sub-area-title: Accounting   
@@ -576,8 +501,8 @@
       - sub-area-title: Business, Law & Medical Administration  
         sub-area-link: business-law-medical-administration
         
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
+      - sub-area-title: Digital Academy   
+        sub-area-link: digital-academy   
         
     - area-title: Cultral & Visitor Economy
       sub-areas: 
@@ -585,13 +510,7 @@
         sub-area-link: arts-media
         
       - sub-area-title: Catering & Hospitality   
-        sub-area-link: catering-hospitality  
-        
-      - sub-area-title: Music & Performing Arts 
-        sub-area-link: music-performing-arts
-        
-      - sub-area-title: Travel & Tourism 
-        sub-area-link: travel-tourism
+        sub-area-link: catering-hospitality
   
     - area-title: Education
       sub-areas: 
@@ -606,22 +525,10 @@
     - area-title: Health & Wellbeing
       sub-areas: 
       - sub-area-title: Hairdressing & Beauty Therapy   
-        sub-area-link: hairdressing-beauty-therapy
-        
-      - sub-area-title: Public Services & Military Academy   
-        sub-area-link: public-services-military-academy  
-        
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
-        
-      - sub-area-title: Sports & Fitness  
-        sub-area-link: sports-fitness             
+        sub-area-link: hairdressing-beauty-therapy            
 
     - area-title: Technology
-      sub-area: 
-      - sub-area-title: Boatbuilding & Marine Engineering    
-        sub-area-link: boatbuilding-marine-engineering
-        
+      sub-area:        
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades  
         
@@ -685,9 +592,9 @@
       detail: For work experience, volunteering, part-time jobs, apprenticeships or advice on your first steps into a career
       link: /st-austell-learning-area/
       image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image-thumb: http://placehold.it/250x250       
 
-    leaning-areas:
+  learning-areas:  
     - area-title: AS & A-levels
       sub-areas:
       - sub-area-title: AS & A-level courses
@@ -701,8 +608,11 @@
       - sub-area-title: Business, Law & Medical Administration  
         sub-area-link: business-law-medical-administration
         
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
+      - sub-area-title: Customer Service   
+        sub-area-link: customer-service
+        
+      - sub-area-title: Digital Academy   
+        sub-area-link: digital-academy
         
     - area-title: Cultral & Visitor Economy
       sub-areas: 
@@ -733,9 +643,6 @@
       - sub-area-title: Hairdressing & Beauty Therapy   
         sub-area-link: hairdressing-beauty-therapy
         
-      - sub-area-title: Public Services & Military Academy   
-        sub-area-link: public-services-military-academy  
-        
       - sub-area-title: Social Care & Health   
         sub-area-link: social-care-health 
         
@@ -746,18 +653,9 @@
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
         sub-area-link: applied-science-forensic-science
-        
-      - sub-area-title: Marine Biology & Ecology
-        sub-area-link: marine-biology-ecology
-        
-      - sub-area-title: Wildlife Conservation & Zoology
-        sub-area-link: wildlife-conservation-zoology
 
     - area-title: Technology
-      sub-area: 
-      - sub-area-title: Boatbuilding & Marine Engineering    
-        sub-area-link: boatbuilding-marine-engineering
-        
+      sub-area:         
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades  
         
@@ -821,20 +719,9 @@
       detail: Investing £10m+ in the coming years to build Future Farm, a state-of-the-art research training and development facility
       link: /stoke-climsland-learning-area/
       image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image-thumb: http://placehold.it/250x250       
 
-    leaning-areas:
-    - area-title: Business & Professional
-      sub-areas: 
-      - sub-area-title: Accounting   
-        sub-area-link: accounting
-        
-      - sub-area-title: Business, Law & Medical Administration  
-        sub-area-link: business-law-medical-administration
-        
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
-          
+  learning-areas:  
     - area-title: Education
       sub-areas: 
       - sub-area-title: Children, Schools & Families
@@ -847,14 +734,8 @@
     
     - area-title: Health & Wellbeing
       sub-areas: 
-      - sub-area-title: Hairdressing & Beauty Therapy   
-        sub-area-link: hairdressing-beauty-therapy
-        
       - sub-area-title: Public Services & Military Academy   
         sub-area-link: public-services-military-academy  
-        
-      - sub-area-title: Social Care & Health   
-        sub-area-link: social-care-health 
         
       - sub-area-title: Sports & Fitness  
         sub-area-link: sports-fitness        
