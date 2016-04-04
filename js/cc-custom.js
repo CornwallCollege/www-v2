@@ -579,8 +579,9 @@ $("select").selectOrDie({
     placeholderOption: true,
     onChange: function() { 
         if ($(this).val() === 'course-search'){
-            $('.' + $(this).val()).show();
-            event.preventDefault();
+            $('.' + $(this).val()).hide();
+            $('.' + $(this).val()).fadeIn( "slow" );
+
         } else {
             window.location.href = $(this).val();
         }
