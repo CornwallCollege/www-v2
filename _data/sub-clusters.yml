@@ -1,0 +1,175 @@
+#AS & A-level
+- cluster: AS & A-level
+  subcluster: AS & A-level courses
+  campus: A
+  brand: Cornwall College
+  
+#Business & Professional
+- cluster: Business & Professional
+  subcluster: Accounting
+  campus: C, A, S
+  brand: Cornwall College
+  level: 2, 3
+  
+- cluster: Business & Professional
+  subcluster: Business, Law & Medical Administration
+  campus: C, D, A, S
+  brand: Cornwall College, Duchy College
+  level: 2, 3
+  
+- cluster: Business & Professional
+  subcluster: Customer Service
+  campus: C, A
+  brand: Cornwall College
+  level: 2
+  
+- cluster: Business & Professional
+  subcluster: Digital Academy 
+  campus: C, A, S
+  brand: Cornwall College
+  level: 2, 3
+  
+#Cultural & Visitor Economy
+- cluster: Cultural & Visitor Economy
+  subcluster: Arts & Media
+  campus: C, A, S
+  brand: Cornwall College
+  level: 2, 3, 4
+  
+- cluster: Cultural & Visitor Economy
+  subcluster: Catering & Hospitality
+  campus: C, A, S
+  brand: Cornwall College
+  level: 1, 2, 4
+  
+- cluster: Cultural & Visitor Economy
+  subcluster: Music & Performing Arts
+  campus: C, A, M
+  brand: Cornwall College #dBs
+  level: 2, 3
+  
+- cluster: Cultural & Visitor Economy
+  subcluster: Travel & Tourism
+  campus: C, A
+  brand: Cornwall College
+  level: 2, 3
+  
+#Education
+- cluster: Education
+  subcluster: Children, Schools & Families
+  campus: C, D, A, s
+  brand: Cornwall College, Duchy College
+  level: 1, 2, 3
+  
+#Foundation Learning
+- cluster: Foundation Learning
+  subcluster: Independant Living Skills
+  campus:
+  brand:
+  level: Entry, 1, 2
+  
+#Health & Wellbeing
+- cluster: Health & Wellbeing
+  subcluster: Hairdressing & Beauty Therapy
+  campus: C, A, S
+  brand: Cornwall College
+  level: 1, 2, 3
+  
+- cluster: Health & Wellbeing
+  subcluster: Public Services & Military Academy
+  campus: B, C, D, A
+  brand:
+  level: 1, 2, 3
+  
+- cluster: Health & Wellbeing
+  subcluster: Social Care & Health
+  campus: C, A
+  brand: Cornwall College
+  level: 2, 3
+
+- cluster: Health & Wellbeing
+  subcluster: Sports and Fitness
+  campus: B, C, D, A, F
+  brand: Cornwall College, Falmouth Marine School
+  level: 1, 2, 3
+  
+#Rural Economy
+- cluster: Rural Economy
+  subcluster: Agriculture & Countryside Management
+  campus: B, R, D 
+  brand: Bicton College, Duchy College
+  level: 1, 2, 3
+  
+- cluster: Rural Economy
+  subcluster: Animal Management & Veterinary Nursing
+  campus: B, R, D
+  brand: Bicton College, Duchy College
+  level: 1, 2, 3
+  
+- cluster: Rural Economy
+  subcluster: Equine
+  campus: B, R, D
+  brand: Bicton College, Duchy College
+  level: 1, 2, 3
+  
+- cluster: Rural Economy
+  subcluster: Food Technology & Production
+  campus: B, R, D
+  brand: Bicton College, Duchy College
+  level: 2, 3
+  
+- cluster: Rural Economy
+  subcluster: Horticulture & Floristry
+  campus: B, R, D
+  brand: Bicton College, Duchy College
+  level: 1, 2, 3
+  
+- cluster: Rural Economy
+  subcluster: Land-based Engineering & Technology
+  campus: B, C, R, D
+  brand: Bicton College, Cornwall College, Duchy College
+  level: 1, 2, 3
+  
+#Science & Natural Environment
+- cluster: Science & Natural Environment
+  subcluster: Applied Science & Forensic Science
+  campus: C, A
+  brand: Cornwall College
+  level: 2, 3
+  
+- cluster: Science & Natural Environment
+  subcluster: Marine Biology & Ecology
+  campus: F
+  brand: Falmouth Marine School
+  level: 2, 3
+  
+- cluster: Science & Natural Environment
+  subcluster: Wildlife Conservation & Zoology
+  campus: N
+  brand: Cornwall College
+  level: 3
+
+#Technology
+- cluster: Technology
+  subcluster: Boatbuilding & Marine Engineering
+  campus: F
+  brand: Falmouth Marine School
+  level: 1, 2, 3
+  
+- cluster: Technology
+  subcluster: Construction Trades
+  campus: B, C, A, S
+  brand: Bicton College, Cornwall College
+  level: 1, 2, 3
+
+- cluster: Technology
+  subcluster: Engineering
+  campus: B, C, A, S
+  brand: Bicton College, Conrwall College
+  level: 1, 2, 3
+  
+- cluster: Technology
+  subcluster: Motor Vehicle
+  campus: C, A, S
+  brand: Cornwall College
+  level: Entry, 1, 2, 3
