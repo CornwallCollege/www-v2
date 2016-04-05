@@ -119,7 +119,7 @@
   
 - campus: Falmouth Marine School
   anchor: falmouth-marine-school
-  brand: 
+  brand: Falmouth Marine School
   copy: <p>Cornwall’s college of the ocean has had a facelift this year, with over £3 million invested in ensuring the main Killigrew campus is a state-of-the-art training facility for the marine sector including ocean sciences, technology, watersports and boatbuilding. There are two other centres in Falmouth that make up the Marine School, a watersports facility on the water’s edge of the Fal estuary and aboatbuilding and fabrication unit in Ponsharden boatyard.</p>
   link: /falmouth-campus.html
   contact-number: 01326 310323 
@@ -294,3 +294,31 @@
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/st-austell/
+  
+- campus: Engineering Skills Centre, Plymouth
+  anchor: sisna
+  brand: Cornwall College
+  copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth.  The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
+  link: /sisna-park-campus.html
+  contact-number: 01209 200200
+  images: 
+    - link: /images/cve/art.jpg
+      thumb: /images/cve/art-mobile.jpg
+      alt: an image
+      title: image 1
+      
+    - link: /images/cve/media-digital-creativity-prt-desktop.jpg
+      thumb: /images/cve/media-digital-creativity-prt-mobile.jpg
+      alt: an image
+      title: image 2
+      
+    - link: /images/cve/travel-visitor-attractions-desktop.jpg
+      thumb: /images/cve/travel-visitor-attractions-mobile.jpg
+      alt: an image
+      title: image 3
+      
+    - link: /images/cve/media.jpg
+      thumb: /images/cve/media.jpg
+      alt: an image
+      title: image 4
+  query: https://network.cornwall.ac.uk/campus/dbs-bristol/
