@@ -1,5 +1,5 @@
-- campus: Bicton
-  anchor: bicton
+- campus: Bicton College
+  anchor: "bicton"
   brand: Bicton College
   copy: <p>Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.</p>
   link: /bicton-campus.html
@@ -27,8 +27,37 @@
   query: https://network.cornwall.ac.uk/campus/bicton/
 
 
-- campus: Camborne
-  anchor: camborne
+- campus: dBs Music Bristol
+  anchor: "dbs"
+  brand:
+  copy: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+  link: /bristol-campus.html
+  contact-number: 01209 200200
+  images: 
+    - link: /images/cve/art.jpg
+      thumb: /images/cve/art-mobile.jpg
+      alt: an image
+      title: image 1
+      
+    - link: /images/cve/media-digital-creativity-prt-desktop.jpg
+      thumb: /images/cve/media-digital-creativity-prt-mobile.jpg
+      alt: an image
+      title: image 2
+      
+    - link: /images/cve/travel-visitor-attractions-desktop.jpg
+      thumb: /images/cve/travel-visitor-attractions-mobile.jpg
+      alt: an image
+      title: image 3
+      
+    - link: /images/cve/media.jpg
+      thumb: /images/cve/media.jpg
+      alt: an image
+      title: image 4
+  query: https://network.cornwall.ac.uk/campus/dbs-bristol/
+
+
+- campus: Cornwall College Camborne
+  anchor: "camborne"
   brand: Cornwall College
   copy: <p>With over £10million spent on redevelopments in recent years the campus is out of this world. On offer are the widest range of qualifications and subjects in the area, with a diverse student mix of further education, apprenticeships, professional qualifications and university study.</p>
   link: /camborne-campus.html
@@ -56,39 +85,8 @@
   query: https://network.cornwall.ac.uk/campus/camborne/
   
   
-  
-- campus: dBs Music Bristol
-  anchor: dbs
-  brand:
-  copy: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-  link: /bristol-campus.html
-  contact-number: 01209 200200
-  images: 
-    - link: /images/cve/art.jpg
-      thumb: /images/cve/art-mobile.jpg
-      alt: an image
-      title: image 1
-      
-    - link: /images/cve/media-digital-creativity-prt-desktop.jpg
-      thumb: /images/cve/media-digital-creativity-prt-mobile.jpg
-      alt: an image
-      title: image 2
-      
-    - link: /images/cve/travel-visitor-attractions-desktop.jpg
-      thumb: /images/cve/travel-visitor-attractions-mobile.jpg
-      alt: an image
-      title: image 3
-      
-    - link: /images/cve/media.jpg
-      thumb: /images/cve/media.jpg
-      alt: an image
-      title: image 4
-  query: https://network.cornwall.ac.uk/campus/dbs-bristol/
-  
-  
-  
 - campus: The Eden Project
-  anchor: eden-project
+  anchor: "eden-project"
   brand:
   copy: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
   link: /eden-campus.html
@@ -116,9 +114,8 @@
   query: https://network.cornwall.ac.uk/campus/eden-project/
   
   
-  
 - campus: Falmouth Marine School
-  anchor: falmouth-marine-school
+  anchor: "falmouth-marine-school"
   brand: Falmouth Marine School
   copy: <p>Cornwall’s college of the ocean has had a facelift this year, with over £3 million invested in ensuring the main Killigrew campus is a state-of-the-art training facility for the marine sector including ocean sciences, technology, watersports and boatbuilding. There are two other centres in Falmouth that make up the Marine School, a watersports facility on the water’s edge of the Fal estuary and aboatbuilding and fabrication unit in Ponsharden boatyard.</p>
   link: /falmouth-campus.html
@@ -146,9 +143,8 @@
   query: https://network.cornwall.ac.uk/campus/falmouth/
   
   
-  
-- campus: Newquay
-  anchor: newquay
+- campus: Cornwall College Newquay
+  anchor: "newquay"
   brand: Cornwall College
   copy: <p>Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in animal, marine and surf science studies, it has a reputation for being environmentally friendly and offering individual support in all aspects of study.</p>
   link: /newquay-campus.html
@@ -176,9 +172,8 @@
   query: https://network.cornwall.ac.uk/campus/newquay/
   
   
-  
-- campus: Rosewarne
-  anchor: rosewarne
+- campus: Duchy College Rosewarne
+  anchor: "rosewarne"
   brand: Duchy College
   copy: <p>Duchy College Rosewarne is situated just outside Camborne, on a working farm on the site of a former Ministry of Agriculture horticultural experimental station. The extensive beautiful grounds are spread over approximately 47 hectares and are an excellent horticultural resource with national plant collections on campus. On offer are specialist courses in agriculture, animal management, countryside, floristry, horticulture, land-based engineering, construction plant and veterinary nursing.</p>
   link: /rosewarne-campus.html
@@ -206,9 +201,8 @@
   query: https://network.cornwall.ac.uk/campus/rosewarne/
   
   
-  
-- campus: Saltash
-  anchor: saltash
+- campus: Cornwall College Saltash
+  anchor: "saltash"
   brand: Cornwall College
   copy: <p>The training centres in Saltash are split over two sites; on Church Road the main campus is nestled in the heart of a residential area only a few minutes’ walk from the town centre. The construction skills centre is a couple of miles away in a dedicated unit on an industrial estate by the A38, and is home to a range of skills training in plumbing, electrical, trowel trades and carpentry.</p>
   link: /saltash-campus.html
@@ -236,9 +230,37 @@
   query: https://network.cornwall.ac.uk/campus/saltash/
   
   
+- campus: Cornwall College St Austell
+  anchor: "st-austell"
+  brand: Cornwall College
+  copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, recently refurbished A-level centre, an arts block and dedicated construction and engineering skills centre, with the very latest real world skills training facilities.</p>
+  link: /st-austell-campus.html
+  contact-number: 01726 226622 
+  images: 
+    - link: /images/locations/StAustell/web-version/chloe-potts-A-levels-LG.jpg
+      thumb: /images/locations/StAustell/web-version/chloe-potts-A-levels.jpg
+      alt: an image
+      title: image 1
+      
+    - link: /images/locations/StAustell/web-version/cloisters-LG.jpg
+      thumb: /images/locations/StAustell/web-version/cloisters.jpg
+      alt: an image
+      title: image 2
+      
+    - link: /images/locations/StAustell/web-version/ED-dance-LG.jpg
+      thumb: /images/locations/StAustell/web-version/ED-dance.jpg
+      alt: an image
+      title: image 3
+      
+    - link: /images/locations/StAustell/web-version/STAC-site-shots-LG.jpg
+      thumb: /images/locations/StAustell/web-version/STAC-site-shots.jpg
+      alt: an image
+      title: image 4
+  query: https://network.cornwall.ac.uk/campus/st-austell/
   
-- campus: Stoke Climsland
-  anchor: stoke
+  
+- campus: Duchy College Stoke Climsland
+  anchor: "stoke"
   brand: Duchy College
   copy: <p>Duchy College’s largest campus is found within the striking Cornish countryside at Stoke Climsland, near Launceston. The campus is more than suitable for land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities.</p>
   link: /stoke-campus.html
@@ -266,37 +288,8 @@
   query: https://network.cornwall.ac.uk/campus/stoke/
   
   
-  
-- campus: St Austell
-  anchor: st-austell
-  brand: Cornwall College
-  copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, recently refurbished A-level centre, an arts block and dedicated construction and engineering skills centre, with the very latest real world skills training facilities.</p>
-  link: /st-austell-campus.html
-  contact-number: 01726 226622 
-  images: 
-    - link: /images/locations/StAustell/web-version/chloe-potts-A-levels-LG.jpg
-      thumb: /images/locations/StAustell/web-version/chloe-potts-A-levels.jpg
-      alt: an image
-      title: image 1
-      
-    - link: /images/locations/StAustell/web-version/cloisters-LG.jpg
-      thumb: /images/locations/StAustell/web-version/cloisters.jpg
-      alt: an image
-      title: image 2
-      
-    - link: /images/locations/StAustell/web-version/ED-dance-LG.jpg
-      thumb: /images/locations/StAustell/web-version/ED-dance.jpg
-      alt: an image
-      title: image 3
-      
-    - link: /images/locations/StAustell/web-version/STAC-site-shots-LG.jpg
-      thumb: /images/locations/StAustell/web-version/STAC-site-shots.jpg
-      alt: an image
-      title: image 4
-  query: https://network.cornwall.ac.uk/campus/st-austell/
-  
 - campus: Engineering Skills Centre, Plymouth
-  anchor: sisna
+  anchor: "sisna"
   brand: Cornwall College
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth.  The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html
