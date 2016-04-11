@@ -16,7 +16,7 @@ background-image: /images/location-banners/bicton-LG.jpg
     - rural economy
     - technology
 campuscodes: B
-event_campus: 5
+event_campus: 4
 ---
 
 {% include location-header.html %}
