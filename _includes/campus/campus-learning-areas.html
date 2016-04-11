@@ -8,8 +8,8 @@
     <article class="client-logo col-xs-12 col-sm-6 col-md-8 clearfix right">
         {% for campus in site.data.campus %}
             {% if campus.campus == page.campus' %}
-                {% for leaning-area in campus.leaning-areas %}
-                    {% for sub-area in leaning-area.sub-areas %}
+                {% for learning-area in campus.learning-areas %}
+                    {% for sub-area in learning-area.sub-areas %}
                         {% include /campus/campus-learning-area.html %}
                     {% endfor %}
                 {% endfor %}
