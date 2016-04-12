@@ -3514,6 +3514,11 @@ textarea {
 }
 /********************************************BETTERTUBE PLUGIN STYLES ENDS*****************************************/
 
+#isotope_filters {
+    padding: 0%;
+    width: 100%;
+}
+
 /* SWIPER styles for home page */
     .swiper-container {
         width: 100%;
