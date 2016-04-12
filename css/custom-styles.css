@@ -2935,37 +2935,37 @@ APPLY BARS =====================================================================
 
 .career-filter ul li a.as {
     color: white;
-    background-color: #712180;    
+    background-color: #616161;    
 }
 
 .career-filter ul li a.as:hover {
-    border: 5px solid #712180;
+    border: 5px solid #616161;
     background-color: white;
-    color: #712180;    
+    color: #616161;    
 }
 
 .career-filter li a.selected.as {
-    border: 5px solid #712180;    
+    border: 5px solid #616161;    
     background-color: white;
-    color: #712180;
+    color: #616161;
 }
 
 .career-filter ul li a.bpi {
-    border: 5px solid #E73029;
+    border: 5px solid #E54028;
     color:  white;
-    background-color: #E73029;      
+    background-color: #E54028;      
 }
 
 .career-filter ul li a.bpi:hover {
-    border: 5px solid #E73029;
+    border: 5px solid #E54028;
     background-color: white;
-    color: #E73029;    
+    color: #E54028;    
 }
 
 .career-filter li a.selected.bpi {
     background-color: white;
-    color: #E73029;
-    border: 5px solid #E73029;    
+    color: #E54028;
+    border: 5px solid #E54028;    
 }
 
 .career-filter ul li a.cve {
@@ -2987,75 +2987,111 @@ APPLY BARS =====================================================================
 }
 
 .career-filter ul li a.hw {
-    border: 5px solid #be2d2b;
+    border: 5px solid #D70060;
     color:  white;
-    background-color: #be2d2b;    
+    background-color: #D70060;    
 }
 
 .career-filter ul li a.hw:hover {
     background-color: white;
-    border: 5px solid #be2d2b;
-    color: #be2d2b;    
+    border: 5px solid #D70060;
+    color: #D70060;    
 }
 
 .career-filter li a.selected.hw {
-    border: 5px solid #be2d2b;    
+    border: 5px solid #D70060;    
     background-color: white;
-    color: #be2d2b;
+    color: #D70060;
 }
 
 .career-filter ul li a.re {
-    border: 5px solid #20A64B;
+    border: 5px solid #61AE24;
     color:  white;
-    background-color: #20A64B;    
+    background-color: #61AE24;    
 }
 
 .career-filter ul li a.re:hover {
     background-color: white;
-    border: 5px solid #20A64B;
-    color: #20A64B;    
+    border: 5px solid #61AE24;
+    color: #61AE24;    
 }
 
 .career-filter li a.selected.re {
     background-color: white;
-    border: 5px solid #20A64B;    
-    color: #20A64B;
+    border: 5px solid #61AE24;    
+    color: #61AE24;
 }
 
 .career-filter ul li a.sne {
-    border: 5px solid #004B93;
+    border: 5px solid #113F8C;
     color:  white;
-    background-color: #004B93;    
+    background-color: #113F8C;    
 }
 
 .career-filter ul li a.sne:hover {
     background-color: white;
-    border: 5px solid #004B93;
-    color: #004B93;    
+    border: 5px solid #113F8C;
+    color: #113F8C;    
 }
 
 .career-filter li a.selected.sne {
     background-color: white;
-    color: #004B93;
-    border: 5px solid #004B93;    
+    color: #113F8C;
+    border: 5px solid #113F8C;    
 }
 
-.career-filter ul li a.et {
-    border: 5px solid #00ACCD;
+.career-filter ul li a.tch {
+    border: 5px solid #00A1CB;
     color:  white;
-    background-color: #00ACCD;    
+    background-color: #00A1CB;    
 }
 
-.career-filter ul li a.et:hover {
+.career-filter ul li a.tch:hover {
     background-color: white;
-    border: 5px solid #00ACCD;
-    color: #00ACCD;    
+    border: 5px solid #00A1CB;
+    color: #00A1CB;    
 }
 
-.career-filter li a.selected.et {
+.career-filter li a.selected.tch {
     background-color: white;
-    color: #00ACCD;
-    border: 5px solid #00ACCD;    
+    color: #00A1CB;
+    border: 5px solid #00A1CB;    
+}
+
+.career-filter ul li a.edc {
+    border: 5px solid #01A4A4;
+    color:  white;
+    background-color: #01A4A4;    
+}
+
+.career-filter ul li a.edc:hover {
+    background-color: white;
+    border: 5px solid #01A4A4;
+    color: #01A4A4;    
+}
+
+.career-filter li a.selected.edc {
+    background-color: white;
+    color: #01A4A4;
+    border: 5px solid #01A4A4;    
+}
+
+.career-filter ul li a.fnd {
+    border: 5px solid #F18D05;
+    color:  white;
+    background-color: #F18D05;    
+}
+
+.career-filter ul li a.fnd:hover {
+    background-color: white;
+    border: 5px solid #F18D05;
+    color: #F18D05;    
+}
+
+.career-filter li a.selected.fnd {
+    background-color: white;
+    color: #F18D05;
+    border: 5px solid #F18D05;    
 }
 
 @media(max-width:765px) {
