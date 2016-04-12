@@ -62,16 +62,20 @@
 
   learning-areas:  
     - area-title: Foundation Learning
+      area-color: F18D05    
       sub-areas: 
       - sub-area-title: Independent Living Skills
         sub-area-link: independent-living-skills
+
     
     - area-title: Health & Wellbeing
+      area-color: D70060     
       sub-areas: 
       - sub-area-title: Public Services & Military Academy   
         sub-area-link: public-services-military-academy  
     
     - area-title: Rural Economy
+      area-color: 61AE24      
       sub-areas: 
       - sub-area-title: Agriculture & Countryside Management    
         sub-area-link: agriculture-countryside-management
@@ -89,6 +93,7 @@
         sub-area-link: land-based-engineering-technology         
 
     - area-title: Technology
+      area-color: 00A1CB    
       sub-area: 
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades
@@ -159,6 +164,7 @@
   
   learning-areas:    
     - area-title: Business & Professional
+      area-color: E54028    
       sub-areas: 
       - sub-area-title: Accounting   
         sub-area-link: accounting
@@ -173,6 +179,7 @@
         sub-area-link: digital-academy  
         
     - area-title: Cultral & Visitor Economy
+      area-color: D0D102    
       sub-areas: 
       - sub-area-title: Arts & Media  
         sub-area-link: arts-media
@@ -187,16 +194,19 @@
         sub-area-link: travel-tourism
   
     - area-title: Education
+      area-color: 01A4A4    
       sub-areas: 
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
   
     - area-title: Foundation Learning
-      sub-areas: 
+      area-color: F18D05        
+      sub-areas:        
       - sub-area-title: Independent Living Skills
         sub-area-link: independent-living-skills
     
     - area-title: Health & Wellbeing
+      area-color: D70060  
       sub-areas: 
       - sub-area-title: Hairdressing & Beauty Therapy   
         sub-area-link: hairdressing-beauty-therapy
@@ -211,11 +221,13 @@
         sub-area-link: sports-fitness               
         
     - area-title: Science & Natural Environment
+      area-color: 113F8C
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
         sub-area-link: applied-science-forensic-science
 
     - area-title: Technology
+      area-color: 00A1CB
       sub-area: 
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades  
@@ -294,16 +306,19 @@
 
   learning-areas:  
     - area-title: Health & Wellbeing
+      area-color: D70060
       sub-areas: 
       - sub-area-title: Sports & Fitness  
         sub-area-link: sports-fitness        
     
     - area-title: Science & Natural Environment
+      area-color: 113F8C
       sub-areas:
     - sub-area-title: Marine Biology & Ecology
       sub-area-link: marine-biology-ecology
 
     - area-title: Technology
+      area-color: 00A1CB
       sub-area: 
       - sub-area-title: Boatbuilding & Marine Engineering    
         sub-area-link: boatbuilding-marine-engineering
@@ -365,6 +380,7 @@
 
   learning-areas:  
     - area-title: Science & Natural Environment
+      area-color: 113F8C
       sub-areas:        
       - sub-area-title: Marine Biology & Ecology
         sub-area-link: marine-biology-ecology
@@ -373,6 +389,7 @@
         sub-area-link: wildlife-conservation-zoology
         
     - area-title: Health & Wellbeing
+      area-color: D70060
       sub-areas: 
       - sub-area-title: Sports & Fitness  
         sub-area-link: sports-fitness  
@@ -435,6 +452,7 @@
 
   learning-areas:  
     - area-title: Rural Economy
+      area-color: 61AE24 
       sub-areas: 
       - sub-area-title: Agriculture & Countryside Management    
         sub-area-link: agriculture-countryside-management
@@ -505,6 +523,7 @@
 
   learning-areas:  
     - area-title: Business & Professional
+      area-color: E54028    
       sub-areas: 
       - sub-area-title: Accounting   
         sub-area-link: accounting
@@ -516,6 +535,7 @@
         sub-area-link: digital-academy   
         
     - area-title: Cultral & Visitor Economy
+      area-color: D0D102    
       sub-areas: 
       - sub-area-title: Arts & Media  
         sub-area-link: arts-media
@@ -524,21 +544,25 @@
         sub-area-link: catering-hospitality
   
     - area-title: Education
+      area-color: 01A4A4     
       sub-areas: 
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
   
     - area-title: Foundation Learning
+      area-color: F18D05    
       sub-areas: 
       - sub-area-title: Independent Living Skills
         sub-area-link: independent-living-skills
     
     - area-title: Health & Wellbeing
+      area-color: D70060    
       sub-areas: 
       - sub-area-title: Hairdressing & Beauty Therapy   
         sub-area-link: hairdressing-beauty-therapy            
 
     - area-title: Technology
+      area-color: 00A1CB
       sub-area:        
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades  
@@ -607,11 +631,13 @@
 
   learning-areas:  
     - area-title: AS & A-levels
+      area-color: 616161
       sub-areas:
       - sub-area-title: AS & A-level courses
         sub-area-link: as-alevel-courses
       
     - area-title: Business & Professional
+      area-color: E54028
       sub-areas: 
       - sub-area-title: Accounting   
         sub-area-link: accounting
@@ -626,6 +652,7 @@
         sub-area-link: digital-academy
         
     - area-title: Cultral & Visitor Economy
+      area-color: D0D102 
       sub-areas: 
       - sub-area-title: Arts & Media  
         sub-area-link: arts-media
@@ -640,16 +667,19 @@
         sub-area-link: travel-tourism
   
     - area-title: Education
+      area-color: 01A4A4
       sub-areas: 
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
   
     - area-title: Foundation Learning
+      area-color: F18D05
       sub-areas: 
       - sub-area-title: Independent Living Skills
         sub-area-link: independent-living-skills
     
     - area-title: Health & Wellbeing
+      area-color: D70060
       sub-areas: 
       - sub-area-title: Hairdressing & Beauty Therapy   
         sub-area-link: hairdressing-beauty-therapy
@@ -661,11 +691,13 @@
         sub-area-link: sports-fitness             
         
     - area-title: Science & Natural Environment
+      area-color: 113F8C
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
         sub-area-link: applied-science-forensic-science
 
     - area-title: Technology
+      area-color: 00A1CB
       sub-area:         
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades  
@@ -734,16 +766,19 @@
 
   learning-areas:  
     - area-title: Education
+      area-color: 01A4A4
       sub-areas: 
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
   
     - area-title: Foundation Learning
+      area-color: F18D05
       sub-areas: 
       - sub-area-title: Independent Living Skills
         sub-area-link: independent-living-skills
     
     - area-title: Health & Wellbeing
+      area-color: D70060
       sub-areas: 
       - sub-area-title: Public Services & Military Academy   
         sub-area-link: public-services-military-academy  
@@ -752,6 +787,7 @@
         sub-area-link: sports-fitness        
     
     - area-title: Rural Economy
+      area-color: 61AE24    
       sub-areas: 
       - sub-area-title: Agriculture & Countryside Management    
         sub-area-link: agriculture-countryside-management

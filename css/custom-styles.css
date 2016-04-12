@@ -206,6 +206,23 @@ blockquote{
 .show-close {
     display: block;
 }
+
+@media(max-width: 1100px) {
+    .header-title {
+        padding-top: 245px;
+    }
+    .header-title h2 span {
+        font-size: 70px;
+    }
+}
+@media(max-width: 1000px) {
+    .header-title {
+        padding-top: 245px;
+    }
+    .header-title h2 span {
+        font-size: 50px;
+    }
+}
 /* left slide in close button */
 
 .ls-close {
@@ -3874,6 +3891,28 @@ ul#og-grid li h4{
         margin-bottom: 120px;
         font-family: railway
     }
+
+/* Learning area styles */
+a.learning-area{
+    padding:10px 15px;
+    border:solid 1px #eee;
+    margin:5px 0;
+    min-height: 80px;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center; 
+    -webkit-align-items: center;
+    align-items: center; 
+    color: white;
+    background: #52b3d9;
+    opacity: .7; 
+    font-weight: bold;    
+}
+a.learning-area:hover{
+    letter-spacing: normal;
+    opacity: 1;
+}
 /* Select or die styles */
 #home-page-select-wrap{
     z-index:1;
