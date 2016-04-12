@@ -2526,34 +2526,6 @@ section > h2 strong,
     font-size: 90px;
 }
 
-@media(max-width: 991px) {
-    .header-title {
-        padding-top: 245px;
-    }
-    .header-title h2 span {
-        font-size: 70px;
-    }
-}
-
-@media(max-width: 767px) {
-    .header-title {
-        padding-top: 253px;
-        padding-left: 0;
-    }
-    .header-title h2 span {
-        font-size: 60px;
-    }
-}
-
-@media(max-width: 480px) {
-    .header-title {
-        padding-top: 282px;
-    }
-    .header-title h2 span {
-        font-size: 40px;
-    }
-}
-
 .header-title:after {
     background: url(../images/subtle_carbon.png) center repeat;
     content: "";
