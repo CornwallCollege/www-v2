@@ -732,3 +732,123 @@ $( document ).ready(function() {
     });
     
 });
+
+/*------------------- learning area filer ISOTOPE ----------------------*/
+
+$( document ).ready( function() {
+    
+    //createItems();
+
+  var $container = $('#career-content').isotope({
+    itemSelector: '.area',
+    //resizable: false
+  });
+ 
+  $container.on( 'click', '.show-more', function() {
+    // change size of item by toggling big class
+    $( this ).parent().toggleClass('big');
+    //hide the readmore link  
+    $( this ).children(".readmore").toggle();
+    //get the hight of the hidden div and set the hight  
+    /*var h = $( this ).find("div").show().height();
+    $( this ).find("div").hide();  
+     alert(h); 
+    $( this ).find("div").css("height", h);  */
+    //re-build the layout  
+    $container.isotope('layout');
+  });
+
+  var $output = $('#output');
+
+  // filter with selects and checkboxes
+  var $checkboxes = $('#form-ui input');
+  
+  $checkboxes.change( function() {
+    // map input values to an array
+    var inclusives = [];
+    // inclusive filters from checkboxes
+    $checkboxes.each( function( i, elem ) {
+      // if checkbox, use value if checked
+      if ( elem.checked ) {
+        inclusives.push( elem.value );
+      }
+    });
+
+    // combine inclusive filters
+    var filterValue = inclusives.length ? inclusives.join(', ') : '*';
+
+    $output.text( filterValue );
+    $container.isotope({ 
+        filter: filterValue, 
+        queue: false,
+        resizable: false
+    })
+  });
+    
+/*
+    $container.delegate( '.show-more', 'click', function(){
+        //$(this).toggleClass('large');
+        $container.isotope('layout');
+    });
+
+*/
+});
+
+
+
+
+
+
+    /* ISOTOPE FOR PORTFOLIO ITEMS 
+    if ($("#learning-area-grid").length) {
+        var $container = $('#learning-area-grid').imagesLoaded(function () {
+            var isotope = function () {
+                $container.isotope({
+                    resizable: false,
+                    itemSelector: '.entry'
+                });
+            };
+            isotope();
+        });
+
+        $('div.area-filter ul a').click(function () {
+            var selector = $(this).attr('data-filter');
+            if (selector) {
+                $('html, body').animate({
+                    scrollTop: $('#area-grid-anchor').offset().top
+                }, 500);
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+                return false;
+            }
+            return true;
+        });
+
+        var $optionSets = $('div.area-filter ul'),
+            $optionLinks = $optionSets.find('a');
+        $optionLinks.click(function () {
+            var $this = $(this);
+            // don't proceed if already selected
+            if ($this.hasClass('selected')) {
+                return false;
+            }
+            var $optionSet = $this.parents('div.area-filter ul');
+            $optionSet.find('.selected').removeClass('selected');
+            $this.addClass('selected');
+        });
+
+        $container.isotope({
+            filter: "load",
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+    }*/

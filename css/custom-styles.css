@@ -2926,7 +2926,7 @@ APPLY BARS =====================================================================
     font-weight: 300;
     color: #000;
     border: 1px solid transparent;
-    border-left: 1px solid #52B3D9;
+    /*border-left: 1px solid #52B3D9;*/
     padding: 10px 20px 20px 20px;
     text-decoration: none;
     line-height: 22px;
@@ -4229,4 +4229,52 @@ a.learning-area:hover{
     }
 }
 
-
+/*----------------- Learning area filters ------------------*/
+.area{
+    min-height: 160px;
+    border:solid 1px #eee;
+    margin: 1px 0 0 ;
+}
+.area.big{
+    height: 300px;
+}
+@media(max-width:1181px) and (min-width:769px){
+    .area.big{
+        height: 400px;
+    }
+}
+.area a:active,
+.area a:hover,
+.area a{
+    text-decoration: none;
+}
+.area h4 span{
+    font-size: .5em;
+    font-weight: normal;
+    display: block;
+    width:100%;
+}
+.area h4, .area p{
+    color:#52b3d9;
+}
+div.btn-group .area-filter{
+    margin-top:0;
+    white-space: normal;
+    text-transform: uppercase;
+    border: 1px white solid;
+    border-top:none;
+    line-height: normal;
+    font-size: .9em;
+    padding: 10px 20px;  
+    letter-spacing: 0.11em;    
+}
+.area div.detail a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+@media(min-width:1183px){
+    div.btn-group .area-filter{    
+        /*min-height: 80px;*/
+    }
+}

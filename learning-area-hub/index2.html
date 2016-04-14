@@ -1,0 +1,218 @@
+---
+layout: hub
+title: Learning Area Hub
+description: The Cornwall College Group enable you to study for a range of courses from our wide range of learning area, find and more and apply here.
+link: 14-18
+---
+
+    <!-- HEADER SECTION -->
+    <section id="services" class="col-md-12 jumbotron header-title">
+        <header class="container">
+            <h2><a href="/index.html"><small>Home </small></a><span>LEARNING AREAS</span></h2>
+
+        </header>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- BODY SECTION -->
+
+    <section class="container">
+        <p class="lead">Our specialist career pathways will help you to develop your giving you the very best opportunity to fulfil your potential. Our range of <strong>study programmes</strong> are the best preparation for the world of work...</p>
+        <p class="lead">We’ve got lots of courses for all abilities and interests. To help you find your way, this website will let you select the career area that interests you and we’ll work with you to create a <strong>programme of study</strong> to fit your needs.</p>
+    </section>
+
+    <!-- CAREER SECTION
+====================================================================== -->
+
+
+<section class="container">
+    <div id="form-ui">
+    <h3>Learning Area Filters</h3>  
+    <p class="lead">Filter our learning areas by selecting one or more of the filters below.</p>    
+    <div class="col-xs-12 col-md-12">    
+        <h5>Campus</h5>    
+        <div class="btn-group" data-toggle="buttons">
+          <label class="area-filter btn btn-primary">
+            <input type="checkbox" value=".bicton-campus" autocomplete="off" >Bicton
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".camborne-campus" autocomplete="off">Camborne
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".bristol-campus" autocomplete="off">dBs Bristol
+          </label>            
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".eden-campus" autocomplete="off">Eden
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".falmouth-campus" autocomplete="off">Falmouth
+          </label>   
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".newquay-campus" autocomplete="off">Newquay
+          </label>    
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".rosewarne-campus" autocomplete="off">Rosewarne
+          </label>    
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".saltash-campus" autocomplete="off">Saltash
+          </label> 
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".st-austell-campus" autocomplete="off">St Austell
+          </label>    
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".stoke-campus" autocomplete="off">Stoke Climsland
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".sisna-campus" autocomplete="off">Sisna
+          </label>     
+        </div> 
+    </div>
+
+    <div class="col-xs-12 col-md-6 ">        
+        <h5>Brand</h5>    
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".bic" autocomplete="off" > Bicton College
+          </label>            
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".cc" autocomplete="off" > Cornwall College
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".dc" autocomplete="off"> Duchy College
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".fms" autocomplete="off"> Falmouth Marine School
+          </label>
+        </div>  
+    </div>    
+
+    <div class="col-xs-12 col-md-6">        
+        <h5>Sector</h5>    
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".university" autocomplete="off" >University
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".16-18" autocomplete="off">16-18
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".19+" autocomplete="off">Adult 19+
+          </label>
+        </div>  
+    </div>  
+
+      <!-- <p id="output">--</p>  -->   
+    </div>
+</section>
+    <section class="career-items container">
+        <a id="area-grid-anchor"></a>
+        <ul id="learning-area-grid" class="grid-layout more-padding hover-effect">
+            <li>
+                <figure>
+
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+      
+    <!-- Learning Area Divs -->
+<section id="career-list" class="container">
+        <div id="career-content" >
+            
+        {% for cluster in site.data.sub-clusters %}
+            
+            
+            <div class="area {{cluster.campus}} {{cluster.campus}} {{cluster.brand}} {{cluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ cluster.colour }};">
+                <a data-toggle="collapse" data-target="#{{ cluster.search-link }}" href="#{{ cluster.search-link }}"  class="show-more collapsed">    
+                    <i class="fa fa-times close-icon"></i>
+                    <h4><span style="color:#{{ cluster.colour }};">{{ cluster.cluster }}</span>{{ cluster.subcluster }}</h4>
+                    <span class="readmore">Read More</span>
+                </a>    
+                <div class="detail collapse" id="{{ cluster.search-link }}">
+                    <p>{{ cluster.intro }}</p>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right">View courses in this area</a>
+                </div>    
+       
+            </div>
+            
+           
+           
+        {% endfor %}            
+            
+            
+          
+        </div>
+</section>    
+    <section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
+
+    </section>
+
+
+
+
+    <!-- CAREER section ends -->
+    <!-- socialfeed #career -->
+<section class="col-md-12 main-section-margins clearfix">
+  <section class="container social-feed-container"> </section>  
+</section>    
+    <!-- why you choose us section -->
+
+    <section class="col-md-12  main-section-padding dark-bg intro">
+        <section class="container">
+            <header class="col-sm-12 text-center">
+                <h2 class="text-uppercase">Programme of <strong>study</strong></h2>
+                <article>{% youtube https://youtu.be/0EeuuNW0tj4 %}</article>
+            <p id='usp-explained' class="lead white">We’ll work with you to create the perfect combination of building blocks for success. As unique as you are, each study programme is tailored to your individual needs and career ambitions; enabling you to be work ready in every way.</p>
+            </header>
+
+            <footer class="item-blocks">
+                <!-- BLOCK 1 -->
+                <article class="col-md-4">
+                    <h4><span class="number">1/</span> Universal</h4>
+                    <p>You’ll work towards improving your skills in English, IT and maths.</p>
+                </article>
+                <!-- BLOCK 2 -->
+                <article class="col-md-4">
+                    <h4><span class="number">2/</span> Specialist</h4>
+                    <p>You’ll gain the specialist knowledge and skills you need for your future career.</p>
+                </article>
+                <!-- BLOCK 3 -->
+                <article class="col-md-4">
+                    <h4><span class="number">3/</span> Personal</h4>
+                    <p>You’ll benefit from a combination of work experience and industry relevant skills.</p>
+                </article>
+            </footer>
+
+            <header class="col-sm-12 text-center another-title">
+                <h2 class="text-uppercase">The <strong>College</strong></h2>
+                <p class="lead white">Show us some ambition, we’ll show you a better life.</p>
+            </header>
+            <footer class="item-blocks">
+                <!-- BLOCK 1 -->
+                <article class="col-md-4">
+                    <h4><span class="number">1/</span> Award winning Students’ Union</h4>
+                    <p>Life isn’t all about hard work, our learners’ also have a fantastic wider college experience supported by an outstanding Students’ Union, representing your voice. </p>
+                </article>
+                <!-- BLOCK 2 -->
+                <article class="col-md-4">
+                    <h4><span class="number">2/</span> Breath taking learning environments</h4>
+                    <p>We’ll get you ready for your career by training you in the environment you can expect to be working in, with over £100million spent on practical skills training facilities in recent years.</p>
+                </article>
+                <!-- BLOCK 3 -->
+                <article class="col-md-4">
+                    <h4><span class="number">3/</span> A history of academic success</h4>
+                    <p>Our A-level provisions has seen its best results ever, with a pass rate of 99.2% and an 8% increase in grades A* and A last year, with 40% of learners applying to Russell Group universities.</p>
+                </article>
+            </footer>
+        </section>
+    </section>
+
+
+    <!-- action to call section -->
+    <section class="col-sm-12 fulltime-bar clearfix">
+        <div class="container">
+            <h2>Seen enough, apply now! </h2>
+            <a href="/apply/index.html" class="apply-btn btn">Apply NOW</a>
+        </div>
+    </section>
