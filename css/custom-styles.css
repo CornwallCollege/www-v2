@@ -1292,6 +1292,7 @@ footer a.btn{
     display: inline;
     background: rgba(255, 255, 255, 0.5);
     padding: 30px;
+    min-height: 180px;
 }
 
 #counters-1 .inner-even,
@@ -3254,6 +3255,12 @@ a h2 span.readmore {
     #counters .inner {
         padding: 30px 15px;
         text-align: center;
+        display: flex;
+        display: -webkit-flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
     }
 }
 
@@ -3587,7 +3594,7 @@ video {
 /*KEY STATS section*/
 .stats li{
     padding:25px 10px;
-    min-height:200px;
+    min-height:275px;
 }
 .stats li:nth-child(odd){
     background:rgba(255, 255, 255, 0.8)!important;
@@ -3880,14 +3887,14 @@ a.learning-area{
     justify-content: center; 
     -webkit-align-items: center;
     align-items: center; 
-    color: white;
-    background: #52b3d9;
-    opacity: .7; 
-    font-weight: bold;    
+    color: #52b3d9;
+    background:white;
+    /*opacity: .7;*/ 
+    font-weight: bold;  
 }
 a.learning-area:hover{
     letter-spacing: normal;
-    opacity: 1;
+    background: #f1f1f1
 }
 /* Select or die styles */
 #home-page-select-wrap{
