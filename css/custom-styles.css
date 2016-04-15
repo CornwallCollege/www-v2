@@ -2775,107 +2775,7 @@ APPLY BARS =====================================================================
     margin-top: 70px;
 }
 /* --------- Full time section call to action ENDS --------- */
-/* --------- Career area H1 size fixes ---------*/
 
-@media(min-width:993px) {
-    .career-title header h2 {
-        margin-top: 47px;
-    }
-    #sales-marketing h2,
-    #marine-natural-science-conservation h2    {
-        margin-top: 62px;
-    }
-    .career-title header h2 span {
-        font-size: 60px;
-    }
-    #sales-marketing h2 span,
-    #marine-natural-science-conservation h2 span    {
-        font-size: 44px;
-    }
-}
-
-@media(min-width:481px) and (max-width:992px) {
-    /* Small title top margin */
-    
-    .career-title header h2 {
-        margin-top: 46px;
-    }
-    /* Extra small title top margin */
-    
-    #sales-marketing h2,
-    #marine-natural-science-conservation h2{
-        margin-top: 55px;
-    }
-    /* Small title */
-    
-    .career-title header h2 span {
-        font-size: 30px;
-    }
-    /* Extra small title */
-    
-    #sales-marketing h2 span,
-    #marine-natural-science-conservation h2 span{
-        font-size: 20px;
-    }
-}
-
-@media(max-width:480px) {
-    /* two line titles */
-    
-    .career-title header h2 {
-        margin-top: 4px;
-    }
-    /* three line titles */
-    
-    #sales-marketing h2,
-    #travel-visitor-attractions h2,
-    #performing-arts h2,
-    #marine-natural-science-conservation h2,
-    #animal-science-management h2{
-        margin-top: 3px;
-    }
-    /* Small breadcrumb */
-    
-    .career-title header a small {
-        font-size: 115%;
-    }
-    /* Small title */
-    
-    .career-title header h2 span {
-        line-height: 85%;
-        font-size: 108%;
-    }
-    /* three line title */
-    
-    #sales-marketing h2 span,
-    #travel-visitor-attractions h2 span,
-    #performing-arts h2 span,
-    #media-digital-creativity h2 span,
-    #animal-science-management h2 span{
-        font-size: 83%;
-        line-height: 117%;
-    }
-    /*extreem small title style*/ 
-    #marine-natural-science-conservation h2 span{
-        font-size: 70%;
-        line-height: 88%;  
-    }
-    /*one word title*/
-    
-    #health h2 span,
-    #electrical h2 span,
-    #construction h2 span,
-    #automotive h2 span,
-    #boatbuilding h2 span,
-    #aerospace h2 span,
-    #engineering h2 span,
-    #a-levels h2 span,
-    #legal h2 span{
-        line-height: 194%;
-        font-size: 129%;
-    }
-}
-/* ------- Career area H1 size fixes ENDS ------- */
 
 .dark-bg h2 {
     color: white;
@@ -3729,6 +3629,9 @@ section.key-stats:after{
     }
     .no-padding{
         padding:0!important;
+    }
+    .no-margin{
+        margin:0!important;
     }
 /* Campus pages Facilities section */
 .og-grid li {
