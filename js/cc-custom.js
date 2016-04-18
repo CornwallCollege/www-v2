@@ -60,9 +60,6 @@ $(function () {
 
         function changeCurrentLogo() {
 
-
-
-
             var slide = swiperH.slides[swiperH.activeIndex];
             var logo = $(slide).attr('data-logo');
             $('.logo').removeClass('current-brand');
@@ -637,24 +634,53 @@ $(function () {
 
 /* Set brand cookie on home */
 $(function () {
+
+var hash = location.hash;
+var brand_cookie = Cookies.get('brand');
+    
+    //set brand on home page visit
     if (location.pathname === "/") {
         //get the hash from the URL
-        var hash = document.URL.substr(document.URL.indexOf('#') + 1);
 
-        // set up the brand based on hash
-        var brand = $.cookie('brand', hash, {
-            expires: 1,
-            path: '/'
-        });
-
-        if (brand == null) {
-            $('.newsletter_layer').show();
-            $.cookie('brand', 'yes');
-            alert($.cookie("brand"));
+        if (hash == '') {        
+        var brand_cookie = Cookies.set('brand', '#cornwall');
+            
         } else {
-            alert($.cookie("brand"));
+            var brand_cookie = Cookies.set('brand', hash);
+            Cookies.get('brand');
         }
     }
+    //set brand on logo click
+    $(".brand-image").click(function () {
+        Cookies.get('brand');
+        var brand_cookie = Cookies.set('brand', hash);
+
+    });
+    //
+    $(function () {
+        if( Cookies.get('brand') != ''){
+            $('.logo').removeClass('current-brand');
+            $('.logo').addClass('sub-brand grow');
+            $( Cookies.get('brand') ).removeClass('grow');
+            $( Cookies.get('brand') ).addClass('current-brand');
+            //bring the active logo to the front
+            $( Cookies.get('brand') ).css("z-index", "999");
+           
+            //apply z-index to correctly stack the logos
+            var offset = 1;
+            $( Cookies.get('brand') ).prevAll().each(function(index){
+               $(this).css("z-index", 999 - offset);
+                offset++;
+            });
+            $( Cookies.get('brand') ).nextAll().each(function(index){
+               $(this).css("z-index", 999 - offset);
+                offset++;
+         
+            });
+        } 
+
+    });    
+    
 });
 
 
@@ -793,62 +819,3 @@ $( document ).ready( function() {
 
 */
 });
-
-
-
-
-
-
-    /* ISOTOPE FOR PORTFOLIO ITEMS 
-    if ($("#learning-area-grid").length) {
-        var $container = $('#learning-area-grid').imagesLoaded(function () {
-            var isotope = function () {
-                $container.isotope({
-                    resizable: false,
-                    itemSelector: '.entry'
-                });
-            };
-            isotope();
-        });
-
-        $('div.area-filter ul a').click(function () {
-            var selector = $(this).attr('data-filter');
-            if (selector) {
-                $('html, body').animate({
-                    scrollTop: $('#area-grid-anchor').offset().top
-                }, 500);
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-                return false;
-            }
-            return true;
-        });
-
-        var $optionSets = $('div.area-filter ul'),
-            $optionLinks = $optionSets.find('a');
-        $optionLinks.click(function () {
-            var $this = $(this);
-            // don't proceed if already selected
-            if ($this.hasClass('selected')) {
-                return false;
-            }
-            var $optionSet = $this.parents('div.area-filter ul');
-            $optionSet.find('.selected').removeClass('selected');
-            $this.addClass('selected');
-        });
-
-        $container.isotope({
-            filter: "load",
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-    }*/

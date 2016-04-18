@@ -775,12 +775,13 @@ footer a.btn{
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+
 .grow:hover { 
-    transform: scale(1.4);
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    -o-transform: scale(1.4);
-    -ms-transform: scale(1.4);
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -ms-transform: scale(1.15);
 }
 #white-nav-bg{
     background: rgba(255,255,255,1);
@@ -3680,30 +3681,30 @@ ul#og-grid li h4{
     margin-bottom:20px;
 }
 /* Bicton Campus */
-#bicton{
+#bicton-campus{
     background: #77BC43;
 }
-#bicton h2 strong,
-#bicton h5 span{
+#bicton-campus h2 strong,
+#bicton-campus h5 span{
     color: white;
 }
-#bicton .campus-seach{
+#bicton-campus .campus-seach{
     background: white;
 }
-#bicton .campus-seach h4{
+#bicton-campus .campus-seach h4{
     color: #77BC43;
 }
-#bicton .form-control{
+#bicton-campus .form-control{
     border: solid 2px #77BC43;
 }
-#bicton .campus-link{
+#bicton-campus .campus-link{
     background: white;
     color:#77BC43
 }
-#bicton .campus-seach-button{
+#bicton-campus .campus-seach-button{
     background: #77BC43;
 }
-#bicton .campus-seach-button i{
+#bicton-campus .campus-seach-button i{
     color: white
 }
 /* camborne, newquay, saltash, st austell */
