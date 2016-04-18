@@ -21,7 +21,7 @@
   intro: If you have attention to detail and like working with numbers, a career in the financial sector could be very rewarding. 
   
 - cluster: Business & Professional
-  subcluster: Business, Law & Medical Administration
+  subcluster: Business, Law & Administration
   campus: camborne-campus stoke-campus st-austell-campus saltash-campus
   colour: E54028  
   brand: cc dc
@@ -94,7 +94,7 @@
   
 #Education 01A4A4
 - cluster: Education
-  subcluster: EDUCATION & PROFESSIONAL DEVELOPMENT
+  subcluster: The School of Education & Professional Development
   level: 1, 2, 3
   colour: 01A4A4  
   brand: cc 
@@ -115,7 +115,7 @@
   
 #Foundation Learning F18D05
 - cluster: Foundation Learning
-  subcluster: Independant Living Skills
+  subcluster: Foundation Learning
   level: Entry, 1, 2
   colour: F18D05  
   brand: cc
@@ -232,7 +232,7 @@
   intro: For those who love science, have an enquiring mind and attention to detail a career in applied or forensics could be perfect. Whether working as a forensic scientist helping to solve crimes, in an industrial laboratory or in research and development there is a broad range of careers available to you. 
   
 - cluster: Science & Natural Environment
-  subcluster: Marine Biology & Ecology
+  subcluster: Marine & Natural Environment
   level: 2, 3
   colour: 113F8C 
   sector: 16-18  

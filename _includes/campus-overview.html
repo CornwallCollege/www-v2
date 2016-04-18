@@ -1,15 +1,15 @@
 
 {% for campus in site.data.campus-overview %}
-<section id="{{ campus.anchor }}" class="campus-overview">
+<section id="{{ campus.anchor }}" class="campus-overview" itemscope itemtype="https://schema.org/CollegeOrUniversity">
     <section class="container">
         <a name="{{ campus.anchor }}"></a>
                 <section class="col-xs-12">
                     
                     <article class="col-sm-12 col-md-8">
-                        <h2>{{ campus.brand }} <strong>{{ campus.campus }}</strong></h2>
+                        <h2>{{ campus.brand }} <strong><span itemprop="subOrganization">{{ campus.campus }}</span></strong></h2>
                     </article>
                     <article class="col-sm-12 col-md-8">
-                        <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;">{{ campus.contact-number }}</span></h5>                        
+                        <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone">{{ campus.contact-number }}</span></h5>                        
                         {{ campus.copy }}
                     </article>
                     <section class="container">

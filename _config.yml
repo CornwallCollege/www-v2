@@ -28,3 +28,5 @@ asset_bundler:
     css: false
 
 relative_permalinks: false
+
+schema-college: https://schema.org/CollegeOrUniversity
