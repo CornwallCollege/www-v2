@@ -638,6 +638,7 @@ $(function () {
 var hash = location.hash;
 var brand_cookie = Cookies.get('brand');
     
+    
     //set brand on home page visit
     if (location.pathname === "/") {
         //get the hash from the URL
@@ -646,14 +647,14 @@ var brand_cookie = Cookies.get('brand');
         var brand_cookie = Cookies.set('brand', '#cornwall');
             
         } else {
-            var brand_cookie = Cookies.set('brand', hash);
+            var brand_cookie = Cookies.set('brand', hash, { domain: 'network.cornwall.ac.uk' });
             Cookies.get('brand');
         }
     }
     //set brand on logo click
     $(".brand-image").click(function () {
         Cookies.get('brand');
-        var brand_cookie = Cookies.set('brand', hash);
+        var brand_cookie = Cookies.set('brand', hash, { domain: 'network.cornwall.ac.uk' });
 
     });
     //
