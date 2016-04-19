@@ -710,7 +710,7 @@ $(window).load(function () {
 $( document ).ready(function() {
     //jQuery RSS parse for events on campus pages
     var campus_id = $("#event-carousel").attr("data-event-campus-id");
-    var rssurl = "http://network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue="+campus_id;
+    var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue="+campus_id;
     $.get(rssurl, function(data) {
         var $XML = $(data);
         $XML.find("item").each(function() {
