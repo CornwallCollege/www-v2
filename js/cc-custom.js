@@ -636,7 +636,7 @@ $(function () {
 $(function () {
 
 var hash = location.hash;
-var brand_cookie = Cookies.get('brand');
+var brand_cookie = Cookies.get('brand'); 
     
     
     //set brand on home page visit
@@ -644,22 +644,30 @@ var brand_cookie = Cookies.get('brand');
         //get the hash from the URL
 
         if (hash == '') {        
-        var brand_cookie = Cookies.set('brand', '#cornwall',  { domain: '.cornwall.ac.uk' });
+            var brand_cookie = Cookies.set('brand', '#cornwall' );             
+            var course_brand_cookie = Cookies.set('course-brand', '#cornwall', {
+                domain: 'network.cornwall.ac.uk'
+            });
             
         } else {
-            var brand_cookie = Cookies.set('brand', hash, {  domain: '.cornwall.ac.uk' });
+            var brand_cookie = Cookies.set('brand', hash );             
+            var course_brand_cookie = Cookies.set('course-brand', hash, {
+            domain: 'network.cornwall.ac.uk'
+        });
             Cookies.get('brand');
         }
     }
     //set brand on logo click
     $(".brand-image").click(function () {
-        Cookies.get('brand');
-        var brand_cookie = Cookies.set('brand', hash, { domain: '.cornwall.ac.uk' });
+            var brand_cookie = Cookies.set('brand', hash );        
+            var course_brand_cookie = Cookies.set('course-brand', hash, {
+            domain: 'network.cornwall.ac.uk'
+        });
 
     });
     //
     $(function () {
-        if( Cookies.get('brand') != ''){
+        
             $('.logo').removeClass('current-brand');
             $('.logo').addClass('sub-brand grow');
             $( Cookies.get('brand') ).removeClass('grow');
@@ -678,7 +686,7 @@ var brand_cookie = Cookies.get('brand');
                 offset++;
          
             });
-        } 
+
 
     });    
     
