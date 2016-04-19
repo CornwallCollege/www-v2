@@ -646,13 +646,13 @@ var brand_cookie = Cookies.get('brand');
         if (hash == '') {        
             var brand_cookie = Cookies.set('brand', '#cornwall' );             
             var course_brand_cookie = Cookies.set('course-brand', '#cornwall', {
-                domain: 'network.cornwall.ac.uk'
+                domain: '.cornwall.ac.uk'
             });
             
         } else {
             var brand_cookie = Cookies.set('brand', hash );             
             var course_brand_cookie = Cookies.set('course-brand', hash, {
-            domain: 'network.cornwall.ac.uk'
+            domain: '.cornwall.ac.uk'
         });
             Cookies.get('brand');
         }
@@ -661,7 +661,7 @@ var brand_cookie = Cookies.get('brand');
     $(".brand-image").click(function () {
             var brand_cookie = Cookies.set('brand', hash );        
             var course_brand_cookie = Cookies.set('course-brand', hash, {
-            domain: 'network.cornwall.ac.uk'
+            domain: '.cornwall.ac.uk'
         });
 
     });
