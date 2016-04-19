@@ -708,6 +708,7 @@ $(window).load(function () {
 });
 
 $( document ).ready(function() {
+if (location.pathname.indexOf("location-pages") !== -1) {    
     //jQuery RSS parse for events on campus pages
     var campus_id = $("#event-carousel").attr("data-event-campus-id");
     var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue="+campus_id;
@@ -757,7 +758,7 @@ $( document ).ready(function() {
               });
            }
     });
-    
+}
 });
 
 /*------------------- learning area filer ISOTOPE ----------------------*/
