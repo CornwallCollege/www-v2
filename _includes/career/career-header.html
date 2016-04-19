@@ -4,9 +4,9 @@
         <h2><a href="/"><small>Home / </small></a><a href="/full-time-hub/index.html"><small> Full-time Hub</small></a>
             <span>
             {% if include.title %}
-                {{ include.title | capitalize }}
+                <span itemprop="department">{{ include.title | capitalize }}</span>
             {% else %}
-                {{ page.title | capitalize }}
+                <span itemprop="department">{{ page.title | capitalize }}</span>
             {% endif %}
          </span></h2>
     </header>
