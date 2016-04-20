@@ -3,6 +3,7 @@ title: The Career College | The Cornwall College Group
 email: webmaster@cornwall.ac.uk
 author: Cornwall College
 description: "Cornwall College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
+image: "/image/cc-brand-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://m.cornwall.ac.uk" # the base hostname & protocol for your site
 twitter_username: jekyllrb
