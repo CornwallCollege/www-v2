@@ -12,24 +12,26 @@
             <div style="font-size: 16px; line-height: 1.7;">
                 <address style="line-height: 1.7;">
                     <strong>Address:</strong><br>
+                    <span itemprop="address">
 					{{page.campus}} <br/>
                     {{page.address}} <br/>
                     {{page.postcode}}
+                    </span>    
 				</address>
 
                 <div class="clear topmargin-sm"></div>
 
                 <address style="line-height: 1.7;">
 				    <strong>Contact:</strong><br>
-				    {{page.phone}}<br>
+				    <span itemprop="telephone">{{page.phone}}</span><br>
 				    <a href="malto:{{page.email}}">{{page.email}}</a><br>
 				</address>
-
+                <a href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}" target="_blank" class="icon-btn">Get Your Location</a>
                 <form action="http://maps.google.com/maps" method="get" target="_blank">
                     <label for="saddr">ENTER YOUR LOCATION</label><br/>
                     <input type="text" name="saddr" />
                     <input type="hidden" name="daddr" value="{{page.campus}} {{page.address}} {{page.postcode}}" />
-                    <input type="submit" value="Get directions" />
+                    <input type="submit" class="icon-btn" value="Get directions" style="padding:2px 7px;"/>
                 </form>
             </div>
         </div>
