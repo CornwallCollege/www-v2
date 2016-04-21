@@ -780,20 +780,36 @@ $( document ).ready( function() {
     //resizable: false
   });
  
+  var $sector = $('#sector-page-content').isotope({
+    itemSelector: '.area',
+    //resizable: false
+  });    
+    
   $container.on( 'click', '.show-more', function() {
     // change size of item by toggling big class
     $( this ).parent().toggleClass('big');
     //hide the readmore link  
-    $( this ).children(".readmore").toggle();
-    //get the hight of the hidden div and set the hight  
-    /*var h = $( this ).find("div").show().height();
-    $( this ).find("div").hide();  
-     alert(h); 
-    $( this ).find("div").css("height", h);  */
+    $( this ).children(".readmore").toggle(); 
     //re-build the layout  
     $container.isotope('layout');
   });
-
+    
+    // filter items on button click Sector hub page
+    $('.link-wrap').on( 'click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+      $sector.isotope({ filter: filterValue });
+      $sector.show(); 
+        //if 16-18 show the 'how you learn' filters 
+      $sector.isotope('layout'); 
+        $('html, body').animate({
+            scrollTop: $('#sector-page-content').offset().top-150
+        }, 1000);
+        
+        if($(this).attr('data-filter') === '.16-18'){
+            $('#learn-filters').show();
+        }           
+    });
+    
   var $output = $('#output');
 
   // filter with selects and checkboxes
@@ -807,6 +823,8 @@ $( document ).ready( function() {
       // if checkbox, use value if checked
       if ( elem.checked ) {
         inclusives.push( elem.value );
+        $sector.show(); 
+        $sector.isotope('layout');
       }
     });
 

@@ -75,6 +75,9 @@ html, body {
 .header-title a{
     line-height: 0px;
 }
+.campus-overview h2 span{
+    font-size:40px;
+}
 @media(min-width: 1600px) {
     .header-title header{
         left: calc(16% + 20px);
@@ -578,6 +581,12 @@ section h2 strong {
 
 .icon-btn {
     border: 1px solid #52B3D9;
+    color:#52B3D9;
+}
+.icon-btn:hover {
+    background: #52B3D9;
+    color: white;
+    letter-spacing: normal;
 }
 
 .btn-wrap {
@@ -4024,6 +4033,10 @@ a.learning-area:hover{
     margin-bottom: 10px;
     white-space: normal;
 }
+#event .intro h2 span{
+    font-size: 40px;
+    font-weight: lighter;
+}
 #event-carousel .owl-controls .owl-dot,
 #image-carousel .owl-controls .owl-dot {
     display: inline-block;
@@ -4160,6 +4173,9 @@ a.learning-area:hover{
 .area a{
     text-decoration: none;
 }
+.area > div{
+    background:none!important;
+}
 .area h4 span{
     font-size: .5em;
     font-weight: normal;
@@ -4190,3 +4206,39 @@ div.btn-group .area-filter{
         /*min-height: 80px;*/
     }
 }
+/* Sector hub styles */
+.equal-wrap{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+ 
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; 
+}
+.blocks article{
+
+}
+.blocks article:nth-child(odd),
+.blocks article:nth-child(even){
+    border-right-width: 1px;
+    border-right-color: #eee;
+    border-left-width: 1px;
+    border-left-color: #eee;
+}
+.blocks article p{
+    margin:20px 0;
+}
+.blocks article:hover{border: solid 1px #52b3d9;}
+.blocks article a{
+    margin-top: 10px
+}
+.blocks article a:hover{
+    color:white;
+}
+.blocks article:hover a,
+.blocks article:hover i{
+    opacity: 1;
+}
+
+/* sector ends */

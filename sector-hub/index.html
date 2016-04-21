@@ -1,7 +1,7 @@
 ---
 layout: hub
 title: How you learn sector hub
-description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
+description: The Cornwall College Group enable you to study for a range of courses to suit your learning needs, find and more and apply here.
 link: 14-18
 ---
 
@@ -18,19 +18,131 @@ link: 14-18
     <section class="container">
         <p class="lead">Our specialist career pathways will help you to develop your <strong onclick="window.smoothScrollTo('usp-explained');"><u>USP</u></strong>, giving you the very best opportunity to fulfil your potential. Our range of <strong>study programmes</strong> are the best preparation for the world of work...</p>
         <p class="lead">We’ve got lots of courses for all abilities and interests. To help you find your way, this website will let you select the career area that interests you and we’ll work with you to create a <strong>programme of study</strong> to fit your needs.</p>
+        
+    <section class="col-xs-12 main-section-margins intro container ">
+      <article class="col-sm-12 text-center"> <h2>OUR <strong>SECTORS</strong></h2> </article>
+    </section>  
+
     </section>
 
     <!-- SECTORS SECTION
 ====================================================================== -->
 
 
-<section class="container main-section-margins ">
-    <article class="col-sm-12 col-md-4">
-        <i></i>
-        <h3>16-18</h3>
-    </article>
-    
+<section class="container main-section-margins blocks">
+    <div class="row equal-wrap">
+        <article id="16-18" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+            <h3>16-18</h3>
+            <p>Our specialist career pathways will help you to develop your USP, giving you the very best opportunity to fulfil your potential. Our range of study programmes, for young people aged 16-18, are the best preparation for the world of work...</p>
+            <div class="link-wrap">
+            <button data-filter=".16-18" class="icon-btn">View 16-18 Learning Areas</button>
+            </div>
+        </article>
+        <article id="university" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
+            <h3>University</h3>
+            <p>There's never been a better time to gain a quality degree right here in Cornwall, with an incredible range of over 80 programmes providing you with real skills to start the career you want straight away. Our programmes are awarded by Plymouth University, one of the Sunday Times' top three modern universities in the UK.</p>
+            <div class="link-wrap">
+                 <button data-filter=".university" class="icon-btn">View Higher Education Areas</button>
+                <a href="" class="icon-btn">Visit our University site</a>
+            </div>    
+        </article>    
+        <article id="19+" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-bookmark fa-3x" aria-hidden="true"></i>
+            <h3>19+</h3>
+            <p>As an adult returning to education you will have many demands on your time. That is why we offer a range of flexible, part-time qualifications. There's something for everyone, from entry-level all the way to postgraduate study.</p>
+            <div class="link-wrap">
+                <button data-filter=".19+" class="icon-btn">View Learning areas Areas</button>
+            </div>
+        </article> 
+    </div>    
+    <div class="row equal-wrap">
+        <article id="leisure" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+            <h3>Leisure Courses</h3>
+            <p>Cornwall College offers a wide range of day, evening and weekend courses for all ages and interests.</p>
+            <!--<a href="" class="icon-btn">View Leisure Courses</a>-->
+            <a href="" class="icon-btn">Visit Leisure Site</a>
+        </article>          
+        <article id="apprenticeships" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+            <h3>Apprenticeships</h3>
+            <p>An apprenticeship is an ideal way to get in to the world of work and gain a qualification while earning real money.</p>
+            <div class="link-wrap">
+                <button data-filter=".apprenticeships" class="icon-btn">View Apprenticeships Areas</button>
+            <a href="" class="icon-btn">View Apprenticeship Vacancies</a>
+            </div>    
+        </article>     
+        <article id="business" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-briefcase fa-3x" aria-hidden="true"></i>
+            <h3>Business Training</h3>
+            <p>Cornwall College Business are here to support your business training needs to help provide opportunities for growth within your business.</p>
+            <div class="link-wrap">
+                <button data-filter=".business" class="icon-btn">View Business Training Areas</button>
+            <a href="" class="icon-btn">Visit Cornwall College Business</a>
+            </div>    
+        </article>  
+    </div>    
 </section>
+
+<section class="container main-section-margins" id="learn-filters" style="display:none;">
+    <div id="form-ui">   
+        <h3>Filter by how your prefer to learn</h3>  
+
+        <div class="col-xs-12 " >        
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-primary area-filter">
+                <input type="checkbox" value=".hands-on" autocomplete="off" > Practical Courses
+              </label>            
+              <label class="btn btn-primary area-filter">
+                <input type="checkbox" value=".academic" autocomplete="off" > Academic Courses
+              </label>
+              <label class="btn btn-primary area-filter">
+                <input type="checkbox" value=".apprenticeship" autocomplete="off"> Earn while you learn
+              </label>
+              <!--<label class="btn btn-primary area-filter">
+                <input type="checkbox" value=".fms" autocomplete="off"> Falmouth Marine School
+              </label>-->
+            </div>  
+        </div>     
+ 
+      <!-- <p id="output">--</p>  -->   
+    </div>
+</section>
+
+
+
+<!-- Learning Area Divs -->
+<section class="container">
+        <div id="sector-page-content" class="transition" style="display:none">
+
+        {% for cluster in site.data.sub-clusters %}
+
+
+            <div class="area {{cluster.learning-style}} {{cluster.campus}} {{cluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ cluster.colour }};">
+                <a data-toggle="collapse" data-target="#{{ cluster.search-link }}" href="#{{ cluster.search-link }}"  class="show-more collapsed">    
+                    <i class="fa fa-times close-icon"></i>
+                    <h4><span style="color:#{{ cluster.colour }};">{{ cluster.cluster }}</span>{{ cluster.subcluster }}</h4>
+                    <span class="readmore">Read More</span>
+                </a>    
+                <div class="detail collapse" id="{{ cluster.search-link }}">
+                    <p>{{ cluster.intro }}</p>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right">View courses in this area</a>
+                </div>    
+
+            </div>
+
+
+
+        {% endfor %}            
+
+
+
+        </div>
+</section>    
+
+    <!--learning area section ends -->
 
     <!-- action to call section -->
     <section class="col-sm-12 fulltime-bar clearfix">
