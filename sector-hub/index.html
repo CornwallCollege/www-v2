@@ -36,7 +36,7 @@ link: 14-18
             <h3>16-18</h3>
             <p>Our specialist career pathways will help you to develop your USP, giving you the very best opportunity to fulfil your potential. Our range of study programmes, for young people aged 16-18, are the best preparation for the world of work...</p>
             <div class="link-wrap">
-            <button data-filter=".16-18" class="icon-btn">View 16-18 Learning Areas</button>
+            <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase">View 16-18 Learning Areas</button>
             </div>
         </article>
         <article id="university" class="col-sm-12 col-md-4 text-center">
@@ -53,7 +53,7 @@ link: 14-18
             <h3>19+</h3>
             <p>As an adult returning to education you will have many demands on your time. That is why we offer a range of flexible, part-time qualifications. There's something for everyone, from entry-level all the way to postgraduate study.</p>
             <div class="link-wrap">
-                <button data-filter=".19+" class="icon-btn">View Learning areas Areas</button>
+                <button data-filter=".19+" class="icon-btn" style="text-transform:uppercase">View Learning areas Areas</button>
             </div>
         </article> 
     </div>    
@@ -70,7 +70,7 @@ link: 14-18
             <h3>Apprenticeships</h3>
             <p>An apprenticeship is an ideal way to get in to the world of work and gain a qualification while earning real money.</p>
             <div class="link-wrap">
-                <button data-filter=".apprenticeships" class="icon-btn">View Apprenticeships Areas</button>
+                <button data-filter=".apprenticeships" class="icon-btn" style="text-transform:uppercase">View Apprenticeships Areas</button>
             <a href="" class="icon-btn">View Apprenticeship Vacancies</a>
             </div>    
         </article>     
@@ -79,7 +79,7 @@ link: 14-18
             <h3>Business Training</h3>
             <p>Cornwall College Business are here to support your business training needs to help provide opportunities for growth within your business.</p>
             <div class="link-wrap">
-                <button data-filter=".business" class="icon-btn">View Business Training Areas</button>
+                <button data-filter=".business" class="icon-btn" style="text-transform:uppercase">View Business Training Areas</button>
             <a href="" class="icon-btn">Visit Cornwall College Business</a>
             </div>    
         </article>  
@@ -114,11 +114,10 @@ link: 14-18
 
 
 <!-- Learning Area Divs -->
-<section class="container">
+<section class="container main-section-margins">
         <div id="sector-page-content" class="transition" style="display:none">
 
         {% for cluster in site.data.sub-clusters %}
-
 
             <div class="area {{cluster.learning-style}} {{cluster.campus}} {{cluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ cluster.colour }};">
                 <a data-toggle="collapse" data-target="#{{ cluster.search-link }}" href="#{{ cluster.search-link }}"  class="show-more collapsed">    
@@ -128,12 +127,11 @@ link: 14-18
                 </a>    
                 <div class="detail collapse" id="{{ cluster.search-link }}">
                     <p>{{ cluster.intro }}</p>
+                    <h5>Avalible at:</h5>
                     <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right">View courses in this area</a>
                 </div>    
 
             </div>
-
-
 
         {% endfor %}            
 

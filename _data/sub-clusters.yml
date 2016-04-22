@@ -3,6 +3,9 @@
   subcluster: AS & A-level courses
   brand: cc
   campus: st-austell-campus
+  campus-long:
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
   sector: 16-18 university
   colour: 616161
   learning-style: academic
@@ -15,6 +18,16 @@
   subcluster: Accounting
   brand: cc  
   campus: camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html
+      
   sector: 16-18
   colour: E54028
   search-link: accounting
@@ -24,6 +37,19 @@
 - cluster: Business & Professional
   subcluster: Business, Law & Administration
   campus: camborne-campus stoke-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html      
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html     
+      
   colour: E54028  
   brand: cc dc
   level: 2, 3
@@ -38,6 +64,13 @@
   brand: cc  
   sector: 16-18  
   campus: camborne-campus st-austell-campus  
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
   search-link: customer-service 
   intro: Marketers identify, anticipate and satisfy the customer - for a profit; sales people encourage us to buy and customer service professionals help us along the way.
   
@@ -59,6 +92,16 @@
   brand: cc  
   sector: 16-18   
   campus: camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html  
+      
   search-link: arts-media
   intro: Whether it's your passion to perform or create beautiful things for the world to enjoy, a career in the arts offers you an amazing variety or opportunities.
   
@@ -90,6 +133,13 @@
   brand: cc 
   sector: 16-18   
   campus: camborne-campus st-austell-campus 
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
   search-link: travel-tourism
   intro: The 21st century has seen Cornwall emerge as one of the world's iconic destinations for its beaches, culture, watersports, countryside and history.
   
@@ -101,6 +151,16 @@
   brand: cc 
   sector: 16-18   
   campus: camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html    
+  
   search-link: school-of-education-professional-development
   intro: Inspiring others to achieve their potential is a great vocation, to be able to capture imagination, build and develop ideas and motivate a generation to become more than they thought possible requires knowledge, patience, good communication skills and a sense of humour.
   
@@ -133,6 +193,16 @@
   brand: cc
   sector: 16-18
   campus: camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html  
+
   search-link: hairdressing-beauty-therapy
   intro: Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people. 
   
@@ -144,6 +214,14 @@
   brand: cc
   sector: 16-18
   campus: camborne-campus st-austell-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+  
   search-link: social-care-health
   intro: If you're interested in the human body, how it works and heals, and want to work to help people live better lives a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people.
 
@@ -154,6 +232,25 @@
   brand: bic cc fms dc
   sector: 16-18
   campus: bicton-campus camborne-campus st-austell-campus falmouth-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html   
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html       
+      
+    - campus-name: Falmouth Campus
+      campus-link: /falmouth-campus.html        
+  
   search-link: sports-fitness
   intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
   
@@ -165,6 +262,16 @@
   brand: bic dc
   sector: 16-18
   campus: bicton-campus rosewarne-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html  
+      
+    - campus-name: Rosewarne Campus
+      campus-link: /rosewarne-campus.html        
+      
   search-link: agriculture-countryside-management
   intro: If you love the countryside, are passionate about its protection and conservation and the livelihoods that rely on its existence, this could be the career path for you. You'll need to love working outdoors, and want to understand how nature works and how we interract with it in a sustainable way.
 
@@ -176,6 +283,16 @@
   brand: bic dc
   sector: 16-18
   campus: bicton-campus rosewarne-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html  
+      
+    - campus-name: Rosewarne Campus
+      campus-link: /rosewarne-campus.html  
+      
   search-link: animal-management-veterinary-nursing
   intro: Are you passionate about animals and their welfare? Understanding animal behaviour, environments and health requires scientific understanding as well as a caring nature. We can offer you the chance to work with animals at whichever level suits you best, from veterinary sciences to dog grooming, you'll learn from experts and our industry partners. 
   
@@ -186,6 +303,16 @@
   brand: bic dc
   sector: 16-18
   campus: bicton-campus rosewarne-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html  
+      
+    - campus-name: Rosewarne Campus
+      campus-link: /rosewarne-campus.html    
+  
   search-link: equine
   intro: Equine sector jobs allow you to follow a career working with something you are passionate about horses. Whether that's the welfare, husbandry and supervision of horses in a stable or livery, training thoroughbred racehorses or coaching and breeding. You could be a jockey, showjumper or support technician, there is a wide range of careers to choose from.
 
@@ -197,6 +324,16 @@
   brand: bic dc
   sector: 16-18
   campus: bicton-campus rosewarne-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html  
+      
+    - campus-name: Rosewarne Campus
+      campus-link: /rosewarne-campus.html  
+
   search-link: food-technology-production
   intro: The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currently in the food and grocery sector, so there's plenty of choice!
   
@@ -207,6 +344,16 @@
   brand: bic dc
   sector: 16-18
   campus: bicton-campus rosewarne-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html  
+      
+    - campus-name: Rosewarne Campus
+      campus-link: /rosewarne-campus.html    
+  
   search-link: horticulture-floristry
   intro: If plants, their growth, sustainability and making the environment beautiful are close to your heart a career in horticulture could be for you.
   
@@ -217,6 +364,19 @@
   brand: bic dc cc
   sector: 16-18
   campus: bicton-campus camborne-campus rosewarne-campus stoke-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html 
+      
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html       
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html  
+      
+    - campus-name: Rosewarne Campus
+      campus-link: /rosewarne-campus.html    
+  
   search-link: agriculture-countryside-management
   intro: Enjoy working outside and find farm work, livestock and machinery interesting? Then you should consider a career in agriculture.
   
@@ -229,6 +389,13 @@
   brand: cc
   sector: 16-18
   campus: camborne-campus st-austell-campus
+  campus-long:  
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
   search-link: applied-science-forensic-science
   intro: For those who love science, have an enquiring mind and attention to detail a career in applied or forensics could be perfect. Whether working as a forensic scientist helping to solve crimes, in an industrial laboratory or in research and development there is a broad range of careers available to you. 
   
@@ -238,7 +405,11 @@
   colour: 113F8C 
   sector: 16-18  
   brand: fms 
-  campus: falmouth-campus  
+  campus: falmouth-campus 
+  campus-long:      
+    - campus-name: Falmouth Campus
+      campus-link: /falmouth-campus.html        
+  
   search-link: marine-natural-environment
   intro: Our world is precious and it takes a special set of skills to nurture and protect it. Careers in this area are all about sustaining our world, supporting flora and fauna and educating future generations to create a sustainable environment. You'll need an interest in sciences and a passion for our world's living creatures.
   
@@ -249,6 +420,10 @@
   brand: cc  
   sector: 16-18   
   campus: newquay-campus
+  campus-long:
+    - campus-name: Newquay Campus
+      campus-link: /newquay-campus.html  
+      
   search-link: wildlife-conservation-zoology
   intro: If you're interested in the environment and the Earth's natural resources a career in environmental based sciences may be for you.
 
@@ -260,6 +435,10 @@
   brand:  fms
   sector: 16-18   
   campus: falmouth-campus
+  campus-long:
+    - campus-name: Falmouth Campus
+      campus-link: /falmouth-campus.html        
+    
   search-link: boatbuilding-marine-engineering 
   intro: If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world carrying out repairs and maintenance, re-fits, conversions and building from scratch.
   
@@ -270,6 +449,19 @@
   brand:  bic cc
   sector: 16-18   
   campus: bicton-campus camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html        
+    
   search-link: construction-trades
   intro: From laying foundations to tiling the roof and everything in between, we offer practical skills training in all construction trades. If you like working outdoors, using your hands and experiencing different environments, the construction industry is waiting for you.
 
@@ -279,7 +471,20 @@
   colour: 00A1CB
   brand:  bic cc
   sector: 16-18   
-  campus: bicton-campus camborne-campus st-austell-campus saltash-campus
+  campus: bicton-campus camborne-campus st-austell-campus saltash-campus  
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html  
+      
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html   
+    
   search-link: engineering
   intro: Engineers solve scientific and practical problems which affect all aspects of our lives underpinning economic activity and quality of life. 
   
@@ -290,5 +495,15 @@
   brand:  cc
   sector: 16-18   
   campus: camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html       
+    
   search-link: motor-vehicle
   intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
