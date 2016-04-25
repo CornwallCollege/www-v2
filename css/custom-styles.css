@@ -579,11 +579,15 @@ section h2 strong {
 }
 /* ---------------- event styles ENDS--------------------*/
 
-.icon-btn {
+button.icon-btn,
+a.icon-btn{
     border: 1px solid #52B3D9;
     color:#52B3D9;
+    text-transform: uppercase;
+    font-size: 12px;
 }
-.icon-btn:hover {
+a.icon-btn:hover,
+button.icon-btn:hover{
     background: #52B3D9;
     color: white;
     letter-spacing: normal;

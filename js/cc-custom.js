@@ -795,11 +795,8 @@ $( document ).ready( function() {
   });
 // read more link on sector page    
   $sector.on( 'click', '.show-more', function() {
-    // change size of item by toggling big class
-    $( this ).parent().toggleClass('big');
-    //hide the readmore link  
-    $( this ).children(".readmore").toggle(); 
-    //re-build the layout  
+    $( this ).parent().toggleClass('big'); 
+    $( this ).children(".readmore").toggle();  
     $sector.isotope('layout');
   });    
     

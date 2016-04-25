@@ -36,7 +36,7 @@ link: 14-18
             <h3>16-18</h3>
             <p>Our specialist career pathways will help you to develop your USP, giving you the very best opportunity to fulfil your potential. Our range of study programmes, for young people aged 16-18, are the best preparation for the world of work...</p>
             <div class="link-wrap">
-            <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase">View 16-18 Learning Areas</button>
+            <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase; font-size:12px;">View 16-18 Learning Areas</button>
             </div>
         </article>
         <article id="university" class="col-sm-12 col-md-4 text-center">
@@ -128,7 +128,7 @@ link: 14-18
                     <p>{{ cluster.intro }}</p>
                     <h5>Avalible at:</h5>
                     {% for campus in cluster.campus-long %}
-                     <a href="{{ campus.campus-link}}" title="{{ campus.campus-name }}" class="sector-campus-link">{{ campus.campus-name}}</a>
+                     <a href="/location-pages{{ campus.campus-link}}" title="{{ campus.campus-name }}" class="sector-campus-link">{{ campus.campus-name}}</a>
                     {% endfor %}
                     <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right">View courses in this area</a>
                 </div>    
