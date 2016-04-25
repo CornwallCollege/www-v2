@@ -784,7 +784,7 @@ $( document ).ready( function() {
     itemSelector: '.area',
     //resizable: false
   });    
-    
+// read more link on Learning area page     
   $container.on( 'click', '.show-more', function() {
     // change size of item by toggling big class
     $( this ).parent().toggleClass('big');
@@ -793,6 +793,15 @@ $( document ).ready( function() {
     //re-build the layout  
     $container.isotope('layout');
   });
+// read more link on sector page    
+  $sector.on( 'click', '.show-more', function() {
+    // change size of item by toggling big class
+    $( this ).parent().toggleClass('big');
+    //hide the readmore link  
+    $( this ).children(".readmore").toggle(); 
+    //re-build the layout  
+    $sector.isotope('layout');
+  });    
     
     // filter items on button click Sector hub page
     $('.link-wrap').on( 'click', 'button', function() {

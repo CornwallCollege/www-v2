@@ -3681,6 +3681,23 @@ ul#og-grid li h4{
         white-space: normal;
     }    
 }
+.area div.detail h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#52b3d9;
+    margin-bottom: 15px
+}
+.blocks div.link-wrap a{
+    opacity: 1;
+}
+.area div.detail a.sector-campus-link{
+    position: relative;
+    display: block;
+    margin-left: 10px;
+}
+#sector-page-content .area.big{
+    min-height: 380px;
+}
 .campus-overview article h2,
 .campus-overview article h5,
 .campus-overview article p{
