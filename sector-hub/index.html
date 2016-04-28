@@ -8,7 +8,7 @@ link: 14-18
     <!-- HEADER SECTION -->
     <section id="services" class="col-md-12 jumbotron header-title">
         <header class="container">
-            <h2><a href="/index.html"><small>Home </small></a><span>how you learn</span></h2>
+            <h2><a href="/index.html"><small>Home </small></a><span>your next step</span></h2>
         </header>
     </section>
     <!-- END OF HEADER -->
@@ -85,32 +85,6 @@ link: 14-18
     </div>    
 </section>
 
-<section class="container main-section-margins" id="learn-filters" style="display:none;">
-    <div id="form-ui">   
-        <h3>Filter by how you learn</h3>  
-
-        <div class="col-xs-12 " >        
-            <div class="btn-group" data-toggle="buttons">
-              <label class="btn btn-primary area-filter">
-                <input type="checkbox" value=".hands-on" autocomplete="off" > Practical Courses
-              </label>            
-              <label class="btn btn-primary area-filter">
-                <input type="checkbox" value=".academic" autocomplete="off" > Academic Courses
-              </label>
-              <label class="btn btn-primary area-filter">
-                <input type="checkbox" value=".apprenticeship" autocomplete="off"> Earn while you learn
-              </label>
-              <!--<label class="btn btn-primary area-filter">
-                <input type="checkbox" value=".fms" autocomplete="off"> Falmouth Marine School
-              </label>-->
-            </div>  
-        </div>     
- 
-      <!-- <p id="output">--</p>  -->   
-    </div>
-</section>
-
-
 
 <!-- Learning Area Divs -->
 <section class="container main-section-margins">
@@ -126,7 +100,7 @@ link: 14-18
                 </a>    
                 <div class="detail collapse" id="{{ cluster.search-link }}">
                     <p>{{ cluster.intro }}</p>
-                    <h5>Avalible at:</h5>
+                    <h5>Available at:</h5>
                     {% for campus in cluster.campus-long %}
                      <a href="/location-pages{{ campus.campus-link}}" title="{{ campus.campus-name }}" class="sector-campus-link">{{ campus.campus-name}}</a>
                     {% endfor %}

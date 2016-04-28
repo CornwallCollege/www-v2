@@ -1,0 +1,85 @@
+	<!-- Contact -->
+	<section id="contact" class="contact transparent">
+		<div class="row">
+			<div class="ten columns center">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1 style="font-family: 'Cutive', serif;">Email Us</h1>
+					<hr>
+				</div>
+
+
+				<!-- Intro text -->
+				<h2 class="text-color" >Want to find out more about our degrees?</h2>
+                <p class="big thin">Just fill out below with your details and we will be in touch.</p>
+
+
+			</div>
+		</div>
+		<div class="row">
+
+
+			<!-- Succes message after sending the form, see also the php file around line 90 -->
+			<div class="twelve columns">
+				<div id="message"></div>
+			</div>
+
+
+		</div>
+		<div class="row">
+
+
+			<!-- The contact form -->
+			<form method="post" action="contact.php" name="contactform" id="contactform">
+				<fieldset>
+					<div class="six columns">
+
+
+						<!-- Name -->
+						<label for="name" accesskey="U"><i class="fa fa-user"></i></label>
+						<input name="name" type="text" id="name" size="30" value="" placeholder="Full Name"/>
+
+
+						<!-- Email -->
+						<label for="email" accesskey="E"><i class="fa fa-envelope-o"></i></label>
+						<input name="email" type="text" id="email" size="30" value="" placeholder="Email Address"/>
+
+
+						<!-- Phone -->
+						<label for="phone" accesskey="P"><i class="fa fa-phone"></i></label>
+						<input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone Number" />
+                                                
+						<!-- course area -->
+						<label for="course_area" accesskey="U"><i class="fa fa-book"></i></label>
+						<input name="course_area" type="text" id="course_area" size="30" value="" placeholder="Course Area of Intrest"/>                                                
+
+
+					</div>
+					<div class="six columns">
+
+
+						<!-- Comments / Message -->
+						<label for="comments" accesskey="C"><i class="fa fa-comment"></i></label>
+						<textarea name="comments" id="comments" placeholder="Message"></textarea>
+
+
+						<!-- Verification -->
+						<label for="verify" accesskey="V">3 + 1 =</label>
+						<input name="verify" type="text" id="verify" size="4" value="" class="input-verify" />
+
+
+					</div>
+					<div class="twelve columns">
+
+
+						<!-- Send button -->
+						<input type="submit" class="submit" id="submit" value="Send message" />
+
+
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</section>

@@ -102,43 +102,13 @@ $('.popup-ajax').magnificPopup({
 $(window).load(function() {
 
 	// Featured work slider
-	$('#featured-work-slider').bxSlider({
+	$('#cornwall-slider').bxSlider({
 		auto: false,
 		mode: 'fade',
 		pager: true,
 		controls: true,
 		nextText: '',
 		prevText: ''
-	});
-	
-	// Project page slider
-	$('#project-page-slider').bxSlider({
-		auto: false,
-		mode: 'fade',
-		pager: true,
-		controls: true,
-		nextText: '',
-		prevText: ''
-	});
-
-	// Quote slider
-	var quoteslider = $('#quote-slider').bxSlider({
-		auto: false,
-		responsive: true,
-		adaptiveHeight: true,
-		mode: 'fade',
-		pager: false,
-		controls: false
-	});
-
-	$('#quote-next').click(function(){
-		quoteslider.goToNextSlide();
-		return false;
-	});
-
-	$('#quote-prev').click(function(){
-		quoteslider.goToPrevSlide();
-		return false;
 	});
 	
 });
@@ -146,7 +116,7 @@ $(window).load(function() {
 
 // 05. Fading divs - Fade a div except the one that's hovered
 if($('html').hasClass('no-touch')){
-	$('.portfolio-thumb, .image-thumb, .service-item').hover(function(){
+	$('.fade-it, .portfolio-thumb, .image-thumb, .service-item').hover(function(){
 		$(this).siblings().addClass('fade');
 	}, function(){
 		$(this).siblings().removeClass('fade');

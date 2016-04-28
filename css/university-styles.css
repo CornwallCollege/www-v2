@@ -1,6 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+/*@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);*/
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,700,800);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400,400italic);
+/*@import url(//fonts.googleapis.com/css?family=Volkhov:400,400italic);*/
+@import url(//fonts.googleapis.com/css?family=Cutive:300,400,700,800);
 
 /*-------------- essential styles --------------*/
 
@@ -739,6 +740,7 @@ h5,
 h6 {
 	color: #1a1a1a;
 	text-transform: none;
+    font-family: 'Cutive', serif;
 }
 
 h1 {
@@ -787,7 +789,7 @@ h6.fittext {
 	width: 100%;
 	display: block;
 	line-height: 0.9em;
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Cutive', serif;
 }
 
 h1.fittext {
@@ -829,7 +831,7 @@ h5.bigtext,
 h6.bigtext {
 	line-height: 1.1em;
 	padding-bottom: 2px;
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Cutive', serif;
 }
 
 .bigtext h1,
@@ -991,7 +993,7 @@ p.serif,
 .serif h5,
 .serif h6,
 .serif p {
-	font-family: 'Volkhov', 'Times New Roman', Georgia, serif;
+	font-family: 'Cutive', serif;
 	font-weight: 400;
 }
 h6.sub-title {
@@ -1055,7 +1057,7 @@ b {
 
 /* Quotes */
 blockquote {
-	font-family: 'Volkhov', 'Times New Roman', Georgia, serif;
+	font-family: 'Cutive', serif;
 	font-style: italic;
 	margin-bottom: 25px;
 	padding-left: 15px;
@@ -1868,7 +1870,7 @@ ul.home-menu li i {
 }
 
 ul.home-menu li em {
-	font-family: 'Volkhov', 'Times New Roman', Georgia, serif;
+	font-family: 'Cutive', serif;
 	display: block;
 	font-size: 14px;
 	font-style: italic;
@@ -2021,8 +2023,9 @@ a.play-btn-normal {
 	background: #ffffff;
 }
 
-.featured-work-slider {
+.cornwall-slider {
 	margin-bottom: 0px;
+    background: white;
 }
 
 /* Huge icon */
@@ -2069,7 +2072,14 @@ a.play-btn-normal {
 }
 
 /* ******************** 06 - More Work ******************** */
-.more-work {
+.faculty-areas {
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 140px;
+	background: #f0f0f0;
+}
+
+.download {
 	position: relative;
 	padding-top: 100px;
 	padding-bottom: 140px;
@@ -2092,18 +2102,19 @@ a.play-btn-normal {
 }
 
 .portfolio-thumb i {
-	text-align: center;
-	position: relative;
-	display: block;
-	margin: 10px auto 15px;
-	font-size: 20px;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	color: #ffffff;
-	background: #1a1a1a;
-	-webkit-border-radius: 50%;
-			border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 10px auto 0px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    background: #1a1a1a;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: -25px;
 }
 
 .portfolio-thumb:hover i {
@@ -2122,9 +2133,9 @@ a.play-btn-normal {
 }
 
 .portfolio-thumb em {
-	font-family: 'Volkhov', 'Times New Roman', Georgia, serif;
+	font-family: 'Cutive', serif;
 	display: block;
-	font-size: 14px;
+	font-size: 12px;
 	font-style: italic;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -2657,7 +2668,7 @@ li.service-item ul li:nth-child(odd) {
 .fourofour h1 {
 	width: 100%;
 	display: block;
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Cutive', serif;
 	font-size: 140px;
 	font-weight: 700;
 	line-height: 1em;
@@ -2691,7 +2702,7 @@ li.service-item ul li:nth-child(odd) {
 }
 
 .fourofour em {
-	font-family: 'Volkhov', 'Times New Roman', Georgia, serif;
+	font-family: 'Cutive', serif;
 	display: block;
 	font-size: 14px;
 	font-style: italic;
@@ -3018,7 +3029,8 @@ li.service-item ul li:nth-child(odd) {
 	
 	.introduction,	
 	.featured-work,
-	.more-work,
+	.faculty-areas,
+    .download,
 	.about,
 	.about-us,
 	.services,
@@ -3081,7 +3093,7 @@ li.service-item:hover i,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .slides-pagination a:hover,
 .slides-pagination a.current {
-background: #0567c5;
+background: #52B3D9;
 }
 
 /* Color */
@@ -3112,12 +3124,12 @@ a.arrow-link:after,
 .icon.huge:hover,
 .serviceblock:hover i,
 #success_page h4 {
-color: #0567c5;
+color: #52B3D9;
 }
 
 /* Border color */
 a.underline {
-border-bottom: 1px solid #0567c5;
+border-bottom: 1px solid #52B3D9;
 }
 
 .button.outline.color,
@@ -3127,11 +3139,11 @@ ul.home-menu li a:hover > i,
 #contactform textarea:focus,
 #contactform select:focus,
 .fourofour a:hover > i {
-border: 2px solid #0567c5;
+border: 2px solid #52B3D9;
 }
 
 a.play-btn:hover > i,
 .icon.huge:hover,
 .serviceblock:hover i {
-border: 3px solid #0567c5;
+border: 3px solid #52B3D9;
 }

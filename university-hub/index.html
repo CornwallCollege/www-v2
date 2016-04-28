@@ -148,7 +148,7 @@ link: University
 				<p>All programmes are developed with industry, giving you the chance to work on live projects, so you start your career before you graduate.</p>
                                 <p>The diversity of our curriculum means you could study surf science on a beach, zoology at Newquay Zoo, or marine science in Falmouth. We are also introducing new three-year honours degree programmes every year.
 </p>
-				<p><a href="http://www.cornwall.ac.uk/university" class="button color">View our courses</a></p>
+				<p><a href="#faculty-areas" class="smoothscroll button color">View our courses</a></p>
 			</div>
 
 
@@ -166,142 +166,12 @@ link: University
 
 {% include university/image-slider.html %}
 
-<!-- More work -->
-	<section id="download" class="more-work transparent">
-		<div class="row">
-			<div class="ten columns center margin-bottom">
+{% include university/he-areas.html %}
 
+{% include university/he-prospectus.html %}
 
-				<!-- The title -->
-				<div class="title">
-					<h1 style="font-family: 'Cutive', serif;">Download a Prospectus</h1>
-					<hr>
-				</div>
+{% include university/he-contact-form.html %}
 
-
-			</div>
-		</div>
-
-
-		<!-- Thumbnails -->
-		<div class="row margin equal">
-
-
-			<!-- Prospectus thumb 5 -->
-			<div class="six columns medium-six columns small-twelve columns">
-				<div class="portfolio-thumb">
-					<a href="prospectus/CC-HE-Web-Version-2015.pdf">
-						<img src="images/CC-HE-Cover-image.jpg" alt="cornwall college HE">
-						<i class="fa fa-download"></i>
-						<b>Cornwall College</b>
-						<em>Undergraduate Prospectus</em>
-					</a>
-				</div>
-			</div>
-
-
-			<!-- Portfolio thumb 6 -->
-			<div class="six columns medium-six columns small-twelve columns">
-				<div class="portfolio-thumb">
-					<a href="prospectus/DC-HE-Web-Version-2015.pdf">
-						<img src="images/DC-HE-Cover-image.jpg" alt="duchy college HE">
-						<i class="fa fa-download"></i>
-						<b>Duchy College</b>
-						<em>Undergraduate Prospectus</em>
-					</a>
-				</div>
-			</div>
-
-
-		</div>
-	</section>
-
-
-	<!-- Contact -->
-	<section id="contact" class="contact transparent">
-		<div class="row">
-			<div class="ten columns center">
-
-
-				<!-- The title -->
-				<div class="title">
-					<h1 style="font-family: 'Cutive', serif;">Email Us</h1>
-					<hr>
-				</div>
-
-
-				<!-- Intro text -->
-				<h2 class="text-color" >Want to find out more about our degrees?</h2>
-                <p class="big thin">Just fill out below with your details and we will be in touch.</p>
-
-
-			</div>
-		</div>
-		<div class="row">
-
-
-			<!-- Succes message after sending the form, see also the php file around line 90 -->
-			<div class="twelve columns">
-				<div id="message"></div>
-			</div>
-
-
-		</div>
-		<div class="row">
-
-
-			<!-- The contact form -->
-			<form method="post" action="contact.php" name="contactform" id="contactform">
-				<fieldset>
-					<div class="six columns">
-
-
-						<!-- Name -->
-						<label for="name" accesskey="U"><i class="fa fa-user"></i></label>
-						<input name="name" type="text" id="name" size="30" value="" placeholder="Full Name"/>
-
-
-						<!-- Email -->
-						<label for="email" accesskey="E"><i class="fa fa-envelope-o"></i></label>
-						<input name="email" type="text" id="email" size="30" value="" placeholder="Email Address"/>
-
-
-						<!-- Phone -->
-						<label for="phone" accesskey="P"><i class="fa fa-phone"></i></label>
-						<input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone Number" />
-                                                
-						<!-- course area -->
-						<label for="course_area" accesskey="U"><i class="fa fa-book"></i></label>
-						<input name="course_area" type="text" id="course_area" size="30" value="" placeholder="Course Area of Intrest"/>                                                
-
-
-					</div>
-					<div class="six columns">
-
-
-						<!-- Comments / Message -->
-						<label for="comments" accesskey="C"><i class="fa fa-comment"></i></label>
-						<textarea name="comments" id="comments" placeholder="Message"></textarea>
-
-
-						<!-- Verification -->
-						<label for="verify" accesskey="V">3 + 1 =</label>
-						<input name="verify" type="text" id="verify" size="4" value="" class="input-verify" />
-
-
-					</div>
-					<div class="twelve columns">
-
-
-						<!-- Send button -->
-						<input type="submit" class="submit" id="submit" value="Send message" />
-
-
-					</div>
-				</fieldset>
-			</form>
-		</div>
-	</section>
 
 
 

@@ -810,10 +810,7 @@ $( document ).ready( function() {
         $('html, body').animate({
             scrollTop: $('#sector-page-content').offset().top-150
         }, 1000);
-        
-        if($(this).attr('data-filter') === '.16-18'){
-            $('#learn-filters').show();
-        }           
+         
     });
     
   var $output = $('#output');

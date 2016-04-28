@@ -1,0 +1,14 @@
+	{% if area.sector contains "university" %}
+
+            <div class="four columns medium-six columns small-twelve columns fade-it">
+				<div class="portfolio-thumb">
+					
+                    <a href="{{site.course_site_baseurl}}courses/{{area.search-link}}">
+						<i style="background:#{{area.colour}};" class="fa {{area.icon}}"></i>
+						<b>{{area.subcluster}}</b>
+						<em style="color:#{{area.colour}};">{{area.cluster}}</em>
+                    </a>
+				
+				</div>
+			</div>
+    {% endif %}

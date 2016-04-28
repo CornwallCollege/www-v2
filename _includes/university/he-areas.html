@@ -1,0 +1,26 @@
+	<!-- More work -->
+	<section id="faculty-areas" class="faculty-areas">
+		<div class="row">
+			<div class="ten columns center margin-bottom">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1>Higher Education Faculty Areas</h1>
+					<hr>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<!-- Thumbnails -->
+		<div class="row margin equal">
+        {% assign areas = site.data.sub-clusters | sort: 'subcluster' %}
+            {% for area in areas %}
+                {% include university/he-area.html %}
+            {% endfor %}
+
+		</div>
+	</section>

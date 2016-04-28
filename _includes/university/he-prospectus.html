@@ -1,0 +1,39 @@
+<!-- Download a Prospectus -->
+	<section id="download" class="download transparent">
+		<div class="row">
+			<div class="ten columns center margin-bottom">
+
+
+				<!-- The title -->
+				<div class="title">
+					<h1 style="font-family: 'Cutive', serif;">Download a Prospectus</h1>
+					<hr>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<!-- Thumbnails -->
+		<div class="row margin equal">
+
+        {% for prospectus in site.data.university %}
+            {% if prospectus.prospectus %}
+
+			<div class="six columns medium-six columns small-twelve columns">
+				<div class="portfolio-thumb">
+					<a href="/pdf/{{prospectus.link}}">
+						<img src="/images/{{prospectus.image}}" alt="cornwall college HE">
+						<i class="fa fa-download"></i>
+						<b>{{prospectus.prospectus}}</b>
+						<em>Undergraduate Prospectus</em>
+					</a>
+				</div>
+			</div>
+
+            {% endif %}
+        {% endfor %}
+
+		</div>
+	</section>
