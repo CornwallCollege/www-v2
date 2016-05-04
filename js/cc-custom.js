@@ -30,19 +30,19 @@ $(function () {
             var video_options = [
                 {
                     brand: 'cornwall',
-                    videos: ['clouds', 'steps', 'door', 'thunderstorm']
+                    videos: ['engineering', 'steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac']
                 },
                 {
                     brand: 'duchy',
-                    videos: ['cow', 'cows', 'tree']
+                    videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus']
                 },
                 {
                     brand: 'falmouth',
-                    videos: ['ocean', 'pier', 'port', 'seagull']
+                    videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean']
                 },
                 {
                     brand: 'bicton',
-                    videos: ['grass', 'tree']
+                    videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor' ]
                 },
             ]
 
@@ -53,7 +53,7 @@ $(function () {
                 });
                 var videos = brand_info[0].videos;
                 var index = Math.floor(Math.random() * videos.length);
-                $(slide).find('.brand-video').html('<video autoplay  poster="" id="bgvid" loop><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"><source src="/videos/' + brand + '/' + videos[index] + '.webm" frameborder="0" allowfullscreen type="video/webm"></video>');
+                $(slide).find('.brand-video').html('<video autoplay  poster="" id="bgvid" loop><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video>');
                 $(slide).addClass('video-in');
             }
         }
