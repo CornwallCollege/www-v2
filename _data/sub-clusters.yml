@@ -6,7 +6,7 @@
   campus-long:
     - campus-name: St Austell Campus
       campus-link: /st-austell-campus.html
-  sector: 16-18 university
+  sector: 16-18 19+
   colour: 616161
   learning-style: academic
   search-link: as-a-level
@@ -28,15 +28,16 @@
     - campus-name: Saltash Campus
       campus-link: /saltash-campus.html
       
-  sector: 16-18
+  sector: 16-18 19+ apprenticeships
   colour: E54028
   search-link: accounting
-  level: 2, 3
+  level: 2 3
   intro: If you have attention to detail and like working with numbers, a career in the financial sector could be very rewarding. 
   
 - cluster: Business & Professional
   subcluster: Business, Law & Administration
-  campus: camborne-campus stoke-campus st-austell-campus saltash-campus
+  icon: fa-gavel
+  campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
   campus-long:
     - campus-name: Camborne Campus
       campus-link: /camborne-campus.html  
@@ -51,9 +52,9 @@
       campus-link: /stoke-campus.html     
       
   colour: E54028  
-  brand: cc dc
-  level: 2, 3
-  sector: 16-18  
+  brand: cc dc bc
+  level: 2 3 4 5 6
+  sector: 16-18 19+ apprenticeships university
   search-link: business-law-medical-administration  
   intro: Having a good head for business could mean you have skills such as creativity, good communication, insight into trends and understanding of finance and people.  
   
@@ -62,7 +63,7 @@
   colour: E54028  
   level: 2
   brand: cc  
-  sector: 16-18  
+  sector: 16-18 19+ apprenticeships
   campus: camborne-campus st-austell-campus  
   campus-long:
     - campus-name: Camborne Campus
@@ -76,21 +77,32 @@
   
 - cluster: Business & Professional
   subcluster: Digital Academy 
+  icon: fa-gamepad
   colour: E54028  
-  level: 2, 3
+  level: 2 3
   brand: cc  
-  sector: 16-18  
+  sector: 16-18 19+ apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html   
   search-link: digital-academy 
   intro: For anyone interested in digital technology, this is a great time to start a career in this sector. 
   
 #Cultural & Visitor Economy D0D102
 - cluster: Cultural & Visitor Economy
   subcluster: Arts & Media
-  level: 2, 3, 4
+  icon: fa-paint-brush
+  level: 2 3 4 5 6
   colour: D0D102  
   brand: cc  
-  sector: 16-18   
+  sector: 16-18 19+ apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -107,11 +119,12 @@
   
 - cluster: Cultural & Visitor Economy
   subcluster: Catering & Hospitality
-  level: 1, 2, 4
+  icon: fa-cutlery
+  level: 1 2 4 5 6
   colour: D0D102  
   brand: cc  
-  sector: 16-18   
-  campus: camborne-campus st-austell-campus saltash-campus
+  sector: 16-18 19+ apprenticeships university
+  campus: camborne-campus st-austell-campus saltash-campus eden-campus
   campus-long:
     - campus-name: Camborne Campus
       campus-link: /camborne-campus.html  
@@ -121,6 +134,9 @@
       
     - campus-name: Saltash Campus
       campus-link: /saltash-campus.html  
+      
+    - campus-name: Eden Campus
+      campus-link: /eden-campus.html        
 
   search-link: catering-hospitality 
   intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries. 
@@ -128,10 +144,10 @@
   
 - cluster: Cultural & Visitor Economy
   subcluster: Music & Performing Arts
-  level: 2, 3
+  level: 2 3 4 5 6
   colour: D0D102   
   brand: cc 
-  sector: 16-18   
+  sector: 16-18 19+ apprenticeships
   campus: camborne-campus st-austell-campus bristol-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -151,10 +167,10 @@
   
 - cluster: Cultural & Visitor Economy
   subcluster: Travel & Tourism
-  level: 2, 3
+  level: 2 3
   colour: D0D102    
   brand: cc 
-  sector: 16-18   
+  sector: 16-18 19+ apprenticeships
   campus: camborne-campus st-austell-campus 
   campus-long:
     - campus-name: Camborne Campus
@@ -169,10 +185,11 @@
 #Education 01A4A4
 - cluster: Education
   subcluster: The School of Education & Professional Development
-  level: 1, 2, 3
+  icon: fa-graduation-cap
+  level: 1 2 3 4 5 6
   colour: 01A4A4  
   brand: cc 
-  sector: 16-18   
+  sector: 16-18 19+ university
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -189,7 +206,7 @@
   
 - cluster: Education
   subcluster: Children, Schools & Families
-  level: 1, 2, 3
+  level: 1 2 3
   colour: 01A4A4  
   brand: cc dc 
   sector: 16-18   
@@ -213,21 +230,38 @@
 #Foundation Learning F18D05
 - cluster: Foundation Learning
   subcluster: Foundation Learning
-  level: Entry, 1, 2
+  level: Entry 1 2
   colour: F18D05  
-  brand: cc
-  sector: 16-18   
-  campus:
+  brand: cc dc bc
+  sector: 16-18 19+ 
+  campus: stoke-campus bicton-campus camborne-campus saltash-campus st-austell-campus
+  campus-long:
+    - campus-name: Bicton Campus
+      campus-link: /bicton-campus.html   
+  
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html
+      
+    - campus-name: Stoke Climsland Campus
+      campus-link: /stoke-campus.html   
+        
   search-link: independent-living-skills
   intro:  
   
 #Health & Wellbeing D70060
 - cluster: Health & Wellbeing
   subcluster: Hairdressing & Beauty Therapy
-  level: 1, 2, 3
+  icon: fa-scissors
+  level: 1 2 3
   colour: D70060  
   brand: cc
-  sector: 16-18
+  sector: 16-18 19+ apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -245,10 +279,10 @@
   
 - cluster: Health & Wellbeing
   subcluster: Social Care & Health
-  level: 2, 3
+  level: 2 3 4 5
   colour: D70060  
   brand: cc
-  sector: 16-18
+  sector: 16-18 19+ apprenticeships
   campus: camborne-campus st-austell-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -262,14 +296,13 @@
 
 - cluster: Health & Wellbeing
   subcluster: Sports and Fitness
-  level: 1, 2, 3
+  icon: fa-futbol-o
+  level: 1 2 3 4 5 6
   colour: D70060  
-  brand: bic cc fms dc
-  sector: 16-18
-  campus: bicton-campus camborne-campus st-austell-campus falmouth-campus stoke-campus
+  brand: cc fms dc
+  sector: 16-18 19+ apprenticeships university
+  campus: camborne-campus st-austell-campus falmouth-campus stoke-campus
   campus-long:
-    - campus-name: Bicton Campus
-      campus-link: /bicton-campus.html  
       
     - campus-name: Camborne Campus
       campus-link: /camborne-campus.html  
@@ -292,10 +325,11 @@
 #Rural Economy 61AE24
 - cluster: Rural Economy
   subcluster: Agriculture & Countryside Management
-  level: 1, 2, 3
+  icon: fa-leaf
+  level: 1 2 3 4 5 6
   colour: 61AE24
   brand: bic dc
-  sector: 16-18
+  sector: 16-18 19+ apprenticeships university
   campus: bicton-campus rosewarne-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -313,10 +347,11 @@
   
 - cluster: Rural Economy
   subcluster: Animal Management & Veterinary Nursing
-  level: 1, 2, 3
+  icon: fa-stethoscope
+  level: 1 2 3 6
   colour: 61AE24  
   brand: bic dc
-  sector: 16-18
+  sector: 16-18 19+ apprenticeships university
   campus: bicton-campus rosewarne-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -333,20 +368,18 @@
   
 - cluster: Rural Economy
   subcluster: Equine
-  level: 1, 2, 3
+  icon: fa-trophy
+  level: 1 2 3 4 5 6
   colour: 61AE24  
   brand: bic dc
-  sector: 16-18
-  campus: bicton-campus rosewarne-campus stoke-campus
+  sector: 16-18 19+ apprenticeships university
+  campus: bicton-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
       campus-link: /bicton-campus.html  
       
     - campus-name: Stoke Climsland Campus
       campus-link: /stoke-campus.html  
-      
-    - campus-name: Rosewarne Campus
-      campus-link: /rosewarne-campus.html    
   
   search-link: equine
   intro: Equine sector jobs allow you to follow a career working with something you are passionate about horses. Whether that's the welfare, husbandry and supervision of horses in a stable or livery, training thoroughbred racehorses or coaching and breeding. You could be a jockey, showjumper or support technician, there is a wide range of careers to choose from.
@@ -354,34 +387,32 @@
   
 - cluster: Rural Economy
   subcluster: Food Technology & Production
-  level: 2, 3
+  level: 2 3 4 5 6
   colour: 61AE24  
-  brand: bic dc
-  sector: 16-18
-  campus: bicton-campus rosewarne-campus stoke-campus
+  brand: dc
+  sector: 16-18 19+ apprenticeships
+  campus: stoke-campus
   campus-long:
-    - campus-name: Bicton Campus
-      campus-link: /bicton-campus.html  
       
     - campus-name: Stoke Climsland Campus
       campus-link: /stoke-campus.html  
-      
-    - campus-name: Rosewarne Campus
-      campus-link: /rosewarne-campus.html  
 
   search-link: food-technology-production
   intro: The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currently in the food and grocery sector, so there's plenty of choice!
   
 - cluster: Rural Economy
   subcluster: Horticulture & Floristry
-  level: 1, 2, 3
+  level: 1 2 3 6
   colour: 61AE24 
   brand: bic dc
-  sector: 16-18
-  campus: bicton-campus rosewarne-campus stoke-campus
+  sector: 16-18 19+ apprenticeships
+  campus: bicton-campus rosewarne-campus stoke-campus eden
   campus-long:
     - campus-name: Bicton Campus
-      campus-link: /bicton-campus.html  
+      campus-link: /bicton-campus.html 
+      
+    - campus-name: Eden Campus
+      campus-link: /eden-campus.html       
       
     - campus-name: Stoke Climsland Campus
       campus-link: /stoke-campus.html  
@@ -394,17 +425,14 @@
   
 - cluster: Rural Economy
   subcluster: Land-based Engineering & Technology
-  level: 1, 2, 3
+  level: 1 2 3
   colour: 61AE24  
-  brand: bic dc cc
-  sector: 16-18
-  campus: bicton-campus camborne-campus rosewarne-campus stoke-campus
+  brand: bic dc
+  sector: 16-18 19+ apprenticeships
+  campus: bicton-campus rosewarne-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
-      campus-link: /bicton-campus.html 
-      
-    - campus-name: Camborne Campus
-      campus-link: /camborne-campus.html       
+      campus-link: /bicton-campus.html       
       
     - campus-name: Stoke Climsland Campus
       campus-link: /stoke-campus.html  
@@ -419,10 +447,11 @@
 #Science & Natural Environment 113F8C
 - cluster: Science & Natural Environment
   subcluster: Applied Science & Forensic Science
-  level: 2, 3
+  icon: fa-flask
+  level: 2 3 4 5 6
   colour: 113F8C
   brand: cc
-  sector: 16-18
+  sector: 16-18 19+ university
   campus: camborne-campus st-austell-campus
   campus-long:  
     - campus-name: Camborne Campus
@@ -436,9 +465,10 @@
   
 - cluster: Science & Natural Environment
   subcluster: Marine & Natural Environment
-  level: 2, 3
+  icon: fa-anchor
+  level: 2 3 4 5 6
   colour: 113F8C 
-  sector: 16-18  
+  sector: 16-18 19+ university
   brand: fms 
   campus: falmouth-campus 
   campus-long:      
@@ -450,10 +480,11 @@
   
 - cluster: Science & Natural Environment
   subcluster: Wildlife Conservation & Zoology
-  level: 3
+  icon: fa-paw
+  level: 3 6
   colour: 113F8C
   brand: cc  
-  sector: 16-18   
+  sector: 16-18 19+ university
   campus: newquay-campus
   campus-long:
     - campus-name: Newquay Campus
@@ -465,10 +496,10 @@
 #Technology 00A1CB
 - cluster: Technology
   subcluster: Boatbuilding & Marine Engineering
-  level: 1, 2, 3
+  level: 1 2 3
   colour: 00A1CB
   brand:  fms
-  sector: 16-18   
+  sector: 16-18 apprenticeships 19+
   campus: falmouth-campus
   campus-long:
     - campus-name: Falmouth Campus
@@ -479,10 +510,10 @@
   
 - cluster: Technology
   subcluster: Construction Trades
-  level: 1, 2, 3
+  level: 1 2 3
   colour: 00A1CB
   brand:  bic cc
-  sector: 16-18   
+  sector: 16-18 19+ apprenticeships 
   campus: bicton-campus camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -502,10 +533,11 @@
 
 - cluster: Technology
   subcluster: Engineering
-  level: 1, 2, 3
+  icon: fa-cogs
+  level: 1 2 3
   colour: 00A1CB
   brand:  bic cc
-  sector: 16-18   
+  sector: 16-18 19+ apprenticeships university
   campus: bicton-campus camborne-campus st-austell-campus saltash-campus  
   campus-long:
     - campus-name: Bicton Campus
@@ -525,20 +557,17 @@
   
 - cluster: Technology
   subcluster: Motor Vehicle
-  level: Entry, 1, 2, 3
+  level: Entry 1 2 3
   colour: 00A1CB
   brand:  cc
-  sector: 16-18   
-  campus: camborne-campus st-austell-campus saltash-campus
+  sector: 16-18 19+ apprenticeships
+  campus: camborne-campus st-austell-campus
   campus-long:
     - campus-name: Camborne Campus
       campus-link: /camborne-campus.html  
       
     - campus-name: St Austell Campus
-      campus-link: /st-austell-campus.html
-      
-    - campus-name: Saltash Campus
-      campus-link: /saltash-campus.html       
+      campus-link: /st-austell-campus.html  
     
   search-link: motor-vehicle
   intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
