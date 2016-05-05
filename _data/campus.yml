@@ -9,56 +9,56 @@
       location: Bicton
       detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi 
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /bicton/learning-centre.jpg
+      image-thumb: /bicton/learning-centre-thumb.jpg
       
     - title: Café Neo
       location: Bicton
       detail: The coffee bar in the students’ common room serves hot drinks and snacks
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /bicton/cafe-neo.jpg
+      image-thumb: /bicton/cafe-neo-thumb.jpg
       
     - title: Students’ Union
       location: Bicton
       detail: Student reps, campaigns, trips, parties, sports activities and Freshers’ Fair plus charity fundraising activities
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250      
+      image: /bicton/students-union.jpg
+      image-thumb: /bicton/students-union-thumb.jpg     
       
     - title: Restaurant
       location: Bicton
       detail: The campus restaurant has a ‘live’ food servery where you can order your bespoke omelette or build-a-burger
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250  
+      image: /bicton/restaurant.jpg
+      image-thumb: /bicton/restaurant-thumb.jpg 
 
     - title: Accommodation
       location: Bicton
       detail: We offer halls of residence for learners who live too far away to commute every day, see page 257 for details
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250 
+      image: /bicton/accommodation.jpg 
+      image-thumb: /bicton/accommodation-thumb.jpg
       
     - title: Sports & Outdoors
       location: Bicton
       detail: A range of facilities including a brand new sports hall and grass pitch, a fully equipped gym and rugby analysis suite
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250 
+      image: /bicton/sports-outdoor.jpg
+      image-thumb: /bicton/sports-outdoor-thumb.jpg
       
     - title: Equine
       location: Bicton
       detail: We have a large equine yard with livery facilities for students, plus indoor and outdoor arenas
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250     
+      image: /bicton/equine.jpg 
+      image-thumb: /bicton/equine-thumb.jpg    
       
     - title: Animal Management
       detail: We have a brand new Animal Husbandry School, which is home to a huge range of animals
       link: /bicton-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250       
+      image: /bicton/animal-management.jpg
+      image-thumb: /bicton/animal-management-thumb.jpg       
 
   learning-areas:  
     - area-title: Foundation Learning
