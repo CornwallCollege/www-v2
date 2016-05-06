@@ -117,50 +117,50 @@
     - title: Students Union
       detail: The Students Union has its own building with a cafe, pool and table tennis facilities, music TV and student liason team 
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500
-      image-thumb: http://placehold.it/250x250  
+      image: /camborne/students-union.jpg
+      image-thumb: /camborne/students-union-thumb.jpg
       
     - title: KoKo Hair & beauty
       detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/koko-hair-beauty-salon.jpg
+      image-thumb: /camborne/koko-hair-beauty-salon-thumb.jpg
       
     - title: Trevenson Restaurant
       detail: This training restaurant is a Centre of Excellence and is part of the best catering college in the South West
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/trevenson-restaurant.jpg
+      image-thumb: /camborne/trevenson-restaurant-thumb.jpg
       
     - title: Demo Kitchen & Lecture Theatre
       detail: The only 50+ seat demo kitchen and lecture theatre in Cornwall, great for when guest chefs deliver masterclasses
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/demo-kitchen.jpg
+      image-thumb: /camborne/demo-kitchen-thumb.jpg
       
     - title: Sports Science Lab & Performance Centre
       detail: Ideal for any sports clubs or teams who want to boost their performance
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/sport-science-lab.jpg
+      image-thumb: /camborne/sport-science-lab-thumb.jpg
       
     - title: dBs Music Studios
       detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/dbs-music.jpg
+      image-thumb: /camborne/dbs-music-thumb.jpg
       
     - title: Learning Centre
       detail: A university-standard library and over 400 PCs and laptops for you to use with free Wi-Fi
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/learning-cent.jpg
+      image-thumb: /camborne/learning-centre-thumb.jpg
       
     - title: Gym & Sports Centre
       detail: Fully equipped gym with great student rates, plus dance studio, sports hall and artificial turf football pitch
       link: /camborne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /camborne/gym-sport-centre.jpg
+      image-thumb: /camborne/gym-sport-centre-thumb.jpg
   
   learning-areas:    
     - area-title: Business & Professional
@@ -333,50 +333,50 @@
     - title: Learning Centre
       detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/learning-centre.jpg
+      image-thumb: /newquay/learning-centre-thumb.jpg
       
     - title: Students’ Union
       detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/students-union.jpg
+      image-thumb: /newquay/students-union-thumb.jpg
       
     - title: The Watering Hole
       detail: A small café offering all home-made locally sourced snacks and light meals  everyday
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/the-watering-hole.jpg
+      image-thumb: /newquay/the-watering-hole-thumb.jpg
       
     - title: Wild Things
       detail: We have conservation areas including a pond and wildflower meadow that are great for studying nature up close
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/wild-things.jpg
+      image-thumb: /newquay/wild-things-thumb.jpg
       
     - title: Green Team
       detail: The Green Team are a group of staff and student volunteers who strive to nurture our local environment
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/green-team.jpg
+      image-thumb: /newquay/green-team-thumb.jpg
       
     - title: Student Invasive Non-Native Group
       detail: Enhance your CV, have fun and make a difference by joining our renowned SINNG group
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/student-invasive.jpg
+      image-thumb: /newquay/student-invasive-thumb.jpg
       
     - title: Beyond Wildflower Lane
       detail: We have our own classrooms in Newquay Zoo and Blue Reef Aquarium and on Tolcarne Beach
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /newquay/beyond-wildflower-lane.jpg
+      image-thumb: /newquay/beyond-wildflower-lane-thumb.jpg
       
     - title: The Gannel Estuary
       detail: This tidal river provides a great place to research birds, plants and fish
       link: /newquay-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250       
+      image: /newquay/the-gannel-estuary.jpg
+      image-thumb: /newquay/the-gannel-estuary-thumb.jpg 
 
   learning-areas:  
     - area-title: Science & Natural Environment
@@ -411,20 +411,20 @@
     - title: Students’ Union
       detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
       link: /rosewarne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /rosewarne/students-union.jpg
+      image-thumb: /rosewarne/students-union-thumb.jpg
       
     - title: Choughs Restaurant
       detail: Offers a range of hot and cold drinks, snacks and hot meals every day
       link: /rosewarne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /rosewarne/choughs-restaurant.jpg
+      image-thumb: /rosewarne/choughs-restaurant-thumb.jpg
       
     - title: Animal Management Centre
       detail: Provides dog grooming training, specialist reptile and small mammal housing
       link: /rosewarne-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /rosewarne/animal-management-centre.jpg
+      image-thumb: /rosewarne/animal-management-centre-thumb.jpg
       
     - title: Working Nursery
       detail: Acres of poly tunnels where the College grows and sells its own stock as a semi-commercial nursery
@@ -476,50 +476,50 @@
     - title: Learning Centre
       detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/learning-centre.jpg
+      image-thumb: /saltash/learning-centre-thumb.jpg
       
     - title: Students’ Union
       detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/students-union.jpg
+      image-thumb: /saltash/students-union-thumb.jpg
       
     - title: koko Hair & Beauty Salon
       detail: Dedicated salons, nail bar, barbering and beauty therapy lounges, open to the public
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/koko-hair-beauty-salon.jpg
+      image-thumb: /saltash/koko-hair-beauty-salon-thumb.jpg
       
     - title: Training Kitchen
       detail: State-of-the-art training kitchen. Service available to the public during term time
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/training-kitchen.jpg
+      image-thumb: /saltash/training-kitchen-thumb.jpg
       
     - title: The Flamingo Café
       detail: Offering a range of home-made snacks and light meals, plus fine dining events from professional chef students
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/the-flamingo-cafe.jpg
+      image-thumb: /saltash/the-flamingo-cafe-thumb.jpg
       
     - title: The Job Spot
       detail: For work experience, volunteering, part-time jobs, apprenticeships or advice on your first steps into a career
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/student-services.jpg
+      image-thumb: /saltash/student-services-thumb.jpg
       
     - title: NORPRO
       detail: Working in partnership with Norpro, our students gain great practical skills training in a commercial garage
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /saltash/norpro.jpg
+      image-thumb: /saltash/norpro-thumb.jpg
       
     - title: Sisna Park
       detail: Professional skills training in welding, fabrication, engineering and electrical is now available at our Sisna Park site
       link: /saltash-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250       
+      image: /saltash/sisna-park.jpg
+      image-thumb: /saltash/sisna-park-thumb.jpg
 
   learning-areas:  
     - area-title: Business & Professional
@@ -584,50 +584,50 @@
     - title: Learning Centre
       detail: A recently renovated library and study space with PCs and laptops for you to use with free Wi-Fi
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/learning-centre.jpg
+      image-thumb: /st-austell/learning-centre-thumb.jpg
       
     - title: Students’ Union
       detail: Student reps, campaigns, trips, parties and Freshers’ Fair in your own dedicated student space
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/learning-centre.jpg
+      image-thumb: /st-austell/learning-centre-thumb.jpg
       
     - title: Gym & Fitness Suite
       detail: Fully equipped gym with great student rates, plus exercise classes and personal trainers
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/gym-fitness-suite.jpg
+      image-thumb: /st-austell/gym-fitness-suite-thumb.jpg
       
     - title: koko Hair & Beauty Salon
       detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/koko-hair-beauty-salon.jpg
+      image-thumb: /st-austell/koko-hair-beauty-salon-thumb.jpg
       
     - title: Cloisters Restaurant
       detail: This training restaurant is a Centre of Excellence and part of the best catering college in the South West
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/cloisters-restaurant.jpg
+      image-thumb: /st-austell/cloisters-restaurant-thumb.jpg
       
     - title: The Bay
       detail: A 150 seat outlet offering food for all tastes; breakfast, snacks, a salad bar and a wide choice of hot meals everyday
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/the-bay.jpg
+      image-thumb: /st-austell/the-bay-thumb.jpg
       
     - title: The Keay Theatre
       detail: A 250 seat theatre and conference space, dance studios, music practice suites and rehearsal rooms
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250
+      image: /st-austell/the-keay-theatre.jpg
+      image-thumb: /st-austell/the-keay-theatre-thumb.jpg
       
     - title: The Job Spot
       detail: For work experience, volunteering, part-time jobs, apprenticeships or advice on your first steps into a career
       link: /st-austell-learning-area/
-      image: http://placehold.it/500x500 
-      image-thumb: http://placehold.it/250x250       
+      image: /st-austell/student-services.jpg
+      image-thumb: /st-austell/student-services-thumb.jpg
 
   learning-areas:  
     - area-title: AS & A-levels
