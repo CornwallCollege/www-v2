@@ -11,25 +11,30 @@
   
 - he-slide-title: Surfing on Fistral beach
   he-slide-subtitle:
-  image-link: placeholder-header.png
+  image-link: surfing-fistral.png
   link:
   
 - he-slide-title: City shopping in Truro
   he-slide-subtitle:
-  image-link: placeholder-header.png
+  image-link: shopping-truro.png
   link:
   
 - he-slide-title: Stunning walks around Land's end
   he-slide-subtitle:
-  image-link: placeholder-header.png
+  image-link: walk-lands-end.png
   link:
   
 - he-slide-title: Outdoor concerts at Eden Sessions
   he-slide-subtitle:
-  image-link: placeholder-header.png
+  image-link: eden-sessions.png
   link:
   
 - he-slide-title: Climbing at Hound Tor
   he-slide-subtitle:
-  image-link: placeholder-header.png
+  image-link: hound-tor.png
+  link:
+
+- he-slide-title: Sightseeing at St Michael's Mount'
+  he-slide-subtitle:
+  image-link: st-michaels-mount.png
   link:
