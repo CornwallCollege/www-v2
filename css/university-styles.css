@@ -2114,7 +2114,7 @@ a.play-btn-normal {
     background: #1a1a1a;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    top: -25px;
+    top: -5px;
 }
 
 .portfolio-thumb:hover i {

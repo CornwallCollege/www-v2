@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$(".fullscreen-video").mb_YTPlayer({
 			containment: "body",
 			opacity: 1, // Set the opacity of the player;
-			mute: false, // Mute the audio;
+			mute: true, // Mute the audio;
 			// ratio: "4/3" or "16/9" to set the aspect ratio of the movie;
 			// quality: "default" or "small", "medium", "large", "hd720", "hd1080", "highres";
 			// containment: The CSS selector of the DOM element where you want the video background; if not specified it takes the "body"; if set to "self" the player will be instanced on that element;
@@ -31,7 +31,7 @@ $(document).ready(function(){
         //Hide the UI 
         $( ".play-btn-normal" ).click(function() {
             $(".fullscreen-img, .home-content").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
-            $(".raster").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
+            $(".raster").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);               
 		});
 		// Pause the movie
 		$("#video").on("YTPPause",function(){

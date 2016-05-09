@@ -36,6 +36,7 @@
   
 - cluster: Business & Professional
   subcluster: Business, Law & Administration
+  he-image: 
   icon: fa-gavel
   campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
   campus-long:
@@ -77,6 +78,7 @@
   
 - cluster: Business & Professional
   subcluster: Digital Academy 
+  he-image: digital-academy.jpg
   icon: fa-gamepad
   colour: E54028  
   level: 2 3
@@ -98,6 +100,7 @@
 #Cultural & Visitor Economy D0D102
 - cluster: Cultural & Visitor Economy
   subcluster: Arts & Media
+  he-image: arts-media.jpg
   icon: fa-paint-brush
   level: 2 3 4 5 6
   colour: D0D102  
@@ -119,6 +122,7 @@
   
 - cluster: Cultural & Visitor Economy
   subcluster: Catering & Hospitality
+  he-image: 
   icon: fa-cutlery
   level: 1 2 4 5 6
   colour: D0D102  
@@ -185,6 +189,7 @@
 #Education 01A4A4
 - cluster: Education
   subcluster: The School of Education & Professional Development
+  he-image: school-of-education-professional-development.jpg
   icon: fa-graduation-cap
   level: 1 2 3 4 5 6
   colour: 01A4A4  
@@ -257,6 +262,7 @@
 #Health & Wellbeing D70060
 - cluster: Health & Wellbeing
   subcluster: Hairdressing & Beauty Therapy
+  he-image: 
   icon: fa-scissors
   level: 1 2 3
   colour: D70060  
@@ -296,6 +302,7 @@
 
 - cluster: Health & Wellbeing
   subcluster: Sports and Fitness
+  he-image: sport-fitness.jpg  
   icon: fa-futbol-o
   level: 1 2 3 4 5 6
   colour: D70060  
@@ -325,6 +332,7 @@
 #Rural Economy 61AE24
 - cluster: Rural Economy
   subcluster: Agriculture & Countryside Management
+  he-image: agriculture-countryside-management.jpg   
   icon: fa-leaf
   level: 1 2 3 4 5 6
   colour: 61AE24
@@ -347,6 +355,7 @@
   
 - cluster: Rural Economy
   subcluster: Animal Management & Veterinary Nursing
+  he-image:  
   icon: fa-stethoscope
   level: 1 2 3 6
   colour: 61AE24  
@@ -368,6 +377,7 @@
   
 - cluster: Rural Economy
   subcluster: Equine
+  he-image: equine.jpg     
   icon: fa-trophy
   level: 1 2 3 4 5 6
   colour: 61AE24  
@@ -447,6 +457,7 @@
 #Science & Natural Environment 113F8C
 - cluster: Science & Natural Environment
   subcluster: Applied Science & Forensic Science
+  he-image: applied-science-forensic-science.jpg
   icon: fa-flask
   level: 2 3 4 5 6
   colour: 113F8C
@@ -465,6 +476,7 @@
   
 - cluster: Science & Natural Environment
   subcluster: Marine & Natural Environment
+  he-image: marine-natural-environment.jpg
   icon: fa-anchor
   level: 2 3 4 5 6
   colour: 113F8C 
@@ -480,6 +492,7 @@
   
 - cluster: Science & Natural Environment
   subcluster: Wildlife Conservation & Zoology
+  he-image:  
   icon: fa-paw
   level: 3 6
   colour: 113F8C
@@ -533,6 +546,7 @@
 
 - cluster: Technology
   subcluster: Engineering
+  he-image: engineering.jpg
   icon: fa-cogs
   level: 1 2 3
   colour: 00A1CB
