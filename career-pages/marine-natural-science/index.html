@@ -8,6 +8,16 @@ brand: FM
 background-image: /images/area-banners/marine-natural-science-conservation-mobile.jpg
 campuscodes: F
 schema: https://schema.org/course
+
+staff-name: Luke Marsh
+staff-role: Programme Manager Marine Biology &amp; Ecology
+staff-photo: /images/staff/luke-marsh.jpg
+staff-text: Luke is a keen surfer and loves the ocean, so after leaving school he travelled the world for ten years before getting             back into education and going to university. After graduating from Plymouth University in 2009 he worked as a research             associate and an environmental consultant, specialising in pollution, particularly air emissions. Luke joined the ocean             sciences team at Falmouth Marine School as a laboratory technician. Over the years he has progressed to become                     programme manager, he also lectures on the degree programme.
+
+alumni-name: Lauren Bambury
+alumni-role: Assistant Harbour Master - Hayle Harbour
+alumni-photo: alumni/science-environment/lauran-bambury.jpg
+alumni-text: Falmouth Marine School helped me to get where I am today by providing me with the skills to be confident in my                      abilities. It also showed me the importance of volunteering and gaining vital work experience along with my studies.
 ---
 
 {% include /career/career-header.html %}
@@ -31,15 +41,17 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/staff/luke-marsh.jpg" name='Luke Marsh' role="Programme Manager Marine Biology &amp; Ecology" about="Luke is a keen surfer and loves the ocean, so after leaving school he travelled the world for ten years before getting back into education and going to university. After graduating from Plymouth University in 2009 he worked as a research associate and an environmental consultant, specialising in pollution, particularly air emissions. Luke joined the ocean sciences team at Falmouth Marine School as a laboratory technician. Over the years he has progressed to become programme manager, he also lectures on the degree programme. " %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/science-environment/environmental-science-martin-youell.jpg" studentName1='Martin Youell' studentRole1='Head of Fisheries Management' studentQuote1="Martin spent a year working in the Amazon where he studied turtles and forest growth. He's now back in the UK and is the Head of Fisheries Management with the UK Government's Marine Management Organisation." studentImage2="/images/alumni/science-environment/lauran-bambury-marine-biology.jpg" studentName2='Lauren Bambury' studentRole2='Assistant Harbour Master - Hayle Harbour' studentQuote2="Falmouth Marine School helped me to get where I am today by providing me with the skills to be confident in my abilities. It also showed me the importance of volunteering and gaining vital work experience along with my studies." studentImage3="/images/alumni/science-environment/marine-natural-science-conservation-lauren-pestana.jpg" studentName3='Lauren Pestana' studentRole3='Marine Biologist' studentQuote3="Lauren is a budding marine biologist with a passion for one of the most feared animals in the world: the great white shark. She recently secured the opportunity of a lifetime, study the much maligned creatures alongside teams from National Geographic and the Discovery Channel." %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Dephiny Cesarano' studentRole1="Student Role" studentQuote1="Falmouth Marine School set the foundation for my marine science career and fulled my passion for my subject"
+studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2="Student Role" studentQuote2="Student Quote"
+studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3="Student Role" studentQuote3="Student Quote" %}
     
 {% include /career/career-stats.html percent1=100 end1='of our marine biology students say that teaching on their course was good.' percent2=88.8 start2='Our science courses have an' end2='success rate' %}
 
 {% include /career/key-stats.html stat1='Aquaculture is now recognised as the fastest growth sector of agribusiness' stat2='70% of the earth’s surface is covered in water, yet most of it remains unexplored' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

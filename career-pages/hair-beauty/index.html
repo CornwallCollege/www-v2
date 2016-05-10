@@ -8,6 +8,16 @@ brand: CC
 background-image: /images/area-banners/hair-beauty-desktop.jpg
 campuscodes: A,C,S
 schema: https://schema.org/course
+
+staff-name: Fran Clapham
+staff-role: team lead - beauty
+staff-photo: /images/staff/fran-clapham.jpg
+staff-text: Cornwall College St Austell lecturer Fran Clapham has been recognised as one of the highest trained skincare                       professionals in the country. She now holds Dermalogica Expert status, the only trainer in Cornwall to acheive this.
+
+alumni-name: Alisha Dobson
+alumni-role: a-lister jessie j's personal hairstylist
+alumni-photo: alumni/health-wellbeing/hairdressing-beauty/alisha-dobson.jpg
+alumni-text: I wouldn't be doing this without college and my training salon. College gives you the foundation for everything.
 ---
 
 {% include /career/career-header.html %}
@@ -28,15 +38,17 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/alumni/hair-beauty/web-version/fran-clapham.jpg" name='Fran Clapham' role='team lead - beauty' about='Cornwall College St Austell lecturer Fran Clapham has been recognised as one of the highest trained skincare professionals in the country. She now holds Dermalogica Expert status, the only trainer in Cornwall to acheive this.' %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/hair-beauty/web-version/alisha-dobson.jpg" studentName1='Alisha Dobson' studentRole1="a-lister jessie j's personal hairstylist" studentQuote1="I wouldn't be doing this without college and my training salon. College gives you the foundation for everything." studentImage2="/images/alumni/hair-beauty/web-version/david-brown.jpg" studentName2='David Brown' studentRole2='director of red hairdressing' studentQuote2="I always thought from a young age that I would follow in my father's footsteps and become a hairdresser. I feel I have acheived my goals in opening two salons and am lucky to be working with a great team." studentImage3="/images/alumni/hair-beauty/web-version/eloise-lawer.jpg" studentName3='Eloise Lawyer' studentRole3='assistant manager at lasting touch therapies' studentQuote3="I have a real passion for skincare and studying at the College gave me the skills and knowledge to become the assistant manager I am today." %}
+{% include /career/student-case-studies.html
+studentImage1='http://placehold.it/370x370' studentName1='Wassim Imchichi' studentRole1="Student Role" studentQuote1="Student Quote" 
+studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2='Student Role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3='Student Role' studentQuote3="Student Quote" %}
 
 {% include /career/career-stats.html percent1=100 end1='of our Hairdressing Diploma students say that teaching on their course is good.' %}
 
 {% include /career/key-stats.html stat1="salon managers earn £30k+" stat2="the hair & beauty industry is worth £6.2 billion" stat3="nail technicians can earn up to £25k a year" stat4="1000s of apprentices started their careers with us"%} 
 
-{% include /career/nas-apprenticeships.html sectors='Retail and Commercial Enterprise' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

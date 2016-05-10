@@ -8,6 +8,16 @@ brand: C
 background-image: /images/area-banners/environmental-science-desktop.jpg
 campuscodes: N
 schema: https://schema.org/course
+
+staff-name: Faye Archell
+staff-role: Programme Manager - Animal Management
+staff-photo: http://placehold.it/370x370
+staff-text: Faye spent some time working as an aquarist at Southend Sea Life Centre after gaining a degree in Wildlife Management               before starting teaching in 2002. She has worked with cetaceans and marine turtles at a rehabilitation centre in                   Florida and Rhesus and Bonnet Macaques rescued from the pet trade in Goa. Faye is also a wildlife officer with the                 charity ORCA and regularly carries out marine mammal surveys on ferry and cruise line routes.
+
+alumni-name: Owen Taylor
+alumni-role: Head Keeper - Newquay Zoo
+alumni-photo: alumni/science-environment/owen-taylor-animal-science.jpg
+alumni-text: After a successful career Owen is now the Head Keeper at Newquay Zoo and has had numerous articles published
 ---
 
 {% include /career/career-header.html %} 
@@ -31,15 +41,17 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image='http://placehold.it/370x370' name='Faye Archell' role="Programme Manager - Animal Management" about="Faye spent some time working as an aquarist at Southend Sea Life Centre after gaining a degree in Wildlife Management before starting teaching in 2002. She has worked with cetaceans and marine turtles at a rehabilitation centre in Florida and Rhesus and Bonnet Macaques rescued from the pet trade in Goa. Faye is also a wildlife officer with the charity ORCA and regularly carries out marine mammal surveys on ferry and cruise line routes.  " %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Name' studentRole1='role' studentQuote1="Student Quote" studentImage2="/images/alumni/science-environment/owen-taylor-animal-science.jpg" studentName2='Owen Taylor' studentRole2='Head Keeper - Newquay Zoo ' studentQuote2="After a successful career Owen is now the Head Keeper at Newquay Zoo and has had numerous articles published" studentImage3='http://placehold.it/370x370' studentName3='Name' studentRole3='role' studentQuote3="Student Quote" %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Alex Dyson' studentRole1="Student Role" studentQuote1="Student Quote"
+studentImage2='http://placehold.it/370x370' studentName2='Jessica Saracino' studentRole2="Student Role" studentQuote2="Student Quote"
+studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3="Student Role" studentQuote3="Student Quote" %}
     
 {% include /career/career-stats.html percent1=100 end1='of Cornwall College Newquay students say that teaching on their course is good.' %}
 
 {% include /career/key-stats.html stat1='Every 20 minutes, the world adds another 3,500 human lives but loses one or more entire species' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

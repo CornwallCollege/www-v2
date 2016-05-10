@@ -8,6 +8,16 @@ brand: DC
 background-image: /images/area-banners/agriculture-horticulture-mobile.jpg
 campuscodes: R,D,B
 schema: https://schema.org/course
+
+staff-name: Caroline Crabb
+staff-role: Lecturer - Floristry
+staff-photo: /images/staff/caroline-crabb.jpg
+staff-text: Caroline has been working in the floristry industry for almost two decades. She regularly competes in national                     competitions, has won medals at the RHS Chelsea Flower Show and has run her own floristry business for the last 16                 years. Caroline is one of only 50 people in the UK to hold the Masters Diploma in Professional Floristry (City & Guilds             Level 5). She has also been awarded a Licentiateship LCGI and Affiliateship (AfCGI) by City & Guilds.
+
+alumni-name: Sally Charret
+alumni-role: Deputy features editor, Amateur Gardens, IPC Media, Bournemouth
+alumni-photo:
+alumni-text: Alumni-Text
 ---
 
 {% include /career/career-header.html %}
@@ -31,15 +41,15 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
     
-{% include /career/staff-profile.html image="/images/staff/caroline-crabb.jpg" name='Caroline Crabb' role="Lecturer - Floristry" about="Caroline has been working in the floristry industry for almost two decades. She regularly competes in national competitions, has won medals at the RHS Chelsea Flower Show and has run her own floristry business for the last 16 years. Caroline is one of only 50 people in the UK to hold the Masters Diploma in Professional Floristry (City & Guilds Level 5). She has also been awarded a Licentiateship LCGI and Affiliateship (AfCGI) by City & Guilds." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/rural-economy/aiden-fone-horticulture.jpg" studentName1='Aiden Fone' studentRole1='' studentQuote1="I would highly recommend this course to anyone" studentImage2="/images/alumni/rural-economy/archie-cox-horticulture.jpg" studentName2='Archie Cox' studentRole2='' studentQuote2="The tutors were really helpful" studentImage3="/images/alumni/rural-economy/ollie-hibberd-arboriculture.jpg" studentName3='Ollie Hibbard' studentRole3='role' studentQuote3="I'm hoping to comeback to level 3 arboriculture and move into the working industry" %}
+{% include /career/student-case-studies.html studentImage1="/images/students/rural-economy/horticulture-floristry/aiden-fone.jpg" studentName1='Aiden Fone' studentRole1='' studentQuote1="I would highly recommend this course to anyone" studentImage2="/images/students/rural-economy/horticulture-floristry/archie-cox.jpg" studentName2='Archie Cox' studentRole2='' studentQuote2="The tutors were really helpful" studentImage3="/images/students/rural-economy/horticulture-floristry/ollie-hibberd.jpg" studentName3='Ollie Hibbard' studentRole3='role' studentQuote3="I'm hoping to comeback to level 3 arboriculture and move into the working industry" %}
     
 {% include /career/career-stats.html begin1='Our agriculture courses have an' percent1=89.1 end1='success rate.' %}
 
 {% include /career/key-stats.html stat1="UK consumers spend around £5 billion a year on products and plants for their gardens - that's more than we spend on chocolate as a nation" stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

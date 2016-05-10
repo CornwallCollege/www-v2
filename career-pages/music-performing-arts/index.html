@@ -8,6 +8,17 @@ brand: CC
 background-image: /images/area-banners/media-digital-creativity-desktop.jpg
 campuscodes: A,C,M
 schema: https://schema.org/course
+
+staff-name: Rory Mason
+staff-role: team lead - digital media
+staff-photo: /images/staff/rory-mason.jpg
+staff-text: Previous students have worked their way up through the industry to become executive producers on a range of shows from             X factor to American Idol and that's down to the very practical nature of our courses that give our students the skills             to succeed.
+
+alumni-name: Jake Moyle
+alumni-role: professional dancer
+alumni-photo: alumni/cultral-visitor/music-performing/jake-moyle.jpg
+alumni-text: Jake trained at Cornwall College. He went onto acheieve a BA Hons degree at London Studio Centre. Jake has danced for              Madonna and Take That
+
 ---
 
 {% include /career/career-header.html %}
@@ -34,7 +45,7 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/staff/rory-mason.jpg" name='Rory Mason' role="team lead - digital media" about="Previous students have worked their way up through the industry to become executive producers on a range of shows from X factor to American Idol and that's down to the very practical nature of our courses that give our students the skills to succeed." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
 {% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Micheal Drew' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Tom Dunn' studentRole2='Student Role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Name' studentRole3='Student Role' studentQuote3="Student Quote" %}
 
@@ -42,7 +53,7 @@ schema: https://schema.org/course
 
 {% include /career/key-stats.html stat1='dancers can earn on average £22k+' stat2='top record producers can earn £100k+' stat3='there are 5,480 businesses in the performing arts sector' stat4='101,593 people working in the performing arts sector'%}
 
-{% include /career/career-alumni.html our='ALUMNI' name='Jake Moyle' role="professional dancer" text="Jake trained at Cornwall College. He went onto acheieve a BA Hons degree at London Studio Centre. Jake has danced for Madonna and Take That"  photo="alumni/cultral-visitor/music-performing/jake-moyle.jpg" %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

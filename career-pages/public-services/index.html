@@ -7,6 +7,16 @@ link: course-subjects/public-services
 brand: CC
 background-image: /images/area-banners/public-services-desktop.jpg
 campuscodes: A,B,C,D
+
+staff-name: Jamie Crisp
+staff-role: Team Lead - Public Services
+staff-photo: /images/staff/jamie-crisp.jpg
+staff-text: Prior to joining Cornwall College, Jamie spent 24 years in the military as a non-comminsioned officer in the British               Army and was a specialist PT instructor as well as a senior tactics instructor, conducting operational tours around the             world.
+
+alumni-name: Owen Marks
+alumni-role: royal military police
+alumni-photo: alumni/health-wellbeing/public-services/owen-marks.jpg
+alumni-text: I wanted to get my fitness and confidence up, and this course seemed like the ideal course. The course prepared me for              selection and I got the A grade I needed to get into the Miltary Police.
 ---
 
 {% include /career/career-header.html %}
@@ -34,15 +44,16 @@ campuscodes: A,B,C,D
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/alumni/public-services/web-version/jamie-crisp.jpg" name='Jamie Crisp' role='Team Lead - Public Services' about='Prior to joining Cornwall College, Jamie spent 24 years in the military as a non-comminsioned officer in the British Army and was a specialist PT instructor as well as a senior tactics instructor, conducting operational tours around the world.' %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/public-services/web-version/owen-marks.jpg" studentName1='Owen Marks' studentRole1='royal military police' studentQuote1='I wanted to get my fitness and confidence up, and this course seemed like the ideal course. The course prepared me for selection and I got the A grade I needed to get into the Miltary Police.' studentImage2="/images/alumni/public-services/web-version/ruth.jpg" studentName2='Ruth Rockley' studentRole2='emergency management officer for north somerset district council' studentQuote2='The course undoubtedly helped me get to where I am today. The lecturers were fantastic, bringing their operational experience into the classroom.' studentImage3="/images/alumni/public-services/web-version/adrian-sawyer.jpg" studentName3='Adrian sawyer' studentRole3='special operations response team - south western ambulance service nhs trust' studentQuote3='The FdSc in Rescue and Emergency Management has given me a huge leg up in the Emergency Services - I was employed within a month of graduating.' %}
+{% include /career/student-case-studies.html
+studentImage1='http://placehold.it/370x370' studentName1='Leah Body' studentRole1='Student Role' studentQuote1='Student Quote' studentImage2='http://placehold.it/370x370' studentName2='David Hawkin' studentRole2='Student Role' studentQuote2='Student Quote' studentImage3='/images/students/health-wellbeing/david-hawkin.jpg' studentName3='Leah Body' studentRole3='Student Role' studentQuote3='Student Quote' %}
 
 {% include /career/career-stats.html percent1=100 end1='of our Public Services Diploma students say that their lecturers are constantly challenging them to do their best.' %}
 
 {% include /career/key-stats.html stat1='hmps offers a national starting salary of £20,545' stat2='a police officer earns from £19k a year' stat3='an raf officer earns from £24k a year' stat4='50,000 people work as civillians for the mod'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

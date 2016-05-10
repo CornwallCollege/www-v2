@@ -8,6 +8,16 @@ brand: CC
 background-image: /images/area-banners/performing-arts-desktop.jpg
 campuscodes: A,C
 schema: https://schema.org/course
+
+staff-name: Racheal Reeve - Edwards
+staff-role: team lead - visual arts
+staff-photo: /images/staff/rachael-reeve-edwards.jpg
+staff-text: We share our learners' passion for realising striking, beautiful and thought provoking art. At Cornwall College,                   lecturers and students are on this creative journey together.
+
+alumni-name: Tobey Louise Brown
+alumni-role: product graphic designer - lego
+alumni-photo: alumni/cultral-visitor/arts-media/tobey-louise-brown.jpg
+alumni-text: My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independant              in my learning and I could tailor my projects to my design interests.
 ---
 
 {% include /career/career-header.html %}
@@ -34,7 +44,7 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/staff/rachael-reeve-edwards.jpg" name='Racheal Reeve - Edwards' role="team lead - visual arts" about="We share our learners' passion for realising striking, beautiful and thought provoking art. At Cornwall College, lecturers and students are on this creative journey together." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
 {% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Student Name' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2='Student Role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3='Student Role' studentQuote3="Student Quote" %}
 
@@ -42,7 +52,7 @@ schema: https://schema.org/course
 
 {% include /career/key-stats.html stat1='photographers earn on average £21k+' stat2='the uk has the second largest design sector in the world' stat3='uk games designers on average earn £40k+' stat4='over 500 journalists now working in the uk trained at cornwall college'%}
 
-{% include /career/career-alumni.html our='ALUMNI' name='Tobey Louise Brown' role='product graphic designer - lego' text="My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independant in my learning and I could tailor my projects to my design interests." photo="alumni/cultral-visitor/arts-media/tobey-louise-brown.jpg" %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
