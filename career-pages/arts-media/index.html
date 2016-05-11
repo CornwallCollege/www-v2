@@ -8,6 +8,16 @@ brand: CC
 background-image: /images/area-banners/performing-arts-desktop.jpg
 campuscodes: A,C
 schema: https://schema.org/course
+
+staff-name: Racheal Reeve - Edwards
+staff-role: team lead - visual arts
+staff-photo: /images/staff/rachael-reeve-edwards.jpg
+staff-text: We share our learners' passion for realising striking, beautiful and thought provoking art. At Cornwall College,                   lecturers and students are on this creative journey together.
+
+alumni-name: Tobey Louise Brown
+alumni-role: product graphic designer - lego
+alumni-photo: alumni/cultral-visitor/arts-media/tobey-louise-brown.jpg
+alumni-text: My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independant              in my learning and I could tailor my projects to my design interests.
 ---
 
 {% include /career/career-header.html %}
@@ -34,15 +44,15 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/alumni/visual-arts/web-version/rachael-reeve-edwards.jpg" name='Racheal Reeve - Edwards' role="team lead - visual arts" about="We share our learners' passion for realising striking, beautiful and thought provoking art. At Cornwall College, lecturers and students are on this creative journey together." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/visual-arts/web-version/jamie-leah-grant.jpg" studentName1='Jamie Leah-Grant' studentRole1="level 3 student & winner of uk dyslexic association national poster design campaign" studentQuote1="I loved the teachers, they are so inspirational in what they say and do. They point you in the direction to help you create amazing artwork." studentImage2="/images/alumni/visual-arts/web-version/jack-weekes.jpg" studentName2='Jack Weekes' studentRole2='photographer' studentQuote2="Photography at Cornwall College set me up with a solid foundation in both the technical and conceptual skills needed to develop my own artistic practice." studentImage3="/images/alumni/visual-arts/web-version/tobey-louise-brown.jpg" studentName3='Tobey Louise Brown' studentRole3='product graphic designer - lego' studentQuote3="My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independant in my learning and I could tailor my projects to my design interests." %}
-
-{% include /career/student-case-studies.html studentImage1="/images/alumni/media/web-version/murray-wardrop.jpg" studentName1='Murray Wardrop' studentRole1="assistant news for the daily telegraph" studentQuote1="I studied journalism at Cornwall College working locally then nationally. I have enjoyed a successful and varied career and have even won a couple of awards." studentImage2="/images/alumni/media/web-version/adam-allen-foord.jpg" studentName2='Adam Allen-Foord' studentRole2='studio manager at sanders shiers' studentQuote2="Cornwall College gave me the skills I needed to start working in 3D. I now make amazing images and animations for local, national and multinational companies." studentImage3="/images/alumni/media/web-version/jez-marshall.jpg" studentName3='Jez Marshall' studentRole3="assistant director & producer tv & film" studentQuote3="Cornwall College provided me with knowledge and support to succeed in the TV and Film industry. Major projects include Poldark and World War Z." %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Student Name' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2='Student Role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3='Student Role' studentQuote3="Student Quote" %}
 
 {% include /career/career-stats.html percent1=100 end1='of our arts and media students say that lecturers know their subject well.' begin2='Our creative arts & design courses have a' percent2=90.5 end2='success rate.' %}
 
 {% include /career/key-stats.html stat1='photographers earn on average £21k+' stat2='the uk has the second largest design sector in the world' stat3='uk games designers on average earn £40k+' stat4='over 500 journalists now working in the uk trained at cornwall college'%}
+
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

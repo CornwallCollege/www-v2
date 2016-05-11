@@ -8,6 +8,16 @@ brand: DC
 background-image: /images/area-banners/countryside-management-desktop.jpg
 campuscodes: B,R,D
 schema: https://schema.org/course
+
+staff-name: Nick Taylor
+staff-role: Course Manager - Conservation &amp; Countryside
+staff-photo: /images/staff/nick-taylor.jpg
+staff-text: Nick has spent many years working in the conservation sector, in many roles as a keeper at London Zoo, Taronga Zoo                 Sydney, the Monkey Sanctuary near Looe and as a warden at the Wildfowl and Wetlands Trust. He’s travelled the world to             experience all manner of wildlife in their natural habitats, and has been to every continent except South America and               Antarctica. For the last 15 years Nick has been teaching at Duchy College and is their resident expert in wildlife                 identification.
+
+alumni-name: Danny Olver
+alumni-role: Owner of Animal Arks and self-employed dairy milker
+alumni-photo: alumni/rural-economy/danny-olver.jpg
+alumni-text: I found working and learning at the College very efffective. You are learning the technical aspects of the industry                and then putting them into practice.
 ---
 
 {% include /career/career-header.html %}
@@ -24,7 +34,7 @@ schema: https://schema.org/course
 
 {% include /career/career-examples-foot.html %}
 
-{% include /career/staff-profile.html image="/images/staff/nick-taylor.jpg" name='Nick Taylor' role="Course Manager - Conservation &amp; Countryside" about="Nick has spent many years working in the conservation sector, in many roles: as a keeper at London Zoo, Taronga Zoo Sydney, the Monkey Sanctuary near Looe and as a warden at the Wildfowl and Wetlands Trust. He’s travelled the world to experience all manner of wildlife in their natural habitats, and has been to every continent except South America and Antarctica. For the last 15 years Nick has been teaching at Duchy College and is their resident expert in wildlife identification." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
 {% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='John Cuthbertson' studentRole1='' studentQuote1="I'm studying animal management and aiming to go to university then I want to work abroad in a zoo or safari park: in training, enrichment and behavior. Duchy College offered me the best chance to get where I want to go and I'd heard really good things about the teaching here. We do a lot of practical work, there's also written work but the tutors make it fun by bringing in animals." studentImage2='http://placehold.it/370x370' studentName2='Racheal Brown' studentRole2='role' studentQuote2="I have really enjoyed how hands on this course has been and the very wide range of activites from lambing sheep to making aa green wood gate" studentImage3='http://placehold.it/370x370' studentName3='Alistair Worth' studentRole3='' studentQuote3="Studying agriculture I do a wide range of things like handling and looking after animals, learning about crops and machinery but my most memorable experience was doing machinery practicals with my friends. I've enjoyed studying here, there is plenty to do and I've made loads of new friends." %}
     
@@ -32,7 +42,7 @@ schema: https://schema.org/course
 
 {% include /career/key-stats.html stat1='The agri-food sector contributed £103billion to the UK economy in 2013' stat2='The average UK salary for a farmer is £27k per year' stat3='The agri-food sector contributed £103 billion to the UK economy in 2013' stat4='Food &amp; Drink manufacturing is the largest segment in the UK manufacturing sector'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

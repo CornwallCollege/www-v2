@@ -1,31 +1,23 @@
 <section class="col-xs-12 main-section-padding main-section-margins team-founder light-bg" style="padding-top:50px;">
     <section class="col-md-12 main-section-margins intro">
-      <article class="col-sm-12 text-center"> <h2>OUR <strong>STAFF</strong></h2> </article>
+        <article class="col-sm-12 text-center">
+            <h2>MEET OUR <strong>STAFF</strong></h2>
+        </article>
     </section>
 
+    <article class="container">
+        <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
+            <h4 class="text-uppercase"><span itemprop="employee">{{include.name}}</span></h4>
+            <span>{{include.role}}</span>
 
-        <article class="container">
-          <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-              <h4 class="text-uppercase"><span itemprop="employee">{{include.name}}</span></h4>
-          <span>{{include.role}}</span>
-
-          <footer>
-            <p>{{include.about}}</p>
-
-            <!-- social icons -->
-            <span class="social-icons social-icons-alt">
-              <a href="#" class="transition"><i class="fa fa-github"></i></a>
-              <a href="#" class="transition"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="transition"><i class="fa fa-behance"></i></a>
-              <a href="#" class="transition"><i class="fa fa-github"></i></a>
-              <a href="#" class="transition"><i class="fa fa-dribbble"></i></a>
-            </span>
-          </footer>
-          </section>
-          <!-- TEAM FOUNDER PICTURE -->
-          <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
+            <footer>
+                <p>{{include.about}}</p>
+            </footer>
+            
+        </section>
+        <!-- TEAM FOUNDER PICTURE -->
+        <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
             <img src="{{include.image}}" class="img-responsive" alt="team pic">
-          </figure>
-        </article>
-
+        </figure>
+    </article>
 </section>

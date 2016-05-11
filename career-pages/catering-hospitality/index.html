@@ -8,6 +8,16 @@ brand: CC
 background-image: /images/area-banners/catering-hospitality-desktop.jpg
 campuscodes: A,C,S
 schema: https://schema.org/course
+
+staff-name: Mark Devonshire
+staff-role: chef lecturer
+staff-photo: /images/staff/mark-devonshire.jpg
+staff-text: I still work regularly in hospitality, I am always looking to upskill, food is always on the change and new ideas and               challenges are always coming along.
+
+alumni-name: Sophie Budd
+alumni-role: owner of taste budds cooking studio in australia
+alumni-photo: alumni/cultral-visitor/catering-hospitality/sophie-budd.jpg
+alumni-text: My lecturers were awesome and I had such a good time. They opened doors for me and encouraged me to push myself and                boy has it paid off
 ---
 
 
@@ -35,16 +45,16 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/alumni/catering-hospitatlity-tourism/web-version/mark-devonshire.jpg" name='Mark Devonshire' role="chef lecturer" about="I still work regularly in hospitality , I am always looking to upskill, food is always on the change and new ideas and challenges are always coming along." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/catering-hospitatlity-tourism/web-version/ben-stevens.jpg" studentName1='Ben Stevens' studentRole1="director of delicate trade & bystro restaurant chain" studentQuote1="At Cornwall College a huge emphasis was on practical work, as well as therory. I beleieve that having this foundation of knowledge has helped me create my own unique business" studentImage2="/images/alumni/catering-hospitatlity-tourism/web-version/sophie-budd.jpg" studentName2='Sophie Budd' studentRole2='owner of taste budds cooking studio in australia' studentQuote2="My lecturers were awesome and I had such a good time. They opened doors for me and encouraged me to push myself and boy has it paid off" studentImage3="/images/alumni/catering-hospitatlity-tourism/web-version/jess-williams.jpg" studentName3='Jess Williams' studentRole3='flybe cabin crew' studentQuote3="The College helped me get my first job at Newquay airport. They have lecturers who work within the aviation industry whose knowledge and advice was invaluable to me." %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='James Defreitas' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2='Student Role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Name' studentRole3='Student Role' studentQuote3="Student Quote" %}
 
 {% include /career/career-stats.html percent1=100 end1='of our Professional Cookery City & Guilds Diploma Level 2 students are happy with their course and with the College.' begin2='Our Catering & Hospitality courses have a' percent2=90.7 end2='success rate' %}
 
 {% include /career/key-stats.html stat1='head chefs earn from £25k+' stat2='hotel managers earn from £31k+' stat3='The hospitality and
 tourism sector employs 7% of the working population' stat4='660,200 people will need to be recruited by 2020'%}
 
-{% include /career/nas-apprenticeships.html sectors='Retail and Commercial Enterprise' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

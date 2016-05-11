@@ -9,6 +9,16 @@ background-image: /images/area-banners/food-production-mobile.jpg
 apprentice-area: 20
 campuscodes: B,R,D
 schema: https://schema.org/course
+
+staff-name: Glenn Coulson
+staff-role: Lecturer - Food Studies
+staff-photo: /images/staff/glenn-coulson.jpg
+staff-text: Glenn’s main role at Duchy College is to teach on the Food Studies programmes (including the foundation degree), he                 also works as laboratory support for other courses and is a consultant for the College’s Food Innovation Service (FIS).             Glenn graduated with a Microbiology & Virology degree and began a career in food analysis with a Campden BRI accredited             food testing laboratory.
+
+alumni-name: Philip Farndon
+alumni-role: Lynher Dairies
+alumni-photo: alumni/rural-economy/philip-farndon.jpg
+alumni-text: I can honestly say that I have thoroughly enjoyed my course at Duchy College and find the teaching to be of a very                  high standard
 ---
 
 {% include /career/career-header.html %}
@@ -31,15 +41,15 @@ schema: https://schema.org/course
 
 {% include /career/career-examples-foot.html %}
     
-{% include /career/staff-profile.html image="/images/staff/glenn-coulson.jpg" name='Glenn Coulson' role="Lecturer - Food Studies" about="Glenn’s main role at Duchy College is to teach on the Food Studies programmes (including the foundation degree), he also works as laboratory support for other courses and is a consultant for the College’s Food Innovation Service (FIS). Glenn graduated with a Microbiology & Virology degree and began a career in food analysis with a Campden BRI accredited food testing laboratory." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/rural-economy/philip-farndon.jpg" studentName1='Philip Farndon' studentRole1='role' studentQuote1="I can honestly say that I have thoroughly enjoyed my course at Duchy College and find the teaching to be of a very high standard" studentImage2='http://placehold.it/370x370' studentName2='Kerry Roberts' studentRole2='' studentQuote2="I saw the prospectus for the College and it looked really interesting. I looked int it more, and I was able to bring my horse here and use all the other great facilities, and this was the most in depth course to do with food technology." studentImage3='http://placehold.it/370x370' studentName3='Alex Murray' studentRole3='' studentQuote3="My sister came to Ducky College and thinks it's a great college. The best thin about coming to college is meeting new people and getting indeustrial experience. In the Food Technology Diploma we do microbiology, a lot of practical and learn about the law behind food" %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Student Name' studentRole1='Student Role' studentQuote1=" Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Kerry Roberts' studentRole2='' studentQuote2="I saw the prospectus for the College and it looked really interesting. I looked int it more, and I was able to bring my horse here and use all the other great facilities, and this was the most in depth course to do with food technology." studentImage3='http://placehold.it/370x370' studentName3='Alex Murray' studentRole3='' studentQuote3="My sister came to Ducky College and thinks it's a great college. The best thin about coming to college is meeting new people and getting indeustrial experience. In the Food Technology Diploma we do microbiology, a lot of practical and learn about the law behind food" %}
     
 {% include /career/career-stats.html percent1=100 end1='Lorem ipsum dolor sit amet, feugiat tincidunt philosophia eu mel, quando appareat eos an.' %}
 
 {% include /career/key-stats.html stat1='Food &amp; Drink manufacturing is the largest segment in the UK manufacturing sector' stat2='The agri-food sector contributed £103billion to the UK economy in 2013' stat3='Food &amp; Drink exports from the UK doubled in the last 10 years to £12.8 billion in 2014' stat4='It is estimated that over 2,000 new recruits to the industry in Cornwall alone by 2020' %}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
