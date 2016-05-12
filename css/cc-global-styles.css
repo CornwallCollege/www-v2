@@ -62,7 +62,42 @@
     color: #fff;
   }
   
+      @media (min-width: 768px){
+        .menu-item-has-children:hover > .dropdown-menu{
+          display: block;
+        }
+      }
+      
+      @media(max-width: 767px){
 
+        .navbar-nav > li{
+          background: rgba(0,0,0,0.8);
+        }
+        .navbar-nav > li > a{
+          height: 50px;
+          padding-bottom: 10px;
+          padding-top: 15px;
+        }
+        
+        .navbar-toggle{
+          margin-bottom: -18px;
+        }
+        
+        .menu-item-has-children .dropdown-menu li{
+          height: 50px;
+        }
+        .menu-item-has-children .dropdown-menu li a{
+          padding: 20px;
+          height: 50px;
+     
+        }
+        
+        .navbar-nav .open .dropdown-menu>li>a,
+        .navbar-nav .open .dropdown-menu .dropdown-header{
+          padding: 15px 15px 15px 25px
+        }
+
+      }
 
       
 .navbar-toggle{
@@ -118,6 +153,18 @@
     font-size: 24px; 
 }
 
+    @media(max-width: 480px){
+        .menu-text{
+            display: none;
+        }
+        .menu-icon{
+            font-size: 36px;
+            padding: 27px;
+        }
+            .menu-icon:hover{
+                padding: 16px 20px;
+            }
+    }
 
 
 /* General styles for all menus */
@@ -165,7 +212,11 @@
 /* scroll bar for the menu overlay if the content doesn't
  * fit height of the screen on small devices
  */
-
+@media (max-width: 681px){
+    .cbp-spmenu-open{
+         overflow-y: scroll
+    }
+}
 .menu-item-links{
     width: 100%;
     list-style: none;
@@ -221,6 +272,29 @@
         content: "\f111";
         color: #52B3D9;
     }
+
+    @media(min-width: 681px) and (max-width: 991px){
+        .menu-item-links{
+            margin-top: 30%;
+        }
+    }
+    @media(max-width: 680px){
+        .menu-item-links{
+            margin-bottom: 20px;
+            margin-top: 30%;
+            text-indent: 5%;
+            text-align: left;
+        }
+        .menu-item-links li{
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .menu-item-links li:before{
+            display: inline-block;
+        }
+    }
+    
     
 /* SUBMENU ITEMS */
 
@@ -261,6 +335,15 @@
     opacity: 1;
 }
     
+    @media(max-width: 680px){
+        .sub-menu{
+            position: static;
+            opacity: 1;
+            text-align: left;
+            text-indent: 18%;
+            margin-top: 10px;
+        }
+    }
 
 
 
@@ -344,10 +427,22 @@
     transition: all 0.3s;
 }
 
-
+@media(max-width:400px) {
+    #logo-wrapper {
+        margin-left: 10px;
+    }
+    .cc-logo-scroll {
+        margin-top: -58px;
+    }
+}
 /* ------------- Logo styles ENDS --------------*/
 /* ------------- Menu styles ----------------*/
 
+@media(max-width: 480px) {
+    .menu-icon {
+        padding: 16px 27px;
+    }
+}
 
 .menu-icon {
     z-index: 1010;
@@ -365,7 +460,27 @@
     margin-top: 5%;
 }
 
+@media(min-width:681px) {
+    .menu-item-links {
+        border-top: solid 1px #d1d1d1;
+        padding-top: 10px;
+    }
+    .menu-item-links > li:before {
+        content: "\f107";
+    }
+}
 
+@media(min-width: 681px) and (max-width: 991px) {
+    .menu-item-links {
+        margin-top: 10%;
+    }
+}
+
+@media(max-width: 680px) {
+    .menu-item-links {
+        margin-top: 5%;
+    }
+}
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
@@ -377,6 +492,17 @@
     margin-top: 20%;
 }
 
+@media(min-width: 681px) and (max-width: 991px) {
+    #search-form {
+        margin-top: 25%;
+    }
+}
+
+@media(max-width: 680px) {
+    #search-form {
+        margin-top: 30%;
+    }
+}
 
 .cbp-spmenu .menu-social-icons {
     padding: 20px 15px;
@@ -389,7 +515,14 @@
     padding: 20px 15px;
 }
 
-
+@media(max-width:680px) {
+    .cbp-spmenu .menu-social-icons {
+        padding: 50px 15px;
+        margin-top: 0;
+        position: relative;
+        bottom: auto;
+    }
+}
 
 .menu-social-icons a {
     display: inline;
@@ -414,7 +547,14 @@
     padding-left: 55px;
 }
 
-
+@media(max-width:680px) {
+    .submenu-items > li:before {
+        margin-left: -56px;
+    }
+    .submenu-items li {
+        padding-left: 55px;
+    }
+}
 .search-submit {
     position: relative;
     height: 100%;
@@ -427,7 +567,24 @@
 #search-form .input-group-addon {
     padding: 0;
 }
+/* --------- Main Menu indent Fix ----------*/
 
+.menu-item-links li a {
+    padding: 10px;
+    line-height: 28px;
+}
+
+@media(min-width:300px) and (max-width:680px) {
+    .menu-item-links li a {
+        line-height: 30px;
+    }
+    .submenu-items {
+        text-indent: 11%;
+    }
+}
+/* --------- Main Menu indent Fix ENDS ----------*/
+
+/* ------------ Menu styles ENDS --------------*/
 
 /* =================================
  *
