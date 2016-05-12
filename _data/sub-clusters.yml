@@ -36,6 +36,7 @@
   
 - cluster: Business & Professional
   subcluster: Business, Law & Administration
+  university-faculty: Business, Law & Administration
   he-image: 
   icon: fa-gavel
   campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
@@ -100,6 +101,7 @@
 #Cultural & Visitor Economy D0D102
 - cluster: Cultural & Visitor Economy
   subcluster: Arts & Media
+  university-faculty: Creative Arts & Media
   he-image: arts-media.jpg
   icon: fa-paint-brush
   level: 2 3 4 5 6
@@ -122,7 +124,8 @@
   
 - cluster: Cultural & Visitor Economy
   subcluster: Catering & Hospitality
-  he-image: 
+  university-faculty: Hospitality & Tourism
+  he-image: catering-hospitality.jpg
   icon: fa-cutlery
   level: 1 2 4 5 6
   colour: D0D102  
@@ -267,7 +270,7 @@
   level: 1 2 3
   colour: D70060  
   brand: cc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19+ apprenticeships 
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -332,6 +335,7 @@
 #Rural Economy 61AE24
 - cluster: Rural Economy
   subcluster: Agriculture & Countryside Management
+  university-faculty: Agriculture Horticulture Food & Land-use
   he-image: agriculture-countryside-management.jpg   
   icon: fa-leaf
   level: 1 2 3 4 5 6
@@ -355,6 +359,7 @@
   
 - cluster: Rural Economy
   subcluster: Animal Management & Veterinary Nursing
+  university-faculty: Animal Management & Veterinary Nursing
   he-image:  
   icon: fa-stethoscope
   level: 1 2 3 6
@@ -457,6 +462,7 @@
 #Science & Natural Environment 113F8C
 - cluster: Science & Natural Environment
   subcluster: Applied Science & Forensic Science
+  university-faculty: Applied Science  
   he-image: applied-science-forensic-science.jpg
   icon: fa-flask
   level: 2 3 4 5 6
@@ -584,4 +590,21 @@
       campus-link: /st-austell-campus.html  
     
   search-link: motor-vehicle
+  intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
+  
+- cluster: Science & Natural Environment
+  subcluster: Applied Science
+  level: 7
+  colour: 113F8C
+  brand:  cc
+  sector: university
+  campus: camborne-campus st-austell-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html  
+    
+  search-link: he-applied-science
   intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
