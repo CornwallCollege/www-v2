@@ -8,6 +8,16 @@ brand: FMS
 background-image: /images/area-banners/boatbuilding-desktop.jpg
 campuscodes: F
 schema: https://schema.org/course
+
+staff-name: Simon Combe
+staff-role: Workshop Technician - Boatbuilding
+staff-photo: /images/staff/simon-combe.jpg
+staff-text: Simon is a Falmouth Marine School alumni and has worked with a range of boatyards in the construction of yachts and                 small craft. He supervises both the wood and composite workshops at Falmouth Marine School’s boatbuilding training                 centre in Ponsharden boatyard, helping learners on a day-today basis with developing their practical skills, techniques             and project planning. He also acts as a consultant with the College’s Marine Innovation Service, assisting local                   businesses who wish to develop their processes and products in composite boat manufacturing (FRP).
+
+alumni-name: Nick Smith
+alumni-role: Mylor Yacht Harbour
+alumni-photo: alumni/technology/nick-smith.jpg
+alumni-text: Falmouth Marine School has helped me immensely with my career. I was enrolled onto a course that I wanted to do and                really suited me needs
 ---
 
 {% include /career/career-header.html %} 
@@ -24,17 +34,15 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/career-alumni.html name="National Maritime Museum Cornwall" text="Students from Falmouth Marine School have been involved in creating a high profile exhibition at the National Maritime Museum Cornwall. The Viking faering they built is the centrepiece of a touch and feel exhibition in the award-winning museum." photo="alumni/maritime-museum-logo.jpg" %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/staff-profile.html image="/images/staff/simon-combe.jpg" name='Simon Combe' role="Workshop Technician - Boatbuilding" about="Simon is a Falmouth Marine School alumni and has worked with a range of boatyards in the construction of yachts and small craft. He supervises both the wood and composite workshops at Falmouth Marine School’s boatbuilding training centre in Ponsharden boatyard, helping learners on a day-today basis with developing their practical skills, techniques and project planning. He also acts as a consultant with the College’s Marine Innovation Service, assisting local businesses who wish to develop their processes and products in composite boat manufacturing (FRP)." %}
-
-{% include /career/student-case-studies.html studentImage1="/images/alumni/technology/nick-smith-marine-engineering.jpg" studentName1='Nick Smith' studentRole1='' studentQuote1="Falmouth Marine School has helped me immensely with my career. I was enrolled onto a course that I wanted to do and really suited me needs" studentImage2='http://placehold.it/370x370' studentName2='Alex Somers' studentRole2='' studentQuote2="The apprenticeship offers the best chance of decent wages while you learn. I really enjoy working at Duchy Hydraulics. I'm always paired with an experienced employee so I can learn from them. Attending college one day a week breaks up my working days and allows me to gain a qualification and wider marine engineering skills through the various projects we work on." studentImage3='http://placehold.it/370x370' studentName3='Joseph Rasmussen' studentRole3='' studentQuote3="Through doing the yacht fit out and composites I got to work with the National Maritime Museum Cornwall restoring their historical boat collection, further developing the skills I gained on my course. The workshops are great and the tutors are really approachable." %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Student Name' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Alex Somers' studentRole2='' studentQuote2="The apprenticeship offers the best chance of decent wages while you learn. I really enjoy working at Duchy Hydraulics. I'm always paired with an experienced employee so I can learn from them. Attending college one day a week breaks up my working days and allows me to gain a qualification and wider marine engineering skills through the various projects we work on." studentImage3='http://placehold.it/370x370' studentName3='Joseph Rasmussen' studentRole3='' studentQuote3="Through doing the yacht fit out and composites I got to work with the National Maritime Museum Cornwall restoring their historical boat collection, further developing the skills I gained on my course. The workshops are great and the tutors are really approachable." %}
     
 {% include /career/career-stats.html percent1=100 end1='of our boatbuilding students say that teaching on their course is good.' %}
 
 {% include /career/key-stats.html stat1='The superyacht sector contributed £304 million to UK GDP in 2014/2015' stat2='The engineering sector will need 182,000 people each year' stat3='Engineering supports 14.5 million jobs – 55% of UK employment' stat4='The average graduate starting salary for engineering is £27,079'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 {% include /career/campus-locations.html %}
 

@@ -1,6 +1,6 @@
 ---
 layout: career-page
-title: Construction Trades
+title: Construction
 description: Find out more about starting a Career in Construction at The Cornwall College Group
 career: construction
 link: course-subjects/construction-trades
@@ -8,6 +8,16 @@ brand: CC
 background-image: /images/area-banners/construction-desktop.jpg
 campuscodes: A,C,S,B
 schema: https://schema.org/course
+
+staff-name: Jem Stevens
+staff-role: Course Manager - Plumbing
+staff-photo: /images/staff/jem-stevens.jpg
+staff-text: Jem has travelled the world as an airframes aircraft engineer in the Royal Air Force, he then retrained as a plumbing               and gas heating engineer and worked in the construction industry for over a decade before joining Cornwall College. Jem             is also a qualified PASMA scaffold instructor and delivers scaffold training to our students enabling them to gain a               nationally recognised PASMA accreditation.
+
+alumni-name: Alice Collard
+alumni-role: Owner of Collard Plumbing &amp; Heating
+alumni-photo: alumni/technology/alice-collard.jpg
+alumni-text: I went straight to college and choose to study plumbing because I wanted a good trade.
 ---
 
 {% include /career/career-header.html %} 
@@ -74,15 +84,15 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image="/images/staff/jem-stevens.jpg" name='Jem Stevens' role="Course Manager - Plumbing" about="Jem has travelled the world as an airframes aircraft engineer in the Royal Air Force, he then retrained as a plumbing and gas heating engineer and worked in the construction industry for over a decade before joining Cornwall College. Jem is also a qualified PASMA scaffold instructor and delivers scaffold training to our students enabling them to gain a nationally recognised PASMA accreditation." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/technology/alice-collard.jpg" studentName1='Alice Collard' studentRole1='Owner of A Collard Plumbing &amp; Heating' studentQuote1="I went straight to college and choose to study plumbing because I wanted a good trade." studentImage2="/images/alumni/technology/construction-kyle-friendship.jpg" studentName2='Kyle Friendship' studentRole2='Roofing Apprentice' studentQuote2="Kyle is currently the best young roofer in the UK after securing Gold at the WorldSkills UK final at the NEC. Kyle is the third roofing student from Cornwall College to take the title."  studentImage3="/images/alumni/technology/alex-sillifant-construction-plant.jpg" studentName3='Alex Sillifant' studentRole3='role' studentQuote3="Duchy College gave me the skills and experience I needed for this industry and I'm definitely glad that I studied there" %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Vincent Chan Ka Nam' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2="/images/students/technology/kyle-friendship.jpg" studentName2='Kyle Friendship' studentRole2='Roofing Apprentice' studentQuote2="Kyle is currently the best young roofer in the UK after securing Gold at the WorldSkills UK final at the NEC. Kyle is the third roofing student from Cornwall College to take the title."  studentImage3="/images/students/technology/alex-sillifant.jpg" studentName3='Alex Sillifant' studentRole3='role' studentQuote3="Duchy College gave me the skills and experience I needed for this industry and I'm definitely glad that I studied there" %}
 
 {% include /career/career-stats.html percent1=100 end1='of our construction students say that the teaching on their course is good.' begin2='Our building &amp; construction courses have an' percent2=80.7 end2='success rate (higher than the national average).' %}
 
 {% include /career/key-stats.html stat1='In 2014 the construction industry in the UK contributed £103 billion' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

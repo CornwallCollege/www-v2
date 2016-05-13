@@ -6,7 +6,18 @@ career: childrens-workforce
 link: course-subjects/early-years
 brand: CC
 background-image: /images/area-banners/childrens-workforce-desktop.jpg
+campuscodes: A, C, D, S
 schema: https://schema.org/course
+
+staff-name: Staff Member
+staff-role: Staff posistion - Staff Department
+staff-photo: http://placehold.it/370x370
+staff-text: Lorem ipsum dolor sit amet, has ad partem pertinacia, no iriure facilisis vis, in sed quot utinam. No essent maiorum               ius. Oportere omittantur intellegebat in sea. Et latine commune mei, ex soluta persius eam, oporteat adolescens                     sententiae in ius. Cetero maiorum ei qui, cu sit quem mediocritatem.
+
+alumni-name: Katie-Jane Goodman
+alumni-role: Primary Teacher at St Stephens Academy
+alumni-photo: alumni/education/katie-jane-goodman.jpg
+alumni-text: I read about the College's reputation on its website and was very happy woth my findings. The tutors were very                      supportive and friendly, and the whole college seemed to have a friendly orientated feel about it
 ---
 
 {% include /career/career-header.html %}            
@@ -31,15 +42,15 @@ schema: https://schema.org/course
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html image='http://placehold.it/370x370' name='Staff Member' role="Staff posistion - Staff Department" about="Lorem ipsum dolor sit amet, has ad partem pertinacia, no iriure facilisis vis, in sed quot utinam. No essent maiorum ius. Oportere omittantur intellegebat in sea. Et latine commune mei, ex soluta persius eam, oporteat adolescens sententiae in ius. Cetero maiorum ei qui, cu sit quem mediocritatem." %}
+{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/education/katie-jane-goodman.jpg" studentName1='Katie-Jane Goodman' studentRole1="" studentQuote1="I'd read about the College's reputation on its website and was very happy woth my findings. The tutors were very supportive and friendly, and the whole college seemed to have a friendly orientated feel about it" studentImage2="/images/alumni/education/childrens-workforce-matthew-white.jpg" studentName2='Matthew White' studentRole2='role' studentQuote2="Matthew is passionate about helping children to have the best start in life. He worked in the Flying Start nursery at Stoke Climsland whilst completing his Foundation Degree in Children & Young People's Workforce." studentImage3='http://placehold.it/370x370' studentName3='Jake Sandercock' studentRole3='' studentQuote3="Duchy College had loads of positive reviews for the Children's Care Learning & Development National Diploma and the tutors are absolutely amazing, really helpful and positive. We learn about child development, nutritional needs, their well-being and safeguarding, and two days a week we get to go into placement that's a really positive experience. When I finish I'd like to be a primary school assistant preferably with Year 2 children." %}
+{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Tom Douglas' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2="/images/alumni/education/childrens-workforce-matthew-white.jpg" studentName2='Matthew White' studentRole2='Student Role' studentQuote2="Matthew is passionate about helping children to have the best start in life. He worked in the Flying Start nursery at Stoke Climsland whilst completing his Foundation Degree in Children & Young People's Workforce." studentImage3='http://placehold.it/370x370' studentName3='Jake Sandercock' studentRole3='' studentQuote3="Duchy College had loads of positive reviews for the Children's Care Learning & Development National Diploma and the tutors are absolutely amazing, really helpful and positive. We learn about child development, nutritional needs, their well-being and safeguarding, and two days a week we get to go into placement that's a really positive experience. When I finish I'd like to be a primary school assistant preferably with Year 2 children." %}
 
 {% include /career/career-stats.html percent1=100 end1='of our childcare students say that their lecturers are constantly challenging them to do their best.' %}
 
 {% include /career/key-stats.html stat1='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/nas-apprenticeships.html sectors='Health, Public Services and Care' %}
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
