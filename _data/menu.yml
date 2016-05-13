@@ -2,40 +2,67 @@
   menu-link: location-hub/
   sub-menu: 
     - sub-menu-name: Bicton 
-      sub-menu-link: bicton-campus.html
+      sub-menu-link: location-pages/bicton-campus.html
       
     - sub-menu-name: dBs Bristol        
-      sub-menu-link: bristol-campus.html
+      sub-menu-link: location-pages/bristol-campus.html
       
     - sub-menu-name: Camborne
-      sub-menu-link: camborne-campus.html
+      sub-menu-link: location-pages/camborne-campus.html
     
     - sub-menu-name: Eden Project
-      sub-menu-link: eden-campus.html
+      sub-menu-link: location-pages/eden-campus.html
 
     - sub-menu-name: Falmouth
-      sub-menu-link: falmouth-campus.html
+      sub-menu-link: location-pages/falmouth-campus.html
       
     - sub-menu-name: Newquay
-      sub-menu-link: newquay-campus.html
+      sub-menu-link: location-pages/newquay-campus.html
       
     - sub-menu-name: Rosewarne
-      sub-menu-link: rosewarne-campus.html
+      sub-menu-link: location-pages/rosewarne-campus.html
       
     - sub-menu-name: Saltash
-      sub-menu-link: saltash-campus.html      
+      sub-menu-link: location-pages/saltash-campus.html      
     
     - sub-menu-name: St Austell
-      sub-menu-link: st-austell-campus.html
+      sub-menu-link: location-pages/st-austell-campus.html
       
     - sub-menu-name: Stoke Climsland
-      sub-menu-link: stoke-campus.html      
+      sub-menu-link: location-pages/stoke-campus.html      
       
     - sub-menu-name: Sisna Park Plymouth
-      sub-menu-link: sisna-park-campus.html
+      sub-menu-link: location-pages/sisna-park-campus.html
       
 - menu-name: What you study
-  menu-link: learning-area-hub/    
+  menu-link: learning-area-hub/ 
+  sub-menu: 
   
 - menu-name: Your next step
-  menu-link: learning-area-hub/   
+  menu-link: learning-area-hub/
+  sub-menu: 
+      - sub-menu-name: 16-18  
+        sub-menu-link: 16-18-hub/
+        
+      - sub-menu-name: University
+        sub-menu-link: university-hub/
+        
+      - sub-menu-name: 19+
+        sub-menu-link: sector-hub
+        
+      - sub-menu-name: Leisure Courses
+        sub-menu-link: leisure-hub/
+        
+      - sub-menu-name: Apprenticeships
+        sub-menu-link: apprenticeships-hub/
+        
+      - sub-menu-name: Business Training
+        sub-menu-link: http://www.ccbtraining.co.uk
+        
+- menu-name: About Us
+  menu-link: about-hub/ 
+  sub-menu: 
+  
+- menu-name: Support
+  menu-link: support-hub/ 
+  sub-menu:  
