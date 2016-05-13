@@ -1,0 +1,41 @@
+- menu-name: Where you study
+  menu-link: location-hub/
+  sub-menu: 
+    - sub-menu-name: Bicton 
+      sub-menu-link: bicton-campus.html
+      
+    - sub-menu-name: dBs Bristol        
+      sub-menu-link: bristol-campus.html
+      
+    - sub-menu-name: Camborne
+      sub-menu-link: camborne-campus.html
+    
+    - sub-menu-name: Eden Project
+      sub-menu-link: eden-campus.html
+
+    - sub-menu-name: Falmouth
+      sub-menu-link: falmouth-campus.html
+      
+    - sub-menu-name: Newquay
+      sub-menu-link: newquay-campus.html
+      
+    - sub-menu-name: Rosewarne
+      sub-menu-link: rosewarne-campus.html
+      
+    - sub-menu-name: Saltash
+      sub-menu-link: saltash-campus.html      
+    
+    - sub-menu-name: St Austell
+      sub-menu-link: st-austell-campus.html
+      
+    - sub-menu-name: Stoke Climsland
+      sub-menu-link: stoke-campus.html      
+      
+    - sub-menu-name: Sisna Park Plymouth
+      sub-menu-link: sisna-park-campus.html
+      
+- menu-name: What you study
+  menu-link: learning-area-hub/    
+  
+- menu-name: Your next step
+  menu-link: learning-area-hub/   
