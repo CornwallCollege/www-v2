@@ -850,3 +850,10 @@ $( document ).ready( function() {
 
 */
 });
+
+// Ajax menu into #main-menu
+$(document).ready(function(){
+    
+        $("#main-menu").load("/global-menu.html");
+    
+});
