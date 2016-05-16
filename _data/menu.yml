@@ -61,8 +61,51 @@
         
 - menu-name: About Us
   menu-link: about-hub/ 
-  sub-menu: 
+  sub-menu:
+      - sub-menu-name: College Governance 
+        sub-menu-link: https://network.cornwall.ac.uk/governance  
+        
+      - sub-menu-name: Our Campuses
+        sub-menu-link: location-hub/
+        
+      - sub-menu-name: Downloads & Documents
+        sub-menu-link: download-hub/  
+        
+      - sub-menu-name: Open to the Public
+        sub-menu-link: https://open-for-business.cornwall.ac.uk    
+        
+      - sub-menu-name: Work for us
+        sub-menu-link: https://www.networxrecruitment.com/website/jobseekers 
+        
+      - sub-menu-name: News & Media Centre
+        sub-menu-link: https://network.cornwall.ac.uk/news   
+        
+      - sub-menu-name: College Events
+        sub-menu-link: https://network.cornwall.ac.uk/events/whats-on     
   
 - menu-name: Support
   menu-link: support-hub/ 
-  sub-menu:  
+  sub-menu:
+      - sub-menu-name: Student Services
+        sub-menu-link: student-services.html
+        
+      - sub-menu-name: learning Services
+        sub-menu-link: learning-services.html  
+        
+      - sub-menu-name: Transport
+        sub-menu-link: transport.html  
+        
+      - sub-menu-name: Accommodation
+        sub-menu-link: accommodation.html     
+        
+      - sub-menu-name: Information for Parents
+        sub-menu-link: parents-information.html   
+        
+      - sub-menu-name: CCSU
+        sub-menu-link: ccsu.html   
+        
+      - sub-menu-name: Employability
+        sub-menu-link: employability.html  
+        
+      - sub-menu-name: Local Office
+        sub-menu-link: local-office.html         
