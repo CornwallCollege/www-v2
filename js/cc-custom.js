@@ -371,27 +371,100 @@ function incrementCount(counter) {
 
 // SOCIALFEED init
 $(document).ready(function () {
-    $('.social-feed-ccg-group').socialfeed({
+    $( "#whats-on-group" ).click(function() {
+        $('.social-feed-ccg-group').socialfeed({
 
-        // FACEBOOK
-        facebook: {
-            accounts: ['@369758859743435'], //Array: Specify a list of accounts from which to pull wall posts
-            limit: 5, //Integer: max number of posts to load
-            access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-        },
-        
-        // TWITTER
-        twitter:{
-            accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
-            limit: 5,                                   //Integer: max number of tweets to load
-            consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-            consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-        },
+            // FACEBOOK
+            facebook: {
+                accounts: ['@369758859743435'], //Array: Specify a list of accounts from which to pull wall posts
+                limit: 5, //Integer: max number of posts to load
+                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+            },
 
-        // GENERAL SETTINGS
-        show_media: true,
-        length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-    });
+            // TWITTER
+            twitter:{
+                accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
+                limit: 5,                                   //Integer: max number of tweets to load
+                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+            },
+
+            // GENERAL SETTINGS
+            show_media: true,
+            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+        });
+    }); 
+    
+    $( "#whats-on-duchy" ).click(function() {
+        $('.social-feed-duchy').socialfeed({
+
+            // FACEBOOK
+            facebook: {
+                accounts: ['@319289784804400'], //Array: Specify a list of accounts from which to pull wall posts
+                limit: 5, //Integer: max number of posts to load
+                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+            },
+
+            // TWITTER
+            twitter:{
+                accounts: ['@DuchyCollege'],                      //Array: Specify a list of accounts from which to pull tweets
+                limit: 5,                                   //Integer: max number of tweets to load
+                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+            },
+
+            // GENERAL SETTINGS
+            show_media: true,
+            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+        });
+    });   
+    $( "#whats-on-falmouth" ).click(function() {
+        $('.social-feed-falmouth').socialfeed({
+
+            // FACEBOOK
+            facebook: {
+                accounts: ['@130954653707151'], //Array: Specify a list of accounts from which to pull wall posts
+                limit: 5, //Integer: max number of posts to load
+                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+            },
+
+            // TWITTER
+            twitter:{
+                accounts: ['@marineschool'],                      //Array: Specify a list of accounts from which to pull tweets
+                limit: 5,                                   //Integer: max number of tweets to load
+                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+            },
+
+            // GENERAL SETTINGS
+            show_media: true,
+            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+        });
+    });  
+    $( "#whats-on-bicton" ).click(function() {
+        $('.social-feed-bicton').socialfeed({
+
+            // FACEBOOK
+            facebook: {
+                accounts: ['@196919697022651'], //Array: Specify a list of accounts from which to pull wall posts
+                limit: 5, //Integer: max number of posts to load
+                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+            },
+
+            // TWITTER
+            twitter:{
+                accounts: ['@bictoncollege'],                      //Array: Specify a list of accounts from which to pull tweets
+                limit: 5,                                   //Integer: max number of tweets to load
+                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+            },
+
+            // GENERAL SETTINGS
+            show_media: true,
+            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+        });
+    });     
+    
 });
 
 //Campus Google Map script
