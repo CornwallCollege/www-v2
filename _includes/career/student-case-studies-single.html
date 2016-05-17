@@ -1,23 +1,17 @@
 <section class="col-xs-12 main-section-padding main-section-margins team-founder light-bg" style="padding-top:50px;">
-    <section class="col-md-12 main-section-margins intro">
-        <article class="col-sm-12 text-center">
-            <h2>MEET OUR <strong>STAFF</strong></h2>
-        </article>
-    </section>
-
     <article class="container">
         <section class="col-sm-6 col-md-5 col-lg-5 col-lg-offset-1 box-padding">
-            <h4 class="text-uppercase"><span itemprop="employee">{{page.staff-name}}</span></h4>
-            <span>{{page.staff-role}}</span>
+            <h4 class="text-uppercase"><span itemprop="employee">{{include.studentName}}</span></h4>
+            <span>{{include.studentRole}}</span>
 
             <footer>
-                <p>{{page.staff-text}}</p>
+                <p>{{include.studentQuote}}</p>
             </footer>
             
         </section>
         <!-- TEAM FOUNDER PICTURE -->
         <figure class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-1">
-            <img src="{{page.staff-photo}}" class="img-responsive" alt="team pic">
+            <img src="{{include.studentImage}}" class="img-responsive" alt="team pic">
         </figure>
     </article>
 </section>

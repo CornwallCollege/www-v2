@@ -7,6 +7,31 @@ link: course-subjects/levels
 brand: CC
 campuscodes: A
 schema: https://schema.org/course
+
+staff-name:
+staff-role:
+staff-photo:
+staff-text:
+
+alumni-name: Laura Wall
+alumni-role: Artist, Illustrator and winner of Britains best up and coming artist
+alumni-photo: alumni/a-levels/laura-wall.jpg
+alumni-text: I chose to study A-levels at Cornwall College because I felt it had a more grown up feeling than some schools I had                visited and I wanted to be considered and adult.
+
+student-name1: Gemma Wright
+student-role1: role
+student-photo1: 'http://placehold.it/370x370'
+student-text1: quote
+
+student-name2: Adam Marks
+student-role2: role
+student-photo2: 'http://placehold.it/370x370'
+student-text2: quote
+
+student-name3: Lizzie Wright
+student-role3: 
+student-photo3: 'http://placehold.it/370x370'
+student-text3:
 ---
 
 {% include /career/career-header.html title='A-Levels' %} 
@@ -15,15 +40,14 @@ schema: https://schema.org/course
 
 <section class="container">{% youtube https://youtu.be/8ydETK6g1Lo %}</section>
 
+    <!-- work process SECTION
+    ====================================================================== -->
 
-        <!-- work process SECTION
-        ====================================================================== -->
-
-        <section class="col-md-12 main-section-margins">
+    <section class="col-md-12 main-section-margins">
         <article class="col-sm-12 text-center intro">
-                <h2>CHECKOUT OUR <strong>SUBJECTS</strong></h2>
+            <h2>CHECKOUT OUR <strong>SUBJECTS</strong></h2>
         </article>
-          <section class="container blocks">
+        <section class="container blocks">
 {% include /career/a-level-subjects.html a-level='APPLIED SCIENCE' a-level-summery='Applied science is a highly vocational course. You’ll get to apply an investigative and problem solving approach that reflects contemporary workplace practice and build a portfolio of coursework.' %}
 
 {% include /career/a-level-subjects.html align='right' a-level='ART & DESIGN (FINE ART)' a-level-summery='This course can cover everything from prehistoric cave painting through to renaissance altar pieces. You will use traditional materials as well as investigate materials not usually associated with art.' %}
@@ -75,21 +99,24 @@ schema: https://schema.org/course
 {% include /career/a-level-subjects.html a-level='PSYCHOLOGY' a-level-summery='The focus of sociology is people in society. You will examine research which has been carried out by sociologists and others into human behaviour in groups. ' %}
 
 {% include /career/a-level-subjects.html align='right' a-level='SPANISH' a-level-summery='Practise listening, reading, speaking and writing and develop these skills to an advanced level. In addition to language content, you will also study different topic areas and foreign language films. ' %}
-            </section>
         </section>
-        <!-- WORK PROCESS END -->
+    </section>
+    <!-- WORK PROCESS END -->
 
-{% include /career/student-case-studies.html studentImage1="/images/alumni/ben-white-a-levels.jpg" studentName1='Benjamin White' studentRole1='Maths Teacher - Magdalen College School' studentQuote1="After leaving Cornwall College Ben went on to read mathematics at Oxford, where he obtained a First in his degree. He went straight into a job, teaching maths at one of the countries leading schools (Magdalen College School, Oxford)." studentImage2="/images/alumni/laura-wall-a-levels.jpg" studentName2='Laura Wall' studentRole2='role' studentQuote2="I chose to study A-levels at Cornwall College because I felt it had a more grown up feeling than some schools I had visited and I wanted to be considered as an adult." studentImage3='http://placehold.it/370x370' studentName3='Gemma Wright' studentRole3='' studentQuote3="I have really enjoyed my time studying English Literature, Psychology, Communication and Culture as well as a Subsidary Diploma in Musical Theatre. The teachers value each student and I have benefited greatly from their support. My highlight has been performing at Winter Lights with my musical theatre class. After A-levels I hope to study a degree that encompasses elements of all the social sciences." %}
+{% include /career/student-case-studies.html%}
 
 {% include /career/career-apply-bar-first.html %}
 
 {% include /career/career-stats.html percent1=98 end1='of lectures know the subject well' begin2='Pass Rate' percent2=99.2 %}
 
+{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
-            <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
+        <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
     </section> 
 </section>
+
 {% include /career/campus-locations.html %}
 
 {% include /career/career-courses.html courseTitle1='Dental Nursing CG Diploma Level 3' infoLink1='?courses=fdsc-food-studies' courseTitle2='Nursing, Health and Social Care AptEd Access to HE Diploma Level 3 (E)' infoLink2='?courses=fdsc-food-studies' courseTitle3='FdSc Healthcare Practice' infoLink3='?courses=fdsc-food-studies' courseTitle4='Health and Social Care/Social Science and Mental Health AptEd Access to HE Diploma Level 3 (E)' infoLink4='?courses=fdsc-food-studies' courseTitle5='Health and Social Care EDEXCEL Extended Diploma Level 3' infoLink5='?courses=fdsc-food-studies' %}  

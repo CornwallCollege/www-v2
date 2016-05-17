@@ -18,6 +18,21 @@ alumni-name: Martin Cowling
 alumni-role: assistant theatre practitioner
 alumni-photo: alumni/health-wellbeing/social-care/martin-cowling.jpg
 alumni-text: The FdSc Healthcare Practice has provided me with not only the academic background surrounding patient care but also                the confidence to put it all into practice.
+
+student-name1: Name
+student-role1:
+student-photo1: http://placehold.it/370x370
+student-text1: Quote
+
+student-name2:
+student-role2:
+student-photo2:
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
 ---
 
 {% include /career/career-header.html %}
@@ -44,16 +59,15 @@ alumni-text: The FdSc Healthcare Practice has provided me with not only the acad
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+{% include /career/staff-profile.html %}
 
-{% include /career/student-case-studies.html
-studentImage1='http://placehold.it/370x370' studentName1='Student Name' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2="Student Role" studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3="Student Role" studentQuote3="Student Quote" %}
+{% include /career/student-case-studies.html %}
 
 {% include /career/career-stats.html percent1=100 end1='of our BTEC Extended Diploma in Health & Social Care students are happy with their course and with the college.' %}
 
 {% include /career/key-stats.html stat1="The NHS is the world's fifth largest employer" stat2='a dental nurse can earn from £19k a year' stat3='an adult nurse can earn from £21,692 per year' stat4='healthcare is a leading employer in the southwest'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+{% include /career/career-alumni.html %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

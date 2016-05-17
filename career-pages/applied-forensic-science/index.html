@@ -14,10 +14,25 @@ staff-role: Director - Science &amp; Natural Environment
 staff-photo: /images/staff/mark-nason.jpg
 staff-text: Mark is new to The Cornwall College Group, and comes from a broad scientific background, working at both colleges and               universities, as technician, researcher and teacher, before settling in his role in Cornwall. His doctorate is                     conservationbased, exploring the restoration of habitats in slate quarry sites in Snowdonia and he is passionate about             soil!
 
-alumni-name:
-alumni-role:
+alumni-name: Marie Jewell
+alumni-role: Cornwall College
 alumni-photo:
 alumni-text:
+
+student-name1: Name
+student-role1: Role
+student-photo1: http://placehold.it/370x370
+student-text1: Text
+
+student-name2:
+student-role2:
+student-photo2:
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
 ---
 
 {% include /career/career-header.html %}            
@@ -36,15 +51,15 @@ alumni-text:
 
 {% include /career/career-examples-foot.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+{% include /career/staff-profile.html %}
 
-{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Name' studentRole1='role' studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Name' studentRole2='role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Name' studentRole3='role' studentQuote3="Student Quote" %}
+{% include /career/student-case-studies.html %}
     
 {% include /career/career-stats.html percent1=95 end1='of our science mathematics students say they are given useful feedback which helps them to improve.' %}
 
 {% include /career/key-stats.html stat1='A research scientist in industry could earn from £23k to £42k per year' stat2='The chemicals industry in the UK supports over 6 million jobs' stat3='The UK is one of the world’s top global producers of chemicals and pharmaceuticals' stat4='The starting salary for a forensics scientist is £20k with senior roles earning £45k'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+{% include /career/career-alumni.html %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

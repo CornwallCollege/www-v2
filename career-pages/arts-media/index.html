@@ -18,6 +18,21 @@ alumni-name: Tobey Louise Brown
 alumni-role: product graphic designer - lego
 alumni-photo: alumni/cultral-visitor/arts-media/tobey-louise-brown.jpg
 alumni-text: My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independant              in my learning and I could tailor my projects to my design interests.
+
+student-name1: Name
+student-role1: Role
+student-photo1: http://placehold.it/370x370
+student-text1: Text
+
+student-name2:
+student-role2:
+student-photo2:
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
 ---
 
 {% include /career/career-header.html %}
@@ -44,15 +59,15 @@ alumni-text: My tutors ar Cornwall College were very knowledgeable, supportive a
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+{% include /career/staff-profile.html %}
 
-{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Student Name' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2='http://placehold.it/370x370' studentName2='Student Name' studentRole2='Student Role' studentQuote2="Student Quote" studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3='Student Role' studentQuote3="Student Quote" %}
+{% include /career/student-case-studies.html %}
 
 {% include /career/career-stats.html percent1=100 end1='of our arts and media students say that lecturers know their subject well.' begin2='Our creative arts & design courses have a' percent2=90.5 end2='success rate.' %}
 
 {% include /career/key-stats.html stat1='photographers earn on average £21k+' stat2='the uk has the second largest design sector in the world' stat3='uk games designers on average earn £40k+' stat4='over 500 journalists now working in the uk trained at cornwall college'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+{% include /career/career-alumni.html %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
