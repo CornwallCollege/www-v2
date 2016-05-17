@@ -370,10 +370,17 @@ $(document).ready(function () {
         // FACEBOOK
         facebook: {
             accounts: ['@369758859743435'], //Array: Specify a list of accounts from which to pull wall posts
-            limit: 10, //Integer: max number of posts to load
+            limit: 5, //Integer: max number of posts to load
             access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
         },
-
+        
+        // TWITTER
+        twitter:{
+            accounts: ['@Cornwall College'],                      //Array: Specify a list of accounts from which to pull tweets
+            limit: 5,                                   //Integer: max number of tweets to load
+            consumer_key: 'sqrEDPowiJMIIAiAEEk3A',          //String: consumer key. make sure to have your app read-only
+            consumer_secret: '5uECfLUn6Fu7C9TOef7ufg4IkXI9JGOoLxF1Z3BlE',//String: consumer secret key. make sure to have your app read-only
+        },
 
         // GENERAL SETTINGS
         show_media: true,
