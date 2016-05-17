@@ -371,7 +371,7 @@ function incrementCount(counter) {
 
 // SOCIALFEED init
 $(document).ready(function () {
-    $('.social-feed-container').socialfeed({
+    $('.social-feed-ccg-group').socialfeed({
 
         // FACEBOOK
         facebook: {
