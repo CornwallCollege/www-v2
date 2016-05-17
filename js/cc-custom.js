@@ -382,7 +382,7 @@ $(document).ready(function () {
         
         // TWITTER
         twitter:{
-            accounts: ['@Cornwall College'],                      //Array: Specify a list of accounts from which to pull tweets
+            accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
             limit: 5,                                   //Integer: max number of tweets to load
             consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
             consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
