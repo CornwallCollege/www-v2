@@ -18,6 +18,21 @@ alumni-name: Alice Collard
 alumni-role: Owner of Collard Plumbing &amp; Heating
 alumni-photo: alumni/technology/alice-collard.jpg
 alumni-text: I went straight to college and choose to study plumbing because I wanted a good trade.
+
+student-name1: Vincent Chan Ka Nam
+student-role1:
+student-photo1: http://placehold.it/370x370
+student-text1: Student Text
+
+student-name2: Kyle Friendship
+student-role2: Roofing Apprentice
+student-photo2: /images/students/technology/kyle-friendship.jpg
+student-text2: Kyle is currently the best young roofer in the UK after securing Gold at the WorldSkills UK final at the NEC. Kyle                  is the third roofing student from Cornwall College to take the title.
+
+student-name3: Alex Sillifant
+student-role3:
+student-photo3: /images/students/technology/alex-sillifant.jpg
+student-text3: Duchy College gave me the skills and experience I needed for this industry and I'm definitely glad that I studied                  there.
 ---
 
 {% include /career/career-header.html %} 
@@ -84,15 +99,15 @@ alumni-text: I went straight to college and choose to study plumbing because I w
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+{% include /career/staff-profile.html %}
 
-{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Vincent Chan Ka Nam' studentRole1="Student Role" studentQuote1="Student Quote" studentImage2="/images/students/technology/kyle-friendship.jpg" studentName2='Kyle Friendship' studentRole2='Roofing Apprentice' studentQuote2="Kyle is currently the best young roofer in the UK after securing Gold at the WorldSkills UK final at the NEC. Kyle is the third roofing student from Cornwall College to take the title."  studentImage3="/images/students/technology/alex-sillifant.jpg" studentName3='Alex Sillifant' studentRole3='role' studentQuote3="Duchy College gave me the skills and experience I needed for this industry and I'm definitely glad that I studied there" %}
+{% include /career/student-case-studies.html %}
 
 {% include /career/career-stats.html percent1=100 end1='of our construction students say that the teaching on their course is good.' begin2='Our building &amp; construction courses have an' percent2=80.7 end2='success rate (higher than the national average).' %}
 
 {% include /career/key-stats.html stat1='In 2014 the construction industry in the UK contributed £103 billion' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+{% include /career/career-alumni.html %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

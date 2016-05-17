@@ -6,12 +6,23 @@
       <section class="container">
 
           <ul class="no-padding">
-            <!-- STUDENT 1 -->
-              {% include /career/student-case-studies-student.html studentImage=include.studentImage1 studentName=include.studentName1 studentRole=include.studentRole1 studentQuote=include.studentQuote1 %}
-            <!-- STUDENT 2 -->
-                {% include /career/student-case-studies-student.html studentImage=include.studentImage2 studentName=include.studentName2 studentRole=include.studentRole2 studentQuote=include.studentQuote2 %}
-            <!-- STUDENT 3 -->
-                {% include /career/student-case-studies-student.html studentImage=include.studentImage3 studentName=include.studentName3 studentRole=include.studentRole3 studentQuote=include.studentQuote3 %}
+            {% if page.student-name2 == null %}
+              <!-- STUDENT 1 -->
+                {% include /career/student-case-studies-single.html studentImage=page.student-photo1 studentName=page.student-name1 studentRole=page.student-role1 studentQuote=page.student-text1 %}
+              
+            {% elsif page.student-name3 == null %}
+              <!-- STUDENT 1 -->    
+                {% include /career/student-case-studies-double.html studentImage1=page.student-photo1 studentName1=page.student-name1 studentRole1=page.student-role1 studentQuote1=page.student-text1 studentImage2=page.student-photo2 studentName2=page.student-name2 studentRole2=page.student-role2 studentQuote2=page.student-text2 %}
+              
+            {% else %}
+              <!-- STUDENT 1 -->
+                {% include /career/student-case-studies-student.html studentImage=page.student-photo1 studentName=page.student-name1 studentRole=page.student-role1 studentQuote=page.student-text1 %}
+              <!-- STUDENT 2 -->
+                  {% include /career/student-case-studies-student.html studentImage=page.student-photo2 studentName=page.student-name2 studentRole=page.student-role2 studentQuote=page.student-text2 %}
+              <!-- STUDENT 3 -->
+                  {% include /career/student-case-studies-student.html studentImage=page.student-photo3 studentName=page.student-name3 studentRole=page.student-role3 studentQuote=page.student-text3 %}
+              
+            {% endif %}
           </ul>
 
       </section>

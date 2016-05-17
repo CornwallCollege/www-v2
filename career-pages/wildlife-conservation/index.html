@@ -17,7 +17,22 @@ staff-text: Faye spent some time working as an aquarist at Southend Sea Life Cen
 alumni-name: Owen Taylor
 alumni-role: Head Keeper - Newquay Zoo
 alumni-photo: alumni/science-environment/owen-taylor-animal-science.jpg
-alumni-text: After a successful career Owen is now the Head Keeper at Newquay Zoo and has had numerous articles published
+alumni-text: After a successful career Owen is now the Head Keeper at Newquay Zoo and has had numerous articles published.
+
+student-name1: Alex Dyson
+student-role1:
+student-photo1: http://placehold.it/370x370
+student-text1:
+
+student-name2: Jessica Saracino
+student-role2:
+student-photo2: http://placehold.it/370x370
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
 ---
 
 {% include /career/career-header.html %} 
@@ -41,11 +56,9 @@ alumni-text: After a successful career Owen is now the Head Keeper at Newquay Zo
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+{% include /career/staff-profile.html %}
 
-{% include /career/student-case-studies.html studentImage1='http://placehold.it/370x370' studentName1='Alex Dyson' studentRole1="Student Role" studentQuote1="Student Quote"
-studentImage2='http://placehold.it/370x370' studentName2='Jessica Saracino' studentRole2="Student Role" studentQuote2="Student Quote"
-studentImage3='http://placehold.it/370x370' studentName3='Student Name' studentRole3="Student Role" studentQuote3="Student Quote" %}
+{% include /career/student-case-studies.html %}
     
 {% include /career/career-stats.html percent1=100 end1='of Cornwall College Newquay students say that teaching on their course is good.' %}
 
