@@ -35,8 +35,8 @@
   intro: If you have attention to detail and like working with numbers, a career in the financial sector could be very rewarding. 
   
 - cluster: Business & Professional
-  subcluster: Business, Law & Administration
-  university-faculty: Business, Law & Administration
+  subcluster: Business School
+  university-faculty: Business School
   he-image: 
   icon: fa-gavel
   campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
@@ -57,7 +57,7 @@
   brand: cc dc bc
   level: 2 3 4 5 6
   sector: 16-18 19+ apprenticeships university
-  search-link: business-law-medical-administration  
+  search-link: business-school  
   intro: Having a good head for business could mean you have skills such as creativity, good communication, insight into trends and understanding of finance and people.  
   
 - cluster: Business & Professional
@@ -123,8 +123,31 @@
   intro: Whether it's your passion to perform or create beautiful things for the world to enjoy, a career in the arts offers you an amazing variety or opportunities.
   
 - cluster: Cultural & Visitor Economy
-  subcluster: Catering & Hospitality
-  university-faculty: Hospitality & Tourism
+  subcluster: Catering & Academy Nathan Outlaw
+  level: 1 2 4 5 6
+  colour: D0D102  
+  brand: cc
+  sector: 16-18 19+ apprenticeships university
+  campus: camborne-campus st-austell-campus saltash-campus eden-campus
+  campus-long:
+    - campus-name: Camborne Campus
+      campus-link: /camborne-campus.html  
+      
+    - campus-name: St Austell Campus
+      campus-link: /st-austell-campus.html
+      
+    - campus-name: Saltash Campus
+      campus-link: /saltash-campus.html  
+      
+    - campus-name: Eden Campus
+      campus-link: /eden-campus.html        
+
+  search-link: catering-academy-nathan-outlaw
+  intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries. 
+  
+  - cluster: Cultural & Visitor Economy
+  subcluster: Hospitality & Front of House
+  university-faculty: Hospitality & Front of House
   he-image: catering-hospitality.jpg
   icon: fa-cutlery
   level: 1 2 4 5 6
@@ -145,7 +168,7 @@
     - campus-name: Eden Campus
       campus-link: /eden-campus.html        
 
-  search-link: catering-hospitality 
+  search-link: hospitality-front-house
   intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries. 
   
   
@@ -191,13 +214,13 @@
   
 #Education 01A4A4
 - cluster: Education
-  subcluster: The School of Education & Professional Development
+  subcluster: Teaching & Education
   he-image: school-of-education-professional-development.jpg
   icon: fa-graduation-cap
   level: 1 2 3 4 5 6
   colour: 01A4A4  
   brand: cc 
-  sector: 16-18 19+ university
+  sector: 16-18 19+ university apprenticeships
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -209,7 +232,7 @@
     - campus-name: Saltash Campus
       campus-link: /saltash-campus.html    
   
-  search-link: school-of-education-professional-development
+  search-link: teaching-education
   intro: Inspiring others to achieve their potential is a great vocation, to be able to capture imagination, build and develop ideas and motivate a generation to become more than they thought possible requires knowledge, patience, good communication skills and a sense of humour.
   
 - cluster: Education
@@ -528,11 +551,11 @@
   intro: If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world carrying out repairs and maintenance, re-fits, conversions and building from scratch.
   
 - cluster: Technology
-  subcluster: Construction Trades
+  subcluster: Construction
   level: 1 2 3
   colour: 00A1CB
-  brand:  bic cc
-  sector: 16-18 19+ apprenticeships 
+  brand:  bic cc dc
+  sector: 16-18 19+ apprenticeships university
   campus: bicton-campus camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -547,7 +570,7 @@
     - campus-name: Saltash Campus
       campus-link: /saltash-campus.html        
     
-  search-link: construction-trades
+  search-link: construction
   intro: From laying foundations to tiling the roof and everything in between, we offer practical skills training in all construction trades. If you like working outdoors, using your hands and experiencing different environments, the construction industry is waiting for you.
 
 - cluster: Technology

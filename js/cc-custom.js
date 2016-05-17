@@ -1,3 +1,9 @@
+// Ajax menu into #main-menu
+$(document).ready(function(){ 
+        $("#main-menu").load("/global-menu.html");
+        $("#footer").load("/global-footer.html");
+});
+
 /* SWIPER options (home page)*/
 $(function () {
     if (location.pathname === "/") {
@@ -851,9 +857,4 @@ $( document ).ready( function() {
 */
 });
 
-// Ajax menu into #main-menu
-$(document).ready(function(){
-    
-        $("#main-menu").load("/global-menu.html");
-    
-});
+
