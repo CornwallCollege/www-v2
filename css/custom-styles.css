@@ -3457,6 +3457,16 @@ video {
     text-transform:none;
     white-space: normal;
 }
+.feed-image{
+    overflow: hidden;
+    max-height: 300px;
+}
+.feed-image img{
+    width:100%;
+}
+.blog-post-list img {
+    max-height: none; 
+}
 .blog-post-list div{
     background: rgba(255, 255, 255, 0);
 }

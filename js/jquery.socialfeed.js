@@ -15,13 +15,14 @@ if (typeof Object.create !== 'function') {
             template: 'template.html', // a path to the template file
             show_media: false, // show images of attachments if available
             media_min_width: 300,
-            length: 500 // maximum length of post message shown
+            length: 500, // maximum length of post message shown
+            date_format: 'll'
         };
         //---------------------------------------------------------------------------------
         var options = $.extend(defaults, _options),
             container = $(this),
             template,
-            social_networks = ['facebook', 'instagram', 'vk', 'google', 'blogspot', 'twitter'],
+            social_networks = ['facebook', 'instagram', 'vk', 'google', 'blogspot', 'twitter', 'pinterest', 'rss'],
             posts_to_load_count = 0,
             loaded_post_count = 0;
         // container.empty().css('display', 'block');
@@ -39,7 +40,7 @@ if (typeof Object.create !== 'function') {
                     }
                 }
             });
-        };
+        }
 
         calculatePostsToLoadCount();
 
@@ -101,6 +102,7 @@ if (typeof Object.create !== 'function') {
             this.content.social_network = social_network;
             this.content.attachment = (this.content.attachment === undefined) ? '' : this.content.attachment;
             this.content.time_ago = data.dt_create.fromNow();
+            this.content.date = data.dt_create.format(options.date_format);
             this.content.dt_create = this.content.dt_create.valueOf();
             this.content.text = Utility.wrapLinks(Utility.shorten(data.message + ' ' + data.description), data.social_network);
             this.content.moderation_passed = (options.moderation) ? options.moderation(this.content) : true;
@@ -179,11 +181,19 @@ if (typeof Object.create !== 'function') {
                 Feed.getTemplate(function() {
                     social_networks.forEach(function(network) {
                         if (options[network]) {
-                            //loaded[network] = 0;
-                            options[network].accounts.forEach(function(account) {
-                                //loaded[network]++;
-                                Feed[network].getData(account);
-                            });
+                            if ( options[network].accounts ) {
+                                //loaded[network] = 0;
+                                options[network].accounts.forEach(function(account) {
+                                    //loaded[network]++;
+                                    Feed[network].getData(account);
+                                });
+                            } else if ( options[network].urls ) {
+                                options[network].urls.forEach(function(url) {
+                                    Feed[network].getData(url);
+                                });
+                            } else {
+                                Feed[network].getData();
+                            }
                         }
                     });
                 });
@@ -270,13 +280,13 @@ if (typeof Object.create !== 'function') {
                                 if (element.entities.media && element.entities.media.length > 0) {
                                     var image_url = element.entities.media[0].media_url;
                                     if (image_url) {
-                                        post.attachment = '' + image_url + '';
+                                        post.attachment = '<img class="attachment" src="' + image_url + '" />';
                                     }
                                 }
                             }
                         }
                         return post;
-                    },
+                    }
                 }
             },
             facebook: {
@@ -286,9 +296,9 @@ if (typeof Object.create !== 'function') {
                 getData: function(account) {
                     var proceed = function(request_url){
                         Utility.request(request_url, Feed.facebook.utility.getPosts);
-                    }
+                    };
                     var fields = '?fields=id,from,name,message,created_time,story,description,link';
-                    	fields += (options.show_media === true)?',picture,object_id':'';
+                       fields += (options.show_media === true)?',picture,object_id':'';
                     var request_url, limit = '&limit=' + options.facebook.limit,
                         query_extention = '&access_token=' + options.facebook.access_token + '&callback=?';
                     switch (account[0]) {
@@ -330,7 +340,7 @@ if (typeof Object.create !== 'function') {
                         } else if (element.object_id) {
                             image_url = Feed.facebook.graph + element.object_id + '/picture/?type=normal';
                         }
-                        return image_url;
+                        return '<img class="attachment" src="' + image_url + '" />';
                     },
                     getExternalImageURL: function(image_url, parameter) {
                         image_url = decodeURIComponent(image_url).split(parameter + '=')[1];
@@ -445,23 +455,40 @@ if (typeof Object.create !== 'function') {
                 posts: [],
                 api: 'https://api.instagram.com/v1/',
                 loaded: false,
+                accessType: function() {
+                    // If we have both the client_id and access_token set in options,
+                    // use access_token for authentication. If client_id is not set
+                    // then use access_token. If neither are set, log an error to console.
+                    if (typeof options.instagram.access_token === 'undefined' && typeof options.instagram.client_id === 'undefined') {
+                        console.log('You need to define a client_id or access_token to authenticate with Instagram\'s API.');
+                        return undefined;
+                    }
+                    if (options.instagram.access_token) { options.instagram.client_id = undefined; }
+                    options.instagram.access_type = (typeof options.instagram.client_id === 'undefined' ? 'access_token' : 'client_id');
+                    return options.instagram.access_type;
+                },
                 getData: function(account) {
                     var url;
+
+                    // API endpoint URL depends on which authentication type we're using.
+                    if (this.accessType() !== 'undefined') {
+                        var authTokenParams = options.instagram.access_type + '=' + options.instagram[options.instagram.access_type];
+                    }
 
                     switch (account[0]) {
                         case '@':
                             var username = account.substr(1);
-                            url = Feed.instagram.api + 'users/search/?q=' + username + '&' + 'client_id=' + options.instagram.client_id + '&count=1' + '&callback=?';
+                            url = Feed.instagram.api + 'users/search/?q=' + username + '&' + authTokenParams + '&count=1' + '&callback=?';
                             Utility.request(url, Feed.instagram.utility.getUsers);
                             break;
                         case '#':
                             var hashtag = account.substr(1);
-                            url = Feed.instagram.api + 'tags/' + hashtag + '/media/recent/?' + 'client_id=' + options.instagram.client_id + '&' + 'count=' + options.instagram.limit + '&callback=?';
+                            url = Feed.instagram.api + 'tags/' + hashtag + '/media/recent/?' + authTokenParams + '&' + 'count=' + options.instagram.limit + '&callback=?';
                             Utility.request(url, Feed.instagram.utility.getImages);
                             break;
                         case '&':
                             var id = account.substr(1);
-                            url = Feed.instagram.api + 'users/' + id + '/?client_id=' + options.instagram.client_id + '&' + 'count=' + options.instagram.limit + '&callback=?';
+                            url = Feed.instagram.api + 'users/' + id + '/?' + authTokenParams + '&' + 'count=' + options.instagram.limit + '&callback=?';
                             Utility.request(url, Feed.instagram.utility.getUsers);
                         default:
                     }
@@ -476,9 +503,14 @@ if (typeof Object.create !== 'function') {
                         }
                     },
                     getUsers: function(json) {
+                        // API endpoint URL depends on which authentication type we're using.
+                        if (options.instagram.access_type !== 'undefined') {
+                            var authTokenParams = options.instagram.access_type + '=' + options.instagram[options.instagram.access_type];
+                        }
+
                         if (!jQuery.isArray(json.data)) json.data = [json.data]
                         json.data.forEach(function(user) {
-                            var url = Feed.instagram.api + 'users/' + user.id + '/media/recent/?' + 'client_id=' + options.instagram.client_id + '&' + 'count=' + options.instagram.limit + '&callback=?';
+                            var url = Feed.instagram.api + 'users/' + user.id + '/media/recent/?' + authTokenParams + '&' + 'count=' + options.instagram.limit + '&callback=?';
                             Utility.request(url, Feed.instagram.utility.getImages);
                         });
                     },
@@ -489,7 +521,7 @@ if (typeof Object.create !== 'function') {
                         post.dt_create = moment(element.created_time * 1000);
                         post.author_link = 'http://instagram.com/' + element.user.username;
                         post.author_picture = element.user.profile_picture;
-                        post.author_name = element.user.full_name;
+                        post.author_name = element.user.full_name || element.user.username;
                         post.message = (element.caption && element.caption) ? element.caption.text : '';
                         post.description = '';
                         post.link = element.link;
@@ -629,9 +661,99 @@ if (typeof Object.create !== 'function') {
                         });
                     }
                 }
+            },
+            pinterest: {
+                posts: [],
+                loaded: false,
+                apiv1: 'https://api.pinterest.com/v1/',
+
+                getData: function(account) {
+                    var request_url,
+                      limit = 'limit=' + options.pinterest.limit,
+                      fields = 'fields=id,created_at,link,note,creator(url,first_name,last_name,image),image',
+                      query_extention = fields + '&access_token=' + options.pinterest.access_token + '&' + limit + '&callback=?';
+                    switch (account[0]) {
+                        case '@':
+                            var username = account.substr(1);
+                            if (username === 'me') {
+                                request_url = Feed.pinterest.apiv1 + 'me/pins/?' + query_extention;
+                            } else {
+                                request_url = Feed.pinterest.apiv1 + 'boards/' + username + '/pins?' + query_extention;
+                            }
+                            break;
+                        default:
+                    }
+                    Utility.request(request_url, Feed.pinterest.utility.getPosts);
+                },
+                utility: {
+
+                    getPosts: function(json) {
+                        json.data.forEach(function(element) {
+                            var post = new SocialFeedPost('pinterest', Feed.pinterest.utility.unifyPostData(element));
+                            post.render();
+                        });
+                    },
+
+                    unifyPostData: function(element){
+                        var post = {};
+
+                        post.id = element.id;
+                        post.dt_create= moment(element.created_at);
+                        post.author_link = element.creator.url;
+                        post.author_picture = element.creator.image['60x60' ].url;
+                        post.author_name =  element.creator.first_name + element.creator.last_name;
+                        post.message = element.note;
+                        post.description = '';
+                        post.social_network = 'pinterest';
+                        post.link = element.link ? element.link : 'https://www.pinterest.com/pin/' + element.id;
+                        if (options.show_media) {
+                            post.attachment = '<img class="attachment" src="' + element.image['original'].url + '" />';
+                        }
+                        return post;
+                    }
+                }
+            },
+            rss : {
+                posts: [],
+                loaded: false,
+                api : 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0',
+
+                getData: function(url) {
+                    var limit = '&num='+ options.rss.limit,
+                      request_url = Feed.rss.api + limit + '&q=' + encodeURIComponent(url);
+
+                    Utility.request(request_url, Feed.rss.utility.getPosts);
+                },
+                utility: {
+
+                    getPosts: function(json) {
+                        $.each(json.responseData.feed.entries, function(index, element) {
+                            var post = new SocialFeedPost('rss', Feed.rss.utility.unifyPostData(index, element));
+                            post.render();
+                        });
+                    },
+
+                    unifyPostData: function(index, element){
+                        var post = {};
+
+                        post.id = index;
+                        post.dt_create= moment(element.publishedDate, 'ddd, DD MMM YYYY HH:mm:ss ZZ', 'en');
+                        post.author_link = '';
+                        post.author_picture = '';
+                        post.author_name = element.author;
+                        post.message = Utility.stripHTML(element.title);
+                        post.description = Utility.stripHTML(element.content);
+                        post.social_network = 'rss';
+                        post.link = element.link;
+                        if (options.show_media && element.mediaGroups ) {
+                            post.attachment = '<img class="attachment" src="' + element.mediaGroups[0].contents[0].url + '" />';
+                        }
+                        return post;
+                    }
+                }
             }
         };
-        
+
         //make the plugin chainable
         return this.each(function() {
             // Initialization

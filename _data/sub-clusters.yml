@@ -484,7 +484,7 @@
   
 #Science & Natural Environment 113F8C
 - cluster: Science & Natural Environment
-  subcluster: Applied Science & Forensic Science
+  subcluster: Applied Science & Forensics
   university-faculty: Applied Science  
   he-image: applied-science-forensic-science.jpg
   icon: fa-flask
@@ -615,19 +615,3 @@
   search-link: motor-vehicle
   intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
   
-- cluster: Science & Natural Environment
-  subcluster: Applied Science
-  level: 7
-  colour: 113F8C
-  brand:  cc
-  sector: university
-  campus: camborne-campus st-austell-campus
-  campus-long:
-    - campus-name: Camborne Campus
-      campus-link: /camborne-campus.html  
-      
-    - campus-name: St Austell Campus
-      campus-link: /st-austell-campus.html  
-    
-  search-link: he-applied-science
-  intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.

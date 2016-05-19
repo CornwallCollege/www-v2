@@ -1,6 +1,6 @@
-<section class="isotope_selector {{=it.social_network}}">
+<div class="social-feed-element {{=it.social_network}} element" dt-create="{{=it.dt_create}}" social-feed-id = "{{=it.id}}" style="margin-bottom:10px;" class="">
     <section style="background:#f3f3f3;">
-    <section class="col-sm-6 sq-sm text-block blog-post-list popup popup-position popup-right text-right social-feed-element {{? !it.moderation_passed}}hidden{{?}}" dt-create="{{=it.dt_create}}" social-feed-id = "{{=it.id}}" style="background: 50% 10% no-repeat url({{=it.attachment}}); background-size:cover;">
+    <section class="col-sm-6 sq-sm text-block blog-post-list popup popup-position popup-right text-right social-feed-element feed-image"  style=" background-size:cover;">{{=it.attachment}}
                 <a href="{{=it.link}}" target="_blank"> 
                     <div>               
                         <i class="fa fa-{{=it.social_network}}" style="color:#52B3D9; position:absolute; top:0; left:0; font-size:4rem;"></i>     
@@ -16,5 +16,5 @@
               <p>{{=it.text}}</p>
                 <a href="{{=it.link}}" target="_blank" class="white-link">Full Article</a>
             </section>
-    <section style="height:10px; clear:both;"></section>    
-</section>
+   <section style="clear:both;"></section> 
+</div>

@@ -388,7 +388,12 @@ $(document).ready(function () {
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
-
+            //RSS FEED
+            rss:{
+                urls: ['http://teslapodcast.libsyn.com/rss'], //Array: Specifiy a list of rss feed from which to pull posts
+                limit: 2                                     
+            },
+            
             // GENERAL SETTINGS
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
@@ -779,27 +784,7 @@ var brand_cookie = Cookies.get('brand');
 });
 
 
-//isotope for social feed section of the home page
-$(window).load(function () {
 
-    // cache container
-    var $container = $('.grid');
-    // initialize isotope
-    $container.isotope({
-        // options...
-        animationEngine: 'best-available',
-        itemSelector: '.isotope_selector'
-    });
-
-    // filter items when filter link is clicked
-    $('#isotope_filters li a').on('click', function () {
-        var selector = $(this).data('filter');
-        $container.isotope({
-            filter: selector
-        });
-
-    });
-});
 
 $( document ).ready(function() {
 if (location.pathname.indexOf("location-pages") !== -1) {    
@@ -937,4 +922,23 @@ $( document ).ready( function() {
 */
 });
 
+/*isotope for social feed section of the home page*/
+$( document ).ready( function() {
+
+
+    // initialize isotope
+    var $grid = $('#isotope_container').isotope({
+        itemSelector: '.element',
+    });
+
+    // filter items when filter link is clicked
+    $('#isotope_filters li a').on('click', function () {
+        var selector = $(this).data('filter');
+        $grid.isotope({
+            filter: selector
+        });
+
+    });
+    
+});
 
