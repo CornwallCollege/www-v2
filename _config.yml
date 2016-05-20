@@ -5,7 +5,8 @@ author: Cornwall College
 description: "Cornwall College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
 image: "/image/cc-brand-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://m.cornwall.ac.uk" # the base hostname & protocol for your site
+url: "https://mtest.cornwall.ac.uk"
+static_url: https://mtest.cornwall.ac.uk # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 course_site_baseurl: https://network.cornwall.ac.uk/
@@ -31,3 +32,23 @@ asset_bundler:
 relative_permalinks: false
 
 schema-college: https://schema.org/CollegeOrUniversity
+
+
+# Remove unused css
+uncss:
+  stylesheets:            # a list of stylesheets to be processed; mandatory
+    - css/animate.css
+    #- css/custom-styles.css  
+    #- css/swiper.css
+
+  #files:                  # html files to consider, globs are supported; default: **/*.html
+   # - "**/*.html"
+   # - "**/*.htm"
+  #compress: true          # compress resulting css with sass; default: false
+  #ignore:                 # always keep rules for these selectors; default: none
+   # - ".is-loading"
+   # - "#titleBar"
+ # media:                  # additional media queries to consider; default: undefined
+   # - print
+   # - print
+  #timeout: 30             # how long to wait for the JS to be loaded; default: undefined
