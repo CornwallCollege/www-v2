@@ -922,23 +922,5 @@ $( document ).ready( function() {
 */
 });
 
-/*isotope for social feed section of the home page*/
-$( document ).ready( function() {
 
-
-    // initialize isotope
-    var $grid = $('#isotope_container').isotope({
-        itemSelector: '.element',
-    });
-
-    // filter items when filter link is clicked
-    $('#isotope_filters li a').on('click', function () {
-        var selector = $(this).data('filter');
-        $grid.isotope({
-            filter: selector
-        });
-
-    });
-    
-});
 
