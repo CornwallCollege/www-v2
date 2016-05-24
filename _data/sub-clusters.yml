@@ -37,7 +37,7 @@
 - cluster: Business & Professional
   subcluster: Business School
   university-faculty: Business School
-  he-image: 
+  he-image: business-pro.jpg
   icon: fa-gavel
   campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
   campus-long:
@@ -78,7 +78,8 @@
   intro: Marketers identify, anticipate and satisfy the customer - for a profit; sales people encourage us to buy and customer service professionals help us along the way.
   
 - cluster: Business & Professional
-  subcluster: Digital Academy 
+  subcluster: Digital Academy
+  university-faculty: Digital Academy
   he-image: digital-academy.jpg
   icon: fa-gamepad
   colour: E54028  
@@ -124,6 +125,9 @@
   
 - cluster: Cultural & Visitor Economy
   subcluster: Catering & Academy Nathan Outlaw
+  university-faculty: Catering & Academy Nathan Outlaw
+  he-image: catering.jpg
+  icon: fa-cutlery
   level: 1 2 4 5 6
   colour: D0D102  
   brand: cc
@@ -148,8 +152,8 @@
 - cluster: Cultural & Visitor Economy
   subcluster: Hospitality & Front of House
   university-faculty: Hospitality & Front of House
-  he-image: catering-hospitality.jpg
-  icon: fa-cutlery
+  he-image: hospitality.jpg
+  icon: fa-beer
   level: 1 2 4 5 6
   colour: D0D102  
   brand: cc  
@@ -215,6 +219,7 @@
 #Education 01A4A4
 - cluster: Education
   subcluster: Teaching & Education
+  university-faculty: Teaching & Education
   he-image: school-of-education-professional-development.jpg
   icon: fa-graduation-cap
   level: 1 2 3 4 5 6
@@ -288,7 +293,8 @@
 #Health & Wellbeing D70060
 - cluster: Health & Wellbeing
   subcluster: Hairdressing & Beauty Therapy
-  he-image: 
+  university-faculty: Hairdressing & Beauty Therapy
+  he-image: hair.jpg
   icon: fa-scissors
   level: 1 2 3
   colour: D70060  
@@ -328,6 +334,7 @@
 
 - cluster: Health & Wellbeing
   subcluster: Sports and Fitness
+  university-faculty: Sports and Fitness
   he-image: sport-fitness.jpg  
   icon: fa-futbol-o
   level: 1 2 3 4 5 6
@@ -383,7 +390,7 @@
 - cluster: Rural Economy
   subcluster: Animal Management & Veterinary Nursing
   university-faculty: Animal Management & Veterinary Nursing
-  he-image:  
+  he-image: animal-management.jpg
   icon: fa-stethoscope
   level: 1 2 3 6
   colour: 61AE24  
@@ -405,6 +412,7 @@
   
 - cluster: Rural Economy
   subcluster: Equine
+  university-faculty: Equine
   he-image: equine.jpg     
   icon: fa-trophy
   level: 1 2 3 4 5 6
@@ -505,6 +513,7 @@
   
 - cluster: Science & Natural Environment
   subcluster: Marine & Natural Environment
+  university-faculty: Marine & Natural Environment
   he-image: marine-natural-environment.jpg
   icon: fa-anchor
   level: 2 3 4 5 6
@@ -521,7 +530,8 @@
   
 - cluster: Science & Natural Environment
   subcluster: Wildlife Conservation & Zoology
-  he-image:  
+  university-faculty: Wildlife Conservation & Zoology
+  he-image: zoology.jpg
   icon: fa-paw
   level: 3 6
   colour: 113F8C
@@ -552,6 +562,9 @@
   
 - cluster: Technology
   subcluster: Construction
+  university-faculty: Construction
+  he-image: construction.jpg
+  icon: fa-home
   level: 1 2 3
   colour: 00A1CB
   brand:  bic cc dc
@@ -575,6 +588,7 @@
 
 - cluster: Technology
   subcluster: Engineering
+  university-faculty: Engineering
   he-image: engineering.jpg
   icon: fa-cogs
   level: 1 2 3
