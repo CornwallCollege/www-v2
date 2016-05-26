@@ -1,7 +1,7 @@
 - campus: Bicton College
   long: 50.670602
   lat: -3.316736
-  link: /bicton-campus.html
+  link: /location-pages/bicton-campus.html
   code: B
   anchor: "bicton-campus"
   facilities: 
@@ -101,7 +101,7 @@
 - campus: dBs Music Bristol
   long: 51.4478973
   lat: -2.5838925
-  link: /bristol-campus.html
+  link: /location-pages/bristol-campus.html
   code: M
   anchor: "dbs"
   facilities:
@@ -110,7 +110,7 @@
 - campus: Cornwall College Camborne
   long: 50.2268081
   lat: -5.2725985
-  link: /camborne-campus.html
+  link: /location-pages/camborne-campus.html
   code: C
   anchor: "camborne"
   facilities:
@@ -242,7 +242,7 @@
 - campus: The Eden Project
   long: 50.360518
   lat: -4.7466487
-  link: /eden-campus.html
+  link: /location-pages/eden-campus.html
   code: E
   anchor: "eden-project"
   facilities:
@@ -252,7 +252,7 @@
 - campus: Falmouth Marine School
   long: 50.1528966
   lat: -5.074243
-  link: /falmouth-campus.html
+  link: /location-pages/falmouth-campus.html
   code: F
   anchor: "falmouth-marine-school"
   facilities: 
@@ -326,7 +326,7 @@
 - campus: Cornwall College Newquay
   long: 50.4105492
   lat: -5.0682225
-  link: /newquay-campus.html
+  link: /location-pages/newquay-campus.html
   code: N
   anchor: "newquay"
   facilities: 
@@ -398,7 +398,7 @@
 - campus: Duchy College Rosewarne
   long: 50.2234417
   lat: -5.3028398
-  link: /rosewarne-campus.html
+  link: /location-pages/rosewarne-campus.html
   code: R
   anchor: "rosewarne"
   facilities: 
@@ -469,7 +469,7 @@
 - campus: Cornwall College Saltash
   long: 50.4055478
   lat: -4.2279294
-  link: /saltash-campus.html
+  link: /location-pages/saltash-campus.html
   code: S
   anchor: "saltash"
   facilities: 
@@ -577,7 +577,7 @@
 - campus: Cornwall College St Austell
   long: 50.3464922
   lat: -4.7850022
-  link: /st-austell-campus.html
+  link: /location-pages/st-austell-campus.html
   code: A
   anchor: "st-austell"
   facilities: 
@@ -712,7 +712,7 @@
 - campus: Duchy College Stoke Climsland
   long: 50.5461939
   lat: -4.3212666
-  link: /stoke-campus.html
+  link: /location-pages/stoke-campus.html
   code: D
   anchor: "stoke"
   facilities: 
@@ -812,6 +812,6 @@
 - campus: Engineering Skills Centre Plymouth
   long: 50.4223444
   lat: -4.0955227
-  link: /sisna-park-campus.html
+  link: /location-pages/sisna-park-campus.html
   code: P
   anchor: "sisna" 
