@@ -117,9 +117,9 @@ $(window).load(function() {
 // 05. Fading divs - Fade a div except the one that's hovered
 if($('html').hasClass('no-touch')){
 	$('.fade-it, .portfolio-thumb, .image-thumb, .service-item').hover(function(){
-		$(this).siblings().addClass('fade');
+		$(this).addClass('fade');
 	}, function(){
-		$(this).siblings().removeClass('fade');
+		$(this).removeClass('fade');
 	});
 }
 

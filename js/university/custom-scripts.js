@@ -49,4 +49,16 @@ $(document).ready(function(){
 		$("#home").removeClass(".video");
 		$(".fullscreen-video, .video-controls, .play-btn-normal").hide();
 	}
+
+    
+    $( "#full-time" ).click(function() {
+        $( "#about-me-1" ).slideToggle( "slow", "swing");
+        $( "#about-me-2" ).slideUp( "slow", "swing");
+    });
+    
+    $( "#part-time" ).click(function() {
+        $( "#about-me-2" ).slideToggle( "slow", "swing");
+        $( "#about-me-1" ).slideUp( "slow", "swing");
+    });
+
 });

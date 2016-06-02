@@ -1,0 +1,109 @@
+<!-- Google Tag Manager -->
+{{include.tag-manager.html}}
+<!-- End Google Tag Manager -->
+
+<header>
+    <div id="loader"></div>
+    <!-- LOGO SECTION ====================================================================== -->
+    
+    <nav class="navbar-fixed-top click-through" role="navigation">
+        <div id="white-nav-bg" class="white-nav-bg grow"></div>
+        <div class="fixed-head-wrap">
+            <div class="container click-through">
+                <div class="navbar-header ">
+                    <!-- MENU ICON ON THE RIGHT -->
+                    <span id="openRightPush" class="menu-icon click-me">
+                        <span class="menu-text">MENU</span> <i class="fa fa fa-bars transition"></i>
+                    </span>
+
+                    <div id="logo-wrap">
+                        <div id="cornwall" class="cc-brand-logo current-brand logo">
+                            <a class="click-me" href="/#cornwall">
+                                <div>
+                                    <img id="cc-logo" src="/images/cc-brand-logo.png" class="brand-image" alt="The Cornwall College Group"/>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="duchy" class="duchy-brand-logo sub-brand grow logo">
+                            <a class="click-me" href="/#duchy">
+                                <div>
+                                    <img id="dc-logo" src="/images/dc-brand-logo.png" class="brand-image" alt="duchy college logo"/>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="falmouth" class="fms-brand-logo sub-brand grow logo">
+                            <a class="click-me" href="/#falmouth">
+                                <div>
+                                    <img id="fms-logo" src="/images/fms-brand-logo.png" class="brand-image" alt="falmouth marine school logo"/>
+                                </div>
+                            </a>                
+                        </div>
+                        <div id="bicton" class="bicton-brand-logo sub-brand grow logo">
+                            <a class="click-me" href="/#bicton">
+                                <div>
+                                   <img id="bic-logo" src="/images/bic-brand-logo.png" class="brand-image" alt="bicton college logo"/>
+                                </div>
+                            </a>                
+                        </div>
+                    </div>    
+
+
+                </div>
+            </div>
+        </div>    
+    </nav>
+    <!-- LOGO SECTION END -->
+
+    <!-- MENU START -->
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+
+        <!-- MENU SEARCH FORM -->
+        <form name="course-search" id="search-form" class="container" role="search" method="GET" action="//network.cornwall.ac.uk/">
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+                <!--<input name="s" value="search" type="hidden" />-->
+                <input class="form-control" name="s" type="text" placeholder="Course Search">
+                <div class="input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button></div>
+                <!--<button type="submit"><span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span></button>-->
+            </div>
+        </form>
+        <div class="container clearfix portal col-sm-12">
+            <div class="col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3 text-center">
+                <a href="https://portal.cornwall.ac.uk" class="btn ghost"><i class="fa fa-graduation-cap fa-lg"></i>Student Portal</a>
+            </div>
+            <div class="col-sm-3 col-md-3 text-center ">
+                <a href="https://www.cornwall.ac.uk/staff" class="btn ghost"><i class="fa fa-users fa-lg"></i>Staff Portal</a>
+            </div>
+        </div>
+
+        <div id="main-menu" class="container clearfix">
+            <!--<ul class="menu-item-links">
+                {% for menu in site.data.menu %}
+                
+                        {% if site.data.menu.sub-menu == empty %}
+
+                                <li>
+                                    <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
+                                </li>
+             
+                        {% else %}
+                            
+                                <li class="dropdown">
+                                    <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
+                                    <ul class="submenu-items transition">
+                                        {% for sub-menu in menu.sub-menu %}
+                                            <li><a href="{% if sub-menu.sub-menu-link contains 'http' %}{{sub-menu.sub-menu-link}}{% else %}{{site.static_url}}/{{sub-menu.sub-menu-link}}{% endif %}">{{sub-menu.sub-menu-name}}</a></li>
+                                        {% endfor %}
+                                    </ul>    
+                                </li>
+                            
+                        {% endif %}
+                
+                {% endfor %}
+            </ul>-->
+        </div>
+
+        {% include socialmedia.html %}
+
+    </nav>
+    <!-- MENU END -->
+</header>
