@@ -91,16 +91,58 @@ link: University
 			<!-- <h1><a href="#home" class="smoothscroll"text link</a></h1> -->
 
 
-			<!-- The menu toggle -->
-			<input type="checkbox" id="toggle" />
-			<label for="toggle" class="toggle"></label>
+    <!-- MENU START -->
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
 
-			<!-- The menu items -->
-			<ul class="menu">
-				<li><a href="#about" class="smoothscroll">About</a></li>
-				<li><a href="#download" class="smoothscroll">Download a prospectus</a></li>
-                <li><a href="#contact" class="smoothscroll">Email Us</a></li>
-			</ul>
+        <!-- MENU SEARCH FORM -->
+        <form name="course-search" id="search-form" class="container" role="search" method="GET" action="//network.cornwall.ac.uk/">
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+                <!--<input name="s" value="search" type="hidden" />-->
+                <input class="form-control" name="s" type="text" placeholder="Course Search">
+                <div class="input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button></div>
+                <!--<button type="submit"><span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span></button>-->
+            </div>
+        </form>
+        <div class="container clearfix portal col-sm-12">
+            <div class="col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3 text-center">
+                <a href="https://portal.cornwall.ac.uk" class="btn ghost"><i class="fa fa-graduation-cap fa-lg"></i>Student Portal</a>
+            </div>
+            <div class="col-sm-3 col-md-3 text-center ">
+                <a href="https://www.cornwall.ac.uk/staff" class="btn ghost"><i class="fa fa-users fa-lg"></i>Staff Portal</a>
+            </div>
+        </div>
+
+        <div id="main-menu" class="container clearfix">
+            <!--<ul class="menu-item-links">
+                {% for menu in site.data.menu %}
+                
+                        {% if site.data.menu.sub-menu == empty %}
+
+                                <li>
+                                    <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
+                                </li>
+             
+                        {% else %}
+                            
+                                <li class="dropdown">
+                                    <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
+                                    <ul class="submenu-items transition">
+                                        {% for sub-menu in menu.sub-menu %}
+                                            <li><a href="{% if sub-menu.sub-menu-link contains 'http' %}{{sub-menu.sub-menu-link}}{% else %}{{site.static_url}}/{{sub-menu.sub-menu-link}}{% endif %}">{{sub-menu.sub-menu-name}}</a></li>
+                                        {% endfor %}
+                                    </ul>    
+                                </li>
+                            
+                        {% endif %}
+                
+                {% endfor %}
+            </ul>-->
+        </div>
+
+        {% include socialmedia.html %}
+
+    </nav>
+    <!-- MENU END -->
 
 		</div>
 	</div>
@@ -135,7 +177,7 @@ link: University
 				<p><i class="fa fa-bed huge-service-icon"></i></p>
 				<h4>Accommodation</h4>
 				<p>We understand that finding the right place to live is just as important as finding the right course to study. Here at the Cornwall College Group we have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
-				<p><a href="http://www.cornwall.ac.uk/university/accommodation" class="button color">Find out more</a></p>
+				<p><a href="/university-hub/accommodation.html" class="button color">Find out more</a></p>
 			</div>
 
 
@@ -157,7 +199,7 @@ link: University
 				<h4>Money</h4>
                 
                 <p>If you are planning to join us in 2015 and live in the EU you will be glad to know that our fees are set from &pound;7,500 per year. A range of scholarships and bursaries are available.</p>
-				<p><a href="http://www.cornwall.ac.uk/university/finance" class="button color">Find out more</a></p>
+				<p><a href="/university-hub/money.html" class="button color">Find out more</a></p>
 			</div>
 
 
