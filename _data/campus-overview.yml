@@ -92,23 +92,23 @@
   link: /eden-campus.html
   contact-number: 01209 200200  
   images: 
-    - link: /images/locations/eden/eden-project-1-LG.jpg
-      thumb: /images/locations/eden/eden-project-1.jpg
+    - link: /images/locations/Eden/eden-project-1-LG.jpg
+      thumb: /images/locations/Eden/eden-project-1.jpg
       alt: an image
       title: image 1
       
-    - link: /images/locations/eden/eden-project-2-LG.jpg
-      thumb: /images/locations/eden/eden-project-2.jpg
+    - link: /images/locations/Eden/eden-project-2-LG.jpg
+      thumb: /images/locations/Eden/eden-project-2.jpg
       alt: an image
       title: image 2
       
-    - link: /images/locations/eden/eden-project-3-LG.jpg
-      thumb: /images/locations/eden/eden-project-3.jpg
+    - link: /images/locations/Eden/eden-project-3-LG.jpg
+      thumb: /images/locations/Eden/eden-project-3.jpg
       alt: an image
       title: image 3
       
-    - link: /images/locations/eden/eden-project-4-LG.jpg
-      thumb: /images/locations/eden/eden-project-4.jpg
+    - link: /images/locations/Eden/eden-project-4-LG.jpg
+      thumb: /images/locations/Eden/eden-project-4.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/eden-project/
@@ -295,23 +295,23 @@
   link: /sisna-park-campus.html
   contact-number: 01209 200200
   images: 
-    - link: /images/locations/sisna/campus-overview-1-LG.jpg
-      thumb: /images/locations/sisna/campus-overview-1.jpg
+    - link: /images/locations/Sisna/campus-overview-1-LG.jpg
+      thumb: /images/locations/Sisna/campus-overview-1.jpg
       alt: an image
       title: image 1
       
-    - link: /images/locations/sisna/campus-overview-2-LG.jpg
-      thumb: /images/locations/sisna/campus-overview-2.jpg
+    - link: /images/locations/Sisna/campus-overview-2-LG.jpg
+      thumb: /images/locations/Sisna/campus-overview-2.jpg
       alt: an image
       title: image 2
       
-    - link: /images/locations/sisna/campus-overview-3-LG.jpg
-      thumb: /images/locations/sisna/campus-overview-3.jpg
+    - link: /images/locations/Sisna/campus-overview-3-LG.jpg
+      thumb: /images/locations/Sisna/campus-overview-3.jpg
       alt: an image
       title: image 3
       
-    - link: /images/locations/sisna/campus-overview-4-LG.jpg
-      thumb: /images/locations/sisna/campus-overview-4.jpg
+    - link: /images/locations/Sisna/campus-overview-4-LG.jpg
+      thumb: /images/locations/Sisna/campus-overview-4.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/dbs-bristol/
