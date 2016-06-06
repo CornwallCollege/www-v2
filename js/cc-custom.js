@@ -390,7 +390,7 @@ $(document).ready(function () {
             },
             //RSS FEED
             rss:{
-                urls: ['http://teslapodcast.libsyn.com/rss'], //Array: Specifiy a list of rss feed from which to pull posts
+                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college'], //Array: Specifiy a list of rss feed from which to pull posts
                 limit: 2                                     
             },
             
@@ -417,6 +417,12 @@ $(document).ready(function () {
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
+            
+            //RSS FEED
+            rss:{
+                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
+                limit: 2                                     
+            },            
 
             // GENERAL SETTINGS
             show_media: true,
@@ -440,7 +446,13 @@ $(document).ready(function () {
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
-
+            
+            //RSS FEED
+            rss:{
+                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
+                limit: 2                                     
+            },     
+            
             // GENERAL SETTINGS
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
@@ -463,6 +475,12 @@ $(document).ready(function () {
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
+            
+            //RSS FEED
+            rss:{
+                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
+                limit: 2                                     
+            },               
 
             // GENERAL SETTINGS
             show_media: true,
