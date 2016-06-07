@@ -1,0 +1,84 @@
+---
+layout: hub
+title: Career Hub
+description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
+link: 14-18
+---
+
+    <!-- HEADER SECTION -->
+    <section id="services" class="col-md-12 jumbotron header-title">
+        <header class="container">
+            <h2><a href="/index.html"><small>Home </small></a><span>CAREER</span></h2>
+        </header>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- BODY SECTION -->
+
+    <section class="container">
+        <p class="lead">Our specialist career pathways will help you to develop your <strong onclick="window.smoothScrollTo('usp-explained');"><u>USP</u></strong>, giving you the very best opportunity to fulfil your potential. Our range of <strong>study programmes</strong> are the best preparation for the world of work...</p>
+        <p class="lead">We’ve got lots of courses for all abilities and interests. To help you find your way, this website will let you select the career area that interests you and we’ll work with you to create a <strong>programme of study</strong> to fit your needs.</p>
+    </section>
+
+    <!-- CAREER SECTION
+====================================================================== -->
+
+
+<section class="container main-section-margins ">
+
+        <!-- list of businesses -->
+        <section id="career-list" class="container">
+            <div class="career-filter">
+
+                <!-- CAREER FILTER OPTIONS -->
+                <ul id="topOfClusters">
+
+                    {% for business in site.data.open-public %}
+                    <li class="{{ business.class }}">
+                        <a href="#" class="transition {{ business.transition }}" data-filter="{{ business.filter }}">
+                            <h3>{{ business.business }}</h3>
+                        </a>
+                    </li>       
+                    {% endfor %}
+                    
+                </ul>
+            </div>
+            
+            <div class="clearfix"></div>
+
+            <section class="career-items container">
+                <a id="career-grid-anchor"></a>
+                <ul id="career-grid" class="grid-layout more-padding hover-effect">
+                    <!-- CAREER AREA | business and prof and IT | Digital Academy -->
+                    {% for business in site.data.open-public %}
+                    <li class="{{ business.li-class }}">
+                        <figure>
+                            <h1>{{ business.business }}</h1>
+                            <h3>{{ business.sub-heading }}</h3>
+                        </figure>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+
+        </section>
+        <div class="clearfix"></div>
+        <!-- <section class="col-sm-12 blue-bg bar2 career-search">
+            <h2 class="text-uppercase">Or <strong style="color:white;">Why Not</strong>...</h2>
+            <div class="col-sm-4 col-sm-offset-4 text-center">
+                <a class="btn ghost light" href="//www.cornwall.ac.uk/advanced-search"><span>Search</span>&nbsp;<span>for a <strong>course</strong></span></a>
+            </div>
+        </section> -->
+        <div class="clearfix"></div>
+    </section>
+
+
+
+    <!-- Career Areas Divs -->
+
+    <section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
+        <div id="career-content">
+        </div>
+    </section>
+
+    <!-- CAREER section ends -->
