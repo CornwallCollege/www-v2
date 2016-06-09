@@ -64,6 +64,49 @@
 	-ms-transform:scale(1.4);
 }
 
+#white-nav-bg {
+	background:linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 255, 255, 0.8) 61%, rgba(255, 255, 255, 0) 100%);
+	filter:progid;
+	height:140px;
+	position:relative;
+	top:-140px;
+}
+
+.fixed-head-wrap {
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+div.logo-wrap-scroll .sub-brand img, div.logo-wrap-scroll .current-brand img {
+	width:100px;
+	height:100px;
+}
+
+div.logo-wrap-scroll .sub-brand, div.logo-wrap-scroll .current-brand {
+	top:10px;
+}
+
+div.logo-wrap-scroll :nth-child(2), div.logo-wrap-scroll :nth-child(3), div.logo-wrap-scroll :nth-child(4) {
+	margin-left:-102px;
+}
+
+div.logo-wrap-scroll :nth-child(2) {
+	z-index:998;
+}
+
+div.logo-wrap-scroll :nth-child(3) {
+	z-index:997;
+}
+
+div.logo-wrap-scroll :nth-child(4) {
+	z-index:996;
+}
+
+#white-nav-bg.active {
+	top:0px;
+}
+
 /* bootstrap menu - custom-header start -- UPDATE in 1.6 */
 
 .visible-navbar {
