@@ -390,7 +390,7 @@ $(document).ready(function () {
             },
             //RSS FEED
             rss:{
-                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college'], //Array: Specifiy a list of rss feed from which to pull posts
+                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college', 'https://www.cornwall.ac.uk/cc-news.rss'], //Array: Specifiy a list of rss feed from which to pull posts
                 limit: 2                                     
             },
             
@@ -420,7 +420,7 @@ $(document).ready(function () {
             
             //RSS FEED
             rss:{
-                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
+                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
                 limit: 2                                     
             },            
 
@@ -449,7 +449,7 @@ $(document).ready(function () {
             
             //RSS FEED
             rss:{
-                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
+                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
                 limit: 2                                     
             },     
             
@@ -478,7 +478,7 @@ $(document).ready(function () {
             
             //RSS FEED
             rss:{
-                urls: ['http://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
+                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
                 limit: 2                                     
             },               
 

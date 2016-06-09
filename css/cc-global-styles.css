@@ -2,6 +2,68 @@
  *
         MENU ITEMS (Base Styles)
  */
+/* Logo Placement Styles*/
+
+#cc-logo {
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+.cc-brand-logo {
+}
+
+.cc-brand-logo img {
+	width:174px;
+	height:174px;
+}
+
+.sub-brand {
+	top:46px;
+	display:block;
+	float:left;
+	position:relative;
+	padding:0px 5px;
+}
+
+.sub-brand img {
+	width:120px;
+	height:120px;
+}
+
+.current-brand img {
+	top:15px;
+	width:174px;
+	height:174px;
+}
+
+.current-brand {
+	display:block;
+	float:left;
+	top:10px;
+	padding:0px 5px;
+	position:relative;
+	z-index:999;
+}
+
+.grow {
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+}
+
+.grow:hover {
+	transform:scale(1.4);
+	-webkit-transform:scale(1.4);
+	-moz-transform:scale(1.4);
+	-o-transform:scale(1.4);
+	-ms-transform:scale(1.4);
+}
+
 /* bootstrap menu - custom-header start -- UPDATE in 1.6 */
 
 .visible-navbar {
