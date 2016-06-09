@@ -1049,7 +1049,7 @@ footer a.btn{
 .box-square article:nth-child(3) a,
 .box-square article:nth-child(3) h3 {
     color: #52B3D9;
-    border-color: white;
+    border-color: #52b3d9;
 }
 
 .box-square article:nth-child(3) {
@@ -1394,6 +1394,7 @@ footer a.btn{
     z-index:1;
     position:relative;
 }
+
 /* engineering and technology | Engineering | header bar */
 
 #engineering {

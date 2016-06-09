@@ -1,0 +1,43 @@
+- business: Evolve Sports &amp; Fitness
+  class: cluster-hover col-xs-12 col-sm-12 col-md-4 col-lg-3
+  transition: sne
+  filter: .sne
+  li-class: col-xs-12 col-sm-6 col-md-4 entry sne
+  
+- business: Koko
+  class: cluster-hover col-xs-12 col-sm-12 col-md-4 col-lg-3
+  transition: edc
+  filter: .ed
+  li-class: col-xs-12 col-sm-6 col-md-4 entry ed
+  
+- business: Mill Autoquip
+  class: cluster-hover col-xs-12 col-sm-12 col-md-4 col-lg-6
+  transition: tch
+  filter: .et
+  li-class: col-xs-12 col-sm-6 col-md-4 entry et
+  
+- business: Trevenson Restaurant
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-5
+  transition: re
+  filter: .re
+  li-class: col-xs-12 col-sm-6 col-md-4 entry re
+  
+- business: Cloisters Restaurant
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-2
+  transition: cve
+  filter: .cve
+  li-class: col-xs-12 col-sm-6 col-md-4 entry cve
+  
+- business: Room Booking
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-3
+  transition: hw
+  filter: .hw
+  li-class: col-xs-12 col-sm-6 col-md-4 entry hw
+  
+- business: Pirans College Shop
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-2
+  transition: bpi
+  filter: .bpi
+  li-class: col-xs-12 col-sm-12 entry bpi
+  sub-heading: If you need a pen, a notepad or forgotten somebody’s birthday Pirans has everything you need.
+  body:
