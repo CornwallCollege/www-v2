@@ -2992,6 +2992,335 @@ APPLY BARS =====================================================================
     }
 }
 /* ---------  Career Section ENDS --------- */
+/* --------- Open to Public Section --------- */
+
+.public-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.public-body table {
+    background-color: white;  
+}
+
+.public-body table td.one {
+    text-align: center;
+    width: 50%;
+}
+
+#evolve {
+    background-color: #37aae3;
+    color: white;
+}
+
+#koko {
+    background-color: #8b005b;
+    color: white;
+}
+
+#mill {
+    background-color: #e6007e;
+    color: white;
+}
+
+#trevenson {
+    background-color: #5f5f5f;
+    color: white;
+}
+
+#cloisters {
+    background-color: #ca1b3c;
+    color: white;
+}
+
+#room {
+    background-color: #203d7c;
+    color: white;
+}
+
+#pirans {
+    background-color: #292929;
+    color: white;
+}
+
+#public {
+    background-size: -webkit-cover;
+    background-size: -o-cover;
+    background-size: -moz-cover;
+    background-size: cover;
+}
+
+#public-list {
+    background-color: #fff;
+    padding-left: 0;
+}
+
+@media(max-width:380px) {
+    #public-list {
+        padding-right: 0;
+    }
+}
+
+#public-list p {
+    margin-bottom: 70px;
+    display: inline-block;
+}
+
+.public-filter {
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.public-filter ul {
+    padding-left: 0;
+}
+
+.public-filter ul li {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.public-filter ul li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    border: 1px solid transparent;
+    /*border-left: 1px solid #52B3D9;*/
+    padding: 10px 20px 20px 20px;
+    text-decoration: none;
+    line-height: 22px;
+    margin-right: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+@media(min-width:768px) {
+    .public-filter ul li a {
+        min-height: 280px;
+    }
+}
+
+@media(min-width:992px) {
+    .public-filter ul li a {
+        min-height: 245px;
+    }
+}
+
+@media(min-width:1200px) {
+    .public-filter ul li a {
+        min-height: 190px;
+    }
+}
+/* Cluster colors ends*/
+
+.public-filter ul li a:hover,
+.public-filter ul li a:focus {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+/* Cluster Colors*/
+
+.public-filter ul li a.pirans {
+    border: 5px solid #292929;
+    color:  white;
+    background-color: #292929;      
+}
+
+.public-filter ul li a.pirans:hover {
+    border: 5px solid #292929;
+    color: #292929;
+    background-color: white;
+}
+
+.public-filter li a.selected.pirans {
+    border: 5px solid #292929; 
+    color: #292929;
+    background-color: white;
+}
+
+.public-filter ul li a.cloisters {
+    border: 5px solid #ca1b3c;
+    color:  white;
+    background-color: #ca1b3c;    
+}
+
+.public-filter ul li a.cloisters:hover {
+    border: 5px solid #ca1b3c;
+    color: #ca1b3c;
+    background-color: white;
+}
+
+.public-filter li a.selected.cloisters {
+    border: 5px solid #ca1b3c;    
+    color: #ca1b3c;
+    background-color: white;
+}
+
+.public-filter ul li a.room {
+    border: 5px solid #203d7c;
+    color:  white;
+    background-color: #203d7c;    
+}
+
+.public-filter ul li a.room:hover {
+    background-color: white;
+    border: 5px solid #203d7c;
+    color: #203d7c;    
+}
+
+.public-filter li a.selected.room {
+    border: 5px solid #203d7c;    
+    background-color: white;
+    color: #203d7c;
+}
+
+.public-filter ul li a.trevenson {
+    border: 5px solid #5f5f5f;
+    color:  white;
+    background-color: #5f5f5f;    
+}
+
+.public-filter ul li a.trevenson:hover {
+    background-color: white;
+    border: 5px solid #5f5f5f;
+    color: #5f5f5f;    
+}
+
+.public-filter li a.selected.trevenson {
+    background-color: white;
+    border: 5px solid #5f5f5f;    
+    color: #5f5f5f;
+}
+
+.public-filter ul li a.evolve {
+    border: 5px solid #37aae3;
+    color:  white;
+    background-color: #37aae3;    
+}
+
+.public-filter ul li a.evolve:hover {
+    background-color: white;
+    border: 5px solid #37aae3;
+    color: #37aae3;    
+}
+
+.public-filter li a.selected.evolve {
+    background-color: white;
+    color: #37aae3;
+    border: 5px solid #37aae3;    
+}
+
+.public-filter ul li a.mill {
+    border: 5px solid #e6007e;
+    color:  white;
+    background-color: #e6007e;    
+}
+
+.public-filter ul li a.mill:hover {
+    background-color: white;
+    border: 5px solid #e6007e;
+    color: #e6007e;    
+}
+
+.public-filter li a.selected.mill {
+    background-color: white;
+    color: #e6007e;
+    border: 5px solid #e6007e;    
+}
+
+.public-filter ul li a.koko {
+    border: 5px solid #8b005b;
+    color:  white;
+    background-color: #8b005b;    
+}
+
+.public-filter ul li a.koko:hover {
+    background-color: white;
+    border: 5px solid #8b005b;
+    color: #8b005b;    
+}
+
+.public-filter li a.selected.koko {
+    background-color: white;
+    color: #8b005b;
+    border: 5px solid #8b005b;    
+}
+
+@media(max-width:765px) {
+    .public-filter ul li a {
+        margin-right: 0;
+    }
+}
+
+.public-filter ul li a:hover {
+    color: white;
+}
+
+.public-filter ul li a h3 {
+    margin-bottom: 5px;
+    font-size: 140%;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 5px;
+}
+
+.public-filter ul li a span {
+    color: white;
+    font-size: 80%;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+}
+
+.public-filter ul li a:hover span,
+.public-filter ul li a.selected span {
+    color: #555;
+}
+
+.public-items {
+    margin-left: -15px;
+}
+
+@media (max-width: 767px) {
+    .public-items {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+}
+
+.public-popup {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.public-popup-left {
+    left: -100%;
+}
+
+.public-popup-left.cbp-spmenu-open {
+    left: 0;
+}
+
+@media(max-width:420px) {
+    .public-areas .box-square {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .public-areas article {
+        padding: 15px 20px;
+        text-align: center;
+    }
+}
+/* --------- Open to Public Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
 
 .menu-item-links li a {
@@ -3447,7 +3776,7 @@ video {
         color:white;
     }
 }
-/* CAREER side */
+/* career side */
     .career-bg{
         background-color:#7D7EBB;
     }

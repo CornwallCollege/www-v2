@@ -8,7 +8,7 @@ link: 14-18
     <!-- HEADER SECTION -->
     <section id="services" class="col-md-12 jumbotron header-title">
         <header class="container">
-            <h2><a href="/index.html"><small>Home </small></a><span>CAREER</span></h2>
+            <h2><a href="/index.html"><small>Home </small></a><span>Open to the Public</span></h2>
         </header>
     </section>
     <!-- END OF HEADER -->
@@ -26,59 +26,66 @@ link: 14-18
 
 <section class="container main-section-margins ">
 
-        <!-- list of businesses -->
-        <section id="career-list" class="container">
-            <div class="career-filter">
+    <!-- list of businesses -->
+    <section id="public-list" class="container">
+        <div class="public-filter">
 
-                <!-- CAREER FILTER OPTIONS -->
-                <ul id="topOfClusters">
-
-                    {% for business in site.data.open-public %}
-                    <li class="{{ business.class }}">
-                        <a href="#" class="transition {{ business.transition }}" data-filter="{{ business.filter }}">
-                            <h3>{{ business.business }}</h3>
-                        </a>
-                    </li>       
-                    {% endfor %}
+            <!-- CAREER FILTER OPTIONS -->
+            <ul>
+                {% for business in site.data.open-public %}
+                <li class="{{ business.class }}">
+                    <a href="#" class="transition {{ business.short }}" >
+                        <h3>{{ business.business }}</h3>
+                    </a>
+                </li>       
+                {% endfor %}
                     
-                </ul>
-            </div>
-            
-            <div class="clearfix"></div>
-
-            <section class="career-items container">
-                <a id="career-grid-anchor"></a>
-                <ul id="career-grid" class="grid-layout more-padding hover-effect">
-                    <!-- CAREER AREA | business and prof and IT | Digital Academy -->
-                    {% for business in site.data.open-public %}
-                    <li class="{{ business.li-class }}">
-                        <figure>
-                            <h1>{{ business.business }}</h1>
-                            <h3>{{ business.sub-heading }}</h3>
-                        </figure>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </section>
-
-        </section>
-        <div class="clearfix"></div>
-        <!-- <section class="col-sm-12 blue-bg bar2 career-search">
-            <h2 class="text-uppercase">Or <strong style="color:white;">Why Not</strong>...</h2>
-            <div class="col-sm-4 col-sm-offset-4 text-center">
-                <a class="btn ghost light" href="//www.cornwall.ac.uk/advanced-search"><span>Search</span>&nbsp;<span>for a <strong>course</strong></span></a>
-            </div>
-        </section> -->
-        <div class="clearfix"></div>
-    </section>
-
-
-
-    <!-- Career Areas Divs -->
-
-    <section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
-        <div id="career-content">
+            </ul>
         </div>
-    </section>
+    </section>        
+            
+    <div class="clearfix"></div>
 
-    <!-- CAREER section ends -->
+    
+    {% for business in site.data.open-public %}
+    <div id="{{ business.short }}" class="col-xs-12 col-sm-12 public-body">
+        <table class="col-xs-12 col-sm-2 col-md-3" style="color: #{{ business.color }};">
+            <tr>
+                <td class="fa fa-clock-o fa-2x one" aria-hidden="true"></td>
+                <td class="two">9:00 - 17:00</td>
+            </tr>
+            <tr>
+                <td class="fa fa-map-marker fa-2x one" aria-hidden="true"></td>
+                <td class="two">This is the bloody address</td> 
+            </tr>
+            <tr>
+                <td class="fa fa-location-arrow fa-2x one" aria-hidden="true"></td>
+                <td class="two">Google Maps</td>
+            </tr>
+            <tr>
+                <td class="fa fa-university fa-2x one" aria-hidden="true"></td>
+                <td class="two">Cornwall College</td>
+            </tr>
+        </table>
+        <div class="col-xs-12 col-sm-10 col-md-8 col-md-offset-1">
+            <h4>{{ business.title }}</h4>
+            <p>{{ business.text }}</p>
+            <img class="lazy img-responsive">
+        </div>
+    </div>
+    {% endfor %}
+    
+    
+    <div class="clearfix"></div>
+</section>
+
+
+
+<!-- Career Areas Divs -->
+
+<section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
+    <div id="career-content">
+    </div>
+</section>
+
+<!-- CAREER section ends -->
