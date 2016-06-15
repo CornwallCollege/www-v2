@@ -514,14 +514,18 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 
 .course-search button,
-.search-submit{
+.search-submit,
+#search-form .search-submit{
     background: none;
     border: none;
 	padding: 0 15px;
 	height:20px;
 	width:70px;
 }
-
+.input-group-addon i,
+#search-form .input-group-addon i{
+	color: white;	
+}
 /* =================================
  *
         MENU ITEMS (custom overides)
@@ -646,6 +650,29 @@ div.logo-wrap-scroll :nth-child(4) {
         padding-left: 55px;
     }
 }
+.portal a.ghost {
+	border-width:1px;
+	width:85%;
+}
+
+.portal a.ghost:last-of-type {
+	margin-top:7px;
+}
+
+.portal a.ghost i {
+	padding-right:10px;
+	font-size:15px;
+}
+
+.ghost {
+	background:transparent;
+	color:#52B3D9;
+	border:4px solid #52B3D9;
+	font-size:13px;
+	padding:5px 15px;
+}
+
+
 /* ------------ Menu styles ENDS --------------*/
 /* =================================
  *
