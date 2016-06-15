@@ -278,6 +278,79 @@ function incrementCount(counter) {
         window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
 
     }
+    
+    /* OPEN TO THE PUBLIC - ISOTOPE FOR PORTFOLIO ITEMS */
+    /* if ($("#public-grid").length) {
+        var $container = $('#public-grid').imagesLoaded(function () {
+            var isotope = function () {
+                $container.isotope({
+                    resizable: false,
+                    itemSelector: '.entry'
+                });
+            };
+            isotope();
+        });
+
+        $('div.public-filter ul a').click(function () {
+            var selector = $(this).attr('data-filter');
+            if (selector) {
+                $('html, body').animate({
+                    scrollTop: $('#public-grid-anchor').offset().top
+                }, 500);
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+                return false;
+            }
+            return true;
+        });
+
+        var $optionSets = $('div.public-filter ul'),
+            $optionLinks = $optionSets.find('a');
+        $optionLinks.click(function () {
+            var $this = $(this);
+            // don't proceed if already selected
+            if ($this.hasClass('selected')) {
+                return false;
+            }
+            var $optionSet = $this.parents('div.public-filter ul');
+            $optionSet.find('.selected').removeClass('selected');
+            $this.addClass('selected');
+        });
+
+        $container.isotope({
+            filter: "load",
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+
+        var thenDoThis1 = function (e, p) {
+            if ($(window).width() <= 480) {
+                e.style.opacity = Math.min(1, p);
+                return;
+            }
+            if ($(window).width() <= 1024) {
+                e.style.opacity = Math.min(1, p * 1.5);
+            }
+        };
+        window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 6, 33);
+
+        var thenDoThis2 = function (e, p) {
+            if ($(window).width() <= 480) {
+                e.style.opacity = 0.25 + Math.max(0, p);
+            }
+        };
+        window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
+
+    } */
 
 
     /* CAREER-slide - Job Lookup */
