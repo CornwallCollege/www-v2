@@ -513,6 +513,14 @@ div.logo-wrap-scroll :nth-child(4) {
     margin-right: 10px;
 }
 
+.course-search button,
+.search-submit button{
+    background: none;
+    border: none;
+	padding: 0 15px;
+	height:20px;
+	width:70px;
+}
 
 /* =================================
  *
