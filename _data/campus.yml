@@ -305,6 +305,12 @@
       image-thumb: /falmouth/student-town-thumb.jpg
 
   learning-areas:  
+    - area-title: Techology
+      area-color: 00A1CB
+      sub-areas: 
+      - sub-area-title: Boatbuilding & Marine Engineering  
+        sub-area-link: boatbuilding-marine-engineering  
+        
     - area-title: Health & Wellbeing
       area-color: D70060
       sub-areas: 
@@ -314,14 +320,9 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-    - sub-area-title: Marine Biology & Ecology
-      sub-area-link: marine-biology-ecology
-
-    - area-title: Technology
-      area-color: 00A1CB
-      sub-area: 
-      - sub-area-title: Boatbuilding & Marine Engineering    
-        sub-area-link: boatbuilding-marine-engineering
+      - sub-area-title: Marine Biology & Ecology
+        sub-area-link: marine-biology-ecology
+        
   
 - campus: Cornwall College Newquay
   long: 50.4105492
