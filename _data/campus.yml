@@ -115,7 +115,7 @@
   anchor: "camborne"
   facilities:
     - title: Students Union
-      detail: The Students Union has its own building with a cafe, pool and table tennis facilities, music TV and student liason team 
+      detail: The Students Union has its own building with a cafe, pool and table tennis facilities, music TV and student liaison team 
       link: /camborne-learning-area/
       image: /camborne/students-union.jpg
       image-thumb: /camborne/students-union-thumb.jpg
@@ -178,7 +178,7 @@
       - sub-area-title: Digital Academy   
         sub-area-link: digital-academy  
         
-    - area-title: Cultral & Visitor Economy
+    - area-title: Cultural & Visitor Economy
       area-color: D0D102    
       sub-areas: 
       - sub-area-title: Arts & Media  
@@ -305,7 +305,7 @@
       image-thumb: /falmouth/student-town-thumb.jpg
 
   learning-areas:  
-    - area-title: Techology
+    - area-title: Technology
       area-color: 00A1CB
       sub-areas: 
       - sub-area-title: Boatbuilding & Marine Engineering  
@@ -486,7 +486,7 @@
       image: /saltash/students-union.jpg
       image-thumb: /saltash/students-union-thumb.jpg
       
-    - title: koko Hair & Beauty Salon
+    - title: Koko Hair & Beauty Salon
       detail: Dedicated salons, nail bar, barbering and beauty therapy lounges, open to the public
       link: /saltash-learning-area/
       image: /saltash/koko-hair-beauty-salon.jpg
@@ -600,7 +600,7 @@
       image: /st-austell/gym-fitness-suite.jpg
       image-thumb: /st-austell/gym-fitness-suite-thumb.jpg
       
-    - title: koko Hair & Beauty Salon
+    - title: Koko Hair & Beauty Salon
       detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
       link: /st-austell-learning-area/
       image: /st-austell/koko-hair-beauty-salon.jpg
@@ -652,7 +652,7 @@
       - sub-area-title: Digital Academy   
         sub-area-link: digital-academy
         
-    - area-title: Cultral & Visitor Economy
+    - area-title: Cultural & Visitor Economy
       area-color: D0D102 
       sub-areas: 
       - sub-area-title: Arts & Media  
