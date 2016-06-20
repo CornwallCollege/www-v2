@@ -298,11 +298,11 @@
       image: /falmouth/marine-science-lab.jpg
       image-thumb: /falmouth/marine-science-lab-thumb.jpg
       
-    - title: Student Town
+    - title: Engineering Workshops
       detail: Falmouth is a university town and offers a fantastic mix of Cornish social life, with an array of bars, clubs and restaurants
       link: /falmouth-learning-area/
-      image: /falmouth/student-town.jpg
-      image-thumb: /falmouth/student-town-thumb.jpg
+      image: /falmouth/marine-engineering.jpg
+      image-thumb: /falmouth/marine-engineering-thumb.jpg
 
   learning-areas:  
     - area-title: Techology
