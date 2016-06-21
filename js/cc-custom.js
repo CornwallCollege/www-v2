@@ -182,13 +182,13 @@ function incrementCount(counter) {
 
         openRightPush.onclick = function () {
             classie.toggle(this, 'active');
-            $('i').toggleClass("fa-bars");
-            $('i').toggleClass("fa-times");
+            $('.menu-icon > i').toggleClass("fa-bars");
+            $('.menu-icon > i').toggleClass("fa-times");
             $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');   
             classie.toggle(menuRight, 'cbp-spmenu-open');
         };
 
-    }   
+    }  
 
     /* the id="menu-container" has to be added to the one-page template,
        to the <div class="container"> of the <nav id="cbp-spmenu-s2">
