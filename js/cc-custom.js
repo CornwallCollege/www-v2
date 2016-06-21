@@ -26,7 +26,7 @@ $(function () {
         });
 
         /* Swiper brand navigation */
-        changeCurrentLogo();
+        //changeCurrentLogo();
 
         swiperH.on('slideChangeStart', function () {
             changeCurrentLogo();
