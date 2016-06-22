@@ -33,8 +33,8 @@ link: 14-18
             <!-- CAREER FILTER OPTIONS -->
             <ul>
                 {% for business in site.data.open-public %}
-                <li class="{{ business.class }}">
-                    <a href="#" class="transition {{ business.short }}" >
+                <li class="{{ business.class }}" onclick="window.smoothScrollTo('{{business.short}}');">
+                    <a class="transition {{ business.short }}" >
                         <h3>{{ business.business }}</h3>
                     </a>
                 </li>       
@@ -47,36 +47,59 @@ link: 14-18
     <div class="clearfix"></div>
 
     
-    {% for business in site.data.open-public %}
-    <div id="{{ business.short }}" class="col-xs-12 col-sm-12 public-body">
-        <table class="col-xs-12 col-sm-2 col-md-3" style="color: #{{ business.color }};">
-            <tr>
-                <td class="fa fa-clock-o fa-2x one" aria-hidden="true"></td>
-                <td class="two">9:00 - 17:00</td>
-            </tr>
-            <tr>
-                <td class="fa fa-map-marker fa-2x one" aria-hidden="true"></td>
-                <td class="two">This is the bloody address</td> 
-            </tr>
-            <tr>
-                <td class="fa fa-location-arrow fa-2x one" aria-hidden="true"></td>
-                <td class="two">Google Maps</td>
-            </tr>
-            <tr>
-                <td class="fa fa-university fa-2x one" aria-hidden="true"></td>
-                <td class="two">Cornwall College</td>
-            </tr>
-        </table>
-        <div class="col-xs-12 col-sm-10 col-md-8 col-md-offset-1">
-            <h4>{{ business.title }}</h4>
-            <p>{{ business.text }}</p>
-            <img class="lazy img-responsive">
-        </div>
-    </div>
+    {% for business in site.data.open-public %}        
+        <section id="{{ business.short }}" class="col-xs-12 col-sm-12 public-body">
+            
+            <section class="col-xs-12 col-md-offset-3">
+                <h2 class="main-section-margins" style="color:white">{{ business.business }}</h2>
+            </section>
+            
+            <section class="col-xs-12 col-sm-3">
+                
+                <article>
+                    <table>
+                        {% for table in business.table %}
+                        {% if business.table != null %}
+                        <tr>
+                            <td class="text-center one" style="padding:10px;"><i class="{{ table.icon }} fa-2x" aria-hidden="true"></i></td>   
+                            <td class="two" style="padding:10px;">{{ table.detail }}</td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                    </table>
+                </article>
+
+                <article>
+                    <img class="img-responsive" src="{{ business.image }}">
+                </article>
+                
+            </section>
+            
+            <div class="col-xs-12 col-sm-9">
+                
+                <p class="lead">{{ business.title }}</p>
+                <p>{{ business.text }}</p>
+                
+                <div class="panel-group" id="accordion-{{ business.short }}" >
+                    {% for campus in business.campus %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading one">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href="#{{ campus.id }}">{{ campus.campus-name }}</a>
+                            </h4>
+                        </div>
+                        <div id="{{ campus.id }}" class="{{ campus.class }} two">
+                            <div class="panel-body">{{ campus.text }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+            </div>
+            
+        </section>
     {% endfor %}
     
-    
-    <div class="clearfix"></div>
 </section>
 
 

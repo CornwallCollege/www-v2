@@ -405,6 +405,7 @@ function incrementCount(counter) {
         window.smoothScrollTo = function (id) {
             $('html, body').animate({
                 scrollTop: $('#' + id).offset().top - 50
+                //scrollTop: $('#' + id).offset().top
             }, 500);
             return false;
         }
@@ -1012,6 +1013,3 @@ $( document ).ready( function() {
 
 */
 });
-
-
-
