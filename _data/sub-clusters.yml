@@ -6,7 +6,7 @@
   campus-long:
     - campus-name: St Austell Campus
       campus-link: /st-austell-campus.html
-  sector: 16-18 19+
+  sector: 16-18 19plus
   colour: 616161
   learning-style: academic
   search-link: as-a-level
@@ -28,7 +28,7 @@
     - campus-name: Saltash Campus
       campus-link: /saltash-campus.html
       
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   colour: E54028
   search-link: accounting
   level: 2 3
@@ -56,7 +56,7 @@
   colour: E54028  
   brand: cc dc bc
   level: 2 3 4 5 6
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   search-link: business-school  
   intro: Having a good head for business could mean you have skills such as creativity, good communication, insight into trends and understanding of finance and people.  
   
@@ -65,7 +65,7 @@
   colour: E54028  
   level: 2
   brand: cc  
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: camborne-campus st-austell-campus  
   campus-long:
     - campus-name: Camborne Campus
@@ -85,7 +85,7 @@
   colour: E54028  
   level: 2 3
   brand: cc  
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -108,7 +108,7 @@
   level: 2 3 4 5 6
   colour: D0D102  
   brand: cc  
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -131,7 +131,7 @@
   level: 1 2 4 5 6
   colour: D0D102  
   brand: cc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus eden-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -157,7 +157,7 @@
   level: 1 2 4 5 6
   colour: D0D102  
   brand: cc  
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: camborne-campus st-austell-campus saltash-campus eden-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -181,7 +181,7 @@
   level: 2 3 4 5 6
   colour: D0D102   
   brand: cc 
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: camborne-campus st-austell-campus bristol-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -204,7 +204,7 @@
   level: 2 3
   colour: D0D102    
   brand: cc 
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: camborne-campus st-austell-campus 
   campus-long:
     - campus-name: Camborne Campus
@@ -225,7 +225,7 @@
   level: 1 2 3 4 5 6
   colour: 01A4A4  
   brand: cc 
-  sector: 16-18 19+ university apprenticeships
+  sector: 16-18 19plus university apprenticeships
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -269,7 +269,7 @@
   level: Entry 1 2
   colour: F18D05  
   brand: cc dc bc
-  sector: 16-18 19+ 
+  sector: 16-18 19plus 
   campus: stoke-campus bicton-campus camborne-campus saltash-campus st-austell-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -299,7 +299,7 @@
   level: 1 2 3
   colour: D70060  
   brand: cc
-  sector: 16-18 19+ apprenticeships 
+  sector: 16-18 19plus apprenticeships 
   campus: camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -320,7 +320,7 @@
   level: 2 3 4 5
   colour: D70060  
   brand: cc
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: camborne-campus st-austell-campus
   campus-long:
     - campus-name: Camborne Campus
@@ -340,7 +340,7 @@
   level: 1 2 3 4 5 6
   colour: D70060  
   brand: cc fms dc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: camborne-campus st-austell-campus falmouth-campus stoke-campus
   campus-long:
       
@@ -371,7 +371,7 @@
   level: 1 2 3 4 5 6
   colour: 61AE24
   brand: bic dc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: bicton-campus rosewarne-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -395,7 +395,7 @@
   level: 1 2 3 6
   colour: 61AE24  
   brand: bic dc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: bicton-campus rosewarne-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -418,7 +418,7 @@
   level: 1 2 3 4 5 6
   colour: 61AE24  
   brand: bic dc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: bicton-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -436,7 +436,7 @@
   level: 2 3 4 5 6
   colour: 61AE24  
   brand: dc
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: stoke-campus
   campus-long:
       
@@ -451,7 +451,7 @@
   level: 1 2 3 6
   colour: 61AE24 
   brand: bic dc
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: bicton-campus rosewarne-campus stoke-campus eden
   campus-long:
     - campus-name: Bicton Campus
@@ -474,7 +474,7 @@
   level: 1 2 3
   colour: 61AE24  
   brand: bic dc
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: bicton-campus rosewarne-campus stoke-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -499,7 +499,7 @@
   level: 2 3 4 5 6
   colour: 113F8C
   brand: cc
-  sector: 16-18 19+ university
+  sector: 16-18 19plus university
   campus: camborne-campus st-austell-campus
   campus-long:  
     - campus-name: Camborne Campus
@@ -518,7 +518,7 @@
   icon: fa-anchor
   level: 2 3 4 5 6
   colour: 113F8C 
-  sector: 16-18 19+ university
+  sector: 16-18 19plus university
   brand: fms 
   campus: falmouth-campus 
   campus-long:      
@@ -536,7 +536,7 @@
   level: 3 6
   colour: 113F8C
   brand: cc  
-  sector: 16-18 19+ university
+  sector: 16-18 19plus university
   campus: newquay-campus
   campus-long:
     - campus-name: Newquay Campus
@@ -551,7 +551,7 @@
   level: 1 2 3
   colour: 00A1CB
   brand:  fms
-  sector: 16-18 apprenticeships 19+
+  sector: 16-18 apprenticeships 19plus
   campus: falmouth-campus
   campus-long:
     - campus-name: Falmouth Campus
@@ -568,7 +568,7 @@
   level: 1 2 3
   colour: 00A1CB
   brand:  bic cc dc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: bicton-campus camborne-campus st-austell-campus saltash-campus
   campus-long:
     - campus-name: Bicton Campus
@@ -594,7 +594,7 @@
   level: 1 2 3
   colour: 00A1CB
   brand:  bic cc
-  sector: 16-18 19+ apprenticeships university
+  sector: 16-18 19plus apprenticeships university
   campus: bicton-campus camborne-campus st-austell-campus saltash-campus  
   campus-long:
     - campus-name: Bicton Campus
@@ -617,7 +617,7 @@
   level: Entry 1 2 3
   colour: 00A1CB
   brand:  cc
-  sector: 16-18 19+ apprenticeships
+  sector: 16-18 19plus apprenticeships
   campus: camborne-campus st-austell-campus
   campus-long:
     - campus-name: Camborne Campus
