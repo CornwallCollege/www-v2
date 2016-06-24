@@ -37,9 +37,11 @@
 - menu-name: What you study
   menu-link: learning-area-hub/ 
   sub-menu: 
+      - sub-menu-name: What you study hub  
+        sub-menu-link: learning-area-hub/ 
   
 - menu-name: Your next step
-  menu-link: learning-area-hub/
+  menu-link: sector-hub/
   sub-menu: 
       - sub-menu-name: 16-18  
         sub-menu-link: 16-18-hub/
