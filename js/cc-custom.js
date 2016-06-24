@@ -1,8 +1,4 @@
-// Ajax menu into #main-menu
-$(document).ready(function(){ 
-        $("#main-menu").load("/global-menu.html");
-        $("#footer").load("/global-footer.html");
-});
+
 
 /* SWIPER options (home page)*/
 $(function () {
@@ -13,7 +9,8 @@ $(function () {
             pagination: '.swiper-pagination-h',
             paginationClickable: true,
             spaceBetween: 0,
-            hashnav: true
+            hashnav: true,
+            threshold: 75,
         });
         var swiperV = new Swiper('.swiper-container-v', {
             pagination: '.swiper-pagination-v',
@@ -22,6 +19,7 @@ $(function () {
             spaceBetween: 0,
             nextButton: '.swiper-button-more',
             prevButton: '.swiper-button-less',
+            threshold: 50
 
         });
 
@@ -106,6 +104,12 @@ $(function () {
             changeCurrentLogo();
         })
     }
+    
+    // Ajax menu into #main-menu
+$(document).ready(function(){ 
+        $("#main-menu").load("/global-menu.html");
+        $("#footer").load("/global-footer.html");
+});
 });
 
 /* swiper ends */
