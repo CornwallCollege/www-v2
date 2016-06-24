@@ -37,9 +37,11 @@
 - menu-name: What you study
   menu-link: learning-area-hub/ 
   sub-menu: 
+      - sub-menu-name: What you study hub  
+        sub-menu-link: learning-area-hub/ 
   
 - menu-name: Your next step
-  menu-link: learning-area-hub/
+  menu-link: sector-hub/
   sub-menu: 
       - sub-menu-name: 16-18  
         sub-menu-link: 16-18-hub/
@@ -58,6 +60,12 @@
         
       - sub-menu-name: Business Training
         sub-menu-link: http://www.ccbtraining.co.uk
+        
+- menu-name: Career Area
+  menu-link: career-hub/ 
+  sub-menu: 
+      - sub-menu-name: Career Area hub  
+        sub-menu-link: career-hub/  
         
 - menu-name: About Us
   menu-link: about-hub/ 
