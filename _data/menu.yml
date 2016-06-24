@@ -61,11 +61,11 @@
       - sub-menu-name: Business Training
         sub-menu-link: http://www.ccbtraining.co.uk
         
-- menu-name: Career area
+- menu-name: Career Area
   menu-link: career-hub/ 
   sub-menu: 
-      - sub-menu-name: 
-        sub-menu-link:   
+      - sub-menu-name: Career Area hub  
+        sub-menu-link: career-hub/  
         
 - menu-name: About Us
   menu-link: about-hub/ 
