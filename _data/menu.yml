@@ -80,7 +80,7 @@
         sub-menu-link: location-hub/
         
       - sub-menu-name: Downloads & Documents
-        sub-menu-link: https://about-pages/downloads.html
+        sub-menu-link: about-pages/downloads.html
         
       - sub-menu-name: Open to the Public
         sub-menu-link: https://open-for-business.cornwall.ac.uk    
