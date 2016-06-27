@@ -1,0 +1,80 @@
+- business: Evolve Sports &amp; Fitness
+  color: 37aae3
+  title: Sports and Fitness Facilities Open to the Public at Camborne, St Austell and Duchy College Stoke Climsland
+  text: At Cornwall College Camborne we have a sports hall, fitness suite, 3G all weather pitch and grass pitch.<br>
+        At Cornwall College St Austell we have a fitness suite.<br>
+        At Duchy Stoke Climsland we have a sports hall, fitness suite and grass pitch.<br>
+        For further information about Sport & Fitness facilities open to the public, please contact<br>
+        St Austell 01726 226440<br>
+        Camborne 01209 617732<br>
+        Stoke Climsland 01579 372206<br>
+        Email sportandfitness@cornwall.ac.uk<br>
+  class: cluster-hover col-xs-12 col-sm-12 col-md-4 col-lg-3
+  short: evolve
+  
+  
+- business: Koko hair beauty and holistic therapies
+  color: 8b005b
+  title: Koko hair and beauty salons are located at three Cornwall College campuses – Saltash, St Austell and Camborne.
+  text: A wide range of services and treatments are available, including hair cutting and colouring, massage, facials, body toning           wraps, waxing, electrolysis, tanning, manicures and pedicures.<br>
+        As training salons, all services at Koko are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.<br>
+        We only use high-quality professional products, from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all Koko salons.<br>
+        New for 2015 we are delighted to offer skin rejuvenation and hair removal with the Lynton Luminette Advance intense pulsed light system (IPL) – contact your nearest Koko salon to check availability and discuss your treatment requirements.<br>
+        Download a price list.<br>
+        Get in touch to book an appointment<br>
+        Click on the salon names for directions. There is dedicated customer parking for the Koko salons at Cornwall College Camborne and St Austell. Click here for opening hours.<br>
+        Saltash
+        Hairdressing 01752 850207<br>
+        Beauty & Holistic Therapies 01752 850206<br>
+        Koko.saltash@cornwall.ac.uk<br>
+        St Austell<br>
+        Hairdressing 01726 226728<br>
+        Beauty & Holistic Therapies 01726 226731<br>
+        Koko.staustell@cornwall.ac.uk<br>
+        Camborne<br>
+        Hairdressing 01209 616167<br>
+        Beauty & Holistic Therapies 01209 616167 
+        Koko.camborne@cornwall.ac.uk
+  class: cluster-hover col-xs-12 col-sm-12 col-md-4 col-lg-3
+  short: Koko
+  
+  
+- business: Mill Autoquip
+  color: e6007e
+  title: John
+  text: Old Boy
+  class: cluster-hover col-xs-12 col-sm-12 col-md-4 col-lg-6
+  short: mill
+  
+  
+- business: Trevenson Restaurant
+  color: 5f5f5f
+  title: John
+  text: Old Boy
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-5
+  short: trevenson
+  
+  
+- business: Cloisters Restaurant
+  color: ca1b3c
+  title: John
+  text: Old Boy
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-2
+  short: cloisters
+  
+  
+- business: Room Booking
+  color: 203d7c
+  title: John
+  text: Old Boy
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-3
+  short: room
+  
+  
+- business: Pirans College Shop
+  color: 29292a
+  title: John
+  text: Old Boy
+  class: cluster-hover col-xs-12 col-sm-12 col-md-3 col-lg-2
+  short: pirans
+  
