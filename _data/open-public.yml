@@ -70,17 +70,16 @@
   short: koko
   title: Koko hair and beauty salons are located at three Cornwall College campuses – Saltash, St Austell and Camborne.
   text: A wide range of services and treatments are available, including
-        hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures.<br>
-        As training salons, all services at koko are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.<br>
-        We only use high-quality professional products, from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all koko salons.<br>
-        New for 2015 we are delighted to offer skin rejuvenation and hair removal with the Lynton Luminette Advance intense pulsed light system (IPL) – contact your nearest koko salon to check availability and discuss your treatment requirements.<br>
+        As training salons, all services at Koko are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.<br>
+        We only use high-quality professional products, from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all Koko salons.<br>
+        New for 2015 we are delighted to offer skin rejuvenation and hair removal with the Lynton Luminette Advance intense pulsed light system (IPL) – contact your nearest Koko salon to check availability and discuss your treatment requirements.<br>
         Download a price list.<br>
         Get in touch to book an appointment<br>
-        Click on the salon names for directions. There is dedicated customer parking for the koko salons at Cornwall College Camborne and St Austell. Click here for opening hours.
+        Click on the salon names for directions. There is dedicated customer parking for the Koko salons at Cornwall College Camborne and St Austell. Click here for opening hours.<br>
   campus:
     - campus-name: Cornwall College Camborne
       id: collapse7
-      class: panel-collapse collapse in
+        Koko.saltash@cornwall.ac.uk<br>
       text: Hairdressing 01209 616167<br>
             Beauty & Holistic Therapies 01209 616167<br>
             koko.camborne@cornwall.ac.uk
@@ -90,13 +89,13 @@
       class: panel-collapse collapse
       text: Hairdressing 01726 226728<br>
             Beauty & Holistic Therapies 01726 226731<br>
-            koko.staustell@cornwall.ac.uk<br>
+        Koko.staustell@cornwall.ac.uk<br>
       
     - campus-name: Cornwall College Saltash
       id: collapse9
-      class: panel-collapse collapse
+        Koko.camborne@cornwall.ac.uk
       text: Hairdressing 01752 850207<br>
-            Beauty & Holistic Therapies 01752 850206<br>
+  short: Koko
             koko.saltash@cornwall.ac.uk<br>
   table:
     - icon: fa fa-clock-o

@@ -4039,6 +4039,12 @@ ul#og-grid li h4{
     width: 100%;
 }
 /* Campus Overview / Location hub */
+@media(max-width:640px){
+    #location-map{
+        max-height: 75%;
+        overflow: hidden;
+    }
+}
 .campus-overview{
     padding: 20px 0 50px 0;
 }
