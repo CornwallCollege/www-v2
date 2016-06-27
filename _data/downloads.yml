@@ -1,0 +1,10 @@
+#Test
+- title: Example document # Document name
+  type: PDF # Document type
+  category: prospectus # Document category
+  download-link: https://www.cornwall.ac.uk/sites/default/files/documents/16-18%20Bursary%20Application%20Form%202016%20-17%20%283%29_0.pdf
+  search-link: Example-document # Document name
+  colour: 616161
+  
+
+  
