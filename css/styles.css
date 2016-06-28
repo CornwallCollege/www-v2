@@ -4251,6 +4251,9 @@ form textarea.error {
     font-weight: 400;
     background: #52B3D9;
 }
+.all-contact-details .contact-details tr td:last-child {
+    background: initial;
+}
 
 .contact-details td a {
     letter-spacing: 1.5px;
