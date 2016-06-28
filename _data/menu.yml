@@ -71,7 +71,7 @@
   menu-link: about-hub/ 
   sub-menu:
       - sub-menu-name: Contact us/ how to find us
-        sub-menu-link: to be created 
+        sub-menu-link: about-pages/contact.html
       
       - sub-menu-name:  College Governance 
         sub-menu-link: https://network.cornwall.ac.uk/governance  
