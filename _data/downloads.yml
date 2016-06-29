@@ -35,7 +35,7 @@
 - title: Additional Travel Information Sheet  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/Application-form/Additional Travel Information Sheet.pdf
+  download-link: /documents/Application-form/Additional Travel Information Sheet.docx
   search-link: Additional-Travel-Information-Sheet # Document name
   colour: 77BC43
   
@@ -43,7 +43,7 @@
 - title: Application Day Consent form  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/Application Day Consent form.pdf
+  download-link: /documents/Application Day Consent form.doc
   search-link: Application-Day-Consent-form # Document name
   colour: 77BC43
   
@@ -75,7 +75,7 @@
 - title: FE Application for Financial Help Towards Childcare  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/FE Application for Financial Help Towards Childcare.pdf
+  download-link: /documents/FE Application for Financial Help Towards Childcare.docx
   search-link: FE-Application-for-Financial-Help-Towards-Childcare # Document name
   colour: 77BC43
   
@@ -83,7 +83,7 @@
 - title: FE Application form - Sep 2014  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/FE Application form - Sep 2014.pdf
+  download-link: /documents/FE Application form - Sep 2014.doc
   search-link: FE-Application-form-Sep 2014 # Document name
   colour: 77BC43
   
@@ -92,7 +92,7 @@
 - title: Free College Meals  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/Free College Meals.pdf
+  download-link: /documents/Free College Meals.docx
   search-link: Free-College-Meals # Document name
   colour: 77BC43
   
@@ -132,15 +132,57 @@
 - title: Spark application form 2015 NEW  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/Spark application form 2015 NEW.pdf
+  download-link: /documents/Spark application form 2015 NEW.docx
   search-link: Spark-application-form-2015-NEW # Document name
   colour: 77BC43
   
+  #Sports Application(1)
+- title: Sports Application(1)  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Sports Application(1).pdf
+  search-link: Sports-Application(1) # Document name
+  colour: 77BC43
   
+  #STAC Room Booking Form
+- title: STAC Room Booking Form  # Document name
+  type: Excel Spreadsheet # Document type
+  category: application-forms # Document category
+  download-link: /documents/STAC Room Booking Form.xlsx
+  search-link: STAC-Room-Booking-Form # Document name
+  colour: 77BC43
   
+  #Student Services Bursaries App Form (updated 20 July 2015) AC
+- title: Student Services Bursaries App Form (updated 20 July 2015) AC  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Student Services Bursaries App Form (updated 20 July 2015) AC.docx
+  search-link: Student-Services-Bursaries-App Form-(updated 20 July 2015)-AC # Document name
+  colour: 77BC43
   
+  #Teenage Pregnancy FE Project Referral Form 190713
+- title: Teenage Pregnancy FE Project Referral Form 190713  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Teenage Pregnancy FE Project Referral Form 190713.doc
+  search-link: Teenage-Pregnancy-FE-Project-Referral-Form-190713 # Document name
+  colour: 77BC43
   
+  #Transport App Form 24.03.14
+- title: Transport App Form 24.03.14  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Transport App Form 24.03.14.pdf
+  search-link: Transport-App-Form-24.03.14 # Document name
+  colour: 77BC43
   
+  #Unaffiliated Dressage ENTRY FORM-test5
+- title: Unaffiliated Dressage ENTRY FORM-test5  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Unaffiliated Dressage ENTRY FORM-test5.pdf
+  search-link: Unaffiliated-Dressage-ENTRY-FORM-test5 # Document name
+  colour: 77BC43
   
   
   
