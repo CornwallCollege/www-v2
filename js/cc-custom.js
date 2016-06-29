@@ -1,4 +1,4 @@
-// Ajax menu into #main-menu
+
 jQuery(document).ready(function(){ 
         jQuery("#main-menu").load("/global-menu.html");
         jQuery("#footer").load("/global-footer.html");
@@ -21,7 +21,8 @@ $(function () {
             pagination: '.swiper-pagination-h',
             paginationClickable: true,
             spaceBetween: 0,
-            hashnav: true
+            hashnav: true,
+            threshold: 75,
         });
         var swiperV = new Swiper('.swiper-container-v', {
             pagination: '.swiper-pagination-v',
@@ -30,6 +31,7 @@ $(function () {
             spaceBetween: 0,
             nextButton: '.swiper-button-more',
             prevButton: '.swiper-button-less',
+            threshold: 50
 
         });
 
@@ -114,6 +116,12 @@ $(function () {
             changeCurrentLogo();
         })
     }
+    
+    // Ajax menu into #main-menu
+$(document).ready(function(){ 
+        $("#main-menu").load("/global-menu.html");
+        $("#footer").load("/global-footer.html");
+});
 });
 
 /* swiper ends */
@@ -416,6 +424,7 @@ function incrementCount(counter) {
         window.smoothScrollTo = function (id) {
             $('html, body').animate({
                 scrollTop: $('#' + id).offset().top - 50
+                //scrollTop: $('#' + id).offset().top
             }, 500);
             return false;
         }
@@ -1023,6 +1032,3 @@ $( document ).ready( function() {
 
 */
 });
-
-
-

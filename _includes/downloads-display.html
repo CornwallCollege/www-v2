@@ -1,0 +1,81 @@
+    <div id="form-ui">
+    <h3>Document filters</h3>  
+    <p class="lead no-margin">Filter the selected documents using the filters below.</p>    
+    <div class="col-xs-12 col-md-12">    
+        <h5>Category</h5>    
+        <div class="btn-group" data-toggle="buttons">
+          <label class="area-filter btn btn-primary">
+            <input type="checkbox" value=".application-forms" autocomplete="off" >Application forms
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".course-documents" autocomplete="off">Course Documents
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".equality-and-diversity" autocomplete="off">Equality and diversity
+          </label>            
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".guides" autocomplete="off">Guides
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".maps" autocomplete="off">Maps
+          </label>   
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".newsletter" autocomplete="off">Newsletter
+          </label>    
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".other" autocomplete="off">Other
+          </label>    
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".plans" autocomplete="off">Plans
+          </label> 
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".prospectus" autocomplete="off">Prospectuses
+          </label>    
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" value=".reports" autocomplete="off">Reports
+          </label>
+          </div> 
+        </div>
+    </div>
+
+      <!-- <p id="output">--</p>  -->   
+    </div>
+</section>
+    <section class="career-items container">
+        <a id="area-grid-anchor"></a>
+        <ul id="learning-area-grid" class="grid-layout more-padding hover-effect">
+            <li>
+                <figure>
+
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+
+<!-- Learning Area Divs -->
+<section id="career-list" class="container">
+        <div id="career-content" >
+            
+        {% for title in site.data.downloads %}
+            
+            
+            <div class="area {{title.category}} col-xs-12 col-sm-6 col-md-4 col-lg-2" style="border-left:solid 10px #{{ cluster.colour }};">
+                <a data-toggle="collapse" data-target="#{{ title.category }}" href="#{{ title.search-link }}" >    
+                    <h4><span style="color:#{{ title.colour }};">{{ title.category }}</span>{{ title.title }}</h4>
+                    <a style="btn" href="{{ title.download-link }}"> Download File</a>
+                </a>
+                    
+            </div>    
+        
+            
+           
+           
+        {% endfor %}            
+            
+            
+          
+        </div>
+</section>    
+
+    <!--learning area section ends -->

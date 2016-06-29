@@ -3001,51 +3001,318 @@ APPLY BARS =====================================================================
 .public-body {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+}
+
+.public-body h2{
+    margin: 0;
+}
+
+.public-body p {
+    color: white;
+    margin: 0 0 10px 0;
 }
 
 .public-body table {
-    background-color: white;  
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
-.public-body table td.one {
-    text-align: center;
-    width: 50%;
+.public-body table th {
+    display: none;
 }
+
+.public-body table td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 50px;
+}
+
+.public-body .panel {
+    border: none;
+}
+
+.public-body .panel-title {
+    color: white;
+}
+
+.public-body .panel-body {
+    color: white;
+}
+
+.public-body img.business-image {
+    height: 247px;
+    width: 247px;
+}
+
+
+#flying {
+    background-color: #0624a2;
+    color: white;
+}
+
+#flying .one {
+    background-color: #6684FF;
+}
+
+#flying .two {
+    background-color: #1440F3;
+}
+
 
 #evolve {
     background-color: #37aae3;
     color: white;
 }
 
+#evolve .one {
+    background-color: #5CBCEB;
+}
+
+#evolve .two {
+    background-color: #1298D9;
+}
+
+
 #koko {
     background-color: #8b005b;
     color: white;
 }
+
+#koko .one {
+    background-color: #FF3FBC;
+}
+
+#koko .two {
+    background-color: #D9038E;
+}
+
 
 #mill {
     background-color: #e6007e;
     color: white;
 }
 
+#mill .one {
+    background-color: #FF69BB;
+}
+
+#mill .two {
+    background-color: #F62E9B;
+}
+
+
 #trevenson {
     background-color: #5f5f5f;
     color: white;
 }
+
+#trevenson .one {
+    background-color: #BEBDBD;
+}
+
+#trevenson .two {
+    background-color: #8E8E8E;
+}
+
 
 #cloisters {
     background-color: #ca1b3c;
     color: white;
 }
 
+#cloisters .one {
+    background-color: #EF6F88;
+}
+
+#cloisters .two {
+    background-color: #D94461;
+}
+
+
 #room {
     background-color: #203d7c;
     color: white;
 }
 
+#room .one {
+    background-color: #546EA4;
+}
+
+#room .two {
+    background-color: #36528F;
+}
+
+
 #pirans {
     background-color: #292929;
     color: white;
 }
+
+#pirans .one {
+    background-color: #979595;
+}
+
+#pirans .two {
+    background-color: #636363;
+}
+
+
+/* Cluster Tile Colors*/
+.public-filter ul li a.flying {
+    border: 5px solid #0624a2;
+    color:  white;
+    background-color: #0624a2;
+}
+
+.public-filter ul li a.flying:hover {
+    border: 5px solid #0624a2;
+    color: #0624a2;
+    background-color: white;
+}
+
+.public-filter li a.selected.flying {
+    color: #0624a2;
+    border: 5px solid #0624a2;
+    background-color: white;
+}
+
+
+.public-filter ul li a.evolve {
+    border: 5px solid #37aae3;
+    color:  white;
+    background-color: #37aae3;
+}
+
+.public-filter ul li a.evolve:hover {
+    border: 5px solid #37aae3;
+    color: #37aae3;
+    background-color: white;
+}
+
+.public-filter li a.selected.evolve {
+    color: #37aae3;
+    border: 5px solid #37aae3;
+    background-color: white;
+}
+
+
+.public-filter ul li a.koko {
+    border: 5px solid #8b005b;
+    color:  white;
+    background-color: #8b005b;    
+}
+
+.public-filter ul li a.koko:hover {
+    border: 5px solid #8b005b;
+    color: #8b005b;
+    background-color: white;
+}
+
+.public-filter li a.selected.koko {
+    border: 5px solid #8b005b;
+    color: #8b005b;
+    background-color: white;
+}
+
+
+.public-filter ul li a.mill {
+    border: 5px solid #e6007e;
+    color:  white;
+    background-color: #e6007e;    
+}
+
+.public-filter ul li a.mill:hover {
+    border: 5px solid #e6007e;
+    color: #e6007e;
+    background-color: white;
+}
+
+.public-filter li a.selected.mill {
+    border: 5px solid #e6007e;
+    color: #e6007e;
+    background-color: white;
+}
+
+
+.public-filter ul li a.trevenson {
+    border: 5px solid #5f5f5f;
+    color:  white;
+    background-color: #5f5f5f;    
+}
+
+.public-filter ul li a.trevenson:hover {
+    border: 5px solid #5f5f5f;
+    color: #5f5f5f;
+    background-color: white;
+}
+
+.public-filter li a.selected.trevenson {
+    border: 5px solid #5f5f5f;
+    color: #5f5f5f;
+    background-color: white;
+}
+
+
+.public-filter ul li a.cloisters {
+    border: 5px solid #ca1b3c;
+    color:  white;
+    background-color: #ca1b3c;    
+}
+
+.public-filter ul li a.cloisters:hover {
+    border: 5px solid #ca1b3c;
+    color: #ca1b3c;
+    background-color: white;
+}
+
+.public-filter li a.selected.cloisters {
+    border: 5px solid #ca1b3c;    
+    color: #ca1b3c;
+    background-color: white;
+}
+
+
+.public-filter ul li a.room {
+    border: 5px solid #203d7c;
+    color:  white;
+    background-color: #203d7c;    
+}
+
+.public-filter ul li a.room:hover {
+    border: 5px solid #203d7c;
+    color: #203d7c;
+    background-color: white;
+}
+
+.public-filter li a.selected.room {
+    border: 5px solid #203d7c;    
+    color: #203d7c;
+    background-color: white;
+}
+
+
+.public-filter ul li a.pirans {
+    border: 5px solid #292929;
+    color:  white;
+    background-color: #292929;      
+}
+
+.public-filter ul li a.pirans:hover {
+    border: 5px solid #292929;
+    color: #292929;
+    background-color: white;
+}
+
+.public-filter li a.selected.pirans {
+    border: 5px solid #292929; 
+    color: #292929;
+    background-color: white;
+}
+
 
 #public {
     background-size: -webkit-cover;
@@ -3127,133 +3394,8 @@ APPLY BARS =====================================================================
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
 }
-/* Cluster Colors*/
 
-.public-filter ul li a.pirans {
-    border: 5px solid #292929;
-    color:  white;
-    background-color: #292929;      
-}
 
-.public-filter ul li a.pirans:hover {
-    border: 5px solid #292929;
-    color: #292929;
-    background-color: white;
-}
-
-.public-filter li a.selected.pirans {
-    border: 5px solid #292929; 
-    color: #292929;
-    background-color: white;
-}
-
-.public-filter ul li a.cloisters {
-    border: 5px solid #ca1b3c;
-    color:  white;
-    background-color: #ca1b3c;    
-}
-
-.public-filter ul li a.cloisters:hover {
-    border: 5px solid #ca1b3c;
-    color: #ca1b3c;
-    background-color: white;
-}
-
-.public-filter li a.selected.cloisters {
-    border: 5px solid #ca1b3c;    
-    color: #ca1b3c;
-    background-color: white;
-}
-
-.public-filter ul li a.room {
-    border: 5px solid #203d7c;
-    color:  white;
-    background-color: #203d7c;    
-}
-
-.public-filter ul li a.room:hover {
-    background-color: white;
-    border: 5px solid #203d7c;
-    color: #203d7c;    
-}
-
-.public-filter li a.selected.room {
-    border: 5px solid #203d7c;    
-    background-color: white;
-    color: #203d7c;
-}
-
-.public-filter ul li a.trevenson {
-    border: 5px solid #5f5f5f;
-    color:  white;
-    background-color: #5f5f5f;    
-}
-
-.public-filter ul li a.trevenson:hover {
-    background-color: white;
-    border: 5px solid #5f5f5f;
-    color: #5f5f5f;    
-}
-
-.public-filter li a.selected.trevenson {
-    background-color: white;
-    border: 5px solid #5f5f5f;    
-    color: #5f5f5f;
-}
-
-.public-filter ul li a.evolve {
-    border: 5px solid #37aae3;
-    color:  white;
-    background-color: #37aae3;    
-}
-
-.public-filter ul li a.evolve:hover {
-    background-color: white;
-    border: 5px solid #37aae3;
-    color: #37aae3;    
-}
-
-.public-filter li a.selected.evolve {
-    background-color: white;
-    color: #37aae3;
-    border: 5px solid #37aae3;    
-}
-
-.public-filter ul li a.mill {
-    border: 5px solid #e6007e;
-    color:  white;
-    background-color: #e6007e;    
-}
-
-.public-filter ul li a.mill:hover {
-    background-color: white;
-    border: 5px solid #e6007e;
-    color: #e6007e;    
-}
-
-.public-filter li a.selected.mill {
-    background-color: white;
-    color: #e6007e;
-    border: 5px solid #e6007e;    
-}
-
-.public-filter ul li a.koko {
-    border: 5px solid #8b005b;
-    color:  white;
-    background-color: #8b005b;    
-}
-
-.public-filter ul li a.koko:hover {
-    background-color: white;
-    border: 5px solid #8b005b;
-    color: #8b005b;    
-}
-
-.public-filter li a.selected.koko {
-    background-color: white;
-    color: #8b005b;
-    border: 5px solid #8b005b;    
-}
 
 @media(max-width:765px) {
     .public-filter ul li a {
@@ -4031,7 +4173,7 @@ ul#og-grid li h4{
 }
 /* Sisna */
 #sisna{
-    background: grey;
+    background: #C6C6C6;
 }
 /* Stoke Campus */
 #stoke,

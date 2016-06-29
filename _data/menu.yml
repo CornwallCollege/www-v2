@@ -70,14 +70,17 @@
 - menu-name: About Us
   menu-link: about-hub/ 
   sub-menu:
-      - sub-menu-name: College Governance 
+      - sub-menu-name: Contact us/ how to find us
+        sub-menu-link: about-pages/contact.html
+      
+      - sub-menu-name:  College Governance 
         sub-menu-link: https://network.cornwall.ac.uk/governance  
         
       - sub-menu-name: Our Campuses
         sub-menu-link: location-hub/
         
       - sub-menu-name: Downloads & Documents
-        sub-menu-link: download-hub/  
+        sub-menu-link: about-pages/download.html
         
       - sub-menu-name: Open to the Public
         sub-menu-link: https://open-for-business.cornwall.ac.uk    
