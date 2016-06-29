@@ -1,4 +1,16 @@
 
+jQuery(document).ready(function(){ 
+        jQuery("#main-menu").load("/global-menu.html");
+        jQuery("#footer").load("/global-footer.html");
+});
+
+jQuery(document).on("click","#question",function(e) {
+    var pageURL = jQuery(location).attr("href");
+    //var formURL = 'https://network.cornwall.ac.uk/form/'
+    e.preventDefault();
+    //window.location.href = $(this).attr("href") + '?' + pageURL;  
+    window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;     
+});   
 
 /* SWIPER options (home page)*/
 $(function () {
