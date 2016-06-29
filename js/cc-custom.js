@@ -949,7 +949,12 @@ $( document ).ready( function() {
     itemSelector: '.area',
     //resizable: false
   });
- 
+    
+  var $container = $('#download-content').isotope({
+    itemSelector: '.download',
+    //resizable: false
+  });
+    
   var $sector = $('#sector-page-content').isotope({
     itemSelector: '.area',
     //resizable: false

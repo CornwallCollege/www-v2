@@ -3,9 +3,9 @@
     <p class="lead no-margin">Filter the selected documents using the filters below.</p>    
     <div class="col-xs-12 col-md-12">    
         <h5>Category</h5>    
-        <div class="btn-group" data-toggle="buttons">
+        <div class="btn-group" data-toggle="buttons" >
           <label class="area-filter btn btn-primary">
-            <input type="checkbox" value=".application-forms" autocomplete="off" >Application forms
+            <input type="checkbox" value=".application-forms" autocomplete="off">Application forms
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" value=".course-documents" autocomplete="off">Course Documents
@@ -52,25 +52,21 @@
         </ul>
     </section>
 
-
-<!-- Learning Area Divs -->
-<section id="career-list" class="container">
-        <div id="career-content" >
+<!-- Download Divs -->
+<section id="download-list" class="container">
+        <div id="download-content" >  
             
         {% for title in site.data.downloads %}
             
             
-            <div class="area {{title.category}} col-xs-12 col-sm-6 col-md-4 col-lg-2" style="border-left:solid 10px #{{ cluster.colour }};">
+            <div class="download {{title.category}} col-xs-12 col-sm-6 col-md-4 col-lg-2" style="border-left:solid 5px #{{ title.colour }};">
                 <a data-toggle="collapse" data-target="#{{ title.category }}" href="#{{ title.search-link }}" >    
-                    <h4><span style="color:#{{ title.colour }};">{{ title.category }}</span>{{ title.title }}</h4>
-                    <a style="btn" href="{{ title.download-link }}"> Download File</a>
+                    <h4><span style="color:#{{ title.colour }};">{{ title.category }}</span>{{ title.title }}<span>File Type:{{ title.type }}</span></h4>
+                    <a class="btn" style="margin-botttom:5px" href="{{ title.download-link }}" > Download File</a>
                 </a>
                     
             </div>    
-        
-            
-           
-           
+
         {% endfor %}            
             
             
@@ -78,4 +74,4 @@
         </div>
 </section>    
 
-    <!--learning area section ends -->
+    <!--Download section ends -->
