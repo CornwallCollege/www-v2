@@ -393,7 +393,7 @@
   colour: 004B93
   
   #Programme_Quality_FdA Children and Young Peoples Workforce
-- title: Programme_Quality_FdA Children and Young Peoples Workforce # Document name
+- title: Programme Quality FdA Children and Young Peoples Workforce # Document name
   type: Word # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/Programme_Quality_FdA Children and Young Peoples Workforce.docx
@@ -489,7 +489,7 @@
   colour: 004B93
   
   #Programme_Quality_FdSc Marine Conservation
-- title: Programme_Quality_FdSc Marine Conservation # Document name
+- title: Programme Quality FdSc Marine Conservation # Document name
   type: Word # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/Programme_Quality_FdSc Marine Conservation.docx
@@ -569,7 +569,7 @@
   colour: 004B93
   
   #Programme_Quality_HNCD Games Design for Industry_0
-- title: Programme_Quality_HNCD Games Design for Industry # Document name
+- title: Programme Quality HNCD Games Design for Industry # Document name
   type: Word # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/Programme_Quality_HNCD Games Design for Industry_0.docx
@@ -608,5 +608,77 @@
   search-link: Seale-Hayne-Booklet-30.03.15 # Document name
   colour: 004B93
   
+  #End of Course Documents section
   
+  #EandD_Action_Plan_2011-12_(Completed)
+- title: EandD Action Plan 2011-12 (Completed) # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/EandD_Action_Plan_2011-12_(Completed).docx
+  search-link: EandD-Action-Plan-2011-12-(Completed) # Document name
+  colour: CC0E0E
+  
+  #EandD_Annual_Report_2011-12_Final(1)
+- title: EandD_Annual_Report_2011-12_Final # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/EandD_Annual_Report_2011-12_Final(1).pdf
+  search-link: EandD-Annual-Report-2011-12-Final(1) # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Action Plan 2012-13 (Completed)
+- title: Equality and Diversity Action Plan 2012-13 (Completed) # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Action Plan 2012-13 (Completed).docx
+  search-link: Equality-and-Diversity-Action-Plan-2012-13-(Completed) # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Action Plan 2013-14
+- title: Equality and Diversity Action Plan 2013-14 # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Action Plan 2013-14.docx
+  search-link: Equality-and-Diversity-Action-Plan-2013-14 # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Annual Report 2012-13
+- title: Equality and Diversity Annual Report 2012-13 # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Annual Report 2012-13.docx
+  search-link: Equality-and-Diversity-Annual-Report-2012-13 # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Policy 2013 06
+- title: Equality and Diversity Policy 2013 # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Policy 2013 06.docx
+  search-link: Equality-and-Diversity-Policy-2013-06 # Document name
+  colour: CC0E0E
+  
+  #final final local offer brochure/Special Educational Needs and Disability Local Offer
+- title: Special Educational Needs and Disability Local Offer # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/final final local offer brochure.pdf
+  search-link: final-final-local-offer-brochure # Document name
+  colour: CC0E0E
+  
+  #Final_Artwork-02517JW0611_CC_ED_annual_report
+- title: Final Artwork 02517JW0611 CC ED annual report # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Final_Artwork-02517JW0611_CC_ED_annual_report.pdf
+  search-link: Final-Artwork-02517JW0611-CC-ED-annual-report # Document name
+  colour: CC0E0E
+  
+  #Single_Equality_Scheme_2012-15_(2)
+- title: Single_Equality_Scheme_2012-15 # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Single_Equality_Scheme_2012-15_(2).pdf
+  search-link: Single-Equality-Scheme-2012-15-(2) # Document name
+  colour: CC0E0E
   
