@@ -675,10 +675,229 @@
   colour: CC0E0E
   
   #Single_Equality_Scheme_2012-15_(2)
-- title: Single_Equality_Scheme_2012-15 # Document name
+- title: Single Equality Scheme_2012-15 # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
   download-link: /documents/equality-and-diversity/Single_Equality_Scheme_2012-15_(2).pdf
   search-link: Single-Equality-Scheme-2012-15-(2) # Document name
   colour: CC0E0E
+  
+  # End of Equality and diversity section
+  
+  #03538JW0213_STAC_Alevel_Plus_info_A5
+- title: STAC Alevel Plus info_A5 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/03538JW0213_STAC_Alevel_Plus_info_A5.pdf
+  search-link: 03538JW0213-STAC-Alevel-Plus-info-A5 # Document name
+  colour: 00A5B4
+  
+  #A level Reforms Flyer
+- title: A level Reforms Flyer # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/A level Reforms Flyer.pdf
+  search-link: A-level-Reforms-Flyer # Document name
+  colour: 00A5B4
+  
+  #Access to He leaflet 21.11.14
+- title: Access to He leaflet 21.11.14 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Access to He leaflet 21.11.14.pdf
+  search-link: Access-to-He-leaflet-21.11.14 # Document name
+  colour: 00A5B4
+  
+  #access to He leaflet x2000
+- title: access to He leaflet x2000 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/access to He leaflet x2000.pdf
+  search-link: access-to-He-leaflet-x2000 # Document name
+  colour: 00A5B4
+  
+  #Accommodation info for HE students_1
+- title: Accommodation info for HE students # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Accommodation info for HE students_1.pdf
+  search-link: Accommodation-info-for-HE students_1 # Document name
+  colour: 00A5B4
+  
+  #Advanced Learning loans leaflet 02.03.16
+- title: Advanced Learning loans leaflet 02.03.16 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Advanced Learning loans leaflet 02.03.16.pdf
+  search-link: Advanced-Learning-loans-leaflet-02.03.16 # Document name
+  colour: 00A5B4
+  
+  #Affiliated Dressage 8th Feb times
+- title: Affiliated Dressage 8th Feb times # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Affiliated Dressage 8th Feb times.pdf
+  search-link: Affiliated-Dressage-8th-Feb-times # Document name
+  colour: 00A5B4
+  
+  #Affiliated Dressage 21st Dec 2013 times
+- title: Affiliated Dressage 21st Dec 2013 times # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Affiliated Dressage 21st Dec 2013 times.pdf
+  search-link: Affiliated-Dressage-21st-Dec-2013 times # Document name
+  colour: 00A5B4
+  
+  #Affiliated Dressage Festival times - Sunday
+- title: Affiliated Dressage Festival times - Sunday # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Affiliated Dressage Festival times - Sunday.pdf
+  search-link: Affiliated-Dressage-Festival-times-Sunday # Document name
+  colour: 00A5B4
+  
+  #Animal_Care
+- title: Animal Care # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Animal_Care.pdf
+  search-link: Animal-Care # Document name
+  colour: 00A5B4
+  
+  #App Week Toolkit Employers
+- title: App Week Toolkit Employers # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/App Week Toolkit Employers.pdf
+  search-link: App-Week-Toolkit-Employers # Document name
+  colour: 00A5B4
+  
+  #apprenticeship_food_drink_flyer
+- title: Apprenticeship Food Drink Flyer # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/apprenticeship_food_drink_flyer.pdf
+  search-link: apprenticeship-food-drink-flyer # Document name
+  colour: 00A5B4
+  
+  #ATP Fees
+- title: ATP Fees # Document name
+  type: Word # Document type
+  category: guides # Document category
+  download-link: /documents/guides/ATP Fees.docx
+  search-link: ATP Fees # Document name
+  colour: 00A5B4
+  
+  #Camborne Pool Redruth Accommodation 2015_0
+- title: Camborne Pool Redruth Accommodation 2015 # Document name
+  type: Word # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Camborne Pool Redruth Accommodation 2015_0.docx
+  search-link: ATP-Fees # Document name
+  colour: 00A5B4
+  
+  #CC A-level A5 folded Talker 1
+- title: CC A-level A5 folded Talker # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC A-level A5 folded Talker 1.pdf
+  search-link: CC-A-level-A5-folded-Talker-1 # Document name
+  colour: 00A5B4
+  
+  #CC CAM A3 Fold A5 Parents Guide
+- title: CC CAM A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC CAM A3 Fold A5 Parents Guide.pdf
+  search-link: CC-CAM-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC CAM Bus times
+- title: CC CAM Bus times # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC CAM Bus times.pdf
+  search-link: CC-CAM-Bus-times # Document name
+  colour: 00A5B4
+  
+  #CC HE T&C's 2016
+- title: CC HE T&Cs 2016 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC HE T&Cs 2016.pdf
+  search-link: CC-HE-T&Cs-2016 # Document name
+  colour: 00A5B4
+  
+  #CC NQ A3 Fold A5 Parents Guide
+- title: CC NQ A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC NQ A3 Fold A5 Parents Guide.pdf
+  search-link: CC-NQ-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC SALT A3 Fold A5 Parents Guide
+- title: CC SALT A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC SALT A3 Fold A5 Parents Guide.pdf
+  search-link: CC-SALT-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC STAC A3 Fold A5 Parents Guide
+- title: CC STAC A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC STAC A3 Fold A5 Parents Guide.pdf
+  search-link: CC-STAC-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC_FOI_Scheme_Introduction
+- title: CC FOI Scheme Introduction # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC_FOI_Scheme_Introduction.pdf
+  search-link: CC-FOI-Scheme-Introduction # Document name
+  colour: 00A5B4
+  
+  #CCES_FOI_Scheme_Introduction
+- title: CCES FOI Scheme Introduction # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CCES_FOI_Scheme_Introduction.pdf
+  search-link: CCES-FOI-Scheme-Introduction # Document name
+  colour: 00A5B4
+  
+  #Charging_Policy_from_2009
+- title: Charging Policy from 2009 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Charging_Policy_from_2009.pdf
+  search-link: Charging-Policy-from-2009 # Document name
+  colour: 00A5B4
+  
+  #Christmas Lunch Menu 2013
+- title: Christmas Lunch Menu 2013 # Document name
+  type: Word # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Christmas Lunch Menu 2013.docx
+  search-link: Christmas-Lunch-Menu-2013 # Document name
+  colour: 00A5B4
+  
+  #Clinic_Leaflet(1)
+- title: Clinic Leaflet # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Clinic_Leaflet(1).pdf
+  search-link: Clinic-Leaflet(1) # Document name
+  colour: 00A5B4
+  
+  #Complaints_against_Providers_30Nov2012_Final
+- title: Complaints against Providers 30Nov2012 Final # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Complaints_against_Providers_30Nov2012_Final.pdf
+  search-link: Complaints-against-Providers-30Nov2012-Final # Document name
+  colour: 00A5B4
+  
   
