@@ -5,37 +5,37 @@
         <h5>Campus</h5>    
         <div class="btn-group" data-toggle="buttons">
           <label class="area-filter btn btn-primary">
-            <input type="checkbox" value=".bicton-campus" autocomplete="off" >Bicton
+            <input type="checkbox" value=".bicton-campus" data-campus="bicton" >Bicton
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".camborne-campus" autocomplete="off">Camborne
+            <input type="checkbox" value=".camborne-campus" data-campus="camborne">Camborne
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".bristol-campus" autocomplete="off">dBs Bristol
+            <input type="checkbox" value=".bristol-campus" data-campus="bristol">dBs Bristol
           </label>            
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".eden-campus" autocomplete="off">Eden
+            <input type="checkbox" value=".eden-campus" data-campus="eden-project">Eden
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".falmouth-campus" autocomplete="off">Falmouth
+            <input type="checkbox" value=".falmouth-campus" data-campus="falmouth-marine-school">Falmouth
           </label>   
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".newquay-campus" autocomplete="off">Newquay
+            <input type="checkbox" value=".newquay-campus" data-campus="newquay">Newquay
           </label>    
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".rosewarne-campus" autocomplete="off">Rosewarne
+            <input type="checkbox" value=".rosewarne-campus" data-campus="rosewarne">Rosewarne
           </label>    
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".saltash-campus" autocomplete="off">Saltash
+            <input type="checkbox" value=".saltash-campus" data-campus="saltash">Saltash
           </label> 
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".st-austell-campus" autocomplete="off">St Austell
+            <input type="checkbox" value=".st-austell-campus" data-campus="st-austell">St Austell
           </label>    
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".stoke-campus" autocomplete="off">Stoke Climsland
+            <input type="checkbox" value=".stoke-campus" data-campus="stoke">Stoke Climsland
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".sisna-campus" autocomplete="off">Sisna
+            <input type="checkbox" value=".sisna-campus" data-campus="sisna-park">Sisna
           </label>     
         </div> 
     </div>
@@ -44,16 +44,16 @@
         <h5>Brand</h5>    
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".bic" autocomplete="off" > Bicton College
+            <input type="checkbox" value=".bic" data-brand="bictoncollege" > Bicton College
           </label>            
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".cc" autocomplete="off" > Cornwall College
+            <input type="checkbox" value=".cc" data-brand="cornwallcollege" > Cornwall College
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".dc" autocomplete="off"> Duchy College
+            <input type="checkbox" value=".dc" data-brand="duchycollege"> Duchy College
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".fms" autocomplete="off"> Falmouth Marine School
+            <input type="checkbox" value=".fms" data-brand="falmouthms"> Falmouth Marine School
           </label>
         </div>  
     </div>    
@@ -62,16 +62,16 @@
         <h5>Sector</h5>    
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".university" autocomplete="off" >University
+            <input type="checkbox" value=".university" data-course-type="he">University
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".16-18" autocomplete="off">16-18
+            <input type="checkbox" value=".16-18" data-course-type="fe16_18">16-18
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".19plus" autocomplete="off">Adult 19+
+            <input type="checkbox" value=".19plus" data-course-type="fe19plus">Adult 19+
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".apprenticeships" autocomplete="off">Apprenticeships
+            <input type="checkbox" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
           </label>            
             
         </div>  
@@ -107,7 +107,7 @@
                 </a>    
                 <div class="detail collapse" id="{{ cluster.search-link }}">
                     <p>{{ cluster.intro }}</p>
-                    <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right">View courses in this area</a>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right course-area">View courses in this area</a>
                 </div>    
        
             </div>

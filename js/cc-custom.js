@@ -985,6 +985,7 @@ $( document ).ready( function() {
     // filter items on button click Sector hub page
     $('.link-wrap').on( 'click', 'button', function() {
       var filterValue = $(this).attr('data-filter');
+        
       $sector.isotope({ filter: filterValue });
       $sector.show(); 
         //if 16-18 show the 'how you learn' filters 
@@ -999,15 +1000,27 @@ $( document ).ready( function() {
 
   // filter with selects and checkboxes
   var $checkboxes = $('#form-ui input');
-  
+  //declare the courseType var for use later    
+  var courseType;  
+  var campusFilter; 
+  var brandFilter;
+    
   $checkboxes.change( function() {
-    // map input values to an array
+    // map input values to an array   
+    //var exclusives = [];
     var inclusives = [];
+    //get and set course type data value
+    courseType = $(this).attr("data-course-type"); 
+    //get and set campus data value
+    campusFilter = $(this).attr("data-campus");
+    //get and set brand data value  
+    brandFilter = $(this).attr("data-brand"); 
     // inclusive filters from checkboxes
+      
     $checkboxes.each( function( i, elem ) {
       // if checkbox, use value if checked
       if ( elem.checked ) {
-        inclusives.push( elem.value );
+        inclusives.push( elem.value );   
         $sector.show(); 
         $sector.isotope('layout');
       }
@@ -1023,6 +1036,31 @@ $( document ).ready( function() {
         resizable: false
     })
   });
+  
+// set the course area on click    
+  $('.course-area').click(function() {
+        //event.preventDefault();
+    if(typeof courseType !== "undefined" ){
+        $(this).attr('href', function() {
+            return this.href  + '/course_type/' + courseType;
+        });
+    }
+    if(typeof campusFilter !== "undefined" ){  
+       $(this).attr('href', function() {
+            return this.href  + '/campus/' + campusFilter;
+        });
+    }
+    if(typeof brandFilter !== "undefined" ){  
+       $(this).attr('href', function() {
+            return this.href  + '/brand/' + brandFilter;
+        });
+    }      
+      
+  });
+  $('.campus').click(function() {
+        //event.preventDefault();
+
+  });    
     
 /*
     $container.delegate( '.show-more', 'click', function(){
