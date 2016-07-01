@@ -1,0 +1,180 @@
+---
+layout: hub
+title: Career Hub
+description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
+link: 14-18
+---
+
+<!-- HEADER SECTION -->
+<section id="services" class="col-md-12 jumbotron header-title">
+    <header class="container">
+        <h2><a href="/"><small>Home </small></a><span>CAREER</span></h2>
+    </header>
+</section>
+<!-- END OF HEADER -->
+
+<!-- BODY SECTION -->
+
+<section class="container">
+    <p class="lead">Our specialist career pathways will help you to develop your <strong onclick="window.smoothScrollTo('usp-explained');"><u>USP</u></strong>, giving you the very best opportunity to fulfil your potential. Our range of <strong>study programmes</strong> are the best preparation for the world of work...</p>
+    <p class="lead">We’ve got lots of courses for all abilities and interests. To help you find your way, this website will let you select the career area that interests you and we’ll work with you to create a <strong>programme of study</strong> to fit your needs.</p>
+</section>
+
+    <!-- CAREER SECTION
+====================================================================== -->
+
+
+<section class="container main-section-margins ">
+
+    <!-- list of clusters(ish) -->
+    <section id="career-list" class="container">
+        
+        <div class="career-filter">
+            <!-- CAREER FILTER OPTIONS -->
+            <ul id="topOfClusters">
+                {% for cluster in site.data.sub-clusters %}
+
+                <li class="{{ cluster.filter }}">
+                    <a href="{{ cluster.cluster-link }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
+                        <h3>{{ cluster.cluster }}</h3>
+                        {% for subcluster in cluster.subclusters %}
+                        <span>{{ subcluster.subcluster }}{% unless forloop.last %} - {% endunless %}</span>
+
+                        {% endfor %}
+                    </a>
+                </li>
+
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <section class="career-items container">
+                <a id="career-grid-anchor"></a>
+                <ul id="career-grid" class="grid-layout more-padding hover-effect">
+                    {% for cluster in site.data.sub-clusters  %}
+                        {% for subcluster in cluster.subclusters  %}
+                        <li class="col-xs-12 col-sm-6 col-md-4 entry {{ subcluster.filter }}">
+                            <figure>
+                                <picture>
+                                    <source srcset="{{ subcluster.image }}" media="(min-width: 769px)" />
+                                    <source srcset="{{ subcluster.mobile-image }}" />
+                                    <img src="{{ subcluster.image }}" alt="CAREER AREA | {{ cluster.cluster }} | {{ subcluster.subcluster }}" class="img-responsive">
+                                </picture>
+                                <div class="auto-hover">
+                                    <h4>{{ subcluster.subcluster }}</h4>
+                                    <a href="{{ subcluster.a-href }}" class="icon-btn" data-popup="{{ subcluster.a-data-popup }}">
+                                        <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
+                                    </a>
+                                </div>
+                            </figure>
+                        </li>
+                        {% endfor %}
+                    {% endfor %}
+                    
+                    <!-- CAREER AREA | health and welfare | Watersports-->
+                    <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
+                        <figure>
+                            <picture>
+                                <source srcset="/images/hw/health2.jpg" media="(min-width: 769px)" />
+                                <source srcset="/images/hw/health2-mobile.jpg" />
+                                <img src="/images/hw/health2-mobile.jpg" alt="CAREER AREA | health and welfare | Watersports" class="img-responsive">
+                            </picture>
+                            <div class="auto-hover">
+                                <h4>Watersports</h4>
+                                <a href="/career-pages/water-sports/index.html" class="icon-btn" data-popup="health">
+                                    <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
+                                </a>
+                            </div>
+                        </figure>
+                    </li>
+                    
+                </ul>
+            </section>
+
+    </section>
+    
+        <div class="clearfix"></div>
+        <!-- <section class="col-sm-12 blue-bg bar2 career-search">
+            <h2 class="text-uppercase">Or <strong style="color:white;">Why Not</strong>...</h2>
+            <div class="col-sm-4 col-sm-offset-4 text-center">
+                <a class="btn ghost light" href="//www.cornwall.ac.uk/advanced-search"><span>Search</span>&nbsp;<span>for a <strong>course</strong></span></a>
+            </div>
+        </section> -->
+    
+        <div class="clearfix"></div>
+    
+</section>
+
+
+
+    <!-- Career Areas Divs -->
+
+    <section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
+        <div id="career-content">
+        </div>
+    </section>
+    <!-- CAREER section ends -->
+    
+
+    <!-- why you choose us section -->
+
+    <section class="col-md-12  main-section-padding dark-bg intro">
+        <section class="container">
+            <header class="col-sm-12 text-center">
+                <h2 class="text-uppercase">Programme of <strong>study</strong></h2>
+                <article>{% youtube https://youtu.be/0EeuuNW0tj4 %}</article>
+            <p id='usp-explained' class="lead white">We’ll work with you to create the perfect combination of building blocks for success. As unique as you are, each study programme is tailored to your individual needs and career ambitions; enabling you to be work ready in every way.</p>
+            </header>
+
+            <footer class="item-blocks">
+                <!-- BLOCK 1 -->
+                <article class="col-md-4">
+                    <h4><span class="number">1/</span> Universal</h4>
+                    <p>You’ll work towards improving your skills in English, IT and maths.</p>
+                </article>
+                <!-- BLOCK 2 -->
+                <article class="col-md-4">
+                    <h4><span class="number">2/</span> Specialist</h4>
+                    <p>You’ll gain the specialist knowledge and skills you need for your future career.</p>
+                </article>
+                <!-- BLOCK 3 -->
+                <article class="col-md-4">
+                    <h4><span class="number">3/</span> Personal</h4>
+                    <p>You’ll benefit from a combination of work experience and industry relevant skills.</p>
+                </article>
+            </footer>
+
+            <header class="col-sm-12 text-center another-title">
+                <h2 class="text-uppercase">The <strong>College</strong></h2>
+                <p class="lead white">Show us some ambition, we’ll show you a better life.</p>
+            </header>
+            <footer class="item-blocks">
+                <!-- BLOCK 1 -->
+                <article class="col-md-4">
+                    <h4><span class="number">1/</span> Award winning Students’ Union</h4>
+                    <p>Life isn’t all about hard work, our learners’ also have a fantastic wider college experience supported by an outstanding Students’ Union, representing your voice. </p>
+                </article>
+                <!-- BLOCK 2 -->
+                <article class="col-md-4">
+                    <h4><span class="number">2/</span> Breath taking learning environments</h4>
+                    <p>We’ll get you ready for your career by training you in the environment you can expect to be working in, with over £100million spent on practical skills training facilities in recent years.</p>
+                </article>
+                <!-- BLOCK 3 -->
+                <article class="col-md-4">
+                    <h4><span class="number">3/</span> A history of academic success</h4>
+                    <p>Our A-level provisions has seen its best results ever, with a pass rate of 99.2% and an 8% increase in grades A* and A last year, with 40% of learners applying to Russell Group universities.</p>
+                </article>
+            </footer>
+        </section>
+    </section>
+
+
+    <!-- action to call section -->
+    <section class="col-sm-12 fulltime-bar clearfix">
+        <div class="container">
+            <h2>Seen enough, apply now! </h2>
+            <a href="/apply/index.html" class="apply-btn btn">Apply NOW</a>
+        </div>
+    </section>

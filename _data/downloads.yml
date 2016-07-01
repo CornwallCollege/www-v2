@@ -1,15 +1,903 @@
-#Test
-- title: Example document # Document name
+#16-18 Bursary Application Form
+- title: 16-18 Bursary Application Form # Document name
   type: PDF # Document type
-  category: prospectus # Document category
-  download-link: https://www.cornwall.ac.uk/sites/default/files/documents/16-18%20Bursary%20Application%20Form%202016%20-17%20%283%29_0.pdf
-  search-link: Example-document # Document name
-  colour: 616161
+  category: application-forms # Document category
+  download-link: /documents/Application-form/16-18BursaryApplicationForm2016-17.pdf
+  search-link: 16-18-Bursary-App-Form-2016-17 # Document name
+  colour: 77BC43
   
+  #16-18 Transport & Bursary application form
+- title: 16-18 Transport & Bursary application form - 2015  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/16-18 Transport & Bursary application form - 2015.pdf
+  search-link: 16-180Transport-&-Bursary-application form-2015 # Document name
+  colour: 77BC43
   
+  #19+ application form final 2016-17
+- title: 19+ application form final 2016-17  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/19+ application form final 2016-17.pdf
+  search-link: 19+-application-form-final-2016-17 # Document name
+  colour: 77BC43
   
 
+  #19+ Bursary application form - 2015
+- title: 19+ Bursary application form - 2015  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/19+ Bursary application form - 2015.pdf
+  search-link: 19+-Bursary-application-form-2015 # Document name
+  colour: 77BC43
+
+  #Additional Travel Information Sheet
+- title: Additional Travel Information Sheet  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Additional Travel Information Sheet.docx
+  search-link: Additional-Travel-Information-Sheet # Document name
+  colour: 77BC43
   
+  #Application Day Consent form
+- title: Application Day Consent form  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Application Day Consent form.doc
+  search-link: Application-Day-Consent-form # Document name
+  colour: 77BC43
+  
+  #Application Form (full and part-time qualification courses)
+- title: Application Form (full and part-time qualification courses)  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Application Day Consent form.pdf
+  search-link: Application-Day-Consent-form # Document name
+  colour: 77BC43
 
-
+  #CC Leisure Application Form
+- title: CC Leisure Application Form  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/CC Leisure Application Form.pdf
+  search-link: C-Leisure-Application-Form # Document name
+  colour: 77BC43
+  
+  #Cornwall College pass form 2013
+- title: Cornwall College pass form 2013  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Cornwall College pass form 2013.pdf
+  search-link: Cornwall-College-pass-form-2013 # Document name
+  colour: 77BC43
+  
+   #FE Application for Financial Help Towards Childcare
+- title: FE Application for Financial Help Towards Childcare  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/FE Application for Financial Help Towards Childcare.docx
+  search-link: FE-Application-for-Financial-Help-Towards-Childcare # Document name
+  colour: 77BC43
+  
+    #FE Application form - Sep 2014
+- title: FE Application form - Sep 2014  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/FE Application form - Sep 2014.doc
+  search-link: FE-Application-form-Sep 2014 # Document name
+  colour: 77BC43
+  
+  
+  #Free College Meals
+- title: Free College Meals  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Free College Meals.docx
+  search-link: Free-College-Meals # Document name
+  colour: 77BC43
+  
+    #NCS Application Form - Summer 2014
+- title: NCS Application Form - Summer 2014  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/NCS Application Form - Summer 2014.pdf
+  search-link: NCS-Application-Form-Summer-2014 # Document name
+  colour: 77BC43
+  
+    #NCS Application Form_Summer2015
+- title: NCS Application Form_Summer2015  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/NCS Application Form_Summer2015.pdf
+  search-link: NCS-Application-Form-Summer-2015 # Document name
+  colour: 77BC43
+  
+    #ROSE Transport_Application_1213
+- title: ROSE Transport Application 1213  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/ROSE Transport_Application_1213.pdf
+  search-link: ROSE-Transport-Application-1213 # Document name
+  colour: 77BC43
+  
+  #Spark application form - CC
+- title: Spark application form - CC  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Spark application form - CC.pdf
+  search-link: Spark-application-form-CC # Document name
+  colour: 77BC43
+  
+  #Spark application form 2015 NEW
+- title: Spark application form 2015 NEW  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Spark application form 2015 NEW.docx
+  search-link: Spark-application-form-2015-NEW # Document name
+  colour: 77BC43
+  
+  #Sports Application(1)
+- title: Sports Application  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Sports Application(1).pdf
+  search-link: Sports-Application(1) # Document name
+  colour: 77BC43
+  
+  #STAC Room Booking Form
+- title: STAC Room Booking Form  # Document name
+  type: Excel Spreadsheet # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/STAC Room Booking Form.xlsx
+  search-link: STAC-Room-Booking-Form # Document name
+  colour: 77BC43
+  
+  #Student Services Bursaries App Form (updated 20 July 2015) AC
+- title: Student Services Bursaries App Form (updated 20 July 2015) AC  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Student Services Bursaries App Form (updated 20 July 2015) AC.docx
+  search-link: Student-Services-Bursaries-App Form-(updated 20 July 2015)-AC # Document name
+  colour: 77BC43
+  
+  #Teenage Pregnancy FE Project Referral Form 190713
+- title: Teenage Pregnancy FE Project Referral Form 190713  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Teenage Pregnancy FE Project Referral Form 190713.doc
+  search-link: Teenage-Pregnancy-FE-Project-Referral-Form-190713 # Document name
+  colour: 77BC43
+  
+  #Transport App Form 24.03.14
+- title: Transport App Form 24.03.14  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Transport App Form 24.03.14.pdf
+  search-link: Transport-App-Form-24.03.14 # Document name
+  colour: 77BC43
+  
+  #Unaffiliated Dressage ENTRY FORM-test5
+- title: Unaffiliated Dressage ENTRY FORM-test5  # Document name
+  type: PDF # Document type
+  category: application-forms # Document category
+  download-link: /documents/Application-form/Unaffiliated Dressage ENTRY FORM-test5.pdf
+  search-link: Unaffiliated-Dressage-ENTRY-FORM-test5 # Document name
+  colour: 77BC43
+  
+    #30 x iamdigital Booklets
+- title: I am Digital Guide # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/30 x iamdigital Booklets.pdf
+  search-link: 30-x-iamdigital-Booklets # Document name
+  colour: 004B93
+  
+  #05336JW0315_CCB_Higher_Skills_Food_flyer
+- title: CCB Higher Skills Food flyer # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05336JW0315_CCB_Higher_Skills_Food_flyer.pdf
+  search-link: 05336JW0315_CCB_Higher_Skills_Food_flyer # Document name
+  colour: 004B93
+  
+  #05352JW0315_CCC_GasOil_flyer
+- title: CCC GasOil flyer # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05352JW0315_CCC_GasOil_flyer.pdf
+  search-link: 05352JW0315_CCC_GasOil_flyer # Document name
+  colour: 004B93
+  
+  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 1
+- title: Apprentice TCCG Diamond CV tips # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 1.pdf
+  search-link: 05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4-1 # Document name
+  colour: 004B93
+  
+  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 2
+- title: Apprentice TCCG Diamond CV Tips 2 # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 2.pdf
+  search-link: 05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4-2 # Document name
+  colour: 004B93
+  
+  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 3
+- title: Apprentice TCCG Diamond CV tips 3 # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 3.pdf
+  search-link: 05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 3 # Document name
+  colour: 004B93
+  
+  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4
+- title: 05687JW1015 Apprentice TCCG Diamond CV tips 4 # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4.pdf
+  search-link: 05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 3 # Document name
+  colour: 004B93
+  
+  #05819JW1215_CC_Apprenticeship_Learner_A5_booklet
+- title: CC Apprenticeship Learner booklet tips # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf
+  search-link: 05819JW1215-CC-Apprenticeship-Learner-A5-booklet # Document name
+  colour: 004B93
+  
+ #BSc HCSS Handbook 2015 - electronic
+- title: BSc HCSS Handbook 2015 - electronic # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/BSc HCSS Handbook 2015 - electronic.docx
+  search-link: BSc-HCSS-Handbook-2015-electronic # Document name
+  colour: 004B93
+  
+  #CC UP Infographic ESF Dissemination
+- title: CC UP Infographic ESF Dissemination # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/CC UP Infographic ESF Dissemination.pdf
+  search-link: CC-UP-Infographic-ESF-Dissemination # Document name
+  colour: 004B93
+  
+  #HE Term Dates 2016-17
+- title: HE Term Dates 2016-17 # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/HE Term Dates 2016-17.doc
+  search-link: HE-Term-Dates-2016-17 # Document name
+  colour: 004B93
+  
+  #ILM Course Outline
+- title: ILM Course Outline # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/ILM Course Outline.pdf
+  search-link: ILM-Course-Outline # Document name
+  colour: 004B93
+  
+  #Operational Specification - HNC Marine Engineering
+- title: Operational Specification - HNC Marine Engineering # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Operational Specification - HNC Marine Engineering.docx
+  search-link: Operational-Specification-HNC-Marine-Engineering # Document name
+  colour: 004B93
+  
+  #Programme Details - Modules and Resources - HNC Marine Engineering
+- title: Programme Details-Modules and Resources -HNC Marine Engineering Engineering # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme Details - Modules and Resources - HNC Marine Engineering.docx
+  search-link: Programme-Details-Modules-and-Resources-HNC-Marine-Engineering # Document name
+  colour: 004B93
+  
+  #Programme Quality Handbook BSc (Hons) Rural Business Management 2015-16_0
+- title: Programme Quality Handbook BSc (Hons) Rural Business Management 2015-16 # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme Quality Handbook BSc (Hons) Rural Business Management 2015-16_0.pdf
+  search-link: Programme-Quality-Handbook-BSc-(Hons)-Rural-Business-Management-2015-16_0 # Document name
+  colour: 004B93
+  
+  #Programme Specification - HNC Marine Engineering
+- title: Programme Specification - HNC Marine Engineering # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme Specification - HNC Marine Engineering.docx
+  search-link: Programme-Specification-HNC Marine-Engineering # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BA Business Enterprise Management
+- title: Programme Quality BA Business Enterprise Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BA Business Enterprise Management.docx
+  search-link: Programme-Quality-BA-Business-Enterprise-Management # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BA Contemporary Creative Practice
+- title: Programme Quality BA Contemporary Creative Practice # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BA Contemporary Creative Practice.docx
+  search-link: Programme-Quality-BA-Contemporary-Creative-Practice # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BA Counselling Studies
+- title: Programme Quality BA Counselling Studies # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BA Counselling Studies.docx
+  search-link: Programme-Quality-BA-Counselling-Studies # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BSc Applied Zoology and Conservation
+- title: Programme Quality BSc Applied Zoology and Conservation # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BSc Applied Zoology and Conservation.docx
+  search-link: Programme-Quality-BSc-Applied-Zoology-and-Conservation # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BSc Applied Zoology
+- title: Programme Quality BSc Applied Zoology # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BSc Applied Zoology.docx
+  search-link: Programme-Quality-BSc-Applied-Zoology # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BSc Environmental Resource Management_0
+- title: Programme Quality BSc Environmental Resource Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BSc Environmental Resource Management_0.docx
+  search-link: Programme-Quality-BSc-Environmental-Resource-Management-0 # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BSc Renewable Energy and Carbon Management
+- title: Programme Quality BSc Renewable Energy and Carbon Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BSc Renewable Energy and Carbon Management.docx
+  search-link: Programme-Quality-BSc-Renewable-Energy-and-Carbon-Management # Document name
+  colour: 004B93
+  
+  #Programme_Quality_BSc Sports Performance and Coaching
+- title: Programme Quality BSc Sports Performance and Coaching # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_BSc Sports Performance and Coaching.docx
+  search-link: Programme-Quality-BSc-Sports-Performance-and-Coaching # Document name
+  colour: 004B93
+  
+  #Programme_Quality_Certificate in Advanced Counselling Studies
+- title: Programme Quality Certificate in Advanced Counselling Studies # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_Certificate in Advanced Counselling Studies.docx
+  search-link: Programme-Quality-Certificate-in-Advanced-Counselling-Studies # Document name
+  colour: 004B93
+  
+  #Programme_Quality_Diploma in Person-Centred Counselling and Therapy
+- title: Programme Quality Diploma in Person-Centred Counselling and Therapy # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_Diploma in Person-Centred Counselling and Therapy.docx
+  search-link: Programme-Quality-Diploma-in-Person-Centred-Counselling-and-Therapy # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdA Children and Young Peoples Workforce
+- title: Programme Quality FdA Children and Young Peoples Workforce # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdA Children and Young Peoples Workforce.docx
+  search-link: Programme-Quality-FdA-Children-and-Young-Peoples-Workforce # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdA Children and Young Peoples Workforce
+- title: Programme Quality FdA Children and Young Peoples Workforce # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdA Children and Young Peoples Workforce.docx
+  search-link: Programme-Quality-FdA-Children-and-Young-Peoples-Workforce # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdA Contemporary Creative Practice
+- title: Programme Quality FdA Contemporary Creative Practice # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdA Contemporary Creative Practice.docx
+  search-link: Programme-Quality-FdA-Contemporary-Creative-Practice # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdA Early Childhood Studies
+- title: Programme Quality FdA Early Childhood Studies # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdA Early Childhood Studies.docx
+  search-link: Programme-Quality-FdA-Early-Childhood-Studies # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdA Event Management
+- title: Programme Quality FdA Event Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdA Event Management.docx
+  search-link: Programme-Quality-FdA-Event Management # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdA Hospitality and Tourism Management
+- title: Programme Quality FdA Hospitality and Tourism Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdA Hospitality and Tourism Management.docx
+  search-link: Programme-Quality-FdA-Hospitality and-Tourism-Management-Management # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Animal Behaviour and Psychology
+- title: Programme Quality FdSc Animal Behaviour and Psychology # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Animal Behaviour and Psychology.docx
+  search-link: Programme-Quality-FdSc-Animal-Behaviour-and-Psychology # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Animal Health and Management
+- title: Programme Quality FdSc Animal Health and Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Animal Health and Management.docx
+  search-link: Programme-Qualit-FdSc-Animal-Health-and-Management # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Animal Husbandry and Welfare
+- title: Programme Quality FdSc Animal Husbandry and Welfare # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Animal Husbandry and Welfare.docx
+  search-link: Programme-Quality-FdSc-Animal-Husbandry-and-Welfare # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Computing, Networking and Software Development
+- title: Programme Quality FdSc Computing, Networking and Software Development # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Computing, Networking and Software Development.docx
+  search-link: Programme-Quality-FdSc-Computing,-Networking-and-Software-Development # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Conservation and Ecology
+- title: Programme Quality FdSc Conservation and Ecology # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Conservation and Ecology.docx
+  search-link: Programme-Quality-FdSc-Conservation-and-Ecology # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Engineering
+- title: Programme Quality FdSc Engineering # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Engineering.docx
+  search-link: Programme-Quality-FdSc-Engineering # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Marine Conservation
+- title: Programme Quality FdSc Marine Conservation # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Marine Conservation.docx
+  search-link: Programme-Quality-FdSc-Marine-Conservation # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Sport Health and Fitness
+- title: Programme Quality FdSc Sport Health and Fitness # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Sport Health and Fitness.docx
+  search-link: Programme-Quality-FdSc-Sport-Health-and-Fitness # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Sports Development and Coaching
+- title: Programme Quality FdSc Sports Development and Coaching # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Sports Development and Coaching.docx
+  search-link: Programme-Quality-FdSc-Sports-Development-and-Coaching # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Surf Science and Technology
+- title: Programme Quality FdSc Surf Science and Technology # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Surf Science and Technology.docx
+  search-link: Programme-Quality-FdSc-Surf-Science-and-Technology # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Wildlife Education and Media
+- title: Programme Quality FdSc Wildlife Education and Media # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Wildlife Education and Media.docx
+  search-link: Programme-Quality-FdSc-Wildlife-Education-and-Media # Document name
+  colour: 004B93
+  
+  #Programme_Quality_FdSc Zoological Conservation
+- title: Programme Quality FdSc Zoological Conservation # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_FdSc Zoological Conservation.docx
+  search-link: Programme-Quality-FdSc-Zoological-Conservation # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNC Children and Young Peoples Workforce
+- title: Programme Quality HNC Children and Young Peoples Workforce # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNC Children and Young Peoples Workforce.docx
+  search-link: Programme-Quality-HNC-Children-and-Young-Peoples-Workforce # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNC Engineering
+- title: Programme Quality HNC Engineering # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNC Engineering.docx
+  search-link: Programme-Quality-HNC-Engineering # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNC Marine Leisure Management_0
+- title: Programme Quality HNC Marine Leisure Management # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNC Marine Leisure Management_0.docx
+  search-link: Programme-Quality-HNC-Marine-Leisure-Management-0 # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNCD DJ and Electronic Music Production
+- title: Programme Quality HNCD DJ and Electronic Music Production # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNCD DJ and Electronic Music Production.docx
+  search-link: Programme-Quality-HNCD-DJ-and-Electronic-Music-Production # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNCD Games Design for Industry_0
+- title: Programme Quality HNCD Games Design for Industry # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNCD Games Design for Industry_0.docx
+  search-link: Programme-Quality-HNCD-Games-Design-for-Industry-0 # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNCD Media Production
+- title: Programme Quality HNCD Media Production # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNCD Media Production.docx
+  search-link: Programme-Quality-HNCD-Media-Production # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNCD Music for Film and Television
+- title: Programme Quality HNCD Music for Film and Television # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNCD Music for Film and Television.docx
+  search-link: Programme-Quality-HNCD-Music-for-Film-and-Television # Document name
+  colour: 004B93
+  
+  #Programme_Quality_HNCD Music Performance and Technology
+- title: Programme Quality HNCD Music Performance and Technology # Document name
+  type: Word # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Programme_Quality_HNCD Music Performance and Technology.docx
+  search-link: Programme-Quality-HNCD-Music-Performance-and-Technology # Document name
+  colour: 004B93
+  
+  #Seale Hayne Booklet 30.03.15
+- title: Seale Hayne Booklet 30.03.15 # Document name
+  type: PDF # Document type
+  category: course-documents # Document category
+  download-link: /documents/course-documents/Seale Hayne Booklet 30.03.15.pdf
+  search-link: Seale-Hayne-Booklet-30.03.15 # Document name
+  colour: 004B93
+  
+  #End of Course Documents section
+  
+  #EandD_Action_Plan_2011-12_(Completed)
+- title: EandD Action Plan 2011-12 (Completed) # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/EandD_Action_Plan_2011-12_(Completed).docx
+  search-link: EandD-Action-Plan-2011-12-(Completed) # Document name
+  colour: CC0E0E
+  
+  #EandD_Annual_Report_2011-12_Final(1)
+- title: EandD_Annual_Report_2011-12_Final # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/EandD_Annual_Report_2011-12_Final(1).pdf
+  search-link: EandD-Annual-Report-2011-12-Final(1) # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Action Plan 2012-13 (Completed)
+- title: Equality and Diversity Action Plan 2012-13 (Completed) # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Action Plan 2012-13 (Completed).docx
+  search-link: Equality-and-Diversity-Action-Plan-2012-13-(Completed) # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Action Plan 2013-14
+- title: Equality and Diversity Action Plan 2013-14 # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Action Plan 2013-14.docx
+  search-link: Equality-and-Diversity-Action-Plan-2013-14 # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Annual Report 2012-13
+- title: Equality and Diversity Annual Report 2012-13 # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Annual Report 2012-13.docx
+  search-link: Equality-and-Diversity-Annual-Report-2012-13 # Document name
+  colour: CC0E0E
+  
+  #Equality and Diversity Policy 2013 06
+- title: Equality and Diversity Policy 2013 # Document name
+  type: Word # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Equality and Diversity Policy 2013 06.docx
+  search-link: Equality-and-Diversity-Policy-2013-06 # Document name
+  colour: CC0E0E
+  
+  #final final local offer brochure/Special Educational Needs and Disability Local Offer
+- title: Special Educational Needs and Disability Local Offer # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/final final local offer brochure.pdf
+  search-link: final-final-local-offer-brochure # Document name
+  colour: CC0E0E
+  
+  #Final_Artwork-02517JW0611_CC_ED_annual_report
+- title: Final Artwork 02517JW0611 CC ED annual report # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Final_Artwork-02517JW0611_CC_ED_annual_report.pdf
+  search-link: Final-Artwork-02517JW0611-CC-ED-annual-report # Document name
+  colour: CC0E0E
+  
+  #Single_Equality_Scheme_2012-15_(2)
+- title: Single Equality Scheme_2012-15 # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/Single_Equality_Scheme_2012-15_(2).pdf
+  search-link: Single-Equality-Scheme-2012-15-(2) # Document name
+  colour: CC0E0E
+  
+  # End of Equality and diversity section
+  
+  #03538JW0213_STAC_Alevel_Plus_info_A5
+- title: STAC Alevel Plus info_A5 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/03538JW0213_STAC_Alevel_Plus_info_A5.pdf
+  search-link: 03538JW0213-STAC-Alevel-Plus-info-A5 # Document name
+  colour: 00A5B4
+  
+  #A level Reforms Flyer
+- title: A level Reforms Flyer # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/A level Reforms Flyer.pdf
+  search-link: A-level-Reforms-Flyer # Document name
+  colour: 00A5B4
+  
+  #Access to He leaflet 21.11.14
+- title: Access to He leaflet 21.11.14 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Access to He leaflet 21.11.14.pdf
+  search-link: Access-to-He-leaflet-21.11.14 # Document name
+  colour: 00A5B4
+  
+  #access to He leaflet x2000
+- title: access to He leaflet x2000 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/access to He leaflet x2000.pdf
+  search-link: access-to-He-leaflet-x2000 # Document name
+  colour: 00A5B4
+  
+  #Accommodation info for HE students_1
+- title: Accommodation info for HE students # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Accommodation info for HE students_1.pdf
+  search-link: Accommodation-info-for-HE students_1 # Document name
+  colour: 00A5B4
+  
+  #Advanced Learning loans leaflet 02.03.16
+- title: Advanced Learning loans leaflet 02.03.16 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Advanced Learning loans leaflet 02.03.16.pdf
+  search-link: Advanced-Learning-loans-leaflet-02.03.16 # Document name
+  colour: 00A5B4
+  
+  #Affiliated Dressage 8th Feb times
+- title: Affiliated Dressage 8th Feb times # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Affiliated Dressage 8th Feb times.pdf
+  search-link: Affiliated-Dressage-8th-Feb-times # Document name
+  colour: 00A5B4
+  
+  #Affiliated Dressage 21st Dec 2013 times
+- title: Affiliated Dressage 21st Dec 2013 times # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Affiliated Dressage 21st Dec 2013 times.pdf
+  search-link: Affiliated-Dressage-21st-Dec-2013 times # Document name
+  colour: 00A5B4
+  
+  #Affiliated Dressage Festival times - Sunday
+- title: Affiliated Dressage Festival times - Sunday # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Affiliated Dressage Festival times - Sunday.pdf
+  search-link: Affiliated-Dressage-Festival-times-Sunday # Document name
+  colour: 00A5B4
+  
+  #Animal_Care
+- title: Animal Care # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Animal_Care.pdf
+  search-link: Animal-Care # Document name
+  colour: 00A5B4
+  
+  #App Week Toolkit Employers
+- title: App Week Toolkit Employers # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/App Week Toolkit Employers.pdf
+  search-link: App-Week-Toolkit-Employers # Document name
+  colour: 00A5B4
+  
+  #apprenticeship_food_drink_flyer
+- title: Apprenticeship Food Drink Flyer # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/apprenticeship_food_drink_flyer.pdf
+  search-link: apprenticeship-food-drink-flyer # Document name
+  colour: 00A5B4
+  
+  #ATP Fees
+- title: ATP Fees # Document name
+  type: Word # Document type
+  category: guides # Document category
+  download-link: /documents/guides/ATP Fees.docx
+  search-link: ATP Fees # Document name
+  colour: 00A5B4
+  
+  #Camborne Pool Redruth Accommodation 2015_0
+- title: Camborne Pool Redruth Accommodation 2015 # Document name
+  type: Word # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Camborne Pool Redruth Accommodation 2015_0.docx
+  search-link: ATP-Fees # Document name
+  colour: 00A5B4
+  
+  #CC A-level A5 folded Talker 1
+- title: CC A-level A5 folded Talker # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC A-level A5 folded Talker 1.pdf
+  search-link: CC-A-level-A5-folded-Talker-1 # Document name
+  colour: 00A5B4
+  
+  #CC CAM A3 Fold A5 Parents Guide
+- title: CC CAM A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC CAM A3 Fold A5 Parents Guide.pdf
+  search-link: CC-CAM-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC CAM Bus times
+- title: CC CAM Bus times # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC CAM Bus times.pdf
+  search-link: CC-CAM-Bus-times # Document name
+  colour: 00A5B4
+  
+  #CC HE T&C's 2016
+- title: CC HE T&Cs 2016 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC HE T&Cs 2016.pdf
+  search-link: CC-HE-T&Cs-2016 # Document name
+  colour: 00A5B4
+  
+  #CC NQ A3 Fold A5 Parents Guide
+- title: CC NQ A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC NQ A3 Fold A5 Parents Guide.pdf
+  search-link: CC-NQ-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC SALT A3 Fold A5 Parents Guide
+- title: CC SALT A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC SALT A3 Fold A5 Parents Guide.pdf
+  search-link: CC-SALT-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC STAC A3 Fold A5 Parents Guide
+- title: CC STAC A3 Fold A5 Parents Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC STAC A3 Fold A5 Parents Guide.pdf
+  search-link: CC-STAC-A3-Fold-A5-Parents-Guide # Document name
+  colour: 00A5B4
+  
+  #CC_FOI_Scheme_Introduction
+- title: CC FOI Scheme Introduction # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CC_FOI_Scheme_Introduction.pdf
+  search-link: CC-FOI-Scheme-Introduction # Document name
+  colour: 00A5B4
+  
+  #CCES_FOI_Scheme_Introduction
+- title: CCES FOI Scheme Introduction # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/CCES_FOI_Scheme_Introduction.pdf
+  search-link: CCES-FOI-Scheme-Introduction # Document name
+  colour: 00A5B4
+  
+  #Charging_Policy_from_2009
+- title: Charging Policy from 2009 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Charging_Policy_from_2009.pdf
+  search-link: Charging-Policy-from-2009 # Document name
+  colour: 00A5B4
+  
+  #Christmas Lunch Menu 2013
+- title: Christmas Lunch Menu 2013 # Document name
+  type: Word # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Christmas Lunch Menu 2013.docx
+  search-link: Christmas-Lunch-Menu-2013 # Document name
+  colour: 00A5B4
+  
+  #Clinic_Leaflet(1)
+- title: Clinic Leaflet # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Clinic_Leaflet(1).pdf
+  search-link: Clinic-Leaflet(1) # Document name
+  colour: 00A5B4
+  
+  #Complaints_against_Providers_30Nov2012_Final
+- title: Complaints against Providers 30Nov2012 Final # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Complaints_against_Providers_30Nov2012_Final.pdf
+  search-link: Complaints-against-Providers-30Nov2012-Final # Document name
+  colour: 00A5B4
+  
   
