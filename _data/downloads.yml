@@ -964,8 +964,8 @@
   search-link: dcs-transport-guide-16.02.15_0  # Document name
   colour: 00A5B4
   
-  #Employer_guide_RPA
-- title: Employer_guide_RPA # Document name
+  #Employer guide_RPA
+- title: Employer guide RPA # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Employer_guide_RPA.pdf
@@ -1204,7 +1204,7 @@
 - title: CC STEM Journal 4 # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/maps/03796JW0813_CC_STEM_Journal_4.pdf
+  download-link: /documents/newsletters/03796JW0813_CC_STEM_Journal_4.pdf
   search-link: 03796JW0813-CC-STEM-Journal-4  # Document name
   colour: e69900
   
@@ -1212,7 +1212,7 @@
 - title: CC STEM Journal 5 # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/maps/04350JW0614_CC_STEM_Journal_5.pdf
+  download-link: /documents/newsletters/04350JW0614_CC_STEM_Journal_5.pdf
   search-link: 04350JW0614-CC-STEM-Journal-5  # Document name
   colour: e69900
 
@@ -1220,7 +1220,7 @@
 - title: CCB App Recruit ad Insider 2014 # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/maps/CCB_App_Recruit_ad_Insider 2014.pdf
+  download-link: /documents/newsletters/CCB_App_Recruit_ad_Insider 2014.pdf
   search-link: CCB-App-Recruit-ad-Insider-2014  # Document name
   colour: e69900
   
@@ -1228,7 +1228,7 @@
 - title: SINNG Newsletter # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/maps/SINNG_Newsletter_01_0.pdf
+  download-link: /documents/newsletters/SINNG_Newsletter_01_0.pdf
   search-link: SINNG-Newsletter-01-0  # Document name
   colour: e69900
   
@@ -1236,7 +1236,7 @@
 - title: Young Peoples Project 28.11.14 # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/maps/young peoples project 28.11.14.pdf
+  download-link: /documents/newsletters/young peoples project 28.11.14.pdf
   search-link: young-peoples-project-28.11.14  # Document name
   colour: e69900
   
@@ -1458,13 +1458,13 @@
   search-link: Young-Mums-Will-Achieve-Leaflet # Document name
   colour: 961313
   
-  #End of plans
+  #End of other
   
   #Bicton Doc 26.11.14
 - title: Bicton Doc 26.11.14 # Document name
   type:  PDF # Document type
   category: plans # Document category
-  download-link: /documents/other/Bicton Doc 26.11.14.pdf
+  download-link: /documents/plans/Bicton Doc 26.11.14.pdf
   search-link: Bicton-Doc-26.11.14 # Document name
   colour: fd96f6
   
@@ -1472,7 +1472,7 @@
 - title: Bicton Doc V2 01.04.15 # Document name
   type:  PDF # Document type
   category: plans # Document category
-  download-link: /documents/other/Bicton Doc V2 01.04.15.pdf
+  download-link: /documents/plans/Bicton Doc V2 01.04.15.pdf
   search-link: Bicton-Doc-V2-01.04.15 # Document name
   colour: fd96f6
   
@@ -1480,7 +1480,7 @@
 - title: CC SI MLW Complete # Document name
   type:  PDF # Document type
   category: plans # Document category
-  download-link: /documents/other/CC SI MLW Complete.pdf
+  download-link: /documents/plans/CC SI MLW Complete.pdf
   search-link: CC-SI-MLW-Complete # Document name
   colour: fd96f6
   
@@ -1488,7 +1488,7 @@
 - title: Cornwall College Strategic Plan 2010-15 # Document name
   type:  PDF # Document type
   category: plans # Document category
-  download-link: /documents/other/Cornwall College Strategic Plan 2010-15.pdf
+  download-link: /documents/plans/Cornwall College Strategic Plan 2010-15.pdf
   search-link: Cornwall-College-Strategic-Plan-2010-15 # Document name
   colour: fd96f6
   
@@ -1498,7 +1498,7 @@
 - title: DC BC HE Prospectus pages 2017 # Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
+  download-link: /documents/prospectuses/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
   search-link: 0012JW0216-DC-BC-HE-Prospectus-pages-2017 # Document name
   colour: e8d045
   
@@ -1506,7 +1506,7 @@
 - title: CC Adult courses flyer # Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/CC Adult courses flyer.pdf
+  download-link: /documents/prospectuses/CC Adult courses flyer.pdf
   search-link: CC-Adult-courses-flyer # Document name
   colour: e8d045
   
@@ -1514,7 +1514,7 @@
 - title: CC HE Web Version 2015 # Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/CC HE Web Version 2015.pdf
+  download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
   search-link: CC-HE-Web-Version-2015 # Document name
   colour: e8d045
   
@@ -1522,7 +1522,7 @@
 - title: Cornwall College FE Prospectus 2016 # Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/Cornwall College FE Prospectus 2016 - Low-Res.pdf
+  download-link: /documents/prospectuses/Cornwall College FE Prospectus 2016 - Low-Res.pdf
   search-link: Cornwall-College-FE-Prospectus 2016 # Document name
   colour: e8d045
   
@@ -1530,7 +1530,7 @@
 - title: DC HE Web Version 2015 # Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/DC HE Web Version 2015.pdf
+  download-link: /documents/prospectuses/DC HE Web Version 2015.pdf
   search-link: DC-HE-Web-Version-2015 # Document name
   colour: e8d045
   
@@ -1538,7 +1538,7 @@
 - title: Duchy College FE Prospectus 2016 # Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/Duchy College FE Prospectus 2016 - Low-Res.pdf
+  download-link: /documents/prospectuses/Duchy College FE Prospectus 2016 - Low-Res.pdf
   search-link: Duchy-College-FE-Prospectus-2016 # Document name
   colour: e8d045
   
@@ -1546,7 +1546,7 @@
 - title: FMS FE Prospectus 2016# Document name
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/FMS FE Prospectus 2016 - Low-Res.pdf
+  download-link: /documents/prospectuses/FMS FE Prospectus 2016 - Low-Res.pdf
   search-link: FMS FE Prospectus 2016 - Low-Res # Document name
   colour: e8d045
   
@@ -1554,7 +1554,7 @@
 - title: Leisure Brochure September 2015
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/Leisure Brochure September 2015.pdf
+  download-link: /documents/prospectuses/Leisure Brochure September 2015.pdf
   search-link: Leisure-Brochure-September-2015 # Document name
   colour: e8d045
   
@@ -1562,7 +1562,7 @@
 - title: TCCG HE Prospectus 2017 Web
   type:  PDF # Document type
   category: prospectus # Document category
-  download-link: /documents/other/TCCG HE Prospectus 2017 Web.pdf
+  download-link: /documents/prospectuses/TCCG HE Prospectus 2017 Web.pdf
   search-link: TCCG-HE-Prospectus-2017-Web # Document name
   colour: e8d045
   
@@ -1572,7 +1572,7 @@
 - title: 020 HE Strategy 2013 update
   type:  Word # Document type
   category: reports # Document category
-  download-link: /documents/other/020 HE_Strategy 2013 update.docx
+  download-link: /documents/reports/020 HE_Strategy 2013 update.docx
   search-link: 020-HE-Strategy-2013-update # Document name
   colour: bc77ee
   
@@ -1580,7 +1580,7 @@
 - title: TCCG HE Student Charter PDF
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
+  download-link: /documents/reports/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
   search-link: 05593JW0815-TCCG-HE-Student-Charter-PDF # Document name
   colour: bc77ee
   
@@ -1588,7 +1588,7 @@
 - title: Bicton Doc V3 05.08.15 (Final)
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/Bicton Doc V3 05.08.15 (Final).pdf
+  download-link: /documents/reports/Bicton Doc V3 05.08.15 (Final).pdf
   search-link: Bicton-Doc-V3-05.08.15-(Final) # Document name
   colour: bc77ee
   
@@ -1596,7 +1596,7 @@
 - title: CC Annual Report
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/CC Annual Report.pdf
+  download-link: /documents/reports/CC Annual Report.pdf
   search-link: CC-Annual-Report # Document name
   colour: bc77ee
   
@@ -1604,7 +1604,7 @@
 - title: CC SI Update 2015
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/CC SI Update 2015.pdf
+  download-link: /documents/reports/CC SI Update 2015.pdf
   search-link: CC-SI-Update-2015 # Document name
   colour: bc77ee
   
@@ -1612,7 +1612,7 @@
 - title: CC SummaryCharter 09
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/CCSummaryCharter09.pdf
+  download-link: /documents/reports/CCSummaryCharter09.pdf
   search-link: CC-Summary-Charter-09 # Document name
   colour: bc77ee
   
@@ -1620,7 +1620,7 @@
 - title: Coastal Academies Report 2015 final 2 Tanya Ovenden-Hope and Rowena Passy
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy.pdf
+  download-link: /documents/reports/Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy.pdf
   search-link: Coastal-Academies-Report-2015-final-2-Tanya-Ovenden-Hope-and-Rowena-Passy # Document name
   colour: bc77ee
   
@@ -1628,7 +1628,7 @@
 - title: College Charter
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/CollegeCharter.pdf
+  download-link: /documents/reports/CollegeCharter.pdf
   search-link: College-Charter # Document name
   colour: bc77ee
   
@@ -1636,7 +1636,7 @@
 - title: Cornwall College - 31 July 2015 - Signed
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/Cornwall College - 31 July 2015 - Signed.pdf
+  download-link: /documents/reports/Cornwall College - 31 July 2015 - Signed.pdf
   search-link: Cornwall-College-31-July-2015-Signed # Document name
   colour: bc77ee
   
@@ -1644,7 +1644,7 @@
 - title: Cornwall College Further Education Corporation
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/Cornwall College Further Education Corporation.pdf
+  download-link: /documents/reports/Cornwall College Further Education Corporation.pdf
   search-link: Cornwall-College-Further-Education-Corporation # Document name
   colour: bc77ee
   
@@ -1652,7 +1652,7 @@
 - title: Embedding Brilliant Learning
   type:  Word # Document type
   category: reports # Document category
-  download-link: /documents/other/Embedding Brilliant Learning.docx
+  download-link: /documents/reports/Embedding Brilliant Learning.docx
   search-link: Embedding-Brilliant-Learning # Document name
   colour: bc77ee
   
@@ -1660,7 +1660,7 @@
 - title: NMH Rates for CCG Web
   type:  Word # Document type
   category: reports # Document category
-  download-link: /documents/other/NMH Rates for CCG Web_0.docx
+  download-link: /documents/reports/NMH Rates for CCG Web_0.docx
   search-link: NMH-Rates-for-CCG-Web # Document name
   colour: bc77ee
   
@@ -1668,7 +1668,7 @@
 - title: Scholarship Report 2008-2009
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/Scholarship_Report_2008-2009.pdf
+  download-link: /documents/reports/Scholarship_Report_2008-2009.pdf
   search-link: Scholarship-Report-2008-2009 # Document name
   colour: bc77ee
   
@@ -1676,7 +1676,7 @@
 - title: Scholarship Report 2010-2011
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/Scholarship-Report-2010-2011.pdf
+  download-link: /documents/reports/Scholarship-Report-2010-2011.pdf
   search-link: Scholarship-Report-2010-2011 # Document name
   colour: bc77ee
   
@@ -1684,7 +1684,7 @@
 - title: TCCG Ofsted Jan-16
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/other/TCCG Ofsted Jan-16.pdf
+  download-link: /documents/reports/TCCG Ofsted Jan-16.pdf
   search-link: TCCG-Ofsted-Jan-16 # Document name
   colour: bc77ee
   
