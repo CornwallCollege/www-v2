@@ -619,7 +619,7 @@
   colour: CC0E0E
   
   #EandD_Annual_Report_2011-12_Final(1)
-- title: EandD_Annual_Report_2011-12_Final # Document name
+- title: EandD Annual Report 2011-12 Final # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
   download-link: /documents/equality-and-diversity/EandD_Annual_Report_2011-12_Final(1).pdf
@@ -667,7 +667,7 @@
   colour: CC0E0E
   
   #Final_Artwork-02517JW0611_CC_ED_annual_report
-- title: Final Artwork 02517JW0611 CC ED annual report # Document name
+- title: Final Artwork CC ED annual report # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
   download-link: /documents/equality-and-diversity/Final_Artwork-02517JW0611_CC_ED_annual_report.pdf
@@ -675,7 +675,7 @@
   colour: CC0E0E
   
   #Single_Equality_Scheme_2012-15_(2)
-- title: Single Equality Scheme_2012-15 # Document name
+- title: Single Equality Scheme 2012-15 # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
   download-link: /documents/equality-and-diversity/Single_Equality_Scheme_2012-15_(2).pdf
@@ -1248,7 +1248,7 @@
   category: other # Document category
   download-link: /documents/other/05411JW0515_Koko_Pamper_Days_leaflet.pdf
   search-link: 05411JW0515-Koko-Pamper-Days-leaflet  # Document name
-  colour: a8db57
+  colour: 961313
   
   #05503JW0615_CCC_Play_in_a_Week_poster
 - title: CCC Play in a Week poster # Document name
@@ -1256,7 +1256,7 @@
   category: other # Document category
   download-link: /documents/other/05503JW0615_CCC_Play_in_a_Week_poster.pdf
   search-link: 05503JW0615-CCC-Play-in-a-Week-poster  # Document name
-  colour: a8db57
+  colour: 961313
   
   #05682JW1015_TCCG_Counselling_leaflet
 - title: TCCG Counselling leaflet # Document name
@@ -1264,7 +1264,7 @@
   category: other # Document category
   download-link: /documents/other/05682JW1015_TCCG_Counselling_leaflet.pdf
   search-link: 05682JW1015-TCCG-Counselling-leaflet  # Document name
-  colour: a8db57
+  colour: 961313
   
   #5820MM1215 BC Lambing Sunday 2016
 - title: BC Lambing Sunday 2016 # Document name
@@ -1272,7 +1272,7 @@
   category: other # Document category
   download-link: /documents/other/5820MM1215 BC Lambing Sunday 2016.pdf
   search-link: 5820MM1215-BC-Lambing-Sunday-2016  # Document name
-  colour: a8db57
+  colour: 961313
   
   #A guide for FE Students
 - title: A guide for FE Students # Document name
@@ -1280,7 +1280,7 @@
   category: other # Document category
   download-link: /documents/other/A guide for FE Students.pdf
   search-link: A-guide-for-FE-Students # Document name
-  colour: a8db57
+  colour: 961313
   
   #Action Research for Teaching and School Improvement ARTSI
 - title: Action Research for Teaching and School Improvement ARTSI # Document name
@@ -1288,7 +1288,7 @@
   category: other # Document category
   download-link: /documents/other/Action Research for Teaching and School Improvement ARTSI.pdf
   search-link: Action-Research-for-Teaching-and-School-Improvement-ARTSI # Document name
-  colour: a8db57
+  colour: 961313
   
   #beauty landscape
 - title: beauty landscape # Document name
@@ -1296,7 +1296,7 @@
   category: other # Document category
   download-link: /documents/other/beauty landscape.pdf
   search-link: beauty-landscape # Document name
-  colour: a8db57
+  colour: 961313
   
   #CC CAM Heartlands Xmas Fayre
 - title: CC CAM Heartlands Xmas Fayre # Document name
@@ -1304,7 +1304,7 @@
   category: other # Document category
   download-link: /documents/other/CC CAM Heartlands Xmas Fayre.pdf
   search-link: CC-CAM-Heartlands-Xmas-Fayre # Document name
-  colour: a8db57
+  colour: 961313
   
   #CC Schools contact Postcards
 - title: CC Schools contact Postcards # Document name
@@ -1312,7 +1312,7 @@
   category: other # Document category
   download-link: /documents/other/CC Schools contact Postcards.pdf
   search-link: CC-Schools-contact-Postcards # Document name
-  colour: a8db57
+  colour: 961313
   
   #Clare Sansom Clinic App
 - title: Clare Sansom Clinic App # Document name
@@ -1320,7 +1320,7 @@
   category: other # Document category
   download-link: /documents/other/Clare Sansom Clinic App.docx
   search-link: Clare-Sansom-Clinic-App # Document name
-  colour: a8db57
+  colour: 961313
   
   #Cloisters Bar drinks list
 - title: Cloisters Bar drinks list # Document name
@@ -1328,7 +1328,7 @@
   category: other # Document category
   download-link: /documents/other/Cloisters Bar drinks list.docx
   search-link: Cloisters-Bar-drinks-list # Document name
-  colour: a8db57
+  colour: 961313
   
   #Cloisters Wine List
 - title: Cloisters Wine List # Document name
@@ -1336,10 +1336,356 @@
   category: other # Document category
   download-link: /documents/other/Cloisters Wine List.doc
   search-link: Cloisters-Wine-List # Document name
-  colour: a8db57
+  colour: 961313
   
+  #Cornwall final web
+- title: Cornwall final web # Document name
+  type: PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Cornwall final web.pdf
+  search-link: Cornwall-final-web # Document name
+  colour: 961313
   
+  #Job Description 2015
+- title: Job Description 2015 # Document name
+  type: Word # Document type
+  category: other # Document category
+  download-link: /documents/other/Job Description 2015.doc
+  search-link: Job-Description-2015 # Document name
+  colour: 961313
   
+  #koko price list
+- title: koko price list # Document name
+  type: PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/koko price list.pdf
+  search-link: koko-price-list # Document name
+  colour: 961313
   
+  #Kruger Field Course Itinerary and Details
+- title: Kruger Field Course Itinerary and Details # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Kruger Field Course Itinerary and Details.pdf
+  search-link: Kruger-Field-Course-Itinerary-and-Details # Document name
+  colour: 961313
   
+  #Making Learning Work 4U Nov Dec courses template
+- title: Making Learning Work 4U Nov Dec courses template # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Making Learning Work 4U Nov Dec courses template.pdf
+  search-link: Making-Learning-Work-4U-Nov-Dec-courses-template # Document name
+  colour: 961313
   
+  #Nails landscape
+- title: Nails landscape # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Nails landscape.pdf
+  search-link: Nails-landscape # Document name
+  colour: 961313
+  
+  #Pathways to careers 16.02.15
+- title: Pathways to careers 16.02.15 # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Pathways to careers 16 02 15.pdf
+  search-link: Pathways-to-careers-16.02.15 # Document name
+  colour: 961313
+  
+  #Primary pre-school and children's centres information sheet - Oliver Jeffers
+- title: Primary pre-school and childrens centres information sheet - Oliver Jeffers # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Primary pre-school and childrens centres information sheet - Oliver Jeffers.pdf
+  search-link: Primary pre-school and childrens-centres-information-sheet-Oliver-Jeffers # Document name
+  colour: 961313
+  
+  #satartsclub
+- title: satartsclub # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/satartsclub.pdf
+  search-link: satartsclub # Document name
+  colour: 961313
+  
+  #Saturday Arts Club-Poster_Latest 
+- title: Saturday Arts Club Poster Latest # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Saturday Arts Club-Poster_Latest (2).pdf
+  search-link: Saturday-Arts-Club-Poster-Latest # Document name
+  colour: 961313
+  
+  #Student_Complaints_Procedure_V9 
+- title: Student Complaints Procedure V9 # Document name
+  type:  Word # Document type
+  category: other # Document category
+  download-link: /documents/other/Student_Complaints_Procedure_V9.doc
+  search-link: Student-Complaints-Procedure-V9 # Document name
+  colour: 961313
+  
+  #Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15
+- title: Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15 # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15.pdf
+  search-link: Subcontracting-Funding-Report-for-Publication-on-TCCG-Website-13-14-to-14-15 # Document name
+  colour: 961313
+  
+  #TCCG_Counselling_leaflet
+- title: TCCG Counselling Leaflet # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/TCCG_Counselling_leaflet.pdf
+  search-link: TCCG-Counselling-leaflet # Document name
+  colour: 961313
+  
+  #Web Version Safeguarding Policy and Procedures 
+- title: Web Version Safeguarding Policy and Procedures # Document name
+  type:  Word # Document type
+  category: other # Document category
+  download-link: /documents/other/Web Version Safeguarding Policy and Procedures.doc
+  search-link: Web-Version-Safeguarding-Policy-and-Procedures # Document name
+  colour: 961313
+  
+  #Young Mums Will Achieve Leaflet
+- title: Young Mums Will Achieve Leaflet # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Young Mums Will Achieve Leaflet.pdf
+  search-link: Young-Mums-Will-Achieve-Leaflet # Document name
+  colour: 961313
+  
+  #End of plans
+  
+  #Bicton Doc 26.11.14
+- title: Bicton Doc 26.11.14 # Document name
+  type:  PDF # Document type
+  category: plans # Document category
+  download-link: /documents/other/Bicton Doc 26.11.14.pdf
+  search-link: Bicton-Doc-26.11.14 # Document name
+  colour: fd96f6
+  
+  #Bicton Doc V2 01.04.15
+- title: Bicton Doc V2 01.04.15 # Document name
+  type:  PDF # Document type
+  category: plans # Document category
+  download-link: /documents/other/Bicton Doc V2 01.04.15.pdf
+  search-link: Bicton-Doc-V2-01.04.15 # Document name
+  colour: fd96f6
+  
+  #CC SI MLW Complete
+- title: CC SI MLW Complete # Document name
+  type:  PDF # Document type
+  category: plans # Document category
+  download-link: /documents/other/CC SI MLW Complete.pdf
+  search-link: CC-SI-MLW-Complete # Document name
+  colour: fd96f6
+  
+  #Cornwall College Strategic Plan 2010-15
+- title: Cornwall College Strategic Plan 2010-15 # Document name
+  type:  PDF # Document type
+  category: plans # Document category
+  download-link: /documents/other/Cornwall College Strategic Plan 2010-15.pdf
+  search-link: Cornwall-College-Strategic-Plan-2010-15 # Document name
+  colour: fd96f6
+  
+  # End of Plans
+  
+  #0012JW0216_DC_BC_HE_Prospectus_pages_2017
+- title: DC BC HE Prospectus pages 2017 # Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
+  search-link: 0012JW0216-DC-BC-HE-Prospectus-pages-2017 # Document name
+  colour: e8d045
+  
+  #CC Adult courses flyer
+- title: CC Adult courses flyer # Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/CC Adult courses flyer.pdf
+  search-link: CC-Adult-courses-flyer # Document name
+  colour: e8d045
+  
+  #CC HE Web Version 2015
+- title: CC HE Web Version 2015 # Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/CC HE Web Version 2015.pdf
+  search-link: CC-HE-Web-Version-2015 # Document name
+  colour: e8d045
+  
+  #Cornwall College FE Prospectus 2016 - Low-Res
+- title: Cornwall College FE Prospectus 2016 # Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/Cornwall College FE Prospectus 2016 - Low-Res.pdf
+  search-link: Cornwall-College-FE-Prospectus 2016 # Document name
+  colour: e8d045
+  
+  #DC HE Web Version 2015
+- title: DC HE Web Version 2015 # Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/DC HE Web Version 2015.pdf
+  search-link: DC-HE-Web-Version-2015 # Document name
+  colour: e8d045
+  
+  #Duchy College FE Prospectus 2016 - Low-Res
+- title: Duchy College FE Prospectus 2016 # Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/Duchy College FE Prospectus 2016 - Low-Res.pdf
+  search-link: Duchy-College-FE-Prospectus-2016 # Document name
+  colour: e8d045
+  
+  #FMS FE Prospectus 2016 - Low-Res
+- title: FMS FE Prospectus 2016# Document name
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/FMS FE Prospectus 2016 - Low-Res.pdf
+  search-link: FMS FE Prospectus 2016 - Low-Res # Document name
+  colour: e8d045
+  
+  #Leisure Brochure September 2015
+- title: Leisure Brochure September 2015
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/Leisure Brochure September 2015.pdf
+  search-link: Leisure-Brochure-September-2015 # Document name
+  colour: e8d045
+  
+  #TCCG HE Prospectus 2017 Web
+- title: TCCG HE Prospectus 2017 Web
+  type:  PDF # Document type
+  category: prospectus # Document category
+  download-link: /documents/other/TCCG HE Prospectus 2017 Web.pdf
+  search-link: TCCG-HE-Prospectus-2017-Web # Document name
+  colour: e8d045
+  
+  #End of Prospectuses
+  
+  #020 HE_Strategy 2013 update
+- title: 020 HE Strategy 2013 update
+  type:  Word # Document type
+  category: reports # Document category
+  download-link: /documents/other/020 HE_Strategy 2013 update.docx
+  search-link: 020-HE-Strategy-2013-update # Document name
+  colour: bc77ee
+  
+  #05593JW0815_TCCG_HE_Student_Charter_PDF
+- title: TCCG HE Student Charter PDF
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
+  search-link: 05593JW0815-TCCG-HE-Student-Charter-PDF # Document name
+  colour: bc77ee
+  
+  #Bicton Doc V3 05.08.15 (Final)
+- title: Bicton Doc V3 05.08.15 (Final)
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Bicton Doc V3 05.08.15 (Final).pdf
+  search-link: Bicton-Doc-V3-05.08.15-(Final) # Document name
+  colour: bc77ee
+  
+  #CC Annual Report
+- title: CC Annual Report
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/CC Annual Report.pdf
+  search-link: CC-Annual-Report # Document name
+  colour: bc77ee
+  
+  #CC SI Update 2015
+- title: CC SI Update 2015
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/CC SI Update 2015.pdf
+  search-link: CC-SI-Update-2015 # Document name
+  colour: bc77ee
+  
+  #CC SummaryCharter 09
+- title: CC SummaryCharter 09
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/CCSummaryCharter09.pdf
+  search-link: CC-Summary-Charter-09 # Document name
+  colour: bc77ee
+  
+  #Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy
+- title: Coastal Academies Report 2015 final 2 Tanya Ovenden-Hope and Rowena Passy
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy.pdf
+  search-link: Coastal-Academies-Report-2015-final-2-Tanya-Ovenden-Hope-and-Rowena-Passy # Document name
+  colour: bc77ee
+  
+  #College Charter
+- title: College Charter
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/CollegeCharter.pdf
+  search-link: College-Charter # Document name
+  colour: bc77ee
+  
+  #Cornwall College - 31 July 2015 - Signed
+- title: Cornwall College - 31 July 2015 - Signed
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Cornwall College - 31 July 2015 - Signed.pdf
+  search-link: Cornwall-College-31-July-2015-Signed # Document name
+  colour: bc77ee
+  
+  #Cornwall College Further Education Corporation
+- title: Cornwall College Further Education Corporation
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Cornwall College Further Education Corporation.pdf
+  search-link: Cornwall-College-Further-Education-Corporation # Document name
+  colour: bc77ee
+  
+  #Embedding Brilliant Learning
+- title: Embedding Brilliant Learning
+  type:  Word # Document type
+  category: reports # Document category
+  download-link: /documents/other/Embedding Brilliant Learning.docx
+  search-link: Embedding-Brilliant-Learning # Document name
+  colour: bc77ee
+  
+  #NMH Rates for CCG Web_0
+- title: NMH Rates for CCG Web
+  type:  Word # Document type
+  category: reports # Document category
+  download-link: /documents/other/NMH Rates for CCG Web_0.docx
+  search-link: NMH-Rates-for-CCG-Web # Document name
+  colour: bc77ee
+  
+  #Scholarship_Report_2008-2009
+- title: Scholarship Report 2008-2009
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Scholarship_Report_2008-2009.pdf
+  search-link: Scholarship-Report-2008-2009 # Document name
+  colour: bc77ee
+  
+  #Scholarship-Report-2010-2011
+- title: Scholarship Report 2010-2011
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Scholarship-Report-2010-2011.pdf
+  search-link: Scholarship-Report-2010-2011 # Document name
+  colour: bc77ee
+  
+  #TCCG Ofsted Jan-16
+- title: TCCG Ofsted Jan-16
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/TCCG Ofsted Jan-16.pdf
+  search-link: TCCG-Ofsted-Jan-16 # Document name
+  colour: bc77ee
+  
+  #End of Reports
