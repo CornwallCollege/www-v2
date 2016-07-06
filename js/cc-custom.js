@@ -1,16 +1,16 @@
 
-jQuery(document).ready(function(){ 
-        jQuery("#main-menu").load("/global-menu.html");
-        jQuery("#footer").load("/global-footer.html");
+jQuery(document).ready(function () {
+    jQuery("#main-menu").load("/global-menu.html");
+    jQuery("#footer").load("/global-footer.html");
 });
 
-jQuery(document).on("click","#question",function(e) {
+jQuery(document).on("click", "#question", function (e) {
     var pageURL = jQuery(location).attr("href");
     //var formURL = 'https://network.cornwall.ac.uk/form/'
     e.preventDefault();
     //window.location.href = $(this).attr("href") + '?' + pageURL;  
-    window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;     
-});   
+    window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;
+});
 
 /* SWIPER options (home page)*/
 $(function () {
@@ -58,7 +58,7 @@ $(function () {
                 },
                 {
                     brand: 'bicton',
-                    videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor' ]
+                    videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor']
                 },
             ]
 
@@ -116,12 +116,12 @@ $(function () {
             changeCurrentLogo();
         })
     }
-    
+
     // Ajax menu into #main-menu
-$(document).ready(function(){ 
+    $(document).ready(function () {
         $("#main-menu").load("/global-menu.html");
         $("#footer").load("/global-footer.html");
-});
+    });
 });
 
 /* swiper ends */
@@ -200,11 +200,11 @@ function incrementCount(counter) {
             classie.toggle(this, 'active');
             $('.menu-icon > i').toggleClass("fa-bars");
             $('.menu-icon > i').toggleClass("fa-times");
-            $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');   
+            $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');
             classie.toggle(menuRight, 'cbp-spmenu-open');
         };
 
-    }  
+    }
 
     /* the id="menu-container" has to be added to the one-page template,
        to the <div class="container"> of the <nav id="cbp-spmenu-s2">
@@ -297,7 +297,7 @@ function incrementCount(counter) {
         window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
 
     }
-    
+
     /* OPEN TO THE PUBLIC - ISOTOPE FOR PORTFOLIO ITEMS */
     /* if ($("#public-grid").length) {
         var $container = $('#public-grid').imagesLoaded(function () {
@@ -464,7 +464,7 @@ function incrementCount(counter) {
 
 // SOCIALFEED init
 $(document).ready(function () {
-    $( "#whats-on-group" ).click(function() {
+    $("#whats-on-group").click(function () {
         $('.social-feed-ccg-group').socialfeed({
 
             // FACEBOOK
@@ -475,25 +475,25 @@ $(document).ready(function () {
             },
 
             // TWITTER
-            twitter:{
+            twitter: {
                 accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
                 limit: 5,                                   //Integer: max number of tweets to load
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
             //RSS FEED
-            rss:{
+            rss: {
                 urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college', 'https://www.cornwall.ac.uk/cc-news.rss'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2                                     
+                limit: 2
             },
-            
+
             // GENERAL SETTINGS
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    }); 
-    
-    $( "#whats-on-duchy" ).click(function() {
+    });
+
+    $("#whats-on-duchy").click(function () {
         $('.social-feed-duchy').socialfeed({
 
             // FACEBOOK
@@ -504,25 +504,25 @@ $(document).ready(function () {
             },
 
             // TWITTER
-            twitter:{
+            twitter: {
                 accounts: ['@DuchyCollege'],                      //Array: Specify a list of accounts from which to pull tweets
                 limit: 5,                                   //Integer: max number of tweets to load
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
-            
+
             //RSS FEED
-            rss:{
+            rss: {
                 urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2                                     
-            },            
+                limit: 2
+            },
 
             // GENERAL SETTINGS
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });   
-    $( "#whats-on-falmouth" ).click(function() {
+    });
+    $("#whats-on-falmouth").click(function () {
         $('.social-feed-falmouth').socialfeed({
 
             // FACEBOOK
@@ -533,25 +533,25 @@ $(document).ready(function () {
             },
 
             // TWITTER
-            twitter:{
+            twitter: {
                 accounts: ['@marineschool'],                      //Array: Specify a list of accounts from which to pull tweets
                 limit: 5,                                   //Integer: max number of tweets to load
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
-            
+
             //RSS FEED
-            rss:{
+            rss: {
                 urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2                                     
-            },     
-            
+                limit: 2
+            },
+
             // GENERAL SETTINGS
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });  
-    $( "#whats-on-bicton" ).click(function() {
+    });
+    $("#whats-on-bicton").click(function () {
         $('.social-feed-bicton').socialfeed({
 
             // FACEBOOK
@@ -562,32 +562,32 @@ $(document).ready(function () {
             },
 
             // TWITTER
-            twitter:{
+            twitter: {
                 accounts: ['@bictoncollege'],                      //Array: Specify a list of accounts from which to pull tweets
                 limit: 5,                                   //Integer: max number of tweets to load
                 consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
                 consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
             },
-            
+
             //RSS FEED
-            rss:{
+            rss: {
                 urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2                                     
-            },               
+                limit: 2
+            },
 
             // GENERAL SETTINGS
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });     
-    
+    });
+
 });
 
 //Campus Google Map script
 
 $(document).ready(function () {
     //GOOGLE MAP
-    if (location.pathname.indexOf("career-pages") !== -1 || 
+    if (location.pathname.indexOf("career-pages") !== -1 ||
         location.pathname.indexOf("location-hub") !== -1 ||
         location.pathname.indexOf("location-pages") !== -1) {
         function initMap() {
@@ -599,75 +599,76 @@ $(document).ready(function () {
                 },
                 scrollwheel: false,
                 styles: [
-                    { 
-                    "featureType": "administrative",
-                    "stylers": [{ "visibility": "off" }]
-                    }, 
-                    { 
-                    "featureType": "poi",
-                    "stylers": [{ "visibility": "off" }]
-                    }, 
-                    { 
-                    "featureType": "road",
-                    "stylers": [{ "visibility": "off" }]
-                    }, 
-                    { 
-                    "featureType": "landscape",
-                    "stylers": [{ "visibility": "off" }]
-                    }, 
-                    { 
-                    "featureType": "water",
-                    "elementType": "geometry.fill",
-                    "stylers": [{ "saturation": -13 },
-                        { "color": "#52b3d9" },
-                        { "visibility": "on" }
-                    ]}, 
-                    { 
-                    "featureType": "transit",
-                    "stylers": [{ "visibility": "off" }]
-                    }, 
                     {
-                    "featureType": "landscape",
-                    "elementType": "geometry.fill",
-                    "stylers": [{ "color": "#ffffff"},
-                        { "visibility": "on" },
-                        { "weight": 5.2 }]
-                    }
-                ]
-                
-                
-            });
-        if (location.pathname.indexOf("location-pages") !== -1){
-            var map = new google.maps.Map(document.getElementById('gmap_canvas'), {
-                zoom: 9,
-                center: {
-                    lat: 50.304513,
-                    lng: -5.000000
-                },
-                scrollwheel: false,                    
-                styles: [
-
-                    { 
-                    "featureType": "poi",
-                    "stylers": [{ "visibility": "off" }]
-                    }, 
-                    {
-                    "featureType": "landscape",
-                    "elementType": "geometry.fill",
-                    "stylers": [{ "color": "#ffffff"},
-                        { "visibility": "on" },
-                        { "weight": 5.2 }]
+                        "featureType": "administrative",
+                        "stylers": [{ "visibility": "off" }]
                     },
                     {
-                    "featureType": "water",
-                    "elementType": "geometry.fill",
-                    "stylers": [{ "saturation": -13 },
-                        { "color": "#52b3d9" },
-                        { "visibility": "on" }]
-                    } 
-                ]                    
+                        "featureType": "poi",
+                        "stylers": [{ "visibility": "off" }]
+                    },
+                    {
+                        "featureType": "road",
+                        "stylers": [{ "visibility": "off" }]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "stylers": [{ "visibility": "off" }]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry.fill",
+                        "stylers": [{ "saturation": -13 },
+                            { "color": "#52b3d9" },
+                            { "visibility": "on" }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "stylers": [{ "visibility": "off" }]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry.fill",
+                        "stylers": [{ "color": "#ffffff" },
+                            { "visibility": "on" },
+                            { "weight": 5.2 }]
+                    }
+                ]
+
+
             });
-        };
+            if (location.pathname.indexOf("location-pages") !== -1) {
+                var map = new google.maps.Map(document.getElementById('gmap_canvas'), {
+                    zoom: 9,
+                    center: {
+                        lat: 50.304513,
+                        lng: -5.000000
+                    },
+                    scrollwheel: false,
+                    styles: [
+
+                        {
+                            "featureType": "poi",
+                            "stylers": [{ "visibility": "off" }]
+                        },
+                        {
+                            "featureType": "landscape",
+                            "elementType": "geometry.fill",
+                            "stylers": [{ "color": "#ffffff" },
+                                { "visibility": "on" },
+                                { "weight": 5.2 }]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry.fill",
+                            "stylers": [{ "saturation": -13 },
+                                { "color": "#52b3d9" },
+                                { "visibility": "on" }]
+                        }
+                    ]
+                });
+            };
 
             map.fitBounds(setMarkers(map));
 
@@ -697,7 +698,7 @@ $(document).ready(function () {
                     //shape: shape,
                     title: campus[0],
                     anchor: campus[4]
-                        //zIndex: beach[3]
+                    //zIndex: beach[3]
                 });
                 if (location.pathname.indexOf("location-hub") !== -1) {
 
@@ -724,15 +725,15 @@ $(document).ready(function () {
                 bounds.extend(marker.getPosition());
 
             }
-            
+
             // Don't zoom in too far on only one marker
             if (bounds.getNorthEast().equals(bounds.getSouthWest())) {
-               var extendPoint1 = new google.maps.LatLng(bounds.getNorthEast().lat() + 0.01, bounds.getNorthEast().lng() + 0.01);
-               var extendPoint2 = new google.maps.LatLng(bounds.getNorthEast().lat() - 0.01, bounds.getNorthEast().lng() - 0.01);
-               bounds.extend(extendPoint1);
-               bounds.extend(extendPoint2);
+                var extendPoint1 = new google.maps.LatLng(bounds.getNorthEast().lat() + 0.01, bounds.getNorthEast().lng() + 0.01);
+                var extendPoint2 = new google.maps.LatLng(bounds.getNorthEast().lat() - 0.01, bounds.getNorthEast().lng() - 0.01);
+                bounds.extend(extendPoint1);
+                bounds.extend(extendPoint2);
             }
-            
+
             return bounds;
 
 
@@ -741,8 +742,8 @@ $(document).ready(function () {
         google.maps.event.addDomListener(window, 'load', initMap);
     };
 
-    
-    
+
+
 });
 
 // ADD back button navigation to home hash links
@@ -776,15 +777,15 @@ $(function(){
 $("select").selectOrDie({
     // Option below is not needed
     placeholderOption: true,
-    onChange: function() { 
-        if ($(this).val() === 'course-search'){
+    onChange: function () {
+        if ($(this).val() === 'course-search') {
             $('.' + $(this).val()).hide();
-            $('.' + $(this).val()).fadeIn( "slow" );
+            $('.' + $(this).val()).fadeIn("slow");
 
         } else {
             window.location.href = $(this).val();
         }
-    }    
+    }
 });
 
 // resposive logo; first click open second click follow link
@@ -837,248 +838,258 @@ $(function () {
 /* Set brand cookie on home */
 $(function () {
 
-var hash = location.hash;
-var brand_cookie = Cookies.get('brand'); 
-    
-    
+    var hash = location.hash;
+    var brand_cookie = Cookies.get('brand');
+
+
     //set brand on home page visit
     if (location.pathname === "/") {
         //get the hash from the URL
 
-        if (hash == '') {        
-            var brand_cookie = Cookies.set('brand', '#cornwall' );             
+        if (hash == '') {
+            var brand_cookie = Cookies.set('brand', '#cornwall');
             var course_brand_cookie = Cookies.set('course-brand', '#cornwall', {
                 domain: '.cornwall.ac.uk'
             });
-            
+
         } else {
-            var brand_cookie = Cookies.set('brand', hash );             
+            var brand_cookie = Cookies.set('brand', hash);
             var course_brand_cookie = Cookies.set('course-brand', hash, {
-            domain: '.cornwall.ac.uk'
-        });
+                domain: '.cornwall.ac.uk'
+            });
             Cookies.get('brand');
         }
     }
     //set brand on logo click
     $(".brand-image").click(function () {
-            var brand_cookie = Cookies.set('brand', hash );        
-            var course_brand_cookie = Cookies.set('course-brand', hash, {
+        var brand_cookie = Cookies.set('brand', hash);
+        var course_brand_cookie = Cookies.set('course-brand', hash, {
             domain: '.cornwall.ac.uk'
         });
 
     });
     //
     $(function () {
-        
-            $('.logo').removeClass('current-brand');
-            $('.logo').addClass('sub-brand grow');
-            $( Cookies.get('brand') ).removeClass('grow');
-            $( Cookies.get('brand') ).addClass('current-brand');
-            //bring the active logo to the front
-            $( Cookies.get('brand') ).css("z-index", "999");
-           
-            //apply z-index to correctly stack the logos
-            var offset = 1;
-            $( Cookies.get('brand') ).prevAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-            });
-            $( Cookies.get('brand') ).nextAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-         
-            });
+
+        $('.logo').removeClass('current-brand');
+        $('.logo').addClass('sub-brand grow');
+        $(Cookies.get('brand')).removeClass('grow');
+        $(Cookies.get('brand')).addClass('current-brand');
+        //bring the active logo to the front
+        $(Cookies.get('brand')).css("z-index", "999");
+
+        //apply z-index to correctly stack the logos
+        var offset = 1;
+        $(Cookies.get('brand')).prevAll().each(function (index) {
+            $(this).css("z-index", 999 - offset);
+            offset++;
+        });
+        $(Cookies.get('brand')).nextAll().each(function (index) {
+            $(this).css("z-index", 999 - offset);
+            offset++;
+
+        });
 
 
-    });    
-    
+    });
+
 });
 
 
 
 
-$( document ).ready(function() {
-if (location.pathname.indexOf("location-pages") !== -1) {    
-    //jQuery RSS parse for events on campus pages
-    var campus_id = $("#event-carousel").attr("data-event-campus-id");
-    var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue="+campus_id;
-    $.get(rssurl, function(data) {
-        var $XML = $(data);
-        $XML.find("item").each(function() {
-            
-            var $this = $(this),
-                item = {
-                    title:       $this.find("title").text(),
-                    link:        $this.find("link").text(),
-                    description: $this.find("description").text(),
-                    pubDate:     $this.find("pubDate").text(),
-                    author:      $this.find("author").text(),
-                    organizer:   $this.find("organizer").text(),
-                    venue:       $this.find("venue").text(),
-                    enddate:     $this.find("enddate").text(),
-                    startdate:   $this.find("startdate").text(), 
-                    category:    $this.find("category").text(),
-                    
-                };
-            var event = $('<div/>').addClass( "owl-item" );
-            var article = $('<article/>').addClass( "transition text-center" );
-            var link = item.link;
-            $(event).append((article).append($('<h3/>').text(item.title)));
-            $(event).append((article).append($('<p/>').text(item.organizer).addClass( "organizer" )));
-            $(event).append((article).append($('<p/>').text(item.venue).addClass( "venue" )));
-            $(event).append((article).append($('<p/>').text(item.startdate).addClass( "startdate " )));
-            if(item.enddate){$(event).append((article).append($('<p/>').text(item.enddate).addClass( "enddate " )));}
-            //$(event).append((article).append($('<p/>').text(item.category).addClass( "category " )));
-            $(event).append((article).append("<a href='"+ item.link +"' title='"+ item.title +"' class='btn pull-right'>View event details</a>"));
-            
-            $( ".owl-carousel" ).append(event);
-            //etc...
-    
+$(document).ready(function () {
+    if (location.pathname.indexOf("location-pages") !== -1) {
+        //jQuery RSS parse for events on campus pages
+        var campus_id = $("#event-carousel").attr("data-event-campus-id");
+        var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
+        $.get(rssurl, function (data) {
+            var $XML = $(data);
+            $XML.find("item").each(function () {
+
+                var $this = $(this),
+                    item = {
+                        title: $this.find("title").text(),
+                        link: $this.find("link").text(),
+                        description: $this.find("description").text(),
+                        pubDate: $this.find("pubDate").text(),
+                        author: $this.find("author").text(),
+                        organizer: $this.find("organizer").text(),
+                        venue: $this.find("venue").text(),
+                        enddate: $this.find("enddate").text(),
+                        startdate: $this.find("startdate").text(),
+                        category: $this.find("category").text(),
+
+                    };
+                var event = $('<div/>').addClass("owl-item");
+                var article = $('<article/>').addClass("transition text-center");
+                var link = item.link;
+                $(event).append((article).append($('<h3/>').text(item.title)));
+                $(event).append((article).append($('<p/>').text(item.organizer).addClass("organizer")));
+                $(event).append((article).append($('<p/>').text(item.venue).addClass("venue")));
+                $(event).append((article).append($('<p/>').text(item.startdate).addClass("startdate ")));
+                if (item.enddate) { $(event).append((article).append($('<p/>').text(item.enddate).addClass("enddate "))); }
+                //$(event).append((article).append($('<p/>').text(item.category).addClass( "category " )));
+                $(event).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View event details</a>"));
+
+                $(".owl-carousel").append(event);
+                //etc...
+
+            });
+
+            if ($("#event-carousel").length) {
+                $('#event-carousel').owlCarousel({
+                    items: 1,
+                    margin: 10,
+                    //loop: true,
+                    loop: $('#event-carousel').children().length > 1,
+                    //nav: $('#event-carousel').children().length > 1,
+                    animateOut: 'fadeOut',
+                    autoplay: true,
+                });
+            }
         });
-        
-        if ( $( "#event-carousel" ).length ) {
-              $('#event-carousel').owlCarousel({
-                 items:1,
-                 margin:10,
-                 //loop: true,
-                 loop: $('#event-carousel').children().length > 1,
-                 //nav: $('#event-carousel').children().length > 1,
-                 animateOut: 'fadeOut',
-                 autoplay: true,
-              });
-           }
-    });
-}
+    }
 });
 
 /*------------------- learning area filer ISOTOPE ----------------------*/
 
-$( document ).ready( function() {
-    
+$(document).ready(function () {
+
     //createItems();
 
-  var $container = $('#career-content').isotope({
-    itemSelector: '.area',
-    //resizable: false
-  });
-    
-//   var $container = $('#download-content').isotope({
-//     itemSelector: '.download',
-//     //resizable: false
-//   });
-    
-  var $sector = $('#sector-page-content').isotope({
-    itemSelector: '.area',
-    //resizable: false
-  });    
-// read more link on Learning area page     
-  $container.on( 'click', '.show-more', function() {
-    // change size of item by toggling big class
-    $( this ).parent().toggleClass('big');
-    //hide the readmore link  
-    $( this ).children(".readmore").toggle(); 
-    //re-build the layout  
-    $container.isotope('layout');
-  });
-// read more link on sector page    
-  $sector.on( 'click', '.show-more', function() {
-    $( this ).parent().toggleClass('big'); 
-    $( this ).children(".readmore").toggle();  
-    $sector.isotope('layout');
-  });    
-    
-    // filter items on button click Sector hub page
-    $('.link-wrap').on( 'click', 'button', function() {
-      var filterValue = $(this).attr('data-filter');
-        
-      $sector.isotope({ filter: filterValue });
-      $sector.show(); 
-        //if 16-18 show the 'how you learn' filters 
-      $sector.isotope('layout'); 
-        $('html, body').animate({
-            scrollTop: $('#sector-page-content').offset().top-150
-        }, 1000);
-         
-    });
-    
-  var $output = $('#output');
-
-  // filter with selects and checkboxes
-  var $checkboxes = $('#form-ui input');
-  //declare the courseType var for use later    
-  var courseType;  
-  var campusFilter; 
-  var brandFilter;
-
-  $('#form-ui label.btn').click(function($event){
-      // Deselect all other options
-      var $clickedButton = $($event.target);
-
-      $clickedButton.siblings('.active').click();
-  });
-    
-  $checkboxes.change( function() {
-    // map input values to an array   
-    //var exclusives = [];
-    var inclusives = [];
-    //get and set course type data value
-    courseType = $(this).attr("data-course-type") || courseType; 
-    //get and set campus data value
-    campusFilter = $(this).attr("data-campus") || campusFilter;
-    //get and set brand data value  
-    brandFilter = $(this).attr("data-brand") || brandFilter; 
-    // inclusive filters from checkboxes
-      
-    $checkboxes.each( function( i, elem ) {
-      // if checkbox, use value if checked
-      if ( elem.checked ) {
-        inclusives.push( elem.value );   
-        $sector.show(); 
-        $sector.isotope('layout');
-      }
+    var $container = $('#career-content').isotope({
+        itemSelector: '.area',
+        //resizable: false
     });
 
-    // combine inclusive filters
-    var filterValue = inclusives.length ? inclusives.join('') : '*';
+    //   var $container = $('#download-content').isotope({
+    //     itemSelector: '.download',
+    //     //resizable: false
+    //   });
 
-    $output.text( filterValue );
-    $container.isotope({ 
-        filter: filterValue, 
-        queue: false,
-        resizable: false
-    })
-  });
-  
-// set the course area on click    
-  $('.course-area').click(function() {
-        //event.preventDefault();
-    if(typeof courseType !== "undefined" ){
-        $(this).attr('href', function() {
-            return this.href  + '/course_type/' + courseType;
-        });
-    }
-    if(typeof campusFilter !== "undefined" ){  
-       $(this).attr('href', function() {
-            return this.href  + '/campus/' + campusFilter;
-        });
-    }
-    if(typeof brandFilter !== "undefined" ){  
-       $(this).attr('href', function() {
-            return this.href  + '/brand/' + brandFilter;
-        });
-    }      
-      
-  });
-  $('.campus').click(function() {
-        //event.preventDefault();
-
-  });    
-    
-/*
-    $container.delegate( '.show-more', 'click', function(){
-        //$(this).toggleClass('large');
+    var $sector = $('#sector-page-content').isotope({
+        itemSelector: '.area',
+        //resizable: false
+    });
+    // read more link on Learning area page     
+    $container.on('click', '.show-more', function () {
+        // change size of item by toggling big class
+        $(this).parent().toggleClass('big');
+        //hide the readmore link  
+        $(this).children(".readmore").toggle();
+        //re-build the layout  
         $container.isotope('layout');
     });
+    // read more link on sector page    
+    $sector.on('click', '.show-more', function () {
+        $(this).parent().toggleClass('big');
+        $(this).children(".readmore").toggle();
+        $sector.isotope('layout');
+    });
 
-*/
+    // filter items on button click Sector hub page
+    $('.link-wrap').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+
+        $sector.isotope({ filter: filterValue });
+        $sector.show();
+        //if 16-18 show the 'how you learn' filters 
+        $sector.isotope('layout');
+        $('html, body').animate({
+            scrollTop: $('#sector-page-content').offset().top - 150
+        }, 1000);
+
+    });
+
+    var $output = $('#output');
+
+    // filter with selects and checkboxes
+    var $checkboxes = $('#form-ui input');
+    //declare the courseType var for use later    
+    var courseType;
+    var campusFilter;
+    var brandFilter;
+
+    $('#form-ui label.btn').click(function ($event) {
+        // Deselect all other options
+        var $clickedButton = $($event.target);
+
+        $clickedButton.siblings('.active').click();
+    });
+
+    $checkboxes.change(function () {
+        // map input values to an array   
+        //var exclusives = [];
+        var inclusives = [];
+        //get and set course type data value
+        courseType = $(this).attr("data-course-type") || courseType;
+        //get and set campus data value
+        campusFilter = $(this).attr("data-campus") || campusFilter;
+        //get and set brand data value  
+        brandFilter = $(this).attr("data-brand") || brandFilter;
+        // inclusive filters from checkboxes
+
+        $checkboxes.each(function (i, elem) {
+            // if checkbox, use value if checked
+            if (elem.checked) {
+                inclusives.push(elem.value);
+                $sector.show();
+                $sector.isotope('layout');
+            }
+        });
+
+        // combine inclusive filters
+        var filterValue = inclusives.length ? inclusives.join('') : '*';
+
+        $output.text(filterValue);
+        $container.isotope({
+            filter: filterValue,
+            queue: false,
+            resizable: false
+        })
+    });
+
+    // set the course area on click    
+    $('.course-area').click(function () {
+        //event.preventDefault();
+        if (typeof courseType !== "undefined") {
+            $(this).attr('href', function () {
+                return this.href + '/course_type/' + courseType;
+            });
+        }
+        if (typeof campusFilter !== "undefined") {
+            $(this).attr('href', function () {
+                return this.href + '/campus/' + campusFilter;
+            });
+        }
+        if (typeof brandFilter !== "undefined") {
+            $(this).attr('href', function () {
+                return this.href + '/brand/' + brandFilter;
+            });
+        }
+
+    });
+    $('.campus').click(function () {
+        //event.preventDefault();
+
+    });
+
+    // Preset options 
+    var brand_cookie = Cookies.get('brand');
+    if (brand_cookie == '#duchy') {
+        $('.area-filter > input[value=".dc"]').parent().click();
+    } else if (brand_cookie == '#falmouth') {
+        $('.area-filter > input[value=".fms"]').parent().click();
+    } else if (brand_cookie == '#bicton') {
+        $('.area-filter > input[value=".bic"]').parent().click();
+    }
+
+    /*
+        $container.delegate( '.show-more', 'click', function(){
+            //$(this).toggleClass('large');
+            $container.isotope('layout');
+        });
+    
+    */
 });
