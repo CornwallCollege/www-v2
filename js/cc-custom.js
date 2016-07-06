@@ -115,6 +115,9 @@ $(function () {
             swiperH.slideTo(3, 1000, false);
             changeCurrentLogo();
         })
+
+        var slide = swiperH.slides[swiperH.activeIndex];
+        loadVideo(slide);
     }
 
     // Ajax menu into #main-menu
