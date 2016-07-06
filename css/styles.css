@@ -390,7 +390,14 @@ section > h2 strong,
     position: absolute;
     z-index: -1;
 }
-
+.option-set a.btn{
+    margin-top: 5px
+}
+a.selected{
+    background: white;
+    border:solid 3px #52B3D9;  
+    color: #52b3d9;
+}
 .icon-expand:hover:before,
 .icon-link:hover:before {
     letter-spacing: 0.5px;
