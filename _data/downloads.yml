@@ -105,7 +105,7 @@
   colour: 77BC43
   
     #NCS Application Form_Summer2015
-- title: NCS Application Form_Summer2015  # Document name
+- title: NCS Application Form - Summer 2015  # Document name
   type: PDF # Document type
   category: application-forms # Document category
   download-link: /documents/Application-form/NCS Application Form_Summer2015.pdf
@@ -1228,7 +1228,7 @@
 - title: SINNG Newsletter # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/newsletters/SINNG_Newsletter_01_0.pdf
+  download-link: /documents/newsletter/SINNG_Newsletter_01_0.pdf
   search-link: SINNG-Newsletter-01-0  # Document name
   colour: e69900
   
