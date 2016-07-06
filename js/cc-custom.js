@@ -962,10 +962,10 @@ $( document ).ready( function() {
     //resizable: false
   });
     
-  var $container = $('#download-content').isotope({
-    itemSelector: '.download',
-    //resizable: false
-  });
+//   var $container = $('#download-content').isotope({
+//     itemSelector: '.download',
+//     //resizable: false
+//   });
     
   var $sector = $('#sector-page-content').isotope({
     itemSelector: '.area',
@@ -1009,17 +1009,24 @@ $( document ).ready( function() {
   var courseType;  
   var campusFilter; 
   var brandFilter;
+
+  $('#form-ui label.btn').click(function($event){
+      // Deselect all other options
+      var $clickedButton = $($event.target);
+
+      $clickedButton.siblings('.active').click();
+  });
     
   $checkboxes.change( function() {
     // map input values to an array   
     //var exclusives = [];
     var inclusives = [];
     //get and set course type data value
-    courseType = $(this).attr("data-course-type"); 
+    courseType = $(this).attr("data-course-type") || courseType; 
     //get and set campus data value
-    campusFilter = $(this).attr("data-campus");
+    campusFilter = $(this).attr("data-campus") || campusFilter;
     //get and set brand data value  
-    brandFilter = $(this).attr("data-brand"); 
+    brandFilter = $(this).attr("data-brand") || brandFilter; 
     // inclusive filters from checkboxes
       
     $checkboxes.each( function( i, elem ) {
@@ -1032,7 +1039,7 @@ $( document ).ready( function() {
     });
 
     // combine inclusive filters
-    var filterValue = inclusives.length ? inclusives.join(', ') : '*';
+    var filterValue = inclusives.length ? inclusives.join('') : '*';
 
     $output.text( filterValue );
     $container.isotope({ 

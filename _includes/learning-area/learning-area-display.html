@@ -5,37 +5,37 @@
         <h5>Campus</h5>    
         <div class="btn-group" data-toggle="buttons">
           <label class="area-filter btn btn-primary">
-            <input type="checkbox" value=".bicton-campus" data-campus="bicton" >Bicton
+            <input type="checkbox" name="campus-radio" value=".bicton-campus" data-campus="bicton" >Bicton
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".camborne-campus" data-campus="camborne">Camborne
+            <input type="checkbox" name="campus-radio" value=".camborne-campus" data-campus="camborne">Camborne
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".bristol-campus" data-campus="bristol">dBs Bristol
+            <input type="checkbox" name="campus-radio" value=".bristol-campus" data-campus="bristol">dBs Bristol
           </label>            
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".eden-campus" data-campus="eden-project">Eden
+            <input type="checkbox" name="campus-radio" value=".eden-campus" data-campus="eden-project">Eden
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".falmouth-campus" data-campus="falmouth-marine-school">Falmouth
+            <input type="checkbox" name="campus-radio" value=".falmouth-campus" data-campus="falmouth-marine-school">Falmouth
           </label>   
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".newquay-campus" data-campus="newquay">Newquay
+            <input type="checkbox" name="campus-radio" value=".newquay-campus" data-campus="newquay">Newquay
           </label>    
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".rosewarne-campus" data-campus="rosewarne">Rosewarne
+            <input type="checkbox" name="campus-radio" value=".rosewarne-campus" data-campus="rosewarne">Rosewarne
           </label>    
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".saltash-campus" data-campus="saltash">Saltash
+            <input type="checkbox" name="campus-radio" value=".saltash-campus" data-campus="saltash">Saltash
           </label> 
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".st-austell-campus" data-campus="st-austell">St Austell
+            <input type="checkbox" name="campus-radio" value=".st-austell-campus" data-campus="st-austell">St Austell
           </label>    
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".stoke-campus" data-campus="stoke">Stoke Climsland
+            <input type="checkbox" name="campus-radio" value=".stoke-campus" data-campus="stoke">Stoke Climsland
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".sisna-campus" data-campus="sisna-park">Sisna
+            <input type="checkbox" name="campus-radio" value=".sisna-campus" data-campus="sisna-park">Sisna
           </label>     
         </div> 
     </div>
@@ -44,16 +44,16 @@
         <h5>Brand</h5>    
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".bic" data-brand="bictoncollege" > Bicton College
+            <input type="checkbox" name="brand-radio" value=".bic" data-brand="bictoncollege" > Bicton College
           </label>            
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".cc" data-brand="cornwallcollege" > Cornwall College
+            <input type="checkbox" name="brand-radio" value=".cc" data-brand="cornwallcollege" > Cornwall College
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".dc" data-brand="duchycollege"> Duchy College
+            <input type="checkbox" name="brand-radio" value=".dc" data-brand="duchycollege"> Duchy College
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".fms" data-brand="falmouthms"> Falmouth Marine School
+            <input type="checkbox" name="brand-radio" value=".fms" data-brand="falmouthms"> Falmouth Marine School
           </label>
         </div>  
     </div>    
@@ -62,22 +62,22 @@
         <h5>Sector</h5>    
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".university" data-course-type="he">University
+            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he">University
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".16-18" data-course-type="fe16_18">16-18
+            <input type="checkbox" name="sector-radio" value=".16-18" data-course-type="fe16_18">16-18
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".19plus" data-course-type="fe19plus">Adult 19+
+            <input type="checkbox" name="sector-radio" value=".19plus" data-course-type="fe19plus">Adult 19+
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
+            <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
           </label>            
             
         </div>  
     </div>  
 
-      <!-- <p id="output">--</p>  -->   
+       <!--<p id="output">--</p>-->
     </div>
 
     <section class="career-items container">
@@ -107,7 +107,7 @@
                 </a>    
                 <div class="detail collapse" id="{{ subcluster.search-link }}">
                     <p>{{ subcluster.intro }}</p>
-                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right">View courses in this area</a>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right course-area">View courses in this area</a>
                 </div>    
        
             </div>
