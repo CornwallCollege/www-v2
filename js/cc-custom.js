@@ -792,7 +792,7 @@ $("select").selectOrDie({
 });
 
 // resposive logo; first click open second click follow link
-$('#logo-wrap .current-brand').click(function (e) {
+$('.brand-image').click(function (e) {
     if (!$('#logo-wrap').children().hasClass('active')) {
         $('#logo-wrap').removeClass('active');
         $('#logo-wrap').children().addClass('active');
@@ -801,11 +801,12 @@ $('#logo-wrap .current-brand').click(function (e) {
         return true;
     }
 });
-$(document).click(function (e) {
-    if ($(e.target).is('.brand-image') === false) {
-        $("#logo-wrap").children().removeClass("active");
-    }
-});
+
+// $(document).click(function (e) {
+//     if ($(e.target).is('.brand-image') === false) {
+//         $("#logo-wrap").children().removeClass("active");
+//     }
+// });
 
 /* Shrink logo on scroll */
 $(function () {
@@ -833,7 +834,9 @@ $(function () {
             logoWrap.removeClass("logo-wrap-scroll").addClass('logo-wrap');
             //remove active class at the top of the page
             $('#white-nav-bg').removeClass('active');
-
+            
+            // Add active class to current brand
+            currentBrand.addClass('active');
         }
     });
 });
@@ -872,27 +875,23 @@ $(function () {
 
     });
     //
-    $(function () {
 
-        $('.logo').removeClass('current-brand');
-        $('.logo').addClass('sub-brand grow');
-        $(Cookies.get('brand')).removeClass('grow');
-        $(Cookies.get('brand')).addClass('current-brand');
-        //bring the active logo to the front
-        $(Cookies.get('brand')).css("z-index", "999");
+    $('.logo').removeClass('current-brand');
+    $('.logo').addClass('sub-brand grow');
+    $(Cookies.get('brand')).removeClass('grow');
+    $(Cookies.get('brand')).addClass('current-brand').addClass('active');
+    //bring the active logo to the front
+    $(Cookies.get('brand')).css("z-index", "999");
 
-        //apply z-index to correctly stack the logos
-        var offset = 1;
-        $(Cookies.get('brand')).prevAll().each(function (index) {
-            $(this).css("z-index", 999 - offset);
-            offset++;
-        });
-        $(Cookies.get('brand')).nextAll().each(function (index) {
-            $(this).css("z-index", 999 - offset);
-            offset++;
-
-        });
-
+    //apply z-index to correctly stack the logos
+    var offset = 1;
+    $(Cookies.get('brand')).prevAll().each(function (index) {
+        $(this).css("z-index", 999 - offset);
+        offset++;
+    });
+    $(Cookies.get('brand')).nextAll().each(function (index) {
+        $(this).css("z-index", 999 - offset);
+        offset++;
 
     });
 
