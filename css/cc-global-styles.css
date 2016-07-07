@@ -107,6 +107,14 @@ div.logo-wrap-scroll :nth-child(4) {
 	top:0px;
 }
 
+#alert-container {
+    display: none;
+}
+
+.announce-alert {
+    
+}
+
 /* bootstrap menu - custom-header start -- UPDATE in 1.6 */
 
 .visible-navbar {
