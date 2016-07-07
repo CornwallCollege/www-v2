@@ -115,7 +115,7 @@
   anchor: "camborne"
   facilities:
     - title: Students Union
-      detail: The Students Union has its own building with a cafe, pool and table tennis facilities, music TV and student liaison team 
+      detail: "Cornwall College Student Union (CCSU)exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students’ Union is one of the best things about the College and you have the power to determine what it’s doing! </br>CCSU is actively involved in:</br> • Representing students </br>• Clubs and societies </br>• Organising parties, events and Freshers’ Fair </br>• Volunteering work and qualifications </br>• Running campaigns on campus </br>• Updating the CCSU website. </br>Remember, YOUR UNION, YOUR VOICE! </br> Degree students can also access the University of Plymouth Students' Union" 
       link: /camborne-learning-area/
       image: /camborne/students-union.jpg
       image-thumb: /camborne/students-union-thumb.jpg
@@ -144,7 +144,7 @@
       image: /camborne/sport-science-lab.jpg
       image-thumb: /camborne/sport-science-lab-thumb.jpg
       
-    - title: dBs Music Studios
+    - title: dBs </br> Music Studios 
       detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
       link: /camborne-learning-area/
       image: /camborne/dbs-music.jpg
@@ -161,6 +161,13 @@
       link: /camborne-learning-area/
       image: /camborne/gym-sport-centre.jpg
       image-thumb: /camborne/gym-sport-centre-thumb.jpg
+  
+    - title: Childcare
+      detail: We offer great childcare at Cornwall College, Camborne If you have young children you may be eligible for financial support towards your childcare costs. You will be eligible for this support if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan). To apply, please download and complete the two forms at the bottom of this page.</br>Nurseries </br> What can we offer you here at college? </br>Many of our campuses have nurseries providing high quality childcare; enabling you to leave your child or children in good hands while you are in class.</br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place.</br> There is a Flying Start nursery on the Cornwall College Camborne campus 01209 611609</br>Under 20?</br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning.Letting someone else look after you child can be a big step! Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places. • Childminder</br> </br>• Pre-school playgroup </br>• Day nursery </br>• Out of school club </br>• Other registered childcare</br> Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care. Find more information here. www.gov.uk/care-to-learn</br> Or call Directgov’s Learner Support helpline on 0800 121 8989.</br>Childcare Application Form download</br>FE Bursary Application Form download
+      link: /camborne-learning-area/
+      image: /camborne/gym-sport-centre.jpg
+      image-thumb: /camborne/gym-sport-centre-thumb.jpg
+  
   
   learning-areas:    
     - area-title: Business & Professional

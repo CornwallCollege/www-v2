@@ -11,7 +11,7 @@
   type: PDF # Document type
   category: application-forms # Document category
   download-link: /documents/Application-form/16-18 Transport & Bursary application form - 2015.pdf
-  search-link: 16-180Transport-&-Bursary-application form-2015 # Document name
+  search-link: 16-18-Transport-&-Bursary-application form-2015 # Document name
   colour: 77BC43
   
   #19+ application form final 2016-17
@@ -161,7 +161,7 @@
   colour: 77BC43
   
   #Teenage Pregnancy FE Project Referral Form 190713
-- title: Teenage Pregnancy FE Project Referral Form 190713  # Document name
+- title: Teenage Pregnancy FE Project Referral Form # Document name
   type: Word # Document type
   category: application-forms # Document category
   download-link: /documents/Application-form/Teenage Pregnancy FE Project Referral Form 190713.doc
@@ -177,7 +177,7 @@
   colour: 77BC43
   
   #Unaffiliated Dressage ENTRY FORM-test5
-- title: Unaffiliated Dressage ENTRY FORM-test5  # Document name
+- title: Unaffiliated Dressage ENTRY FORM # Document name
   type: PDF # Document type
   category: application-forms # Document category
   download-link: /documents/Application-form/Unaffiliated Dressage ENTRY FORM-test5.pdf
@@ -233,7 +233,7 @@
   colour: 004B93
   
   #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4
-- title: 05687JW1015 Apprentice TCCG Diamond CV tips 4 # Document name
+- title: Apprentice TCCG Diamond CV tips 4 # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4.pdf
