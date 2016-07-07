@@ -115,6 +115,9 @@ $(function () {
             swiperH.slideTo(3, 1000, false);
             changeCurrentLogo();
         })
+
+        var slide = swiperH.slides[swiperH.activeIndex];
+        loadVideo(slide);
     }
 
     // Ajax menu into #main-menu
@@ -1092,4 +1095,14 @@ $(document).ready(function () {
         });
     
     */
+});
+
+jQuery(document).ready(function () {
+    // Lookup alert message and display if required
+    jQuery.getJSON('https://network.cornwall.ac.uk/?action=ccg_get_announcement', function(data) {
+        if(data.enabled && data.message) {
+            $('#alert-container').html('<div class="announce-alert">' + data.message + '</div>');
+            $('#alert-container').show();
+        }
+    });
 });
