@@ -7,14 +7,14 @@
   facilities: 
     - title: Learning Centre
       location: Bicton
-      detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi 
+      detail: <strong>Opening times</strong> </br>9- 5 pm mon/wed/fri </br>9-7 pm tue/thur</br></br>Bicton College Learning Centre is the hub for learning within the College. We aim to provide a friendly and supportive service for our learners that facilitates their progress towards further study or employment. The Learning Centre also hosts the USPace – a one-stop shop for support for work experience, careers and personal support. Students make the most of the resources including books and journals in the specialist areas taught at the College. Students also benefit from use of computers in the Learning Centre and Campus WIFI giving them access to e-resources and software to assist them with their studies.
       link: /bicton-learning-area/
       image: /bicton/learning-centre.jpg
       image-thumb: /bicton/learning-centre-thumb.jpg
       
     - title: Café Neo
       location: Bicton
-      detail: The coffee bar in the students’ common room serves hot drinks and snacks
+      detail: Freshly Brewed Coffee and tasty treats to tempt you all, the Café is the hub for all students to connect and relax in, whether its cappuccino, skinny latte or an iced frappe, Alan our barista trained team member is here to ensure you have a great time, we really look forward to seeing you all.
       link: /bicton-learning-area/
       image: /bicton/cafe-neo.jpg
       image-thumb: /bicton/cafe-neo-thumb.jpg
@@ -28,7 +28,7 @@
       
     - title: Restaurant
       location: Bicton
-      detail: The campus restaurant has a ‘live’ food servery where you can order your bespoke omelette or build-a-burger
+      detail: Opening times</br> <strong>Weekdays</strong></br> 07:30 - 09:30 (Breakfast)</br> 09:30 - 12:00 (selection of Hot Savory Snacks)</br> 12:00 - 13:45 (Lunch)</br> 14.00 -16:00 (Afternoon snacks and Homemade Cakes)</br> 17:00 - 18:15 (Dinner)</br> Weekends</br> 11:00 - 14.30 call order, what you want, the way you want it from our lunch menu.</br>16.00 - 18:00 call order a grilled rump steak or a flat bread street meal from our evening menu.</br></br>Bicton Kitchen and Restaurant provides a variety of meals throughout the day for everyone. It is at the heart of Bicton House, offering a great variety of street cooked food, wholesome, healthy food and snacks to tempt every individual throughout the day.</br></br>A wide and varied menu, also ensuring that students have the most up to date dietary and allergen information to hand throughout their stay. The Bicton Kitchen and Restaurant offer three main meals during the working week and at weekends a call order system for students that they can order food at their leisure to fit in with their college lifestyle. Whether it’s a lunch, a meeting or a formal dinner, the Bicton Catering Team are here to help and serve you.
       link: /bicton-learning-area/
       image: /bicton/restaurant.jpg
       image-thumb: /bicton/restaurant-thumb.jpg 
@@ -42,7 +42,10 @@
       
     - title: Sports & Outdoors
       location: Bicton
-      detail: A range of facilities including a brand new sports hall and grass pitch, a fully equipped gym and rugby analysis suite
+      detail: Sports & Outdoors for Students</br> Contact - sportsmaker@cornwall.ac.uk</br></br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.</br></br> College sporting activities include:</br>* Hockey</br> * Netball</br>* Football</br>* Kayaking</br>
+* Outdoor Pursuits</br>* Horse Riding</br>* Surfing</br>* Climbing</br>* Running</br>* Pilates</br>* Boogie Bounce</br>* Archery</br>* Lacrosse</br>* Tennis</br>* HIIT training</br>* Badminton</br>* Dodgeball</br>* And many more</br></br> Sports and Outdoors for staff, students and the Public</br></br>The facilities at Cornwall College are superb and reflect the specialisms required by the students studying any related courses.</br></br>The sports and fitness facilities are open to the Public, Staff and Students, we offer a wide range of facilities to suit a full range of activities</br></br>Bicton</br></br>Bicton sports centre has a wide range of facilities including a 3G astro turf, 4 court sports hall, , teaching rooms and a fitness suite</br></br>Fitness Suite </br></br>Open to staff and students our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No fixed membership contract; Free ½ hour programme updates; Free gym challenges Personalised training programme  and free nutritional advice</br>Outdoor Adventurous Facilities</br>We also have a full range of outdoor facilities such as a climbing tower; fitness gym and body conditioning gym; low ropes course; five acre lake and cross country running routes. These are available for use for community groups, friends, schools using our qualified instructors or if you want a birthday party with a difference.</br></br>OPENING HOURS</br>Monday to Sunday - hours open according to bookings</br>Tel - 01209 617732 Email - sportandfitness@cornwall.ac.uk
+
+Tel: 01209 617732
       link: /bicton-learning-area/
       image: /bicton/sports-outdoor.jpg
       image-thumb: /bicton/sports-outdoor-thumb.jpg
@@ -106,14 +109,14 @@
   anchor: "dbs"
   facilities:
   
-    - title: dBs </br> Music Studios Bristol
+    - title: dBs </br> Music Studios FE
       detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
       link: /camborne-learning-area/
       image: /camborne/dbs-music.jpg
       image-thumb: /camborne/dbs-music-thumb.jpg
       learning-ares:  
       
-    - title: dBs </br> Music Studios Camborne
+    - title: dBs </br> Music Studios HE
       detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
       link: /camborne-learning-area/
       image: /camborne/dbs-music.jpg
@@ -183,23 +186,23 @@
       image: /camborne/gym-sport-centre.jpg
       image-thumb: /camborne/gym-sport-centre-thumb.jpg
   
-    - title: Piran's College Shop
-      detail: "If you need a pen, a notepad or forgotten somebody’s birthday Piran’s has everything you need. </br> Piran’s College Shop is a cheerful, well-stocked shop, located in Campus Central. The shop sells stationery, art equipment, chilled foods and drinks, “old fashioned – loose sweets”, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. </br>Card payments can be taken (minimum £3 limit). </br>The shop also offers a lot of opportunities for students to complete work experience.</br> Students from the Faculty for Continuing & Community Education, come to the shop, they learn to serve customers, price items, order stock and basic skills to  run a shop.</br> Students from different faculties often produce items and sell them in the shop.</br> Business/Enterprise & IT students come to the shop to complete parts of their business course criteria.</br></br> Pirans shop is in the Trelawney Building, ground floor."
-      link: /camborne-learning-area/
-      image: /camborne/pirans-shop.jpg
-      image-thumb: /camborne/pirans-shop -thumb.jpg
+  #  - title: Piran's College Shop
+   #   detail: "If you need a pen, a notepad or forgotten somebody’s birthday Piran’s has everything you need. </br> Piran’s College Shop is a cheerful, well-stocked shop, located in Campus Central. The shop sells stationery, art equipment, chilled foods and drinks, “old fashioned – loose sweets”, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. </br>Card payments can be taken (minimum £3 limit). </br>The shop also offers a lot of opportunities for students to complete work experience.</br> Students from the Faculty for Continuing & Community Education, come to the shop, they learn to serve customers, price items, order stock and basic skills to  run a shop.</br> Students from different faculties often produce items and sell them in the shop.</br> Business/Enterprise & IT students come to the shop to complete parts of their business course criteria.</br></br> Pirans shop is in the Trelawney Building, ground floor."
+      #link: /camborne-learning-area/
+      #image: /camborne/pirans-shop.jpg
+      #image-thumb: /camborne/pirans-shop -thumb.jpg
     
-    - title: CDP Design and Print Soloutions
-      detail: "College Print is a fully operating print facility offering all manner of reproduction, binding and stationery. Whether you are after a pen, a T-shirt printed or your thesis bound, College Print has the equipment and expertise to help you.</br></br> For more information telephone 01209 616166."
-      link: /camborne-learning-area/
-      image: /camborne/cdp-design-&-print.png
-      image-thumb: /camborne/cdp-design-&-print-thumb.png
+    #- title: CDP Design and Print Soloutions
+     # detail: "College Print is a fully operating print facility offering all manner of reproduction, binding and stationery. Whether you are after a pen, a T-shirt printed or your thesis bound, College Print has the equipment and expertise to help you.</br></br> For more information telephone 01209 616166."
+     # link: /camborne-learning-area/
+     # image: /camborne/cdp-design-&-print.png
+     # image-thumb: /camborne/cdp-design-&-print-thumb.png
   
-    - title: Venue Hire
-      detail: NEEDS INPUTTING
-      link: /camborne-learning-area/
-      image: /camborne/venue-hire.jpg
-      image-thumb: /camborne/venue-hire-thumb.jpg
+    #- title: Venue Hire
+     # detail: NEEDS INPUTTING
+     # link: /camborne-learning-area/
+     # image: /camborne/venue-hire.jpg
+     # image-thumb: /camborne/venue-hire-thumb.jpg
   
   learning-areas:    
     - area-title: Business & Professional
