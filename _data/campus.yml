@@ -4,65 +4,22 @@
   link: /location-pages/bicton-campus.html
   code: B
   anchor: "bicton-campus"
-  facilities: 
-    - title: Learning Centre
-      location: Bicton
-      detail: <strong>Opening times</strong> </br>9- 5 pm mon/wed/fri </br>9-7 pm tue/thur</br></br>Bicton College Learning Centre is the hub for learning within the College. We aim to provide a friendly and supportive service for our learners that facilitates their progress towards further study or employment. The Learning Centre also hosts the USPace – a one-stop shop for support for work experience, careers and personal support. Students make the most of the resources including books and journals in the specialist areas taught at the College. Students also benefit from use of computers in the Learning Centre and Campus WIFI giving them access to e-resources and software to assist them with their studies.
-      link: /bicton-learning-area/
-      image: /bicton/learning-centre.jpg
-      image-thumb: /bicton/learning-centre-thumb.jpg
+  facilities:
+  
+    - title: dBs </br> Music Studios FE
+      detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
+      link: /camborne-learning-area/
+      image: /camborne/dbs-music.jpg
+      image-thumb: /camborne/dbs-music-thumb.jpg
+      learning-ares:  
       
-    - title: Café Neo
-      location: Bicton
-      detail: Freshly Brewed Coffee and tasty treats to tempt you all, the Café is the hub for all students to connect and relax in, whether its cappuccino, skinny latte or an iced frappe, Alan our barista trained team member is here to ensure you have a great time, we really look forward to seeing you all.
-      link: /bicton-learning-area/
-      image: /bicton/cafe-neo.jpg
-      image-thumb: /bicton/cafe-neo-thumb.jpg
-      
-    - title: Students’ Union
-      location: Bicton
-      detail: Student reps, campaigns, trips, parties, sports activities and Freshers’ Fair plus charity fundraising activities
-      link: /bicton-learning-area/
-      image: /bicton/students-union.jpg
-      image-thumb: /bicton/students-union-thumb.jpg     
-      
-    - title: Restaurant
-      location: Bicton
-      detail: Opening times</br> <strong>Weekdays</strong></br> 07:30 - 09:30 (Breakfast)</br> 09:30 - 12:00 (selection of Hot Savory Snacks)</br> 12:00 - 13:45 (Lunch)</br> 14.00 -16:00 (Afternoon snacks and Homemade Cakes)</br> 17:00 - 18:15 (Dinner)</br> Weekends</br> 11:00 - 14.30 call order, what you want, the way you want it from our lunch menu.</br>16.00 - 18:00 call order a grilled rump steak or a flat bread street meal from our evening menu.</br></br>Bicton Kitchen and Restaurant provides a variety of meals throughout the day for everyone. It is at the heart of Bicton House, offering a great variety of street cooked food, wholesome, healthy food and snacks to tempt every individual throughout the day.</br></br>A wide and varied menu, also ensuring that students have the most up to date dietary and allergen information to hand throughout their stay. The Bicton Kitchen and Restaurant offer three main meals during the working week and at weekends a call order system for students that they can order food at their leisure to fit in with their college lifestyle. Whether it’s a lunch, a meeting or a formal dinner, the Bicton Catering Team are here to help and serve you.
-      link: /bicton-learning-area/
-      image: /bicton/restaurant.jpg
-      image-thumb: /bicton/restaurant-thumb.jpg 
-
-    - title: Accommodation
-      location: Bicton
-      detail: We offer halls of residence for learners who live too far away to commute every day, see page 257 for details
-      link: /bicton-learning-area/
-      image: /bicton/accommodation.jpg 
-      image-thumb: /bicton/accommodation-thumb.jpg
-      
-    - title: Sports & Outdoors
-      location: Bicton
-      detail: Sports & Outdoors for Students</br> Contact - sportsmaker@cornwall.ac.uk</br></br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.</br></br> College sporting activities include:</br>* Hockey</br> * Netball</br>* Football</br>* Kayaking</br>
-* Outdoor Pursuits</br>* Horse Riding</br>* Surfing</br>* Climbing</br>* Running</br>* Pilates</br>* Boogie Bounce</br>* Archery</br>* Lacrosse</br>* Tennis</br>* HIIT training</br>* Badminton</br>* Dodgeball</br>* And many more</br></br> Sports and Outdoors for staff, students and the Public</br></br>The facilities at Cornwall College are superb and reflect the specialisms required by the students studying any related courses.</br></br>The sports and fitness facilities are open to the Public, Staff and Students, we offer a wide range of facilities to suit a full range of activities</br></br>Bicton</br></br>Bicton sports centre has a wide range of facilities including a 3G astro turf, 4 court sports hall, , teaching rooms and a fitness suite</br></br>Fitness Suite </br></br>Open to staff and students our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No fixed membership contract; Free ½ hour programme updates; Free gym challenges Personalised training programme  and free nutritional advice</br>Outdoor Adventurous Facilities</br>We also have a full range of outdoor facilities such as a climbing tower; fitness gym and body conditioning gym; low ropes course; five acre lake and cross country running routes. These are available for use for community groups, friends, schools using our qualified instructors or if you want a birthday party with a difference.</br></br>OPENING HOURS</br>Monday to Sunday - hours open according to bookings</br>Tel - 01209 617732 Email - sportandfitness@cornwall.ac.uk
-
-Tel: 01209 617732
-      link: /bicton-learning-area/
-      image: /bicton/sports-outdoor.jpg
-      image-thumb: /bicton/sports-outdoor-thumb.jpg
-      
-    - title: Equine
-      location: Bicton
-      detail: We have a large equine yard with livery facilities for students, plus indoor and outdoor arenas
-      link: /bicton-learning-area/
-      image: /bicton/equine.jpg 
-      image-thumb: /bicton/equine-thumb.jpg    
-      
-    - title: Animal Management
-      detail: We have a brand new Animal Husbandry School, which is home to a huge range of animals
-      link: /bicton-learning-area/
-      image: /bicton/animal-management.jpg
-      image-thumb: /bicton/animal-management-thumb.jpg       
-
+    - title: dBs </br> Music Studios HE
+      detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
+      link: /camborne-learning-area/
+      image: /camborne/dbs-music.jpg
+      image-thumb: /camborne/dbs-music-thumb.jpg
+      learning-ares:
+  
   learning-areas:  
     - area-title: Foundation Learning
       area-color: F18D05    
