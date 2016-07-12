@@ -4,6 +4,31 @@
   link: /location-pages/bicton-campus.html
   code: B
   anchor: "bicton-campus"
+  partnerships:
+    - partner-title: Test Partner
+      partner-logo: http://placehold.it/200x100
+      partner-link: http://google.co.uk
+      
+    - partner-title: Test Partner
+      partner-logo: http://placehold.it/200x100
+      partner-link: http://google.co.uk
+      
+    - partner-title: Test Partner
+      partner-logo: http://placehold.it/200x100
+      partner-link: http://google.co.uk
+      
+    - partner-title: Test Partner
+      partner-logo: http://placehold.it/200x100
+      partner-link: http://google.co.uk
+      
+    - partner-title: Test Partner
+      partner-logo: http://placehold.it/200x100
+      partner-link: http://google.co.uk
+      
+    - partner-title: Test Partner
+      partner-logo: http://placehold.it/200x100
+      partner-link: http://google.co.uk      
+      
   facilities: 
     - title: Learning Centre
       location: Bicton
