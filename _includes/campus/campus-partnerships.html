@@ -1,0 +1,21 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-6 col-md-4 left">
+        <h2>OUR <strong>PARTNERSHIPS</strong></h2>
+        
+    </article>
+    
+    <article class="partner-logo col-xs-12 col-sm-6 col-md-8 clearfix right">
+        {% for campus in site.data.campus %}
+            {% if campus.campus == page.campus' %}
+                {% for partner in campus.partnerships %}
+                    
+                        {% include /campus/campus-partner.html %}
+              
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+    </article>
+  </section>
+</section>
