@@ -4701,3 +4701,75 @@ div.btn-group .area-filter{
         margin-top: 30px;
     }
 }
+
+/* Outreach Centres */
+
+#colliton-barton{
+    background: #DBEFB9;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#colliton-barton h2 strong,
+#colliton-barton h5 span p{
+    color: #80A523;
+}
+
+#dartmoor-zoo{
+    background: #DBEFA1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#dartmoor-zoo h2 strong,
+#dartmoor-zoo h5 span p{
+    color: #93B736;
+}
+
+#hyperion-centre{
+    background: #CCED90;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#hyperion-centre h2 strong,
+#hyperion-centre h5 span p{
+    color: #B7DC5B;
+}
+
+#mullacott-centre{
+    background: #CCED79;
+    padding-bottom: 50px;
+    padding-top: 50px;    
+}
+#mullacott-centre h2 strong,
+#mullacott-centre h5 span p{
+    color: #B7D46C;
+}
+
+#wheal-martyn{
+    background: #B9DE5D;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#wheal-martyn h2 strong,
+#wheal-martyn h5 span p{
+    color: #D3F595;
+}
+
+#seale-hayne{
+    background: #A4CC3D;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#seale-hayne h2 strong,
+#seale-hayne h5 span p{ 
+    color: #DBEFA1;
+}
+
+#occombe-farm{
+    background: #8FB828;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#occombe-farm h2 strong,
+#occombe-farm h5 span p{
+    color: #C4D696;
+}

@@ -204,7 +204,7 @@
       image-thumb: /camborne/gym-sport-centre-thumb.jpg
   
     - title: Childcare
-      detail: We offer great childcare at Cornwall College, Camborne If you have young children you may be eligible for financial support towards your childcare costs. You will be eligible for this support if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan). To apply, please download and complete the two forms at the bottom of this page.</br>Nurseries </br> What can we offer you here at college? </br>Many of our campuses have nurseries providing high quality childcare; enabling you to leave your child or children in good hands while you are in class.</br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place.</br> There is a Flying Start nursery on the Cornwall College Camborne campus 01209 611609</br>Under 20?</br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning.Letting someone else look after you child can be a big step! Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places. • Childminder</br> </br>• Pre-school playgroup </br>• Day nursery </br>• Out of school club </br>• Other registered childcare</br> Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care. Find more information here. www.gov.uk/care-to-learn</br> Or call Directgov’s Learner Support helpline on 0800 121 8989.
+      detail: We offer great childcare at Cornwall College, Camborne If you have young children you may be eligible for financial support towards your childcare costs. You will be eligible for this support if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan). To apply, please download and complete the two forms at the bottom of this page.</br>Nurseries </br> What can we offer you here at college? </br>Many of our campuses have nurseries providing high quality childcare; enabling you to leave your child or children in good hands while you are in class.</br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place.</br> There is a Flying Start nursery on the Cornwall College Camborne campus 01209 611609</br>Under 20?</br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning.Letting someone else look after you child can be a big step! Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places. • Childminder</br> </br>• Pre-school playgroup </br>• Day nursery </br>• Out of school club </br>• Other registered childcare</br> Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care. Find more information here. www.gov.uk/care-to-learn</br> Or call Directgov’s Learner Support helpline on 0800 121 8989.</br><a href="/documents/childcare/CHILDCARE DOWNLOAD 1 - 19+ Bursary application form - 2015.pdf">Childcare Application Form download</br>< a href="/documents/childcare/CHILDCARE DOWNLOAD 2 - FE Application for Financial Help Towards Childcare.docx">Childcare Financial Assistance help
       link: /camborne-learning-area/
       image: /camborne/gym-sport-centre.jpg
       image-thumb: /camborne/gym-sport-centre-thumb.jpg
@@ -340,7 +340,11 @@
       image-thumb: /falmouth/sails-cafe-thumb.jpg
       
     - title: Ponsharden Workshops
+<<<<<<< HEAD
       detail: Our workshops at Ponshardon is situated in the heart of the boatbuilding industry. We are in-between Rustler yachts and The National Maritime Museum restoration workshop.</br></br> While using the latest technical processes you will be taught in our dedicated woodworking and specialist fibre reinforced plastics workshops.
+=======
+      detail: We have our own boatbuilding workshop in the heart of the industry at Ponsharden
+>>>>>>> d6d544c6886d0fedc5c937b924dcb93892914848
       link: /falmouth-learning-area/
       image: /falmouth/ponsharden-workshops.jpg
       image-thumb: /falmouth/ponsharden-workshops-thumb.jpg
@@ -352,20 +356,23 @@
       image-thumb: /falmouth/national-maritime-museum-cornwall-thumb.jpg
       
     - title: Watersports Centre
-      detail: Our Watersports Centre is on the banks of the Fal Estuary with easy access to both of the Cornish coastlines.</br></br>We have all the kit you will need to develop your watersports skills. </br>* Kayaks</br>* Stand Up Paddleboards</br>* Windsurfers</br>* Sailing boats</br>* Power Boats
+      detail: The coast off Falmouth is an excellent classroom for the watersports students, we have a dock in the heart of Falmouth
       link: /falmouth-learning-area/
       image: /falmouth/watersports-centre.jpg
       image-thumb: /falmouth/watersports-centre-thumb.jpg
       
     - title: Marine Science Lab
+<<<<<<< HEAD
       detail: We have one of the largest aquatic teaching facilities in the UK. We have research tank systems that include.</br>* Sharks</br>* Corals</br>* Seahorses</br>* Fresh water fish</br>* Tropical fish</br></br> We also have fully equipped laboratories to undertake the necessary research work as part of your course.
+=======
+      detail: Our renovated marine science laboratory has a range of tanks and equipment for marine breeding programmes
+>>>>>>> d6d544c6886d0fedc5c937b924dcb93892914848
       link: /falmouth-learning-area/
       image: /falmouth/marine-science-lab.jpg
       image-thumb: /falmouth/marine-science-lab-thumb.jpg
       
     - title: Engineering Workshops
       detail: Falmouth is a university town and offers a fantastic mix of Cornish social life, with an array of bars, clubs and restaurants
-      detail: The marine engineering workshop is fully equipped with brand new engines specified by our industry partners to include inboard and outboard engines, hydraulic systems, thrusters and generators from leading marine brands such as Vetus , Mercruiser and Yamaha.</br></br>The workshop also has a Vetus Deutz, a state of the art fault diagnostics system that incorporates all of the systems on a boat, which the students call a ship in a box.
       link: /falmouth-learning-area/
       image: /falmouth/marine-engineering.jpg
       image-thumb: /falmouth/marine-engineering-thumb.jpg
@@ -390,8 +397,6 @@
         sub-area-link: marine-natural-environment
         
   
-
-
 - campus: Cornwall College Newquay
   long: 50.4105492
   lat: -5.0682225
@@ -464,8 +469,6 @@
         sub-area-link: sports-fitness  
   
   
-        sub-area-link: sports-fitness
-
 - campus: Duchy College Rosewarne
   long: 50.2234417
   lat: -5.3028398

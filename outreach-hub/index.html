@@ -1,0 +1,34 @@
+---
+layout: location-hub
+title: The Cornwall College GroupLocation Hub
+description: The Cornwall College Group has a range of locations accross the south west offering range of career driven courses, find and more and apply here.
+link: location
+campuscodes: M,B,C,F,N,R,S,A,D,E
+---
+
+
+
+<!-- HEADER SECTION -->
+
+    <section id="services" class="col-md-12 jumbotron header-title">
+        <header class="container">
+            <h2><a href="/"><small>Home </small></a><span>Outreach</span></h2>
+            <!--get all the locations as a header map-->
+            {% include /location/campus-locations.html %}
+        </header>
+    </section>
+    <!-- END OF HEADER -->
+    <!-- BODY SECTION -->
+
+    <section class="container">
+        
+            <section class="col-md-12 intro" style="margin-top:30px;">
+                    <article class="col-sm-12 text-center"><h2 class="text-uppercase">Our <strong>Outreach Centres</strong> </h2></article>
+            </section> 
+            <article>  
+                <p class="lead">Our outreach centres can be found on this page.</p>
+            </article>     
+            
+    </section>
+
+{% include campus/campus-outreach.html %}
