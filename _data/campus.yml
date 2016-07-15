@@ -147,30 +147,24 @@
   code: C
   anchor: "camborne"
   facilities:
-    - title: Student's Union
-      detail: "Cornwall College Camborne is the largest of the three General Further Education campuses in the group, offering a wide variety of vocational courses from further education to university level, professional qualifications and the South’s West largest provider of apprenticeships; earning ourselves a respected reputation across the wider education sector and business community.</br>With a focused ethos on careers, progression and opportunity, we have attracted high profile partnerships including our famous Academy Nathan Outlaw, Blue Flame Academy and our new Digital Academy.</br> Through consistent hard work, creativity and a can-do attitude, Cornwall College is officially one of the best catering colleges in the UK and is a leading centre for media studies, winning fifteen major awards in just twelve years. We look forward to hearing from you and welcoming you." 
+    - title: Students' Union
+      detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!</br></br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union</br></br><strong>Pirans College Shop</strong> </br>On campus we also have the well-stocked Piran’s College Shop, located in Student Central. The shop sells stationery, art equipment, food and drinks, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. Card payments can be taken (minimum £3 spend).
       link: /camborne-learning-area/
       image: /camborne/students-union.jpg
       image-thumb: /camborne/students-union-thumb.jpg
       
-    - title: Koko Salon & Complementary Health Clinic
-      detail: New state-of-the-art salons, nail bar, barbering suite and therapy lounges, open to the public
+    - title: Koko Hair & Beauty Salon
+      detail: Monday to Friday (term time, with varying opening hours)</br>Some Saturdays throughout term time</br> Every Monday & Wednesday 5pm - 9pm </br>We recommend that you give us a call to book your appointment:</br>Hairdressing 01209 616167 </br>Beauty & Holistic Therapies 01209 616167 koko.camborne@cornwall.ac.uk</br> The Complementary Health Therapy 01209 617796 cornwallclinic@hotmail.co.uk</br></br>The Koko salons are training salons and we offer a wide range of services and treatments, including hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures. All services at Koko are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.
       link: /camborne-learning-area/
       image: /camborne/koko-hair-beauty-salon.jpg
       image-thumb: /camborne/koko-hair-beauty-salon-thumb.jpg
       
     - title: Restaurants & Cafe
-      detail: This training restaurant is a Centre of Excellence and is part of the best catering college in the South West
+      detail: <strong>Trevenson Restaurant</strong></br>Monday to Friday for lunch, some Wednesday evenings (term)</br>The award winning Trevenson Restaurant is one of two fine dining commercial restaurants within the Cornwall College Group. Opened by Michelin star chefs Nathan Outlaw and Pierre Koffmann, Trevenson offers a very special dining experience, offering both creative and mouth-watering menus every day. To make a reservation 01209 616160 or via Facebook Trevenson Restaurant</br></br> <strong>Café Metro & Penhaligion Restaurant</strong></br>Cafe Metro Mon to Fri 8.40am - 2pm, Pop up Cafe Tues to Fri 10.30am - 1pm (term)</br> Penhaligon Mon to Fri 8.30am – 2pm (term), Mon to Fri 9.30am – 1.30pm (holidays)</br>Cafe Metro is a large cafeteria it provides breakfast items, snacks, fruit, confectionery, drinks, salad bar and main meals. We aim to please our customers with a mix of traditional and ethnic dishes, including vegetarians options.
       link: /camborne-learning-area/
       image: /camborne/trevenson-restaurant.jpg
       image-thumb: /camborne/trevenson-restaurant-thumb.jpg
-      
-    - title: Demo Kitchen & Lecture Theatre
-      detail: The only 50+ seat demo kitchen and lecture theatre in Cornwall, great for when guest chefs deliver masterclasses
-      link: /camborne-learning-area/
-      image: /camborne/demo-kitchen.jpg
-      image-thumb: /camborne/demo-kitchen-thumb.jpg
-      
+            
     - title: Sports Science Lab & Performance Centre
       detail: Ideal for any sports clubs or teams who want to boost their performance
       link: /camborne-learning-area/
@@ -178,28 +172,28 @@
       image-thumb: /camborne/sport-science-lab-thumb.jpg
       
     - title: dBs </br> Music Studios 
-      detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
+      detail: Industry leader dBs Music have created a state-of-the-art recording, production and performance facility directly on our Camborne campus. The building now houses industry standard studios, rehearsal spaces, IT Suites, dedicated DJ pods and a surround sound lecture theatre. If you are crazy about music and sound and have a real passion to be working in this industry then you will love what dBs Music is all about. At dBs Music we give a true flavor of the music industry and provide you with an environment that will inspire, challenge and excite the music professional in you. Whilst we provide our students with the necessary theoretical foundation they need to support their vocational practice, it is our belief that students should spend most of their time honing their music production craft and getting practical experience on the very best industry standard equipment. The facilities within dBs Music at Cornwall College Camborne are available outside of normal class time.
       link: /camborne-learning-area/
       image: /camborne/dbs-music.jpg
       image-thumb: /camborne/dbs-music-thumb.jpg
       
-    - title: Learning Centre
-      detail: A university-standard library and over 400 PCs and laptops for you to use with free Wi-Fi
+    - title: Learning Centre & </br>CDP Design and Print
+      detail: HE Floor Mon to Thurs 8.30am - 7pm (term time), Friday 8.30am - 5pm (holidays)</br>FE Floor Mon to Fri 8.30am - 5pm (term time), Monday to Friday 9 am - 4.30pm (holidays)</br></br>The Learning Centre is based on two floors of the Trelawney Building. One floor is designed to specifically support the needs of HE students and the other FE students. Both floors have all the resources needed for students to work on assignments, conduct research and improve study skills. In addition to computers and a comprehensive range of resources, including books, DVDs and journals, the Learning Centre is staffed by a team of friendly and experienced staff.</br></br>On campus we also have a fully operating print facility on site, CDP Designs & Print.
       link: /camborne-learning-area/
       image: /camborne/learning-cent.jpg
       image-thumb: /camborne/learning-centre-thumb.jpg
       
     - title: Evolve Gym & Sports Centre
-      detail: Fully equipped gym with great student rates, plus dance studio, sports hall and artificial turf football pitch
+      detail: At Cornwall College Camborne we have a Evolve Gym, sports hall, 3G all weather pitch and grass pitch. We also have The Football Development Centre plays host to a wide range of football programmes and events. The centre is located within easy reach of the A30 and has top class facilities with specialist staff.</br> 
       link: /camborne-learning-area/
       image: /camborne/gym-sport-centre.jpg
       image-thumb: /camborne/gym-sport-centre-thumb.jpg
   
-    - title: Childcare
-      detail: We offer great childcare at Cornwall College, Camborne If you have young children you may be eligible for financial support towards your childcare costs. You will be eligible for this support if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan). To apply, please download and complete the two forms at the bottom of this page.</br>Nurseries </br> What can we offer you here at college? </br>Many of our campuses have nurseries providing high quality childcare; enabling you to leave your child or children in good hands while you are in class.</br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place.</br> There is a Flying Start nursery on the Cornwall College Camborne campus 01209 611609</br>Under 20?</br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning.Letting someone else look after you child can be a big step! Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places. • Childminder</br> </br>• Pre-school playgroup </br>• Day nursery </br>• Out of school club </br>• Other registered childcare</br> Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care. Find more information here. www.gov.uk/care-to-learn</br> Or call Directgov’s Learner Support helpline on 0800 121 8989.
+    - title: Flying Start Childcare
+      detail: We offer great childcare at Cornwall College, Camborne. If you have young children you may be eligible for financial support towards your childcare costs.</br></br><strong>Nurseries</strong></br> Our nursery, provides high quality childcare; enabling you to leave your child or children in good hands while you are in class.</br></br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place. The Flying Start nursery on the Cornwall College Camborne campus. </br>For more information contact 01209 611609
       link: /camborne-learning-area/
-      image: /camborne/gym-sport-centre.jpg
-      image-thumb: /camborne/gym-sport-centre-thumb.jpg
+      image: /camborne/childcare.jpg
+      image-thumb: /camborne/childcare-thumb.jpg
   
   #  - title: Piran's College Shop
    #   detail: "If you need a pen, a notepad or forgotten somebody’s birthday Piran’s has everything you need. </br> Piran’s College Shop is a cheerful, well-stocked shop, located in Campus Central. The shop sells stationery, art equipment, chilled foods and drinks, “old fashioned – loose sweets”, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. </br>Card payments can be taken (minimum £3 limit). </br>The shop also offers a lot of opportunities for students to complete work experience.</br> Students from the Faculty for Continuing & Community Education, come to the shop, they learn to serve customers, price items, order stock and basic skills to  run a shop.</br> Students from different faculties often produce items and sell them in the shop.</br> Business/Enterprise & IT students come to the shop to complete parts of their business course criteria.</br></br> Pirans shop is in the Trelawney Building, ground floor."
@@ -320,7 +314,7 @@
       image-thumb: /falmouth/learning-centre-thumb.jpg
       
     - title: Students’ Union
-      detail: Student reps, campaigns, trips, parties and Freshers’ Fair plus charity fundraising activities
+      detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students’ Union is one of the best things about the College and you have the power to determine what it’s doing!</br></br>CCSU is actively involved in</br>• Representing students </br>• Clubs and societies</br>• Organising parties, events and Freshers’ Fair</br>• Volunteering work and qualifications</br>• Running campaigns on campus</br>• Updating the CCSU website.</br></br>Remember, YOUR UNION, YOUR VOICE!</br> www.cornwallstudents.org</br>Degree students can also access the University of Plymouth Students Union 
       link: /falmouth-learning-area/
       image: /falmouth/students-union.jpg
       image-thumb: /falmouth/students-union-thumb.jpg
