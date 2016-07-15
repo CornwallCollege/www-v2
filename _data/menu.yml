@@ -98,25 +98,25 @@
   menu-link: support-hub/ 
   sub-menu:
       - sub-menu-name: Student Services
-        sub-menu-link: student-services.html
+        sub-menu-link: support-pages/student-services.html
         
       - sub-menu-name: learning Services
-        sub-menu-link: learning-services.html  
+        sub-menu-link: support-pages/learning-services.html  
         
       - sub-menu-name: Transport
-        sub-menu-link: transport.html  
+        sub-menu-link: support-pages/transport.html  
         
       - sub-menu-name: Accommodation
-        sub-menu-link: accommodation.html     
+        sub-menu-link: support-pages/accommodation.html     
         
       - sub-menu-name: Information for Parents
-        sub-menu-link: parents-information.html   
+        sub-menu-link: support-pages/parents-information.html   
         
       - sub-menu-name: CCSU
-        sub-menu-link: ccsu.html   
+        sub-menu-link: support-pages/ccsu.html   
         
       - sub-menu-name: Employability
-        sub-menu-link: employability.html  
+        sub-menu-link: support-pages/employability.html  
         
       - sub-menu-name: Local Office
-        sub-menu-link: local-office.html         
+        sub-menu-link: support-pages/local-office.html         
