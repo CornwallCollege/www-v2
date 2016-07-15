@@ -4027,6 +4027,15 @@ section.key-stats:after{
 .og-grid li {
     /*position: relative;*/
 }
+.apprenticeships .og-grid li {
+    height:80px;
+    width: 30%;
+}
+@media(max-width:769px){
+    .apprenticeships .og-grid li {
+        width: 100%;
+    }
+}
 ul#og-grid li h4{
     z-index: 1;
     position: relative;
@@ -4038,6 +4047,52 @@ ul#og-grid li h4{
     color: #52B3D9;
     max-width: 300px;
     width: 100%;
+}
+.apprenticeships .og-grid .og-fullimg,
+.apprenticeships .og-grid .og-loading,
+/*.apprenticeships .og-grid .og-details h3,*/
+.og-details span{
+	display:none;
+}
+og-details p{
+    margin-top:0;
+}
+.apprenticeships .og-details h3 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 5px;
+}
+.apprentice-area{
+    padding: 10px 15px;
+    border: solid 1px #eee;
+    margin: 5px 0;
+    min-height: 80px;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #52b3d9;
+    background: white;
+    font-weight: bold;
+}
+.apprenticeships .og-grid li:hover,
+.apprenticeships .og-grid li > a:hover{
+    letter-spacing: normal;
+}
+.apprenticeships .og-grid li > a span:hover{
+    background: #f1f1f1
+}
+.apprenticeships .og-expander{
+    margin-top:89px;
+}
+.apprenticeships .og-grid li.og-expanded > a::after {
+    top: 80px;   
+}
+.apprenticeships .og-grid .og-details{
+	width:100%;
+	padding:0;
 }
 /* Campus Overview / Location hub */
 @media(max-width:640px){

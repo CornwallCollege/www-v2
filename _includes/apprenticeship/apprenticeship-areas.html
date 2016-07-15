@@ -1,0 +1,19 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-6 col-md-3 left">
+        <h2><strong>APPRENTICESHIP</strong> AREAS</h2>
+        <p class="lead">See some of the areas we cover and for further details or vacancies just click them to find out more! Can’t find the area you’re interested in? Talk to us for help or advice!</p>
+    </article>
+    
+    <article class="col-xs-12 col-md-8 col-md-offset-1 clearfix right apprenticeships">
+        <div class="main">
+            <ul id="og-grid" class="og-grid"> 
+                {% for apprenticeship in site.data.apprenticeships %}
+                            {% include /apprenticeship/apprenticeship-area.html %}
+                {% endfor %}
+            </ul>
+        </div>    
+        
+    </article>
+  </section>
+</section>
