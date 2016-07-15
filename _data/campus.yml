@@ -124,29 +124,21 @@
       - sub-area-title: Construction Trades    
         sub-area-link: construction-trades
         
-- campus: dBs Music Bristol
+
+  
+- campus: dbs Music Bristol
   long: 51.4478973
   lat: -2.5838925
   link: /location-pages/bristol-campus.html
   code: M
   anchor: "dbs"
   facilities:
-  
     - title: dBs </br> Music Studios FE
-      detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
-      link: /camborne-learning-area/
+      location: Bristol
+      detail:  BRISTOL FE CENTRE (for diplomas)</br></br>Temple Studios</br>Temple Gate</br>Bristol</br>BS1 6QA</br>Tel - 0333 344 2235</br></br>Enquiries 8.30 - 17.00</br>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. dBs Music opened their purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines.</br></br>Students have access to top recording and production equipment, the latest industry standard software packages and IT facilities. Highlights include 5 studios, 4 practice/rehearsal rooms, live room, and 5 IT Suites. All supported by a team of tutors passionate about passing on their years of experience and knowledge.
+      link: /bristol-learning-area/
       image: /camborne/dbs-music.jpg
       image-thumb: /camborne/dbs-music-thumb.jpg
-      learning-ares:  
-      
-    - title: dBs </br> Music Studios HE
-      detail: Recording studios, jam sessions and gigs with dBs Music; one of the UK’s top venues to study music
-      link: /camborne-learning-area/
-      image: /camborne/dbs-music.jpg
-      image-thumb: /camborne/dbs-music-thumb.jpg
-      learning-ares:
-  
-
      
 - campus: Cornwall College Camborne
   long: 50.2268081
@@ -358,7 +350,7 @@
       image-thumb: /falmouth/watersports-centre-thumb.jpg
       
     - title: Marine Science Lab
-      detail: We have one of the largest aquatic teaching facilities in the UK. We have research tank systems that include.</br>* Sharks</br>* Corals</br>* Seahorses</br>* Fresh water fish</br>* Tropical fish</br></br> We also have fully equipped laboratories to undertake the necessary research work as part of your course.
+      detail: We have one of the largest aquatic teaching facilities in the UK. We have research tank systems that include.</br>* Sharks</br>* Corals</br>* Seahorses</br>* Fresh water fish</br>* Tropical fish</br></br>* Piranhas</br></br> We also have fully equipped laboratories to undertake the necessary research work as part of your course.
       link: /falmouth-learning-area/
       image: /falmouth/marine-science-lab.jpg
       image-thumb: /falmouth/marine-science-lab-thumb.jpg
