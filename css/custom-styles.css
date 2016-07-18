@@ -3007,6 +3007,10 @@ APPLY BARS =====================================================================
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
+    border-style: solid;
+    border-color: #eee;
+    border-left-width: 12px;
+    border-left-style: solid;
 }
 
 .public-body h2{
@@ -3014,7 +3018,7 @@ APPLY BARS =====================================================================
 }
 
 .public-body p {
-    color: white;
+    color: #333;
     margin: 0 0 10px 0;
 }
 
@@ -3051,118 +3055,6 @@ APPLY BARS =====================================================================
 .public-body img.business-image {
     height: 247px;
     width: 247px;
-}
-
-
-#flying {
-    background-color: #0624a2;
-    color: white;
-}
-
-#flying .one {
-    background-color: #6684FF;
-}
-
-#flying .two {
-    background-color: #1440F3;
-}
-
-
-#evolve {
-    background-color: #37aae3;
-    color: white;
-}
-
-#evolve .one {
-    background-color: #5CBCEB;
-}
-
-#evolve .two {
-    background-color: #1298D9;
-}
-
-
-#koko {
-    background-color: #8b005b;
-    color: white;
-}
-
-#koko .one {
-    background-color: #FF3FBC;
-}
-
-#koko .two {
-    background-color: #D9038E;
-}
-
-
-#mill {
-    background-color: #e6007e;
-    color: white;
-}
-
-#mill .one {
-    background-color: #FF69BB;
-}
-
-#mill .two {
-    background-color: #F62E9B;
-}
-
-
-#trevenson {
-    background-color: #5f5f5f;
-    color: white;
-}
-
-#trevenson .one {
-    background-color: #BEBDBD;
-}
-
-#trevenson .two {
-    background-color: #8E8E8E;
-}
-
-
-#cloisters {
-    background-color: #ca1b3c;
-    color: white;
-}
-
-#cloisters .one {
-    background-color: #EF6F88;
-}
-
-#cloisters .two {
-    background-color: #D94461;
-}
-
-
-#room {
-    background-color: #203d7c;
-    color: white;
-}
-
-#room .one {
-    background-color: #546EA4;
-}
-
-#room .two {
-    background-color: #36528F;
-}
-
-
-#pirans {
-    background-color: #292929;
-    color: white;
-}
-
-#pirans .one {
-    background-color: #979595;
-}
-
-#pirans .two {
-    background-color: #636363;
 }
 
 

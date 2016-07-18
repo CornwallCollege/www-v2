@@ -48,10 +48,10 @@ link: 14-18
 
     
     {% for business in site.data.open-public %}        
-        <section id="{{ business.short }}" class="col-xs-12 col-sm-12 public-body">
+        <section id="{{ business.short }}" style="border-left-color: #{{ business.color }}" class="col-xs-12 col-sm-12 public-body">
             
             <section class="col-xs-12 col-md-offset-3">
-                <h2 class="main-section-margins" style="color:white">{{ business.business }}</h2>
+                <h2 class="main-section-margins" style="color: #{{business.color}}">{{ business.business }}</h2>
             </section>
             
             <section class="col-xs-12 col-sm-3">
@@ -61,8 +61,8 @@ link: 14-18
                         {% for table in business.table %}
                         {% if business.table != null %}
                         <tr>
-                            <td class="text-center one" style="padding:10px;"><i class="{{ table.icon }} fa-2x" aria-hidden="true"></i></td>   
-                            <td class="two" style="padding:10px;">{{ table.detail }}</td>
+                            <td class="text-center" style="padding:10px; background-color: #{{ business.color }}"><i class="{{ table.icon }} fa-2x" aria-hidden="true"></i></td>
+                            <td style="padding:10px; background-color: #{{ business.color }}">{{ table.detail }}  </td>
                         </tr>
                         {% endif %}
                         {% endfor %}
@@ -83,12 +83,12 @@ link: 14-18
                 <div class="panel-group" id="accordion-{{ business.short }}" >
                     {% for campus in business.campus %}
                     <div class="panel panel-default">
-                        <div class="panel-heading one">
+                        <div class="panel-heading" style="background-color: #{{ business.color }}">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href="#{{ campus.id }}">{{ campus.campus-name }}</a>
                             </h4>
                         </div>
-                        <div id="{{ campus.id }}" class="{{ campus.class }} two">
+                        <div id="{{ campus.id }}" class="{{ campus.class }}" style= "background-color: #{{ business.color }}">
                             <div class="panel-body">{{ campus.text }}</div>
                         </div>
                     </div>
