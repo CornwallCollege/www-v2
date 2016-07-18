@@ -123,9 +123,7 @@
       area-color: 00A1CB    
       sub-area: 
       - sub-area-title: Construction Trades    
-        sub-area-link: construction-trades
-        
-
+        sub-area-link: construction-trades 
   
 - campus: dbs Music Bristol
   long: 51.4478973
@@ -133,6 +131,12 @@
   link: /location-pages/bristol-campus.html
   code: M
   anchor: "dbs"
+  learning-areas:    
+    - area-title: Cultural & Visitor Economy
+      area-color: D0D102    
+      sub-areas: 
+      - sub-area-title: Music & Performing Arts 
+        sub-area-link: music-performing-arts
   facilities:
     - title: dBs </br> Music Studios FE
       location: Bristol
