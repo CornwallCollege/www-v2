@@ -3,6 +3,17 @@ layout: hub
 title: Apprenticeship Hub
 description: The Cornwall College Group enable you to earn while you learn in a high quality learning environment
 link: apprenticeships
+apply-area: Course Intreast Area - APPRENTICESHIPS
+faq-main-title: APPRENTICESHIP <strong>QUESTIONS</strong>
+faqs:
+    - question: What are apprenticeships?
+      id: what-are-apprenticeships
+      answer: <p>Apprenticeships are work-based training programmes with most of the training being ‘on the job’ – at the      employer’s premises. The rest of the training is provided by the College normally on a one day a week basis, although variations can apply according to the programme. Employment is expected to be for a minimum of 30 hours per week which includes the College based element of the training.</p><p>As an apprentice you are employed from day one meaning that as you are training and developing your career you will receive a real working wage alongside and be fully prepared for direct employment upon completion of your programme.</p>
+
+    - question: Apprenticeships are evolving…
+      id: evolving
+      answer: <p>Apprenticeships prepare the learner for work through the combination of a qualification as well as real industry working experience. A recent review process has identified a need to make the apprenticeships even more career focused. ‘New Standards Apprenticeships’ will in future support the development of specific skills and knowledge for specific employers and specific job roles. How these are assessed and the qualifications you receive will vary depending on the apprenticeship pathway you choose. Be assured our experienced team of advisors will talk you through what’s involved at every stage.</p>
+
 ---
 
     <!-- HEADER SECTION -->
@@ -20,6 +31,13 @@ link: apprenticeships
         <p class="lead ">An apprenticeship is an ideal way for you to earn while you learn in a real job whilst gaining a real qualification and working towards a real future. </p>
     </section>
 
+    <!-- Apprentice quote
+====================================================================== -->
+
+    <!-- Apprentice FAQs SECTION
+====================================================================== -->
+{% include faq.html %}
+
     <!-- Apprentice areas SECTION
 ====================================================================== -->
 {% include /apprenticeship/apprenticeship-areas.html %}
@@ -31,50 +49,35 @@ link: apprenticeships
     <section class="col-md-12  main-section-padding dark-bg intro">
         <section class="container">
             <header class="col-sm-12 text-center">
-                <h2 class="text-uppercase">Programme of <strong>study</strong></h2>
-                <article>{% youtube https://youtu.be/0EeuuNW0tj4 %}</article>
-            <p id='usp-explained' class="lead white">We’ll work with you to create the perfect combination of building blocks for success. As unique as you are, each study programme is tailored to your individual needs and career ambitions; enabling you to be work ready in every way.</p>
+                <h2 class="text-uppercase">Apprenticeship <strong>recruitment</strong> service</h2>
+                <article>{% youtube https://youtu.be/6B_zlD8dCbo %}</article>
+            <p id='usp-explained' class="lead white">You can contact our Apprenticeship Recruitment Service direct on 0845 6099 599 or email <a href="mailto:apprenticeships@cornwall.ac.uk">apprenticeships@cornwall.ac.uk</a>.</p>
+            <p class="white">We have excellent links to a large variety of businesses and can help you find your perfect job! When you get in touch we will:</p>
             </header>
 
             <footer class="item-blocks">
                 <!-- BLOCK 1 -->
-                <article class="col-md-4">
-                    <h4><span class="number">1/</span> Universal</h4>
-                    <p>You’ll work towards improving your skills in English, IT and maths.</p>
+                <article class="col-md-3">
+                    <h4><span class="number">1/</span> Vacancies</h4>
+                    <p>Find out exactly what you want from your apprenticeship so we can send you details of vacancies you might be interested in.</p>
                 </article>
                 <!-- BLOCK 2 -->
-                <article class="col-md-4">
-                    <h4><span class="number">2/</span> Specialist</h4>
-                    <p>You’ll gain the specialist knowledge and skills you need for your future career.</p>
+                <article class="col-md-3">
+                    <h4><span class="number">2/</span> You</h4>
+                    <p>Offer you help with your CV and cover letter so you can start contacting employers yourself</p>
                 </article>
                 <!-- BLOCK 3 -->
-                <article class="col-md-4">
-                    <h4><span class="number">3/</span> Personal</h4>
-                    <p>You’ll benefit from a combination of work experience and industry relevant skills.</p>
+                <article class="col-md-3">
+                    <h4><span class="number">3/</span> Recommend</h4>
+                    <p>Recommend pre-apprenticeship courses and workshops that will enhance your CV and make you a stronger candidate at interview</p>
                 </article>
+                <article class="col-md-3">
+                    <h4><span class="number">3/</span> Help</h4>
+                    <p>Help you with on-going advice and support throughout the entire process.</p>
+                </article>                
+                
             </footer>
 
-            <header class="col-sm-12 text-center another-title">
-                <h2 class="text-uppercase">The <strong>College</strong></h2>
-                <p class="lead white">Show us some ambition, we’ll show you a better life.</p>
-            </header>
-            <footer class="item-blocks">
-                <!-- BLOCK 1 -->
-                <article class="col-md-4">
-                    <h4><span class="number">1/</span> Award winning Students’ Union</h4>
-                    <p>Life isn’t all about hard work, our learners’ also have a fantastic wider college experience supported by an outstanding Students’ Union, representing your voice. </p>
-                </article>
-                <!-- BLOCK 2 -->
-                <article class="col-md-4">
-                    <h4><span class="number">2/</span> Breath taking learning environments</h4>
-                    <p>We’ll get you ready for your career by training you in the environment you can expect to be working in, with over £100million spent on practical skills training facilities in recent years.</p>
-                </article>
-                <!-- BLOCK 3 -->
-                <article class="col-md-4">
-                    <h4><span class="number">3/</span> A history of academic success</h4>
-                    <p>Our A-level provisions has seen its best results ever, with a pass rate of 99.2% and an 8% increase in grades A* and A last year, with 40% of learners applying to Russell Group universities.</p>
-                </article>
-            </footer>
         </section>
     </section>
 
@@ -83,6 +86,6 @@ link: apprenticeships
     <section class="col-sm-12 fulltime-bar clearfix">
         <div class="container">
             <h2>Seen enough, apply now! </h2>
-            <a href="/apply/index.html" class="apply-btn btn">Apply NOW</a>
+            <a href="{{ site.course_site_baseurl }}/apply-page/?course-title={{ page.apply-area }}" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>

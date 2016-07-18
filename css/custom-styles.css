@@ -304,6 +304,10 @@ blockquote{
     background: #333;
 }
 
+a {
+    font-size: 1em;
+}
+
 /* ------------------------- Help Bar ------------------------- */
 
 .help-bar {
@@ -4765,72 +4769,26 @@ div.btn-group .area-filter{
     margin-top: -35px;
 }
 
-#colliton-barton{
-    background: #DBEFB9;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-#colliton-barton h3 strong,
-#colliton-barton h5 span p{
-    color: #80A523;
-}
-
-#dartmoor-zoo{
-    background: #DBEFA1;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-#dartmoor-zoo h3 strong,
-#dartmoor-zoo h5 span p{
-    color: #93B736;
+/* FAQ styles */
+button.faq-question{
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    color: #333;
 }
 
-#hyperion-centre{
-    background: #CCED90;
-    padding-bottom: 50px;
-    padding-top: 50px;
+button.faq-question h3:before{
+    font-family: FontAwesome;
+    content: "\f068";
+    display: inline-block;
+    padding-right:10px;
+    color:#52B3D9
 }
-#hyperion-centre h3 strong,
-#hyperion-centre h5 span p{
-    color: #A4C948;
-}
-
-#mullacott-centre{
-    background: #CCED79;
-    padding-bottom: 50px;
-    padding-top: 50px;    
-}
-#mullacott-centre h3 strong,
-#mullacott-centre h5 span p{
-    color: #AACF4E;
-}
-
-#wheal-martyn{
-    background: #B9DE5D;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-#wheal-martyn h3 strong,
-#wheal-martyn h5 span p{
-    color: #D9FB9B;
-}
-
-#seale-hayne{
-    background: #A4CC3D;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-#seale-hayne h3 strong,
-#seale-hayne h5 span p{ 
-    color: #DBEFA1;
-}
-
-#occombe-farm{
-    background: #8FB828;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-#occombe-farm h3 strong,
-#occombe-farm h5 span p{
-    color: #C4D696;
+button.collapsed h3:before{
+    font-family: FontAwesome;
+    content: "\f067";
+    display: inline-block;
+    padding-right:10px;
+    color:#52B3D9
 }
