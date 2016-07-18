@@ -56,14 +56,31 @@ $(document).ready(function(){
 	}
 
     
-    $( "#full-time" ).click(function() {
-        $( "#about-me-1" ).slideToggle( "slow", "swing");
-        $( "#about-me-2" ).slideUp( "slow", "swing");
+    $( ".tile1" ).click(function() {
+        $( ".content1" ).slideToggle( "slow", "swing");
+        $( ".content2" ).slideUp( "slow", "swing");
+        $( ".content3" ).slideUp( "slow", "swing");
+        $( ".content4" ).slideUp( "slow", "swing");
+    
+    $( ".tile2" ).click(function() {
+        $( ".content2" ).slideToggle( "slow", "swing");
+        $( ".content1" ).slideUp( "slow", "swing");
+        $( ".content3" ).slideUp( "slow", "swing");
+        $( ".content4" ).slideUp( "slow", "swing");
     });
     
-    $( "#part-time" ).click(function() {
-        $( "#about-me-2" ).slideToggle( "slow", "swing");
-        $( "#about-me-1" ).slideUp( "slow", "swing");
+    $( ".tile3" ).click(function() {
+        $( ".content3" ).slideToggle( "slow", "swing");
+        $( ".content1" ).slideUp( "slow", "swing");
+        $( ".content2" ).slideUp( "slow", "swing");
+        $( ".content4" ).slideUp( "slow", "swing");
+    });
+    
+    $( ".tile4" ).click(function() {
+        $( ".content4" ).slideToggle( "slow", "swing");
+        $( ".content1" ).slideUp( "slow", "swing");
+        $( ".content2" ).slideUp( "slow", "swing");
+        $( ".content3" ).slideUp( "slow", "swing");
     });
     
     /* MENU TOGGLING - 1.7 update*/
