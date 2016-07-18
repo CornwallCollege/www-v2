@@ -545,7 +545,7 @@
 
 #AS & A-level
 - cluster: Academic Studies
-  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
   a-href: /career-pages/a-levels/index.html
   a-class: transition as
   a-data-filter:
@@ -791,7 +791,7 @@
   filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
   cluster-link: #
   a-class: transition fnd
-  a-data-filter: .bpi
+  a-data-filter: .fnd
   subclusters:
     - subcluster: Foundation Learning
       image: /images/hw/public-services.jpg

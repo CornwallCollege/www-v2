@@ -36,7 +36,7 @@ link: 14-18
             <h3>16-18</h3>
             <p>Our specialist career pathways will help you to develop your USP, giving you the very best opportunity to fulfil your potential. Our range of study programmes, for young people aged 16-18, are the best preparation for the world of work...</p>
             <div class="link-wrap">
-            <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase; font-size:12px;">View 16-18 Learning Areas</button>
+                <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase; font-size:12px;">View 16-18 Learning Areas</button>
             </div>
         </article>
         <article id="university" class="col-sm-12 col-md-4 text-center">
@@ -53,7 +53,7 @@ link: 14-18
             <h3>19+</h3>
             <p>As an adult returning to education you will have many demands on your time. That is why we offer a range of flexible, part-time qualifications. There's something for everyone, from entry-level all the way to postgraduate study.</p>
             <div class="link-wrap">
-                <button data-filter=".19+" class="icon-btn" style="text-transform:uppercase">View Learning areas Areas</button>
+                <button data-filter=".19plus" class="icon-btn" style="text-transform:uppercase">View Learning areas Areas</button>
             </div>
         </article> 
     </div>    
@@ -79,7 +79,7 @@ link: 14-18
             <h3>Business Training</h3>
             <p>Cornwall College Business are here to support your business training needs to help provide opportunities for growth within your business.</p>
             <div class="link-wrap">
-            <a href="" class="icon-btn">Visit Cornwall College Business</a>
+                <a href="" class="icon-btn">Visit Cornwall College Business</a>
             </div>    
         </article>  
     </div>    
@@ -91,27 +91,27 @@ link: 14-18
         <div id="sector-page-content" class="transition" style="display:none">
 
         {% for cluster in site.data.sub-clusters %}
+            {% for subcluster in cluster.subclusters  %}
 
-            <div class="area {{cluster.learning-style}} {{cluster.campus}} {{cluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ cluster.colour }};">
-                <a data-toggle="collapse" data-target="#{{ cluster.search-link }}" href="#{{ cluster.search-link }}"  class="show-more collapsed">    
+            <div class="area {{subcluster.learning-style}} {{subcluster.campus}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">    
                     <i class="fa fa-times close-icon"></i>
-                    <h4><span style="color:#{{ cluster.colour }};">{{ cluster.cluster }}</span>{{ cluster.subcluster }}</h4>
+                    <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
                     <span class="readmore">Read More</span>
                 </a>    
-                <div class="detail collapse" id="{{ cluster.search-link }}">
-                    <p>{{ cluster.intro }}</p>
+                <div class="detail collapse" id="{{ subcluster.search-link }}">
+                    <p>{{ subcluster.intro }}</p>
                     <h5>Available at:</h5>
-                    {% for campus in cluster.campus-long %}
+                    {% for campus in subcluster.campus-long %}
                      <a href="/location-pages{{ campus.campus-link}}" title="{{ campus.campus-name }}" class="sector-campus-link">{{ campus.campus-name}}</a>
                     {% endfor %}
-                    <a href="{{site.course_site_baseurl}}cluster/{{ cluster.search-link }}" title="{{ cluster.subcluster }}" class="btn pull-right">View courses in this area</a>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right">View courses in this area</a>
                 </div>    
 
             </div>
-
+            
+            {% endfor %}
         {% endfor %}            
-
-
 
         </div>
 </section>    

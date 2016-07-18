@@ -1096,6 +1096,36 @@ $(document).ready(function () {
     */
 });
 
+$(document).ready(function () {
+    $( ".tile1" ).click(function() {
+        $( ".content1" ).slideToggle( "slow", "swing");
+        $( ".content2" ).slideUp( "slow", "swing");
+        $( ".content3" ).slideUp( "slow", "swing");
+        $( ".content4" ).slideUp( "slow", "swing");
+    });
+    
+    $( ".tile2" ).click(function() {
+        $( ".content2" ).slideToggle( "slow", "swing");
+        $( ".content1" ).slideUp( "slow", "swing");
+        $( ".content3" ).slideUp( "slow", "swing");
+        $( ".content4" ).slideUp( "slow", "swing");
+    });
+    
+    $( ".tile3" ).click(function() {
+        $( ".content3" ).slideToggle( "slow", "swing");
+        $( ".content1" ).slideUp( "slow", "swing");
+        $( ".content2" ).slideUp( "slow", "swing");
+        $( ".content4" ).slideUp( "slow", "swing");
+    });
+    
+    $( ".tile4" ).click(function() {
+        $( ".content4" ).slideToggle( "slow", "swing");
+        $( ".content1" ).slideUp( "slow", "swing");
+        $( ".content2" ).slideUp( "slow", "swing");
+        $( ".content3" ).slideUp( "slow", "swing");
+    });
+});
+
 jQuery(document).ready(function () {
     // Lookup alert message and display if required
     jQuery.getJSON('https://network.cornwall.ac.uk/?action=ccg_get_announcement', function(data) {
