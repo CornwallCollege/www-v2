@@ -544,7 +544,7 @@
 
 
 #AS & A-level
-- cluster: Academic Studies
+- cluster: A-levels
   filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
   a-href: /career-pages/a-levels/index.html
   a-class: transition as
