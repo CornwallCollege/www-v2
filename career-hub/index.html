@@ -34,8 +34,8 @@ link: 14-18
             <ul id="topOfClusters">
                 {% for cluster in site.data.sub-clusters %}
 
-                <li class="{{ cluster.filter }}">
-                    <a href="{{ cluster.cluster-link }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
+                <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="{{ cluster.a-href }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
                         <h3>{{ cluster.cluster }}</h3>
                         {% for subcluster in cluster.subclusters %}
                         <span>{{ subcluster.subcluster }}{% unless forloop.last %} - {% endunless %}</span>
@@ -51,48 +51,29 @@ link: 14-18
         <div class="clearfix"></div>
 
         <section class="career-items container">
-                <a id="career-grid-anchor"></a>
-                <ul id="career-grid" class="grid-layout more-padding hover-effect">
-                    {% for cluster in site.data.sub-clusters  %}
-                        {% for subcluster in cluster.subclusters  %}
-                        <li class="col-xs-12 col-sm-6 col-md-4 entry {{ subcluster.filter }}">
-                            <figure>
-                                <picture>
-                                    <source srcset="{{ subcluster.image }}" media="(min-width: 769px)" />
-                                    <source srcset="{{ subcluster.mobile-image }}" />
-                                    <img src="{{ subcluster.image }}" alt="CAREER AREA | {{ cluster.cluster }} | {{ subcluster.subcluster }}" class="img-responsive">
-                                </picture>
-                                <div class="auto-hover">
-                                    <h4>{{ subcluster.subcluster }}</h4>
-                                    <a href="{{ subcluster.a-href }}" class="icon-btn" data-popup="{{ subcluster.a-data-popup }}">
-                                        <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
-                                    </a>
-                                </div>
-                            </figure>
-                        </li>
-                        {% endfor %}
-                    {% endfor %}
-                    
-                    <!-- CAREER AREA | health and welfare | Watersports-->
-                    <li class="col-xs-12 col-sm-6 col-md-4 entry hw">
+            <a id="career-grid-anchor"></a>
+            <ul id="career-grid" class="grid-layout more-padding hover-effect">
+                {% for cluster in site.data.sub-clusters  %}
+                    {% for subcluster in cluster.subclusters  %}
+                    <li class="col-xs-12 col-sm-6 col-md-4 entry {{ subcluster.filter }}">
                         <figure>
                             <picture>
-                                <source srcset="/images/hw/health2.jpg" media="(min-width: 769px)" />
-                                <source srcset="/images/hw/health2-mobile.jpg" />
-                                <img src="/images/hw/health2-mobile.jpg" alt="CAREER AREA | health and welfare | Watersports" class="img-responsive">
+                                <source srcset="{{ subcluster.image }}" media="(min-width: 769px)" />
+                                <source srcset="{{ subcluster.mobile-image }}" />
+                                <img src="{{ subcluster.image }}" alt="CAREER AREA | {{ cluster.cluster }} | {{ subcluster.subcluster }}" class="img-responsive">
                             </picture>
                             <div class="auto-hover">
-                                <h4>Watersports</h4>
-                                <a href="/career-pages/water-sports/index.html" class="icon-btn" data-popup="health">
+                                <h4>{{ subcluster.subcluster }}</h4>
+                                <a href="{{ subcluster.a-href }}" class="icon-btn" data-popup="{{ subcluster.a-data-popup }}">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>
                         </figure>
                     </li>
-                    
-                </ul>
-            </section>
-
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </section>
     </section>
     
         <div class="clearfix"></div>
