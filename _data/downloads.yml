@@ -1458,6 +1458,14 @@
   search-link: Young-Mums-Will-Achieve-Leaflet # Document name
   colour: 961313
   
+  # CC Apprenticeship Learner A5 Booklet
+- title: CC Apprenticeship Learner A5 booklet
+  type:  PDF # Document type
+  category: Other # Document category
+  download-link: /documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf
+  search-link: 05819JW1215-CC-Apprenticeship-Learner-A5-booklet # Document name
+  colour: 961313 
+  
   #End of other
   
   #Bicton Doc 26.11.14
@@ -1689,3 +1697,5 @@
   colour: bc77ee
   
   #End of Reports
+
+  
