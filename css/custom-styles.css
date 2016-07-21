@@ -1105,7 +1105,7 @@ footer a.btn{
 
 @media(min-width:1200px) {
     .box-square-alt article {
-        min-height: 320px;
+        min-height: 385px;
     }
 }
 /*.box-square-alt article:last-child {
@@ -1195,7 +1195,7 @@ footer a.btn{
 #counters-6 .inner{
     display: inline;
     background: rgba(255, 255, 255, 0.5);
-    padding: 30px;
+    padding: 36px 25px;
     min-height: 180px;
 }
 
@@ -1221,6 +1221,7 @@ footer a.btn{
 .inner h5 {
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .inner h5 span {
@@ -1365,6 +1366,21 @@ footer a.btn{
         padding: 10px 20px;
         margin-bottom: 70px;
     }
+}
+/* USP bar */
+.usp h2{
+    color: white;
+    font-weight: bold;
+    font-size: 6em;
+    line-height: .8em;
+    text-align: center;
+    padding: 0 10%;
+}
+@media(max-width:769px){
+    .usp h2{
+        font-size: 2em;
+        padding: 0 5%;
+    } 
 }
 
 .apply-bar {
@@ -3518,7 +3534,7 @@ a h2 span.readmore {
 
 @media(min-width:480px) {
     .inner h5 span {
-        font-size: 32px;
+        font-size: 28px;
     }
     #counters .inner {
         padding: 30px 15px;
@@ -3972,6 +3988,8 @@ ul#og-grid li h4{
     color: #52b3d9;
     background: white;
     font-weight: bold;
+    line-height: 1.3em;
+    font-size: .9em
 }
 .apprenticeships .og-grid li:hover,
 .apprenticeships .og-grid li > a:hover{
@@ -4251,6 +4269,7 @@ a.learning-area{
     background:white;
     /*opacity: .7;*/ 
     font-weight: bold;  
+    font-size:0.9em;
 }
 a.learning-area:hover{
     letter-spacing: normal;

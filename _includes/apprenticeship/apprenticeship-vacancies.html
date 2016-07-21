@@ -1,0 +1,22 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-12 col-md-3 left">
+        <h2><strong>LATEST</strong> VACANCIES</h2>
+        <p class="lead">See some of the areas we cover and for further details or vacancies just click them to find out more!</p> 
+        <p class="lead">Want to register with our apprenticeship recruitment service? Send us your CV today and we’ll match you to a range of latest vacancies!
+        <a href="{{site.course_site_baseurl}}apprenticeship-recruitment-service-form/" class="btn ghost">Click to Register</a>
+        </p>
+    </article>
+    
+    <article class="col-sm-12 col-md-8 col-md-offset-1 clearfix right apprenticeships">
+        <div class="main">
+            <ul id="og-grid" class="og-grid"> 
+                {% for apprenticeship in site.data.apprenticeships %}
+                            {% include /apprenticeship/apprenticeship-vacancy.html %}
+                {% endfor %}
+            </ul>
+        </div>    
+        
+    </article>
+  </section>
+</section>

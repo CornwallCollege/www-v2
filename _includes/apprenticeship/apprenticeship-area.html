@@ -1,7 +1,4 @@
-<!--<span class="col-xs-6 col-sm-12 col-md-4 text-center">
-	    <a class="learning-area" href="https://network.cornwall.ac.uk/cluster/music-performing-arts" style="border-left:10px solid #D0D102;">
-        {{ apprenticeship.apprenticeship-title }}   
-	    </a>
-</span>-->
-
-<li class="" style="transition: height 350ms ease;"> <a class="col-xs-12" href="#" data-title="{{ apprenticeship.apprenticeship-title }}" data-description="<iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>"> <span class="col-xs-12 apprentice-area" style="border-left:10px solid #{{ apprenticeship.colour }};">{{ apprenticeship.apprenticeship-title }}</span> </a> </li>
+    <li class="" style="transition: height 350ms ease;"> 
+        <a class="col-xs-12" href="{{ site.course_site_baseurl }}/course_type/apprentice/cluster/{{ apprenticeship-area.search-link }}"> 
+            <span class="col-xs-12 apprentice-area" style="border-left:10px solid #{{ apprenticeship-area.colour }};">{{ apprenticeship-area.subcluster }}</span> </a> 
+    </li>

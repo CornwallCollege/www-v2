@@ -1,0 +1,19 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-6 col-md-4 left">
+        <h2>VIDEO <strong>GALLERY</strong></h2>
+        
+    </article>
+    
+    <article class="partner-logo col-sm-12 col-md-8 clearfix right">
+        {% for video in page.videos %}
+            <div class=" col-sm-12 col-md-4">    
+        
+                <figure class="BetterTube" data-youtube-id="{{video.youtube-id}}" data-player-width="560" data-player-height="315" id="{{video.youtube-id}}" style="padding-bottom: 56.25%"><a class="BetterTubePlayer" href="//www.youtube.com/watch?v={{video.youtube-id}}" style="background: url(//img.youtube.com/vi/{{video.youtube-id}}/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);"></a><div class="BetterTube-playBtn"></div>&nbsp;</figure>        
+                
+            </div>
+        {% endfor %}
+
+    </article>
+  </section>
+</section>
