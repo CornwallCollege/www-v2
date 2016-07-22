@@ -953,7 +953,17 @@ $(document).ready(function () {
         });
     }
 });
+/*------------------- Download  filer ISOTOPE ----------------------*/
+// init Isotope
+var $grid = $('#download-list').isotope({
+  itemSelector: '.download',
+});
 
+// filter items on button click
+$('.filter-button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
 /*------------------- learning area filer ISOTOPE ----------------------*/
 
 $(document).ready(function () {
