@@ -957,6 +957,7 @@ $(document).ready(function () {
 // init Isotope
 var $grid = $('#download-list').isotope({
   itemSelector: '.download',
+  layoutMode: 'masonry'
 });
 
 // filter items on button click
