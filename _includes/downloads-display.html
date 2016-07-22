@@ -1,45 +1,24 @@
     <div id="form-ui">
     <h3>Document filters</h3>  
     <p class="lead no-margin">Filter the selected documents using the filters below.</p>    
-    <div class="col-xs-12 col-md-12">    
+    
         <h5>Category</h5>    
-        <div class="btn-group" data-toggle="buttons" >
-          <label class="area-filter btn btn-primary">
-            <input type="checkbox" value=".application-forms" autocomplete="off">Application forms
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".course-documents" autocomplete="off">Course Documents
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".equality-and-diversity" autocomplete="off">Equality and diversity
-          </label>            
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".guides" autocomplete="off">Guides
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".maps" autocomplete="off">Maps
-          </label>   
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".newsletter" autocomplete="off">Newsletter
-          </label>    
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".other" autocomplete="off">Other
-          </label>    
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".plans" autocomplete="off">Plans
-          </label> 
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".prospectus" autocomplete="off">Prospectuses
-          </label>    
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" value=".reports" autocomplete="off">Reports
-          </label>
-          </div> 
-        </div>
-    </div>
 
-      <!-- <p id="output">--</p>  -->   
-    </div>
+        <div class="button-group filter-button-group">
+          <button class="btn btn-primary" data-filter="*">show all</button>
+          <button class="btn btn-primary" data-filter=".application-forms">Application forms</button>    
+          <button class="btn btn-primary" data-filter=".course-documents">Course Documents</button>
+          <button class="btn btn-primary" data-filter=".equality-and-diversity">Equality &amp; Diversity</button>
+          <button class="btn btn-primary" data-filter=".guides">Guides</button>
+          <button class="btn btn-primary" data-filter=".maps">Maps</button>
+          <button class="btn btn-primary" data-filter=".newsletter">Newsletter</button>
+          <button class="btn btn-primary" data-filter=".other">Other</button>
+          <button class="btn btn-primary" data-filter=".plans">Plans</button>
+          <button class="btn btn-primary" data-filter=".prospectuses">Prospectuses</button>
+          <button class="btn btn-primary" data-filter=".reports">Reports</button>    
+        </div>
+
+
 </section>
     <section class="career-items container">
         <a id="area-grid-anchor"></a>
