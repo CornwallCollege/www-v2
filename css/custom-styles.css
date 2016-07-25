@@ -77,6 +77,7 @@ html, body {
 }
 .campus-overview h2 span{
     font-size:40px;
+    font-weight: normal;
 }
 @media(min-width: 1600px) {
     .header-title header{
