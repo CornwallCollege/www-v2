@@ -3026,7 +3026,7 @@ APPLY BARS =====================================================================
     background: #52b3d9;
     width: 95%;
     top: 57px;
-    padding: 14px;
+    padding: 10px 14px 0 14px;
 }
 .job-results li:hover,
 .job-results li a:hover{
