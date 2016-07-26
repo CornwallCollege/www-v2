@@ -175,6 +175,7 @@ function incrementCount(counter) {
 (function ($) {
 
 
+    
     $(document).ready(function () {
         $('#loader').fadeOut(800);
         /*
@@ -186,7 +187,11 @@ function incrementCount(counter) {
                 showPopup(hash);
             }
         */
-
+        
+       /* EXPANDER GRID INITIALIZER (used in location facilities) */
+       if ( $( "#og-grid" ).length ) {
+          Grid.init();
+       }
 
        /* FULL-TIME-HUB - Job Lookup */
        $(document).ready(function () {
