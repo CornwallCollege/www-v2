@@ -26,13 +26,13 @@ link: 14-18
 
 <section class="container main-section-margins ">
 
-    <!-- list of clusters(ish) -->
-    <section id="career-list" class="container">
+  <!-- list of clusters(ish) -->
+  <section id="career-list" class="container">
         
-        <div class="career-filter">
-            <!-- CAREER FILTER OPTIONS -->
-            <ul id="topOfClusters">
-                {% for cluster in site.data.sub-clusters %}
+    <div class="career-filter">
+      <!-- CAREER FILTER OPTIONS -->
+      <ul id="topOfClusters">
+          {% for cluster in site.data.sub-clusters %}
 
                 <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ cluster.a-href }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
@@ -64,7 +64,7 @@ link: 14-18
                             </picture>
                             <div class="auto-hover">
                                 <h4>{{ subcluster.subcluster }}</h4>
-                                <a href="{{ subcluster.a-href }}" class="icon-btn" data-popup="{{ subcluster.a-data-popup }}">
+                                <a href="{{ subcluster.a-href }}" class="icon-btn">
                                     <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
                                 </a>
                             </div>

@@ -11,7 +11,6 @@
       mobile-image: /images/sne/applied-forensic-science-mobile.jpg
       filter: sne
       a-href: /career-pages/applied-forensic-science/index.html
-      a-data-popup: applied-forensic-science
       he-image: applied-science-forensic-science.jpg
       icon: fa-flask
       level: 2 3 4 5 6
@@ -35,7 +34,6 @@
       mobile-image: /images/sne/marine-science2-mobile.jpg
       filter: sne
       a-href: /career-pages/marine-natural-science/index.html
-      a-data-popup: environmental-science
       he-image: marine-natural-environment.jpg
       icon: fa-anchor
       level: 2 3 4 5 6
@@ -56,7 +54,6 @@
       mobile-image: /images/sne/environmental-science-mobile.jpg
       filter: sne
       a-href: /career-pages/wildlife-conservation/index.html
-      a-data-popup: marine-natural-science
       he-image: zoology.jpg
       icon: fa-paw
       level: 3 6
@@ -85,7 +82,6 @@
       mobile-image: /images/bpi/education-mobile.jpg
       filter: ed
       a-href: /career-pages/teaching-education/index.html
-      a-data-popup:
       he-image: school-of-education-professional-development.jpg
       icon: fa-graduation-cap
       level: 1 2 3 4 5 6 7
@@ -111,7 +107,6 @@
       mobile-image: /images/hw/childcare-mobile.jpg
       filter: ed
       a-href: /career-pages/children-schools/index.html
-      a-data-popup:
       level: 1 2 3
       colour: 01A4A4  
       brand: cc dc 
@@ -146,7 +141,6 @@
       mobile-image: /images/et/boatbuilding-mobile.jpg
       filter: et
       a-href: /career-pages/boatbuilding/index.html
-      a-data-popup: boatbuilding
       level: 1 2 3 4
       colour: 00A1CB
       brand:  fms
@@ -165,7 +159,6 @@
       mobile-image: /images/et/construction-mobile.jpg
       filter: et
       a-href: /career-pages/construction/index.html
-      a-data-popup: construction
       he-image: construction.jpg
       icon: fa-home
       level: 1 2 3
@@ -194,7 +187,6 @@
       mobile-image: /images/et/automotive-mobile.jpg
       filter: et
       a-href: /career-pages/motor-vehicle/index.html
-      a-data-popup: automotive
       level: Entry 1 2 3
       colour: 00A1CB
       brand:  cc
@@ -216,7 +208,6 @@
       mobile-image: /images/et/engineering-mobile.jpg
       filter: et
       a-href: /career-pages/engineering/index.html
-      a-data-popup: engineering
       he-image: engineering.jpg
       icon: fa-cogs
       level: 1 2 3 4 5
@@ -254,7 +245,6 @@
       mobile-image: /images/re/countryside-lnd-mobile.jpg
       filter: re
       a-href: /career-pages/agriculture/index.html
-      a-data-popup: agriculture
       he-image: agriculture-countryside-management.jpg   
       icon: fa-leaf
       level: 1 2 3 4 5 6
@@ -282,7 +272,6 @@
       mobile-image: /images/re/animal-care-mobile.jpg
       filter: re
       a-href: /career-pages/animal-science-management/index.html
-      a-data-popup: animal-science-management
       he-image: animal-management.jpg
       icon: fa-stethoscope
       level: 1 2 3 6
@@ -309,7 +298,6 @@
       mobile-image: /images/re/equine-mobile.jpg
       filter: re
       a-href: /career-pages/equine/index.html
-      a-data-popup:
       he-image: equine.jpg     
       icon: fa-trophy
       level: 1 2 3 4 5 6
@@ -333,7 +321,6 @@
       mobile-image: /images/re/food-production-mobile.jpg
       filter: re
       a-href: /career-pages/food-production/index.html
-      a-data-popup: food-production
       level: 2 3 4 5 6
       colour: 61AE24  
       brand: dc
@@ -352,7 +339,6 @@
       mobile-image: /images/re/agriculture-mobile.jpg
       filter: re
       a-href: /career-pages/horticulture/index.html
-      a-data-popup: horticulture
       level: 1 2 3 6
       colour: 61AE24 
       brand: bic dc
@@ -379,7 +365,6 @@
       mobile-image: /images/re/agriculture-mobile.jpg
       filter: re
       a-href: /career-pages/land-based-engineering/index.html
-      a-data-popup: land-based-engineering
       level: 1 2 3
       colour: 61AE24  
       brand: bic dc
@@ -412,7 +397,6 @@
       mobile-image: /images/cve/art-mobile.jpg
       filter: cve
       a-href: /career-pages/arts-media/index.html
-      a-data-popup: arts-media
       he-image: arts-media.jpg
       icon: fa-paint-brush
       level: 2 3 4 5 6
@@ -439,7 +423,6 @@
       mobile-image: /images/cve/hospitality-mobile.jpg
       filter: cve
       a-href: /career-pages/catering-academy/index.html
-      a-data-popup: catering-academy
       he-image: catering.jpg
       icon: fa-cutlery
       level: 1 2 4 5 6
@@ -469,7 +452,6 @@
       mobile-image: /images/cve/hospitality-mobile.jpg
       filter: cve
       a-href: /career-pages/hospitality-front/index.html
-      a-data-popup: hospitality-front
       he-image: hospitality.jpg
       icon: fa-beer
       level: 1 2 4 5 6
@@ -499,7 +481,6 @@
       mobile-image: /images/cve/media-mobile.jpg
       filter: cve
       a-href: /career-pages/music-performing-arts/index.html
-      a-data-popup: music-performing-arts
       level: 2 3 4 5 6
       colour: D0D102   
       brand: cc 
@@ -526,7 +507,6 @@
       mobile-image: /images/cve/travel-tourism-mobile.jpg
       filter: cve
       a-href: /career-pages/travel-tourism/index.html
-      a-data-popup: travel-tourism
       level: 2 3
       colour: D0D102    
       brand: cc 
@@ -555,7 +535,6 @@
       mobile-image: /images/as/a-levels-lnd-mobile.jpg
       filter: as
       a-href: /career-pages/a-levels/index.html
-      a-data-popup:
       brand: cc
       campus: st-austell-campus
       campus-long:
@@ -581,7 +560,6 @@
       mobile-image: /images/hw/hair-mobile.jpg
       filter: hw
       a-href: /career-pages/hair-beauty/index.html
-      a-data-popup: engineering
       he-image: hair.jpg
       icon: fa-scissors
       level: 1 2 3
@@ -601,36 +579,39 @@
 
       search-link: hairdressing-beauty-therapy
       intro: "Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people."
-
-
-    - subcluster: Social Care & Health
-      image: /images/hw/health2.jpg
-      mobile-image: /images/hw/health2-mobile.jpg
+      
+    - subcluster: Public Services & Military Academy
+      university-faculty: 
+      image: /images/hw/public-services.jpg
+      mobile-image: /images/hw/public-services-mobile.jpg
       filter: hw
-      a-href: /career-pages/health/index.html
-      a-data-popup: health
-      level: 2 3 4 5 6
+      a-href: /career-pages/public-services/index.html
+      he-image: hair.jpg
+      icon: fa-scissors
+      level: 1 2 3
       colour: D70060  
       brand: cc
-      sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus st-austell-campus
+      sector: 16-18 19plus university
+      campus: camborne-campus st-austell-campus saltash-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html  
 
-        - campus-name: St Austell Campus
-          campus-link: /st-austell-campus.html
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html 
 
-      search-link: social-care-health
-      intro: "If you're interested in the human body, how it works and heals, and want to work to help people live better lives a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people."
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html  
 
+      search-link: public-services-military-academy
+      intro: "A career in the armed forces or the blue light public services is for anyone who cares about others, wants variety and a new challenge every day. Working with people to help keep them safe, happy and healthy is the driver for public servants and provides opportunity for careers locally, nationally and around the world."
+      
     - subcluster: Sports and Fitness
       university-faculty: Sports and Fitness
       image: /images/hw/sport.jpg
       mobile-image: /images/hw/sport-mobile.jpg
       filter: hw
       a-href: /career-pages/sport/index.html
-      a-data-popup: sport
       he-image: sport-fitness.jpg  
       icon: fa-futbol-o
       level: 1 2 3 4 5 6
@@ -657,13 +638,32 @@
 
       search-link: sports-fitness
       intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
+
+    - subcluster: Social Care & Health
+      image: /images/hw/health2.jpg
+      mobile-image: /images/hw/health2-mobile.jpg
+      filter: hw
+      a-href: /career-pages/health/index.html
+      level: 2 3 4 5 6
+      colour: D70060  
+      brand: cc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus st-austell-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html  
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+
+      search-link: social-care-health
+      intro: "If you're interested in the human body, how it works and heals, and want to work to help people live better lives a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people."
       
     - subcluster: Watersports
       image: /images/hw/watersports.jpg
       mobile-image: /images/hw/watersports-mobile.jpg
       filter: hw
       a-href: /career-pages/water-sports/index.html
-      a-data-popup: watersports
       level: 
       colour: D70060  
       brand: fms
@@ -689,7 +689,6 @@
       mobile-image: /images/bpi/accountancy-mobile.jpg
       filter: bpi
       a-href: /career-pages/accountancy-financial/index.html
-      a-data-popup:
       colour: E54028
       brand: cc
       sector: 16-18 19plus apprenticeships
@@ -714,7 +713,6 @@
       mobile-image: /images/bpi/business-mobile.jpg
       filter: bpi
       a-href: /career-pages/business-school/index.html
-      a-data-popup: business-admin
       he-image: business-pro.jpg
       icon: fa-gavel
       campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
@@ -743,7 +741,6 @@
       mobile-image: /images/bpi/customer-service-mobile.jpg
       filter: bpi
       a-href: /career-pages/sales-marketing/index.html
-      a-data-popup: sales-marketing
       colour: E54028  
       level: 2
       brand: cc  
@@ -765,7 +762,6 @@
       mobile-image: /images/bpi/it-comms-mobile.jpg
       filter: bpi
       a-href: /career-pages/digital-technologies/index.html
-      a-data-popup: digital-technologies
       he-image: digital-academy.jpg
       icon: fa-gamepad
       colour: E54028  
@@ -798,7 +794,6 @@
       mobile-image: /images/hw/public-services-mobile.jpg
       filter: 
       a-href: /career-pages/public-services/index.html
-      a-data-popup: engineering
       level: Entry 1 2
       colour: F18D05  
       brand: cc dc bc
