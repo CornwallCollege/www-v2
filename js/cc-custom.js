@@ -188,7 +188,20 @@ function incrementCount(counter) {
         */
 
 
-
+       /* FULL-TIME-HUB - Job Lookup */
+       $(document).ready(function () {
+           if (location.pathname.indexOf("career-hub") !== -1) {
+               SimpleJekyllSearch.init({
+                   searchInput: document.getElementById('jobs-input'),
+                   resultsContainer: document.getElementById('jobs-results'),
+                   dataSource: '/data/jobs.json',
+                   searchResultTemplate: '<li><a href="/career-pages/{url}/index.html" title="{title}">{title}</a></li>',
+                   noResultsText: '<li>None found, please choose from below</li>',
+                   limit: 10,
+                   fuzzy: false,
+               })
+           }
+       });
 
     });
 

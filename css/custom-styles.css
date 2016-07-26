@@ -718,8 +718,8 @@ button.icon-btn:hover,
 }
 
 .light {
-    color: white;
-    border: 4px solid white;
+    color: white!important;
+    border: 4px solid white!importnat;
 }
 footer a.btn{
   background: transparent;
@@ -3018,6 +3018,24 @@ APPLY BARS =====================================================================
     }
 }
 /* ---------  Career Section ENDS --------- */
+/* ---------  career search --------- */
+
+.job-results{
+    position: absolute;
+    z-index: 99;
+    background: #52b3d9;
+    width: 95%;
+    top: 57px;
+    padding: 14px;
+}
+.job-results li:hover,
+.job-results li a:hover{
+    letter-spacing: normal;
+    color: #52b3d9!important;
+    background: white;
+}
+
+/* -------  career search ENDS -------- */
 /* --------- Open to Public Section --------- */
 
 .public-body {

@@ -23,9 +23,7 @@ link: 14-18
     <!-- CAREER SECTION
 ====================================================================== -->
 
-
-<section class="container main-section-margins ">
-    
+<section >
         <section class="col-sm-12 blue-bg bar2 career-search">
          <h2 class="text-uppercase">WHAT’S YOUR DREAM <strong style="color:white;">Career</strong>?</h2>
             <div class="col-sm-6 col-sm-offset-3 ">
@@ -33,15 +31,20 @@ link: 14-18
                     <label for="jobs-input" ><i class="fa fa-search"></i></label>
                     <input type="text" data-items="10" id="jobs-input" class="form-control" placeholder="search...">
                 </form>
-                <div><ul id="jobs-results"></ul></div>
+                <div class="job-results"><ul id="jobs-results"></ul></div>
             </div>
-            <div class="col-md-6 col-sm-4 col-sm-offset-4 text-center">
-                <a class="btn ghost light" onclick="window.smoothScrollTo('topOfClusters');"><span>Not sure, browse our</span>&nbsp;<span><strong>Subjects</strong></span></a>
+            <div class="col-md-3 col-md-offset-3 col-sm-6 col-xs-12 text-center">
+                <a class="btn ghost light" onclick="window.smoothScrollTo('topOfClusters');"><span>Not sure, browse our</span>&nbsp;<span><strong>Learning areas</strong></span></a>
             </div>
-            <div class="col-md-6 col-sm-4 col-sm-offset-4 text-center">
-                <a class="btn ghost light" href="/career-help"><span>or, book now for your</span>&nbsp;<span><strong>free</span>&nbsp;<span></strong>20 minute consultation</span></a>
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                <a class="btn ghost light" href="{{site.course_site_baseurl}}career-consultation-request/"><span>or, book now for your</span>&nbsp;<span><strong>free</span>&nbsp;<span></strong>20 minute consultation</span></a>
             </div>
         </section>
+</section>
+
+<section class="container main-section-margins ">
+    
+
     
     
     <!-- list of clusters(ish) -->
