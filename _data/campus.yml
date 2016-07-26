@@ -4,6 +4,7 @@
   link: /location-pages/bicton-campus.html
   code: B
   anchor: "bicton-campus"
+  slug: bicton
   partnerships:
     - partner-title: Test Partner
       partner-logo: http://placehold.it/200x100
@@ -102,7 +103,7 @@
         sub-area-link: public-services-military-academy  
     
     - area-title: Rural Economy
-      area-color: 61AE24      
+      area-color: 61AE24  
       sub-areas: 
       - sub-area-title: Agriculture & Countryside Management    
         sub-area-link: agriculture-countryside-management
@@ -131,6 +132,7 @@
   link: /location-pages/bristol-campus.html
   code: M
   anchor: "dbs"
+  slug: bristol
   learning-areas:    
     - area-title: Cultural & Visitor Economy
       area-color: D0D102    
@@ -158,6 +160,7 @@
   link: /location-pages/camborne-campus.html
   code: C
   anchor: "camborne"
+  slug: camborne
   facilities:
     - title: Students' </br> Union
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!</br></br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union</br></br><strong>Pirans College Shop</strong> </br>On campus we also have the well-stocked Piran’s College Shop, located in Student Central. The shop sells stationery, art equipment, food and drinks, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. Card payments can be taken (minimum £3 spend).
@@ -309,6 +312,7 @@
   link: /location-pages/eden-campus.html
   code: E
   anchor: "eden-project"
+  slug: eden-project
   facilities:
   learning-areas:
 
@@ -319,6 +323,7 @@
   link: /location-pages/falmouth-campus.html
   code: F
   anchor: "falmouth-marine-school"
+  slug: falmouth-marine-school
   facilities: 
     - title: Learning </br>Centre
       detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
@@ -396,6 +401,7 @@
   link: /location-pages/newquay-campus.html
   code: N
   anchor: "newquay"
+  slug: newquay
   facilities: 
     - title: Learning Centre
       detail: Mon to Thurs 8.30am – 5.30pm (term time)</br>Fri 8.30am - 4.30pm (term time)</br>Holiday opening hours will be publicised as they vary.</br></br><strong>Our Resources:</strong></br>a team of dedicated staff who have good IT, research and info-skills;</br>individual and group study space, including networked computers, laptops and multi-functional printers;</br>books, Journals, Fiction, CDs, subject specific DVDs & Feature Films;</br>computer catalogue of available resources (accessible from any internet computer);</br>access to the Internet, the Cornwall College intranet, Moodle, the University of Plymouth portal and a growing collection of electronic/online resources; Learning Services Online Catalogue;</br>comb binder, laminator and a range of stationery for sale</br></br>You can access over 130,000 resources from this Learning Centre. To renew your items Tel 01637 857964 or email nqlearningcentre@cornwall.ac.uk
@@ -469,6 +475,7 @@
   link: /location-pages/rosewarne-campus.html
   code: R
   anchor: "rosewarne"
+  slug: rosewarne
   facilities: 
     - title: Learning </br>Centre
       detail: A dedicated library and study area with PCs and laptops for you to use with free  Wi-Fi
@@ -540,6 +547,7 @@
   link: /location-pages/saltash-campus.html
   code: S
   anchor: "saltash"
+  slug: saltash
   facilities: 
     - title: Learning </br>Centre
       detail: Mon 8.30am – 5pm; Tue & Wed 8.30 - 6.15pm; Thu 8.30 - 5.30pm; Fri 8.30 - 4.30pm (term time). During the holidays opening hours will be posted around the campus. </br>The Learning Centre offers a wide range of resources. You can access over 130,000 resources from here. You will require a valid student ID card. Items need to be returned within the due date or renewed online, in person or by tel 01752 850215. </br><strong>Our Resources:</strong></br>•A team of support staff with excellent IT, research and information skills</br>•Individual and group study areas include networked computers and printers</br>•Internet access and WiFi for your own laptop or smartphone</br>•Books, journals, newspapers, audio books, CDs and DVDs</br>•Computer catalogue of available resources</br>•Access to Moodle, the University of Plymouth portal and online resources</br>•Comb binder and laminator</br>•A range of stationery for sale</br>Careers information</br>•Learning Services Online Catalogue http://webopac.cornwall.ac.uk</br>
@@ -648,6 +656,7 @@
   link: /location-pages/st-austell-campus.html
   code: A
   anchor: "st-austell"
+  slug: st-austell
   facilities: 
     - title: Learning </br> Centre
       detail: 8.30am - 4.30pm daily, with Zone C open until 6pm except Fri (term-time) </br></br>During the holidays opening hours will vary and will be posted around the campus. </br></br>There are 2 Learning Centres at St Austell which cater for different subject areas. There is access to a wide range of print and online resources. There is WiFi available. Each centre has a variety of different zones with open plan areas, group work areas and individual study space and they are designed, equipped and staffed to help you to study in the way that suits you best. You may also use any of the other Cornwall College Learning Centres and can reserve and borrow their stock via the online catalogue; you have access to 130,000 resources via the online catalogue http://webopac.cornwall.ac.uk. You can access the Virtual Learning Centre, the online catalogue and the Student Portal.
@@ -783,6 +792,7 @@
   link: /location-pages/stoke-campus.html
   code: D
   anchor: "stoke"
+  slug: stoke
   facilities: 
     - title: Learning Centre
       detail: The Learning Centre houses the majority of information you will require to work on assignments, conduct research and improve study skills. The Centre’s staff are information literacy specialists who can help you with your research. Our staff can support you with:</br>•Using specific software, i.e. Mind Genius, ReadWriteGold, PowerPoint and Excel</br>•Academic writing, citation, referencing and avoiding plagiarism</br>•Using electronic databases</br>•Printing, photocopying & scanning</br>•Accessing the Learning Centre catalogue and Plymouth University portal</br>•Moodle - College Virtual Learning Environment for your online course materials</br></br>Items may be reserved or renewed in person, online or by tel 01579 372213 </br>e-mail stoke.learningcentre@duchy.ac.uk</br></br>

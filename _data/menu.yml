@@ -97,26 +97,32 @@
 - menu-name: Support
   menu-link: support-hub/ 
   sub-menu:
-      - sub-menu-name: Student Services
-        sub-menu-link: support-pages/student-services.html
+      - sub-menu-name: "Supporting your learning"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/supporting-your-learning/
         
-      - sub-menu-name: learning Services
-        sub-menu-link: support-pages/learning-services.html  
+      - sub-menu-name: "Supporting you"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/supporting-you/
         
-      - sub-menu-name: Transport
-        sub-menu-link: support-pages/transport.html  
+      - sub-menu-name: "Transport"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/transport/
         
-      - sub-menu-name: Accommodation
-        sub-menu-link: support-pages/accommodation.html     
+      - sub-menu-name: "Accommodation"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/accommodation/
         
-      - sub-menu-name: Information for Parents
+      - sub-menu-name: "Students' Union"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/students-union/
+        
+      - sub-menu-name: "Information for Parents"
         sub-menu-link: https://network.cornwall.ac.uk/student-support/information-for-parents/
         
-      - sub-menu-name: CCSU
-        sub-menu-link: support-pages/ccsu.html   
+      - sub-menu-name: "How to apply"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/how-to-apply/
         
-      - sub-menu-name: Employability
-        sub-menu-link: support-pages/employability.html  
+      - sub-menu-name: "College calendar"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/college-calendar/
         
-      - sub-menu-name: Local Office
-        sub-menu-link: support-pages/local-office.html         
+      - sub-menu-name: "Your options explained"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/your-options-and-qualifications-explained/
+        
+      - sub-menu-name: "Financial support"
+        sub-menu-link: https://network.cornwall.ac.uk/student-support/financial-support/
