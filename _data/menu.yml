@@ -83,7 +83,7 @@
         sub-menu-link: about-pages/download.html
         
       - sub-menu-name: Open to the Public
-        sub-menu-link: https://open-for-business.cornwall.ac.uk    
+        sub-menu-link: about-pages/open-public.html
         
       - sub-menu-name: Work for us
         sub-menu-link: https://www.networxrecruitment.com/website/jobseekers 
@@ -92,7 +92,7 @@
         sub-menu-link: https://network.cornwall.ac.uk/news   
         
       - sub-menu-name: College Events
-        sub-menu-link: https://network.cornwall.ac.uk/events/whats-on     
+        sub-menu-link: https://network.cornwall.ac.uk/events/whats-on
   
 - menu-name: Support
   menu-link: support-hub/ 
