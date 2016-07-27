@@ -4731,3 +4731,7 @@ button.collapsed h3:before{
     padding-right:10px;
     color:#52B3D9
 }
+
+.social-icons i{
+    width: 13px;
+}
