@@ -10,11 +10,11 @@
                     </article>
                     <article class="col-sm-12 col-md-4 campus-seach pull-right" >
                             <h4><span>Courses@</span>{{ campus.campus }}</h4>
-                            <form method="get" id="searchform" action="{{ site.course_site_baseurl }}">
+                            <form method="get" id="searchform-{{ campus.anchor }}" action="{{ site.course_site_baseurl }}">
                                 <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
                                 
                                 <div class="input-group-addon transition">
-                                    <button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button>
+                                    <button type="submit" class=" search-submit"><i class="fa fa-search fa-fw"></i></button>
                                 </div>
                                 
                                 <input type="hidden" name="post_type" value="courses">

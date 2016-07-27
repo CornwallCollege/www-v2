@@ -4069,6 +4069,28 @@ ul#og-grid li h4{
 .campus-overview article p{
     color:white;
 }
+.campus-overview form{
+    position:relative;
+}
+.campus-overview .form-control{
+    position: relative;
+    width: 71%;
+}
+.campus-overview .input-group-addon{
+    background: #52B3D9;
+    border: 1px solid #52B3D9;
+    width: auto;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+.campus-overview .input-group-addon:hover{
+    background: white;
+    color: #52B3D9;
+}
+.campus-overview .input-group-addon:hover i{
+    color: #52B3D9; 
+}
 .campus-seach{
     margin-bottom:20px;
 }
