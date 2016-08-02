@@ -2266,12 +2266,12 @@ a.selected{
 
 .og-details a {
     font-size: 15px;
-    color: #52B3D9;
+    color: white;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 7px 15px;
     border: 1px solid #52B3D9;
     display: inline-block;
-    margin: 0;
+    margin: 10px 100% 0 0;
     outline: none;
 }
 

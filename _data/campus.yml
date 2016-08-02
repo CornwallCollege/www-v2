@@ -4,31 +4,43 @@
   link: /location-pages/bicton-campus.html
   code: B
   anchor: "bicton-campus"
-  slug: bicton
   partnerships:
-    - partner-title: Test Partner
-      partner-logo: http://placehold.it/200x100
-      partner-link: http://google.co.uk
+    - partner-title: The British Horse Society
+      partner-logo: /images/partnerships/bhs.jpg
+      partner-link: http://www.bhs.org.uk/
       
-    - partner-title: Test Partner
-      partner-logo: http://placehold.it/200x100
-      partner-link: http://google.co.uk
+    - partner-title: Plymouth Argyle Football club
+      partner-logo: /images/partnerships/PAFC.jpg
+      partner-link: http://www.pafc.co.uk/
       
-    - partner-title: Test Partner
-      partner-logo: http://placehold.it/200x100
-      partner-link: http://google.co.uk
+    - partner-title: Dartmoor Zoo
+      partner-logo: /images/partnerships/dartmoor-zoo.jpg
+      partner-link: http://www.dartmoorzoo.org.uk/
+    
+    - partner-title: The Donkey Sanctuary
+      partner-logo: /images/partnerships/donkey-sanctuary.jpg
+      partner-link: https://www.thedonkeysanctuary.org.uk/
       
-    - partner-title: Test Partner
-      partner-logo: http://placehold.it/200x100
-      partner-link: http://google.co.uk
+    - partner-title: Eden Project
+      partner-logo: /images/partnerships/eden-project.jpg
+      partner-link: http://www.edenproject.com/
+    
+    - partner-title: National Trust
+      partner-logo: /images/partnerships/nat-trust.jpg
+      partner-link: https://www.nationaltrust.org.uk/ 
+    
+    - partner-title: NFU
+      partner-logo: /images/partnerships/nfu.jpg
+      partner-link: http://www.nfuonline.com/home/
+    
+    - partner-title: Dairy Crest
+      partner-logo: /images/partnerships/dairy-crest.jpg
+      partner-link: http://www.dairycrest.co.uk/  
+    
+    - partner-title: Army
+      partner-logo: /images/partnerships/army-be-the-best-logo.jpg
+      partner-link: http://www.army.mod.uk/  
       
-    - partner-title: Test Partner
-      partner-logo: http://placehold.it/200x100
-      partner-link: http://google.co.uk
-      
-    - partner-title: Test Partner
-      partner-logo: http://placehold.it/200x100
-      partner-link: http://google.co.uk      
       
   facilities: 
     - title: Learning </br> Centre
@@ -41,7 +53,7 @@
       
     - title: Students’</br> Union
       location: Bicton
-      detail: "Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!</br></br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union</br></br></br><strong>Student Bar & Social</strong></br>Sun to Thur 7pm – 11pm</br>The Residential Services Team assist the Student Council and it's Student President in the planning of the social and sporting life of the campus. The social life at the College is full with regular themed event nights, karaoke, quiz nights and the big party nights of the year when we hold the Summer Festival and Winter Ball. For students who enjoy shopping, weekend trips are arranged to Exeter on a regular basis and a free minibus to the local supermarket operates weekly.</br></br><strong>Student Bar</strong></br>The college bar is located in the Social Area for the sale of alcoholic and non-alcoholic drinks. Students are reminded that the College does not sell alcohol to anyone under the age of 18 and that proof of age will be required.</br></br>Social area with Dart Board"
+      detail: Bicton Student Union exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!</br></br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union</br></br><strong>Student Bar & Social</strong></br>Sun to Thur 7pm – 11pm</br>The Residential Services Team assist the Student Council and it's Student President in the planning of the social and sporting life of the campus. The social life at the College is full with regular themed event nights, karaoke, quiz nights and the big party nights of the year when we hold the Summer Festival and Winter Ball. For students who enjoy shopping, weekend trips are arranged to Exeter on a regular basis and a free minibus to the local supermarket operates weekly.</br></br><strong>Student Bar</strong></br>The college bar is located in the Social Area for the sale of alcoholic and non-alcoholic drinks. Students are reminded that the College does not sell alcohol to anyone under the age of 18 and that proof of age will be required.</br></br>Social area with Dart Board
       link: /bicton-learning-area/
       image: /bicton/students-union.jpg
       image-thumb: /bicton/students-union-thumb.jpg     
@@ -62,7 +74,7 @@
       
     - title: Sports & </br> Outdoors
       location: Bicton
-      detail: <strong>Sports & Outdoors for Students</strong></br> Contact - sportsmaker@cornwall.ac.uk</br></br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.</br> </br><strong>College sporting activities include:</strong></br>Hockey; netball; football; kayaking; outdoor pursuits; horse riding; surfing; climbing; running; pilates; boogie bounce; archery; lacrosse; tennis; HIIT training; badminton; dodgeball and many more.</br></br> <strong>Sports and Outdoors for staff, students and the Public</strong></br>The facilities at Cornwall College are superb and reflect the specialisms required by the students studying any related courses.</br></br>The sports and fitness facilities are open to the Public, Staff and Students, we offer a wide range of facilities to suit a full range of activities</br></br>Bicton</br></br>Bicton sports centre has a wide range of facilities including a 3G astro turf, 4 court sports hall, , teaching rooms and a fitness suite</br></br>Fitness Suite </br></br>Open to staff and students our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No fixed membership contract; Free ½ hour programme updates; Free gym challenges Personalised training programme  and free nutritional advice</br>Outdoor Adventurous Facilities</br>We also have a full range of outdoor facilities such as a climbing tower; fitness gym and body conditioning gym; low ropes course; five acre lake and cross country running routes. These are available for use for community groups, friends, schools using our qualified instructors or if you want a birthday party with a difference.</br></br>OPENING HOURS</br>Monday to Sunday - hours open according to bookings</br>Tel - 01209 617732 Email - sportandfitness@cornwall.ac.uk
+      detail: <strong>Sports & Outdoors for Students</strong></br> Contact - sportsmaker@cornwall.ac.uk</br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.</br><strong>College sporting activities include:</strong></br>Hockey; netball; football; kayaking; outdoor pursuits; horse riding; surfing; climbing; running; pilates; boogie bounce; archery; lacrosse; tennis; HIIT training; badminton; dodgeball and many more.</br><strong>Sports and Outdoors for staff, students and the Public</strong></br>The facilities at Cornwall College are superb and reflect the specialisms required by the students studying any related courses.</br></br>The sports and fitness facilities are open to the Public, Staff and Students, we offer a wide range of facilities to suit a full range of activities</br>Bicton</br></br>Bicton sports centre has a wide range of facilities including a 3G astro turf, 4 court sports hall, teaching rooms and a fitness suite</br></br>Fitness Suite </br></br>Open to staff and students our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No fixed membership contract; Free ½ hour programme updates; Free gym challenges Personalised training programme  and free nutritional advice</br>Outdoor Adventurous Facilities</br>We also have a full range of outdoor facilities such as a climbing tower; fitness gym and body conditioning gym; low ropes course; five acre lake and cross country running routes. These are available for use for community groups, friends, schools using our qualified instructors or if you want a birthday party with a difference.</br></br>OPENING HOURS</br>Monday to Sunday - hours open according to bookings</br>Tel - 01209 617732 Email - sportandfitness@cornwall.ac.uk
       Tel: 01209 617732
       link: /bicton-learning-area/
       image: /bicton/sports-outdoor.jpg
@@ -70,7 +82,7 @@
       
     - title: Bicton </br> Equine
       location: Bicton
-      detail: The Equestrian Centre provides excellent teaching and learning facilities for full and part-time students and external customers. See the section on Equine courses for more information.</br></br>The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC-Schooling field, Walker, Weighbridge and Solarium.</br></br>There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</br></br>We offer a range of Livery options for Students and External Customers, from Working Livery to Full Livery.</br></br>These facilities enable us to cater for all types of events in a calm and safe environment. Our team of highly qualified experienced staff are on hand to offer their expertise.</br></br>If you are interested in booking the facilities or livery options, please contact us on 01395 562354, or email equestrian.centre@bicton.ac.uk
+      detail: The Equestrian Centre provides excellent teaching and learning facilities for full and part-time students and external customers. See the section on Equine courses for more information.</br></br>The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC-Schooling field, Walker, Weighbridge and Solarium.</br></br>There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</br></br>We offer a range of Livery options for Students and External Customers, from Working Livery to Full Livery.</br>These facilities enable us to cater for all types of events in a calm and safe environment. Our team of highly qualified experienced staff are on hand to offer their expertise.</br>If you are interested in booking the facilities or livery options, please contact us on 01395 562354, or email equestrian.centre@bicton.ac.uk
       link: /bicton-learning-area/
       image: /bicton/equine.jpg 
       image-thumb: /bicton/equine-thumb.jpg    
@@ -83,7 +95,7 @@
       image-thumb: /bicton/childcare-thumb.jpg    
       
     - title: Animal Management & Agriculture
-      detail: "Bicton’s Home Farm is a working commercial farm. The farm's core objectives are:</br>To provide state-of-the-art resources for education and practical training.</br>To generate a financial surplus for re-investment.</br>To show efficient methods of production and demonstrate leading practices in land use.</br>To provide Devon's agricultural industry with innovative and sustainable pathways for the future.</br>The farm is run with the aim of producing above average husbandry results and financial returns. </br> Students undertake regular periods of work experience and practical instruction, enabling them to gain a wide appreciation of the differing sectors of agriculture."
+      detail: Bicton’s Home Farm is a working commercial farm. The farm's core objectives are:</br>To provide state-of-the-art resources for education and practical training.</br>To generate a financial surplus for re-investment.</br>To show efficient methods of production and demonstrate leading practices in land use.</br>To provide Devon's agricultural industry with innovative and sustainable pathways for the future.</br>The farm is run with the aim of producing above average husbandry results and financial returns. </br> Students undertake regular periods of work experience and practical instruction, enabling them to gain a wide appreciation of the differing sectors of agriculture.
       link: /bicton-learning-area/
       image: /bicton/animal-management.jpg
       image-thumb: /bicton/animal-management-thumb.jpg 
@@ -103,7 +115,7 @@
         sub-area-link: public-services-military-academy  
     
     - area-title: Rural Economy
-      area-color: 61AE24  
+      area-color: 61AE24      
       sub-areas: 
       - sub-area-title: Agriculture & Countryside Management    
         sub-area-link: agriculture-countryside-management
@@ -124,7 +136,9 @@
       area-color: 00A1CB    
       sub-area: 
       - sub-area-title: Construction Trades    
-        sub-area-link: construction-trades 
+        sub-area-link: construction-trades
+        
+
   
 - campus: dbs Music Bristol
   long: 51.4478973
@@ -132,13 +146,6 @@
   link: /location-pages/bristol-campus.html
   code: M
   anchor: "dbs"
-  slug: bristol
-  learning-areas:    
-    - area-title: Cultural & Visitor Economy
-      area-color: D0D102    
-      sub-areas: 
-      - sub-area-title: Music & Performing Arts 
-        sub-area-link: music-performing-arts
   facilities:
     - title: dBs </br> Music Studios FE
       location: Bristol
@@ -149,7 +156,7 @@
       
     - title: dBs </br> Music Studios HE
       location: Bristol
-      detail:  17 St Thomas Street</br>Bristol</br>BS1 6JS</br>Tel 03333 442238</br></br>Enquiries 8.30am - 5pm The latest addition to dBs Music is the state-of-the-art HE facility in central Bristol. Equipped with 10 recording and production studios, dedicated surround sound studio, Foley room, large live rooms and exceptional lecture theatre/viewing room. It is also the only education facility in the UK to house the extraordinary API 1608 Recording Console. As in all dBs centres, Bristol HE students are taught by a team of excellent tutors from a vast range of professional backgrounds all backed up by a comprehensive guest lecture programme that in the recent past has included DJ Maseo (De La Soul), Alistair Lindsey (Head of Music Production for Sony Games), Matt Colton (Alchemy Mastering) and many more at the top of their game in the industry.
+      detail:  17 St Thomas Street</br>Bristol</br>BS1 6JS</br>Tel 03333 442238</br></br>Enquiries 8.30am - 5pm</br>The latest addition to dBs Music is the state-of-the-art HE facility in central Bristol. Equipped with 10 recording and production studios, dedicated surround sound studio, Foley room, large live rooms and exceptional lecture theatre/viewing room. It is also the only education facility in the UK to house the extraordinary API 1608 Recording Console. As in all dBs centres, Bristol HE students are taught by a team of excellent tutors from a vast range of professional backgrounds all backed up by a comprehensive guest lecture programme that in the recent past has included DJ Maseo (De La Soul), Alistair Lindsey (Head of Music Production for Sony Games), Matt Colton (Alchemy Mastering) and many more at the top of their game in the industry.
       link: /bristol-learning-area/
       image: /bristol/dbs-bristol-HE.jpg
       image-thumb: /bristol/dbs-bristol-HE.jpg  
@@ -160,7 +167,43 @@
   link: /location-pages/camborne-campus.html
   code: C
   anchor: "camborne"
-  slug: camborne
+  partnerships:
+    - partner-title: Microsoft
+      partner-logo: /images/partnerships/microsoft.jpg
+      partner-link: https://www.microsoft.com/en-gb
+      
+    - partner-title: Mill Auto's
+      partner-logo: /images/partnerships/mill-auto-logo.jpg
+      partner-link: http://www.millautosupplies.co.uk
+      
+    - partner-title: Nathan Outlaw Academy
+      partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
+      partner-link: http://www.academynathanoutlaw.com
+    
+    - partner-title: NHS
+      partner-logo: /images/partnerships/NHS.jpg
+      partner-link: http://www.nhs.uk/pages/home.aspx
+      
+    - partner-title: Pendennis Shipyards
+      partner-logo: /images/partnerships/pendennis-logo.jpg
+      partner-link: http://pendennis.com/
+      
+    - partner-title: Stephens Scown
+      partner-logo: /images/partnerships/stephens-scown.jpg
+      partner-link: https://www.stephens-scown.co.uk/
+    
+    - partner-title: Cornwall Council
+      partner-logo: /images/partnerships/cornwall-council-logo.jpg
+      partner-link: https://www.cornwall.gov.uk/
+      
+    - partner-title: Ginsters
+      partner-logo: /images/partnerships/ginsters-logo.jpg
+      partner-link: http://www.ginsters.co.uk/
+    
+    - partner-title: Heartlands
+      partner-logo: /images/partnerships/heartlands.jpg
+      partner-link: http://www.heartlandscornwall.com/
+    
   facilities:
     - title: Students' </br> Union
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!</br></br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union</br></br><strong>Pirans College Shop</strong> </br>On campus we also have the well-stocked Piran’s College Shop, located in Student Central. The shop sells stationery, art equipment, food and drinks, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. Card payments can be taken (minimum £3 spend).
@@ -312,7 +355,6 @@
   link: /location-pages/eden-campus.html
   code: E
   anchor: "eden-project"
-  slug: eden-project
   facilities:
   learning-areas:
 
@@ -323,7 +365,45 @@
   link: /location-pages/falmouth-campus.html
   code: F
   anchor: "falmouth-marine-school"
-  slug: falmouth-marine-school
+  partnerships:
+  
+  - partner-title: Biaza
+    partner-logo: /images/partnerships/biaza.jpg
+    partner-link: http://www.biaza.org.uk/
+      
+  - partner-title: Cornwall Wildlife Trust
+    partner-logo: /images/partnerships/cornwall-wildlife-trust.jpg
+    partner-link: http://www.cornwallwildlifetrust.org.uk/    
+      
+  - partner-title: Fugro Seacore
+    partner-logo: /images/partnerships/fscl.jpg
+    partner-link: http://www.seacore.com/   
+    
+  - partner-title: Kennack Diving
+    partner-logo: /images/partnerships/kennack-diving.jpg
+    partner-link: http://www.kennackdiving.co.uk/
+    
+  - partner-title: National Maritime Museum Cornwall
+    partner-logo: /images/partnerships/national-maritime-museum.jpg
+    partner-link: http://nmmc.co.uk/    
+    
+  - partner-title: Pendennis Shipyards
+    partner-logo: /images/partnerships/pendennis-logo.jpg
+    partner-link: http://pendennis.com/  
+    
+  - partner-title: Subsea Uk
+    partner-logo: /images/partnerships/subsea-uk.jpg
+    partner-link: http://www.subseauk.com/      
+    
+  - partner-title: UKSA
+    partner-logo: /images/partnerships/uksa.jpg
+    partner-link: http://uksa.org/  
+    
+  - partner-title: A&P
+    partner-logo: /images/partnerships/AandP.jpg
+    partner-link: http://www.ap-group.co.uk/facilities/falmouth/      
+    
+      
   facilities: 
     - title: Learning </br>Centre
       detail: A large library and study area with PCs and laptops for you to use with free Wi-Fi
@@ -383,8 +463,8 @@
     - area-title: Health & Wellbeing
       area-color: D70060
       sub-areas: 
-      - sub-area-title: Sports & Fitness  
-        sub-area-link: sports-fitness        
+      - sub-area-title: Watersports  
+        sub-area-link: watersports        
     
     - area-title: Science & Natural Environment
       area-color: 113F8C
@@ -401,7 +481,45 @@
   link: /location-pages/newquay-campus.html
   code: N
   anchor: "newquay"
-  slug: newquay
+  partnerships:
+    - partner-title: Newquay Zoo
+      partner-logo: /images/partnerships/newquay-zoo.jpg
+      partner-link: http://www.newquayzoo.org.uk/ 
+   
+    - partner-title: Surfing Great Britain
+      partner-logo: /images/partnerships/sgb.jpg
+      partner-link: http://surfinggb.com/
+      
+    - partner-title: Surf Life Saving GB
+      partner-logo: /images/partnerships/surf-life-saving.jpg
+      partner-link: http://www.slsgb.org.uk/
+      
+    - partner-title: Wild Futures
+      partner-logo: /images/partnerships/wild-futures.jpg
+      partner-link: www.wildfutures.org/
+      
+    - partner-title: The Wave Project
+      partner-logo: /images/partnerships/wp-logo.jpg
+      partner-link: https://www.waveproject.co.uk/
+      
+    - partner-title: Bluereef Aquarium
+      partner-logo: /images/partnerships/blue-reef.jpg
+      partner-link: https://www.bluereefaquarium.co.uk/
+      
+    - partner-title: Crealy
+      partner-logo: /images/partnerships/crealy.jpg
+      partner-link: www.crealy.co.uk/  
+      
+    - partner-title: Era Adventures
+      partner-logo: /images/partnerships/era.jpg
+      partner-link: www.era-adventures.co.uk/
+ 
+    - partner-title: English Surfing Federation
+      partner-logo: /images/partnerships/esf.jpg
+      partner-link: www.englishsurfing.co.uk/
+ 
+    
+    
   facilities: 
     - title: Learning Centre
       detail: Mon to Thurs 8.30am – 5.30pm (term time)</br>Fri 8.30am - 4.30pm (term time)</br>Holiday opening hours will be publicised as they vary.</br></br><strong>Our Resources:</strong></br>a team of dedicated staff who have good IT, research and info-skills;</br>individual and group study space, including networked computers, laptops and multi-functional printers;</br>books, Journals, Fiction, CDs, subject specific DVDs & Feature Films;</br>computer catalogue of available resources (accessible from any internet computer);</br>access to the Internet, the Cornwall College intranet, Moodle, the University of Plymouth portal and a growing collection of electronic/online resources; Learning Services Online Catalogue;</br>comb binder, laminator and a range of stationery for sale</br></br>You can access over 130,000 resources from this Learning Centre. To renew your items Tel 01637 857964 or email nqlearningcentre@cornwall.ac.uk
@@ -475,7 +593,44 @@
   link: /location-pages/rosewarne-campus.html
   code: R
   anchor: "rosewarne"
-  slug: rosewarne
+  partnerships:
+    - partner-title: Dartmoor Zoo
+      partner-logo: /images/partnerships/dartmoor-zoo.jpg
+      partner-link: http://www.dartmoorzoo.org.uk/
+      
+    - partner-title: The Donkey Sanctuary
+      partner-logo: /images/partnerships/donkey-sanctuary.jpg
+      partner-link: https://www.thedonkeysanctuary.org.uk/
+      
+    - partner-title: Eden Project
+      partner-logo: /images/partnerships/eden-project.jpg
+      partner-link: http://www.edenproject.com/
+      
+    - partner-title: Landex
+      partner-logo: /images/partnerships/landex.jpg
+      partner-link: http://www.landex.org.uk/  
+      
+    - partner-title: National Trust
+      partner-logo: /images/partnerships/nat-trust.jpg
+      partner-link: https://www.nationaltrust.org.uk/ 
+    
+    - partner-title: NFU
+      partner-logo: /images/partnerships/nfu.jpg
+      partner-link: http://www.nfuonline.com/home/ 
+      
+      
+    - partner-title: Royal Horticulutral Society
+      partner-logo: /images/partnerships/royal-hort-soc.jpg
+      partner-link: https://www.rhs.org.uk/   
+    
+    - partner-title: Spearhead Academy
+      partner-logo: /images/partnerships/spearhead.jpg
+      partner-link: http://www.spearheadinternational.com/home   
+    
+    - partner-title: Dairy Crest
+      partner-logo: /images/partnerships/dairy-crest.jpg
+      partner-link: http://www.dairycrest.co.uk/ 
+    
   facilities: 
     - title: Learning </br>Centre
       detail: A dedicated library and study area with PCs and laptops for you to use with free  Wi-Fi
@@ -547,7 +702,44 @@
   link: /location-pages/saltash-campus.html
   code: S
   anchor: "saltash"
-  slug: saltash
+  partnerships:
+    - partner-title: Microsoft
+      partner-logo: /images/partnerships/microsoft.jpg
+      partner-link: https://www.microsoft.com/en-gb
+      
+    - partner-title: Mill Auto's
+      partner-logo: /images/partnerships/mill-auto-logo.jpg
+      partner-link: http://www.millautosupplies.co.uk
+      
+    - partner-title: Nathan Outlaw Academy
+      partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
+      partner-link: http://www.academynathanoutlaw.com
+    
+    - partner-title: NHS
+      partner-logo: /images/partnerships/NHS.jpg
+      partner-link: http://www.nhs.uk/pages/home.aspx
+      
+    - partner-title: Pendennis Shipyards
+      partner-logo: /images/partnerships/pendennis-logo.jpg
+      partner-link: http://pendennis.com/
+      
+    - partner-title: Stephens Scown
+      partner-logo: /images/partnerships/stephens-scown.jpg
+      partner-link: https://www.stephens-scown.co.uk/
+    
+    - partner-title: Cornwall Council
+      partner-logo: /images/partnerships/cornwall-council-logo.jpg
+      partner-link: https://www.cornwall.gov.uk/
+      
+    - partner-title: Ginsters
+      partner-logo: /images/partnerships/ginsters-logo.jpg
+      partner-link: http://www.ginsters.co.uk/
+    
+    - partner-title: Heartlands
+      partner-logo: /images/partnerships/heartlands.jpg
+      partner-link: http://www.heartlandscornwall.com/
+      
+      
   facilities: 
     - title: Learning </br>Centre
       detail: Mon 8.30am – 5pm; Tue & Wed 8.30 - 6.15pm; Thu 8.30 - 5.30pm; Fri 8.30 - 4.30pm (term time). During the holidays opening hours will be posted around the campus. </br>The Learning Centre offers a wide range of resources. You can access over 130,000 resources from here. You will require a valid student ID card. Items need to be returned within the due date or renewed online, in person or by tel 01752 850215. </br><strong>Our Resources:</strong></br>•A team of support staff with excellent IT, research and information skills</br>•Individual and group study areas include networked computers and printers</br>•Internet access and WiFi for your own laptop or smartphone</br>•Books, journals, newspapers, audio books, CDs and DVDs</br>•Computer catalogue of available resources</br>•Access to Moodle, the University of Plymouth portal and online resources</br>•Comb binder and laminator</br>•A range of stationery for sale</br>Careers information</br>•Learning Services Online Catalogue http://webopac.cornwall.ac.uk</br>
@@ -656,7 +848,44 @@
   link: /location-pages/st-austell-campus.html
   code: A
   anchor: "st-austell"
-  slug: st-austell
+  partnerships:
+    - partner-title: Nathan Outlaw Academy
+      partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
+      partner-link: http://www.academynathanoutlaw.com
+
+    - partner-title: Microsoft
+      partner-logo: /images/partnerships/microsoft.jpg
+      partner-link: https://www.microsoft.com/en-gb
+      
+    - partner-title: Mill Auto's
+      partner-logo: /images/partnerships/mill-auto-logo.jpg
+      partner-link: http://www.millautosupplies.co.uk
+      
+    - partner-title: Cornwall Council
+      partner-logo: /images/partnerships/cornwall-council-logo.jpg
+      partner-link: https://www.cornwall.gov.uk/
+      
+    - partner-title: Eden Project
+      partner-logo: /images/partnerships/eden-project.jpg
+      partner-link: http://www.edenproject.com/
+    
+    - partner-title: Ocean Group
+      partner-logo: /images/partnerships/ocean-group.jpg
+      partner-link: http://www.ocean-group.co.uk/
+      
+    - partner-title: St Austell Brewery
+      partner-logo: /images/partnerships/staustellbrewery.jpg
+      partner-link: http://www.staustellbrewery.co.uk/
+    
+    - partner-title: Cornwall Care
+      partner-logo: /images/partnerships/cornwall-care.jpg
+      partner-link: www.cornwallcare.com/
+      
+    - partner-title: Flying Start Nursery
+      partner-logo: /images/partnerships/flying-start-logo.jpg
+      partner-link: http://www.flyingstart.uk.com/  
+      
+      
   facilities: 
     - title: Learning </br> Centre
       detail: 8.30am - 4.30pm daily, with Zone C open until 6pm except Fri (term-time) </br></br>During the holidays opening hours will vary and will be posted around the campus. </br></br>There are 2 Learning Centres at St Austell which cater for different subject areas. There is access to a wide range of print and online resources. There is WiFi available. Each centre has a variety of different zones with open plan areas, group work areas and individual study space and they are designed, equipped and staffed to help you to study in the way that suits you best. You may also use any of the other Cornwall College Learning Centres and can reserve and borrow their stock via the online catalogue; you have access to 130,000 resources via the online catalogue http://webopac.cornwall.ac.uk. You can access the Virtual Learning Centre, the online catalogue and the Student Portal.
@@ -695,7 +924,7 @@
       image-thumb: /st-austell/the-bay-thumb.jpg
       
     - title: The Keay Theatre
-      detail: "The Keay Theatre houses a wide variety of community and professional events in fantastic surroundings. The Keay is home to performers, designers, musicians, technicians, directors and supporting staff, all working to one common goal. To bring arts to all across Cornwall.</br></br>For more information tel 01726 226400</br></br>See the latest Keay Theatre Events on our Facebook page</br></br><strong>Dance Studios</strong></br>Next to the theatre, we have two modern and spacious dance studios are situated in the College's performing arts area attached to The Keay Theatre. The studios are the setting for Cornwall College dance classes and workshops held by visiting dance professionals from across the country for college students. Studio flooring is fully sprung with under floor heating."
+      detail: The Keay Theatre houses a wide variety of community and professional events in fantastic surroundings. The Keay is home to performers, designers, musicians, technicians, directors and supporting staff, all working to one common goal. To bring arts to all across Cornwall.</br></br>For more information tel 01726 226400</br></br>See the latest Keay Theatre Events on our Facebook page</br></br><strong>Dance Studios</strong></br>Next to the theatre, we have two modern and spacious dance studios are situated in the College's performing arts area attached to The Keay Theatre. The studios are the setting for Cornwall College dance classes and workshops held by visiting dance professionals from across the country for college students. Studio flooring is fully sprung with under floor heating.
       link: /st-austell-learning-area/
       image: /st-austell/the-keay-theatre.jpg
       image-thumb: /st-austell/the-keay-theatre-thumb.jpg
@@ -792,7 +1021,43 @@
   link: /location-pages/stoke-campus.html
   code: D
   anchor: "stoke"
-  slug: stoke
+  partnerships:
+    - partner-title: The British Horse Society
+      partner-logo: /images/partnerships/bhs.jpg
+      partner-link: http://www.bhs.org.uk/
+      
+    - partner-title: Plymouth Argyle Football club
+      partner-logo: /images/partnerships/PAFC.jpg
+      partner-link: http://www.pafc.co.uk/
+      
+    - partner-title: Dartmoor Zoo
+      partner-logo: /images/partnerships/dartmoor-zoo.jpg
+      partner-link: http://www.dartmoorzoo.org.uk/
+    
+    - partner-title: The Donkey Sanctuary
+      partner-logo: /images/partnerships/donkey-sanctuary.jpg
+      partner-link: https://www.thedonkeysanctuary.org.uk/
+      
+    - partner-title: Eden Project
+      partner-logo: /images/partnerships/eden-project.jpg
+      partner-link: http://www.edenproject.com/
+    
+    - partner-title: National Trust
+      partner-logo: /images/partnerships/nat-trust.jpg
+      partner-link: https://www.nationaltrust.org.uk/ 
+    
+    - partner-title: NFU
+      partner-logo: /images/partnerships/nfu.jpg
+      partner-link: http://www.nfuonline.com/home/
+    
+    - partner-title: Dairy Crest
+      partner-logo: /images/partnerships/dairy-crest.jpg
+      partner-link: http://www.dairycrest.co.uk/  
+    
+    - partner-title: Army
+      partner-logo: /images/partnerships/army-be-the-best-logo.jpg
+      partner-link: http://www.army.mod.uk/ 
+      
   facilities: 
     - title: Learning Centre
       detail: The Learning Centre houses the majority of information you will require to work on assignments, conduct research and improve study skills. The Centre’s staff are information literacy specialists who can help you with your research. Our staff can support you with:</br>•Using specific software, i.e. Mind Genius, ReadWriteGold, PowerPoint and Excel</br>•Academic writing, citation, referencing and avoiding plagiarism</br>•Using electronic databases</br>•Printing, photocopying & scanning</br>•Accessing the Learning Centre catalogue and Plymouth University portal</br>•Moodle - College Virtual Learning Environment for your online course materials</br></br>Items may be reserved or renewed in person, online or by tel 01579 372213 </br>e-mail stoke.learningcentre@duchy.ac.uk</br></br>
