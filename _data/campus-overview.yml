@@ -1,5 +1,5 @@
 - campus: Bicton Campus
-  anchor: "bicton-campus"
+  anchor: "bicton"
   brand: Bicton College
   copy: <p>Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.</p>
   link: /bicton-campus.html
@@ -28,7 +28,7 @@
 
 
 - campus: Bristol
-  anchor: "dbs"
+  anchor: "dbs-bristol"
   brand: dBs Music
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
@@ -289,7 +289,7 @@
   
   
 - campus: Engineering Skills Centre, Plymouth
-  anchor: "sisna"
+  anchor: "sisna-park"
   brand: Cornwall College
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html
