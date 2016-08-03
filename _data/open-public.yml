@@ -63,7 +63,7 @@
       detail: "12:00 - 13:00"
     
     - icon: fa fa-envelope-o
-      detail: "sportandfitness@cornwall.ac.uk"
+      detail: <a href="mailto:sportandfitness@cornwall.ac.uk" target="_top">E-mail Me</a>
 
 
 - business: Koko hair beauty and holistic therapies
@@ -123,7 +123,7 @@
       detail: "8:30 - 17:00"
     
     - icon: fa fa-envelope-o
-      detail: "anthony.colgate@cornwall.ac.uk"
+      detail: <a href="mailto:anthony.colgate@cornwall.ac.uk" target="_top">E-mail Me</a>
     
     - icon: fa fa-phone
       detail: 01209 616209
@@ -197,7 +197,7 @@
       detail: "12:00 - 13:00"
     
     - icon: fa fa-envelope-o
-      detail: "Helen.Pennells@cornwall.ac.uk"
+      detail: <a href="mailto:Helen.Pennells@cornwall.ac.uk" target="_top">E-mail Me</a>
 
 
 - business: Pirans College Shop
@@ -222,7 +222,7 @@
       detail: "12:00 - 13:00"
     
     - icon: fa fa-envelope-o
-      detail: "deborah.macdonald@cornwall.ac.uk"
+      detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
       
     - icon: fa fa-phone
       detail: 01209 611659
