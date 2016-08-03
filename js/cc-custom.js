@@ -80,7 +80,7 @@ $(function () {
             var logo = $(slide).attr('data-logo');
             $('.logo').removeClass('current-brand');
             $('.logo').addClass('sub-brand grow');
-            $('.logo').attr('src', '/images/dc-brand-logo.png');
+            $('.logo').children().children().children().attr('src', '/images/dc-brand-logo.png');
 
             loadVideo(slide);
             if (swiperH.slides.length > swiperH.activeIndex + 1) {
@@ -92,7 +92,7 @@ $(function () {
             }
 
             $('#' + logo + '-logo').parent().parent().parent().removeClass('sub-brand grow');
-            $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand')
+            $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
             $('#' + logo + '-logo').attr('src', '/images/slug.jpg');
 
         }
