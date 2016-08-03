@@ -80,6 +80,7 @@ $(function () {
             var logo = $(slide).attr('data-logo');
             $('.logo').removeClass('current-brand');
             $('.logo').addClass('sub-brand grow');
+            $('.logo').attr('src', '/images/dc-brand-logo.png');
 
             loadVideo(slide);
             if (swiperH.slides.length > swiperH.activeIndex + 1) {
@@ -91,7 +92,8 @@ $(function () {
             }
 
             $('#' + logo + '-logo').parent().parent().parent().removeClass('sub-brand grow');
-            $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
+            $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand')
+            $('#' + logo + '-logo').attr('src', '/images/slug.jpg');
 
         }
 
@@ -99,21 +101,37 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(0, 1000, false);
             changeCurrentLogo();
+            $(this).attr('src', '/images/slug.jpg');
+            $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
+            $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
+            $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
         })
         $('#dc-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(1, 1000, false);
             changeCurrentLogo();
+            $(this).attr('src', '/images/slug.jpg');
+            $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
+            $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
+            $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
         })
         $('#fms-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(2, 1000, false);
             changeCurrentLogo();
+            $(this).attr('src', '/images/slug.jpg');
+            $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
+            $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
+            $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
         })
         $('#bic-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(3, 1000, false);
             changeCurrentLogo();
+            $(this).attr('src', '/images/slug.jpg');
+            $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
+            $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
+            $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
         })
 
         var slide = swiperH.slides[swiperH.activeIndex];
