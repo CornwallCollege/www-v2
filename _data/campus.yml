@@ -355,7 +355,43 @@
   link: /location-pages/eden-campus.html
   code: E
   anchor: "eden-project"
-  facilities:
+  facilities: 
+    - title: Biomes
+      detail: The Rainforest and the Mediterranean Biomes are world class entertainment and educational attractions. Work alongside our skilled specialists in these awe-inspiring domes. The beautiful biomes of Eden offer an unique opportunity to experience and study exotic eco-sytems and tropical habitats. The Citrus Grove in the Mediterranean Biome is the stage for our contemporary storytelling and performance students. There are a range of restaurants, cafes and bars that also offer great work experience opportunities to our Chef apprentices.
+      link: /eden-learning-area/
+      image: /eden/biomes.jpg
+      image-thumb: /eden/biomes-thumb.jpg
+      
+    - title: Hive & Eden Session
+      detail: The Hive is on the main site and has been designed specifically for performance activities. This is where the stage and arena are and where the high profile Eden Sessions music concerts are held. We host a range of events at Eden from gigs, conferences, parties to weddings. All of these offer great work experience opportunities for our event management students.
+      link: /eden-learning-area/
+      image: /eden/eden-sessions.jpg
+      image-thumb: /eden/eden-sessions-thumb.jpg  
+      
+    - title: Foundation Building
+      detail: The Foundation Building is the hub of the education activity on site housing most of the dedicated classroom spaces and the HE Student Common Room. 
+      link: /eden-learning-area/
+      image: /eden/eden-sessions.jpg
+      image-thumb: /eden/eden-sessions-thumb.jpg  
+    
+    - title: Laboratory & Watering Lane Nursery
+      detail: For apprentices and students studying horticulture, garden and landscape design the Laboratory & Watering Lane Nursery this is where you will spend much of your taught time. Watering Lane Nursery is a few miles off site and will form part of the extended campus for you also.
+      link: /eden-learning-area/
+      image: /eden/watering-lane-nursery.jpg
+      image-thumb: /eden/watering-lane-nursery.jpg 
+      
+    - title: Green Build Hub & Learning Centre
+      detail: The Green Build Hub is a new building for the 2016/2017 academic year,what is here for students. It houses the Design Studio as well as the Learning Centre. 
+      link: /eden-learning-area/
+      image: /eden/eden-sessions.jpg
+      image-thumb: /eden/biomes-thumb.jpg   
+    
+    - title: Canteen
+      detail: Canteen information
+      link: /eden-learning-area/
+      image: /eden/canteen.jpg
+      image-thumb: /eden/canteen-thumb.jpg
+      
   learning-areas:
 
   
