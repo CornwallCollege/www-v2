@@ -82,7 +82,7 @@ html, body {
 @media(min-width: 1600px) {
     .header-title header{
         left: calc(16% + 20px);
-    }  
+    }
 }
 @media(max-width: 991px) {
     .header-title h2 span {
@@ -93,7 +93,7 @@ html, body {
 @media(max-width: 767px) {
     .header-title header{
         left: calc(0% + 15px);
-    }    
+    }
     .header-title h2 span {
         font-size: 60px;
         line-height: 46px;
@@ -272,7 +272,7 @@ blockquote{
     border-top: solid 5px #52B3D9;
     border-right: solid 5px #52B3D9;
     /* Mobile fixed position FIX*/
-    
+
     -webkit-backface-visibility: hidden;
 }
 
@@ -427,12 +427,12 @@ a.ask-a-question:focus {
 .career-search a{
     text-align:left;
     width:100%;
-    white-space:normal; 
+    white-space:normal;
     text-align:center;
 }
 .career-search h2{
     padding: 10px 0 25px;
-    text-align: center; 
+    text-align: center;
     color:#555;
 }
 .form-horizontal label i {
@@ -469,7 +469,7 @@ a.ask-a-question:focus {
 
 .help-form .submit-btn:hover {
     background-color: white;
-    
+
     color: #52B3D9;
 }
 
@@ -505,7 +505,7 @@ a.ask-a-question:focus {
     transform: translate(-50%,-0%);
     margin-bottom: 0;
     left: 50%;
-    position: relative;    
+    position: relative;
 }
 
 #hidden-search-form input {
@@ -593,7 +593,7 @@ a.icon-btn,
     text-transform: uppercase;
     font-size: 12.5px;
     display: inline-block;
-    
+
 }
 a.icon-btn:hover,
 button.icon-btn:hover,
@@ -606,7 +606,7 @@ button.icon-btn:hover,
 .btn-wrap {
     margin-top: -18px;
     z-index: 10;
-    position: relative;    
+    position: relative;
 }
 
 @media(max-width:993px) {
@@ -775,23 +775,23 @@ footer a.btn{
 }
 .sub-brand img{
     width:120px;
-    height:120px;    
+    height:120px;
 }
 
 .current-brand img{
     top: 15px;
     width:174px;
-    height:174px;    
+    height:174px;
 }
 .current-brand{
     display: block;
     float:left;
     top: 10px;
-    padding: 0px 5px;   
+    padding: 0px 5px;
     position: relative;
     z-index: 999;
 }
-.grow { 
+.grow {
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -799,7 +799,7 @@ footer a.btn{
     -o-transition: all .5s ease-in-out;
 }
 
-.grow:hover { 
+.grow:hover {
     transform: scale(1.15);
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
@@ -830,13 +830,13 @@ footer a.btn{
 @media (min-width:600px) and (max-width:968px){
     .sub-brand img{
         width:90px;
-        height:90px;    
+        height:90px;
     }
     .current-brand img{
         top: 15px;
         width:120px;
-        height:120px;    
-    }       
+        height:120px;
+    }
     .sub-brand{
         top: 25px;
     }
@@ -853,12 +853,12 @@ footer a.btn{
     .sub-brand img,
     .current-brand img{
         width:100px;
-        height:100px;         
+        height:100px;
     }
     .sub-brand,
     .current-brand{
         top: 10px;
-    }    
+    }
     div#logo-wrap :nth-child(2),
     div#logo-wrap :nth-child(3),
     div#logo-wrap :nth-child(4){
@@ -869,44 +869,44 @@ footer a.btn{
     }
     div#logo-wrap :nth-child(3){
         z-index:997;
-    }    
+    }
     div#logo-wrap :nth-child(4){
         z-index:996;
-    } 
+    }
 
     div#logo-wrap .active :nth-child(2),
     div#logo-wrap .active :nth-child(3),
     div#logo-wrap .active :nth-child(4){
         margin-top:102px;
-    }    
+    }
     /*ACTIVE STATE*/
     div#logo-wrap .active:nth-child(2),
     div#logo-wrap .active:nth-child(3),
     div#logo-wrap .active:nth-child(4){
-       margin-left:-110px;     
+       margin-left:-110px;
     }
     div#logo-wrap .active:nth-child(2){
        top:115px;
     }
     div#logo-wrap .active:nth-child(3){
        top:220px;
-    }    
+    }
     div#logo-wrap .active:nth-child(4){
        top:325px;
 
-    }      
+    }
 }
 /*============== on scroll STYLES ===============*/
 
     div.logo-wrap-scroll .sub-brand img,
     div.logo-wrap-scroll .current-brand img{
         width:100px;
-        height:100px;         
+        height:100px;
     }
     div.logo-wrap-scroll .sub-brand,
     div.logo-wrap-scroll .current-brand{
         top: 10px;
-    }    
+    }
     div.logo-wrap-scroll :nth-child(2),
     div.logo-wrap-scroll :nth-child(3),
     div.logo-wrap-scroll :nth-child(4){
@@ -917,10 +917,10 @@ footer a.btn{
     }
     div.logo-wrap-scroll :nth-child(3){
         z-index:997;
-    }    
+    }
     div.logo-wrap-scroll :nth-child(4){
         z-index:996;
-    }   
+    }
     #white-nav-bg.active{
         top: 0px;
     }
@@ -1024,7 +1024,7 @@ footer a.btn{
 }
 /* ----------------- Slide Pagination styles ENDS ------------------ */
 /* =================================
-        Cluster area header images 
+        Cluster area header images
 */
 
 .jumbotron {
@@ -1064,7 +1064,7 @@ footer a.btn{
 
 .box-square article:nth-child(3) {
     /*background: #52B3D9;*/
-    
+
     background: white;
     clear: left;
 }
@@ -1288,16 +1288,16 @@ footer a.btn{
     padding: 0;
     background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
     /* For Safari 5.1 to 6.0 */
-    
+
     background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
     /* For Opera 11.1 to 12.0 */
-    
+
     background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
     /* For Firefox 3.6 to 15 */
-    
+
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apply-now-mobile.jpg);
     /* Standard syntax */
-    
+
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
@@ -1321,7 +1321,7 @@ footer a.btn{
 .fulltime-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
-    
+
     font-family: "Raleway";
     font-weight: 400;
     margin: 0;
@@ -1354,7 +1354,7 @@ footer a.btn{
     opacity: 1;
 }
 .blue-bg{
-   background-color:#52B3D9; 
+   background-color:#52B3D9;
 }
 
 @media(max-width: 480px) {
@@ -1381,7 +1381,7 @@ footer a.btn{
     .usp h2{
         font-size: 2em;
         padding: 0 5%;
-    } 
+    }
 }
 
 .apply-bar {
@@ -1902,7 +1902,7 @@ footer a.btn{
     }
     #aerospace{
         background-position-x: 0%;
-    }    
+    }
 }
 
 /*====================================================================================================
@@ -2501,14 +2501,14 @@ APPLY BARS =====================================================================
         background-position-x: 50%;
         background-position-y: 0%;
         background-attachment: scroll
-    }    
+    }
     .legal-bar{
         background-position-x: 75%;
     }
     .aerospace-bar{
         background-position-x: 10%;
-    }      
-} 
+    }
+}
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar,
     .fulltime-bar {
@@ -2517,14 +2517,14 @@ APPLY BARS =====================================================================
         background-position-x: 50%;
         background-position-y: 0%;
         background-attachment: scroll
-    }    
+    }
     .legal-bar{
         background-position-x: 75%;
     }
     .aerospace-bar{
         background-position-x: 10%;
-    }    
-}   
+    }
+}
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar,
     .fulltime-bar {
@@ -2539,7 +2539,7 @@ APPLY BARS =====================================================================
     }
     .aerospace-bar{
         background-position-x: 10%;
-    }      
+    }
 }
 
 /*desktops*/
@@ -2617,7 +2617,7 @@ APPLY BARS =====================================================================
     }
 
 /*iPads*/
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
     #aerospace,
     #construction-plant,
     #boatbuilding,
@@ -2690,7 +2690,7 @@ APPLY BARS =====================================================================
         background-size: auto 768px;
         z-index: 1;
         background-attachment: scroll;
-    } 
+    }
 }
 
 
@@ -2760,19 +2760,19 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .career-filter ul li a {
-        min-height: 280px;
+        min-height: 342px;
     }
 }
 
 @media(min-width:992px) {
     .career-filter ul li a {
-        min-height: 245px;
+        min-height: 254px;
     }
 }
 
 @media(min-width:1200px) {
     .career-filter ul li a {
-        min-height: 192px;
+        min-height: 210px;
     }
 }
 /* Cluster colors ends*/
@@ -2789,17 +2789,17 @@ APPLY BARS =====================================================================
 
 .career-filter ul li a.as {
     color: white;
-    background-color: #616161;    
+    background-color: #616161;
 }
 
 .career-filter ul li a.as:hover {
     border: 5px solid #616161;
     background-color: white;
-    color: #616161;    
+    color: #616161;
 }
 
 .career-filter li a.selected.as {
-    border: 5px solid #616161;    
+    border: 5px solid #616161;
     background-color: white;
     color: #616161;
 }
@@ -2807,35 +2807,35 @@ APPLY BARS =====================================================================
 .career-filter ul li a.bpi {
     border: 5px solid #E54028;
     color:  white;
-    background-color: #E54028;      
+    background-color: #E54028;
 }
 
 .career-filter ul li a.bpi:hover {
     border: 5px solid #E54028;
     background-color: white;
-    color: #E54028;    
+    color: #E54028;
 }
 
 .career-filter li a.selected.bpi {
     background-color: white;
     color: #E54028;
-    border: 5px solid #E54028;    
+    border: 5px solid #E54028;
 }
 
 .career-filter ul li a.cve {
     border: 5px solid #C7D301;
     color:  white;
-    background-color: #C7D301;    
+    background-color: #C7D301;
 }
 
 .career-filter ul li a.cve:hover {
     border: 5px solid #C7D301;
     background-color: white;
-    color: #C7D301;    
+    color: #C7D301;
 }
 
 .career-filter li a.selected.cve {
-    border: 5px solid #C7D301;    
+    border: 5px solid #C7D301;
     background-color: white;
     color: #C7D301;
 }
@@ -2843,17 +2843,17 @@ APPLY BARS =====================================================================
 .career-filter ul li a.hw {
     border: 5px solid #D70060;
     color:  white;
-    background-color: #D70060;    
+    background-color: #D70060;
 }
 
 .career-filter ul li a.hw:hover {
     background-color: white;
     border: 5px solid #D70060;
-    color: #D70060;    
+    color: #D70060;
 }
 
 .career-filter li a.selected.hw {
-    border: 5px solid #D70060;    
+    border: 5px solid #D70060;
     background-color: white;
     color: #D70060;
 }
@@ -2861,91 +2861,91 @@ APPLY BARS =====================================================================
 .career-filter ul li a.re {
     border: 5px solid #61AE24;
     color:  white;
-    background-color: #61AE24;    
+    background-color: #61AE24;
 }
 
 .career-filter ul li a.re:hover {
     background-color: white;
     border: 5px solid #61AE24;
-    color: #61AE24;    
+    color: #61AE24;
 }
 
 .career-filter li a.selected.re {
     background-color: white;
-    border: 5px solid #61AE24;    
+    border: 5px solid #61AE24;
     color: #61AE24;
 }
 
 .career-filter ul li a.sne {
     border: 5px solid #113F8C;
     color:  white;
-    background-color: #113F8C;    
+    background-color: #113F8C;
 }
 
 .career-filter ul li a.sne:hover {
     background-color: white;
     border: 5px solid #113F8C;
-    color: #113F8C;    
+    color: #113F8C;
 }
 
 .career-filter li a.selected.sne {
     background-color: white;
     color: #113F8C;
-    border: 5px solid #113F8C;    
+    border: 5px solid #113F8C;
 }
 
 .career-filter ul li a.tch {
     border: 5px solid #00A1CB;
     color:  white;
-    background-color: #00A1CB;    
+    background-color: #00A1CB;
 }
 
 .career-filter ul li a.tch:hover {
     background-color: white;
     border: 5px solid #00A1CB;
-    color: #00A1CB;    
+    color: #00A1CB;
 }
 
 .career-filter li a.selected.tch {
     background-color: white;
     color: #00A1CB;
-    border: 5px solid #00A1CB;    
+    border: 5px solid #00A1CB;
 }
 
 .career-filter ul li a.edc {
     border: 5px solid #01A4A4;
     color:  white;
-    background-color: #01A4A4;    
+    background-color: #01A4A4;
 }
 
 .career-filter ul li a.edc:hover {
     background-color: white;
     border: 5px solid #01A4A4;
-    color: #01A4A4;    
+    color: #01A4A4;
 }
 
 .career-filter li a.selected.edc {
     background-color: white;
     color: #01A4A4;
-    border: 5px solid #01A4A4;    
+    border: 5px solid #01A4A4;
 }
 
 .career-filter ul li a.fnd {
     border: 5px solid #F18D05;
     color:  white;
-    background-color: #F18D05;    
+    background-color: #F18D05;
 }
 
 .career-filter ul li a.fnd:hover {
     background-color: white;
     border: 5px solid #F18D05;
-    color: #F18D05;    
+    color: #F18D05;
 }
 
 .career-filter li a.selected.fnd {
     background-color: white;
     color: #F18D05;
-    border: 5px solid #F18D05;    
+    border: 5px solid #F18D05;
 }
 
 @media(max-width:765px) {
@@ -2960,16 +2960,15 @@ APPLY BARS =====================================================================
 
 .career-filter ul li a h3 {
     margin-bottom: 5px;
-    font-size: 140%;
-    font-weight: 700;
+    font-size: 100%;
     line-height: 27px;
     margin-top: 5px;
 }
 
 .career-filter ul li a span {
     color: white;
-    font-size: 80%;
-    font-weight: normal;
+    font-size: 100%;
+    font-weight: 600;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     line-height: 20px;
@@ -3135,7 +3134,7 @@ APPLY BARS =====================================================================
 .public-filter ul li a.koko {
     border: 5px solid #8b005b;
     color:  white;
-    background-color: #8b005b;    
+    background-color: #8b005b;
 }
 
 .public-filter ul li a.koko:hover {
@@ -3154,7 +3153,7 @@ APPLY BARS =====================================================================
 .public-filter ul li a.mill {
     border: 5px solid #e6007e;
     color:  white;
-    background-color: #e6007e;    
+    background-color: #e6007e;
 }
 
 .public-filter ul li a.mill:hover {
@@ -3173,7 +3172,7 @@ APPLY BARS =====================================================================
 .public-filter ul li a.trevenson {
     border: 5px solid #5f5f5f;
     color:  white;
-    background-color: #5f5f5f;    
+    background-color: #5f5f5f;
 }
 
 .public-filter ul li a.trevenson:hover {
@@ -3192,7 +3191,7 @@ APPLY BARS =====================================================================
 .public-filter ul li a.cloisters {
     border: 5px solid #ca1b3c;
     color:  white;
-    background-color: #ca1b3c;    
+    background-color: #ca1b3c;
 }
 
 .public-filter ul li a.cloisters:hover {
@@ -3202,7 +3201,7 @@ APPLY BARS =====================================================================
 }
 
 .public-filter li a.selected.cloisters {
-    border: 5px solid #ca1b3c;    
+    border: 5px solid #ca1b3c;
     color: #ca1b3c;
     background-color: white;
 }
@@ -3211,7 +3210,7 @@ APPLY BARS =====================================================================
 .public-filter ul li a.room {
     border: 5px solid #203d7c;
     color:  white;
-    background-color: #203d7c;    
+    background-color: #203d7c;
 }
 
 .public-filter ul li a.room:hover {
@@ -3221,7 +3220,7 @@ APPLY BARS =====================================================================
 }
 
 .public-filter li a.selected.room {
-    border: 5px solid #203d7c;    
+    border: 5px solid #203d7c;
     color: #203d7c;
     background-color: white;
 }
@@ -3230,7 +3229,7 @@ APPLY BARS =====================================================================
 .public-filter ul li a.pirans {
     border: 5px solid #292929;
     color:  white;
-    background-color: #292929;      
+    background-color: #292929;
 }
 
 .public-filter ul li a.pirans:hover {
@@ -3240,7 +3239,7 @@ APPLY BARS =====================================================================
 }
 
 .public-filter li a.selected.pirans {
-    border: 5px solid #292929; 
+    border: 5px solid #292929;
     color: #292929;
     background-color: white;
 }
@@ -3403,7 +3402,7 @@ APPLY BARS =====================================================================
 
 .menu-item-links li a {
     /* padding: 10px;*/
-    
+
     line-height: 15px;
 }
 
@@ -3446,12 +3445,12 @@ a.collapsed h2 span.readmore {
 }
 
 a i.close-icon {
-    font-size:30px; 
-    position:absolute; 
-    top:10px; 
-    right:10px;    
+    font-size:30px;
+    position:absolute;
+    top:10px;
+    right:10px;
     display: block;
-    
+
 }
 a.collapsed i.close-icon {
     display: none;
@@ -3491,7 +3490,7 @@ a h2 span.readmore {
         left: 15px;
         z-index: 99;
         color: white;
-        
+
     }
 }
 
@@ -3509,7 +3508,7 @@ a h2 span.readmore {
 }
 .blocks article {
     padding: 10px 30px 15px 30px;
-    min-height: 265px;  
+    min-height: 265px;
 }
 .blocks header{
     min-height: 80px;
@@ -3529,13 +3528,13 @@ a h2 span.readmore {
     }
     .blocks footer {
       margin-top: 10px;
-    }    
+    }
     .blocks h5 {
         width: 100%;
     }
     .blocks article {
-        min-height: 0;  
-    }    
+        min-height: 0;
+    }
 }
 .header-icon:hover i {
     border-bottom-right-radius: 0;
@@ -3585,12 +3584,12 @@ ul#jobs-results li{
 ul#jobs-results li a{
     line-height: normal;
     display: block;
-    text-align: left;    
+    text-align: left;
     color:white;
 }
 @media(max-width:480px){
     ul#jobs-results {
-    }    
+    }
 }
 .a-levels h5{
     padding-left: 10px;
@@ -3601,7 +3600,7 @@ ul#jobs-results li a{
         position:absolute;
         bottom:-10px;
         width:100%;
-    }    
+    }
 }
 /*--------- home page title fix ----------*/
 .content-layer {
@@ -3614,21 +3613,21 @@ ul#jobs-results li a{
 @media (max-width:768px ){
     .content-layer {
         top: 30%;
-    }   
+    }
 }
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .content-layer {
         top: 21%;
-    } 
+    }
     .content-layer a.btn{
         margin-top:10px;
     }
     .scroll-down{
-        top: -45px;  
+        top: -45px;
     }
     .scroll-down i{
-        font-size: 45px 
-    }    
+        font-size: 45px
+    }
 }
 /* iPhone Zoom Fix */
 input[type='text'],
@@ -3738,7 +3737,7 @@ textarea {
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: rgba(0, 0, 0, 0.4); 
+        background: rgba(0, 0, 0, 0.4);
     }
     #home-slide {
         display: -webkit-box;
@@ -3757,10 +3756,10 @@ textarea {
         width: 100%;
     }
     .whats-on{
-        overflow: auto;   
+        overflow: auto;
     }
     .swiper-container-v {
-        
+
     }
 .plus-button,
 .less-button{
@@ -3783,7 +3782,7 @@ textarea {
     margin-bottom: 50px
 }
 /* Home page video background*/
-video { 
+video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3814,7 +3813,7 @@ video {
         }
         .sweeper-slide h2{
             font-size: 2rem;
-        }    
+        }
     }
 /* slide input styles */
     .swiper-button-next,
@@ -3834,7 +3833,7 @@ video {
         color:white;
     }
     .swiper-button-next{
-    
+
     }
     .swiper-button-disabled{
         display:none;
@@ -3843,11 +3842,11 @@ video {
     .swiper-button-next,
     .swiper-container-rtl .swiper-button-prev {
       right: 10px;
-    }    
+    }
     .swiper-button-prev,
     .swiper-container-rtl .swiper-button-next {
       left: 10px;
-    }    
+    }
     .swiper-button-next i,
     .swiper-button-prev i {
         font-size:6rem;
@@ -3874,7 +3873,7 @@ video {
     width:100%;
 }
 .blog-post-list img {
-    max-height: none; 
+    max-height: none;
 }
 .blog-post-list div{
     background: rgba(255, 255, 255, 0);
@@ -3917,9 +3916,9 @@ video {
     color:#52B3D9!important;
 }
 section.key-stats{
-    z-index:-2; 
-    background-size: cover; 
-    background-position: 50% 0; 
+    z-index:-2;
+    background-size: cover;
+    background-position: 50% 0;
     background-attachment: fixed;
     padding-top:80px;
 }
@@ -3943,7 +3942,7 @@ section.key-stats:after{
         height: 600px;
         width: 100%;
     }
-        
+
     #gmap_canvas img {
         max-width: none!important;
         background: none!important
@@ -4021,7 +4020,7 @@ ul#og-grid li h4{
     margin-top:89px;
 }
 .apprenticeships .og-grid li.og-expanded > a::after {
-    top: 80px;   
+    top: 80px;
 }
 .apprenticeships .og-grid .og-details{
 	width:100%;
@@ -4045,7 +4044,7 @@ ul#og-grid li h4{
         font-size:1.2em;
         width:100%;
         white-space: normal;
-    }    
+    }
 }
 .area div.detail h5{
     text-transform: uppercase;
@@ -4089,7 +4088,7 @@ ul#og-grid li h4{
     color: #52B3D9;
 }
 .campus-overview .input-group-addon:hover i{
-    color: #52B3D9; 
+    color: #52B3D9;
 }
 .campus-seach{
     margin-bottom:20px;
@@ -4253,7 +4252,7 @@ ul#og-grid li h4{
 
 .campus-seach{
     background: #52b3d9;
-    padding:20px;    
+    padding:20px;
 }
 .campus-seach h4{
     color:white;
@@ -4276,7 +4275,7 @@ ul#og-grid li h4{
         padding-bottom: 15px;
     }
     #portfolio-scroll h4{
-        line-height: 1.2;    
+        line-height: 1.2;
     }
     #portfolio-scroll p strong{
         color:#52B3D9;
@@ -4303,13 +4302,13 @@ a.learning-area{
     display: flex;
     display: -webkit-flex;
     -webkit-justify-content: center;
-    justify-content: center; 
+    justify-content: center;
     -webkit-align-items: center;
-    align-items: center; 
+    align-items: center;
     color: #52b3d9;
     background:white;
-    /*opacity: .7;*/ 
-    font-weight: bold;  
+    /*opacity: .7;*/
+    font-weight: bold;
     font-size:0.9em;
 }
 a.learning-area:hover{
@@ -4383,7 +4382,7 @@ a.learning-area:hover{
 
             .cover_sod:after { display: none; }
 
-        .cover_sod .sod_label { 
+        .cover_sod .sod_label {
             padding-right: 0px;
             font-size: 2rem;
             display: initial;
@@ -4406,7 +4405,7 @@ a.learning-area:hover{
                 padding: 10px 0;
             }
 
-            .cover_sod .sod_option { 
+            .cover_sod .sod_option {
                 padding: 15px 30px;
                 font-size: 16px;
 
@@ -4430,10 +4429,10 @@ a.learning-area:hover{
             }
             .sweeper-slide h1{
                 font-size: 3.5rem;
-            }    
+            }
             .sod_placeholder{
                 font-size: 2.5rem!important;
-            }    
+            }
 }
 
 /*------------------------- EVENT carousel styles -------------------------------------*/
@@ -4502,11 +4501,11 @@ a.learning-area:hover{
     margin-bottom: 30px;
     padding: 20px;
     display: inline-block;
-    width: 100%;    
+    width: 100%;
 }
 #event-carousel article h3 {
     text-transform: uppercase;
-    
+
 }
 #event-carousel article:hover {
     border-color: #52B3D9;
@@ -4603,8 +4602,8 @@ div.btn-group .area-filter{
     border-top:none;
     line-height: normal;
     font-size: .9em;
-    padding: 10px 20px;  
-    letter-spacing: 0.11em;    
+    padding: 10px 20px;
+    letter-spacing: 0.11em;
 }
 .area div.detail a{
     position: absolute;
@@ -4612,7 +4611,7 @@ div.btn-group .area-filter{
     right: 10px;
 }
 @media(min-width:1183px){
-    div.btn-group .area-filter{    
+    div.btn-group .area-filter{
         /*min-height: 80px;*/
     }
 }
@@ -4621,18 +4620,18 @@ div.btn-group .area-filter{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
- 
+
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }.equal-wrap{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
- 
+
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 .blocks article{
 
@@ -4665,8 +4664,8 @@ div.btn-group .area-filter{
     margin-top: 30px;
     width: 100%;
     padding: 1em;
-    
-    
+
+
 }
 .download{
     border-left-width: 2px;
