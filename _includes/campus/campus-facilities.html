@@ -1,5 +1,5 @@
 {% for campus in site.data.campus %}
-    {% if campus.campus == page.campus and campus.facilities == empty %}
+    {% if campus.campus != page.campus or campus.facilities == empty %}
         {% break %}
     {% else %}
         <section class="col-md-12  color-bg events" style="background:#52B3D9;">        
