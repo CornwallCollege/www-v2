@@ -1,87 +1,33 @@
 ---
-layout: hub
-title: <span itemprop="name">16-18 hub</span>
-description: The home of excellent further education in the the south west | The Cornwall College Group
-link: 16-18-hub
-apply-area: Course Intreast Area - 16-18
 
-videos:
-    - youtube-id: XKFnaC3pIm0
-    - youtube-id: C_yLJBhRMt8
-    - youtube-id: R9nhAoZIeYI
-    - youtube-id: goyUfdOFQpQ
-    - youtube-id: k3BxAjEytow
-    - youtube-id: P_qpRzkwPrs
-    - youtube-id: pekF_9LXkv0
-    - youtube-id: XcpeslFXH-c
-    - youtube-id: uh6IFyLDrEU
-
-usefulLinks:
-    - href: /google.com
-      title: how to apply
-      baseurl: true
-      suburl: student-support
-
-    - href: /google.com
-      title: order prospectus
-      baseurl: true
-      suburl: student-support
-
-    - href: /google.com
-      title: transport
-      baseurl: true
-      suburl: student-support
-
-    - href: /google.com
-      title: see your campus
-      baseurl: true
-      suburl: student-support
-
-    - href: /google.com
-      title: why you have to stay in education until 18
-      baseurl: true
-      suburl: student-support
+title: 16-18 Hub
+description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
+link: 16-18
 ---
+{% include 16-18/head.html %}
 
-    <!-- HEADER SECTION -->
-    <section id="services" class="col-md-12 jumbotron header-title">
-        <header class="container">
-            <h2><a href="/"><small>Home </small></a><span>{{ page.title }}</span></h2>
-
-        </header>
-    </section>
-    <!-- END OF HEADER -->
-
-    <!-- BODY SECTION -->
-
-    <section class="container">
-        <div class="col-sm-12 col-md-8">
-            <p class="lead ">Our specialist programmes of study combine qualifications, work readiness skills training and work experience, giving you a careers edge and the very best preparation for the world of work.</p>
-            <p>We offer a variety of qualifications including A-levels, BTEC and City &amp; Guilds Diplomas, Technical Baccalaureates, Practical Skills Training, NVQs and Apprenticeships at our colleges: Cornwall College, Duchy College, Bicton College and Falmouth Marine School.</p>
-            <p>A few reasons to choose #thecareercollege… (this may be punch boxes in a slider perhaps? Dunno but needs to be SEO searchable) We are one of the best colleges for catering studies in the UK, with partnerships with Nathan Outlaw, River Cottage and Fifteen Cornwall.</p>
-            <p>We are the biggest provider of apprenticeships in the South West, with over 80 career pathways to choose from. We are at the forefront of delivering cutting edge training that’s right for industry, our partnership with Software Cornwall has seen the emergence of a new tech Bacc in Software Development, delivered for the first time in industry at Bluefruit Software. Our students and staff are award-winners, they include champion SkillBuild trades apprentices, Film School and media students winning over 30 awards in a decade and our Duchy College is the only land-based college to win a Queen’s Anniversary Prize for Education &amp; Training.</p>
-            <p>We work with many of the regions big industry leaders to ensure our learners are ready for the workplace:
-            <ul>
-                <li>Pendennis Shipyards</li>
-                <li>Blue Flame Academy</li>
-                <li>Kier Academy</li>
-                <li>Mill Auto Supplies</li>
-                <li>NHS</li>
-                <li>Plymouth Argyle FC</li>
-            </ul>    
-            Our learners go on to great things: for example 100% of our watersports students are employed by the end of their course and travel the world.
-            </p>
-        </div>
-                
-        <div class="col-sm-12 col-md-4 useful-links">
-            <h3>Links</h3>
-            {% for link in page.usefulLinks %}
-                <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}"> {{ link.title | upcase }}</a>
-            {% endfor %}
-        </div>
-    </section>
-
-    <section class="col-sm-12 full-width-video-block"> 
+<body data-offset="200" data-spy="scroll" data-target=".primary-navigation">
+	<a id="top"></a>
+	
+	<!-- LOADER -->
+	<div id="site-loader" class="load-complete">
+		<div class="load-position">
+			<div class="logo"><img src="/images/loader.gif" alt="loading-logo"/></div>
+			<div class="loading">
+				<div class="loading-line"></div>
+				<div class="loading-break loading-dot-1"></div>
+				<div class="loading-break loading-dot-2"></div>
+				<div class="loading-break loading-dot-3"></div>
+			</div>
+		</div>
+	</div>
+	
+{% include 16-18/slider.html %}
+    
+{% include 16-18/header.html %}   
+    
+    
+   <section class="col-sm-12 full-width-video-block"> 
         <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
             {% youtube https://youtu.be/R9nhAoZIeYI %}
             <div class="text-center caption">
@@ -127,7 +73,480 @@ usefulLinks:
                 <p>Short Description about the video</p>
             </div>
         </article>
-    </section>
-<!-- BROWSE BY section -->
-{% include browse-by.html  %}
-<!-- BROWSE BY section ENDS-->
+    </section>    
+    </section>    
+	
+	<!-- How We Work -->
+	<section id="how-we-work" class="how-we-work">
+		<!-- Section Header -->
+		<div class="section-header">
+			<h2>How WE Work</h2>
+		</div>
+		<!-- Section Header Over-->
+		<div class="container">
+			<ul class="how-we-work-categories">
+				<li>
+					<a href="#">
+						<i class="icon_archive"></i>
+						<span>research</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="icon_book"></i>
+						<span>DESIGN</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="icon_drive"></i>
+						<span>develop</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="icon_globe-2"></i>
+						<span>launch</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="how-we-work-container">
+			<div class="research-slope">
+				<div class="research shape-content">
+                    <p class="lead">Our specialist programmes of study combine qualifications, work readiness skills training and work experience, giving you a careers edge and the very best preparation for the world of work.</p>
+
+                    <p>We offer a variety of qualifications including A-levels, BTEC and City & Guilds Diplomas, Technical Baccalaureates, Practical Skills Training, NVQs and Apprenticeships at our colleges: Cornwall College, Duchy College, Bicton College and Falmouth Marine School.</p>
+
+                    <p>A few reasons to choose #thecareercollege… (this may be punch boxes in a slider perhaps? Dunno but needs to be SEO searchable) We are one of the best colleges for catering studies in the UK, with partnerships with Nathan Outlaw, River Cottage and Fifteen Cornwall.</p>
+				</div>
+			</div>
+			<div class="we-perfection-slope">				
+				<div class="we-perfection shape-content">
+<p>We are the biggest provider of apprenticeships in the South West, with over 80 career pathways to choose from. We are at the forefront of delivering cutting edge training that’s right for industry, our partnership with Software Cornwall has seen the emergence of a new tech Bacc in Software Development, delivered for the first time in industry at Bluefruit Software. Our students and staff are award-winners, they include champion SkillBuild trades apprentices, Film School and media students winning over 30 awards in a decade and our Duchy College is the only land-based college to win a Queen’s Anniversary Prize for Education & Training.</p>
+				</div>
+			</div>
+			<div class="car"></div>
+			<div class="clean-code">
+				<div class="clean-code-box shape-content">
+
+
+
+<p>We work with many of the regions big industry leaders to ensure our learners are ready for the workplace:</p>
+<ul>
+    <li>Pendennis Shipyards</li>
+    <li>Blue Flame Academy</li>
+    <li>Kier Academy</li>
+    <li>Mill Auto Supplies</li>
+    <li>NHS</li>
+    <li>Plymouth Argyle FC</li>
+</ul> 
+                    
+				</div>
+			</div>
+			<div class="we-launch-slope">
+				<div class="we-launch shape-content">
+					<h3>Our learners go on to great things: for example 100% of our watersports students are employed by the end of their course and travel the world.</h3>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<!-- How We Work Over -->
+
+
+	<!-- Services Section -->
+	<div id="service-section" class="service-section">
+		<div class="container">
+			<div class="service-bg">			
+				<img src="images/services-bg.png" alt="service-bg"/>
+				<h3>Services</h3>
+			</div>
+			<div class="col-md-6">
+				<div class="service-box-inner">
+					<div class="col-md-4 pull-right col-sm-5">
+						<i class="icon-srv icon_heart"></i>
+					</div>
+					<div class="col-md-8 content-box col-sm-7">
+						<h3 class="block-title">Clients love us</h3>
+						<p>Vestialum ac diam sit amet quamveh icula elementum.</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="service-box-inner">
+					<div class="col-md-4 col-sm-5">
+						<i class="icon-srv icon_lifesaver"></i>
+					</div>
+					<div class="col-md-8 content-box col-sm-7">
+						<h3 class="block-title">premium support</h3>
+						<p>Vestialum ac diam sit amet quamveh icula elementum.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="service-box-inner">
+					<div class="col-md-4 pull-right col-sm-5">
+						<i class="icon-srv icon_tablet"></i>
+					</div>
+					<div class="col-md-8 content-box col-sm-7">
+						<h3 class="block-title">Flexible & multiporpuse</h3>
+						<p>Vestialum ac diam sit amet quamveh icula elementum.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="service-box-inner">
+					<div class="col-md-4 col-sm-5">
+						<i class="icon-srv icon_lock"></i>
+					</div>
+					<div class="col-md-8 content-box col-sm-7">
+						<h3 class="block-title">Safe information</h3>
+						<p>Vestialum ac diam sit amet quamveh icula elementum.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="service-box-inner">
+					<div class="col-md-4 pull-right col-sm-5">
+						<i class="icon-srv icon_lightbulb"></i>
+					</div>
+					<div class="col-md-8 content-box col-sm-7">
+						<h3 class="block-title">unique ideas</h3>
+						<p>Vestialum ac diam sit amet quamveh icula elementum.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="service-box-inner">
+					<div class="col-md-4 col-sm-5">
+						<i class="icon-srv icon_cog"></i>
+					</div>
+					<div class="col-md-8 content-box col-sm-7">
+						<h3 class="block-title">Working perfectly</h3>
+						<p>Vestialum ac diam sit amet quamveh icula elementum.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Services Section Over -->
+	
+	<!-- Features Section -->
+	<section id="features-section" class="features-section ow-background-no-size">
+		<div class="container">
+			<div class="col-md-7">
+				<h2>features</h2>
+				<div class="feature-box">
+					<div class="feature-box-inner">
+						<div class="col-md-4 col-sm-4 pull-right">
+							<i class="icon-feature icon_lightbulb"></i>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<h3 class="block-title">Multi-porpuse</h3>
+							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+						</div>						
+					
+					</div>
+					<div class="feature-box-inner">
+						<div class="col-md-4 col-sm-4 pull-right">
+							<i class="icon-feature icon_house"></i>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<h3 class="block-title">Ultra responsive</h3>
+							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+						</div>
+						
+					</div>
+					<div class="feature-box-inner">
+						<div class="col-md-4 col-sm-4 pull-right">
+							<i class="icon-feature icon_gift"></i>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<h3 class="block-title">Free updates</h3>
+							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+						</div>						
+					
+					</div>
+					<div class="feature-box-inner">
+						<div class="col-md-4 col-sm-4 pull-right">
+							<i class="icon-feature icon_camera"></i>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<h3 class="block-title">photobomb</h3>
+							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+						</div>							
+					
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+			
+			</div>
+		</div>
+	</section>
+	<!-- Features Section Over -->
+	
+	<!-- Apllication Section -->
+	<section id="application-section" class="application-section">
+		<div class="container">
+			<div class="col-md-6">
+				<div class="application-iphone">
+					<img src="images/application/iphone.png" alt="application iphone"/>
+				</div>
+			</div>
+			<div class="col-md-6 app-content-box">
+				<h2>try our high-tech aplication</h2>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibend um auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum veli.</p>
+				<div class="col-md-9 app-updates">
+					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
+					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+				</div>
+				<div class="col-md-9 app-updates">
+					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
+					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+				</div>
+				<div class="col-md-9 app-updates">
+					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
+					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+				</div>
+				<div class="col-md-9 app-updates">
+					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
+					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Application Section Over -->
+	
+
+	
+	<!-- Video Section 
+	<div id="video-section" class="video-section">
+		<a id="bgndVideo" class="player" data-property="{videoURL:'7SnmCUwOsts',containment:'.video-section', showControls:true, autoPlay:true, loop:true, vol:50, mute:true, startAt:10, opacity:1, addRaster:true, quality:'default', optimizeDisplay:true}">My video</a> <!--BsekcY04xvQ
+	</div>
+	Video Section Over -->
+	
+	<!-- Statistics Section -->
+	<div id="statistics-section" class="statistics-section">
+		<div class="container">
+			<div class="col-md-3 col-sm-12">
+				<h1><i class="icon_compass"></i> <span id="project"></span>K</h1>
+				<p>PROJECT COMPLETE</p>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<h1><i class="icon_toolbox "></i> <span id="work"></span> &nbsp; </h1>
+				<p>CLIENT WORKED WITH</p>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<h1><i class="icon_mug_alt"></i> <span id="consumed"></span> &nbsp; </h1>
+				<p>CUPS OF COFFEE CONSUMED</p>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<h1><i class="icon_shield_alt"></i> <span id="videos"></span> &nbsp; </h1>
+				<p>ANSWERED QUESTIONS</p>
+			</div>
+		</div>
+	</div>
+	<!-- Statistics Section Over -->
+		
+	<!-- What Students Section -->
+	<section id="client-section" class="client-section">
+		<!-- Section Header -->
+		<div class="section-header">
+			<h2>WHAT OUR STUDENTS SAY</h2>
+		</div>
+		<!-- Section Header Over-->
+		<div class="client-style1">
+			<svg width="0" height="0">
+				<clipPath id="client-1">
+					<polygon points="0 152,1920 310,1920 0,0 0">
+					</polygon>
+				</clipPath>
+				<clipPath id="client-11">
+					<polygon points="0 752,1920 752,1920 0,0 0">
+					</polygon>
+				</clipPath>
+			</svg>
+			<div class="client-hover">
+				<h2>"Werbi in velit ligula eget vulputate ligulaviv sollicitudin rcusante orbi in velit"</h2>
+				<p>by Ane Doe</p>
+			</div>
+		</div>
+		<div class="client-style2 client-active">	
+			<svg width="0" height="0">
+				<clipPath id="client-2">
+					<polygon points="-1 450,1920 289,1920 158,0 0">
+					</polygon>
+				</clipPath>
+				<clipPath id="client-21">
+					<polygon points="-1 752,1920 666,1920 97,0 0">
+					</polygon>
+				</clipPath>
+			</svg>			
+			<div class="client-hover">
+				<h2>"Werbi in velit ligula eget vulputate ligulaviv sollicitudin rcusante orbi in velit"</h2>
+				<p>by Ane Doe</p>
+			</div>
+		</div>
+		<div class="client-style3">
+			<svg width="0" height="0">
+				<clipPath id="client-3">
+					<polygon points="-1 326,1920 316,1920 0,0 155">
+					</polygon>
+				</clipPath>
+				<clipPath id="client-31">
+					<polygon points="-1 752,1920 756,1920 0,0 155">
+					</polygon>
+				</clipPath>
+			</svg>
+			<div class="client-hover">
+				<h2>"Werbi in velit ligula eget vulputate ligulaviv sollicitudin rcusante orbi in velit"</h2>
+				<p>by Ane Doe</p>
+			</div>
+		</div>		
+	</section>
+	<!-- What Clients Section Over -->
+	
+	<!-- Brag About Section -->
+	<div id="brag-about-section" class="brag-about-section">
+		<div class="col-md-6 brag-about-img pull-right">
+			<img src="images/about/about-imac.png" alt="iMac">
+		</div>	
+		<div class="col-md-6 no-padding">
+			<div class="col-md-7 pull-right brag-content">
+				<h1>design to brag about</h1>
+				<p>Morbi in velit, eget vulputate ligula viverra, mi ae sollicitudin rhon roin gravida nibh vel velit auctor aliquet. Aeneanollic itudin lorem dumorbi in velit ligula, eget vulputate ligula viverra, mi ae sollicit rhoncusante roin gravida nibh vel velit auctor aliquetc</p>
+			</div>
+		</div>
+	</div>
+	<!-- Brag About Section Over -->
+	
+	<!-- Project Section -->
+	<div id="project-section" class="project-section">
+		<div class="container">
+			<div class="col-md-6 col-sm-6 col-xs-6 start-project">
+				<p>courses</p>
+				<h2>view our learning areas</h2>
+				<a href="#"><span>Let's Go</span></a>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-6 send-msg">
+				<p>careers</p>
+				<h2>view careers section</h2>
+				<a href="#"><span>Let's Go</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- Project Section Over -->
+	
+	<!-- Footer Section -->
+	<footer id="footer-section" class="footer-section">
+		<div class="footer-item">
+			<i class="icon_mail_alt"></i>
+			<div class="footer-inner">
+				<p class="footer-item-title">email</p>
+				<a class="footer-item-desc">Hello@maximum.com</a>
+			</div>
+		</div>
+		<div class="footer-item">
+			<i class="icon_mobile"></i>
+			<div class="footer-inner">
+				<p class="footer-item-title">phone</p>
+				<p class="footer-item-desc">(012)3456789</p>
+			</div>
+		</div>
+		<a id="back-to-top" class="back-top pull-right"><i class="arrow_up"></i> Go on top</a>
+	</footer>
+	<!-- Footer Section -->
+	
+	<!-- Light Box -->
+	<div class="modal light-box fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="false">
+	<!-- Modal -->
+		<div class="container">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close icon_close" data-dismiss="modal" aria-label="Close"></button>
+							<div class="popup-heading">
+								<p>Let’s take the next step togeder</p>
+								<h1>start your project</h1>
+							</div>
+						</div>
+						<div id="contact" class="modal-body">
+							<div class="popup-form">
+							<form action="./contact.php" target="hidden" method="post">
+								<div id="alert-msg" class="alert-msg"></div>
+								<div class="form-group col-md-6 col-sm-6">
+									<input type="text" class="form-control"  id="input_name" name="contact-name" placeholder="Name*" required="required"/>
+								</div>
+								<div class="form-group col-md-6 col-sm-6">
+									<input type="text" class="form-control" id="input_compnay_name" name="contact-company-name" placeholder="Company"/>
+								</div>
+								<div class="form-group col-md-6 col-sm-6">
+									<input type="email" class="form-control" id="input_email" name="contact-email" placeholder="Email*" required="required"/>
+								</div>
+								<div class="form-group col-md-6 col-sm-6">
+									<input type="text" class="form-control" id="input_phone" name="contact-phone" placeholder="Telephone"/>
+								</div>
+								<div class="form-group col-md-6 col-sm-6">
+									<input type="text" class="form-control" id="input_budget" name="contact-budget" placeholder="Budget*" required="required"/>
+								</div>
+								<div class="form-group col-md-6 col-sm-6">
+									<input type="text" class="form-control" id="input_type" name="contact-type" placeholder="Type*" required="required"/>
+								</div>
+								<div class="form-group col-md-12 col-sm-12">
+									<input type="text" class="form-control" id="textarea_message" name="contact-message" placeholder="Objectives"/>
+								</div>
+								<input type="submit" value="SEND" class="send" />
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+	<!-- Light Box -->
+	
+	<!-- Hidden iframe for submitting forms -->
+	<iframe src="about:blank" name="hidden" class="hide"></iframe>
+	
+	<!-- jQuery Include -->
+	<script src="/js/jquery-2.1.3.min.js"></script>	
+	<script src="libraries/modernizr/modernizr.custom.13711.js"></script>
+	<script src="libraries/jquery.easing.min.js"></script><!-- Easing Animation Effect -->
+
+	<script src="/js/bootstrap.3.2.0.min.js"></script> <!-- Core Bootstrap v3.2.0 -->
+	<script src="libraries/bootstrap/ie-emulation-modes-warning.js"></script> <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<script src="libraries/bootstrap/ie10-viewport-bug-workaround.js"></script> <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<!-- Font Elegant -->
+		<!--[if lte IE 7]><script src="libraries/fonts/elegant/lte-ie7.js"></script><![endif]-->
+	
+	<script src="libraries/portfolio-filter/jquery.quicksand.js"></script> <!-- Quicksand v1.4 -->
+	<script src="libraries/jquery.superslides.min.js"></script> <!-- Superslides - v0.6.3-wip -->
+
+	<script src="libraries/roundabout.js"></script> <!-- service Rounded slider -->
+	<script src="libraries/roundabout_shapes.js"></script> <!-- service Rounded slider -->
+	
+	<script src="libraries/jquery.animateNumber.min.js"></script> <!-- Used for Animated Numbers -->
+	<script src="libraries/jquery.appear.js"></script> <!-- It Loads jQuery when element is appears -->
+	<script src="libraries/jquery.knob.js"></script> <!-- Used for Loading Circle -->
+	
+	<script src="libraries/wow.min.js"></script>
+	
+	<script src="/js/owl.carousel.min.js"></script> <!-- Core Owl Carousel CSS File  *	v1.3.3 -->
+	<script src="libraries/video/jquery.mb.YTPlayer.js"></script>
+
+	<script src="libraries/lightbox2/js/lightbox.min.js"></script>
+    
+    <script type="text/javascript" src="/js/classie.js"></script>    
+	
+	<!-- Customized Scripts -->
+	<script src="js/functions.js"></script>
+    <script src="/js/cc-custom.js"></script>
+
+	
+</body>
+</html>
