@@ -1504,6 +1504,17 @@ a { outline: 0 !important; }
 	height: 600px;
 	margin-top: -5px;
 }
+.video-section:after {
+    background: url(../images/subtle_carbon.png) center repeat;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+
+}
 
 /* ## Statistics Section ## */
 
