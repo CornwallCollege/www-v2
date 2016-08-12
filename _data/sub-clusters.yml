@@ -618,7 +618,7 @@
       colour: D70060  
       brand: cc fms dc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus st-austell-campus falmouth-campus stoke-campus
+      campus: camborne-campus newquay-campus st-austell-campus falmouth-campus stoke-campus
       campus-long:
 
         - campus-name: Camborne Campus
@@ -635,6 +635,9 @@
 
         - campus-name: Falmouth Campus
           campus-link: /falmouth-campus.html        
+        
+        - campus-name: Newquay Campus
+          campus-link: /newquay-campus.html          
 
       search-link: sports-fitness
       intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
