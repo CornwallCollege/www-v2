@@ -67,18 +67,19 @@
 
     - title: Residential </br> Accommodation
       location: Bicton
-      detail: We understand that feeling settled within your environment gives you a much better chance of enjoying your course, meeting new friends and more time to study. Our accommodation is situated on the Bicton College campus at East Budleigh, Devon and we are able to offer a total of 231 beds. Layouts include two/three bed shared rooms with a shared shower and toilets, single room with shared bathroom facilities and ensuite room. All blocks have common rooms. We also have rooms and facilities that have been adapted for disabled students.</br></br>Bicton’s dedicated Residential Services Team support students in all areas of accommodation, counselling, careers guidance, enrichment activities, funding and transport. We will endeavour to make your time here a truly great experience, both in and outside the classroom.
+      detail: We understand that feeling settled within your environment gives you a much better chance of enjoying your course, meeting new friends and more time to study. Our accommodation is situated on the Bicton College campus at East Budleigh, Devon and we are able to offer a total of 231 beds. Layouts include two/three bed shared rooms with a shared shower and toilets, single room with shared bathroom facilities and ensuite room. All blocks have common rooms. We also have rooms and facilities that have been adapted for disabled students.</br></br>Bicton’s dedicated Residential Services Team support students in all areas of accommodation, counselling, careers guidance, enrichment activities, funding and transport. We will endeavour to make your time here a truly great experience, both in and outside the classroom. 
       link: /bicton-learning-area/
       image: /bicton/accommodation.jpg 
       image-thumb: /bicton/accommodation-thumb.jpg
       
     - title: Sports & </br> Outdoors
       location: Bicton
-      detail: <strong>Sports & Outdoors for Students</strong></br> Contact - sportsmaker@cornwall.ac.uk</br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.</br><strong>College sporting activities include:</strong></br>Hockey; netball; football; kayaking; outdoor pursuits; horse riding; surfing; climbing; running; pilates; boogie bounce; archery; lacrosse; tennis; High-intensity interval training (HIIT) training; badminton; dodgeball and many more.</br><strong>Sports and Outdoors for staff, students and the Public</strong></br>The facilities at Cornwall College are superb and reflect the specialisms required by the students studying any related courses.</br></br>The sports and fitness facilities are open to the Public, Staff and Students, we offer a wide range of facilities to suit a full range of activities</br>Bicton</br></br>Bicton sports centre has a wide range of facilities including a 3G astro turf, 4 court sports hall, teaching rooms and a fitness suite</br></br>Fitness Suite </br></br>Open to staff and students our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No fixed membership contract; Free ½ hour programme updates; Free gym challenges Personalised training programme  and free nutritional advice</br>Outdoor Adventurous Facilities</br>We also have a full range of outdoor facilities such as a climbing tower; fitness gym and body conditioning gym; low ropes course; five acre lake and cross country running routes. These are available for use for community groups, friends, schools using our qualified instructors or if you want a birthday party with a difference.</br>Mon to Sun - hours open according to bookings</br>Tel - 01209 617732 Email - sportandfitness@cornwall.ac.uk
+      detail: <strong>Sports & Outdoors for Students</strong></br> Contact - sportsmaker@cornwall.ac.uk</br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.</br>
       Tel: 01209 617732
       link: /bicton-learning-area/
       image: /bicton/sports-outdoor.jpg
       image-thumb: /bicton/sports-outdoor-thumb.jpg
+      read-more:  "/facility-pages/bicton-sports"
       
     - title: Bicton </br> Equine
       location: Bicton
@@ -99,6 +100,7 @@
       link: /bicton-learning-area/
       image: /bicton/animal-management.jpg
       image-thumb: /bicton/animal-management-thumb.jpg 
+      
   
   learning-areas:  
     - area-title: Foundation Learning
@@ -216,7 +218,7 @@
       link: /camborne-learning-area/
       image: /camborne/koko-hair-beauty-salon.jpg
       image-thumb: /camborne/koko-hair-beauty-salon-thumb.jpg
-      read-more: /secondary-pages/camborne/koko.html
+      read-more: /facility-pages/koko.html
       
     - title: Restaurants & </br> Cafe
       detail: <strong>Trevenson Restaurant</strong></br>Mon to Fri for lunch, some Wed evenings (term)</br>The award winning Trevenson Restaurant is one of two fine dining commercial restaurants within the Cornwall College Group. Opened by Michelin star chefs Nathan Outlaw and Pierre Koffmann, Trevenson offers a very special dining experience, offering both creative and mouth-watering menus every day. To make a reservation 01209 616160 or via Facebook Trevenson Restaurant</br></br> <strong>Café Metro & Penhaligion Restaurant</strong></br>Cafe Metro Mon to Fri 8.40am - 2pm, Pop up Cafe Tues to Fri 10.30am - 1pm (term)</br> Penhaligon Mon to Fri 8.30am – 2pm (term), Mon to Fri 9.30am – 1.30pm (holidays)</br>Cafe Metro is a large cafeteria it provides breakfast items, snacks, fruit, confectionery, drinks, salad bar and main meals. We aim to please our customers with a mix of traditional and ethnic dishes, including vegetarians options.
@@ -816,8 +818,8 @@
     - title: Flying Start Childcare
       detail: We offer great childcare at Cornwall College, Saltash. If you have young children you may be eligible for financial support towards your childcare costs.</br></br><strong>Nurseries</strong></br></br> Our nursery, provides high quality childcare; enabling you to leave your child or children in good hands while you are in class. </br></br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place. For more information contact 01752 840240
       link: /saltash-learning-area/
-      image: /facilities/camborne/childcare.jpg
-      image-thumb: /facilities/camborne/childcare-thumb.jpg
+      image: /camborne/childcare.jpg
+      image-thumb: /camborne/childcare-thumb.jpg
       
     - title: Sisna Park
       detail: The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills. In addition, there are several classrooms and IT facilities available to support our learners.
