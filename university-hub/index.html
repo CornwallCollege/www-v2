@@ -29,7 +29,7 @@ link: University
             <h6 class="bigtext ">University study with</h6>
 			<h1 class=" serif letterspace" style="font-family: 'Cutive', serif;font-size:3.5em;margin-top:5px;line-height:1.1em; margin-bottom:9px;" >The Cornwall College Group</h1>
 			<h6 class="sub-title bigtext serif italic" style="font-family: 'Cutive', serif;line-height:1.4em;">Be inspired by Cornwall and study a quality degree by the sea. </h6>
-			
+
             <!-- The play button -->
 			<a class="button white play-btn-normal margin-bottom" onclick="jQuery('#video').playYTP()">
 				<i class="fa fa-play-circle-o"></i> Watch The Video
@@ -57,7 +57,7 @@ link: University
 						<b>Email Us</b>
 						<em>Fill in our contact form</em>
 					</a>
-				</li>                                
+				</li>
 			</ul>
 
 
@@ -69,7 +69,7 @@ link: University
 	<div class="video-container">
 		<a id="video" class="fullscreen-video" data-property="{videoURL:'http://youtu.be/-E3LWwNmrhg'}">The Video</a>
 	</div>
-    
+
     <!-- Video controls -->
 	<div class="video-controls">
 		<button onclick="jQuery('#video').pauseYTP()"><i class="fa fa-pause"></i></button>
@@ -115,26 +115,26 @@ link: University
         <div id="main-menu" class="container clearfix">
             <!--<ul class="menu-item-links">
                 {% for menu in site.data.menu %}
-                
+
                         {% if site.data.menu.sub-menu == empty %}
 
                                 <li>
                                     <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
                                 </li>
-             
+
                         {% else %}
-                            
+
                                 <li class="dropdown">
                                     <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
                                     <ul class="submenu-items transition">
                                         {% for sub-menu in menu.sub-menu %}
                                             <li><a href="{% if sub-menu.sub-menu-link contains 'http' %}{{sub-menu.sub-menu-link}}{% else %}{{site.static_url}}/{{sub-menu.sub-menu-link}}{% endif %}">{{sub-menu.sub-menu-name}}</a></li>
                                         {% endfor %}
-                                    </ul>    
+                                    </ul>
                                 </li>
-                            
+
                         {% endif %}
-                
+
                 {% endfor %}
             </ul>-->
         </div>
@@ -185,9 +185,9 @@ link: University
 			<div class="four columns serviceblock">
 				<p><i class="fa fa-graduation-cap huge-service-icon"></i></p>
 				<h4>Courses</h4>
-                
+
 				<p>All programmes are developed with industry, giving you the chance to work on live projects, so you start your career before you graduate.</p>
-                
+
                 <p>The diversity of our curriculum means you could study surf science on a beach, zoology at Newquay Zoo, or marine science in Falmouth. We are also introducing new three-year honours degree programmes every year.</p>
 				<p><a href="#faculty-areas" class="smoothscroll button color">View our courses</a></p>
 			</div>
@@ -197,7 +197,7 @@ link: University
 			<div class="four columns serviceblock">
 				<p><i class="fa fa-money huge-service-icon"></i></p>
 				<h4>Money</h4>
-                
+
                 <p>If you are planning to join us in 2015 and live in the EU you will be glad to know that our fees are set from &pound;7,500 per year. A range of scholarships and bursaries are available.</p>
 				<p><a href="/university-hub/money.html" class="button color">Find out more</a></p>
 			</div>
@@ -212,7 +212,7 @@ link: University
 			<div class="header-center">
 				<div class="centerdiv">
 					<h5 class="bigtext serif italic text-color" style="margin-top:40px;">The largest selection of University level courses in Cornwall</h5>
-					<p><a href="#faculty-areas" class="button outline white smoothscroll">See whats available</a></p>
+					<p><a href="#faculty-areas" class="button outline smoothscroll">See whats available</a></p>
 				</div>
 			</div>
 		</div>
@@ -226,14 +226,3 @@ link: University
 {% include university/he-prospectus.html %}
 
 {% include university/he-contact-form.html %}
-
-
-
-
-
-
-
-
-
-
-
