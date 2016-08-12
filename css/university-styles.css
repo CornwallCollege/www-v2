@@ -998,7 +998,7 @@ p.serif,
 	font-weight: 400;
 }
 h6.sub-title {
-    text-transform:lowercase;
+    text-transform:none;
     font-weight: normal;
     letter-spacing: 4px;
     font-size: 1.3em;

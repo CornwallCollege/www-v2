@@ -5,25 +5,21 @@
   link: /bicton-campus.html
   contact-number: 01395 562400  
   images: 
-    - link: /images/locations/Bictonbicton-campus-LG.jpg
+    - link: /images/locations/Bicton/bicton-campus-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus.jpg
-      alt: an image
-      title: image 1
+
       
     - link: /images/locations/Bicton/bicton-campus-33-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus-33.jpg
-      alt: an image
-      title: image 2
+
       
     - link: /images/locations/Bicton/billy-nankivell-agriculture-LG.jpg
       thumb: /images/locations/Bicton/billy-nankivell-agriculture.jpg
-      alt: an image
-      title: image 3
+
       
     - link: /images/locations/Bicton/joe-wroe-equine-LG.jpg
       thumb: /images/locations/Bicton/joe-wroe-equine.jpg
-      alt: an image
-      title: image 4
+
   query: https://network.cornwall.ac.uk/campus/bicton/
 
 
@@ -288,7 +284,7 @@
   query: https://network.cornwall.ac.uk/campus/stoke/
   
   
-- campus: Engineering Skills Centre, Plymouth
+- campus: Plymouth Engineering
   anchor: "sisna-park"
   brand: Cornwall College
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
