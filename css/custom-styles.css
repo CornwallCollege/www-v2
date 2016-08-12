@@ -894,7 +894,11 @@ footer a.btn{
     div#logo-wrap .active:nth-child(4){
        top:325px;
 
-    }
+    }  
+    
+}
+div#logo-wrap #bicton{
+    background: none;
 }
 /*============== on scroll STYLES ===============*/
 
@@ -4094,30 +4098,30 @@ ul#og-grid li h4{
     margin-bottom:20px;
 }
 /* Bicton Campus */
-#bicton-campus{
+#bicton{
     background: #77BC43;
 }
-#bicton-campus h2 strong,
-#bicton-campus h5 span{
+#bicton h2 strong,
+#bicton h5 span{
     color: white;
 }
-#bicton-campus .campus-seach{
+#bicton .campus-seach{
     background: white;
 }
-#bicton-campus .campus-seach h4{
+#bicton .campus-seach h4{
     color: #77BC43;
 }
-#bicton-campus .form-control{
+#bicton .form-control{
     border: solid 2px #77BC43;
 }
-#bicton-campus .campus-link{
+#bicton .campus-link{
     background: white;
     color:#77BC43
 }
-#bicton-campus .campus-seach-button{
+#bicton .campus-seach-button{
     background: #77BC43;
 }
-#bicton-campus .campus-seach-button i{
+#bicton .campus-seach-button i{
     color: white
 }
 /* camborne, newquay, saltash, st austell */
@@ -4127,30 +4131,30 @@ ul#og-grid li h4{
 #st-austell{
     background: #004b93;
 }
-#dbs{
+#dbs-bristol{
    background: #AB1D88;
 }
-#dbs h2 strong,
-#dbs h5 span{
+#dbs-bristol h2 strong,
+#dbs-bristol h5 span{
     color: white;
 }
-#dbs .campus-seach{
+#dbs-bristol .campus-seach{
     background: white;
 }
-#dbs .campus-seach h4{
+#dbs-bristol .campus-seach h4{
     color: #AB1D88;
 }
-#dbs .form-control{
+#dbs-bristol .form-control{
     border: solid 2px #AB1D88;
 }
-#dbs .campus-link{
+#dbs-bristol .campus-link{
     background: white;
     color:#AB1D88
 }
-#dbs .campus-seach-button{
+#dbs-bristol .campus-seach-button{
     background: #AB1D88;
 }
-#dbs .campus-seach-button i{
+#dbs-bristol .campus-seach-button i{
     color: white
 }
 
@@ -4755,4 +4759,54 @@ button.collapsed h3:before{
 
 .social-icons i{
     width: 13px;
+}
+/* Useful Links Sidebar*/
+.useful-links{
+    background: #f7f7f7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px 25px;
+    z-index: 1;    
+}
+.useful-links h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+}
+.useful-links a{
+    display: inline-block;
+    margin: 1px 0;
+    background-color: #52b3d9;
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    border: solid 1px #52b3d9;
+}
+.full-width-video-block{
+    padding:0;
+}
+.full-width-video-block .caption{
+    margin: 30px 0;
+    border-right: solid 1px #ccc;
+}
+.full-width-video-block article:last-child .caption{
+    border-right:none;
+}
+.full-width-video-block .caption h4{
+    text-transform: uppercase;
+}
+.full-width-video-block .BetterTube{
+        margin-bottom: 0;
+}
+.browse-by {
+    
+}
+.browse-by .divider{
+    font-size:3em;   
+}
+.browse-by h4{
+    color:white;
 }
