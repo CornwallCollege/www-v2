@@ -1074,10 +1074,10 @@
 		padding: 70px 0 82px 0;
 	}
 	.how-we-work {
-		overflow: hidden;
+		/*overflow: hidden;*/
 	}
 	.research-slope {
-		background-image: url("../images/how-we-work/research-bg-tablet.jpg");
+		background-image: url("/16-18-hub/images/general-a-level-tablet.jpg");
 		transform: rotate(0deg);
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
@@ -1090,7 +1090,7 @@
 		width: 100%; 
 		height: 100%; 
 		border-top: 0px solid rgba(101,177,214,0.9); 
-		border-bottom: 340px solid rgba(101,177,214,0.9); 
+		border-bottom: 490px solid rgba(101,177,214,0.9); 
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		top: auto;
@@ -1124,10 +1124,10 @@
 	}
 	.shape-content p {
 		font-size: 15px;
-		line-height: 25px;
+		line-height: 1.4em;
 	}
 	.we-perfection-slope {
-		background-image: url("../images/how-we-work/we-perfection-tablet.jpg");
+		background-image: url("/16-18-hub/images/genral-apprenticeship-tablet.jpg");
 		margin-right: 0;
 		margin-top: -90px;
 		transform: rotate(3deg);
@@ -1147,7 +1147,7 @@
 		width: 100%; 
 		height: 100%; 
 		border-top: 0px solid rgba(101,177,214,0.9); 
-		border-bottom: 340px solid rgba(101,177,214,0.9); 
+		border-bottom: 385px solid rgba(101,177,214,0.9); 
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1161,7 +1161,7 @@
 	}
 	.clean-code {
 		background-color: transparent;
-		background-image: url("../images/how-we-work/clean-code-tablet.png");
+		background-image: url("/16-18-hub/images/genral-partners-tablet.jpg");
 		height: 630px;
 		margin-top: -25px;
 		transform: rotate(-4deg);
@@ -1180,7 +1180,7 @@
 		width: 100%; 
 		height: 100%; 
 		border-top: 0px solid rgba(101,177,214,0.9); 
-		border-bottom: 340px solid rgba(101,177,214,0.9); 
+		border-bottom: 430px solid rgba(101,177,214,0.9); 
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1193,7 +1193,7 @@
 	}
 	.we-launch-slope {
 		background-color: transparent;
-		background-image: url("../images/how-we-work/we-launch-project-tablet.png");
+		background-image: url("/16-18-hub/images/genral-watersports-tablet.jpg");
 		transform: rotate(4deg);
 		-webkit-transform: rotate(4deg);
 		-moz-transform: rotate(4deg);
@@ -1469,7 +1469,7 @@
 		padding: 70px 0 82px 0;
 	}
 	.research-slope {
-		background-image: url("../images/how-we-work/research-bg-mobile.jpg");
+		background-image: url("/16-18-hub/images/general-a-level-mobile.jpg");
 		position: relative;
 	}
 		
@@ -1477,7 +1477,7 @@
 		width: 100%; 
 		height: 100%; 
 		border-top: 0px solid rgba(101,177,214,0.9); 
-		border-bottom: 440px solid rgba(101,177,214,0.9); 
+		border-bottom: 600px solid rgba(101,177,214,0.9); 
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1530,7 +1530,7 @@
 		line-height: 25px;
 	}
 	.we-perfection-slope {
-		background-image: url("../images/how-we-work/we-perfection-mobile.jpg");
+		background-image: url("/16-18-hub/images/genral-apprenticeship-mobile.jpg");
 	}	
 	.we-perfection-slope:before {
 		width: 100%; 
@@ -1550,7 +1550,7 @@
 	}
 	.clean-code {
 		background-color: transparent;
-		background-image: url("../images/how-we-work/clean-code-mobile.png");
+		background-image: url("/16-18-hub/images/genral-partners-mobile.jpg");
 		height: 622px;
 		margin-top: -50px;
 		
@@ -1565,7 +1565,7 @@
 		width: 100%; 
 		height: 100%; 
 		border-top: 0px solid rgba(101,177,214,0.9); 
-		border-bottom: 350px solid rgba(101,177,214,0.9); 
+		border-bottom: 425px solid rgba(101,177,214,0.9); 
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1582,7 +1582,7 @@
 	}
 	.we-launch-slope {
 		background-color: transparent;
-		background-image: url("../images/how-we-work/we-launch-project-mobile.png");
+		background-image: url("/16-18-hub/images/genral-watersports-mobile.jpg");
 		transform: rotate(5deg);
 		-webkit-transform: rotate(5deg);
 		-moz-transform: rotate(5deg);

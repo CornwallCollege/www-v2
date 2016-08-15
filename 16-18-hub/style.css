@@ -719,7 +719,15 @@ a { outline: 0 !important; }
 	top: 35%;
 	left: 100px;
 }
-
+.how-we-work .clean-code ul li{
+    display: block;
+    text-align: left;
+    margin-left:15px;
+    
+}
+.how-we-work .clean-code ul li:before{
+    border: none;
+}
 .how-we-work ul li:last-child:before {
 	display: none;
 }
@@ -886,7 +894,7 @@ a { outline: 0 !important; }
 	-ms-transform: rotate(5deg);
 	transform: rotate(5deg);
 	height: 803px;
-	background-image: url("images/how-we-work/we-perfection.jpg");
+	background-image: url("/16-18-hub/images/genral-apprenticeship.jpg");
 	/*background-size: 100% 100%;*/
 	background-size: cover;  
 	background-repeat: no-repeat;
@@ -944,7 +952,7 @@ a { outline: 0 !important; }
 	margin-left: -50px;
 	margin-right: -50px;
 	height: 950px;	
-	background-image: url("images/how-we-work/car.jpg");
+	background-image: url("/16-18-hub/images/genral-students-union.jpg");
 	/*background-size: 100% 100%;*/
 	background-size: cover;  
 	background-repeat: no-repeat;
@@ -969,7 +977,7 @@ a { outline: 0 !important; }
 	transform: rotate(-1deg);
 	margin-top: -150px;
 	height: 803px;
-	background-image: url("images/how-we-work/clean-code.png");
+	background-image: url("/16-18-hub/images/genral-partners.jpg");
 	/*background-size: 100% 100%;*/
 	background-size: cover;  
 	background-repeat: no-repeat;
@@ -1024,7 +1032,7 @@ a { outline: 0 !important; }
 	transform: rotate(0deg);
 	height: 800px;
 	background-color: transparent;
-	background-image: url("images/how-we-work/we-launch-project.png");
+	background-image: url("/16-18-hub/images/genral-watersports.png");
 	/*background-size: 100% 100%;*/
 	background-size: cover;  
 	background-repeat: no-repeat;
