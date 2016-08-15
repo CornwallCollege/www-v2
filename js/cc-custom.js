@@ -811,21 +811,22 @@ $(function(){
 });
 */
 // Custom Google map settings
+if ( window.location.pathname === '/' ){
+    // Select or die dropdown 
+    $("select").selectOrDie({
+        // Option below is not needed
+        placeholderOption: true,
+        onChange: function () {
+            if ($(this).val() === 'course-search') {
+                $('.' + $(this).val()).hide();
+                $('.' + $(this).val()).fadeIn("slow");
 
-// Select or die dropdown 
-$("select").selectOrDie({
-    // Option below is not needed
-    placeholderOption: true,
-    onChange: function () {
-        if ($(this).val() === 'course-search') {
-            $('.' + $(this).val()).hide();
-            $('.' + $(this).val()).fadeIn("slow");
-
-        } else {
-            window.location.href = $(this).val();
+            } else {
+                window.location.href = $(this).val();
+            }
         }
-    }
-});
+    });
+}
 
 // resposive logo; first click open second click follow link
 $('.brand-image').click(function (e) {
@@ -990,159 +991,161 @@ $(document).ready(function () {
     }
 });
 /*------------------- Download  filer ISOTOPE ----------------------*/
-// init Isotope
-var $grid = $('#download-list').isotope({
-  itemSelector: '.download',
-  layoutMode: 'masonry'
-});
+if (location.pathname.indexOf("about-pages") !== -1) {
+    // init Isotope
+    var $grid = $('#download-list').isotope({
+      itemSelector: '.download',
+      layoutMode: 'masonry'
+    });
 
-// filter items on button click
-$('.filter-button-group').on( 'click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});
+    // filter items on button click
+    $('.filter-button-group').on( 'click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+    });
+}
 /*------------------- learning area filer ISOTOPE ----------------------*/
+if (location.pathname.indexOf("learning-area-hub") !== -1) {
+    $(document).ready(function () {
 
-$(document).ready(function () {
+        //createItems();
 
-    //createItems();
-
-    var $container = $('#career-content').isotope({
-        itemSelector: '.area',
-        //resizable: false
-    });
-
-    //   var $container = $('#download-content').isotope({
-    //     itemSelector: '.download',
-    //     //resizable: false
-    //   });
-
-    var $sector = $('#sector-page-content').isotope({
-        itemSelector: '.area',
-        //resizable: false
-    });
-    // read more link on Learning area page     
-    $container.on('click', '.show-more', function () {
-        // change size of item by toggling big class
-        $(this).parent().toggleClass('big');
-        //hide the readmore link  
-        $(this).children(".readmore").toggle();
-        //re-build the layout  
-        $container.isotope('layout');
-    });
-    // read more link on sector page    
-    $sector.on('click', '.show-more', function () {
-        $(this).parent().toggleClass('big');
-        $(this).children(".readmore").toggle();
-        $sector.isotope('layout');
-    });
-
-    // filter items on button click Sector hub page
-    $('.link-wrap').on('click', 'button', function () {
-        var filterValue = $(this).attr('data-filter');
-
-        $sector.isotope({ filter: filterValue });
-        $sector.show();
-        //if 16-18 show the 'how you learn' filters 
-        $sector.isotope('layout');
-        $('html, body').animate({
-            scrollTop: $('#sector-page-content').offset().top - 150
-        }, 1000);
-
-    });
-
-    var $output = $('#output');
-
-    // filter with selects and checkboxes
-    var $checkboxes = $('#form-ui input');
-    //declare the courseType var for use later    
-    var courseType;
-    var campusFilter;
-    var brandFilter;
-
-    $('#form-ui label.btn').click(function ($event) {
-        // Deselect all other options
-        var $clickedButton = $($event.target);
-
-        $clickedButton.siblings('.active').click();
-    });
-
-    $checkboxes.change(function () {
-        // map input values to an array   
-        //var exclusives = [];
-        var inclusives = [];
-        //get and set course type data value
-        courseType = $(this).attr("data-course-type") || courseType;
-        //get and set campus data value
-        campusFilter = $(this).attr("data-campus") || campusFilter;
-        //get and set brand data value  
-        brandFilter = $(this).attr("data-brand") || brandFilter;
-        // inclusive filters from checkboxes
-
-        $checkboxes.each(function (i, elem) {
-            // if checkbox, use value if checked
-            if (elem.checked) {
-                inclusives.push(elem.value);
-                $sector.show();
-                $sector.isotope('layout');
-            }
+        var $container = $('#career-content').isotope({
+            itemSelector: '.area',
+            //resizable: false
         });
 
-        // combine inclusive filters
-        var filterValue = inclusives.length ? inclusives.join('') : '*';
+        //   var $container = $('#download-content').isotope({
+        //     itemSelector: '.download',
+        //     //resizable: false
+        //   });
 
-        $output.text(filterValue);
-        $container.isotope({
-            filter: filterValue,
-            queue: false,
-            resizable: false
-        })
-    });
-
-    // set the course area on click    
-    $('.course-area').click(function () {
-        //event.preventDefault();
-        if (typeof courseType !== "undefined") {
-            $(this).attr('href', function () {
-                return this.href + '/course_type/' + courseType;
-            });
-        }
-        if (typeof campusFilter !== "undefined") {
-            $(this).attr('href', function () {
-                return this.href + '/campus/' + campusFilter;
-            });
-        }
-        if (typeof brandFilter !== "undefined") {
-            $(this).attr('href', function () {
-                return this.href + '/brand/' + brandFilter;
-            });
-        }
-
-    });
-    $('.campus').click(function () {
-        //event.preventDefault();
-
-    });
-
-    // Preset options 
-    var brand_cookie = Cookies.get('brand');
-    if (brand_cookie == '#duchy') {
-        $('.area-filter > input[value=".dc"]').parent().click();
-    } else if (brand_cookie == '#falmouth') {
-        $('.area-filter > input[value=".fms"]').parent().click();
-    } else if (brand_cookie == '#bicton') {
-        $('.area-filter > input[value=".bic"]').parent().click();
-    }
-
-    /*
-        $container.delegate( '.show-more', 'click', function(){
-            //$(this).toggleClass('large');
+        var $sector = $('#sector-page-content').isotope({
+            itemSelector: '.area',
+            //resizable: false
+        });
+        // read more link on Learning area page     
+        $container.on('click', '.show-more', function () {
+            // change size of item by toggling big class
+            $(this).parent().toggleClass('big');
+            //hide the readmore link  
+            $(this).children(".readmore").toggle();
+            //re-build the layout  
             $container.isotope('layout');
         });
-    
-    */
-});
+        // read more link on sector page    
+        $sector.on('click', '.show-more', function () {
+            $(this).parent().toggleClass('big');
+            $(this).children(".readmore").toggle();
+            $sector.isotope('layout');
+        });
 
+        // filter items on button click Sector hub page
+        $('.link-wrap').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+
+            $sector.isotope({ filter: filterValue });
+            $sector.show();
+            //if 16-18 show the 'how you learn' filters 
+            $sector.isotope('layout');
+            $('html, body').animate({
+                scrollTop: $('#sector-page-content').offset().top - 150
+            }, 1000);
+
+        });
+
+        var $output = $('#output');
+
+        // filter with selects and checkboxes
+        var $checkboxes = $('#form-ui input');
+        //declare the courseType var for use later    
+        var courseType;
+        var campusFilter;
+        var brandFilter;
+
+        $('#form-ui label.btn').click(function ($event) {
+            // Deselect all other options
+            var $clickedButton = $($event.target);
+
+            $clickedButton.siblings('.active').click();
+        });
+
+        $checkboxes.change(function () {
+            // map input values to an array   
+            //var exclusives = [];
+            var inclusives = [];
+            //get and set course type data value
+            courseType = $(this).attr("data-course-type") || courseType;
+            //get and set campus data value
+            campusFilter = $(this).attr("data-campus") || campusFilter;
+            //get and set brand data value  
+            brandFilter = $(this).attr("data-brand") || brandFilter;
+            // inclusive filters from checkboxes
+
+            $checkboxes.each(function (i, elem) {
+                // if checkbox, use value if checked
+                if (elem.checked) {
+                    inclusives.push(elem.value);
+                    $sector.show();
+                    $sector.isotope('layout');
+                }
+            });
+
+            // combine inclusive filters
+            var filterValue = inclusives.length ? inclusives.join('') : '*';
+
+            $output.text(filterValue);
+            $container.isotope({
+                filter: filterValue,
+                queue: false,
+                resizable: false
+            })
+        });
+
+        // set the course area on click    
+        $('.course-area').click(function () {
+            //event.preventDefault();
+            if (typeof courseType !== "undefined") {
+                $(this).attr('href', function () {
+                    return this.href + '/course_type/' + courseType;
+                });
+            }
+            if (typeof campusFilter !== "undefined") {
+                $(this).attr('href', function () {
+                    return this.href + '/campus/' + campusFilter;
+                });
+            }
+            if (typeof brandFilter !== "undefined") {
+                $(this).attr('href', function () {
+                    return this.href + '/brand/' + brandFilter;
+                });
+            }
+
+        });
+        $('.campus').click(function () {
+            //event.preventDefault();
+
+        });
+
+        // Preset options 
+        var brand_cookie = Cookies.get('brand');
+        if (brand_cookie == '#duchy') {
+            $('.area-filter > input[value=".dc"]').parent().click();
+        } else if (brand_cookie == '#falmouth') {
+            $('.area-filter > input[value=".fms"]').parent().click();
+        } else if (brand_cookie == '#bicton') {
+            $('.area-filter > input[value=".bic"]').parent().click();
+        }
+
+        /*
+            $container.delegate( '.show-more', 'click', function(){
+                //$(this).toggleClass('large');
+                $container.isotope('layout');
+            });
+
+        */
+    });
+}
 $(document).ready(function () {
     $( ".tile1" ).click(function() {
         $( ".content1" ).slideToggle( "slow", "swing");

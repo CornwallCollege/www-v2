@@ -32,7 +32,10 @@
 	//-- Light Box
 	//-- Blog Page
 */
-
+.lead{
+    font-size: 1.7em!important;
+    line-height: 1.5em;
+}
 body { font-size: 14px; font-family: 'Raleway', sans-serif; }
 /**/
 [class*="-section"] { overflow: hidden; }
@@ -768,8 +771,9 @@ a { outline: 0 !important; }
 	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
-	background-image: url("images/how-we-work/research-bg.jpg");
-	background-size: 100% 100%;
+	background-image: url("images/general-a-level.jpg");
+	/*background-size: 100% 100%;*/
+	background-size: cover;   
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -832,7 +836,7 @@ a { outline: 0 !important; }
 	position: absolute;	
 	left: auto;
 	right: 192px;
-	top: 30%;
+	top: 15%;
 	-webkit-transform: skewX(-10deg);
 	-moz-transform: skewX(-10deg);
 	-o-transform: skewX(-10deg);
@@ -883,7 +887,8 @@ a { outline: 0 !important; }
 	transform: rotate(5deg);
 	height: 803px;
 	background-image: url("images/how-we-work/we-perfection.jpg");
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
+	background-size: cover;  
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: relative;
@@ -940,7 +945,8 @@ a { outline: 0 !important; }
 	margin-right: -50px;
 	height: 950px;	
 	background-image: url("images/how-we-work/car.jpg");
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
+	background-size: cover;  
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: relative;
@@ -964,7 +970,8 @@ a { outline: 0 !important; }
 	margin-top: -150px;
 	height: 803px;
 	background-image: url("images/how-we-work/clean-code.png");
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
+	background-size: cover;  
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -1018,7 +1025,8 @@ a { outline: 0 !important; }
 	height: 800px;
 	background-color: transparent;
 	background-image: url("images/how-we-work/we-launch-project.png");
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
+	background-size: cover;  
 	background-repeat: no-repeat;
 	background-position: center top;
 }
