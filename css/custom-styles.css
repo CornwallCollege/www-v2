@@ -3230,24 +3230,77 @@ APPLY BARS =====================================================================
 }
 
 
-.public-filter ul li a.pirans {
-    border: 5px solid #292929;
+.public-filter ul li a.CDP {
+    border: 5px solid #37aae3;
     color:  white;
-    background-color: #292929;
+    background-color: #37aae3;
 }
 
-.public-filter ul li a.pirans:hover {
-    border: 5px solid #292929;
-    color: #292929;
+.public-filter ul li a.CDP:hover {
+    border: 5px solid #37aae3;
+    color: #37aae3;
     background-color: white;
 }
 
-.public-filter li a.selected.pirans {
-    border: 5px solid #292929;
-    color: #292929;
+.public-filter li a.selected.CDP {
+    border: 5px solid #37aae3;
+    color: #37aae3;
     background-color: white;
 }
 
+.public-filter ul li a.equine1 {
+    border: 5px solid #007B4C;
+    color:  white;
+    background-color: #007B4C;
+}
+
+.public-filter ul li a.equine1:hover {
+    border: 5px solid #007B4C;
+    color: #007B4C;
+    background-color: white;
+}
+
+.public-filter li a.selected.equine1 {
+    border: 5px solid #007B4C;
+    color: #007B4C;
+    background-color: white;
+}
+
+.public-filter ul li a.dog-grooming {
+    border: 5px solid #77BC43;
+    color:  white;
+    background-color: #77BC43;
+}
+
+.public-filter ul li a.dog-grooming:hover {
+    border: 5px solid #77BC43;
+    color: #77BC43;
+    background-color: white;
+}
+
+.public-filter li a.selected.dog-grooming {
+    border: 5px solid #77BC43;
+    color: #77BC43;
+    background-color: white;
+}
+
+.public-filter ul li a.nursery {
+    border: 5px solid #0a7316;
+    color:  white;
+    background-color: #0a7316;
+}
+
+.public-filter ul li a.nursery:hover {
+    border: 5px solid #0a7316;
+    color: #0a7316;
+    background-color: white;
+}
+
+.public-filter li a.selected.nursery {
+    border: 5px solid #0a7316;
+    color: #0a7316;
+    background-color: white;
+}
 
 #public {
     background-size: -webkit-cover;

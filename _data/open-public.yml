@@ -2,7 +2,7 @@
   color: 0624a2
   class: cluster-hover col-xs-12 col-sm-3 col-lg-3
   short: flying
-  image:
+  image: /images/public/childcare.jpg
   title: If you have young children we can provide you with support so that you can achieve your qualifications and career goals.
   text: You will be eligible for financial support towards your childcare costs if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan).</br></br>To apply, please download and complete the two forms at the bottom of this page.</br></br><strong>Under 20?</strong></br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.</br>Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning. </br></br>Letting someone else look after you child can be a big step! </br>Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places </br>• Childminder</br>• Pre-school playgroup</br>• Day nursery</br>• Out of school club</br>• Other registered childcare</br>Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care.</br>Find more information here.  www.gov.uk/care-to-learn</br>Or call Directgov’s Learner Support helpline on 0800 121 8989.</br></br>Childcare Application Form download</br>FE Bursary Application Form download
   campus:
@@ -74,7 +74,7 @@
             Sat & Sun open on request</br>
             Tel 01209 617732</br>
             Email sportandfitness@cornwall.ac.uk</br>
-      download: ""        
+      download: "/documents/Bicton Download 1- Sports Fees and Charges 1617.pdf"        
             
   table:
    # - icon: fa fa-clock-o
@@ -82,7 +82,8 @@
     
    # - icon: fa fa-envelope-o
     #  detail: <a href="mailto:sportandfitness@cornwall.ac.uk" target="_top">E-mail Me</a>
-     - icon: fa fa-facebook-o
+    
+     - icon: fa fa-facebook
        detail: <a href="https://www.facebook.com/search/str/Evolve%2BSport%2B%2526%2BFitness/keywords_places/"> Facebook
 
 - business: Koko hair beauty and holistic therapies
@@ -157,7 +158,7 @@
   short: trevenson
   image: /images/public/trevenson.jpg
   title: The award winning Trevenson Restaurant is located at Cornwall College’s Camborne campus and is one of two fine dining            commercial restaurants within the Cornwall College Group.
-  text: Mon to Fri for lunch, some Wed evenings (term) The award winning Trevenson Restaurant is one of two fine dining commercial restaurants within the Cornwall College Group. Opened by Michelin star chefs Nathan Outlaw and Pierre Koffmann, Trevenson offers a very special dining experience, offering both creative and mouth-watering menus every day. </br>Recent winners of a prestigious Highly Commended AA College Rosette, the ethos to Trevenson is simple; continually driven by sustainable seasonality, using locally sourced ingredients, we ensure ever changing gastronomic dishes, freshly prepared in our state-of-the-art kitchens & delivered by an attentive and enthusiastic team. The Hospitality & Catering Department also holds 3 Centre’s of Excellence including Fish & Shellfish, Food & Beverage Service and Patisserie & Confectionary as well as the coveted title by People 1st of Gold Accreditation, this makes us one of the best catering college in the UK, evident by the standard of food on our menus and the attention to detail in our service. </br></br>Trevenson Restaurant not only serve traditional classic dishes, they also serve new and exciting dishes to cater for all tastes which are devised by our professional staff and experienced students. </br></br>The stylish interior is akin to any fine dining establishment, offering a relaxing atmosphere for informal lunch, as well as a contemporary ambience for evening fine diners. </br></br>Trevenson has also been awarded the Gold Cornwall Healthier Eating and Food Safety (CHEFS) Award two years running, making it only one of five restaurants in the county to receive the accolade, something we are all truly proud of. </br></br>To dine at Trevenson is a wonderful experience and as well as our a la carte menu, we also offer tasting menus and special themed evenings, where we invite local established chefs to devise, prepare and host selected events, all supported by our staff and students. To find out about our next themed evening, simply contact the reservations number below. </br></br>Trevenson is fully licensed and offers a comprehensive selection of wines and beers, carefully chosen to accompany each dish on the menu.
+  text: Mon to Fri for lunch, some Wed evenings (term) The award winning Trevenson Restaurant is one of two fine dining commercial restaurants within the Cornwall College Group. Opened by Michelin star chefs Nathan Outlaw and Pierre Koffmann, Trevenson offers a very special dining experience, offering both creative and mouth-watering menus every day. </br>Recent winners of a prestigious Highly Commended AA College Rosette, the ethos to Trevenson is simple; continually driven by sustainable seasonality, using locally sourced ingredients, we ensure ever changing gastronomic dishes, freshly prepared in our state-of-the-art kitchens & delivered by an attentive and enthusiastic team. The Hospitality & Catering Department also holds 3 Centre’s of Excellence including Fish & Shellfish, Food & Beverage Service and Patisserie & Confectionary as well as the coveted title by People 1st of Gold Accreditation, this makes us one of the best catering college in the UK, evident by the standard of food on our menus and the attention to detail in our service. </br></br>Trevenson Restaurant not only serve traditional classic dishes, they also serve new and exciting dishes to cater for all tastes which are devised by our professional staff and experienced students. </br></br>The stylish interior is akin to any fine dining establishment, offering a relaxing atmosphere for informal lunch, as well as a contemporary ambience for evening fine diners. </br></br>Trevenson has also been awarded the Gold Cornwall Healthier Eating and Food Safety (CHEFS) Award two years running, making it only one of five restaurants in the county to receive the accolade, something we are all truly proud of. </br></br>To dine at Trevenson is a wonderful experience and as well as our a la carte menu, we also offer tasting menus and special themed evenings, where we invite local established chefs to devise, prepare and host selected events, all supported by our staff and students. To find out about our next themed evening, simply contact the reservations number below. </br></br>Trevenson is fully licensed and offers a comprehensive selection of wines and beers, carefully chosen to accompany each dish on the menu. </br></br> <a href="/documents/other/Trevenson MENU 1.docx">Trevenson Menu</br></a><a href="/documents/other/Trevenson MENU 2.docx">Trevenson 2nd Menu</a></br> <a href="/documents/other/Trevenson CHRISTMAS MENU.docx">Trevenson Christmas Menu</a>
   table:
     - icon: fa fa-clock-o
       detail: "Mon to Fri for lunch "
@@ -179,15 +180,15 @@
   alt: Cloisters Restaurant Image
   title: Cloisters Restaurant is located at Cornwall College’s St Austell campus and is one        of two fine dining commercial restaurants within the Cornwall College Group.<br>
          Here students host and serve as well as create some mouth-watering menus every day for the general public.<br>
-  text: <p>Offering excellent food at greatly reduced rates, with some experimental menus         from our students as well as the traditional classics you would expect from a five         star restaurant.</p>
+  text: <p>We are open for lunch, Monday - Friday, with evening meals and a choice menu available on certain dates.</p><p>Offering excellent food at greatly reduced rates, with some experimental menus         from our students as well as the traditional classics you would expect from a five         star restaurant.</p>
         <p>Cloisters Restaurant uses fine locally sourced produce and is also fully licensed, offering a comprehensive selection of wines chosen to accompany each dish on the menu. In addition to regular fine dining lunchtime sessions during term time, Cloisters Restaurant also offers a series of fine dining evenings, devised, prepared and hosted by the students themselves throughout the year.The restaurant is also available for large group bookings.</p>
-        <p>We are open for lunch, Monday - Friday, with evening meals and a choice menu available on certain dates.</p>
+        
   table:
     - icon: fa fa-clock-o
-      detail: "12:00 - 13:00"
+      detail: "Mon to Fri for lunch"
     
-    - icon: fa fa-envelope-o
-      detail: "jonny@john.jo.hn"
+    #- icon: fa fa-envelope-o
+    #  detail: "jonny@john.jo.hn"
       
     - icon: fa fa-phone
       detail: 01726 226740
@@ -197,9 +198,9 @@
   color: 203d7c
   class: cluster-hover col-xs-12 col-sm-3 col-lg-3
   short: room
-  image:
-  title:
-  text: <p>The Cornwall College Group offers venue hire at its college locations incorporating the very latest technology, facilities and resources. Each location has something different to offer from conferences to room hire, weddings to festivals.</br><br>Whether you have 2 or 200 delegates, we will work with you to deliver a tailor-made conference or events package to suit your budget and requirements. We offer</br>•A range of onsite leisure and outdoor activities mean that every event – from large and corporate to small and intimate - can be catered for. </br> •Our experienced and friendly staff will work alongside your event manager to ensure that your occasion runs smoothly and to a high standard throughout.</br> •A range of stylish and functional rooms of all sizes, ideal for conferences, events, workshops, seminars, private functions and parties.</br> •Computer suites and Interactive whiteboards Main hall with seating for 200. </br>  •Onsite accommodation. (outside of term time - (Bicton and Stoke Climsland only)  </br>•Catering to suit your requirements. – from working lunches to barbecues, all dietary needs catered for. </br> •A range of outdoor pursuits to cater for your team-building events. (Bicton and Stoke Climsland only)</br> •Team Building with our Outdoor Adventure Instructors.
+  image: /images/public/venue-hire.jpg
+  title: The Cornwall College Group offers venue hire at its college locations incorporating the very latest technology, facilities and resources. Each location has something different to offer from conferences to room hire, weddings to festivals
+  text: Whether you have 2 or 200 delegates, we will work with you to deliver a tailor-made conference or events package to suit your budget and requirements. We offer</br>•A range of onsite leisure and outdoor activities mean that every event – from large and corporate to small and intimate - can be catered for. </br> •Our experienced and friendly staff will work alongside your event manager to ensure that your occasion runs smoothly and to a high standard throughout.</br> •A range of stylish and functional rooms of all sizes, ideal for conferences, events, workshops, seminars, private functions and parties.</br> •Computer suites and Interactive whiteboards Main hall with seating for 200. </br>  •Onsite accommodation. (outside of term time - (Bicton and Stoke Climsland only)  </br>•Catering to suit your requirements. – from working lunches to barbecues, all dietary needs catered for. </br> •A range of outdoor pursuits to cater for your team-building events. (Bicton and Stoke Climsland only)</br> •Team Building with our Outdoor Adventure Instructors.
   table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
@@ -214,55 +215,68 @@
       text: Enquiry Form
             
             
-- business: College design and Print
-  color: 29292a
+- business: College Design and Print
+  color: 37aae3
   class: cluster-hover col-xs-12 col-sm-3 col-lg-2
-  short: pirans
-  image:
+  short: CDP
+  image: /images/college-print.png
   title:
-  text: <p>Pirans College Shop is a cheerful, well-stocked shop located in Campus Central and offers everything from wrapping paper to newspapers, student supplies to novelty gifts.</p>
-        The shop also offers a lot of opportunity for students to complete work experience including
-        <ul>
-        <li>Students from the Faculty for Continuing & Community Education. Students come to the shop to do work experience, they learn to serve customers, price items, stock take, order stock and the basic running of a shop</li>
-        <li>Students from different faculties often produce items and ask if they can be sold in the shop</li>
-        <li>Students from Business/Enterprise & IT come to the shop to complete parts of their business course criteria</li>
-        </ul>
-        The shop sells stationery, art equipment, chilled foods and drinks, “old fashion – loose sweets”, gifts and jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers and college hoodies.
-        Card payments can be taken (minimum £5 limit)<br>
-        Pirans shop is next to main reception in Campus Central, Trelawney Building.<br>
-        If you cant find the item you require Deb will source where you can get it.<br>
+  text: On the Camborne campus we have a fully operating print facility on site, CDP Designs & Print.
   table:
-    - icon: fa fa-clock-o
-      detail: "12:00 - 13:00"
+    #- icon: fa fa-clock-o
+    #  detail: "12:00 - 13:00"
     
-    - icon: fa fa-envelope-o
-      detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
+    #- icon: fa fa-envelope-o
+    #  detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
       
     - icon: fa fa-phone
       detail: 01209 611659
-      
+
+  campus:
+    - campus-name: College Design and Print (Camborne)
+      id: collapse1
+      class: panel-collapse collapse in
+      text: 01209 616166 </br>
+            <a href="www.cdpcornwall.co.uk">www.cdpcornwall.ac.uk</a>    
+
+
 - business: Equine
-  color: 29292a
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
-  short: pirans
-  image:
+  color: 007B4C
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-4 
+  short: equine1
+  image: /images/public/equine.jpg
   title:
-  text: 
+  text: <P>The Equestrian Centre provides excellent teaching and learning facilities for full and part-time students and external customers. See the section on Equine courses for more information. The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC-Schooling field, Walker, Weighbridge and Solarium. There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</br>We offer a range of Livery options for Students, from Working Livery to Full Livery. Our team of highly qualified experienced staff are on hand to offer their expertise. If you are interested in booking the facilities or livery options, please contact us on 01395 562354,</br> or email equestrian.centre@bicton.ac.uk </p>  <p>Our Stoke Climsland campus is home to an industry-approved Equestrian Centre with extensive stabling and is equipped with two indoor arenas and large outdoor arena, a weighbridge, horse walker, wash down and solarium facilities as well as state-of–the-art equipment and technology, all of which are used extensively by students. With excellent links to employers, practitioners and researchers, nationally and internationally, our students have the opportunity to train and develop their skills for employment in all aspects of the equestrian industry.</br></br>Duchy College is also home to the Equitation Science Research and Training Centre which works closely with the International Society for Equitation Science. Our students also benefit from comprehensive links with leading equine practitioners such as equine nutritionists, organisations, charities (such as The Horse Trust), veterinary professionals, competitors and equitation science practitioners.</p>
   table:
-    - icon: fa fa-clock-o
-      detail: "12:00 - 13:00"
+    #- icon: fa fa-clock-o
+    #  detail: "12:00 - 13:00"
     
-    - icon: fa fa-envelope-o
-      detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
+    #- icon: fa fa-envelope-o
+    #  detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
       
-    - icon: fa fa-phone
-      detail: 01209 611659
-      
+    #- icon: fa fa-phone
+    #  detail: 01209 611659
+    
+  campus:
+    - campus-name: Bicton Equine
+      id: collapse1
+      class: panel-collapse collapse in
+      text: Tel 01395 562354 </br>
+            Email equestrian.centre@bicton.ac.uk</br>
+            <a href="/documents/Bicton Equine Pricelist 2016.pdf">Download Livery & Equestrian Centre Hire Price list</a>
+  campus:
+    - campus-name: Stoke Equine
+      id: collapse2
+      class: panel-collapse collapse in
+      text: Tel 01579 372210</br>
+            Email equine.events@duchy.ac.uk</br>
+            <a href="/documents/Stoke Equine Terms of Hire.pdf">Download Livery & Equestrian Centre Hire Price list</a>    
+    
 - business: Dog Grooming
-  color: 29292a
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
-  short: pirans
-  image:
+  color: 77BC43
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
+  short: dog-grooming
+  image: /images/public/dog-grooming.jpg
   title:
   text: 
   table:
@@ -274,3 +288,21 @@
       
     - icon: fa fa-phone
       detail: 01209 611659      
+      
+      
+- business: Rosewarne Nursery
+  color: 0a7316
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-5
+  short: nursery
+  image: /images/working-nursery.jpg
+  title:
+  text: 
+  table:
+    - icon: fa fa-clock-o
+      detail: "12:00 - 13:00"
+    
+    - icon: fa fa-envelope-o
+      detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
+      
+    - icon: fa fa-phone
+      detail: 01209 611659  
