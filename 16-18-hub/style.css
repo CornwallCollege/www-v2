@@ -36,13 +36,16 @@
     font-size: 1.7em!important;
     line-height: 1.5em;
 }
-body { font-size: 14px; font-family: 'Raleway', sans-serif; }
+body { font-size: 14px; font-family: 'Lato', sans-serif; }
 /**/
 [class*="-section"] { overflow: hidden; }
 
 img { max-width: 100%; }
 
-a { outline: 0 !important; }
+a { 
+    outline: 0 !important; 
+    font-family: 'Raleway', serif;
+}
 
 .ow-section { padding-bottom: 100px; }
 .ow-section-top-padding { padding-top: 100px; }
@@ -300,17 +303,17 @@ a { outline: 0 !important; }
 /* ## Features Section ## */
 
 .features-section {
-	background-image: url("images/features/features-bg.jpg");
-	background-size: 100% 100%;
+	background-image: url("/16-18-hub/images/choose-cc-right.jpg");
+	background-size: cover;
 	display: inline-block; 
 	width: 100%;
-	padding: 112px 0;
+    padding: 0px 0px 283px ;
 	position: relative;
 	perspective-origin: 0 0;
 }
 
 .features-section:before {
-	width: 56%;
+    width: 44%;
 	position: absolute;
 	height: 100%;
 	top: 0;
@@ -349,7 +352,11 @@ a { outline: 0 !important; }
 	margin-left: 30px;
 	cursor: pointer;
 }
-
+@media(min-width:768px){
+    #features-section .feature-box-inner {
+    padding: 0  155px 0 0px;
+    }
+}
 .feature-box-inner .icon-feature {
 	width: 100px;
 	height: 100px;
@@ -616,12 +623,13 @@ a { outline: 0 !important; }
 /* ## Why Choose ## */
 
 .why-choose {
-	background-image: url("images/why-choose/why-choose-bg.jpg");
+	background-image: url("/16-18-hub/images/choose-cc-left.jpg");
 	display: inline-block; 
 	width: 100%;
 	padding: 112px 0;
 	height: 1020px;
 	position: relative;
+    margin-bottom: -5px;
 }
 
 .why-choose:before {
@@ -699,6 +707,7 @@ a { outline: 0 !important; }
 }
 
 /* ## How We Work ## */
+
 .how-we-work ul {
 	text-align: center;
 	margin-bottom: 48px;
@@ -1103,7 +1112,7 @@ a { outline: 0 !important; }
 	height: 100%;
 	left: -15px;
 	top: -100px;
-	z-index: 9999;
+	z-index: 99;
 }
 
 .application-section .app-content-box {
@@ -2436,7 +2445,7 @@ a { outline: 0 !important; }
 
 /* ## Page Loader ********************** */
 /* LOADING */
-.load-position .logo {
+.load-position .loading-logo {
 	margin: 0 auto;
 }
 .load-complete {
@@ -2451,7 +2460,7 @@ a { outline: 0 !important; }
     bottom: 0;
     z-index: 999999;
 }
-.load-complete .logo {
+.load-complete .loading-logo {
 	color: #fff;
 	text-align: center;
 	display: block;
@@ -2562,5 +2571,47 @@ a { outline: 0 !important; }
 	font-size: 12px;
 	font-weight: 600;
 	display: none;
+}
+.punchout{
+    padding:50px 5%;
+    text-align: center;
+}
+.punchout h2{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.punchout h2 span{
+    font-weight: bold;
+}
+#question{
+    color:white;
+    background: #52b3d9;
+    border-radius: 0;
+}
+/*better tube video styles*/
+.full-width-video-block{
+    padding:0;
+}
+.full-width-video-block .caption{
+    margin: 30px 0;
+    border-right: solid 1px #ccc;
+}
+.full-width-video-block article:last-child .caption{
+    border-right:none;
+}
+.full-width-video-block .caption h4{
+    text-transform: uppercase;
+}
+.full-width-video-block .BetterTube{
+        margin-bottom: 0;
+}
+.browse-by {
+    
+}
+.browse-by .divider{
+    font-size:3em;   
+}
+.browse-by h4{
+    color:white;
 }
 

@@ -671,10 +671,10 @@
 
 		$this.appear(function()
 		{
-			$('#project').animateNumber({ number: 145 }, 2000);
-			$('#work').animateNumber({ number: 2456 }, 2000);
-			$('#consumed').animateNumber({ number: 3125 }, 2000);
-			$('#videos').animateNumber({ number: 2478 }, 2000);
+			$('#project').animateNumber({ number: 35 }, 2000);
+			$('#work').animateNumber({ number: 9 }, 2000);
+			$('#consumed').animateNumber({ number: 300 }, 2000);
+			$('#videos').animateNumber({ number: 80 }, 2000);
 		});
 	});
 	

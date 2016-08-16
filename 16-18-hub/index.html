@@ -12,7 +12,7 @@ link: 16-18
 	<!-- LOADER -->
 	<div id="site-loader" class="load-complete">
 		<div class="load-position">
-			<div class="logo"><img src="/images/loader.gif" alt="loading-logo"/></div>
+			<div class="loading-logo"><img src="/images/loader.gif" alt="loading-logo"/></div>
 			<div class="loading">
 				<div class="loading-line"></div>
 				<div class="loading-break loading-dot-1"></div>
@@ -27,7 +27,7 @@ link: 16-18
 {% include 16-18/header.html %}   
     
     
-   <section class="col-sm-12 full-width-video-block"> 
+   <section id="video-block" class="col-sm-12 full-width-video-block"> 
         <article class="col-md-4 col-xs-12 no-padding">
             {% youtube https://youtu.be/-AqUfso3nkY %}
             <div class="text-center caption">
@@ -74,7 +74,22 @@ link: 16-18
             </div>
         </article>
     </section>    
-	
+	<!-- Project Section -->
+	<div class="project-section" style="margin-bottom:50px;">
+		<div class="container">
+			<div class="col-md-6 col-sm-6 col-xs-6 start-project">
+				<p>courses</p>
+				<h2>view our learning areas</h2>
+				<a href="/learning-area-hub/"><span>Let's Go</span></a>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-6 send-msg">
+				<p>careers</p>
+				<h2>view our career areas</h2>
+				<a href="/career-hub/"><span>Let's Go</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- Project Section Over -->	
 	<!-- How We Work -->
 	<section id="how-we-work" class="how-we-work">
 		<!-- Section Header -->
@@ -86,32 +101,33 @@ link: 16-18
 			<ul class="how-we-work-categories">
 				<li>
 					<a href="#">
-						<i class="icon_archive"></i>
+						<i class="fa fa-building-o"></i>
 						<span>Professional<br/>Qualification</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<i class="icon_book"></i>
+						<i class="fa fa-certificate"></i>
 						<span>Work<br/>Experience</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<i class="icon_drive"></i>
+						<i class="fa fa-cogs"></i>
 						<span>Soft<br/>Skills</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<i class="icon_globe-2"></i>
+						<i class="fa fa-rocket"></i>
 						<span>A great start<br/>to your career</span>
 					</a>
 				</li>
 			</ul>
 		</div>
-        <section class="col-xs-12">
-        <p class="lead">A few reasons to choose #thecareercollege… We are one of the best colleges for catering studies in the UK, with partnerships with Nathan Outlaw, River Cottage and Fifteen Cornwall...</p>
+        <section class="col-xs-12 blue-bg white  center punchout">
+            <h2>A few reasons to choose <span>#thecareercollege</span>…</h2>
+        <p class="lead"> We are one of the best colleges for catering studies in the UK, with partnerships with Nathan Outlaw, River Cottage and Fifteen Cornwall...</p>
         </section>    
 		<div class="how-we-work-container">
 			<div class="research-slope">
@@ -156,6 +172,7 @@ link: 16-18
 		</div>
 	</section>	
 	<!-- How We Work Over -->
+    
 
 
 	<!-- Services Section -->
@@ -168,7 +185,7 @@ link: 16-18
 			<div class="col-md-6">
 				<div class="service-box-inner">
 					<div class="col-md-4 pull-right col-sm-5">
-						<i class="icon-srv icon_heart"></i>
+						<i class="icon-srv fa fa-cogs"></i>
 					</div>
 					<div class="col-md-8 content-box col-sm-7">
 						<h3 class="block-title">Universal skills</h3>
@@ -179,7 +196,7 @@ link: 16-18
 			<div class="col-md-6">
 				<div class="service-box-inner">
 					<div class="col-md-4 col-sm-5">
-						<i class="icon-srv icon_lifesaver"></i>
+						<i class="icon-srv fa fa-building-o"></i>
 					</div>
 					<div class="col-md-8 content-box col-sm-7">
 						<h3 class="block-title">Work readiness</h3>
@@ -190,7 +207,7 @@ link: 16-18
 			<div class="col-md-6">
 				<div class="service-box-inner">
 					<div class="col-md-4 pull-right col-sm-5">
-						<i class="icon-srv icon_tablet"></i>
+						<i class="icon-srv fa fa-star"></i>
 					</div>
 					<div class="col-md-8 content-box col-sm-7">
 						<h3 class="block-title">Specialist skills</h3>
@@ -201,7 +218,7 @@ link: 16-18
 			<div class="col-md-6">
 				<div class="service-box-inner">
 					<div class="col-md-4 col-sm-5">
-						<i class="icon-srv icon_lock"></i>
+						<i class="icon-srv fa fa-users"></i>
 					</div>
 					<div class="col-md-8 content-box col-sm-7">
 						<h3 class="block-title">Personal skills</h3>
@@ -212,7 +229,7 @@ link: 16-18
 			<div class="col-md-6">
 				<div class="service-box-inner">
 					<div class="col-md-4 pull-right col-sm-5">
-						<i class="icon-srv icon_lightbulb"></i>
+						<i class="icon-srv fa fa-life-ring"></i>
 					</div>
 					<div class="col-md-8 content-box col-sm-7">
 						<h3 class="block-title">Supporting you</h3>
@@ -223,7 +240,7 @@ link: 16-18
 			<div class="col-md-6">
 				<div class="service-box-inner">
 					<div class="col-md-4 col-sm-5">
-						<i class="icon-srv icon_cog"></i>
+						<i class="icon-srv fa fa-balance-scale"></i>
 					</div>
 					<div class="col-md-8 content-box col-sm-7">
 						<h3 class="block-title">Our Values</h3>
@@ -234,53 +251,78 @@ link: 16-18
 		</div>
 	</div>
 	<!-- Services Section Over -->
-	
-	<!-- Features Section -->
-	<section id="features-section" class="features-section ow-background-no-size">
+	<!-- Features Section -->    
+<section id="why-choose" class="why-choose">
+		<div class="container">			
+			<div class="col-md-6 pull-right animated fadeInRight">
+				<div class="why-choose-inner">
+				<h2 style="text-align:left;">CHOOSE CORNWALL COLLEGE</h2>
+					<div class="feature-box-inner" style="margin-top: 60px; margin-left: -25px;">
+						<div class="col-md-4 col-sm-4 pull-left" style="padding:10px 0 0 0;">
+							<i class="icon-feature fa fa-cutlery"></i>
+						</div>
+						<div class="col-md-8 col-sm-8" style="text-align:left; margin-top: 35px; margin-left: -24px;">
+							<h3 class="block-title">One of the best catering colleges in the UK</h3>
+						</div>						
+					</div>
+				    <div class="feature-box-inner" style="margin-top: 60px; margin-left: -25px;">
+						<div class="col-md-4 col-sm-4 pull-left" style="padding:10px 0 0 0; ">
+							<i class="icon-feature fa fa-hashtag"></i>
+						</div>
+						<div class="col-md-8 col-sm-8" style="text-align:left; margin-top: 35px; margin-left: -24px;">
+							<h3 class="block-title">#1 for apprenticeships in the South West</h3>
+						</div>						
+					</div>
+				    <div class="feature-box-inner" style="margin-top: 60px; margin-left: -25px;">
+						<div class="col-md-4 col-sm-4 pull-left" style="padding:10px 0 0 0;">
+							<i class="icon-feature fa fa-trophy"></i>
+						</div>
+						<div class="col-md-8 col-sm-8" style="text-align:left; margin-top: 35px; margin-left: -24px;">
+							<h3 class="block-title">Award winning students and tutors work with us</h3>
+						</div>						
+					</div>
+				    <div class="feature-box-inner" style="margin-top: 60px; margin-left: -25px;">
+						<div class="col-md-4 col-sm-4 pull-left" style="padding:10px 0 0 0; ">
+							<i class="icon-feature fa fa-leaf"></i>
+						</div>
+						<div class="col-md-8 col-sm-8" style="text-align:left; margin-top: 35px; margin-left: -24px;">
+							<h3 class="block-title">Over 1,200 acres for land-based specialist training and education</h3>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="features-section" class="features-section ow-background-no-size" >
 		<div class="container">
 			<div class="col-md-7">
-				<h2>CHOOSE CORNWALL COLLEGE</h2>
 				<div class="feature-box">
 					<div class="feature-box-inner">
 						<div class="col-md-4 col-sm-4 pull-right">
-							<i class="icon-feature icon_lightbulb"></i>
+							<i class="icon-feature fa fa-briefcase"></i>
 						</div>
 						<div class="col-md-8 col-sm-8">
-							<h3 class="block-title">Multi-porpuse</h3>
-							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+							<h3 class="block-title">Courses developed in partnership with employers to ensure relevance to industry</h3>
 						</div>						
-					
 					</div>
 					<div class="feature-box-inner">
 						<div class="col-md-4 col-sm-4 pull-right">
-							<i class="icon-feature icon_house"></i>
+							<i class="icon-feature fa fa-home"></i>
 						</div>
 						<div class="col-md-8 col-sm-8">
-							<h3 class="block-title">Ultra responsive</h3>
-							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+							<h3 class="block-title">National award-winning construction tradespeople train with us</h3>
 						</div>
-						
 					</div>
 					<div class="feature-box-inner">
 						<div class="col-md-4 col-sm-4 pull-right">
-							<i class="icon-feature icon_gift"></i>
+							<i class="icon-feature fa fa-film"></i>
 						</div>
 						<div class="col-md-8 col-sm-8">
-							<h3 class="block-title">Free updates</h3>
-							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+							<h3 class="block-title">Award winning media studies department – 33 student awards in 11 years</h3>
 						</div>						
-					
 					</div>
-					<div class="feature-box-inner">
-						<div class="col-md-4 col-sm-4 pull-right">
-							<i class="icon-feature icon_camera"></i>
-						</div>
-						<div class="col-md-8 col-sm-8">
-							<h3 class="block-title">photobomb</h3>
-							<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
-						</div>							
-					
-					</div>
+                  
 				</div>
 			</div>
 			<div class="col-md-5">
@@ -299,67 +341,63 @@ link: 16-18
 				</div>
 			</div>
 			<div class="col-md-6 app-content-box">
-				<h2>try our high-tech aplication</h2>
-				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibend um auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum veli.</p>
+				<h2>Plan your future on the move</h2>
+				<p>This website is mobile friendly, just bookmark this section, you can also use our careers hub to start planning your career journey. We’ve got the latest stats on starting salaries, job vacancy predictions in the region and training routes all mapped out.</p>
 				<div class="col-md-9 app-updates">
-					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
-					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+					<h4><i class="fa fa-bar-chart"></i> WORKFORCE PREDICTIONS</h4>
+					<p> Use the latest labour market intelligence to plan a career where you will be in demand</p>
 				</div>
 				<div class="col-md-9 app-updates">
-					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
-					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+					<h4><i class="fa fa-line-chart"></i> SALARY INDICATORS</h4>
+					<p>find out what you could be earning in 5 years in the career of your dreams</p>
 				</div>
 				<div class="col-md-9 app-updates">
-					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
-					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+					<h4><i class="fa fa-pencil"></i> START PLANNING</h4>
+					<p>what skills, training and experience do you need to reach your career goal</p>
 				</div>
 				<div class="col-md-9 app-updates">
-					<h4><i class="icon_lightbulb"></i> Free Updates</h4>
-					<p>Curabitur arcu erat, accusaimp eret et porttitor at sesdabx auisque velit nisi pret</p>
+					<h4><i class="icon_lightbulb"></i> GET INSPIRED</h4>
+					<p>If you’re not sure what you want to do, browse our site and start to get some ideas of what’s possible</p>
 				</div>
+                <div class="col-md-9 app-updates">
+                    <a href="/career-hub/" title="Visit our career area hub" class="btn ghost">Visit our career area hub</a>
+                </div>
 			</div>
 		</div>
 	</section>
 	<!-- Application Section Over -->
-	
 
-	
-	<!-- Video Section 
-	<div id="video-section" class="video-section">
-		<a id="bgndVideo" class="player" data-property="{videoURL:'7SnmCUwOsts',containment:'.video-section', showControls:true, autoPlay:true, loop:true, vol:50, mute:true, startAt:10, opacity:1, addRaster:true, quality:'default', optimizeDisplay:true}">My video</a> <!--BsekcY04xvQ
-	</div>
-	Video Section Over -->
 	
 	<!-- Statistics Section -->
 	<div id="statistics-section" class="statistics-section">
 		<div class="container">
 			<div class="col-md-3 col-sm-12">
-				<h1><i class="icon_compass"></i> <span id="project"></span>K</h1>
-				<p>PROJECT COMPLETE</p>
+				<h1><i class="fa fa-graduation-cap"></i> <span id="project"></span>K</h1>
+				<p>Learners we support every year</p>
 			</div>
 			<div class="col-md-3 col-sm-12">
-				<h1><i class="icon_toolbox "></i> <span id="work"></span> &nbsp; </h1>
-				<p>CLIENT WORKED WITH</p>
+				<h1><i class="fa fa-map-o "></i> <span id="work"></span> &nbsp; </h1>
+				<p>Campuses across 2 counties</p>
 			</div>
 			<div class="col-md-3 col-sm-12">
-				<h1><i class="icon_mug_alt"></i> <span id="consumed"></span> &nbsp; </h1>
-				<p>CUPS OF COFFEE CONSUMED</p>
+				<h1><i class="fa fa-book"></i> <span id="consumed"></span> &nbsp; </h1>
+				<p>Full-time courses for school leavers</p>
 			</div>
 			<div class="col-md-3 col-sm-12">
-				<h1><i class="icon_shield_alt"></i> <span id="videos"></span> &nbsp; </h1>
-				<p>ANSWERED QUESTIONS</p>
+				<h1><i class="fa fa-map-signs"></i> <span id="videos"></span>+</h1>
+				<p>Apprenticeship career pathways</p>
 			</div>
 		</div>
 	</div>
 	<!-- Statistics Section Over -->
 		
-	<!-- What Students Section -->
+	<!-- What Students Section 
 	<section id="client-section" class="client-section">
-		<!-- Section Header -->
+		<!-- Section Header 
 		<div class="section-header">
 			<h2>WHAT OUR STUDENTS SAY</h2>
 		</div>
-		<!-- Section Header Over-->
+		<!-- Section Header Over
 		<div class="client-style1">
 			<svg width="0" height="0">
 				<clipPath id="client-1">
@@ -411,32 +449,19 @@ link: 16-18
 	</section>
 	<!-- What Clients Section Over -->
 	
-	<!-- Brag About Section -->
-	<div id="brag-about-section" class="brag-about-section">
-		<div class="col-md-6 brag-about-img pull-right">
-			<img src="images/about/about-imac.png" alt="iMac">
-		</div>	
-		<div class="col-md-6 no-padding">
-			<div class="col-md-7 pull-right brag-content">
-				<h1>design to brag about</h1>
-				<p>Morbi in velit, eget vulputate ligula viverra, mi ae sollicitudin rhon roin gravida nibh vel velit auctor aliquet. Aeneanollic itudin lorem dumorbi in velit ligula, eget vulputate ligula viverra, mi ae sollicit rhoncusante roin gravida nibh vel velit auctor aliquetc</p>
-			</div>
-		</div>
-	</div>
-	<!-- Brag About Section Over -->
 	
 	<!-- Project Section -->
-	<div id="project-section" class="project-section">
+	<div class="project-section">
 		<div class="container">
 			<div class="col-md-6 col-sm-6 col-xs-6 start-project">
 				<p>courses</p>
 				<h2>view our learning areas</h2>
-				<a href="#"><span>Let's Go</span></a>
+				<a href="/learning-area-hub/"><span>Let's Go</span></a>
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-6 send-msg">
 				<p>careers</p>
-				<h2>view careers section</h2>
-				<a href="#"><span>Let's Go</span></a>
+				<h2>view our career areas</h2>
+				<a href="/career-hub/"><span>Let's Go</span></a>
 			</div>
 		</div>
 	</div>
