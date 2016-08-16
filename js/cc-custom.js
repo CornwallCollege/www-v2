@@ -80,7 +80,7 @@ $(function () {
             var logo = $(slide).attr('data-logo');
             $('.logo').removeClass('current-brand');
             $('.logo').addClass('sub-brand grow');
-            $('.logo').children().children().children().attr('src', '/images/dc-brand-logo.png');
+            //$('.logo').children().children().children().attr('src', '/images/dc-brand-logo.png');
 
             loadVideo(slide);
             if (swiperH.slides.length > swiperH.activeIndex + 1) {
@@ -93,7 +93,13 @@ $(function () {
 
             $('#' + logo + '-logo').parent().parent().parent().removeClass('sub-brand grow');
             $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
-            $('#' + logo + '-logo').attr('src', '/images/slug.jpg');
+            //$('#' + logo + '-logo').attr('src', '/images/'+ logo +'-brand-logo.png');
+            
+           /* if(logo != slide){
+               $('#' + logo + '-logo').attr('src', '/images/'+ logo +'-brand-logo.png'); 
+            } else {
+               $('#' + logo + '-logo').attr('src', '/images/'+ logo +'-brand-logo.jpg'); 
+            } */
 
         }
 
@@ -101,7 +107,7 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(0, 1000, false);
             changeCurrentLogo();
-            $(this).attr('src', '/images/slug.jpg');
+            //$(this).attr('src', '/images/slug.jpg');
             $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
             $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
             $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
@@ -110,7 +116,7 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(1, 1000, false);
             changeCurrentLogo();
-            $(this).attr('src', '/images/slug.jpg');
+            //$(this).attr('src', '/images/slug.jpg');
             $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
             $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
             $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
@@ -119,7 +125,7 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(2, 1000, false);
             changeCurrentLogo();
-            $(this).attr('src', '/images/slug.jpg');
+            //$(this).attr('src', '/images/slug.jpg');
             $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
             $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
             $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
@@ -128,7 +134,7 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(3, 1000, false);
             changeCurrentLogo();
-            $(this).attr('src', '/images/slug.jpg');
+            //$(this).attr('src', '/images/slug.jpg');
             $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
             $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
             $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
@@ -1005,7 +1011,7 @@ if (location.pathname.indexOf("about-pages") !== -1) {
     });
 }
 /*------------------- learning area filer ISOTOPE ----------------------*/
-if (location.pathname.indexOf("learning-area-hub") !== -1) {
+if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.indexOf("sector-hub") !== -1) {
     $(document).ready(function () {
 
         //createItems();
