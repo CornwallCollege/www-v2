@@ -284,9 +284,15 @@
     - campus-name: Enquiry form
       id: enquiry-venue
       class: panel-collapse collapse in
+<<<<<<< HEAD
+      text: Enquiry Form
+
+
+=======
       text: <a href="/documents/venue hire enquiry 2016.pdf">Enquiry Form  
-
-
+   
+      
+>>>>>>> origin/octopus
 - business: Trevenson Restaurant
   color: 5f5f5f
   class: cluster-hover col-xs-12 col-sm-3 col-lg-5

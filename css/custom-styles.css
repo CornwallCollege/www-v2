@@ -894,8 +894,8 @@ footer a.btn{
     div#logo-wrap .active:nth-child(4){
        top:325px;
 
-    }  
-    
+    }
+
 }
 div#logo-wrap #bicton{
     background: none;
@@ -1556,7 +1556,20 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* CULTURE & VISITOR ECONOMY | Catering & Hospitality | header bar */
+/* CULTURE & VISITOR ECONOMY | hospitality & front of house | header bar */
+
+#hospitality-front {
+    background: url(../images/area-banners/hospitality-front-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+@media(min-width:768px) {
+    #hospitality-front {
+        background: url(../images/area-banners/hospitality-front-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* CULTURE & VISITOR ECONOMY | travel visitor attractions | header bar */
 
 #travel-visitor-attractions {
     background: url(../images/area-banners/travel-visitor-attractions-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1885,6 +1898,7 @@ div#logo-wrap #bicton{
     #media-digital-creativity,
     #travel-visitor-attractions,
     #catering-hospitality,
+    #hospitality-front,
     #digital-technologies,
     #health-safety,
     #sales-marketing,
@@ -2118,6 +2132,22 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .catering-hospitality-bar {
         background: url(../images/area-banners/catering-hospitality-desktop.jpg);
+
+        background-position:50% 0;
+        background-repeat: no-repeat;
+    }
+}
+/* CULTURE AND VISITOR ECONOMY | Hospitality and Front of House | apply now bar */
+
+.hospitality-front-bar {
+    background: url(../images/area-banners/hospitality-front-mobile.jpg);
+    /* Standard syntax */
+}
+/*DESKTOP version of the background*/
+
+@media(min-width:768px) {
+    .hospitality-front-bar {
+        background: url(../images/area-banners/hospitality-front-desktop.jpg);
 
         background-position:50% 0;
         background-repeat: no-repeat;
@@ -2570,6 +2600,7 @@ APPLY BARS =====================================================================
     #media-digital-creativity,
     #travel-visitor-attractions,
     #catering-hospitality,
+    #hospitality-front,
     #digital-technologies,
     #health-safety,
     #sales-marketing,
@@ -2605,6 +2636,7 @@ APPLY BARS =====================================================================
     .media-digital-creativity-bar,
     .travel-visitor-attractions-bar,
     .catering-hospitality-bar,
+    .hospitality-front-bar,
     .digital-technologies-bar,
     .health-safety-bar,
     .business-admin-bar,
@@ -2645,6 +2677,7 @@ APPLY BARS =====================================================================
     #media-digital-creativity,
     #travel-visitor-attractions,
     #catering-hospitality,
+    #hospitality-front,
     #digital-technologies,
     #health-safety,
     #sales-marketing,
@@ -2680,6 +2713,7 @@ APPLY BARS =====================================================================
     .media-digital-creativity-bar,
     .travel-visitor-attractions-bar,
     .catering-hospitality-bar,
+    .hospitality-front,
     .digital-technologies-bar,
     .health-safety-bar,
     .business-admin-bar,
@@ -4761,7 +4795,7 @@ button.collapsed h3:before{
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 20px 25px;
-    z-index: 1;    
+    z-index: 1;
 }
 .useful-links h3{
     font-size: 24px;
