@@ -1,5 +1,6 @@
 - campus: Bicton Campus
-  anchor: "bicton"
+  anchor: "bicton-campus"
+  search: "bicton"
   brand: Bicton College
   copy: <p>Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.</p>
   link: /bicton-campus.html
@@ -24,7 +25,8 @@
 
 
 - campus: Bristol
-  anchor: "dbs-bristol"
+  anchor: "dbs"
+  search: "dbs-bristol"  
   brand: dBs Music
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
@@ -54,6 +56,7 @@
 
 - campus: Camborne Campus
   anchor: "camborne"
+  search: "camborne"  
   brand: Cornwall College
   copy: <p>Cornwall College Camborne is the largest of the three General Further Education campuses in the group, offering a wide variety of vocational courses from further education to university level, professional qualifications and the South’s West largest provider of apprenticeships; earning ourselves a respected reputation across the wider education sector and business community.</br></br>With a focused ethos on careers, progression and opportunity, we have attracted high profile partnerships including our famous Academy Nathan Outlaw, Blue Flame Academy and our new Digital Academy.</p>
   link: /camborne-campus.html
@@ -83,6 +86,7 @@
   
 - campus: The Eden Project
   anchor: "eden-project"
+  search: "eden-project" 
   brand: 
   copy: <p >In partnership with the Eden Project, we have introduced a range of new apprenticeships for enterprising and innovative individuals and businesses that are motivated to make the world a better place. The Eden Project and the Cornwall College Group are working together to train and employ a range of new apprentices in key business areas such as service excellence, cookery and horticulture.</p>
   link: /eden-campus.html
@@ -112,6 +116,7 @@
   
 - campus: Falmouth Campus
   anchor: "falmouth-marine-school"
+  search: "falmouth-marine-school"  
   brand: Falmouth Marine School
   copy: <p>Falmouth Marine School provides a comprehensive selection of courses from introductory to degree level in partnership with Plymouth University. We specialise in Boatbuilding, Leisure & Watersports, Marine Engineering and Marine Science & Biology.</p>
   link: /falmouth-campus.html
@@ -141,6 +146,7 @@
   
 - campus: Newquay Campus
   anchor: "newquay"
+  search: "newquay"  
   brand: Cornwall College
   copy: <p>Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in animal, marine and surf science studies, it has a reputation for being environmentally friendly and offering individual support in all aspects of study.</p>
   link: /newquay-campus.html
@@ -170,6 +176,7 @@
   
 - campus: Rosewarne Campus
   anchor: "rosewarne"
+  search: "rosewarne"  
   brand: Duchy College
   copy: <p>Duchy College Rosewarne is situated just outside Camborne on a working farm. Our extensive beautiful grounds are spread over approximately 47 hectares and are an excellent horticultural resource with national plant collections on campus. Onsite we also have a working nursery where we grow and sell our own plants, a working farm and protected cropping unit, land-based engineering workshops and specialist veterinary nursing facilities, the only one of its kind in the county. To get you to and from Rosewarne we have our own transport network that will collect you from a range of towns and villages.</p>
   link: /rosewarne-campus.html
@@ -199,6 +206,7 @@
   
 - campus: Saltash Campus
   anchor: "saltash"
+  search: "saltash"  
   brand: Cornwall College
   copy: <p>The campus at Saltash is based on Church Road, nestled in the heart of a residential area only a few minutes’ walk from the town centre and close to the A38. We are a small and friendly campus sat in a semi-rural location, perfect if you live in South-East and North Cornwall, Plymouth or South-West Devon. We have excellent facilities including; a higher education centre, construction skills training centre, commercial hair and beauty salons and a state-of-the-art training kitchen.</p>
   link: /saltash-campus.html
@@ -228,6 +236,7 @@
   
 - campus: St Austell Campus
   anchor: "st-austell"
+  search: "st-austell"  
   brand: Cornwall College
   copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, A-level centre, an arts block and dedicated construction and engineering skills centre, Koko Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities.</p>
   link: /st-austell-campus.html
@@ -257,6 +266,7 @@
   
 - campus: Stoke Climsland Campus
   anchor: "stoke"
+  search: "stoke"  
   brand: Duchy College
   copy: <p>Our campus is nestled in the rural Cornish countryside at Stoke Climsland. The campus offers great land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities.</p>
   link: /stoke-campus.html
@@ -286,6 +296,7 @@
   
 - campus: Plymouth Engineering
   anchor: "sisna-park"
+  search: "sisna-park"  
   brand: Cornwall College
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html

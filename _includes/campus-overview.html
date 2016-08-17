@@ -6,7 +6,7 @@
                 <section class="col-xs-12">
                     
                     <article class="col-sm-12 col-md-8">
-                        <a href="/location-pages/{{ campus.link }}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
+                        <a href="/location-pages{{ campus.link }}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
                     </article>
                     <article class="col-sm-12 col-md-4 campus-seach pull-right" >
                             <h4><span>Courses@</span>{{ campus.campus }}</h4>
@@ -18,7 +18,7 @@
                                 </div>
                                 
                                 <input type="hidden" name="post_type" value="courses">
-                                <input type="hidden" name="campus" value="{{ campus.anchor }}">
+                                <input type="hidden" name="campus" value="{{ campus.search }}">
                             </form>
                     </article>
                     <article class="col-sm-12 col-md-8">

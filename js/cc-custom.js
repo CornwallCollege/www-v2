@@ -31,7 +31,11 @@ $(function () {
             spaceBetween: 0,
             nextButton: '.swiper-button-more',
             prevButton: '.swiper-button-less',
-            threshold: 50
+            threshold: 50,
+            mousewheelControl: true,
+            mousewheelReleaseOnEdges: true,
+            scrollbarDraggable: true
+            
 
         });
 
@@ -509,7 +513,22 @@ function incrementCount(counter) {
 
 // SOCIALFEED init
 $(document).ready(function () {
-    $("#whats-on-group").click(function () {
+    
+        function changeCurrentVslide() {
+
+            var slide = swiperV.slides[swiperV.activeIndex];
+            
+            if (swiperV.slides.length > swiperV.activeIndex + 1) {
+                loadVideo(swiperV.slides[swiperV.activeIndex + 1]);
+            }
+
+            if (swiperH.activeIndex > 0) {
+                loadVideo(swiperV.slides[swiperV.activeIndex - 1]);
+            }
+
+        }    
+    
+
         $('.social-feed-ccg-group').socialfeed({
 
             // FACEBOOK
@@ -536,9 +555,9 @@ $(document).ready(function () {
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });
 
-    $("#whats-on-duchy").click(function () {
+
+
         $('.social-feed-duchy').socialfeed({
 
             // FACEBOOK
@@ -566,8 +585,8 @@ $(document).ready(function () {
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });
-    $("#whats-on-falmouth").click(function () {
+
+
         $('.social-feed-falmouth').socialfeed({
 
             // FACEBOOK
@@ -595,8 +614,8 @@ $(document).ready(function () {
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });
-    $("#whats-on-bicton").click(function () {
+
+
         $('.social-feed-bicton').socialfeed({
 
             // FACEBOOK
@@ -624,7 +643,7 @@ $(document).ready(function () {
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-    });
+
 
 });
 
@@ -750,12 +769,21 @@ $(document).ready(function () {
                     // stuff just for the location hub map
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {
                         return function () {
-                            //                            //window.location.href = this.anchor;
+                            //window.location.href = this.anchor;
                             //window.smoothScrollTo = this.anchor;
                             window.smoothScrollTo(this.anchor)
                         }
                     })(marker, i));
+                
+                } else if (location.pathname.indexOf("location-pages") !== -1) {
 
+                    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                        return function () {
+                            infowindow.setContent('<h4>' + campuses[i][0] + '</h4>');
+                            infowindow.open(map, marker);
+                        }
+                    })(marker, i));                    
+                    
                 } else {
 
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {

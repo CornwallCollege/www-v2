@@ -284,7 +284,7 @@
     - campus-name: Enquiry form
       id: enquiry-venue
       class: panel-collapse collapse in
-      text: Enquiry Form
+      text: <a href="/documents/venue hire enquiry 2016.pdf">Enquiry Form  
 
 
 - business: Trevenson Restaurant
