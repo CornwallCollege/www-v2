@@ -755,12 +755,21 @@ $(document).ready(function () {
                             window.smoothScrollTo(this.anchor)
                         }
                     })(marker, i));
+                
+                } else if (location.pathname.indexOf("location-pages") !== -1) {
 
+                    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                        return function () {
+                            infowindow.setContent('<h4>' + campuses[i][0] + '</h4>');
+                            infowindow.open(map, marker);
+                        }
+                    })(marker, i));                    
+                    
                 } else {
 
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {
                         return function () {
-                            infowindow.setContent('<h4>' + campuses[i][0] + '</h4>'/* + '<a href="' + campuses[i][3] + '" class="campus-button">Visit our campus site</a>'*/);
+                            infowindow.setContent('<h4>' + campuses[i][0] + '</h4>' + '<a href="' + campuses[i][3] + '" class="campus-button">Visit our campus site</a>');
                             infowindow.open(map, marker);
                         }
                     })(marker, i));
