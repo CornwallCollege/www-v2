@@ -760,7 +760,7 @@ $(document).ready(function () {
 
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {
                         return function () {
-                            infowindow.setContent('<h4>' + campuses[i][0] + '</h4>' + '<a href="' + campuses[i][3] + '" class="campus-button">Visit our campus site</a>');
+                            infowindow.setContent('<h4>' + campuses[i][0] + '</h4>'/* + '<a href="' + campuses[i][3] + '" class="campus-button">Visit our campus site</a>'*/);
                             infowindow.open(map, marker);
                         }
                     })(marker, i));
