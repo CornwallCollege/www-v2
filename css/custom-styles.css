@@ -3724,7 +3724,10 @@ textarea {
         font-size: 18px;
         background: rgba(0, 0, 0, 0.4);
     }
-    #home-slide {
+    #cc-home-slide,
+    #dc-home-slide,
+    #fms-home-slide,
+    #bic-home-slide{
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -3743,9 +3746,7 @@ textarea {
     .whats-on{
         overflow: auto;
     }
-    .swiper-container-v {
 
-    }
 .plus-button,
 .less-button{
     position: fixed;
@@ -3757,7 +3758,7 @@ textarea {
 .plus-button i,
 .less-button i{
     color:white;
-    font-size:3rem;
+    font-size:3.3rem;
 }
 .whats-on-wrap{
     padding-top:20%;
@@ -3767,7 +3768,8 @@ textarea {
     margin-bottom: 50px
 }
 /* Home page video background*/
-video {
+
+video{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3777,9 +3779,21 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('') no-repeat;
     background-size: cover;
     transition: 1s opacity;
+    background: url('') no-repeat;
+}
+#cc-video video{
+    background: url('../images/cc-home-bg-image.jpg') no-repeat;
+}
+#dc-video video{
+    background: url('../images/dc-home-bg-image.jpg') no-repeat;
+}
+#fms-video video{
+    background: url('../images/fms-home-bg-image.jpg') no-repeat;
+}
+#bic-video video{
+    background: url('../images/bic-home-bg-image.jpg') no-repeat;
 }
 /* slide font styles */
     .sweeper-slide h1,
