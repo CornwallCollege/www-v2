@@ -4079,30 +4079,30 @@ ul#og-grid li h4{
     margin-bottom:20px;
 }
 /* Bicton Campus */
-#bicton{
+#bicton-campus{
     background: #77BC43;
 }
-#bicton h2 strong,
-#bicton h5 span{
+#bicton-campus h2 strong,
+#bicton-campus h5 span{
     color: white;
 }
-#bicton .campus-seach{
+#bicton-campus .campus-seach{
     background: white;
 }
-#bicton .campus-seach h4{
+#bicton-campus .campus-seach h4{
     color: #77BC43;
 }
-#bicton .form-control{
+#bicton-campus .form-control{
     border: solid 2px #77BC43;
 }
-#bicton .campus-link{
+#bicton-campus .campus-link{
     background: white;
     color:#77BC43
 }
-#bicton .campus-seach-button{
+#bicton-campus .campus-seach-button{
     background: #77BC43;
 }
-#bicton .campus-seach-button i{
+#bicton-campus .campus-seach-button i{
     color: white
 }
 /* camborne, newquay, saltash, st austell */
@@ -4112,30 +4112,30 @@ ul#og-grid li h4{
 #st-austell{
     background: #004b93;
 }
-#dbs-bristol{
+#dbs{
    background: #AB1D88;
 }
-#dbs-bristol h2 strong,
-#dbs-bristol h5 span{
+#dbs h2 strong,
+#dbs h5 span{
     color: white;
 }
-#dbs-bristol .campus-seach{
+#dbs .campus-seach{
     background: white;
 }
-#dbs-bristol .campus-seach h4{
+#dbs .campus-seach h4{
     color: #AB1D88;
 }
-#dbs-bristol .form-control{
+#dbs .form-control{
     border: solid 2px #AB1D88;
 }
-#dbs-bristol .campus-link{
+#dbs .campus-link{
     background: white;
     color:#AB1D88
 }
-#dbs-bristol .campus-seach-button{
+#dbs .campus-seach-button{
     background: #AB1D88;
 }
-#dbs-bristol .campus-seach-button i{
+#dbs .campus-seach-button i{
     color: white
 }
 
