@@ -7,26 +7,26 @@
   text: You will be eligible for financial support towards your childcare costs if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan).</br></br>To apply, please download and complete the two forms at the bottom of this page.</br></br><strong>Under 20?</strong></br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.</br>Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning. </br></br>Letting someone else look after you child can be a big step! </br>Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places </br>• Childminder</br>• Pre-school playgroup</br>• Day nursery</br>• Out of school club</br>• Other registered childcare</br>Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care.</br>Find more information here.  www.gov.uk/care-to-learn</br>Or call Directgov’s Learner Support helpline on 0800 121 8989.</br></br>Childcare Application Form download</br>FE Bursary Application Form download
   campus:
     - campus-name: Flying Start Childcare (Camborne)
-      id: collapse1
+      id: camborne-childcare
       class: panel-collapse collapse in
-      text: Tel 01209 611609 </br>
-      
+      text: "Tel: 01209 611609"
+
     - campus-name: Saplings Children's Centre (Bicton)
-      id: collapse2
+      id: bicton-childcare
       class: panel-collapse collapse
-      text: Tel 01579 371004</br>
-      
+      text: "Tel: 01579 371004"
+
     - campus-name: Flying Start Childcare (Saltash)
-      id: collapse3
+      id: saltash-childcare
       class: panel-collapse collapse
-      text: Tel 01752 840240</br>
+      text: "Tel: 01752 840240"
   #table:
    # - icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
-    
+
    # - icon: fa fa-envelope-o
     #  detail: "jonny@john.jo.hn"
-  
+
 
 - business: Evolve Sport Fitness & Outdoor Activities
   color: 37aae3
@@ -37,17 +37,17 @@
   text: </br><strong>Sports Halls</strong> (Camborne, Bicton & Stoke Climsland)<br>Our four-court sports halls are available for hire, equipped for badminton, basketball, football, netball, volleyball and cricket.</br><strong>Fitness Suite</strong> (Camborne, St Austell & Stoke Climsland)</br>Open to the public our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No membership contract, Free ½ hour programme updates, Free gym challenges, Free personalised training programme, Free nutritional advice, Fit testing (additional charge), Motivator sessions (additional charge) and Personal training (additional charge). </br><strong>Dance Studio</strong> (Camborne & St Austell) The dance studios have a semi-sprung wooden floor and caters for a variety of fitness classes as well as being available for hire. <br><strong>3G Astro Turf</strong> (Camborne & Bicton)<br> The astro turf is suitable for football, rugby training and multi sports.<br><strong>Grass Pitches</strong> (Camborne, Stoke Climsland & Bicton)</br> Available for hire, suitable for football, Bicton also has rugby pitches available for hire<br><strong>Birthday Parties</strong></br>Let us take the hassle out of your birthday party, we offer a range of parties from sports activities to adventurous activity parties.<br><strong>Adventurous Activities</strong> (Bicton and Stoke Climsland)</br>Stimulate, motivate and educate with an outdoor adventure activity course.</br>We offer a range of activities in a beautiful setting with expert instruction, high safety standards and once in a lifetime experiences!</br>Activity days help promote active learning and awareness of others needs whilst positively impacting intellectual, moral and physical development. Participants will have the opportunity to take part in many new and exciting activities including Kayaking, Canoeing, Climbing Tower, Low Ropes and Raft Building and many more activities.These are available for use for community groups, residential stays, clubs, societies, friends, schools using our qualified instructors or if you want a birthday party with a difference, or just book for a day</br><strong>Prices</strong></br>For prices or a leaflet or to discuss your requirements please call 01209 617790 or email sportandfitness@cornwall.ac.uk.
   campus:
     - campus-name: Evolve Sport and Fitness (Camborne)
-      id: collapse4
+      id: camborne-evolve
       class: panel-collapse collapse in
-      text: Mon to Thu, 12pm – 9pm,Fri 12pm – 8pm, Sat & Sun open on request.</br>
+      text: Mon to Thu 12pm – 9pm, Fri 12pm – 8pm, Sat & Sun open on request.</br>
             Tel 01209 617732</br>
             Email sportandfitness@cornwall.ac.uk</br>
             Facebook www.facebook.com/CCGGetFit</br>
-            Twitter @CCGGetFit </br>
+            Twitter @CCGGetFit</br>
       download: ""
-            
+
     - campus-name: Evolve Sport and Fitness (St-Austell)
-      id: collapse5
+      id: staustell-evolve
       class: panel-collapse collapse
       text: Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm</br>Opening Hours subject to change</br>
             Tel 01726 226440</br>
@@ -55,40 +55,40 @@
             Facebook www.facebook.com/CCGGetFit</br>
             Twitter @CCGGetFit</br>
       download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
-            
+
     - campus-name: Evolve Sport, Fitness and Outdoors (Stoke Climsland)
-      id: collapse6
+      id: stoke-evolve
       class: panel-collapse collapse
       text: Please contact us for opening hours</br>
             Tel 01579 372206</br>
             Email sportandfitness@cornwall.ac.uk</br>
             Facebook www.facebook.com/CCGGetFit</br>
             Twitter @CCGGetFit</br>
-      download: "" 
-       
+      download: ""
+
     - campus-name: Evolve Sport, Fitness and Outdoors (Bicton)
-      id: collapse7
+      id: bicton-evolve
       class: panel-collapse collapse
       text: Mon to Thu 5pm – 9.30pm</br>
             Fri 5pm – 8pm</br>
             Sat & Sun open on request</br>
             Tel 01209 617732</br>
             Email sportandfitness@cornwall.ac.uk</br>
-      download: "/documents/Bicton Download 1- Sports Fees and Charges 1617.pdf"        
-            
+      download: "/documents/Bicton Download 1- Sports Fees and Charges 1617.pdf"
+
   table:
    # - icon: fa fa-clock-o
    #   detail: "12:00 - 13:00"
-    
+
    # - icon: fa fa-envelope-o
     #  detail: <a href="mailto:sportandfitness@cornwall.ac.uk" target="_top">E-mail Me</a>
-    
+
      - icon: fa fa-facebook
        detail: <a style="color:white" href="https://www.facebook.com/search/str/Evolve%2BSport%2B%2526%2BFitness/keywords_places/"> Facebook
 
 - business: Equine
   color: 007B4C
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-4 
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-4
   short: equine1
   image: /images/public/equine.jpg
   title:
@@ -96,29 +96,29 @@
   table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
-    
+
     #- icon: fa fa-envelope-o
     #  detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
-      
+
     #- icon: fa fa-phone
     #  detail: 01209 611659
-    
-  
-  
+
+
+
   campus:
     - campus-name: Stoke Equine
-      id: stoke-collapse
+      id: stoke-equine
       class: panel-collapse collapse in
       text: Tel 01579 372210</br>
             Email equine.events@duchy.ac.uk</br>
             <a href="/documents/Stoke Equine Terms of Hire.pdf">Download Livery & Equestrian Centre Hire Price list</a>
-            
+
     - campus-name: Bicton Equine
-      id: bicton-collapse
-      class: panel-collapse collapse 
+      id: bicton-equine
+      class: panel-collapse collapse
       text: Tel 01395 562354 </br>
             Email equestrian.centre@bicton.ac.uk</br>
-            <a href="/documents/Bicton Equine Pricelist 2016.pdf">Download Livery & Equestrian Centre Hire Price list</a>        
+            <a href="/documents/Bicton Equine Pricelist 2016.pdf">Download Livery & Equestrian Centre Hire Price list</a>
 
 - business: Mill Autoquip
   color: e6007e
@@ -135,13 +135,13 @@
   table:
     - icon: fa fa-clock-o
       detail: "8.30am - 5pm"
-    
+
     - icon: fa fa-envelope-o
       detail: <a style="color:white" href="mailto:anthony.colgate@cornwall.ac.uk" target="_top">E-mail Me</a>
-    
+
     - icon: fa fa-phone
       detail: 01209 616209
-      
+
     - icon: fa fa-fax
       detail: 01209 616210
 
@@ -152,16 +152,16 @@
   short: nursery
   image: /images/working-nursery.jpg
   title:
-  text: 
+  text:
   table:
     - icon: fa fa-clock-o
       detail: "12:00 - 13:00"
-    
+
     - icon: fa fa-envelope-o
       detail: <a style="color:white" href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
-      
+
     - icon: fa fa-phone
-      detail: 01209 611659  
+      detail: 01209 611659
 
 - business: Cloisters Restaurant
   color: ca1b3c
@@ -173,14 +173,14 @@
          Here students host and serve as well as create some mouth-watering menus every day for the general public.<br>
   text: <p>We are open for lunch, Monday - Friday, with evening meals and a choice menu available on certain dates.</p><p>Offering excellent food at greatly reduced rates, with some experimental menus         from our students as well as the traditional classics you would expect from a five         star restaurant.</p>
         <p>Cloisters Restaurant uses fine locally sourced produce and is also fully licensed, offering a comprehensive selection of wines chosen to accompany each dish on the menu. In addition to regular fine dining lunchtime sessions during term time, Cloisters Restaurant also offers a series of fine dining evenings, devised, prepared and hosted by the students themselves throughout the year.The restaurant is also available for large group bookings.</p>
-        
+
   table:
     - icon: fa fa-clock-o
       detail: "Mon to Fri for lunch"
-    
+
     #- icon: fa fa-envelope-o
     #  detail: "jonny@john.jo.hn"
-      
+
     - icon: fa fa-phone
       detail: 01726 226740
 
@@ -191,41 +191,41 @@
   short: dog-grooming
   image: /images/public/dog-grooming.jpg
   title:
-  text: 
+  text:
   table:
     - icon: fa fa-clock-o
       detail: "12:00 - 13:00"
-    
+
     - icon: fa fa-envelope-o
       detail: <a style="color:white" href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
-      
+
     - icon: fa fa-phone
-      detail: 01209 611659   
-            
-            
+      detail: 01209 611659
+
+
 - business: College Design and Print
   color: 37aae3
   class: cluster-hover col-xs-12 col-sm-3 col-lg-2
   short: CDP
-  image: /images/college-print.png
+  image: /images/public/college-print.png
   title:
   text: On the Camborne campus we have a fully operating print facility on site, CDP Designs & Print.
   table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
-    
+
     #- icon: fa fa-envelope-o
     #  detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
-      
+
     - icon: fa fa-phone
       detail: 01209 611659
 
   campus:
     - campus-name: College Design and Print (Camborne)
-      id: collapse1
+      id: camborne-college-print
       class: panel-collapse collapse in
       text: 01209 616166 </br>
-            <a style="color:white" href="www.cdpcornwall.co.uk">www.cdpcornwall.ac.uk</a>    
+            <a style="color:white" href="www.cdpcornwall.co.uk">www.cdpcornwall.ac.uk</a>
 
 - business: Koko hair beauty and holistic therapies
   color: 8b005b
@@ -236,23 +236,23 @@
   text: <p>A wide range of services and treatments are available, including hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures. As training salons, all services at KoKo are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.<p>We only use high-quality professional products,from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all KoKo salons. New for 2016 we are delighted to offer skin rejuvenation and hair removal with the Lynton Excelight Advance intense pulsed light system (IPL) – contact your nearest KoKo salon to check availability and discuss your treatment requirements</p><p>Get in touch to book an appointment</p><p>There is dedicated customer parking for the Koko salons at Cornwall College Camborne and St Austell.</p><p>The koko salons are training salons and are open from Monday – Friday with varying opening hours. We recommend that you give us a call to book your appointment.</p>
   campus:
     - campus-name: Cornwall College Camborne
-      id: collapse7
+      id: camborne-koko
       class: panel-collapse collapse in
       text: Hairdressing 01209 616167<br>
             Beauty & Holistic Therapies 01209 616167<br>
             koko.camborne@cornwall.ac.uk<br>
       download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
-      
+
     - campus-name: Cornwall College St Austell
-      id: collapse8
+      id: staustell-koko
       class: panel-collapse collapse
       text: Hairdressing 01726 226728<br>
             Beauty & Holistic Therapies 01726 226731<br>
-            koko.staustell@cornwall.ac.uk<br>   
+            koko.staustell@cornwall.ac.uk<br>
       download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
-      
+
     - campus-name: Cornwall College Saltash
-      id: collapse9
+      id: saltash-koko
       class: panel-collapse collapse
       text: Hairdressing 01752 850207<br>
             Beauty & Holistic Therapies 01752 850206<br>
@@ -261,7 +261,7 @@
   #table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
-    
+
     #- icon: fa fa-envelope-o
      # detail: "jonny@john.jo.hn"
 
@@ -276,17 +276,17 @@
   table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
-    
+
     #- icon: fa fa-envelope-o
     #  detail: <a href="mailto:Helen.Pennells@cornwall.ac.uk" target="_top">E-mail Me</a>
 
   campus:
     - campus-name: Enquiry form
-      id: collapse1
+      id: enquiry-venue
       class: panel-collapse collapse in
-      text: Enquiry Form  
-   
-      
+      text: Enquiry Form
+
+
 - business: Trevenson Restaurant
   color: 5f5f5f
   class: cluster-hover col-xs-12 col-sm-3 col-lg-5
@@ -297,12 +297,12 @@
   table:
     - icon: fa fa-clock-o
       detail: "Mon to Fri for lunch "
-    
+
     #- icon: fa fa-envelope-o
     #  detail: "jonny@john.jo.hn"
-      
+
     - icon: fa fa-phone
       detail: 01209 616160
-    
+
     - icon: fa fa-facebook
-      detail: <a style="color:white" href="https://www.facebook.com/TrevensonR/">Facebook</a>      
+      detail: <a style="color:white" href="https://www.facebook.com/TrevensonR/">Facebook</a>
