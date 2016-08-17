@@ -31,7 +31,9 @@ $(function () {
             spaceBetween: 0,
             nextButton: '.swiper-button-more',
             prevButton: '.swiper-button-less',
-            threshold: 50
+            threshold: 50,
+            mousewheelControl: true
+            
 
         });
 
@@ -509,7 +511,9 @@ function incrementCount(counter) {
 
 // SOCIALFEED init
 $(document).ready(function () {
-    $("#whats-on-group").click(function () {
+    $("#whats-on-group ").click(function (e) {
+            e.preventDefault();
+            swiperH.slideTo(0, 1000, false);
         $('.social-feed-ccg-group').socialfeed({
 
             // FACEBOOK
