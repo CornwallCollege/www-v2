@@ -161,7 +161,7 @@ div.logo-wrap-scroll :nth-child(4) {
 .dropdown .dropdown-menu li a {
     padding: 15px 20px;
     letter-spacing: 1.5px;
-    color: #eee;
+    color: #ddd;
 }
 
 .dropdown .dropdown-menu li a:hover {
@@ -789,7 +789,7 @@ div.logo-wrap-scroll :nth-child(4) {
 .copyright span {
     display: block;
     color: #666;
-    border-top: #eee 1px solid;
+    border-top: #ddd 1px solid;
     padding-top: 30px;
     font-size: 12px;
 }
