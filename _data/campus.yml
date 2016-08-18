@@ -4,6 +4,7 @@
   link: /location-pages/bicton-campus.html
   code: B
   anchor: "bicton-campus"
+  slug: "bicton"  
   partnerships:
     - partner-title: The British Horse Society
       partner-logo: /images/partnerships/bhs.jpg
@@ -148,6 +149,7 @@
   link: /location-pages/bristol-campus.html
   code: M
   anchor: "dbs"
+  slug: "dbs-bristol"
   facilities:
     - title: dBs </br> Music Studios FE
       location: Bristol
@@ -178,6 +180,7 @@
   link: /location-pages/camborne-campus.html
   code: C
   anchor: "camborne"
+  slug: "camborne"    
   partnerships:
     - partner-title: Microsoft
       partner-logo: /images/partnerships/microsoft.jpg
@@ -368,6 +371,7 @@
   link: /location-pages/eden-campus.html
   code: E
   anchor: "eden-project"
+  slug: "eden-project"  
   facilities: 
     - title: Biomes
       detail: The Rainforest and the Mediterranean Biomes are world class entertainment and educational attractions. Work alongside our skilled specialists in these awe-inspiring domes. The beautiful biomes of Eden offer an unique opportunity to experience and study exotic eco-sytems and tropical habitats. The Citrus Grove in the Mediterranean Biome is the stage for our contemporary storytelling and performance students. There are a range of restaurants, cafes and bars that also offer great work experience opportunities to our Chef apprentices.
@@ -414,6 +418,7 @@
   link: /location-pages/falmouth-campus.html
   code: F
   anchor: "falmouth-marine-school"
+  slug: "falmouth-marine-school"  
   partnerships:
   
   - partner-title: Biaza
@@ -530,6 +535,7 @@
   link: /location-pages/newquay-campus.html
   code: N
   anchor: "newquay"
+  slug: "newquay"  
   partnerships:
     - partner-title: Newquay Zoo
       partner-logo: /images/partnerships/newquay-zoo.jpg
@@ -642,6 +648,7 @@
   link: /location-pages/rosewarne-campus.html
   code: R
   anchor: "rosewarne"
+  slug: "rosewarne"    
   partnerships:
     - partner-title: Dartmoor Zoo
       partner-logo: /images/partnerships/dartmoor-zoo.jpg
@@ -751,6 +758,7 @@
   link: /location-pages/saltash-campus.html
   code: S
   anchor: "saltash"
+  slug: "saltash"
   partnerships:
     - partner-title: Microsoft
       partner-logo: /images/partnerships/microsoft.jpg
@@ -897,6 +905,7 @@
   link: /location-pages/st-austell-campus.html
   code: A
   anchor: "st-austell"
+  slug: "st-austell"  
   partnerships:
     - partner-title: Nathan Outlaw Academy
       partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
@@ -1070,6 +1079,7 @@
   link: /location-pages/stoke-campus.html
   code: D
   anchor: "stoke"
+  slug: "stoke"  
   partnerships:
     - partner-title: The British Horse Society
       partner-logo: /images/partnerships/bhs.jpg
@@ -1207,3 +1217,4 @@
   link: /location-pages/sisna-park-campus.html
   code: P
   anchor: "sisna" 
+  slug: "sisna-park" 
