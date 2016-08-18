@@ -17,9 +17,11 @@
 
 		<!-- Thumbnails -->
 		<div class="row margin equal">
-        {% assign areas = site.data.sub-clusters | sort: 'subcluster' %}
-            {% for area in areas %}
-                {% include university/he-area.html %}
+            {% for area in site.data.sub-clusters %}
+                {% assign subs = area.subclusters | sort: 'subcluster' %}
+                {% for sub in subs | sort: 'subcluster' %}
+                    {% include university/he-area.html %}
+                {% endfor %}
             {% endfor %}
 
 		</div>
