@@ -161,7 +161,16 @@
       detail:  17 St Thomas Street</br>Bristol</br>BS1 6JS</br>Tel 03333 442238</br></br>Enquiries 8.30am - 5pm</br>The latest addition to dBs Music is the state-of-the-art HE facility in central Bristol. Equipped with 10 recording and production studios, dedicated surround sound studio, Foley room, large live rooms and exceptional lecture theatre/viewing room. It is also the only education facility in the UK to house the extraordinary API 1608 Recording Console. As in all dBs centres, Bristol HE students are taught by a team of excellent tutors from a vast range of professional backgrounds all backed up by a comprehensive guest lecture programme that in the recent past has included DJ Maseo (De La Soul), Alistair Lindsey (Head of Music Production for Sony Games), Matt Colton (Alchemy Mastering) and many more at the top of their game in the industry.
       link: /bristol-learning-area/
       image: /bristol/dbs-bristol-HE.jpg
-      image-thumb: /bristol/dbs-bristol-HE.jpg  
+      image-thumb: /bristol/dbs-bristol-HE.jpg 
+      
+  learning-areas:
+    - area-title: Cultural & Visitor Economy
+      area-color: D0D102    
+      sub-areas: 
+        
+      - sub-area-title: Music & Performing Arts 
+        sub-area-link: music-performing-arts
+          
      
 - campus: Cornwall College Camborne
   long: 50.2268081
