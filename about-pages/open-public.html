@@ -55,10 +55,11 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
             </section>
             
             <section class="col-xs-12 col-sm-3">
-            
-                {% if campus.logo >= 0 %}
-                <a href="/images/millauto-logo.jpg"></a>
-                {% endif %}
+                <article>
+                    {% if business.logo.size >= 0 %}
+                        <img style="margin-bottom:10px" class="img-responsive" src="{{ business.logo }}">
+                    {% endif %}
+                </article>
                 <article>
                     <table>
                         {% for table in business.table %}
