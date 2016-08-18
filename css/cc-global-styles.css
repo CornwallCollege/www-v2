@@ -1041,3 +1041,8 @@ a {
     }  
     
 }
+a#question{
+    color: white;
+    background: #52b3d9;
+    border-radius: 0;
+}

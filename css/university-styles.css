@@ -1281,7 +1281,7 @@ a .icon.color:hover {
 
 .button.white,
 .icon.white {
-	color: #1a1a1a;
+	color: #52B3D9!important;
 	background: #ffffff;
 }
 
@@ -2083,10 +2083,19 @@ a.play-btn-normal {
 
 .download {
 	position: relative;
-	padding-top: 100px;
-	padding-bottom: 140px;
+	padding-top: 100px!important;
+	padding-bottom: 140px!important;
 	background: #f0f0f0;
+    margin: 0!important;   
+    border: none!important;    
 }
+.download {
+
+    /* max-width: 13em; */
+    /* min-height: 280px; */
+
+}
+
 
 @media (max-width: 767px) {
     .portfolio-thumb {

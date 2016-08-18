@@ -137,20 +137,23 @@
   a-data-filter: .et
   subclusters:
     - subcluster: Marine Engineering & Boatbuilding
+      university-faculty: Marine Engineering & Boatbuilding
       image: /images/et/boatbuilding.jpg
       mobile-image: /images/et/boatbuilding-mobile.jpg
+      he-image: boatbuilding.jpg
       filter: et
       a-href: /career-pages/boatbuilding/index.html
       level: 1 2 3 4
       colour: 00A1CB
       brand:  fms
+      icon: fa-ship
       sector: 16-18 apprenticeships 19plus university
       campus: falmouth-campus
       campus-long:
         - campus-name: Falmouth Campus
           campus-link: /falmouth-campus.html 
 
-      search-link: marine-engineering-boatbuilding
+      search-link: marine-engineering-boatbuilding 
       intro: "If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world carrying out repairs and maintenance, re-fits, conversions and building from scratch."
 
     - subcluster: Construction
@@ -317,11 +320,14 @@
 
 
     - subcluster: Food Technology & Production
+      university-faculty: Food Technology & Production
       image: /images/re/food-production-desktop.jpg
+      he-image: food-production.jpg  
       mobile-image: /images/re/food-production-mobile.jpg
       filter: re
       a-href: /career-pages/food-production/index.html
       level: 2 3 4 5 6
+      icon: fa-industry
       colour: 61AE24  
       brand: dc
       sector: 16-18 19plus apprenticeships university
@@ -335,12 +341,15 @@
       intro: "The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currently in the food and grocery sector, so there's plenty of choice!"
 
     - subcluster: Horticulture & Floristry
+      university-faculty: Horticulture & Floristry    
       image: /images/re/agriculture.jpg
+      he-image: horticulture.jpg  
       mobile-image: /images/re/agriculture-mobile.jpg
       filter: re
       a-href: /career-pages/horticulture/index.html
       level: 1 2 3 6
       colour: 61AE24 
+      icon: fa-envira      
       brand: bic dc
       sector: 16-18 19plus apprenticeships university
       campus: bicton-campus rosewarne-campus stoke-campus eden
@@ -581,13 +590,13 @@
       intro: "Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people."
       
     - subcluster: Public Services & Military Academy
-      university-faculty: 
+      university-faculty: Public Services & Military Academy
       image: /images/hw/public-services.jpg
       mobile-image: /images/hw/public-services-mobile.jpg
       filter: hw
       a-href: /career-pages/public-services/index.html
-      he-image: hair.jpg
-      icon: fa-scissors
+      he-image: public-service.jpg
+      icon: fa-fire-extinguisher
       level: 1 2 3
       colour: D70060  
       brand: cc
@@ -643,12 +652,15 @@
       intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
 
     - subcluster: Social Care & Health
+      university-faculty: Social Care & Health
       image: /images/hw/health2.jpg
       mobile-image: /images/hw/health2-mobile.jpg
+      he-image: social.jpg   
       filter: hw
       a-href: /career-pages/health/index.html
       level: 2 3 4 5 6
       colour: D70060  
+      icon: fa-users       
       brand: cc
       sector: 16-18 19plus apprenticeships university
       campus: camborne-campus st-austell-campus
@@ -818,5 +830,5 @@
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html   
 
-      search-link: foundation-learning
+      search-link: independent-living-skills
       intro:
