@@ -398,11 +398,12 @@ div.logo-wrap-scroll :nth-child(4) {
         display: inline-block;
     }
 }
-@media(max-width: 1200px) {
+@media(min-width: 680px) and (max-width: 1200px) {
     li.dropdown:hover ul.submenu-items  {
         background: white;
         display: block;
         z-index: 99;
+        margin-top: 5px;
     }
 }
 /* SUBMENU ITEMS */

@@ -108,7 +108,7 @@
       area-color: F18D05    
       sub-areas: 
       - sub-area-title: Independent Living Skills
-        sub-area-link: independent-living-skills
+        sub-area-link: foundation-learning
 
     
     - area-title: Health & Wellbeing
@@ -329,7 +329,7 @@
       area-color: F18D05        
       sub-areas:        
       - sub-area-title: Independent Living Skills
-        sub-area-link: independent-living-skills
+        sub-area-link: foundation-learning
     
     - area-title: Health & Wellbeing
       area-color: D70060  
@@ -878,7 +878,7 @@
       area-color: F18D05    
       sub-areas: 
       - sub-area-title: Independent Living Skills
-        sub-area-link: independent-living-skills
+        sub-area-link: foundation-learning
     
     - area-title: Health & Wellbeing
       area-color: D70060    
@@ -1040,7 +1040,7 @@
       area-color: F18D05
       sub-areas: 
       - sub-area-title: Independent Living Skills
-        sub-area-link: independent-living-skills
+        sub-area-link: foundation-learning
     
     - area-title: Health & Wellbeing
       area-color: D70060
@@ -1177,7 +1177,7 @@
       area-color: F18D05
       sub-areas: 
       - sub-area-title: Independent Living Skills
-        sub-area-link: independent-living-skills
+        sub-area-link: foundation-learning
     
     - area-title: Health & Wellbeing
       area-color: D70060

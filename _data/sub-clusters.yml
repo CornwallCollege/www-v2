@@ -150,7 +150,7 @@
         - campus-name: Falmouth Campus
           campus-link: /falmouth-campus.html 
 
-      search-link: marine-engineering-building 
+      search-link: marine-engineering-boatbuilding
       intro: "If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world carrying out repairs and maintenance, re-fits, conversions and building from scratch."
 
     - subcluster: Construction
@@ -818,5 +818,5 @@
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html   
 
-      search-link: independent-living-skills
+      search-link: foundation-learning
       intro:
