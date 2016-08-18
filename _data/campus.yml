@@ -350,7 +350,7 @@
       area-color: 113F8C
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
-        sub-area-link: applied-science-forensic-science
+        sub-area-link: applied-science-forensics
 
     - area-title: Technology
       area-color: 00A1CB
@@ -1058,7 +1058,7 @@
       area-color: 113F8C
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
-        sub-area-link: applied-science-forensic-science
+        sub-area-link: applied-science-forensics
 
     - area-title: Technology
       area-color: 00A1CB
