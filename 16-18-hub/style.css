@@ -34,7 +34,7 @@
 */
 .lead{
     font-size: 1.7em!important;
-    line-height: 1.5em;
+    line-height: 1.5em!important;
 }
 body { font-size: 14px; font-family: 'Lato', sans-serif; }
 /**/
@@ -2583,6 +2583,13 @@ a {
 .punchout h2 span{
     font-weight: bold;
 }
+@media(max-width:680px;){
+    .punchout h2{
+        text-transform: uppercase;
+        font-size: 1.9em;
+    }
+}
+
 #question{
     color:white;
     background: #52b3d9;
