@@ -1701,15 +1701,28 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* RURAL ECONOMY | agriculture horticulture | header bar */
+/* RURAL ECONOMY | horticulture floristry | header bar */
 
-#agriculture-horticulture {
+#horticulture-floristry {
+    background: url(../images/area-banners/horticulture-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+@media(min-width:768px) {
+    #horticulture-floristry {
+        background: url(../images/area-banners/horticulture-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | land based engineering | header bar */
+
+#land-based-engineering {
     background: url(../images/area-banners/agriculture-horticulture-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
 @media(min-width:768px) {
-    #agriculture-horticulture {
+    #land-based-engineering {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
@@ -1887,7 +1900,8 @@ div#logo-wrap #bicton{
     #equine,
     #food-production,
     #countryside-management,
-    #agriculture-horticulture,
+    #horticulture-floristry,
+    #land-based-engineering,
     #animal-science-management,
     #health,
     #social-care,
@@ -2315,16 +2329,31 @@ APPLY BARS =====================================================================
         background-repeat: no-repeat;
     }
 }
-/* RURAL ECONOMY | agriculture horticulture | apply now bar */
+/* RURAL ECONOMY | horticulture floristry | apply now bar */
+.horticulture-floristry-bar {
+    background: url(..(../images/area-banners/horticulture-mobile.jpg);
+    /* Standard syntax */
+}
+/*DESKTOP version of the background*/
 
-.agriculture-horticulture-bar {
+@media(min-width:768px) {
+    .horticulture-floristry-bar {
+        background: url(../images/area-banners/horticulture-desktop.jpg);
+
+        background-position:50% 0;
+        background-repeat: no-repeat;
+    }
+}
+/* RURAL ECONOMY | land based engineering | apply now bar */
+
+.land-based-engineering-bar {
     background: url(../images/area-banners/agriculture-horticulture-mobile.jpg);
     /* Standard syntax */
 }
 /*DESKTOP version of the background*/
 
 @media(min-width:768px) {
-    .agriculture-horticulture-bar {
+    .land-based-engineering-bar {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg);
 
         background-position:50% 0;
@@ -2589,7 +2618,8 @@ APPLY BARS =====================================================================
     #equine,
     #food-production,
     #countryside-management,
-    #agriculture-horticulture,
+    #horticulture-floristry,
+    #land-based-engineering,
     #animal-science-management,
     #health,
     #social-care,
@@ -2625,7 +2655,8 @@ APPLY BARS =====================================================================
     .equine-bar,
     .food-production-bar,
     .countryside-management-bar,
-    .agriculture-horticulture-bar,
+    .horticulture-floristry-bar,
+    .land-based-engineering-bar,
     .animal-science-management-bar,
     .health-bar,
     .social-care-bar,
@@ -2666,7 +2697,8 @@ APPLY BARS =====================================================================
     #equine,
     #food-production,
     #countryside-management,
-    #agriculture-horticulture,
+    #horticulture-floristry,
+    #land-based-engineering,
     #animal-science-management,
     #health,
     #social-care,
@@ -2702,7 +2734,8 @@ APPLY BARS =====================================================================
     .equine-bar,
     .food-production-bar,
     .countryside-management-bar,
-    .agriculture-horticulture-bar,
+    .horticulture-floristry-bar,
+    .land-based-engineering-bar,
     .animal-science-management-bar,
     .health-bar,
     .social-care-bar,

@@ -342,9 +342,9 @@
 
     - subcluster: Horticulture & Floristry
       university-faculty: Horticulture & Floristry
-      image: /images/re/agriculture.jpg
-      he-image: horticulture.jpg
-      mobile-image: /images/re/agriculture-mobile.jpg
+      image: /images/re/horticulture-floristry.jpg
+      he-image: horticulture-floristry.jpg
+      mobile-image: /images/re/horticulture-floristry.jpg
       filter: re
       a-href: /career-pages/horticulture/index.html
       level: 1 2 3 6
