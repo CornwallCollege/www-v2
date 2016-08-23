@@ -4889,7 +4889,7 @@ button.collapsed h3:before{
   transition: background-color 0.6s ease;
 }
 
-.active {
+.dot-active {
   background-color: #717171;
 }
 
