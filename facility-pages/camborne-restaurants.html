@@ -57,24 +57,62 @@ background-image: sport-desktop.jpg
         <article style="margin-bottom: 15px;">
                 <table>
                     <tr>
-                    <td class="text-left" style="padding:5px; background-color: #52B3D9; font-size:20px; opacity:0.9"><a style="color:white" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a></td>
-                    </tr>
-                    <tr>
-                        <td style="padding:5px; background-color: #52B3D9; font-size:20px; opacity:0.9">
+                        <td style="padding:5px; ; background-color: #f7f7f7; font-size:20px; opacity:0.9">
                             <form action="https://maps.google.com/maps" method="get" target="_blank">
-                            <label for="saddr" style="color:white; font-size:20px; font-weight:300">Enter your location</label><br/>
-                            <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="TR16 3DR"/>
-                            <input type="hidden" name="daddr" value="{{page.campus}} {{page.address}} {{page.postcode}}" />
-                            <input type="submit" class="icon-btn" value="Get directions" style="color:white; margin-right:14px" />
+                            <label for="saddr" style="color:black; font-size:20px; font-weight:300">Enter your location</label><br/>
+                            <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
+                            <input type="hidden" name="daddr" value="CAMBORNE CAMPUS Trevenson Road, Pool, Redruth, Cornwall TR15 3RD" />
+                            <input type="submit" class="icon-btn" value="Get directions" style="color:white; margin-right:14px; background-color: #52b3d9" />
                 </form>
                         </td>
-                    <td>
-                    
-                    </td>
                     </tr>
-                    
+                    <tr>
+                        <td class="text-center" style="padding:5px; background-color: #f7f7f7; font-size:20px; opacity:0.9"><div style="background-color:#52b3d9; max-width: 185px; padding:5px;"><a style="color:white;font-size:12.5px; background-color: #52b3d9; padding:5px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a></div></td>
+                    </tr>
                 </table>
-        </article>    
+        </article>
+    <!-- Slideshow -->
+  <div class="slideshow-container" style="min-width: 250px; min-height:250px;max-width: 250px; max-height:250px; margin-right:139px">
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="/images/facilities/slideshow/demo-kitchen-thumb.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="/images/facilities/slideshow/training-kitchen-thumb.jpg" style="width:100%">
+  </div>
+</div>
+<br>
+
+<div style="text-align:center; margin-right: 134px;
+}">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span>  
+</div> 
+
+<!-- Slideshow JS -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2225); // Change image every 3.5 seconds
+}
+</script>        
         
     </article>
 
