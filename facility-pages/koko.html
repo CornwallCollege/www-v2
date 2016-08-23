@@ -67,27 +67,27 @@ background-image: hair-beauty-desktop.jpg
                 </table>
         </article>  
     <!-- Slideshow -->
-    <div class="slideshow-container" style="min-width: 250px; min-height:250px;max-width: 250px; max-height:250px; margin-right:139px">
+    <div class="slideshow-container" style="width:78%; margin-right:139px">
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="/images/facilities/slideshow/koko.jpg" style="width:100%">
-  </div>
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="/images/facilities/slideshow/koko.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="/images/facilities/slideshow/koko-hair-beauty-salon.jpg" style="width:100%">
+        </div>        
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="/images/facilities/slideshow/koko-hair-beauty.jpg" style="width:100%">
+        </div>        
         
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="/images/facilities/slideshow/koko-hair-beauty-salon.jpg" style="width:100%">
-  </div>        
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="/images/facilities/slideshow/koko-hair-beauty.jpg" style="width:100%">
-  </div>        
-        
-</div>
+    </div>
 <br>
 
-<div style="text-align:center; margin-right: 134px;
+<div style="text-align:center; margin-right: 85px;
 }">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
@@ -109,10 +109,10 @@ function showSlides() {
     slideIndex++;
     if (slideIndex> slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" dot-active", "");
     }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    dots[slideIndex-1].className += " dot-active";
     setTimeout(showSlides, 2225); // Change image every 3.5 seconds
 }
 </script>    
