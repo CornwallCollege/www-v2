@@ -1701,15 +1701,28 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* RURAL ECONOMY | agriculture horticulture | header bar */
+/* RURAL ECONOMY | horticulture floristry | header bar */
 
-#agriculture-horticulture {
+#horticulture-floristry {
+    background: url(../images/area-banners/horticulture-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+@media(min-width:768px) {
+    #horticulture-floristry {
+        background: url(../images/area-banners/horticulture-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* RURAL ECONOMY | land based engineering | header bar */
+
+#land-based-engineering {
     background: url(../images/area-banners/agriculture-horticulture-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
 @media(min-width:768px) {
-    #agriculture-horticulture {
+    #land-based-engineering {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
@@ -1887,7 +1900,8 @@ div#logo-wrap #bicton{
     #equine,
     #food-production,
     #countryside-management,
-    #agriculture-horticulture,
+    #horticulture-floristry,
+    #land-based-engineering,
     #animal-science-management,
     #health,
     #social-care,
@@ -2315,16 +2329,31 @@ APPLY BARS =====================================================================
         background-repeat: no-repeat;
     }
 }
-/* RURAL ECONOMY | agriculture horticulture | apply now bar */
+/* RURAL ECONOMY | horticulture floristry | apply now bar */
+.horticulture-floristry-bar {
+    background: url(..(../images/area-banners/horticulture-mobile.jpg);
+    /* Standard syntax */
+}
+/*DESKTOP version of the background*/
 
-.agriculture-horticulture-bar {
+@media(min-width:768px) {
+    .horticulture-floristry-bar {
+        background: url(../images/area-banners/horticulture-desktop.jpg);
+
+        background-position:50% 0;
+        background-repeat: no-repeat;
+    }
+}
+/* RURAL ECONOMY | land based engineering | apply now bar */
+
+.land-based-engineering-bar {
     background: url(../images/area-banners/agriculture-horticulture-mobile.jpg);
     /* Standard syntax */
 }
 /*DESKTOP version of the background*/
 
 @media(min-width:768px) {
-    .agriculture-horticulture-bar {
+    .land-based-engineering-bar {
         background: url(../images/area-banners/agriculture-horticulture-desktop.jpg);
 
         background-position:50% 0;
@@ -2589,7 +2618,8 @@ APPLY BARS =====================================================================
     #equine,
     #food-production,
     #countryside-management,
-    #agriculture-horticulture,
+    #horticulture-floristry,
+    #land-based-engineering,
     #animal-science-management,
     #health,
     #social-care,
@@ -2625,7 +2655,8 @@ APPLY BARS =====================================================================
     .equine-bar,
     .food-production-bar,
     .countryside-management-bar,
-    .agriculture-horticulture-bar,
+    .horticulture-floristry-bar,
+    .land-based-engineering-bar,
     .animal-science-management-bar,
     .health-bar,
     .social-care-bar,
@@ -2666,7 +2697,8 @@ APPLY BARS =====================================================================
     #equine,
     #food-production,
     #countryside-management,
-    #agriculture-horticulture,
+    #horticulture-floristry,
+    #land-based-engineering,
     #animal-science-management,
     #health,
     #social-care,
@@ -2702,7 +2734,8 @@ APPLY BARS =====================================================================
     .equine-bar,
     .food-production-bar,
     .countryside-management-bar,
-    .agriculture-horticulture-bar,
+    .horticulture-floristry-bar,
+    .land-based-engineering-bar,
     .animal-science-management-bar,
     .health-bar,
     .social-care-bar,
@@ -4816,4 +4849,69 @@ button.collapsed h3:before{
     font-size: 12px;
     font-weight: 400;
     border: solid 1px #52b3d9;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot-active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.25s;
+  animation-name: fade;
+  animation-duration: 2.25s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
