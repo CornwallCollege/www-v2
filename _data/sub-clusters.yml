@@ -800,15 +800,15 @@
 #Foundation Learning F18D05
 - cluster: Foundation Learning
   filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
-  cluster-link: #
+  a-href: /career-pages/foundation/index.html
   a-class: transition fnd
-  a-data-filter: .fnd
+  a-data-filter:
   subclusters:
     - subcluster: Foundation Learning
       image: /images/hw/public-services.jpg
       mobile-image: /images/hw/public-services-mobile.jpg
-      filter:
-      a-href: /career-pages/public-services/index.html
+      filter: foundation
+      a-href: /career-pages/foundation/index.html
       level: Entry 1 2
       colour: F18D05
       brand: cc dc bc
