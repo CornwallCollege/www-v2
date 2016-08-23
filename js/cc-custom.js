@@ -12,6 +12,16 @@ jQuery(document).on("click", "#question", function (e) {
     window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;
 });
 
+
+/* Set brand cookie on home */
+$(function () {
+
+    var hash = location.hash;
+    var brand_cookie = Cookies.get('brand');
+
+});
+
+
 /* SWIPER options (home page)*/
 $(function () {
     if (location.pathname === "/") {
@@ -111,51 +121,151 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(0, 1000, false);
             changeCurrentLogo();
-            //$(this).attr('src', '/images/slug.jpg');
-            $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
-            $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
-            $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
         })
         $('#dc-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(1, 1000, false);
             changeCurrentLogo();
-            //$(this).attr('src', '/images/slug.jpg');
-            $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
-            $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
-            $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
         })
         $('#fms-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(2, 1000, false);
             changeCurrentLogo();
-            //$(this).attr('src', '/images/slug.jpg');
-            $('#bic-logo').attr('src', '/images/bic-brand-logo.png');
-            $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
-            $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
         })
         $('#bic-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(3, 1000, false);
             changeCurrentLogo();
-            //$(this).attr('src', '/images/slug.jpg');
-            $('#fms-logo').attr('src', '/images/fms-brand-logo.png');
-            $('#cc-logo').attr('src', '/images/cc-brand-logo.png');
-            $('#dc-logo').attr('src', '/images/dc-brand-logo.png');
+
         })
 
         var slide = swiperH.slides[swiperH.activeIndex];
         loadVideo(slide);
     }
 
-    // Ajax menu into #main-menu
-    $(document).ready(function () {
-        $("#main-menu").load("/global-menu.html");
-        $("#footer").load("/global-footer.html");
+
+});
+
+// resposive logo; first click open second click follow link
+$('.brand-image').click(function (e) {
+    if (!$('#logo-wrap').children().hasClass('active')) {
+        //$('#logo-wrap').removeClass('active');
+        $('#logo-wrap').children().addClass('active');
+        e.preventDefault();
+    } else {
+        $('#logo-wrap').children().removeClass('active');
+       //return true;
+    }
+});
+
+$(document).click(function (e) {
+    if ($(e.target).is('.brand-image') === false) {
+        $("#logo-wrap").children().removeClass("active");
+    }
+});
+
+/* Shrink logo on scroll */
+$(function () {
+    var logoWrap = $("#logo-wrap");
+    var currentBrand = $(".current-brand");
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 300) {
+            //if page scrolls add scroll class and remove active class
+            logoWrap.removeClass("logo-wrap").addClass("logo-wrap-scroll");
+            currentBrand.addClass("current-brand-scroll");
+            $("#logo-wrap").children().removeClass("active");
+
+            // Add click to expand logo cluster
+            $(".brand-image").click(function () {
+                logoWrap.removeClass("logo-wrap-scroll")
+            });
+
+            //add active class to white bg behind logos (slides down)
+            $('#white-nav-bg').addClass('active');
+
+        } else {
+            // if its at the top of the page
+            logoWrap.removeClass("logo-wrap-scroll").addClass('logo-wrap');
+            //remove active class at the top of the page
+            $('#white-nav-bg').removeClass('active');
+
+        }
     });
 });
 
-/* swiper ends */
+/* Set brand cookie on home */
+$(function () {
+
+var hash = location.hash;
+var brand_cookie = Cookies.get('brand'); 
+    
+    
+    //set brand on home page visit
+    if (location.pathname === "/") {
+        //get the hash from the URL
+
+        if (hash == '') {        
+            var brand_cookie = Cookies.set('brand', '#cornwall' );             
+            var course_brand_cookie = Cookies.set('course-brand', '#cornwall', {
+                domain: '.cornwall.ac.uk'
+            });
+            
+        } else {
+            var brand_cookie = Cookies.set('brand', hash );             
+            var course_brand_cookie = Cookies.set('course-brand', hash, {
+            domain: '.cornwall.ac.uk'
+        });
+            Cookies.get('brand');
+        }
+    }
+    //set brand on logo click
+    $(".brand-image").click(function () {
+            var clickBrand = $(this).parent().parent().prop("hash");
+            var brand_cookie = Cookies.set('brand', clickBrand );        
+            var course_brand_cookie = Cookies.set('course-brand', clickBrand, { domain: '.cornwall.ac.uk' });
+        
+            //apply z-index to correctly stack the logos
+        $( Cookies.get('brand') ).css("z-index", "999");
+            var offset = 1;
+            $( Cookies.get('brand') ).prevAll().each(function(index){
+               $(this).css("z-index", 999 - offset);
+                offset++;
+            });
+            $( Cookies.get('brand') ).nextAll().each(function(index){
+               $(this).css("z-index", 999 - offset);
+                offset++;
+         
+            });
+    });
+    //
+
+        
+            $('.logo').removeClass('current-brand');
+            $('.logo').addClass('sub-brand grow');
+            $( Cookies.get('brand') ).removeClass('grow');
+            $( Cookies.get('brand') ).addClass('current-brand');
+            //bring the active logo to the front
+            $( Cookies.get('brand') ).css("z-index", "999");
+           
+            //apply z-index to correctly stack the logos
+            var offset = 1;
+            $( Cookies.get('brand') ).prevAll().each(function(index){
+               $(this).css("z-index", 999 - offset);
+                offset++;
+            });
+            $( Cookies.get('brand') ).nextAll().each(function(index){
+               $(this).css("z-index", 999 - offset);
+                offset++;
+         
+            });
+  
+    
+});
+
+
+
 /* SUPER SLIDES OPTIONS */
 if ($("#slides").length) {
     $('#slides').superslides({
@@ -862,112 +972,12 @@ if ( window.location.pathname === '/' ){
     });
 }
 
-// resposive logo; first click open second click follow link
-$('.brand-image').click(function (e) {
-    if (!$('#logo-wrap').children().hasClass('active')) {
-        $('#logo-wrap').removeClass('active');
-        $('#logo-wrap').children().addClass('active');
-        e.preventDefault();
-    } else {
-        return true;
-    }
-});
 
 // $(document).click(function (e) {
 //     if ($(e.target).is('.brand-image') === false) {
 //         $("#logo-wrap").children().removeClass("active");
 //     }
 // });
-
-/* Shrink logo on scroll */
-$(function () {
-    var logoWrap = $("#logo-wrap");
-    var currentBrand = $(".current-brand");
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-
-        if (scroll >= 300) {
-            //if page scrolls add scroll class and remove active class
-            logoWrap.removeClass("logo-wrap").addClass("logo-wrap-scroll");
-            currentBrand.addClass("current-brand-scroll");
-            $("#logo-wrap").children().removeClass("active");
-
-            // Add click to expand logo cluster
-            $(".brand-image").click(function () {
-                logoWrap.removeClass("logo-wrap-scroll")
-            });
-
-            //add active class to white bg behind logos (slides down)
-            $('#white-nav-bg').addClass('active');
-
-        } else {
-            // if its at the top of the page
-            logoWrap.removeClass("logo-wrap-scroll").addClass('logo-wrap');
-            //remove active class at the top of the page
-            $('#white-nav-bg').removeClass('active');
-            
-            // Add active class to current brand
-            currentBrand.addClass('active');
-        }
-    });
-});
-
-/* Set brand cookie on home */
-$(function () {
-
-    var hash = location.hash;
-    var brand_cookie = Cookies.get('brand');
-
-
-    //set brand on home page visit
-    if (location.pathname === "/") {
-        //get the hash from the URL
-
-        if (hash == '') {
-            var brand_cookie = Cookies.set('brand', '#cornwall');
-            var course_brand_cookie = Cookies.set('course-brand', '#cornwall', {
-                domain: '.cornwall.ac.uk'
-            });
-
-        } else {
-            var brand_cookie = Cookies.set('brand', hash);
-            var course_brand_cookie = Cookies.set('course-brand', hash, {
-                domain: '.cornwall.ac.uk'
-            });
-            Cookies.get('brand');
-        }
-    }
-    //set brand on logo click
-    $(".brand-image").click(function () {
-        var brand_cookie = Cookies.set('brand', hash);
-        var course_brand_cookie = Cookies.set('course-brand', hash, {
-            domain: '.cornwall.ac.uk'
-        });
-
-    });
-    //
-
-    $('.logo').removeClass('current-brand');
-    $('.logo').addClass('sub-brand grow');
-    $(Cookies.get('brand')).removeClass('grow');
-    $(Cookies.get('brand')).addClass('current-brand').addClass('active');
-    //bring the active logo to the front
-    $(Cookies.get('brand')).css("z-index", "999");
-
-    //apply z-index to correctly stack the logos
-    var offset = 1;
-    $(Cookies.get('brand')).prevAll().each(function (index) {
-        $(this).css("z-index", 999 - offset);
-        offset++;
-    });
-    $(Cookies.get('brand')).nextAll().each(function (index) {
-        $(this).css("z-index", 999 - offset);
-        offset++;
-
-    });
-
-});
-
 
 
 
