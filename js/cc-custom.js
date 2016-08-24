@@ -647,20 +647,8 @@ function incrementCount(counter) {
 // SOCIALFEED init
 $(document).ready(function () {
     
-        function changeCurrentVslide() {
-
-            var slide = swiperV.slides[swiperV.activeIndex];
-            
-            if (swiperV.slides.length > swiperV.activeIndex + 1) {
-                loadVideo(swiperV.slides[swiperV.activeIndex + 1]);
-            }
-
-            if (swiperH.activeIndex > 0) {
-                loadVideo(swiperV.slides[swiperV.activeIndex - 1]);
-            }
-
-        }    
-    
+    //set brand on home page visit    
+    if (location.pathname === "/") {
 
         $('.social-feed-ccg-group').socialfeed({
 
@@ -776,7 +764,7 @@ $(document).ready(function () {
             show_media: true,
             length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
         });
-
+    }
 
 });
 

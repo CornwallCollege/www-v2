@@ -35,6 +35,8 @@ if (typeof Object.create !== 'function') {
                 if (options[network]) {
                     if (options[network].accounts) {
                         posts_to_load_count += options[network].limit * options[network].accounts.length;
+                    } else if (options[network].urls ){
+                        posts_to_load_count += options[network].limit * options[network].urls.length;
                     } else {
                         posts_to_load_count += options[network].limit;
                     }
@@ -216,7 +218,7 @@ if (typeof Object.create !== 'function') {
             twitter: {
                 posts: [],
                 loaded: false,
-                api: 'https://api.tweecool.com/',
+                api: 'http://api.tweecool.com/',
 
                 getData: function(account) {
 
@@ -265,20 +267,20 @@ if (typeof Object.create !== 'function') {
                     unifyPostData: function(element) {
                         var post = {};
                         if (element.id) {
-                            post.id = element.id;
+                            post.id = element.id_str;
                             //prevent a moment.js console warning due to Twitter's poor date format.
                             post.dt_create = moment(new Date(element.created_at));
-                            post.author_link = 'https://twitter.com/' + element.user.screen_name;
-                            post.author_picture = element.user.profile_image_url;
+                            post.author_link = 'http://twitter.com/' + element.user.screen_name;
+                            post.author_picture = element.user.profile_image_url_https;
                             post.post_url = post.author_link + '/status/' + element.id_str;
                             post.author_name = element.user.name;
                             post.message = element.text;
                             post.description = '';
-                            post.link = 'https://twitter.com/' + element.user.screen_name + '/status/' + element.id_str;
+                            post.link = 'http://twitter.com/' + element.user.screen_name + '/status/' + element.id_str;
 
                             if (options.show_media === true) {
                                 if (element.entities.media && element.entities.media.length > 0) {
-                                    var image_url = element.entities.media[0].media_url.replace('http:','https:');
+                                    var image_url = element.entities.media[0].media_url_https;
                                     if (image_url) {
                                         post.attachment = '<img class="attachment" src="' + image_url + '" />';
                                     }
@@ -345,9 +347,9 @@ if (typeof Object.create !== 'function') {
                     getExternalImageURL: function(image_url, parameter) {
                         image_url = decodeURIComponent(image_url).split(parameter + '=')[1];
                         if (image_url.indexOf('fbcdn-sphotos') === -1) {
-                            return image_url.split('&')[0].replace('http:','https:');
+                            return image_url.split('&')[0];
                         } else {
-                            return image_url.replace('http:','https:');
+                            return image_url;
                         }
 
                     },
@@ -716,37 +718,55 @@ if (typeof Object.create !== 'function') {
             rss : {
                 posts: [],
                 loaded: false,
-                api : 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0',
+                api : 'https://query.yahooapis.com/v1/public/yql?q=',
+                datatype: 'json',
 
                 getData: function(url) {
-                    var limit = '&num='+ options.rss.limit,
-                      request_url = Feed.rss.api + limit + '&q=' + encodeURIComponent(url);
+                    var limit = options.rss.limit,
+                      yql = encodeURIComponent('select entry FROM feednormalizer where url=\'' + url + '\' AND output=\'atom_1.0\' | truncate(count=' + limit + ')' ),
+                      request_url = Feed.rss.api + yql + '&format=json&callback=?';
 
-                    Utility.request(request_url, Feed.rss.utility.getPosts);
+                    Utility.request(request_url, Feed.rss.utility.getPosts, Feed.rss.datatype);
                 },
                 utility: {
 
                     getPosts: function(json) {
-                        $.each(json.responseData.feed.entries, function(index, element) {
-                            var post = new SocialFeedPost('rss', Feed.rss.utility.unifyPostData(index, element));
-                            post.render();
-                        });
+                        console.log(json);
+                        if (json.query.count > 0 ){
+                            $.each(json.query.results.feed, function(index, element) {
+                                var post = new SocialFeedPost('rss', Feed.rss.utility.unifyPostData(index, element));
+                                post.render();
+                            });
+                        }
                     },
 
                     unifyPostData: function(index, element){
+
+                        var item = element;
+
+                        if ( element.entry !== undefined ){
+                            item = element.entry;
+                        }
                         var post = {};
 
-                        post.id = index;
-                        post.dt_create= moment(element.publishedDate, 'ddd, DD MMM YYYY HH:mm:ss ZZ', 'en');
+                        post.id = '"' + item.id + '"';
+                        post.dt_create= moment(item.published, 'YYYY-MM-DDTHH:mm:ssZ', 'en');
+
                         post.author_link = '';
                         post.author_picture = '';
-                        post.author_name = element.author;
-                        post.message = Utility.stripHTML(element.title);
-                        post.description = Utility.stripHTML(element.content);
+                        post.author_name = '';
+                        if( item.creator !== undefined ){
+                            post.author_name = item.creator;
+                        }
+                        post.message = item.title;
+                        post.description = '';
+                        if( item.summary !== undefined ){
+                            post.description = Utility.stripHTML(item.summary.content);
+                        }
                         post.social_network = 'rss';
-                        post.link = element.link;
-                        if (options.show_media && element.mediaGroups ) {
-                            post.attachment = '<img class="attachment" src="' + element.mediaGroups[0].contents[0].url + '" />';
+                        post.link = item.link.href;
+                        if (options.show_media && item.thumbnail !== undefined ) {
+                            post.attachment = '<img class="attachment" src="' + item.thumbnail.url + '" />';
                         }
                         return post;
                     }
