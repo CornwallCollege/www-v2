@@ -2897,6 +2897,7 @@ APPLY BARS =====================================================================
 /* Cluster Colors*/
 
 .career-filter ul li a.as {
+    border: 5px solid #616161;
     color: white;
     background-color: #616161;
 }
