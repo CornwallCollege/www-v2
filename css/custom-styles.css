@@ -691,7 +691,6 @@ button.icon-btn:hover,
         position: absolute;
         top: 0;
         margin-top: 15%;
-}
     }
     .portal a.ghost {
         width: 100%;
@@ -2365,7 +2364,7 @@ APPLY BARS =====================================================================
 }
 /* RURAL ECONOMY | horticulture floristry | apply now bar */
 .horticulture-floristry-bar {
-    background: url(..(../images/area-banners/horticulture-mobile.jpg);
+    background: url(../images/area-banners/horticulture-mobile.jpg);
     /* Standard syntax */
 }
 /*DESKTOP version of the background*/
