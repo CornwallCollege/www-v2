@@ -1,0 +1,27 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-12 col-md-3 pull-right">
+        <h2><strong>19+</strong> COURSE AREAS</h2>
+        <p class="lead">You can study an apprenticeship in over 80 different areas</p>
+    </article>
+
+    <article class="col-sm-12 col-md-8 col-md-offset-1 clearfix right apprenticeships">
+        <div class="main">
+            <ul class="og-grid">
+                {% for 19plus-cluster in site.data.sub-clusters %}
+                  {% for 19plus-area in 19plus-cluster.subclusters %}
+                     {% if 19plus-area.sector contains '19plus' %}
+                     <li class="" style="transition: height 350ms ease;">
+                       <a class="col-xs-12" href="{{ site.course_site_baseurl }}/course_type/19plus/cluster/{{ university-area.search-link }}">
+                         <span class="col-xs-12 19plus-area" style="border-left:10px solid #{{ 19plus-area.colour }};">{{ 19plus-area.subcluster }}</span>
+                       </a>
+                     </li>
+                     {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+
+    </article>
+  </section>
+</section>

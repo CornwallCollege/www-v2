@@ -4,10 +4,10 @@
         <h2><strong>APPRENTICESHIP</strong> COURSE AREAS</h2>
         <p class="lead">You can study an apprenticeship in over 80 different areas</p>
     </article>
-    
+
     <article class="col-sm-12 col-md-8 col-md-offset-1 clearfix right apprenticeships">
         <div class="main">
-            <ul class="og-grid"> 
+            <ul class="og-grid">
                 {% for apprenticeship-cluster in site.data.sub-clusters %}
                   {% for apprenticeship-area in apprenticeship-cluster.subclusters %}
                      {% if apprenticeship-area.sector contains 'apprenticeships' %}
@@ -16,8 +16,8 @@
                     {% endfor %}
                 {% endfor %}
             </ul>
-        </div>    
-        
+        </div>
+
     </article>
   </section>
 </section>

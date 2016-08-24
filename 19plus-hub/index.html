@@ -1,0 +1,103 @@
+---
+layout: hub
+title: <span itemprop="name">19+ hub</span>
+description: The home of excellent further education in the the south west | The Cornwall College Group
+link: 16-18-hub
+apply-area: Course Intreast Area - 16-18
+
+videos:
+- youtube-id: XKFnaC3pIm0
+- youtube-id: C_yLJBhRMt8
+- youtube-id: R9nhAoZIeYI
+
+usefulLinks:
+    - href: /google.com
+      title: how to apply
+      baseurl: true
+      suburl: student-support
+
+    - href: /google.com
+      title: order prospectus
+      baseurl: true
+      suburl: student-support
+
+    - href: /google.com
+      title: transport
+      baseurl: true
+      suburl: student-support
+
+    - href: /google.com
+      title: see your campus
+      baseurl: true
+      suburl: student-support
+
+    - href: /google.com
+      title: why you have to stay in education until 18
+      baseurl: true
+      suburl: student-support
+---
+
+    <!-- HEADER SECTION -->
+    <section id="services" class="col-md-12 jumbotron header-title">
+        <header class="container">
+            <h2><a href="/"><small>Home </small></a><span>{{ page.title }}</span></h2>
+
+        </header>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- BODY SECTION -->
+
+    <section class="container">
+        <div class="col-sm-12 col-md-8">
+            <p class="lead ">Our specialist programmes of study combine qualifications, work readiness skills training and work experience, giving you a careers edge and the very best preparation for the world of work.</p>
+            <p>We offer a variety of qualifications including A-levels, BTEC and City &amp; Guilds Diplomas, Technical Baccalaureates, Practical Skills Training, NVQs and Apprenticeships at our colleges: Cornwall College, Duchy College, Bicton College and Falmouth Marine School.</p>
+            <p>A few reasons to choose #thecareercollege… (this may be punch boxes in a slider perhaps? Dunno but needs to be SEO searchable) We are one of the best colleges for catering studies in the UK, with partnerships with Nathan Outlaw, River Cottage and Fifteen Cornwall.</p>
+            <p>We are the biggest provider of apprenticeships in the South West, with over 80 career pathways to choose from. We are at the forefront of delivering cutting edge training that’s right for industry, our partnership with Software Cornwall has seen the emergence of a new tech Bacc in Software Development, delivered for the first time in industry at Bluefruit Software. Our students and staff are award-winners, they include champion SkillBuild trades apprentices, Film School and media students winning over 30 awards in a decade and our Duchy College is the only land-based college to win a Queen’s Anniversary Prize for Education &amp; Training.</p>
+            <p>Our learners go on to great things: for example 100% of our watersports students are employed by the end of their course and travel the world.</p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 useful-links">
+            <h3>Links</h3>
+            {% for link in page.usefulLinks %}
+                <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}"> {{ link.title | upcase }}</a>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="col-sm-12 full-width-video-block">
+        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
+            {% youtube https://youtu.be/R9nhAoZIeYI %}
+            <div class="text-center caption">
+                <h4>Video Title</h4>
+                <p>Short Description about the video</p>
+            </div>
+        </article>
+        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
+            {% youtube https://youtu.be/XKFnaC3pIm0 %}
+            <div class="text-center caption">
+                <h4>Video Title</h4>
+                <p>Short Description about the video</p>
+            </div>
+        </article>
+        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
+            {% youtube https://youtu.be/C_yLJBhRMt8 %}
+            <div class="text-center caption">
+                <h4>Video Title</h4>
+                <p>Short Description about the video</p>
+            </div>
+        </article>
+    </section>
+
+<!-- BROWSE BY section -->
+<section class="col-sm-12 blue-bg bar2 main-section-margins">
+    <a href="#"><h2 style="color:#ffffff" class="col-sm-6 text-uppercase">View Our Learning Areas</h2></a>
+    <a href="#"><h2 style="color:#ffffff" class="col-sm-6 text-uppercase">View Our Career Areas</h2></a>
+</section>
+<!-- BROWSE BY section ENDS-->
+
+<!-- Apprentice area SECTION -->
+{% include /19plus/19plus-areas.html %}
+
+<!-- Apprentice quote -->
+{% include usp.html usp-text='Apprenticeships are for 19+ too!' %}
