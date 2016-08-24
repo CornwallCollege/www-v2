@@ -1438,6 +1438,7 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
+/* -------------------------------------- ACADEMIC STUDIES -------------------------------------------------- */
 /* ACADEMIC STUDIES | A-Levels | header bar */
 
 #a-levels {
@@ -1451,6 +1452,21 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
+/* -------------------------------------- FOUNDATION -------------------------------------------------- */
+/* FOUNDATION | foundation | header bar */
+
+#foundation {
+    background: url(../images/area-banners/foundation-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+@media(min-width:768px) {
+    #foundation {
+        background: url(../images/area-banners/foundation-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+/* -------------------------------------- BUSINESS AND PRO -------------------------------------------------- */
 /* BUSINESS AND PRO | Accountancy & Financial | header bar */
 
 #accountancy-financial {
@@ -1608,8 +1624,8 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* -------------------------------------- Health and Wellbeing -------------------------------------------------- */
-/* HELTH & WELLBEING | Hair and beauty | header bar */
+/* -------------------------------------- HEALTH & WELLBEING -------------------------------------------------- */
+/* HEALTH & WELLBEING | Hair and beauty | header bar */
 
 #hair-beauty {
     background: url(../images/area-banners/hair-beauty-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1622,7 +1638,7 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* HELTH & WELLBEING | Public Services | header bar */
+/* HEALTH & WELLBEING | Public Services | header bar */
 
 #public-services {
     background: url(../images/area-banners/public-services-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1635,7 +1651,7 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* HELTH & WELLBEING | Childrens Workforce | header bar */
+/* HEALTH & WELLBEING | Childrens Workforce | header bar */
 
 #childrens-workforce {
     background: url(../images/area-banners/childrens-workforce-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1648,7 +1664,7 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* HELTH & WELLBEING | Social Care | header bar */
+/* HEALTH & WELLBEING | Social Care | header bar */
 
 #social-care {
     background: url(../images/area-banners/social-care-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1661,7 +1677,7 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* HELTH & WELLBEING | Sport and fitness | header bar */
+/* HEALTH & WELLBEING | Sport and fitness | header bar */
 
 #sport {
     background: url(../images/area-banners/sport-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1674,7 +1690,7 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
-/* HELTH & WELLBEING | Health | header bar */
+/* HEALTH & WELLBEING | Health | header bar */
 
 #health {
     background: url(../images/area-banners/health-mobile.jpg) 50% 0 no-repeat fixed;
@@ -1921,6 +1937,7 @@ div#logo-wrap #bicton{
     #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
+    #foundation,
     #engineering,
     #public-services,
     #legal
@@ -2017,6 +2034,23 @@ APPLY BARS =====================================================================
 @media(min-width:768px) {
     .a-levels-bar {
         background: url(../images/area-banners/a-levels-desktop.jpg) ;
+
+        background-position:50% 0;
+        background-repeat: no-repeat;
+    }
+}
+/* ----------------------------------------- Foundation -------------------------------------------------- */
+/* Foundation | apply now bar */
+
+.foundation-bar {
+    background: url(../images/area-banners/foundation-mobile.jpg);
+    /* Standard syntax */
+}
+/*DESKTOP version of the background*/
+
+@media(min-width:768px) {
+    .foundation-bar {
+        background: url(../images/area-banners/foundation-desktop.jpg) ;
 
         background-position:50% 0;
         background-repeat: no-repeat;
@@ -2639,6 +2673,7 @@ APPLY BARS =====================================================================
     #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
+    #foundation,
     #engineering,
     #public-services,
     #legal,
@@ -2675,6 +2710,7 @@ APPLY BARS =====================================================================
     .education-teaching-bar,
     .accountancy-financial-bar,
     .a-levels-bar,
+    .foundation-bar,
     .engineering-bar,
     .public-services-bar,
     .fulltime-bar,
@@ -2718,6 +2754,7 @@ APPLY BARS =====================================================================
     #sales-marketing #education-teaching,
     #accountancy-financial,
     #a-levels,
+    #foundation,
     #engineering,
     #public-services,
     #legal,
@@ -2754,6 +2791,7 @@ APPLY BARS =====================================================================
     .education-teaching-bar,
     .accountancy-financial-bar,
     .a-levels-bar,
+    .foundation-bar,
     .engineering-bar,
     .public-services-bar,
     .fulltime-bar,
@@ -2859,6 +2897,7 @@ APPLY BARS =====================================================================
 /* Cluster Colors*/
 
 .career-filter ul li a.as {
+    border: 5px solid #616161;
     color: white;
     background-color: #616161;
 }

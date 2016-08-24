@@ -74,10 +74,6 @@ $(function () {
         
 
         /* Swiper brand navigation */
-        //changeCurrentLogo();
-
-
-
         function loadVideo(slide) {
             var video_options = [
                 {
@@ -131,9 +127,13 @@ $(function () {
             $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
 
         }
+        // onClick stack logos function
         function stackLogos() {        
+            //get hash from clicked anchor 
             var clickBrand = $(this).parent().parent().prop("hash");
-            var brand_cookie = Cookies.set('brand', clickBrand );        
+            //set cookie based on hash 
+            var brand_cookie = Cookies.set('brand', clickBrand ); 
+            //set cross domain cookie
             var course_brand_cookie = Cookies.set('course-brand', clickBrand, { domain: '.cornwall.ac.uk' });
         
             //apply z-index to correctly stack the logos
@@ -149,9 +149,13 @@ $(function () {
          
             });  
         }
-        function stackLogosSwipe() {        
+        // onSwipe stack logos function
+        function stackLogosSwipe() {    
+            //get hash from url
             var swipeBrand = window.location.hash
-            var brand_cookie = Cookies.set('brand', swipeBrand );        
+            //set cookie based on hash 
+            var brand_cookie = Cookies.set('brand', swipeBrand );
+            //set cross domain cookie
             var course_brand_cookie = Cookies.set('course-brand', swipeBrand, { domain: '.cornwall.ac.uk' });
         
             //apply z-index to correctly stack the logos
@@ -196,6 +200,7 @@ $(function () {
             changeCurrentLogo();
         });
         swiperH.on('slideChangeEnd', function () {
+            //small delay to let the hash load properly
             setTimeout(stackLogosSwipe, 50);
         });
         var slide = swiperH.slides[swiperH.activeIndex];
@@ -204,13 +209,6 @@ $(function () {
 
 /* Set brand cookie on home */
 $(function () {
-
-
-    //set brand on logo click
-    $(".brand-image").click(function () {
-
-    });
-    //
 
         
             $('.logo').removeClass('current-brand');
