@@ -3854,11 +3854,16 @@ textarea {
 
 .plus-button,
 .less-button{
-    position: fixed;
     bottom: 0;
     z-index: 9999;
     left: 0;
     width: 100%;
+}
+.less-button{
+    position: fixed; 
+}
+.plus-button{
+    position: absolute;
 }
 .plus-button i,
 .less-button i{
