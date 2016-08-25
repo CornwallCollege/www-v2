@@ -921,7 +921,11 @@
 		-ms-transform: translate(0px, 25%);
 	}
 }
-
+@media only screen and (min-width: 768px) {
+    .slide-title{
+        display: none
+    }
+}
 /* ## 768 to 991 ## */
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
@@ -1359,7 +1363,7 @@
 {
 	/* ## Global ## */ 
 	.slider-section .slide-sub-title,
-	.goto-next,
+	/*.goto-next,*/
 	.mobile-iphone,
 	.service-bg,
 	.line,
@@ -1387,7 +1391,11 @@
 	.how-we-work-categories li {
 		text-align: center;
 	}
-	
+    
+    .punchout h2{
+        font-size: 1.5em;
+    }
+    
 	/* ## Features Section ## */
 	.features-section,
 	.why-choose	{	
@@ -1690,6 +1698,10 @@
 		height: 483px;
 		background-size: 100% 100%;
 	}
+    .slide-title{
+        display: block;
+    }    
+    
 }
 
 /* ## 481 to 767 ## */
