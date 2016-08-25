@@ -69,13 +69,13 @@ videos:
 
     <section class="container">
         <p class="lead ">An apprenticeship is an ideal way for you to earn while you learn in a real job whilst gaining a real qualification and working towards a real future. </p>
-        
+
         <div class="col-sm-12 col-md-7">{% youtube https://youtu.be/N4o8TQm3eso %}</div>
-        
+
         <div class="col-sm-12 col-md-4 col-md-offset-1">
             <p class="lead "><strong>Apprenticeships are evolving…</strong></p>
             <p>Apprenticeships prepare the learner for work through the combination of a qualification as well as real industry working experience. A recent review process has identified a need to make the apprenticeships even more career focused. ‘New Standards Apprenticeships’ will in future support the development of specific skills and knowledge for specific employers and specific job roles. How these are assessed and the qualifications you receive will vary depending on the apprenticeship pathway you choose. Be assured our experienced team of advisors will talk you through what’s involved at every stage.</p>
-            
+
             <a href="/documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf" class="btn">Download our Apprenticeship Guide</a>
         </div>
 
@@ -125,8 +125,8 @@ videos:
                 <article class="col-md-3">
                     <h4><span class="number">3/</span> Help</h4>
                     <p>Help you with on-going advice and support throughout the entire process.</p>
-                </article>                
-                
+                </article>
+
             </footer>
 
         </section>
@@ -140,9 +140,4 @@ videos:
 ====================================================================== -->
 {% include video-gallery.html %}
     <!-- action to call section -->
-    <section class="col-sm-12 fulltime-bar clearfix">
-        <div class="container">
-            <h2>Seen enough, apply now! </h2>
-            <a href="{{ site.course_site_baseurl }}/apprenticeship-application-form/?course-title={{ page.apply-area }}" class="apply-btn btn">Apply NOW</a>
-        </div>
-    </section>
+    {% include one-option.html one-option-text="Seen enough, apply now!" one-option-href="site.course_site_baseurl /apprenticeship-application-form/?course-title= page.apply-area" one-option-button-text='Apply NOW' %}

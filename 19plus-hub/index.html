@@ -3,7 +3,7 @@ layout: hub
 title: <span itemprop="name">19+ hub</span>
 description: The home of excellent further education in the the south west | The Cornwall College Group
 link: 16-18-hub
-apply-area: Course Intreast Area - 16-18
+apply-area: Course Intrest Area - 19plus
 
 videos:
 - youtube-id: XKFnaC3pIm0
@@ -90,10 +90,7 @@ usefulLinks:
     </section>
 
 <!-- BROWSE BY section -->
-<section class="col-sm-12 blue-bg bar2 main-section-margins">
-    <a href="#"><h2 style="color:#ffffff" class="col-sm-6 text-uppercase">View Our Learning Areas</h2></a>
-    <a href="#"><h2 style="color:#ffffff" class="col-sm-6 text-uppercase">View Our Career Areas</h2></a>
-</section>
+{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" second-half-text="View Our Career Areas" second-half-button="Let's Go!" %}
 <!-- BROWSE BY section ENDS-->
 
 <!-- Apprentice area SECTION -->
@@ -101,3 +98,6 @@ usefulLinks:
 
 <!-- Apprentice quote -->
 {% include usp.html usp-text='Apprenticeships are for 19+ too!' %}
+
+<!-- Apply Now section -->
+{% include one-option.html one-option-text="Seen enough, apply now!" one-option-href="site.course_site_baseurl /apply-page/?course-title= page.apply-area" one-option-button-text='Apply NOW' %}

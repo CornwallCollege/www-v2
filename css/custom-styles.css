@@ -4958,3 +4958,59 @@ button.collapsed h3:before{
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+/* two options */
+.two-options {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.two-options h2 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.two-options .btn {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 12px 50px;
+}
+
+.two-options .btn:hover {
+  letter-spacing: normal;
+}
+
+.first-half {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-right: 30px;
+  text-align: right;
+  background-color: #52B3D9;
+}
+
+.first-half .btn {
+  color: #52B3D9;
+  background-color: #fff;
+}
+
+.first-half .btn:hover {
+  color: #52B3D9;
+  background-color: #333;
+}
+
+.second-half {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.second-half .btn {
+  background-color: #333;
+}
+
+.second-half .btn:hover {
+  background-color: #52B3D9;
+}
