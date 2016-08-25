@@ -127,28 +127,7 @@ $(function () {
             $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
 
         }
-        // onClick stack logos function
-        function stackLogos() {        
-            //get hash from clicked anchor 
-            var clickBrand = $(this).parent().parent().prop("hash");
-            //set cookie based on hash 
-            var brand_cookie = Cookies.set('brand', clickBrand ); 
-            //set cross domain cookie
-            var course_brand_cookie = Cookies.set('course-brand', clickBrand, { domain: '.cornwall.ac.uk' });
-        
-            //apply z-index to correctly stack the logos
-        $( Cookies.get('brand') ).css("z-index", "999");
-            var offset = 1;
-            $( Cookies.get('brand') ).prevAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-            });
-            $( Cookies.get('brand') ).nextAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-         
-            });  
-        }
+
         // onSwipe stack logos function
         function stackLogosSwipe() {    
             //get hash from url
@@ -177,24 +156,45 @@ $(function () {
             e.preventDefault();
             swiperH.slideTo(0, 1000, false);
             changeCurrentLogo();
-            stackLogos();
+        
         })
         $('#dc-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(1, 1000, false);
             changeCurrentLogo();
+       
         })
         $('#fms-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(2, 1000, false);
             changeCurrentLogo();
+    
         })
         $('#bic-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(3, 1000, false);
             changeCurrentLogo();
-
+        
         })
+        //set brand on logo click
+        $(".brand-image").click(function () {
+                var clickBrand = $(this).parent().parent().prop("hash");
+                var brand_cookie = Cookies.set('brand', clickBrand );        
+                var course_brand_cookie = Cookies.set('course-brand', clickBrand, { domain: '.cornwall.ac.uk' });
+
+                //apply z-index to correctly stack the logos
+            $( Cookies.get('brand') ).css("z-index", "999");
+                var offset = 1;
+                $( Cookies.get('brand') ).prevAll().each(function(index){
+                   $(this).css("z-index", 999 - offset);
+                    offset++;
+                });
+                $( Cookies.get('brand') ).nextAll().each(function(index){
+                   $(this).css("z-index", 999 - offset);
+                    offset++;
+
+                });
+        });
         
         swiperH.on('slideChangeStart', function () {
             changeCurrentLogo();
