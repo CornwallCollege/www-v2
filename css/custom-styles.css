@@ -3860,7 +3860,7 @@ textarea {
     width: 100%;
 }
 .less-button{
-    position: fixed; 
+    position: fixed;
 }
 .plus-button{
     position: absolute;
@@ -5012,5 +5012,6 @@ button.collapsed h3:before{
 }
 
 .second-half .btn:hover {
+  color: #fff;
   background-color: #52B3D9;
 }
