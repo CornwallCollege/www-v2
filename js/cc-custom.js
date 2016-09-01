@@ -78,7 +78,7 @@ $(function () {
             var video_options = [
                 {
                     brand: 'cornwall',
-                    videos: ['engineering', 'steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac']
+                    videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac']
                 },
                 {
                     brand: 'duchy',
@@ -194,6 +194,18 @@ $(function () {
                     offset++;
 
                 });
+            
+            //now cose the menu is its open
+            var openRightPush = document.getElementById('openRightPush')            
+            if ($( '#openRightPush' ).hasClass('active')) {
+                //change the text and icon back
+                $('.menu-icon > i').toggleClass("fa-bars");
+                $('.menu-icon > i').toggleClass("fa-times");
+                $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');
+                //remove the open classes
+                $( '#openRightPush' ).removeClass('active');
+                $( '#cbp-spmenu-s2' ).removeClass('cbp-spmenu-open');
+            }
         });
         
         swiperH.on('slideChangeStart', function () {
