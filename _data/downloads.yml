@@ -1505,7 +1505,7 @@
   #0012JW0216_DC_BC_HE_Prospectus_pages_2017
 - title: DC BC HE Prospectus pages 2017 # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
+  category: prospectuses # Document category
   download-link: /documents/prospectuses/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
   search-link: 0012JW0216-DC-BC-HE-Prospectus-pages-2017 # Document name
   colour: e8d045
@@ -1513,7 +1513,7 @@
   #CC Adult courses flyer
 - title: CC Adult courses flyer # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
+  category: prospectuses # Document category
   download-link: /documents/prospectuses/CC Adult courses flyer.pdf
   search-link: CC-Adult-courses-flyer # Document name
   colour: e8d045
@@ -1521,47 +1521,47 @@
   #CC HE Web Version 2015
 - title: CC HE Web Version 2015 # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
+  category: prospectuses # Document category
   download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
   search-link: CC-HE-Web-Version-2015 # Document name
   colour: e8d045
   
-  #Cornwall College FE Prospectus 2016 - Low-Res
-- title: Cornwall College FE Prospectus 2016 # Document name
+  #Cornwall College FE Prospectus 2017 - Low-Res
+- title: Cornwall College FE Prospectus 2017 # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
-  download-link: /documents/prospectuses/Cornwall College FE Prospectus 2016 - Low-Res.pdf
-  search-link: Cornwall-College-FE-Prospectus 2016 # Document name
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/Cornwall College FE Prospectus 2017 - Low-Res.pdf
+  search-link: Cornwall-College-FE-Prospectus 2017 # Document name
   colour: e8d045
   
   #DC HE Web Version 2015
 - title: DC HE Web Version 2015 # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
+  category: prospectuses # Document category
   download-link: /documents/prospectuses/DC HE Web Version 2015.pdf
   search-link: DC-HE-Web-Version-2015 # Document name
   colour: e8d045
   
-  #Duchy College FE Prospectus 2016 - Low-Res
-- title: Duchy College FE Prospectus 2016 # Document name
+  #Duchy College FE Prospectus 2017 - Low-Res
+- title: Duchy College FE Prospectus 2017 # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
-  download-link: /documents/prospectuses/Duchy College FE Prospectus 2016 - Low-Res.pdf
-  search-link: Duchy-College-FE-Prospectus-2016 # Document name
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/Duchy College FE Prospectus 2017 - Low-Res.pdf
+  search-link: Duchy-College-FE-Prospectus-2017 # Document name
   colour: e8d045
   
-  #FMS FE Prospectus 2016 - Low-Res
-- title: FMS FE Prospectus 2016# Document name
+  #FMS FE Prospectus 2017 - Low-Res
+- title: FMS FE Prospectus 2017 # Document name
   type:  PDF # Document type
-  category: prospectus # Document category
-  download-link: /documents/prospectuses/FMS FE Prospectus 2016 - Low-Res.pdf
-  search-link: FMS FE Prospectus 2016 - Low-Res # Document name
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/FMS FE Prospectus 2017 - Low-Res.pdf
+  search-link: FMS FE Prospectus 2017 - Low-Res # Document name
   colour: e8d045
   
   #Leisure Brochure September 2015
 - title: Leisure Brochure September 2015
   type:  PDF # Document type
-  category: prospectus # Document category
+  category: prospectuses # Document category
   download-link: /documents/prospectuses/Leisure Brochure September 2015.pdf
   search-link: Leisure-Brochure-September-2015 # Document name
   colour: e8d045
@@ -1569,7 +1569,7 @@
   #TCCG HE Prospectus 2017 Web
 - title: TCCG HE Prospectus 2017 Web
   type:  PDF # Document type
-  category: prospectus # Document category
+  category: prospectuses # Document category
   download-link: /documents/prospectuses/TCCG HE Prospectus 2017 Web.pdf
   search-link: TCCG-HE-Prospectus-2017-Web # Document name
   colour: e8d045
