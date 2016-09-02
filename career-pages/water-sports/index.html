@@ -15,7 +15,7 @@ staff-text: Chris is an RYA accredited windsurf, powerboat and dinghy instructor
 
 alumni-name: Lydia Knight
 alumni-role: one of the youngest kayak instructors in th uk
-alumni-photo: alumni/health-wellbeing/watersports/lydia-knight.jpg
+alumni-photo: /images/alumni/health-wellbeing/watersports/lydia-knight.jpg
 alumni-text: The course is a really good way to gain your watersports qualifications with extra opportunities provided such as                  industry day.
 
 student-name1: Tommy Stewart
@@ -54,7 +54,8 @@ student-text3: Duchy is one of the only colleges that offers the Sport Outdoor A
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 <!--<section class="col-sm-12 margin-top clearfix"><div class="container">{% youtube https://www.youtube.com/watch?v=y1wPa-o2LNk %}</div></section> -->
 
@@ -64,7 +65,8 @@ student-text3: Duchy is one of the only colleges that offers the Sport Outdoor A
 
 {% include /career/key-stats.html stat1='a sports development officer earns from £25k per year' stat2='a sports physiotherapist earns from £22k per year'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

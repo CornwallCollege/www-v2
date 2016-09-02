@@ -16,7 +16,7 @@ staff-text: Previous students have worked their way up through the industry to b
 
 alumni-name: Jake Moyle
 alumni-role: professional dancer
-alumni-photo: alumni/cultral-visitor/music-performing/jake-moyle.jpg
+alumni-photo: /images/alumni/cultral-visitor/music-performing/jake-moyle.jpg
 alumni-text: Jake trained at Cornwall College. He went onto achieve a BA Hons degree at London Studio Centre. Jake has danced for Madonna and Take That
 
 student-name1: Michaela Drew
@@ -59,7 +59,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -67,7 +68,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1='dancers can earn on average £22k+' stat2='top record producers can earn £100k+' stat3='there are 5,480 businesses in the performing arts sector' stat4='101,593 people working in the performing arts sector'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

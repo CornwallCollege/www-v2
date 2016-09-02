@@ -16,7 +16,7 @@ staff-text: Food and farming expert Rob Dunn has recently joined the leadership 
 
 alumni-name: Michael Bugden
 alumni-role: Vincet Tractors
-alumni-photo: alumni/rural-economy/michael-bugden.jpg
+alumni-photo: /images/alumni/rural-economy/michael-bugden.jpg
 alumni-text: I wanted to get myself a trade and this was the best place to come, there's a lot of practical work and that makes it              easier to learn. The tutors are good, it's just like having a friend. They're reliable, easy to talk to and if you've              got a problem they're always straight there to sort it out. I'm a land-based engineering apprentice with Vincent                    Tractors and I'm keen to stay there working on getting more experience and one day hopefully go on my own.
 
 student-name1: Bradley Maddever
@@ -56,7 +56,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -64,7 +65,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

@@ -16,7 +16,7 @@ staff-text: Faye spent some time working as an aquarist at Southend Sea Life Cen
 
 alumni-name: Owen Taylor
 alumni-role: Head Keeper - Newquay Zoo
-alumni-photo: alumni/science-environment/owen-taylor-animal-science.jpg
+alumni-photo: /images/alumni/science-environment/owen-taylor-animal-science.jpg
 alumni-text: After a successful career Owen is now the Head Keeper at Newquay Zoo and has had numerous articles published.
 
 student-name1: Alex Dyson
@@ -56,7 +56,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -64,7 +65,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1='Every 20 minutes, the world adds another 3,500 human lives but loses one or more entire species' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

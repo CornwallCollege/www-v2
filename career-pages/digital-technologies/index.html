@@ -16,7 +16,7 @@ staff-text: These are very interesting times for the digital economy, everything
 
 alumni-name: Mark Rowland
 alumni-role:
-alumni-photo: /alumni/business-pro/mark-rowland.jpg
+alumni-photo: /images/alumni/business-pro/mark-rowland.jpg
 alumni-text: After leaving Cornwall College Mark started working as an IT engineer, something he is incredibly passionate about.                Mark is now the director of Plymouth-based IT company Cutec Ltd." photo="alumni/business-pro/mark-rowland.jpg
 
 student-name1: Karolina Vabolyte
@@ -66,7 +66,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 <!-- STUDENT PROFILE -->
 
@@ -74,7 +75,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1='The tech sector contributes £91 billion to the UK economy' stat2='UK adults spend more time using media than they do sleeping' stat3='Last year, there were an extra 77,000 jobs available in the tech sector' stat4='26,000 new jobs were in the region between 2012-2013'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

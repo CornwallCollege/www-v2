@@ -39,10 +39,7 @@ student-text3: I'm hoping to come back to level 3 arboriculture and move into th
 
 {% include /career/career-intro.html p1='Enjoy working outside and find farm work, livestock and machinery interesting? Then you should consider a career in agriculture. Or if plants, their growth, sustainability and making the environment beautiful are close to your heart a career in horticulture could be for you.' %}
 
-<section class="container">
-    <artical class="col-sm-6">{% youtube https://youtu.be/XyeoUD8OGEk %}</artical>
-    <artical class="col-sm-6">{% youtube https://youtu.be/A80YkPPT3Yk %}</artical>
-</section>
+<section class="container">{% youtube https://youtu.be/A80YkPPT3Yk %}</section>
 
 {% include /career/career-examples-head.html %}
 
@@ -56,7 +53,8 @@ student-text3: I'm hoping to come back to level 3 arboriculture and move into th
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 

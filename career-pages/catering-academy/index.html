@@ -16,7 +16,7 @@ staff-text: I still work regularly in hospitality, I am always looking to upskil
 
 alumni-name: Sophie Budd
 alumni-role: owner of taste budds cooking studio in australia
-alumni-photo: alumni/cultral-visitor/catering-hospitality/sophie-budd.jpg
+alumni-photo: /images/alumni/cultral-visitor/catering-hospitality/sophie-budd.jpg
 alumni-text: My lecturers were awesome and I had such a good time. They opened doors for me and encouraged me to push myself and boy has it paid off.
 
 student-name1: Student Name
@@ -74,7 +74,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 <!-- STUDENT PROFILE -->
 
@@ -83,7 +84,8 @@ student-text3:
 {% include /career/key-stats.html stat1='head chefs earn from £25k+' stat2='hotel managers earn from £31k+' stat3='The hospitality and
 tourism sector employs 7% of the working population' stat4='660,200 people will need to be recruited by 2020'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

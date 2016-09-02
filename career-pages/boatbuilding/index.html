@@ -16,7 +16,7 @@ staff-text: Simon is a Falmouth Marine School alumni and has worked with a range
 
 alumni-name: Nick Smith
 alumni-role: Mylor Yacht Harbour
-alumni-photo: alumni/technology/nick-smith.jpg
+alumni-photo: /images/alumni/technology/nick-smith.jpg
 alumni-text: Falmouth Marine School has helped me immensely with my career. I was enrolled onto a course that I wanted to do and                really suited me needs
 
 student-name1: Alex Somers
@@ -35,7 +35,7 @@ student-photo3:
 student-text3:
 ---
 
-{% include /career/career-header.html %} 
+{% include /career/career-header.html %}
 
 {% include /career/career-intro.html p1="If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch." p2="You'll need good practical skills, the ability to work in a team and an interest in learning traditional boatbuilding skills as well as modern engineering methods." %}
 
@@ -49,15 +49,17 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
-    
+
 {% include /career/career-stats.html percent1=100 end1='of our boatbuilding students say that teaching on their course is good.' %}
 
 {% include /career/key-stats.html stat1='The super yacht sector contributed £304 million to UK GDP in 2014/2015' stat2='The engineering sector will need 182,000 people each year' stat3='Engineering supports 14.5 million jobs – 55% of UK employment' stat4='The average graduate starting salary for engineering is £27,079'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 {% include /career/campus-locations.html %}
 

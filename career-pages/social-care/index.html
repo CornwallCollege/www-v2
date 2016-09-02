@@ -16,7 +16,7 @@ staff-text: Anne-Marie has worked in education for 17 years. Before joining the 
 
 alumni-name: Martin Cowling
 alumni-role: assistant theatre practitioner
-alumni-photo: alumni/health-wellbeing/social-care/martin-cowling.jpg
+alumni-photo: /images/alumni/health-wellbeing/social-care/martin-cowling.jpg
 alumni-text: The FdSc Healthcare Practice has provided me with not only the academic background surrounding patient care but also                the confidence to put it all into practice.
 
 student-name1: Name
@@ -67,7 +67,8 @@ l
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -75,7 +76,8 @@ l
 
 {% include /career/key-stats.html stat1="The NHS is the world's fifth largest employer" stat2='a dental nurse can earn from £19k a year' stat3='an adult nurse can earn from £21,692 per year' stat4='healthcare is a leading employer in the southwest'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

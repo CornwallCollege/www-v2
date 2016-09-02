@@ -16,7 +16,7 @@ staff-text: Cornwall College St Austell lecturer Fran Clapham has been recognise
 
 alumni-name: Alisha Dobson
 alumni-role: a-lister Jessie j's personal hairstylist
-alumni-photo: alumni/health-wellbeing/hairdressing-beauty/alisha-dobson.jpg
+alumni-photo: /images/alumni/health-wellbeing/hairdressing-beauty/alisha-dobson.jpg
 alumni-text: I wouldn't be doing this without college and my training salon. College gives you the foundation for everything.
 
 student-name1: Wassim Imchichi
@@ -53,7 +53,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -61,7 +62,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1="salon managers earn £30k+" stat2="the hair & beauty industry is worth £6.2 billion" stat3="nail technicians can earn up to £25k a year" stat4="1000s of apprentices started their careers with us"%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

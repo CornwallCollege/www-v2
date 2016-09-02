@@ -16,7 +16,7 @@ staff-text: I'm just so passionate about food and the environment in which we di
 
 alumni-name: Ben Stevens
 alumni-role: Director of Delicate Trade &amp; Bystro restaurant chain
-alumni-photo: alumni/cultral-visitor/catering-hospitality/ben-stevens.jpg
+alumni-photo: /images/alumni/cultral-visitor/catering-hospitality/ben-stevens.jpg
 alumni-text: At Cornwall College a huge emphasis was on practical work, as well as therory. I believe that having knowledge has helped me create my own unique business.
 
 student-name1: James Defreitas
@@ -59,7 +59,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -68,7 +69,8 @@ student-text3:
 {% include /career/key-stats.html stat1='head chefs earn from £25k+' stat2='hotel managers earn from £31k+' stat3='The hospitality and
 tourism sector employs 7% of the working population' stat4='660,200 people will need to be recruited by 2020'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

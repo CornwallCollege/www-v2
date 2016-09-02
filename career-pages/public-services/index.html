@@ -15,7 +15,7 @@ staff-text: Prior to joining Cornwall College, Jamie spent 24 years in the milit
 
 alumni-name: Owen Marks
 alumni-role: royal military police
-alumni-photo: alumni/health-wellbeing/public-services/owen-marks.jpg
+alumni-photo: /images/alumni/health-wellbeing/public-services/owen-marks.jpg
 alumni-text: I wanted to get my fitness and confidence up, and this course seemed like the ideal course. The course prepared me for              selection and I got the A grade I needed to get into the Military Police.
 
 student-name1: Alex Hill
@@ -74,16 +74,17 @@ student-text3: "I want to be a Police officer and the Public Services (Uniformed
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html name=page.staff-name role=page.staff-role about=page.staff-text image=page.staff-photo %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
-{% include /career/student-case-studies.html
-studentImage1='' studentName1='' studentRole1='Student Role' studentQuote1='Student Quote' studentImage2='http://placehold.it/370x370' studentName2='' studentRole2='Student Role' studentQuote2='Student Quote' studentImage3='' studentName3='' studentRole3='Student Role' studentQuote3='Student Quote' %}
+{% include /career/student-case-studies.html %}
 
 {% include /career/career-stats.html percent1=100 end1='of our Public Services Diploma students say that their lecturers are constantly challenging them to do their best.' %}
 
 {% include /career/key-stats.html stat1='hmps offers a national starting salary of £20,545' stat2='a police officer earns from £19k a year' stat3='an RAF officer earns from £24k a year' stat4='50,000 people work as civilians for the mod'%}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
