@@ -4613,7 +4613,7 @@ a.learning-area:hover{
     margin-bottom: 30px;
     padding: 20px;
     display: inline-block;
-    width: 100%;
+    width: 99.9%;
 }
 #event-carousel article h3 {
     text-transform: uppercase;
