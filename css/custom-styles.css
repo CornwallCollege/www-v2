@@ -4682,7 +4682,7 @@ a.learning-area:hover{
     margin: 1px 0 0 ;
 }
 .area.big{
-    height: 340px;
+    height: 330px;
 }
 @media(max-width:1181px) and (min-width:769px){
     .area.big{
