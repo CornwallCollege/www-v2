@@ -8,6 +8,30 @@ brand: CC
 background-image: /images/area-banners/health-safety-desktop.jpg
 campuscodes: C,S,A
 schema: https://schema.org/course
+staff-name:
+staff-role:
+staff-photo:
+staff-text:
+
+alumni-name:
+alumni-role:
+alumni-photo:
+alumni-text:
+
+student-name1:
+student-role1:
+student-photo1:
+student-text1:
+
+student-name2:
+student-role2:
+student-photo2:
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
 ---
 
 {% include /career/career-header.html %}
@@ -23,18 +47,20 @@ schema: https://schema.org/course
 {% include /career/career-examples-foot.html %}
 
 {% include /career/career-courses.html courseTitle1='Dental Nursing CG Diploma Level 3' infoLink1='?courses=fdsc-food-studies' courseTitle2='Nursing, Health and Social Care AptEd Access to HE Diploma Level 3 (E)' infoLink2='?courses=fdsc-food-studies' courseTitle3='FdSc Healthcare Practice' infoLink3='?courses=fdsc-food-studies' courseTitle4='Health and Social Care/Social Science and Mental Health AptEd Access to HE Diploma Level 3 (E)' infoLink4='?courses=fdsc-food-studies' courseTitle5='Health and Social Care EDEXCEL Extended Diploma Level 3' infoLink5='?courses=fdsc-food-studies' %}
-    
-{% include /career/staff-profile.html image='http://placehold.it/370x370' name='Staff Name' role="Staff posistion - Staff Department" about="Lorem ipsum dolor sit amet, has ad partem pertinacia, no iriure facilisis vis, in sed quot utinam. No essent maiorum ius. Oportere omittantur intellegebat in sea. Et latine commune mei, ex soluta persius eam, oporteat adolescens sententiae in ius. Cetero maiorum ei qui, cu sit quem mediocritatem." %}
+
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/career-stats.html percent1=100 end1='Lorem ipsum dolor sit amet, feugiat tincidunt philosophia eu mel, quando appareat eos an.' %}
 
-{% include /career/alumni-profile.html image='http://placehold.it/370x370' name='Alumni Name' role="Alumni posistion - Alumni Department" about="Lorem ipsum dolor sit amet, has ad partem pertinacia, no iriure facilisis vis, in sed quot utinam. No essent maiorum ius. Oportere omittantur intellegebat in sea. Et latine commune mei, ex soluta persius eam, oporteat adolescens sententiae in ius. Cetero maiorum ei qui, cu sit quem mediocritatem." %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 {% include /career/key-stats.html stat1='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat2='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
             <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
-    </section> 
+    </section>
 </section>
 {% include /career/campus-locations.html campuscodes='CSA'%}
