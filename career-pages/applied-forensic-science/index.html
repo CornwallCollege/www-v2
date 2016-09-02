@@ -16,7 +16,7 @@ staff-text: Mark is new to The Cornwall College Group, and comes from a broad sc
 
 alumni-name: Marie Jewell
 alumni-role: Forensic Science - Course Manager
-alumni-photo: alumni/science-environment/marie-jewell.jpg
+alumni-photo: /images/alumni/science-environment/marie-jewell.jpg
 alumni-text: I am delighted to be working in the science departent, especially as the lecturers who inspired me are now my coleagues.
 
 student-name1: Matt Moore
@@ -51,7 +51,8 @@ student-text3:
 
 {% include /career/career-examples-foot.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 <!-- STUDENT PROFILE -->
 
@@ -59,7 +60,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1='A research scientist in industry could earn from £23k to £42k per year' stat2='The chemicals industry in the UK supports over 6 million jobs' stat3='The UK is one of the world’s top global producers of chemicals and pharmaceuticals' stat4='The starting salary for a forensics scientist is £20k with senior roles earning £45k'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

@@ -16,7 +16,7 @@ staff-text: Nick has spent many years working in the conservation sector, in man
 
 alumni-name: Danny Olver
 alumni-role: Owner of Animal Arks and self-employed dairy milker
-alumni-photo: alumni/rural-economy/danny-olver.jpg
+alumni-photo: /images/alumni/rural-economy/danny-olver.jpg
 alumni-text: I found working and learning at the College very effective You are learning the technical aspects of the industry and then putting them into practice.
 
 student-name1: Rachael Harris
@@ -39,7 +39,10 @@ student-text3: We were treated all on the same level, as adults.
 
 {% include /career/career-intro.html p1="If you love the countryside, are passionate about its protection and conservation and the livelihoods that rely on its existence, this could be the career path for you. You'll need to love working outdoors, and want to understand how nature works and how we interactwith it in a sustainable way." %}
 
-<section class="container">{% youtube https://youtu.be/zj2ddSyyjIE %}</section>
+<section class="container">
+  <article class="col-sm-6">{% youtube https://youtu.be/XyeoUD8OGEk %}</article>
+  <article class="col-sm-6">{% youtube https://youtu.be/zj2ddSyyjIE %}</article>
+</section>
 
 {% include /career/career-examples-head.html %}
 
@@ -52,7 +55,8 @@ student-text3: We were treated all on the same level, as adults.
 
 {% include /career/career-examples-foot.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
 
@@ -60,7 +64,8 @@ student-text3: We were treated all on the same level, as adults.
 
 {% include /career/key-stats.html stat1='The agri-food sector contributed £103billion to the UK economy in 2013' stat2='The average UK salary for a farmer is £27k per year' stat3='The agri-food sector contributed £103 billion to the UK economy in 2013' stat4='Food &amp; Drink manufacturing is the largest segment in the UK manufacturing sector'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
