@@ -15,7 +15,7 @@ staff-text:
 
 alumni-name: Laura Wall
 alumni-role: Artist, Illustrator and winner of Britain's best up and coming artist
-alumni-photo: alumni/a-levels/laura-wall.jpg
+alumni-photo: /images/alumni/a-levels/laura-wall.jpg
 alumni-text: I chose to study A-levels at Cornwall College because I felt it had a more grown up feeling than some schools I had visited and I wanted to be considered an adult.
 
 student-name1: Gemma Wright
@@ -113,7 +113,8 @@ student-text3: The tutors are wonderful - it's clear that they care about studen
 
 {% include /career/career-stats.html percent1=98 end1='of lecturers know the subject well' begin2='Pass Rate' percent2=99.2 %}
 
-{% include /career/career-alumni.html name=page.alumni-name role=page.alumni-role text=page.alumni-text photo=page.alumni-photo %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">

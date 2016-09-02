@@ -16,7 +16,7 @@ staff-text: Jo manages the care of a wide range of animals at Duchy College’s 
 
 alumni-name: Toni Cobbett
 alumni-role:
-alumni-photo: alumni/rural-economy/toni-corbett-vet.jpg
+alumni-photo: /images/alumni/rural-economy/toni-corbett-vet.jpg
 alumni-text: My Course at Duchy College was really hands-on and the lecturers were understanding, helpful and encouraging, and made              sure we all pushed ourselves
 
 student-name1: John Cuthbertson
@@ -55,23 +55,25 @@ student-text3:
 
 {% include /career/career-examples-foot.html %}
 
-{% include /career/career-apply-bar-first.html %} 
+{% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 {% include /career/student-case-studies.html %}
-    
+
 {% include /career/career-stats.html percent1=95 end1='of our animal science students say that lecturers know their subject well.' %}
 
 {% include /career/key-stats.html stat1='In 2015 the pet population in the UK was approx 58 million' stat2='Qualified veterinary
 nurses can earn between £18,000 and £22,000 a year, depending on experience' stat3='Lorem ipsum dolor sit amet, feugiat tincidunt.' stat4='Lorem ipsum dolor sit amet, feugiat tincidunt.'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
             <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
-    </section> 
+    </section>
 </section>
 {% include /career/campus-locations.html %}
 

@@ -16,7 +16,7 @@ staff-text: We share our learners' passion for realising striking, beautiful and
 
 alumni-name: Tobey Louise Brown
 alumni-role: product graphic designer - lego
-alumni-photo: alumni/cultral-visitor/arts-media/tobey-louise-brown.jpg
+alumni-photo: /images/alumni/cultral-visitor/arts-media/tobey-louise-brown.jpg
 alumni-text: My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independent             in my learning and I could tailor my projects to my design interests.
 
 student-name1: Name
@@ -69,7 +69,8 @@ student-text3:
 
 {% include /career/career-apply-bar-first.html %}
 
-{% include /career/staff-profile.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
 <!-- STUDENT PROFILE -->
 
@@ -77,7 +78,8 @@ student-text3:
 
 {% include /career/key-stats.html stat1='photographers earn on average £21k+' stat2='the uk has the second largest design sector in the world' stat3='uk games designers on average earn £40k+' stat4='over 500 journalists now working in the uk trained at Cornwall College'%}
 
-{% include /career/career-alumni.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
 <section class="container">
     <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
