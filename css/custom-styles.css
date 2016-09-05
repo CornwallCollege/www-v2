@@ -5015,3 +5015,7 @@ button.collapsed h3:before{
   color: #fff;
   background-color: #52B3D9;
 }
+
+.facilities {
+    font-size: 21px;
+}
