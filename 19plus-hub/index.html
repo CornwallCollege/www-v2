@@ -48,8 +48,8 @@ usefulLinks:
 
     <!-- BODY SECTION -->
 
-    <section class="container">
-        <div class="col-sm-12 col-md-8">
+    <section class="container ">
+        <div class="col-sm-12 col-md-8 main-section-margins">
             <p class="lead ">Our specialist programmes of study combine qualifications, work readiness skills training and work experience, giving you a careers edge and the very best preparation for the world of work.</p>
             <p>We offer a variety of qualifications including A-levels, BTEC and City &amp; Guilds Diplomas, Technical Baccalaureates, Practical Skills Training, NVQs and Apprenticeships at our colleges: Cornwall College, Duchy College, Bicton College and Falmouth Marine School.</p>
             <p>A few reasons to choose #thecareercollege… (this may be punch boxes in a slider perhaps? Dunno but needs to be SEO searchable) We are one of the best colleges for catering studies in the UK, with partnerships with Nathan Outlaw, River Cottage and Fifteen Cornwall.</p>
@@ -57,7 +57,7 @@ usefulLinks:
             <p>Our learners go on to great things: for example 100% of our watersports students are employed by the end of their course and travel the world.</p>
         </div>
 
-        <div class="col-sm-12 col-md-4 useful-links">
+        <div class="col-sm-12 col-md-4 useful-links main-section-margins">
             <h3>Links</h3>
             {% for link in page.usefulLinks %}
                 <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}"> {{ link.title | upcase }}</a>
@@ -90,14 +90,14 @@ usefulLinks:
     </section>
 
 <!-- BROWSE BY section -->
-{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" second-half-text="View Our Career Areas" second-half-button="Let's Go!" %}
+{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
 <!-- BROWSE BY section ENDS-->
 
-<!-- Apprentice area SECTION -->
+<!-- 19+ area SECTION -->
 {% include /19plus/19plus-areas.html %}
 
 <!-- Apprentice quote -->
-{% include usp.html usp-text='Apprenticeships are for 19+ too!' %}
+{% include usp.html usp-text='Apprenticeships are for 19+ too!' link='/apprenticeship-hub/' %}
 
 <!-- Apply Now section -->
 {% include one-option.html one-option-text="Seen enough, apply now!" one-option-href="site.course_site_baseurl /apply-page/?course-title= page.apply-area" one-option-button-text='Apply NOW' %}
