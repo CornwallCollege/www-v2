@@ -1,4 +1,5 @@
-    <section class="col-sm-12 margin-top header-icon">
+{% if page.morejobs.size > 0 %} 
+<section class="col-sm-12 margin-top header-icon">
         <a href="#" data-toggle="collapse" aria-expanded="false" class="collapsed" data-target="#more-careers" href="#more-careers">
           <i class="fa fa-plus fa-4x transition" style="font-size:40px; color:#52B3D9;"></i>
           <h4 style="color:black;">MANY MORE!</h4>
@@ -11,3 +12,4 @@
             </ul>
         </section>    
     </section>
+{% endif %}
