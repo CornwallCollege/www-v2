@@ -1380,6 +1380,14 @@ div#logo-wrap #bicton{
     text-align: center;
     padding: 0 10%;
 }
+.usp a.ghost{
+    color: white;
+    border-color: white;
+    font-size: 1.8em;
+    border-width: 5px;
+    padding: 10px 30px;
+    font-weight: 700;
+}
 @media(max-width:769px){
     .usp h2{
         font-size: 2em;
