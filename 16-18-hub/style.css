@@ -621,6 +621,9 @@ a {
 }
 
 /* ## Why Choose ## */
+.why-choose-inner .feature-box-inner div{
+    margin-left: -60px;
+}
 
 .why-choose {
 	background-image: url("/16-18-hub/images/choose-cc-left.jpg");
@@ -708,18 +711,21 @@ a {
 
 /* ## How We Work ## */
 
-.how-we-work ul {
-	text-align: center;
+.how-we-work ul,
+.we-perfection ul{
+	text-align: left;
 	margin-bottom: 48px;
 	padding-left: 0;
 }
-.how-we-work ul li
+.how-we-work ul li,
+.we-perfection ul li
 {
 	display: inline-block;
-	margin: 0 49px; 
+	margin: 0 ;
 	position: relative;
 }
-.how-we-work ul li:before{
+.how-we-work ul li:before,
+.we-perfection ul li:before{
 	position: absolute;
 	border: 1px solid #52B3D9;
 	height: 0;
@@ -728,13 +734,16 @@ a {
 	top: 35%;
 	left: 100px;
 }
-.how-we-work .clean-code ul li{
+.how-we-work .clean-code ul li,
+.we-perfection ul li
+{
     display: block;
     text-align: left;
     margin-left:15px;
     
 }
-.how-we-work .clean-code ul li:before{
+.how-we-work .clean-code ul li:before,
+.we-perfection ul li:before{
     border: none;
 }
 .how-we-work ul li:last-child:before {
@@ -836,7 +845,7 @@ a {
 .we-launch {
 	color: #fff;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	right: 192px;
 	width: 35%;
 	-webkit-transform: rotate(-5deg);
@@ -887,7 +896,21 @@ a {
 .clean-code-box {
 	top: 33%;
 }
-
+.clean-code-box p.lead,
+.we-launch h3,
+.we-perfection p.lead{
+    text-transform: uppercase;
+}
+.we-perfection p.lead{
+    font-size: 3.5em!important;
+    line-height: 1em!important;
+} 
+.we-perfection p.lead span{
+    font-weight: bold;
+}
+.we-perfection ul li{
+    font-size: 1.5em
+}
 .we-perfection-slope {
 	margin: -85px -50px 0 -50px;
 	/*-webkit-transform-origin: left center;
@@ -1094,6 +1117,17 @@ a {
 	transform: rotate(0deg);
 }
 
+.we-launch ul.our-learners{
+    font-size: 1em;
+    line-height: 1.9em;
+}
+.we-launch ul.our-learners span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.we-launch ul.our-learners li:before{
+     border: none;   
+}
 /* ## Application Section ## */
 
 .application-section {
@@ -1141,6 +1175,9 @@ a {
 	margin-top: 30px;
 	padding-left: 0;
 }
+.app-updates:last-child {
+	margin-bottom: 40px;
+}	
 
 .app-updates h4 {
 	font-size: 18px;
@@ -1553,6 +1590,19 @@ a {
 .statistics-section  h1 {
 	font-size: 40px;
 	font-weight: 400;
+}
+.statistics-section h2,
+.service-section h2{
+    font-weight: 900;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #52B3D9;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.statistics-section h2{
+    color: white;
+    font-size:3em;
 }
 .statistics-section  h1,
 .statistics-section p {
@@ -2573,8 +2623,9 @@ a {
 	display: none;
 }
 .punchout{
-    padding:50px 5%;
+    padding: 50px 5% 190px 5%;
     text-align: center;
+    margin-bottom: -90px;
 }
 .punchout h2{
     text-transform: uppercase;

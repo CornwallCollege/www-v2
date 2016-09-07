@@ -929,6 +929,15 @@
 /* ## 768 to 991 ## */
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
+    
+    .we-launch-slope:before,
+    .clean-code:before,
+    .we-perfection-slope:before,
+    .research-slope:before{
+        border:none!important;
+		background: rgba(101,177,214,0.9);
+	}
+    
 	body { overflow-x: hidden; }
 	/* ## Global ## */ 
 	.slider-section .slide-sub-title,
@@ -1707,6 +1716,16 @@
 /* ## 481 to 767 ## */
 @media only screen and (min-width: 481px) and (max-width: 767px)
 {	
+
+    .why-choose-inner .feature-box-inner div{
+        margin-left: 0px;
+    }    
+    .hide-on-mobile{
+        display: none!important;
+    }
+    .service-section h2{
+        font-size: 2.2em
+    }
 	/* Services Section */ 
 	.service-section {
 		padding: 100px 0;
@@ -1790,6 +1809,15 @@
 /* ## 319 to 480 ## */
 @media only screen and (min-width: 319px) and (max-width: 480px)
 {
+    .why-choose-inner .feature-box-inner div{
+        margin-left: 0px;
+    }
+    .hide-on-mobile{
+        display: none!important;
+    }    
+    .service-section h2{
+        font-size: 1.8em
+    }
 	/* ## Global ## */ 	
 	.service-section .col-md-6:nth-child(4),
 	.service-section .col-md-6:nth-child(5) {
@@ -1872,6 +1900,7 @@
 	}
 	.feature-box-inner h3 {
 		margin-top: 0;
+        padding-left: 120px;
 	}
 	
 	/* ## How We Work ## */
@@ -1988,6 +2017,10 @@
 /* ## 319 to 479 ## */
 @media only screen and (min-width: 319px) and (max-width: 479px)
 {
+    
+    .why-choose-inner .feature-box-inner div{
+        margin-left: 0px;
+    }    
 	.portfolio-gallery {
 		float: none;
 	}
