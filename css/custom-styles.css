@@ -3901,17 +3901,33 @@ video{
     transition: 1s opacity;
     background: url('') no-repeat;
 }
-#cc-video video{
+#cc-video {
     background: url('../images/cc-home-bg-image.jpg') no-repeat;
 }
-#dc-video video{
+#dc-video {
     background: url('../images/dc-home-bg-image.jpg') no-repeat;
 }
-#fms-video video{
+#fms-video {
     background: url('../images/fms-home-bg-image.jpg') no-repeat;
 }
-#bic-video video{
+#bic-video {
     background: url('../images/bic-home-bg-image.jpg') no-repeat;
+}
+#fms-video,
+#dc-video,
+#cc-video,
+#bic-video{    
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    }
+.fade-in-video {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+.fade-in-video.is-playing {
+    opacity: 1;  
 }
 /* slide font styles */
     .sweeper-slide h1,
