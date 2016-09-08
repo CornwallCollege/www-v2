@@ -148,7 +148,7 @@
   anchor: "newquay"
   search: "newquay"  
   brand: Cornwall College
-  copy: <p>Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in animal, marine and surf science studies, it has a reputation for being environmentally friendly and offering individual support in all aspects of study.</p>
+  copy: <p>Cornwall College Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in zoology, marine and surf science studies, the campus is well-known in Cornwall as a friendly and inclusive setting for high quality teaching and research. <br><br> Studying in Newquay gives you access to an amazing environment and incredible opportunities, including international field trips and taking advantage of our close partnerships with local businesses including Newquay Zoo, Blue Reef Aquarium, Cornwall Wildlife Trust and The Eden Project. You can volunteer with our world-leading Student Invasive Non-Native Group (SINNG) and engage with our most valuable teaching resource - our team of highly qualified research active staff.</p>
   link: /newquay-campus.html
   contact-number:  01637 857965 
   images: 
@@ -157,13 +157,13 @@
       alt: an image
       title: image 1
       
-    - link: /images/locations/Newquay/emma-hawke-animal-managemen-LG.jpg
-      thumb: /images/locations/Newquay/emma-hawke-animal-managemen.jpg
+    - link: /images/locations/Newquay/wildlife-LG.jpg
+      thumb: /images/locations/Newquay/wildlife.jpg
       alt: an image
       title: image 2
       
-    - link: /images/locations/Newquay/newquay-campus-LG.jpg
-      thumb: /images/locations/Newquay/newquay-campus.jpg
+    - link: /images/locations/Newquay/zoo-LG.jpg
+      thumb: /images/locations/Newquay/zoo.jpg
       alt: an image
       title: image 3
       
