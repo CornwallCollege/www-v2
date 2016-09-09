@@ -419,6 +419,7 @@ a.ask-a-question:focus {
     position: relative;
     z-index: 13;
     padding-left: 10px;
+
     line-height: 41px;
 }
 .career-search .form-horizontal{
@@ -1775,6 +1776,7 @@ div#logo-wrap #bicton{
         background: url(../images/area-banners/food-production-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
+
 }
 /* RURAL ECONOMY | equine | header bar */
 
@@ -3901,19 +3903,18 @@ video{
     transition: 1s opacity;
     background: url('') no-repeat;
 }
-#cc-video video {
+#cc-video {
     background: url('../images/cc-home-bg-image.jpg') no-repeat;
 }
-#dc-video video {
+#dc-video {
     background: url('../images/dc-home-bg-image.jpg') no-repeat;
 }
-#fms-video video {
+#fms-video {
     background: url('../images/fms-home-bg-image.jpg') no-repeat;
 }
-#bic-video video {
+#bic-video {
     background: url('../images/bic-home-bg-image.jpg') no-repeat;
 }
-/*
 #fms-video,
 #dc-video,
 #cc-video,
@@ -3930,7 +3931,7 @@ video{
 .fade-in-video.is-playing {
     opacity: 1;  
 }
-
+/* slide font styles */
     .sweeper-slide h1,
     .sweeper-slide p{
         color:white;
@@ -3939,7 +3940,7 @@ video{
         font-size: 5.8rem;
         font-weight:300;
     }
-*/
+
 @media screen and (max-device-width: 420px){
         .sweeper-slide h1{
             font-size: 4rem;
