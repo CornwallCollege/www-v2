@@ -119,25 +119,25 @@ $(function () {
                 }
             
             if( iOS ) {
-                alert (' its an apple device! ');
-                 var video_options = [
-                        {
-                            brand: 'cornwall',
-                            videos: ['mobile/steps', 'mobile/door', 'mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
-                        },
-                        {
-                            brand: 'duchy',
-                            videos: ['mobile/cow', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
-                        },
-                        {
-                            brand: 'falmouth',
-                            videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
-                        },
-                        {
-                            brand: 'bicton',
-                            videos: ['mobile/grass', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
-                        },
-                    ]
+                //alert (' its an apple device! ');
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
+                    },
+                ]
                  
             }  else {          
                 if(season == 'autumn'){
