@@ -85,84 +85,26 @@ $(function () {
             }        
         });
         
+        /* Swiper brand navigation */
         function loadVideo(slide) {
-            
-            //get the current month 0 indxed
-            /*var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
-            //get season from current month
-            var season = '';
-                switch (new Date().getMonth())
+            var video_options = [
                 {
-                   case 2:
-                   case 3:
-                   case 4: 
-                       season = 'spring';
-                       break;                          
-                   case 5:
-                   case 6:
-                   case 7: 
-                       season = 'summer';
-                       break;                          
-                   case 8:
-                   case 9:
-                   case 10: 
-                       season = 'autumn';
-                       break;                          
-                   case 11:
-                   case 0:
-                   case 1: 
-                       season = 'winter';
-                       break;
-                      
-                   default: 
-                       alert('no-season');
-                }
-            
- /*           if( iOS ) {
-                alert (' its an apple device! ');
-                 var video_options = [
-                        {
-                            brand: 'cornwall',
-                            videos: ['mobile/steps', 'mobile/door', 'mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
-                        },
-                        {
-                            brand: 'duchy',
-                            videos: ['mobile/cow', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
-                        },
-                        {
-                            brand: 'falmouth',
-                            videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
-                        },
-                        {
-                            brand: 'bicton',
-                            videos: ['mobile/grass', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
-                        },
-                    ]
-                 
-            }  else {         */ 
-                if(season == 'autumn'){
-                    //do somthing seasonal!
-                }
-                var video_options = [
-                    {
-                        brand: 'cornwall',
-                        videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
-                    },
-                    {
-                        brand: 'duchy',
-                        videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                    },
-                    {
-                        brand: 'falmouth',
-                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
-                    },
-                    {
-                        brand: 'bicton',
-                        videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                    },
-                ]
-            
-           /* }*/
+                    brand: 'cornwall',
+                    videos: ['engineering', 'steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac']
+                },
+                {
+                    brand: 'duchy',
+                    videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus']
+                },
+                {
+                    brand: 'falmouth',
+                    videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean']
+                },
+                {
+                    brand: 'bicton',
+                    videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor']
+                },
+            ]
 
             if (!$(slide).hasClass('video-in')) {
                 var brand = $(slide).attr('data-hash');
@@ -171,20 +113,9 @@ $(function () {
                 });
                 var videos = brand_info[0].videos;
                 var index = Math.floor(Math.random() * videos.length);
-                $(slide).find('.brand-video').html('<video autoplay muted loop poster="" id="bgvid" class="fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video>');
+                $(slide).find('.brand-video').html('<video autoplay  poster="" id="bgvid" loop><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video>');
                 $(slide).addClass('video-in');
-                
-                var fade_in_videos = document.querySelectorAll('.fade-in-video');
-                for( i=0; i<fade_in_videos.length; i++ ) {
-                    fade_in_videos[i].addEventListener("playing", function(){
-                        if(!$(this).hasClass('is-playing') ){
-                            this.className += ' is-playing';
-                        }
-                    });
-                }                   
-                
             }
-    
         }
 
         function changeCurrentLogo() {

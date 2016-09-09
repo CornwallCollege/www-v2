@@ -3901,18 +3901,19 @@ video{
     transition: 1s opacity;
     background: url('') no-repeat;
 }
-#cc-video {
+#cc-video video {
     background: url('../images/cc-home-bg-image.jpg') no-repeat;
 }
-#dc-video {
+#dc-video video {
     background: url('../images/dc-home-bg-image.jpg') no-repeat;
 }
-#fms-video {
+#fms-video video {
     background: url('../images/fms-home-bg-image.jpg') no-repeat;
 }
-#bic-video {
+#bic-video video {
     background: url('../images/bic-home-bg-image.jpg') no-repeat;
 }
+/*
 #fms-video,
 #dc-video,
 #cc-video,
@@ -3929,7 +3930,7 @@ video{
 .fade-in-video.is-playing {
     opacity: 1;  
 }
-/* slide font styles */
+
     .sweeper-slide h1,
     .sweeper-slide p{
         color:white;
@@ -3938,7 +3939,7 @@ video{
         font-size: 5.8rem;
         font-weight:300;
     }
-
+*/
 @media screen and (max-device-width: 420px){
         .sweeper-slide h1{
             font-size: 4rem;
