@@ -88,7 +88,7 @@ $(function () {
         function loadVideo(slide) {
             
             //get the current month 0 indxed
-            var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);
+            /*var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
             //get season from current month
             var season = '';
                 switch (new Date().getMonth())
@@ -118,7 +118,7 @@ $(function () {
                        alert('no-season');
                 }
             
-            if( iOS ) {
+ /*           if( iOS ) {
                 alert (' its an apple device! ');
                  var video_options = [
                         {
@@ -139,7 +139,7 @@ $(function () {
                         },
                     ]
                  
-            }  else {          
+            }  else {         */ 
                 if(season == 'autumn'){
                     //do somthing seasonal!
                 }
@@ -162,7 +162,7 @@ $(function () {
                     },
                 ]
             
-            }
+           /* }*/
 
             if (!$(slide).hasClass('video-in')) {
                 var brand = $(slide).attr('data-hash');
