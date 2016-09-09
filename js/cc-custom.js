@@ -78,17 +78,18 @@ $(function () {
             var fade_in_videos = document.querySelectorAll('.fade-in-video');
             for( i=0; i<fade_in_videos.length; i++ ) {
                 fade_in_videos[i].addEventListener("playing", function(){
-                    if(!$(this).hasClass('is-playing') ){
-                        this.className += ' is-playing';
-                    }
+                   /* if(!$(this).hasClass('is-playing') ){
+                       
+                    } */
+                     this.className += ' is-playing';
                 });
             }        
         });
         
         function loadVideo(slide) {
             
-            //get the current month 0 indxed
-            var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);
+            /*get the current month 0 indxed
+            var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
             //get season from current month
             var season = '';
                 switch (new Date().getMonth())
@@ -118,7 +119,7 @@ $(function () {
                        alert('no-season');
                 }
             
-            if( iOS ) {
+           /* if( iOS ) {
                 //alert (' its an apple device! ');
                 var video_options = [
                     {
@@ -139,7 +140,7 @@ $(function () {
                     },
                 ]
                  
-            }  else {          
+            }  else {       */   
                 if(season == 'autumn'){
                     //do somthing seasonal!
                 }
@@ -162,7 +163,7 @@ $(function () {
                     },
                 ]
             
-            }
+           /* }*/
 
             if (!$(slide).hasClass('video-in')) {
                 var brand = $(slide).attr('data-hash');
