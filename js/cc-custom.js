@@ -130,7 +130,7 @@ $(function () {
                     {
                         brand: 'cornwall',
                         videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
-                        mobile_videos: ['mobile/steps', 'mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
+                        mobile_videos: ['mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
                     },
                     {
                         brand: 'duchy',
@@ -193,6 +193,8 @@ $(function () {
                         pauseOnClick: false,
                         audio: false
                     });
+                
+                
             }else {
 
                 // Use HTML5 video
@@ -213,9 +215,10 @@ $(function () {
             $('.logo').removeClass('current-brand');
             $('.logo').addClass('sub-brand grow');
             //$('.logo').children().children().children().attr('src', '/images/dc-brand-logo.png');
-
-            loadVideo(slide);
+            
             if (is_IOS()==false) {
+            loadVideo(slide);
+
                 if (swiperH.slides.length > swiperH.activeIndex + 1) {
                     loadVideo(swiperH.slides[swiperH.activeIndex + 1]);
                 }
@@ -224,6 +227,7 @@ $(function () {
                     loadVideo(swiperH.slides[swiperH.activeIndex - 1]);
                 }
             }
+
 
             $('#' + logo + '-logo').parent().parent().parent().removeClass('sub-brand grow');
             $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
@@ -257,7 +261,7 @@ $(function () {
         $('#cc-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(0, 1000, false);
-            changeCurrentLogo();
+           // changeCurrentLogo();
         
         })
         $('#dc-logo').click(function (e) {
@@ -297,7 +301,7 @@ $(function () {
 
                 });
             
-            //now cose the menu is its open
+            //now close the menu is its open
             var openRightPush = document.getElementById('openRightPush')            
             if ($( '#openRightPush' ).hasClass('active')) {
                 //change the text and icon back
