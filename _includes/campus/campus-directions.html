@@ -5,7 +5,7 @@
 
 
     </div>
-    <div class="col-md-4 col-sm-6 " style="height: 425px; background-color: rgb(245, 245, 245);">
+    <div class="col-md-4 col-sm-6 " style="height: 480px; background-color: rgb(245, 245, 245);">
         <div class="col-xs-11 col-xs-offset-1 col-sm-offset-0">
             <h3 class="font-body t400 ls1">DIRECTIONS</h3>
 
@@ -29,7 +29,7 @@
                 <a href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}" target="_blank" class="icon-btn">Get Your Location</a>
                 <form action="https://maps.google.com/maps" method="get" target="_blank">
                     <label for="saddr" >ENTER YOUR LOCATION</label><br/>
-                    <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
+                    <input type="text" name="saddr" style="padding-bottom:5px; margin-bottom:8px; width:80%" placeholder="Place Name/Postcode"/>
                     <input type="hidden" name="daddr" value="{{page.campus}} {{page.address}} {{page.postcode}}" />
                     <input type="submit" class="icon-btn" value="Get directions" />
                 </form>
