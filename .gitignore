@@ -33,3 +33,7 @@ packages/
 *.jekyll-metadata
 *.jekyll-metadata
 images/19plus-hub/childcare.jpg
+
+.DS_Store
+
+.DS_Store
