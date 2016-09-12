@@ -21,9 +21,20 @@ $(function () {
 
 });
 
-
 /* SWIPER options (home page)*/
 $(function () {
+    
+    if(is_IOS()){
+        //background:; cover fix
+        $('.jumbotron').css({ 'background-size': "initial" });
+        $('.fulltime-bar').css({ 'background-size': "initial", 'background-attachment': "initial", });
+    }  
+    
+    function is_IOS() {
+      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
+        return isIOS;
+    }    
+    
     if (location.pathname === "/") {
 
 
@@ -180,6 +191,9 @@ $(function () {
             }
     
         }
+
+     
+        
         //if ios device work around 
         function auto_play_on_ios(brand) {
            
@@ -203,10 +217,10 @@ $(function () {
             }   
         }
         
-        function is_IOS() {
+        /*function is_IOS() {
           var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
             return isIOS;
-        }
+        }*/
 
         function changeCurrentLogo() {
 
