@@ -3468,7 +3468,7 @@
                         var bullet = $(this);
                         s.a11y.makeFocusable(bullet);
                         s.a11y.addRole(bullet, 'button');
-                        s.a11y.addLabel(bullet, s.params.paginationBulletMessage.replace(/{index}/, bullet.index() + 1));
+                        s.a11y.addLabel(bullet, s.params.paginationBulletMessage.replace(/{{index}}/, bullet.index() + 1));
                     });
                 }
             },
@@ -3775,4 +3775,4 @@ else if (typeof define === 'function' && define.amd) {
         return window.Swiper;
     });
 }
-// sourceMappingURL=maps/swiper.jquery.js.map
+//# sourceMappingURL=maps/swiper.jquery.js.map
