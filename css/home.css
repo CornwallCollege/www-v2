@@ -57,6 +57,7 @@
 
 /*==== SWIPER STYLES =====*/
 /*==== SELECT-OR-DIE STYLES =====*/
+
 .sod_select,
 .sod_select *
     {
@@ -69,6 +70,8 @@
            -ms-user-select: none;
                user-select: none;
     }
+
+/* The SoD - Please keep this first three lines intact, otherwise all hell will break looooooose */
 .sod_select
     {
         display: inline-block;
@@ -115,6 +118,15 @@
 
         .sod_select.open { color: #919191; }
         .sod_select.focus { box-shadow: 0 0 5px rgba(0,0,0,.2); }
+
+    /* When the entire SoD is disabled, go crazy! */
+    .sod_select.disabled
+        {
+            border-color: #828282;
+            color: #b2b2b2;
+            cursor: not-allowed;
+        }
+
     /* The "label", or whatever we should call it. Keep the first three lines for truncating. */
     .sod_select .sod_label
         {
@@ -125,8 +137,6 @@
 
             padding-right: 15px;
         }
-        /* Shows the option list (don't edit) */
-        .sod_select.open .sod_list_wrapper { display: block;  }
 
         .sod_select .sod_prefix { /* Use this if you're using a prefix and want to style it */ }
         .sod_select .sod_placeholder { /* Use this if you're using a placeholder and want to style it */ }
@@ -150,6 +160,22 @@
             font-weight: 300;
             z-index: 1;
         }
+
+        /* Shows the option list (don't edit) */
+        .sod_select.open .sod_list_wrapper { display: block;  }
+
+        /* Don't display the options when  */
+        .sod_select.disabled.open .sod_list_wrapper { display: none;  }
+
+        /* When the option list is displayed above the SoD */
+        .sod_select.above .sod_list_wrapper
+            {
+                top: auto;
+                bottom: 100%;
+                border-top: 3px solid #000000;
+                border-bottom: none;
+            }
+
     /* Options list container */
     .sod_select .sod_list
         {
@@ -171,7 +197,22 @@
                 padding: 10px 10px;
                 list-style-type: none;
             }
-           .sod_select .sod_option.is-placeholder {
+
+            /* Optgroups */
+            .sod_select .sod_option.optgroup,
+            .sod_select .sod_option.optgroup.disabled
+                {
+                    background: inherit;
+                    color: #939393;
+                    font-size: 10px;
+                    font-style: italic;
+                }
+
+                /* Children of an optgroup */
+                .sod_select .sod_option.groupchild { padding-left: 20px; }
+
+            /* Used together with placeholderOption / data-placeholder-option */
+            .sod_select .sod_option.is-placeholder {
                 display: none;
             }
 
@@ -216,5 +257,26 @@
                 /* Add a .no_highlight class to you SoD to hide the check mark and don't bold the option */
                 .sod_select.no_highlight .sod_option.selected { font-weight: 300; }
                 .sod_select.no_highlight .sod_option.selected:before { display: none; }
+
+            .sod_select .sod_option.link { /* If data-link is set on a specific option */ }
+            .sod_select .sod_option.linkexternal { /* If data-link-external is set on a specific option */ }
+
+
+
     /* Hide native select */
     .sod_select select { display: none !important; }
+
+        /* The native select in touch mode. Keep this first line. Sorry, keep everything. */
+        .sod_select.touch select
+            {
+                -webkit-appearance: menulist-button;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block !important;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                z-index: 1;
+            }

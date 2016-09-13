@@ -21,9 +21,20 @@ $(function () {
 
 });
 
-
 /* SWIPER options (home page)*/
 $(function () {
+    
+    if(is_IOS()){
+        //background:; cover fix
+        $('.jumbotron').css({ 'background-size': "initial" });
+        $('.fulltime-bar').css({ 'background-size': "initial", 'background-attachment': "initial", });
+    }  
+    
+    function is_IOS() {
+      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
+        return isIOS;
+    }    
+    
     if (location.pathname === "/") {
 
 
@@ -75,6 +86,9 @@ $(function () {
 
         /* Swiper brand navigation */
         $( document ).ready(function() {
+            
+            
+            
             var fade_in_videos = document.querySelectorAll('.fade-in-video');
             for( i=0; i<fade_in_videos.length; i++ ) {
                 fade_in_videos[i].addEventListener("playing", function(){
@@ -118,48 +132,31 @@ $(function () {
                    default: 
                        alert('no-season');
                 }
-            
-           /* if( iOS ) {
-                //alert (' its an apple device! ');
-                var video_options = [
-                    {
-                        brand: 'cornwall',
-                        videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
-                    },
-                    {
-                        brand: 'duchy',
-                        videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                    },
-                    {
-                        brand: 'falmouth',
-                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
-                    },
-                    {
-                        brand: 'bicton',
-                        videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                    },
-                ]
-                 
-            }  else {       */   
+ 
                 if(season == 'autumn'){
                     //do somthing seasonal!
                 }
+                var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
                 var video_options = [
                     {
                         brand: 'cornwall',
                         videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
+                        mobile_videos: ['mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
                     },
                     {
                         brand: 'duchy',
                         videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
+                        mobile_videos: ['mobile/cow', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
                     },
                     {
                         brand: 'falmouth',
                         videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
+                        mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
                     },
                     {
                         brand: 'bicton',
                         videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
+                        mobile_videos: ['mobile/grass', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
                     },
                 ]
             
@@ -170,9 +167,15 @@ $(function () {
                 var brand_info = $.grep(video_options, function (e) {
                     return e.brand === brand;
                 });
-                var videos = brand_info[0].videos;
+                //if mobile choose from the mobile array of videos
+                if(isMobile){
+                    var videos = brand_info[0].mobile_videos;  
+                } else {
+                    var videos = brand_info[0].videos;  
+                }
+
                 var index = Math.floor(Math.random() * videos.length);
-                $(slide).find('.brand-video').html('<video autoplay muted loop poster="" id="bgvid" class="fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video>');
+                $(slide).find('.brand-video').html('<video autoplay muted loop poster="" id="'+brand+'-video" class="video fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video><canvas id="'+brand+'-canvas" class="video-canvas"></canvas>');
                 $(slide).addClass('video-in');
                 
                 var fade_in_videos = document.querySelectorAll('.fade-in-video');
@@ -182,11 +185,42 @@ $(function () {
                             this.className += ' is-playing';
                         }
                     });
-                }                   
+                }  
                 
+                 auto_play_on_ios(brand); 
             }
     
         }
+
+     
+        
+        //if ios device work around 
+        function auto_play_on_ios(brand) {
+           
+            if (is_IOS()) {
+                    var canvasVideo = new CanvasVideoPlayer({
+                        videoSelector: "#"+brand+"-video",
+                        canvasSelector: "#"+brand+"-canvas",
+                        timelineSelector: false,
+                        autoplay: true,
+                        makeLoop: true,
+                        pauseOnClick: false,
+                        audio: false
+                    });
+                
+                
+            }else {
+
+                // Use HTML5 video
+                document.querySelectorAll('.video-canvas')[0].style.display = 'none';
+
+            }   
+        }
+        
+        /*function is_IOS() {
+          var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
+            return isIOS;
+        }*/
 
         function changeCurrentLogo() {
 
@@ -195,15 +229,19 @@ $(function () {
             $('.logo').removeClass('current-brand');
             $('.logo').addClass('sub-brand grow');
             //$('.logo').children().children().children().attr('src', '/images/dc-brand-logo.png');
-
+            
+            if (is_IOS()==false) {
             loadVideo(slide);
-            if (swiperH.slides.length > swiperH.activeIndex + 1) {
-                loadVideo(swiperH.slides[swiperH.activeIndex + 1]);
+
+                if (swiperH.slides.length > swiperH.activeIndex + 1) {
+                    loadVideo(swiperH.slides[swiperH.activeIndex + 1]);
+                }
+
+                if (swiperH.activeIndex > 0) {
+                    loadVideo(swiperH.slides[swiperH.activeIndex - 1]);
+                }
             }
 
-            if (swiperH.activeIndex > 0) {
-                loadVideo(swiperH.slides[swiperH.activeIndex - 1]);
-            }
 
             $('#' + logo + '-logo').parent().parent().parent().removeClass('sub-brand grow');
             $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
@@ -237,7 +275,7 @@ $(function () {
         $('#cc-logo').click(function (e) {
             e.preventDefault();
             swiperH.slideTo(0, 1000, false);
-            changeCurrentLogo();
+           // changeCurrentLogo();
         
         })
         $('#dc-logo').click(function (e) {
@@ -277,7 +315,7 @@ $(function () {
 
                 });
             
-            //now cose the menu is its open
+            //now close the menu is its open
             var openRightPush = document.getElementById('openRightPush')            
             if ($( '#openRightPush' ).hasClass('active')) {
                 //change the text and icon back

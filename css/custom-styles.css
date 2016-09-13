@@ -3889,7 +3889,8 @@ textarea {
 }
 /* Home page video background*/
 
-video{
+video,
+.video-canvas{
     position: absolute;
     top: 50%;
     left: 50%;

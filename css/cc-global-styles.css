@@ -864,6 +864,17 @@ div.logo-wrap-scroll :nth-child(4) {
     transition: all 0.4s;
 }
 
+@media(min-device-width:320px) and (max-device-width:425px) {
+    .contact-details {
+        padding-left: 0px;
+    }
+}
+@media(min-width:320px) and (max-width:425px) {    
+    .contact-details td {
+        max-width: 235px;
+    }
+}
+
 .contact-details:hover td i {
     color: #fff;
 }
@@ -872,6 +883,15 @@ div.logo-wrap-scroll :nth-child(4) {
 #main-contact td a {
     font-size: 16px;
 }
+@media(min-width:320px) and (max-width:425px) {    
+    #main-contact td:last-child,
+    #main-contact td a, 
+    #main-contact td address {
+        font-size: 13px;
+        padding-left: 5px;
+    }
+}
+
 a {
     font-family: 'Raleway', serif;
     color: #52B3D9;
