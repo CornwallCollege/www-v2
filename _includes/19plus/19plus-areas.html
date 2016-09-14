@@ -11,7 +11,7 @@
                 {% for 19plus-cluster in site.data.sub-clusters %}
                   {% for 19plus-area in 19plus-cluster.subclusters %}
                      {% if 19plus-area.sector contains '19plus' %}
-                    <span class="col-xs-6 col-sm-12 col-md-4 text-center">
+                    <span class="col-xs-12 col-sm-12 col-md-4 text-center">
                         <a class="learning-area" href="{{ site.course_site_baseurl }}course_type/fe19plus/cluster/{{ 19plus-area.search-link }}" style="border-left:10px solid #{{ 19plus-area.colour }};">
                                          <span class="col-xs-12 19plus-area" >{{ 19plus-area.subcluster }}</span>
                                        </a>
