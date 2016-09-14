@@ -2160,6 +2160,12 @@ a.play-btn-normal {
     top: -5px;
 }
 
+@media (min-device-width:360px) and (max-device-width:425px) and (orientation:portrait) {
+    .portfolio-thumb {
+        width: 82%;
+    }
+}
+
 .portfolio-thumb:hover i {
 	background: #bba454;
 }
@@ -2192,7 +2198,12 @@ a.play-btn-normal {
 	padding-right: 25px;
 }
 
-
+@media (min-width:360px) and (max-width:425px) and (orientation:portrait) {
+    .portfolio-thumb b {
+        padding: 0px
+    }    
+}
+ 
 /* ******************** 07 - Call to Action ******************** */
 .call-to-action {
 	position: relative;

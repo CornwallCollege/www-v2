@@ -3858,6 +3858,19 @@ textarea {
         height:100%;
         width: 100%;
     }
+    .swiper-container-no-flexbox #cc-home-slide,
+    .swiper-container-no-flexbox #dc-home-slide,
+    .swiper-container-no-flexbox #fms-home-slide,
+    .swiper-container-no-flexbox #bic-home-slide{
+        position: absolute;
+        top: 0;
+        bottom:0;
+        right:0;
+        left: 0;
+        margin: auto;
+        height: 35%;
+    }
+
     .whats-on{
         overflow: auto;
     }
@@ -3924,6 +3937,7 @@ video,
     height: 100%;
     width: 100%;
     position: fixed;
+    z-index: 1;
     }
 .fade-in-video {
     opacity: 0;
