@@ -3960,21 +3960,21 @@ video,
     opacity: 1;
 }
 /* slide font styles */
-    .sweeper-slide h1,
-    .sweeper-slide p{
+    .swiper-slide h1,
+    .swiper-slide p{
         color:white;
     }
-    .sweeper-slide h1{
+    .swiper-slide h1{
         font-size: 5.8rem;
         font-weight:300;
     }
 
 @media screen and (max-device-width: 420px){
-        .sweeper-slide h1{
+        .swiper-slide h1{
             font-size: 4rem;
             margin-top:120px;
         }
-        .sweeper-slide h2{
+        .swiper-slide h2{
             font-size: 2rem;
         }
     }
@@ -4593,7 +4593,7 @@ a.learning-area:hover{
                 margin-bottom: 10px;
                 left: 50%;
             }
-            .sweeper-slide h1{
+            .swiper-slide h1{
                 font-size: 3.5rem;
             }
             .sod_placeholder{
