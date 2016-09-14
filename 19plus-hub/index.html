@@ -31,6 +31,7 @@ usefulLinks:
       baseurl: true
       suburl: student-support
 ---
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- HEADER SECTION -->
     <section id="nineteen-plus" class="col-md-12 jumbotron header-title">
@@ -57,7 +58,7 @@ usefulLinks:
         <div class="col-sm-12 col-md-4 useful-links main-section-margins">
             <h3>Links</h3>
             {% for link in page.usefulLinks %}
-                <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}"> {{ link.title | upcase }}</a>
+                <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
             {% endfor %}
         </div>
     </section>

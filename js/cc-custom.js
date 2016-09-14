@@ -1332,7 +1332,15 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 
         */
     });
+
+        $(".isotope-reset").click(function(){
+            $(".content ul.sort").isotope({
+            filter: '*'
+            });
+        });
+    
 }
+    
 $(document).ready(function () {
     $( ".tile1" ).click(function() {
         $( ".content1" ).slideToggle( "slow", "swing");
