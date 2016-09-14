@@ -3936,8 +3936,8 @@ video,
     background-size: cover;
     height: 100%;
     width: 100%;
-    position: fixed;
     z-index: 1;
+    position: absolute;
     }
 .fade-in-video {
     opacity: 0;
