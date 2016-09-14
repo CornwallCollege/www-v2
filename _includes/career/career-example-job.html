@@ -1,3 +1,4 @@
+{% if include.number < '7' %}
 <article class="col-sm-6">
     <a data-toggle="collapse" data-target="#career-{{include.number}}" href="#career-{{include.number}}" aria-expanded="false" aria-controls="career-{{include.number}}" class="collapsed">
         <h2>{{include.title}}<span class="readmore"><br/>Read more...</span></h2>
@@ -7,17 +8,17 @@
         <p>{{include.paragraph}}</p>
         <section id="counters-{{include.number}}">
             <div class="container" style="width:auto;">
-                <div class="counters counters-alt">                    
+                <div class="counters counters-alt">
                     {% if include.jobsNow %}
                     <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
                         <h5><span class="counter">{{include.jobsNow}}</span> Jobs in {{include.jobsIn}}</h5>
-                    </div> 
+                    </div>
                     {% endif %}
                     {% if include.jobsFuture %}
                     <div class="col-xs-12 col-sm-12 col-lg-4 inner inner-even transition">
                         <h5><span class="counter">{{include.jobsFuture}}</span> Jobs by <br/> 2020</h5>
                     </div>
-                    {% endif %}                    
+                    {% endif %}
                     {% if include.startingSalary %}
                     <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
                         <h5><span class="counter">£{{include.startingSalary}}</span> Starting Salary</h5>
@@ -25,13 +26,27 @@
                     {% else %}
                     <div class="col-xs-12 col-sm-12 col-lg-4 inner transition">
                         <h5><span><small><strong>variable</strong></small></span> Starting Salary</h5>
-                    </div>   
+                    </div>
                     {% endif %}
                 </div>
             </div>
-        </section> 
+        </section>
         <section>
-                    <a href="{{ site.course_site_baseurl }}tag/{{include.hashtag}}" title="career: {{include.title}}" class="btn ghost" style="width:100%; white-space:normal;">view courses relating to {{include.title}}</a> 
+                    <a href="{{ site.course_site_baseurl }}tag/{{include.hashtag}}" title="career: {{include.title}}" class="btn ghost" style="width:100%; white-space:normal;">view courses relating to {{include.title}}</a>
         </section>
     </div>
 </article>
+
+{% else %}
+
+<!-- And many more section -->
+<section class="col-sm-12 margin-top header-icon">
+  <a href="#" data-toggle="collapse" aria-expanded="false" class="collapsed" data-target="#more-careers" href="#more-careers">
+    <i class="fa fa-plus fa-4x transition" style="font-size:40px; color:#52B3D9;"></i>
+    <h4 style="color:black;">MANY MORE!</h4>
+  </a>
+  <section id="more-careers" class="collapse col-xs-12 light-bg">
+  </section>
+</section>
+
+{% endif %}

@@ -995,65 +995,93 @@ div#logo-wrap #bicton{
 .jumbotron {
     z-index: 1;
 }
-/* ----------------- Staff area styles ---------------------*/
+/* ----------------- Example Careers Primary Tiles---------------------*/
 
 .box-square article:nth-child(1) a{
     color: #fff;
-    border-color: white;
+    border-color: #fff;
 }
-.box-square article:nth-child(2) {
+
+.box-square article:nth-child(2),
+.box-square article:nth-child(6),
+.box-square .more article:nth-child(4) {
     background: #EAEAEA;
 }
 
-.box-square article:nth-child(2) h3,
-.box-square article:nth-child(2) h4 {
+.box-square article:nth-child(2) h2,
+.box-square article:nth-child(6) h2,
+.box-square .more article:nth-child(4) h2,
+.box-square .more article:nth-child(4) a {
     color: #52B3D9;
+    border-color: #52B3D9;
 }
 
-.box-square article:nth-child(4) {
+.box-square .more article:nth-child(4) p {
+  color: #666
+}
+
+.box-square article:nth-child(3) a,
+.box-square article:nth-child(3) h2,
+.box-square .more article:nth-child(1) a,
+.box-square .more article:nth-child(1) h2,
+.box-square .more article:nth-child(5) a,
+.box-square .more article:nth-child(5) h2 {
+    color: #52B3D9;
+    border-color: #52B3D9;
+}
+
+.box-square article:nth-child(3),
+.box-square .more article:nth-child(1),
+.box-square .more article:nth-child(5) {
+    background: #fff;
+    clear: left;
+}
+
+.box-square .more article:nth-child(1) p,
+.box-square .more article:nth-child(5) p {
+    color: #666;
+}
+
+.box-square article:nth-child(4),
+.box-square .more article:nth-child(2),
+.box-square .more article:nth-child(6) {
     background: #000;
 }
 
-.box-square article:nth-child(4) h3,
+.box-square article:nth-child(4) h2,
 .box-square article:nth-child(4) a,
-.box-square article:nth-child(4) p {
+.box-square article:nth-child(4) p,
+.box-square .more article:nth-child(2) h2,
+.box-square .more article:nth-child(2) a,
+.box-square .more article:nth-child(2) p,
+.box-square .more article:nth-child(6) h2,
+.box-square .more article:nth-child(6) a,
+.box-square .more article:nth-child(6) p {
     color: #fff;
     border-color: white;
 }
 
-.box-square article:nth-child(3) a,
-.box-square article:nth-child(3) h3 {
-    color: #52B3D9;
-    border-color: #52b3d9;
-}
-
-.box-square article:nth-child(3) {
-    /*background: #52B3D9;*/
-
-    background: white;
-    clear: left;
-}
-
-.box-square article:nth-child(5) h3,
+.box-square article:nth-child(5) h2,
 .box-square article:nth-child(5) a,
-.box-square article:nth-child(5) p {
-    color: white;
-    border-color: white;
+.box-square article:nth-child(5) p,
+.box-square .more article:nth-child(3) h2,
+.box-square .more article:nth-child(3) a,
+.box-square .more article:nth-child(3) p {
+    color: #fff;
+    border-color: #fff;
 }
 
-.box-square article:nth-child(5) {
+.box-square article:nth-child(5),
+.box-square .more article:nth-child(3) {
     background: #52B3D9;
     clear: left;
 }
 
-.box-square article:nth-child(6) {
-    background: #EAEAEA;
+.box-square article:nth-child(5) p,
+.box-square .more article:nth-child(3) p, {
+    color: #666;
 }
 
-.box-square article:nth-child(6) h3,
-.box-square article:nth-child(6) h4 {
-    color: #52B3D9;
-}
 .box-square article a:hover{
     letter-spacing: inherit
 }
@@ -1149,7 +1177,13 @@ div#logo-wrap #bicton{
 .career-areas #counters-3,
 .career-areas #counters-4,
 .career-areas #counters-5,
-.career-areas #counters-6{
+.career-areas #counters-6,
+.career-areas #counters-7,
+.career-areas #counters-8,
+.career-areas #counters-9,
+.career-areas #counters-10,
+.career-areas #counters-11,
+.career-areas #counters-12{
     background: none;
 }
 
@@ -1158,7 +1192,13 @@ div#logo-wrap #bicton{
 #counters-3 .inner,
 #counters-4 .inner,
 #counters-5 .inner,
-#counters-6 .inner{
+#counters-6 .inner,
+#counters-7 .inner,
+#counters-8 .inner,
+#counters-9 .inner,
+#counters-10 .inner,
+#counters-11 .inner,
+#counters-12 .inner{
     display: inline;
     background: rgba(255, 255, 255, 0.5);
     padding: 36px 25px;
@@ -1170,7 +1210,13 @@ div#logo-wrap #bicton{
 #counters-3 .inner-even,
 #counters-4 .inner-even,
 #counters-5 .inner-even,
-#counters-6 .inner-even{
+#counters-6 .inner-even,
+#counters-7 .inner-even,
+#counters-8 .inner-even,
+#counters-9 .inner-even,
+#counters-10 .inner-even,
+#counters-11 .inner-even,
+#counters-12 .inner-even{
     background: rgba(255, 255, 255, 0.6);
 }
 
@@ -1179,7 +1225,13 @@ div#logo-wrap #bicton{
 #counters-3 .inner:hover,
 #counters-4 .inner:hover,
 #counters-5 .inner:hover,
-#counters-6 .inner:hover{
+#counters-6 .inner:hover,
+#counters-7 .inner:hover,
+#counters-8 .inner:hover,
+#counters-9 .inner:hover,
+#counters-10 .inner:hover,
+#counters-11 .inner:hover,
+#counters-12 .inner:hover{
     background: rgba(255, 255, 255, 0.8);
 }
 
@@ -3893,7 +3945,7 @@ video,
 #fms-video,
 #dc-video,
 #cc-video,
-#bic-video{    
+#bic-video{
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -3905,7 +3957,7 @@ video,
     transition: opacity 0.5s linear;
 }
 .fade-in-video.is-playing {
-    opacity: 1;  
+    opacity: 1;
 }
 /* slide font styles */
     .sweeper-slide h1,

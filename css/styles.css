@@ -2,44 +2,44 @@
 
 /* Table of Content
 ==================================================
-        
+
         -- GENERAL --
 
 	-- HEADER TITLE
         -- Super Slides
         -- LOGO
-            
+
         -- MENU ITEMS
         -- SUBMENU ITEMS
         -- menu search form
 
 	-- SERVICES --
 	-- ABOUT US --
-	
+
         -- call to action
         -- counters
         -- work process
         -- progress bar
-            
+
         -- ISOTOPE
         -- LIGHTBOX
         -- JCAROUSEL
-        
+
 	-- PORTFOLIO --
             - grid-layout
             - hover-effect
             - expander
-            
+
 	-- TEAM MEMBERS --
-     
+
         -- TESTIMONIAL --
             - client
-                  
+
         -- PRICE TABLE --
         -- CONTACTS --
         -- FOOTER --
-	
-        
+
+
 ===================================================
 
 
@@ -395,7 +395,7 @@ section > h2 strong,
 }
 a.selected{
     background: white;
-    border:solid 3px #52B3D9;  
+    border:solid 3px #52B3D9;
     color: #52b3d9;
 }
 .icon-expand:hover:before,
@@ -2365,7 +2365,7 @@ a.selected{
         width: 100%;
     }
 }
-/* 
+/*
  *  Owl Carousel - Animate Plugin
  */
 
@@ -2406,7 +2406,7 @@ a.selected{
         opacity: 0;
     }
 }
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 
@@ -2417,17 +2417,17 @@ a.selected{
     -o-transition: height 500ms ease-in-out;
     transition: height 500ms ease-in-out;
 }
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 
 .owl-carousel {
     display: none;
     /*width: 100%;*/
-    
+
     -webkit-tap-highlight-color: transparent;
     /* position relative and z-index fix webkit rendering fonts issue */
-    
+
     position: relative;
     z-index: 1;
 }
@@ -2450,7 +2450,7 @@ a.selected{
     position: relative;
     overflow: hidden;
     /* fix for flashing background */
-    
+
     -webkit-transform: translate3d(0px, 0px, 0px);
 }
 
@@ -2523,7 +2523,7 @@ a.selected{
 .no-js .owl-carousel {
     display: block;
 }
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 
@@ -2539,7 +2539,7 @@ a.selected{
 .owl-carousel .owl-item img {
     transform-style: preserve-3d;
 }
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 
@@ -4219,7 +4219,7 @@ form textarea.error {
 .contact-details {
     margin-bottom: 50px;
     /*border: 1px solid #eee;*/
-    
+
     width: 100%;
 }
 
@@ -4272,7 +4272,7 @@ form textarea.error {
     padding: 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(http://placehold.it/1440x400) 50% 0 no-repeat fixed;
     height: auto;
-    
+
     background-size: cover;
 }
 
@@ -4283,7 +4283,7 @@ form textarea.error {
 .bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
-    
+
     font-family: "Raleway";
     font-weight: 400;
     margin: 0;
@@ -4375,7 +4375,7 @@ form textarea.error {
 .career-course .btn{
     width: 100%;
     margin-top: 0;
-    margin-bottom:10px;    
+    margin-bottom:10px;
 }
 /* =================================
  *
