@@ -3850,7 +3850,9 @@ textarea {
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: rgba(0, 0, 0, 0.4);
+    }
+    .swiper-slide-active {
+        background: rgba(0, 0, 0, 0.3);
     }
     #cc-home-slide,
     #dc-home-slide,
