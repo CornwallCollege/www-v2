@@ -669,45 +669,6 @@ button.icon-btn:hover,
 }
 /*------------------ Ghost button styles --------------------*/
 
-.portal {
-    margin-top: 3%;
-}
-
-.portal a.ghost {
-    border-width: 1px;
-    width: 85%;
-}
-
-.portal a.ghost:last-of-type {
-    margin-top: 7px;
-}
-
-.portal a.ghost i {
-    padding-right: 10px;
-    font-size: 15px;
-}
-
-@media ( min-width: 767px) {
-    .portal {
-        position: absolute;
-        top: 0;
-        margin-top: 15%;
-    }
-    .portal a.ghost {
-        width: 100%;
-    }
-}
-
-@media ( min-width: 1200px) {
-    .portal {
-        position: absolute;
-        top: 0;
-    }
-    .portal .ghost {
-        font-size: 14px;
-        padding: 5px 15px;
-    }
-}
 
 .ghost {
     background: transparent;
@@ -4524,7 +4485,7 @@ a.learning-area:hover{
         .cover_sod:before
             {
                 content: "\f078";
-                font-size: .5em;
+                font-size: 21px;
                 top: 35%;
                 right: 5%;
                 width: auto;
