@@ -68,7 +68,7 @@
         sub-menu-link: career-hub/  
         
 - menu-name: About Us
-  menu-link: about-hub/ 
+  menu-link: https://network.cornwall.ac.uk/governance   
   sub-menu:
       - sub-menu-name: Contact us/ how to find us
         sub-menu-link: about-pages/contact.html
