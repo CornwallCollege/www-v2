@@ -55,8 +55,9 @@ $(function () {
             threshold: 50,
             mousewheelControl: true,
             mousewheelReleaseOnEdges: true,
-            scrollbarDraggable: true
-            
+            //scrollbarDraggable: true,
+            slidesPerView: 'auto',
+            freeMode: true,
 
         });
         
