@@ -32,6 +32,55 @@ student-name3:
 student-role3:
 student-photo3:
 student-text3: I've always been really into my sport and the course looked great.
+
+careers:
+- career-number: 1
+  career-title: Fitness Instructor or Personal Trainer
+  career-paragraph: Fitness instructors deliver training in a range of fitness activities, including weight training, yoga, Pilates, personal training and other forms of exercise at private health and fitness centres, local authority run sports and leisure centres, other public and community establishments, and in private homes.
+  jobs-now: 4978
+  jobs-future: 5337
+  starting-salary: 13000
+  hashtag: fitness-instructor
+
+- career-number: 2
+  career-title: Leisure / Sports Manager (inc. Outdoor Education Centres)
+  career-paragraph: Leisure and sports managers organise, direct and co-ordinate the activities and resources required for the provision of sporting, artistic, theatrical and other recreational and amenity services.
+  jobs-now: 4280
+  jobs-future: 4696
+  starting-salary: 17000
+  hashtag: leisure-management
+
+- career-number: 3
+  career-title: Sports Coach / Instructor (inc. Watersports & Outdoors Education)
+  career-paragraph: Sports coaches, instructors and officials work with amateur and professional sportsmen and women to enhance performance, encourage greater participation in sport, supervise recreational activities such as canoeing and mountaineering, and organise and officiate at sporting events according to established rules.
+  jobs-now: 7366
+  jobs-future: 8087
+  starting-salary: 12000
+  hashtag: sports-coach
+
+- career-number: 4
+  career-title: Sports Player
+  career-paragraph: Professional sportsmen and women train and compete, either individually or as part of a team, in their chosen sport for financial gain.
+  jobs-now: 1531
+  jobs-future: 1682
+  starting-salary: variable
+  hashtag: sports-player
+
+- career-number: 5
+  career-title: Outdoor Education Instructor
+  career-paragraph: Outdoor activities instructors lead trips and teach skills in activities such as hill walking, climbing, canoeing, skiing and snowboarding.
+  jobs-now: 7366
+  jobs-future: 8087
+  starting-salary: 12000
+  hashtag: sports-coach
+
+- career-number: 6
+  career-title: Leisure or Sports Assistant
+  career-paragraph: Sports and leisure assistants, provide and maintain facilities for sporting and recreational activities and supervise their use, maintain the continuity of entertainment and social events, offer odds and accept bets on the result of sporting and other events and control gambling activities.
+  jobs-now: 5585
+  jobs-future: 6031
+  starting-salary: 12500
+  hashtag: leisure-assistant
 ---
 
 {% include /career/career-header.html %}
@@ -40,21 +89,7 @@ student-text3: I've always been really into my sport and the course looked great
 
 <section class="container">{% youtube https://youtu.be/k8TgODLRqTM %}</section>
 
-{% include /career/career-examples-head.html %}
-
-{% include /career/career-example-job.html number='1' title='Fitness Instructor or Personal Trainer' paragraph='Fitness instructors deliver training in a range of fitness activities, including weight training, yoga, Pilates, personal training and other forms of exercise at private health and fitness centres, local authority run sports and leisure centres, other public and community establishments, and in private homes.' jobsIn='the Southwest' jobsNow=4978 jobsFuture=5337 startingSalary=13000 hashtag='fitness-instructor' %}
-
-{% include /career/career-example-job.html number='2' title='Leisure / Sports Manager (inc. Outdoor Education Centres)' paragraph='Leisure and sports managers organise, direct and co-ordinate the activities and resources required for the provision of sporting, artistic, theatrical and other recreational and amenity services.' jobsIn='the Southwest' jobsNow=4280 jobsFuture=4696 startingSalary=17000 hashtag='leisure-management' %}
-
-{% include /career/career-example-job.html number='3' title='Sports Coach / Instructor (inc. Watersports & Outdoors Education)' paragraph='Sports coaches, instructors and officials work with amateur and professional sportsmen and women to enhance performance, encourage greater participation in sport, supervise recreational activities such as canoeing and mountaineering, and organise and officiate at sporting events according to established rules.' jobsIn='The Southwest' jobsNow=7366 jobsFuture=8087 startingSalary=12000 hashtag='sports-coach' %}
-
-{% include /career/career-example-job.html number='4' title='Sports Player' paragraph='Professional sportsmen and women train and compete, either individually or as part of a team, in their chosen sport for financial gain.' jobsIn='the Southwest' jobsNow=1531 jobsFuture=1682 altStartingSalary='variable' hashtag='sports-player' %}
-<!--
-{% include /career/career-example-job.html number='5' title='Outdoor Education Instructor' paragraph='Outdoor activities instructors lead trips and teach skills in activities such as hill walking, climbing, canoeing, skiing and snowboarding.' altStartingSalary='12,000' hashtag=outdoor-education-instructor %}
-
-{% include /career/career-example-job.html number='6' title='Leisure or Sports Assistant' paragraph='Sports and leisure assistants, provide and maintain facilities for sporting and recreational activities and supervise their use, maintain the continuity of entertainment and social events, offer odds and accept bets on the result of sporting and other events and control gambling activities.' jobsIn='The Southwest' StartingSalary='12500' hashtag=Leisure-Centre-Assistant %}
--->
-{% include /career/career-examples-foot.html %}
+{% include /career/example-careers.html %}
 
 {% include /career/career-apply-bar-first.html %}
 

@@ -33,6 +33,55 @@ student-name3:
 student-role3:
 student-photo3:
 student-text3:
+
+careers:
+- career-number: 1
+  career-title: Actor, Entertainer or Presenter
+  career-paragraph: Actors, entertainers and presenters sing, portray roles in dramatic productions, and introduce and present radio and television programmes.
+  jobs-now: 3273
+  jobs-future: 3446
+  starting-salary: 18000
+  hashtag: actor
+
+- career-number: 2
+  career-title: Artist
+  career-paragraph: Artists create artistic works using appropriate techniques, materials and media; design artwork and illustrations; and restore damaged pieces of art.
+  jobs-now: 3946
+  jobs-future: 4357
+  starting-salary: variable
+  hashtag: artist
+
+- career-number: 3
+  career-title: Arts Officer, Producer or Director
+  career-paragraph: Arts officers, producers and directors assume creative, financial and organisational responsibilities in the production and direction of television and radio programmes, films, stage presentations, content for other media, and the promotion and exhibition of other creative activities.
+  jobs-now: 4806
+  jobs-future: 5247
+  starting-salary: 18000-25000
+  hashtag: arts-officer
+
+- career-number: 4
+  career-title: Dancer or Choreographer
+  career-paragraph: Dancers and choreographers devise, direct, rehearse and perform classical and contemporary dance routines.
+  jobs-now: 1788
+  jobs-future: 1977
+  starting-salary: variable
+  hashtag: choreographer
+
+- career-number: 5
+  career-title: Musician
+  career-paragraph: Musicians write, arrange, orchestrate, conduct and perform musical compositions.
+  jobs-now: 3215
+  jobs-future: 3505
+  starting-salary: variable
+  hashtag: musican
+
+- career-number: 6
+  career-title: Product, Clothing or Related Products Designer
+  career-paragraph: Product, clothing and related designers plan, direct and undertake the creation of designs for new industrial and commercial products, clothing and related fashion accessories, costumes and wigs, and for building interiors and stage sets.
+  jobs-now: 4794
+  jobs-future: 5317
+  starting-salary: 17000
+  hashtag: clothing-designer
 ---
 
 {% include /career/career-header.html %}
@@ -41,21 +90,7 @@ student-text3:
 
 <section class="container">{% youtube https://youtu.be/P3fQLOiJ0YU %}</section>
 
-{% include /career/career-examples-head.html %}
-
-{% include /career/career-example-job.html number='1' title='Actor, Entertainer or Presenter' paragraph='Actors, entertainers and presenters sing, portray roles in dramatic productions, and introduce and present radio and television programmes.' jobsIn='SouthWest' jobsNow=3273 jobsFuture=3446 hashtag='actor' %}
-
-{% include /career/career-example-job.html number='2' title='Artist' paragraph='Artists create artistic works using appropriate techniques, materials and media; design artwork and illustrations; and restore damaged pieces of art.' jobsIn='the Southwest' jobsNow=3946 jobsFuture=4357 hashtag='artist' %}
-
-{% include /career/career-example-job.html number='3' title='Arts Officer, Producer or Director' paragraph='Arts officers, producers and directors assume creative, financial and organisational responsibilities in the production and direction of television and radio programmes, films, stage presentations, content for other media, and the promotion and exhibition of other creative activities.' jobsIn='the Southwest' jobsNow=4806 jobsFuture=5247 startingSalary=18000-25000 hashtag='arts-officer' %}
-
-{% include /career/career-example-job.html number='4' title='Dancer or Choreographer' paragraph='Dancers and choreographers devise, direct, rehearse and perform classical and contemporary dance routines.' jobsIn='The Southwest' jobsNow=1788 jobsFuture=1977 startingSalary=Variable hashtag='choreographer' %}
-
-{% include /career/career-example-job.html number='5' title='Musician' paragraph='Musicians write, arrange, orchestrate, conduct and perform musical compositions.' jobsIn='the Southwest' jobsNow=3215 jobsFuture=3505 hashtag= 'musician' %}
-
-{% include /career/career-example-job.html number='6' title='Product, Clothing or Related Products Designer' paragraph='Product, clothing and related designers plan, direct and undertake the creation of designs for new industrial and commercial products, clothing and related fashion accessories, costumes and wigs, and for building interiors and stage sets.' jobsIn='the Southwest' jobsNow=4794 jobsFuture=5317 startingSalary=17000 hashtag='clothing-designer' %}
-
-{% include /career/career-examples-foot.html %}
+{% include /career/example-careers.html %}
 
 {% include /career/career-apply-bar-first.html %}
 
