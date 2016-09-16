@@ -64,6 +64,11 @@
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
+
+    .whats-on,
+    .home {
+        background: rgba(0, 0, 0, 0.3)!important;
+    }
 /*==== SWIPER STYLES =====*/
 /*==== SELECT-OR-DIE STYLES =====*/
 
