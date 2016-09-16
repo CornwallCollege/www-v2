@@ -63,8 +63,7 @@
     <section id="more-careers" class="more collapse">
 
     {% for career in page.careers %}
-
-    {% if forloop.index > 6 and < 13 %}
+    {% if forloop.index > 6 and forloop.index < 13 %}
         <article class="col-sm-6">
           <a data-toggle="collapse" data-target="#career-{{career.career-number}}" href="#career-{{career.career-number}}" aria-expanded="false" aria-controls="career-{{career.career-number}}" class="collapsed">
             <h2>{{career.career-title}}<span class="readmore"><br/>Read more...</span></h2>
