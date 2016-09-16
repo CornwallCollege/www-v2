@@ -33,6 +33,22 @@ student-name3:
 student-role3:
 student-photo3:
 student-text3:
+
+- career-number: 1
+  career-title: Horse Riding Instructor
+  career-paragraph:
+  jobs-now:
+  jobs-future:
+  starting-salary: 12000
+  hashtag: horse-riding
+
+- career-number: 2
+  career-title: Horse Groom
+  career-paragraph:
+  jobs-now:
+  jobs-future:
+  starting-salary: 10000
+  hashtag: horse-care
 ---
 
 {% include /career/career-header.html %}
@@ -41,13 +57,7 @@ student-text3:
 
 <section class="container">{% youtube https://youtu.be/DKWdE7pkQiY %}</section>
 
-{% include /career/career-examples-head.html %}
-
-{% include /career/career-example-job.html number='1' title='Horse Riding Instructor' paragraph='' jobsIn='the Southwest' startingSalary=12000 hashtag='horse-riding' %}
-
-{% include /career/career-example-job.html number='2' title='Horse Groom' paragraph='' jobsIn='the Southwest' startingSalary=10000 hashtag='horse-care' %}
-
-{% include /career/career-examples-foot.html %}
+{% include /career/example-careers.html %}
 
 {% include /career/career-apply-bar-first.html %}
 
