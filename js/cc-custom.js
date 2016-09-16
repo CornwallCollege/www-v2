@@ -12,6 +12,19 @@ jQuery(document).on("click", "#question", function (e) {
     window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;
 });
 
+    if(is_IOS()){
+        //background:; cover fix
+        $('.jumbotron').css({ 'background-size': "initial" });
+        $('.fulltime-bar').css({ 'background-size': "initial", 'background-attachment': "initial", });
+    }  
+$(document).ready(function () {
+    function is_IOS() {
+      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
+        return isIOS;
+    }  
+});
+    
+
 
 /* Set brand cookie on home */
 $(function () {
@@ -21,8 +34,154 @@ $(function () {
 
 });
 
+
 /* SWIPER options (home page)*/
-$(function () {
+$(document).ready(function () {
+    
+    if (location.pathname === "/") {
+        var swiperH = new Swiper('.swiper-container-h', {
+            pagination: '.swiper-pagination-h',
+            paginationClickable: true,
+            spaceBetween: 0,
+            hashnav: true,
+            threshold: 75,
+        });
+
+        function initSwiper() {    
+            var swiperV = new Swiper('.swiper-container-v', {
+                pagination: '.swiper-pagination-v',
+                paginationClickable: true,
+                direction: 'vertical',
+                spaceBetween: 0,
+                nextButton: '.swiper-button-more',
+                prevButton: '.swiper-button-less',
+                threshold: 50,
+                mousewheelControl: true,
+                scrollbarDraggable: true,
+                slidesPerView: 'auto',
+                freeMode: true,
+
+            });     
+        }
+
+    // SOCIALFEED init
+    $('.social-feed-ccg-group').socialfeed({
+
+        // FACEBOOK
+        facebook: {
+            accounts: ['@369758859743435'], //Array: Specify a list of accounts from which to pull wall posts
+            limit: 5, //Integer: max number of posts to load
+            access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+        },
+
+        // TWITTER
+        twitter: {
+            accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
+            limit: 5,                                   //Integer: max number of tweets to load
+            consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+            consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+        },
+        //RSS FEED
+        rss: {
+            urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college', 'https://www.cornwall.ac.uk/cc-news.rss'], //Array: Specifiy a list of rss feed from which to pull posts
+            limit: 3
+        },
+
+        // GENERAL SETTINGS
+        show_media: true,
+        length: 280, //Integer: For posts with text longer than this length, show an ellipsis.
+        callback: function() { 
+            console.log("All posts collected!");
+            initSwiper();
+        }
+    });
+
+
+    $('.social-feed-duchy').socialfeed({
+
+        // FACEBOOK
+        facebook: {
+            accounts: ['@319289784804400'], //Array: Specify a list of accounts from which to pull wall posts
+            limit: 5, //Integer: max number of posts to load
+            access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+        },
+
+        // TWITTER
+        twitter: {
+            accounts: ['@DuchyCollege'],                      //Array: Specify a list of accounts from which to pull tweets
+            limit: 5,                                   //Integer: max number of tweets to load
+            consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+            consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+        },
+
+        //RSS FEED
+        rss: {
+            urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            limit: 2
+        },
+
+        // GENERAL SETTINGS
+        show_media: true,
+        length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+    });
+
+
+    $('.social-feed-falmouth').socialfeed({
+
+        // FACEBOOK
+        facebook: {
+            accounts: ['@130954653707151'], //Array: Specify a list of accounts from which to pull wall posts
+            limit: 5, //Integer: max number of posts to load
+            access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+        },
+
+        // TWITTER
+        twitter: {
+            accounts: ['@marineschool'],                      //Array: Specify a list of accounts from which to pull tweets
+            limit: 5,                                   //Integer: max number of tweets to load
+            consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+            consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+        },
+
+        //RSS FEED
+        rss: {
+            urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
+            limit: 2
+        },
+
+        // GENERAL SETTINGS
+        show_media: true,
+        length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+    });
+
+
+    $('.social-feed-bicton').socialfeed({
+
+        // FACEBOOK
+        facebook: {
+            accounts: ['@196919697022651'], //Array: Specify a list of accounts from which to pull wall posts
+            limit: 5, //Integer: max number of posts to load
+            access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
+        },
+
+        // TWITTER
+        twitter: {
+            accounts: ['@bictoncollege'],                      //Array: Specify a list of accounts from which to pull tweets
+            limit: 5,                                   //Integer: max number of tweets to load
+            consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
+            consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
+        },
+
+        //RSS FEED
+        rss: {
+            urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            limit: 2
+        },
+
+        // GENERAL SETTINGS
+        show_media: true,
+        length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
+    });
     
     if(is_IOS()){
         //background:; cover fix
@@ -35,31 +194,7 @@ $(function () {
         return isIOS;
     }    
     
-    if (location.pathname === "/") {
 
-
-        var swiperH = new Swiper('.swiper-container-h', {
-            pagination: '.swiper-pagination-h',
-            paginationClickable: true,
-            spaceBetween: 0,
-            hashnav: true,
-            threshold: 75,
-        });
-        var swiperV = new Swiper('.swiper-container-v', {
-            pagination: '.swiper-pagination-v',
-            paginationClickable: true,
-            direction: 'vertical',
-            spaceBetween: 0,
-            nextButton: '.swiper-button-more',
-            prevButton: '.swiper-button-less',
-            threshold: 50,
-            mousewheelControl: true,
-            mousewheelReleaseOnEdges: true,
-            //scrollbarDraggable: true,
-            slidesPerView: 'auto',
-            freeMode: true,
-
-        });
         
     var hash = location.hash;
     var brand_cookie = Cookies.get('brand'); 
@@ -381,6 +516,7 @@ $('.brand-image').click(function (e) {
     }
 });
 
+// click off and collapse
 $(document).click(function (e) {
     if ($(e.target).is('.brand-image') === false) {
         $("#logo-wrap").children().removeClass("active");
@@ -417,9 +553,6 @@ $(function () {
         }
     });
 });
-
-
-
 
 
 /* SUPER SLIDES OPTIONS */
@@ -471,7 +604,7 @@ function incrementCount(counter) {
 
     
     $(document).ready(function () {
-        $('#loader').fadeOut(800);
+        $('#loader').fadeOut(400);
         /*
             $(window).load(function() { // makes sure the whole site is loaded
 
@@ -613,80 +746,6 @@ function incrementCount(counter) {
 
     }
 
-    /* OPEN TO THE PUBLIC - ISOTOPE FOR PORTFOLIO ITEMS */
-    /* if ($("#public-grid").length) {
-        var $container = $('#public-grid').imagesLoaded(function () {
-            var isotope = function () {
-                $container.isotope({
-                    resizable: false,
-                    itemSelector: '.entry'
-                });
-            };
-            isotope();
-        });
-
-        $('div.public-filter ul a').click(function () {
-            var selector = $(this).attr('data-filter');
-            if (selector) {
-                $('html, body').animate({
-                    scrollTop: $('#public-grid-anchor').offset().top
-                }, 500);
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-                return false;
-            }
-            return true;
-        });
-
-        var $optionSets = $('div.public-filter ul'),
-            $optionLinks = $optionSets.find('a');
-        $optionLinks.click(function () {
-            var $this = $(this);
-            // don't proceed if already selected
-            if ($this.hasClass('selected')) {
-                return false;
-            }
-            var $optionSet = $this.parents('div.public-filter ul');
-            $optionSet.find('.selected').removeClass('selected');
-            $this.addClass('selected');
-        });
-
-        $container.isotope({
-            filter: "load",
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-
-        var thenDoThis1 = function (e, p) {
-            if ($(window).width() <= 480) {
-                e.style.opacity = Math.min(1, p);
-                return;
-            }
-            if ($(window).width() <= 1024) {
-                e.style.opacity = Math.min(1, p * 1.5);
-            }
-        };
-        window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 6, 33);
-
-        var thenDoThis2 = function (e, p) {
-            if ($(window).width() <= 480) {
-                e.style.opacity = 0.25 + Math.max(0, p);
-            }
-        };
-        window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
-
-    } */
-
-
     /* CAREER-slide - Job Lookup */
     $(document).ready(function () {
         if (location.pathname === "career-pages") {
@@ -777,129 +836,7 @@ function incrementCount(counter) {
 
 })(jQuery);
 
-// SOCIALFEED init
-$(document).ready(function () {
-    
-    //set brand on home page visit    
-    if (location.pathname === "/") {
 
-        $('.social-feed-ccg-group').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@369758859743435'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college', 'https://www.cornwall.ac.uk/cc-news.rss'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-
-
-
-        $('.social-feed-duchy').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@319289784804400'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@DuchyCollege'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-
-
-        $('.social-feed-falmouth').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@130954653707151'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@marineschool'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-
-
-        $('.social-feed-bicton').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@196919697022651'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@bictoncollege'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-    }
-
-});
 
 //Campus Google Map script
 
@@ -1073,31 +1010,7 @@ $(document).ready(function () {
 
 });
 
-// ADD back button navigation to home hash links
-/*
-$(function(){
-    if (location.pathname === "/") {  
-      // Bind an event to window.onhashchange that, when the hash changes, gets the
-      // hash and adds the class "selected" to any matching nav link.
-      $(window).hashchange( function(){
-        var hash = location.hash;
 
-        // Set the page title based on the hash.
-        document.title = 'The hash is ' + ( hash.replace( /^#/, '' ) || 'blank' ) + '.';
-
-        // Iterate over all nav links, setting the "selected" class as-appropriate.
-        $('#nav a').each(function(){
-          var that = $(this);
-          that[ that.attr( 'href' ) === hash ? 'addClass' : 'removeClass' ]( 'selected' );
-        });
-      })
-
-      // Since the event is only triggered when the hash changes, we need to trigger
-      // the event now, to handle the hash the page may have loaded with.
-      $(window).hashchange();
-    }
-});
-*/
 // Custom Google map settings
 if ( window.location.pathname === '/' ){
     // Select or die dropdown 
@@ -1115,14 +1028,6 @@ if ( window.location.pathname === '/' ){
         }
     });
 }
-
-
-// $(document).click(function (e) {
-//     if ($(e.target).is('.brand-image') === false) {
-//         $("#logo-wrap").children().removeClass("active");
-//     }
-// });
-
 
 
 $(document).ready(function () {
@@ -1202,11 +1107,6 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             itemSelector: '.area',
             //resizable: false
         });
-
-        //   var $container = $('#download-content').isotope({
-        //     itemSelector: '.download',
-        //     //resizable: false
-        //   });
 
         var $sector = $('#sector-page-content').isotope({
             itemSelector: '.area',
@@ -1325,13 +1225,6 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             $('.area-filter > input[value=".bic"]').parent().click();
         }
 
-        /*
-            $container.delegate( '.show-more', 'click', function(){
-                //$(this).toggleClass('large');
-                $container.isotope('layout');
-            });
-
-        */
     });
 
         $(".isotope-reset").click(function(){
@@ -1371,7 +1264,7 @@ $(document).ready(function () {
         $( ".content3" ).slideUp( "slow", "swing");
     });
 });
-
+// get announcement from 
 jQuery(document).ready(function () {
     // Lookup alert message and display if required
     jQuery.getJSON('https://network.cornwall.ac.uk/?action=ccg_get_announcement', function(data) {
