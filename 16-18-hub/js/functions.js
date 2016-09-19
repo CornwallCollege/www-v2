@@ -863,7 +863,7 @@ var isIframe =  function() {
 
 
 $(document).ready(function () {
-    if (location.pathname.indexOf("location-pages") !== -1) {
+
         //jQuery RSS parse for events on campus pages
         var cat_id = $("#event-carousel").attr("data-event-cat-id");
         var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&tag_ID=" + cat_id;
@@ -913,7 +913,7 @@ $(document).ready(function () {
                 });
             }
         });
-    }
+
 });
 
 jQuery(function () {
