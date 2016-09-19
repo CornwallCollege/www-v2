@@ -13,360 +13,23 @@ jQuery(document).on("click", "#question", function (e) {
 });
 
 
-/* Set brand cookie on home */
-$(function () {
 
-    var hash = location.hash;
-    var brand_cookie = Cookies.get('brand');
 
-});
+$(document).ready(function () {
 
-/* SWIPER options (home page)*/
-$(function () {
-    
     if(is_IOS()){
         //background:; cover fix
         $('.jumbotron').css({ 'background-size': "initial" });
         $('.fulltime-bar').css({ 'background-size': "initial", 'background-attachment': "initial", });
-    }  
+    }      
     
     function is_IOS() {
       var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
         return isIOS;
-    }    
-    
-    if (location.pathname === "/") {
-
-
-        var swiperH = new Swiper('.swiper-container-h', {
-            pagination: '.swiper-pagination-h',
-            paginationClickable: true,
-            spaceBetween: 0,
-            hashnav: true,
-            threshold: 75,
-        });
-        var swiperV = new Swiper('.swiper-container-v', {
-            pagination: '.swiper-pagination-v',
-            paginationClickable: true,
-            direction: 'vertical',
-            spaceBetween: 0,
-            nextButton: '.swiper-button-more',
-            prevButton: '.swiper-button-less',
-            threshold: 50,
-            mousewheelControl: true,
-            mousewheelReleaseOnEdges: true,
-            scrollbarDraggable: true
-            
-
-        });
-        
-    var hash = location.hash;
-    var brand_cookie = Cookies.get('brand'); 
-
-
-        //set brand on home page visit
-        if (location.pathname === "/") {
-            //get the hash from the URL
-
-            if (hash == '') {        
-                var brand_cookie = Cookies.set('brand', '#cornwall' );             
-                var course_brand_cookie = Cookies.set('course-brand', '#cornwall', {
-                    domain: '.cornwall.ac.uk'
-                });
-
-            } else {
-                var brand_cookie = Cookies.set('brand', hash );             
-                var course_brand_cookie = Cookies.set('course-brand', hash, {
-                domain: '.cornwall.ac.uk'
-            });
-                Cookies.get('brand');
-            }
-        }        
-        
-
-        /* Swiper brand navigation */
-        $( document ).ready(function() {
-            
-            
-            
-            var fade_in_videos = document.querySelectorAll('.fade-in-video');
-            for( i=0; i<fade_in_videos.length; i++ ) {
-                fade_in_videos[i].addEventListener("playing", function(){
-                   /* if(!$(this).hasClass('is-playing') ){
-                       
-                    } */
-                     this.className += ' is-playing';
-                });
-            }        
-        });
-        
-        function loadVideo(slide) {
-            
-            /*get the current month 0 indxed
-            var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
-            //get season from current month
-            var season = '';
-                switch (new Date().getMonth())
-                {
-                   case 2:
-                   case 3:
-                   case 4: 
-                       season = 'spring';
-                       break;                          
-                   case 5:
-                   case 6:
-                   case 7: 
-                       season = 'summer';
-                       break;                          
-                   case 8:
-                   case 9:
-                   case 10: 
-                       season = 'autumn';
-                       break;                          
-                   case 11:
-                   case 0:
-                   case 1: 
-                       season = 'winter';
-                       break;
-                      
-                   default: 
-                       alert('no-season');
-                }
- 
-                if(season == 'autumn'){
-                    //do somthing seasonal!
-                }
-                var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
-                var video_options = [
-                    {
-                        brand: 'cornwall',
-                        videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
-                        mobile_videos: ['mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
-                    },
-                    {
-                        brand: 'duchy',
-                        videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                        mobile_videos: ['mobile/cow', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
-                    },
-                    {
-                        brand: 'falmouth',
-                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
-                        mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
-                    },
-                    {
-                        brand: 'bicton',
-                        videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                        mobile_videos: ['mobile/grass', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
-                    },
-                ]
-            
-           /* }*/
-
-            if (!$(slide).hasClass('video-in')) {
-                var brand = $(slide).attr('data-hash');
-                var brand_info = $.grep(video_options, function (e) {
-                    return e.brand === brand;
-                });
-                //if mobile choose from the mobile array of videos
-                if(isMobile){
-                    var videos = brand_info[0].mobile_videos;  
-                } else {
-                    var videos = brand_info[0].videos;  
-                }
-
-                var index = Math.floor(Math.random() * videos.length);
-                $(slide).find('.brand-video').html('<video autoplay muted loop poster="" id="'+brand+'-video" class="video fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video><canvas id="'+brand+'-canvas" class="video-canvas"></canvas>');
-                $(slide).addClass('video-in');
-                
-                var fade_in_videos = document.querySelectorAll('.fade-in-video');
-                for( i=0; i<fade_in_videos.length; i++ ) {
-                    fade_in_videos[i].addEventListener("playing", function(){
-                        if(!$(this).hasClass('is-playing') ){
-                            this.className += ' is-playing';
-                        }
-                    });
-                }  
-                
-                 auto_play_on_ios(brand); 
-            }
-    
-        }
-
-     
-        
-        //if ios device work around 
-        function auto_play_on_ios(brand) {
-           
-            if (is_IOS()) {
-                    var canvasVideo = new CanvasVideoPlayer({
-                        videoSelector: "#"+brand+"-video",
-                        canvasSelector: "#"+brand+"-canvas",
-                        timelineSelector: false,
-                        autoplay: true,
-                        makeLoop: true,
-                        pauseOnClick: false,
-                        audio: false
-                    });
-                
-                
-            }else {
-
-                // Use HTML5 video
-                document.querySelectorAll('.video-canvas')[0].style.display = 'none';
-
-            }   
-        }
-        
-        /*function is_IOS() {
-          var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
-            return isIOS;
-        }*/
-
-        function changeCurrentLogo() {
-
-            var slide = swiperH.slides[swiperH.activeIndex];
-            var logo = $(slide).attr('data-logo');
-            $('.logo').removeClass('current-brand');
-            $('.logo').addClass('sub-brand grow');
-            //$('.logo').children().children().children().attr('src', '/images/dc-brand-logo.png');
-            
-            if (is_IOS()==false) {
-            loadVideo(slide);
-
-                if (swiperH.slides.length > swiperH.activeIndex + 1) {
-                    loadVideo(swiperH.slides[swiperH.activeIndex + 1]);
-                }
-
-                if (swiperH.activeIndex > 0) {
-                    loadVideo(swiperH.slides[swiperH.activeIndex - 1]);
-                }
-            }
-
-
-            $('#' + logo + '-logo').parent().parent().parent().removeClass('sub-brand grow');
-            $('#' + logo + '-logo').parent().parent().parent().addClass('current-brand');
-
-        }
-
-        // onSwipe stack logos function
-        function stackLogosSwipe() {    
-            //get hash from url
-            var swipeBrand = window.location.hash
-            //set cookie based on hash 
-            var brand_cookie = Cookies.set('brand', swipeBrand );
-            //set cross domain cookie
-            var course_brand_cookie = Cookies.set('course-brand', swipeBrand, { domain: '.cornwall.ac.uk' });
-        
-            //apply z-index to correctly stack the logos
-        $( Cookies.get('brand') ).css("z-index", "999");
-            var offset = 1;
-            $( Cookies.get('brand') ).prevAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-            });
-            $( Cookies.get('brand') ).nextAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-         
-            });  
-        }        
-        
-
-        $('#cc-logo').click(function (e) {
-            e.preventDefault();
-            swiperH.slideTo(0, 1000, false);
-           // changeCurrentLogo();
-        
-        })
-        $('#dc-logo').click(function (e) {
-            e.preventDefault();
-            swiperH.slideTo(1, 1000, false);
-            changeCurrentLogo();
-       
-        })
-        $('#fms-logo').click(function (e) {
-            e.preventDefault();
-            swiperH.slideTo(2, 1000, false);
-            changeCurrentLogo();
-    
-        })
-        $('#bic-logo').click(function (e) {
-            e.preventDefault();
-            swiperH.slideTo(3, 1000, false);
-            changeCurrentLogo();
-        
-        })
-        //set brand on logo click
-        $(".brand-image").click(function () {
-                var clickBrand = $(this).parent().parent().prop("hash");
-                var brand_cookie = Cookies.set('brand', clickBrand );        
-                var course_brand_cookie = Cookies.set('course-brand', clickBrand, { domain: '.cornwall.ac.uk' });
-
-                //apply z-index to correctly stack the logos
-            $( Cookies.get('brand') ).css("z-index", "999");
-                var offset = 1;
-                $( Cookies.get('brand') ).prevAll().each(function(index){
-                   $(this).css("z-index", 999 - offset);
-                    offset++;
-                });
-                $( Cookies.get('brand') ).nextAll().each(function(index){
-                   $(this).css("z-index", 999 - offset);
-                    offset++;
-
-                });
-            
-            //now close the menu is its open
-            var openRightPush = document.getElementById('openRightPush')            
-            if ($( '#openRightPush' ).hasClass('active')) {
-                //change the text and icon back
-                $('.menu-icon > i').toggleClass("fa-bars");
-                $('.menu-icon > i').toggleClass("fa-times");
-                $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');
-                //remove the open classes
-                $( '#openRightPush' ).removeClass('active');
-                $( '#cbp-spmenu-s2' ).removeClass('cbp-spmenu-open');
-            }
-        });
-        
-        swiperH.on('slideChangeStart', function () {
-            changeCurrentLogo();
-        });
-        swiperH.on('slideChangeEnd', function () {
-            //small delay to let the hash load properly
-            setTimeout(stackLogosSwipe, 50);
-        });
-        var slide = swiperH.slides[swiperH.activeIndex];
-        loadVideo(slide);
-    }
-
-/* Set brand cookie on home */
-$(function () {
-
-        
-            $('.logo').removeClass('current-brand');
-            $('.logo').addClass('sub-brand grow');
-            $( Cookies.get('brand') ).removeClass('grow');
-            $( Cookies.get('brand') ).addClass('current-brand');
-            //bring the active logo to the front
-            $( Cookies.get('brand') ).css("z-index", "999");
-           
-            //apply z-index to correctly stack the logos
-            var offset = 1;
-            $( Cookies.get('brand') ).prevAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-            });
-            $( Cookies.get('brand') ).nextAll().each(function(index){
-               $(this).css("z-index", 999 - offset);
-                offset++;
-         
-            });
-  
-    
+    }  
 });
     
-    
-});
+
 
 // resposive logo; first click open second click follow link
 $('.brand-image').click(function (e) {
@@ -380,6 +43,7 @@ $('.brand-image').click(function (e) {
     }
 });
 
+// click off and collapse
 $(document).click(function (e) {
     if ($(e.target).is('.brand-image') === false) {
         $("#logo-wrap").children().removeClass("active");
@@ -416,9 +80,6 @@ $(function () {
         }
     });
 });
-
-
-
 
 
 /* SUPER SLIDES OPTIONS */
@@ -467,10 +128,35 @@ function incrementCount(counter) {
 
 (function ($) {
 
+    /* Set brand cookie on home */
+    $(function () {
 
+
+                $('.logo').removeClass('current-brand');
+                $('.logo').addClass('sub-brand grow');
+                $( Cookies.get('brand') ).removeClass('grow');
+                $( Cookies.get('brand') ).addClass('current-brand');
+                //bring the active logo to the front
+                $( Cookies.get('brand') ).css("z-index", "999");
+
+                //apply z-index to correctly stack the logos
+                var offset = 1;
+                $( Cookies.get('brand') ).prevAll().each(function(index){
+                   $(this).css("z-index", 999 - offset);
+                    offset++;
+                });
+                $( Cookies.get('brand') ).nextAll().each(function(index){
+                   $(this).css("z-index", 999 - offset);
+                    offset++;
+
+                });
+
+
+    });
+    
     
     $(document).ready(function () {
-        $('#loader').fadeOut(800);
+        $('#loader').fadeOut(400);
         /*
             $(window).load(function() { // makes sure the whole site is loaded
 
@@ -612,80 +298,6 @@ function incrementCount(counter) {
 
     }
 
-    /* OPEN TO THE PUBLIC - ISOTOPE FOR PORTFOLIO ITEMS */
-    /* if ($("#public-grid").length) {
-        var $container = $('#public-grid').imagesLoaded(function () {
-            var isotope = function () {
-                $container.isotope({
-                    resizable: false,
-                    itemSelector: '.entry'
-                });
-            };
-            isotope();
-        });
-
-        $('div.public-filter ul a').click(function () {
-            var selector = $(this).attr('data-filter');
-            if (selector) {
-                $('html, body').animate({
-                    scrollTop: $('#public-grid-anchor').offset().top
-                }, 500);
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-                return false;
-            }
-            return true;
-        });
-
-        var $optionSets = $('div.public-filter ul'),
-            $optionLinks = $optionSets.find('a');
-        $optionLinks.click(function () {
-            var $this = $(this);
-            // don't proceed if already selected
-            if ($this.hasClass('selected')) {
-                return false;
-            }
-            var $optionSet = $this.parents('div.public-filter ul');
-            $optionSet.find('.selected').removeClass('selected');
-            $this.addClass('selected');
-        });
-
-        $container.isotope({
-            filter: "load",
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-
-        var thenDoThis1 = function (e, p) {
-            if ($(window).width() <= 480) {
-                e.style.opacity = Math.min(1, p);
-                return;
-            }
-            if ($(window).width() <= 1024) {
-                e.style.opacity = Math.min(1, p * 1.5);
-            }
-        };
-        window.trackScrollAndMouseDistance("auto-hover", thenDoThis1, 6, 33);
-
-        var thenDoThis2 = function (e, p) {
-            if ($(window).width() <= 480) {
-                e.style.opacity = 0.25 + Math.max(0, p);
-            }
-        };
-        window.trackScrollAndMouseDistance("cluster-hover", thenDoThis2, 3, 50);
-
-    } */
-
-
     /* CAREER-slide - Job Lookup */
     $(document).ready(function () {
         if (location.pathname === "career-pages") {
@@ -776,129 +388,7 @@ function incrementCount(counter) {
 
 })(jQuery);
 
-// SOCIALFEED init
-$(document).ready(function () {
-    
-    //set brand on home page visit    
-    if (location.pathname === "/") {
 
-        $('.social-feed-ccg-group').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@369758859743435'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college', 'https://www.cornwall.ac.uk/cc-news.rss'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-
-
-
-        $('.social-feed-duchy').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@319289784804400'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@DuchyCollege'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-
-
-        $('.social-feed-falmouth').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@130954653707151'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@marineschool'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-
-
-        $('.social-feed-bicton').socialfeed({
-
-            // FACEBOOK
-            facebook: {
-                accounts: ['@196919697022651'], //Array: Specify a list of accounts from which to pull wall posts
-                limit: 5, //Integer: max number of posts to load
-                access_token: '351984661624125|235f03a6c7cab889853ae7d8d74fd01c' //String: "APP_ID|APP_SECRET"
-            },
-
-            // TWITTER
-            twitter: {
-                accounts: ['@bictoncollege'],                      //Array: Specify a list of accounts from which to pull tweets
-                limit: 5,                                   //Integer: max number of tweets to load
-                consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
-                consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
-            },
-
-            //RSS FEED
-            rss: {
-                urls: ['//network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
-                limit: 2
-            },
-
-            // GENERAL SETTINGS
-            show_media: true,
-            length: 280 //Integer: For posts with text longer than this length, show an ellipsis.
-        });
-    }
-
-});
 
 //Campus Google Map script
 
@@ -1072,55 +562,6 @@ $(document).ready(function () {
 
 });
 
-// ADD back button navigation to home hash links
-/*
-$(function(){
-    if (location.pathname === "/") {  
-      // Bind an event to window.onhashchange that, when the hash changes, gets the
-      // hash and adds the class "selected" to any matching nav link.
-      $(window).hashchange( function(){
-        var hash = location.hash;
-
-        // Set the page title based on the hash.
-        document.title = 'The hash is ' + ( hash.replace( /^#/, '' ) || 'blank' ) + '.';
-
-        // Iterate over all nav links, setting the "selected" class as-appropriate.
-        $('#nav a').each(function(){
-          var that = $(this);
-          that[ that.attr( 'href' ) === hash ? 'addClass' : 'removeClass' ]( 'selected' );
-        });
-      })
-
-      // Since the event is only triggered when the hash changes, we need to trigger
-      // the event now, to handle the hash the page may have loaded with.
-      $(window).hashchange();
-    }
-});
-*/
-// Custom Google map settings
-if ( window.location.pathname === '/' ){
-    // Select or die dropdown 
-    $("select").selectOrDie({
-        // Option below is not needed
-        placeholderOption: true,
-        onChange: function () {
-            if ($(this).val() === 'course-search') {
-                $('.' + $(this).val()).hide();
-                $('.' + $(this).val()).fadeIn("slow");
-
-            } else {
-                window.location.href = $(this).val();
-            }
-        }
-    });
-}
-
-
-// $(document).click(function (e) {
-//     if ($(e.target).is('.brand-image') === false) {
-//         $("#logo-wrap").children().removeClass("active");
-//     }
-// });
 
 
 
@@ -1201,11 +642,6 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             itemSelector: '.area',
             //resizable: false
         });
-
-        //   var $container = $('#download-content').isotope({
-        //     itemSelector: '.download',
-        //     //resizable: false
-        //   });
 
         var $sector = $('#sector-page-content').isotope({
             itemSelector: '.area',
@@ -1324,13 +760,6 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             $('.area-filter > input[value=".bic"]').parent().click();
         }
 
-        /*
-            $container.delegate( '.show-more', 'click', function(){
-                //$(this).toggleClass('large');
-                $container.isotope('layout');
-            });
-
-        */
     });
 
         $(".isotope-reset").click(function(){
@@ -1370,7 +799,7 @@ $(document).ready(function () {
         $( ".content3" ).slideUp( "slow", "swing");
     });
 });
-
+// get announcement from 
 jQuery(document).ready(function () {
     // Lookup alert message and display if required
     jQuery.getJSON('https://network.cornwall.ac.uk/?action=ccg_get_announcement', function(data) {

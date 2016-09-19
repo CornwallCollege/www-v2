@@ -54,7 +54,21 @@
   height: 100%;
   position: relative;
 }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
 
+    .whats-on {
+        height: auto;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .whats-on,
+    .home {
+        background: rgba(0, 0, 0, 0.3)!important;
+    }
 /*==== SWIPER STYLES =====*/
 /*==== SELECT-OR-DIE STYLES =====*/
 
