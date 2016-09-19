@@ -203,10 +203,11 @@ $(function () {
             var fade_in_videos = document.querySelectorAll('.fade-in-video');
             for( i=0; i<fade_in_videos.length; i++ ) {
                 fade_in_videos[i].addEventListener("playing", function(){
-                   /* if(!$(this).hasClass('is-playing') ){
-                       
-                    } */
-                     this.className += ' is-playing';
+                    
+                    if(!$(this).hasClass('is-playing') ){
+                       this.className += ' is-playing';
+                    } 
+                     
                 });
             }     
             
@@ -290,7 +291,7 @@ $(function () {
                 }
 
                 var index = Math.floor(Math.random() * videos.length);
-                $(slide).find('.brand-video').html('<video autoplay muted loop poster="" id="'+brand+'-video" class="video fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video><canvas id="'+brand+'-canvas" class="video-canvas"></canvas>');
+                $(slide).find('.brand-video').html('<video autoplay muted loop id="'+brand+'-video" class="video fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video><canvas id="'+brand+'-canvas" class="video-canvas"></canvas>');
                 $(slide).addClass('video-in');
                 
                 var fade_in_videos = document.querySelectorAll('.fade-in-video');

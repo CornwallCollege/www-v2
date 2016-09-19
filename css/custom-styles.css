@@ -109,6 +109,28 @@ html, body {
     }
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h2 span {
+    font-weight: 700;
+    font-size:1em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.main-section-margins h2{
+    text-align: center;
+    color:#aaa;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.main-section-margins h2 span{
+    color: #52B3D9;
+    font-weight: bold;
+}
 /* ------------------------- Sector colours ------------------------- */
 
 h2.full-time span,
@@ -668,8 +690,14 @@ button.icon-btn:hover,
     color: #fff;
 }
 /*------------------ Ghost button styles --------------------*/
-
-
+a.fullwidth{
+    display: block;
+    font-size: 1.4em;
+    
+}
+a.fullwidth:hover{
+    letter-spacing: normal;
+}
 .ghost {
     background: transparent;
     color: #52B3D9;
@@ -1130,6 +1158,19 @@ div#logo-wrap #bicton{
     }
 }
 /* ----------- Staff area styles ENDS ---------*/
+/*----------- 19 Plus styles ---------*/
+#nineteen-plus{
+    background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
+}
+@media(min-width:768px) {
+    #nineteen-plus {
+        background-image: url(../images/19-plus.jpg);
+        background-repeat: no-repeat;
+        background-position:50% 0 ;
+
+    }
+}
+/*----------- 19 Plus ENDS ---------*/
 /* ----------- key stats bar ------------ */
 
 .custom-progress {
@@ -3928,7 +3969,6 @@ video,
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     transition: 1s opacity;
-    background: url('') no-repeat;
 }
 #cc-video {
     background: url('../images/cc-home-bg-image.jpg') no-repeat;
@@ -4946,6 +4986,11 @@ button.collapsed h3:before{
     font-size: 12px;
     font-weight: 400;
     border: solid 1px #52b3d9;
+    text-align: left;
+    white-space: normal;
+}
+.useful-links a:hover{
+    letter-spacing:normal; 
 }
 
 /* Slideshow container */

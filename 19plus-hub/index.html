@@ -105,10 +105,10 @@ usefulLinks:
             <p>Be inspired, visit our University Courses section to see degrees available in Cornwall and Devon.</p>
             <div class="col-xs-12 col-sm-6"><a href="/university-hub/" class="btn ghost large fullwidth">Visit our University hub</a></div>
             <div class="col-xs-12 col-sm-6"><a href="/documents/prospectuses/2016-access-he-flyer.pdf" class="btn ghost large fullwidth">Download our guide</a></div>
-            
-<!-- YOUTUBE video -->
-            
-{% youtube https://youtu.be/wOyW18PzDiM %}
+            <div class="col-xs-12 main-section-margins">
+            <!-- YOUTUBE video -->
+            {% youtube https://youtu.be/wOyW18PzDiM %}
+            </div>                
         </div>
     </section>    
 <!-- videos -->
@@ -129,4 +129,10 @@ usefulLinks:
 
 
 <!-- usp section -->
-{% include one-option.html one-option-text="Seen enough, apply now!" one-option-href="site.course_site_baseurl /apply-page/?course-title= page.apply-area" one-option-button-text='Apply NOW' %}
+
+    <section class="col-sm-12 fulltime-bar clearfix">
+        <div class="container">
+            <h2>Seen enough, apply now! </h2>
+            <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
+        </div>
+    </section>
