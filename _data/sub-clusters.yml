@@ -623,13 +623,10 @@
       colour: D70060
       brand: cc
       sector: 16-18 19plus university
-      campus: camborne-campus st-austell-campus saltash-campus bicton-campus stoke-campus
+      campus: camborne-campus saltash-campus bicton-campus stoke-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          
-        - campus-name: St Austell Campus
-          campus-link: /st-austell-campus.html
         
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html  
