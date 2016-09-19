@@ -862,6 +862,60 @@ var isIframe =  function() {
 };
 
 
+$(document).ready(function () {
+    if (location.pathname.indexOf("location-pages") !== -1) {
+        //jQuery RSS parse for events on campus pages
+        var cat_id = $("#event-carousel").attr("data-event-cat-id");
+        var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&tag_ID=" + cat_id;
+        $.get(rssurl, function (data) {
+            var $XML = $(data);
+            $XML.find("item").each(function () {
+
+                var $this = $(this),
+                    item = {
+                        title: $this.find("title").text(),
+                        link: $this.find("link").text(),
+                        description: $this.find("description").text(),
+                        pubDate: $this.find("pubDate").text(),
+                        author: $this.find("author").text(),
+                        organizer: $this.find("organizer").text(),
+                        venue: $this.find("venue").text(),
+                        enddate: $this.find("enddate").text(),
+                        startdate: $this.find("startdate").text(),
+                        category: $this.find("category").text(),
+
+                    };
+                var event = $('<div/>').addClass("owl-item");
+                var article = $('<article/>').addClass("transition text-center");
+                var link = item.link;
+                $(event).append((article).append($('<h3/>').text(item.title)));
+                $(event).append((article).append($('<p/>').text(item.organizer).addClass("organizer")));
+                $(event).append((article).append($('<p/>').text(item.venue).addClass("venue")));
+                $(event).append((article).append($('<p/>').text(item.startdate).addClass("startdate ")));
+                if (item.enddate) { $(event).append((article).append($('<p/>').text(item.enddate).addClass("enddate "))); }
+                //$(event).append((article).append($('<p/>').text(item.category).addClass( "category " )));
+                $(event).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View event details</a>"));
+
+                $(".owl-carousel").append(event);
+                //etc...
+
+            });
+
+            if ($("#event-carousel").length) {
+                $('#event-carousel').owlCarousel({
+                    items: 1,
+                    margin: 10,
+                    //loop: true,
+                    loop: $('#event-carousel').children().length > 1,
+                    //nav: $('#event-carousel').children().length > 1,
+                    animateOut: 'fadeOut',
+                    autoplay: true,
+                });
+            }
+        });
+    }
+});
+
 jQuery(function () {
 	var myPlayer = jQuery("#bgndVideo").YTPlayer({
 		onReady: function (player) {

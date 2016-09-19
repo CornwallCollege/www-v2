@@ -1,0 +1,16 @@
+<section id="event" class="col-md-12 main-section-margins">
+ <section class="container">
+    <article class="col-sm-4 col-md-3 intro">
+        <h2><strong>EVENTS</strong> @ {{page.title | upcase}}</h2>
+	
+        <p>Click to view all the latest events including courses and careers events, community events and one off spectaculars! Or to see all events across The Cornwall College Group please click below.</p>
+        
+        <a href="{{ site.event_site_baseurl }}/?post_type=tribe_events&venue={{page.event_campus}}" class=" btn">All Events @ {{page.title }}</a>
+        
+        <a href="{{ site.event_site_baseurl }}" class=" btn">All Events</a>        
+	
+    </article>     
+  
+  <section id="event-carousel" class="owl-carousel owl-theme col-xs-12 col-sm-8 col-md-8 col-md-offset-1" data-event-cat-id="{{page.event_cat_id}}"></section>    
+  </section> 
+</section>
