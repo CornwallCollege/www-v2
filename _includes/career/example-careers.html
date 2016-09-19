@@ -53,6 +53,8 @@
     {% endif %}
     {% endfor %}
 
+    {% for career in page.careers %}
+    {% if forloop.length > 6 %}
     <section class="col-sm-12 header-icon" style="margin-top: 20px; margin-bottom: 20px;">
       <a href="#" data-toggle="collapse" aria-expanded="false" class="collapsed" data-target="#more-careers" href="#more-careers">
         <i class="fa fa-plus fa-4x transition" style="font-size:40px; color:#52B3D9;"></i>
@@ -61,10 +63,12 @@
     </section>
 
     <section id="more-careers" class="more collapse">
+    {% break %}
+    {% endif %}
+    {% endfor %}
 
     {% for career in page.careers %}
-
-    {% if forloop.index > 6 %}
+    {% if forloop.index > 6 and forloop.index < 13 %}
         <article class="col-sm-6">
           <a data-toggle="collapse" data-target="#career-{{career.career-number}}" href="#career-{{career.career-number}}" aria-expanded="false" aria-controls="career-{{career.career-number}}" class="collapsed">
             <h2>{{career.career-title}}<span class="readmore"><br/>Read more...</span></h2>
