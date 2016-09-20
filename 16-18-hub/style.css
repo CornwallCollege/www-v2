@@ -2493,6 +2493,11 @@ a {
 	font-weight: bold;
 }
 /*------------------------- EVENT carousel styles -------------------------------------*/
+#event h2{
+    color: #52B3D9;
+    font-size: 3em;
+}
+
 #event .intro a.btn{
     display: block;
     margin-top:7px;
@@ -2552,7 +2557,9 @@ a {
         margin-top: 30px;
     }
 }
-
+#event-carousel {
+    margin: 35px 0;
+}
 #event-carousel article {
     border: 1px solid #ddd;
     margin-bottom: 30px;
