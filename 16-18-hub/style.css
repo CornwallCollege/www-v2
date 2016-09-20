@@ -2493,6 +2493,11 @@ a {
 	font-weight: bold;
 }
 /*------------------------- EVENT carousel styles -------------------------------------*/
+#event h2{
+    color: #52B3D9;
+    font-size: 3em;
+}
+
 #event .intro a.btn{
     display: block;
     margin-top:7px;
@@ -2552,7 +2557,9 @@ a {
         margin-top: 30px;
     }
 }
-
+#event-carousel {
+    margin: 35px 0;
+}
 #event-carousel article {
     border: 1px solid #ddd;
     margin-bottom: 30px;
@@ -2621,19 +2628,22 @@ a {
 }
 
 .btn {
-    background: transparent;
-    border: 5px #52B3D9 solid;
-    color: #52B3D9;
-    opacity: 1;
-    padding: 5px 35px;
-    font-weight: 700;
-    line-height: normal;
-    font-size: 22px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    display: inline-block;
+    background: #52B3D9;
+    padding: 8px 12px;
+    color: #fff;
+    margin-top: 20px;
 }
 
 .btn:hover {
-    border: 5px #fff solid;
-    color: #fff;
+    border: 3px #52B3D9 solid;
+    color: #52B3D9;
+    background: white;
     opacity: 1;
 }
 
