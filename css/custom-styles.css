@@ -1161,6 +1161,19 @@ div#logo-wrap #bicton{
     }
 }
 /* ----------- Staff area styles ENDS ---------*/
+/*----------- Apprentice header styles ---------*/
+#apprentice-hub{
+    background: url(../images/apprentice-header-mobile.jpg) 50% 0 no-repeat fixed;
+}
+@media(min-width:768px) {
+    #apprentice-hub {
+        background-image: url(../images/apprentice-header.jpg);
+        background-repeat: no-repeat;
+        background-position:50% 0 ;
+
+    }
+}
+/*----------- Apprentice header styles ENDS ---------*/
 /*----------- 19 Plus styles ---------*/
 #nineteen-plus{
     background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
