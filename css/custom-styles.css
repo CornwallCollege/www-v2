@@ -461,6 +461,9 @@ a.ask-a-question:focus {
 .form-horizontal label i {
     color: dimgrey;
 }
+#search-form .leisure{
+  margin-top: 0;
+}
 
 .form-horizontal input,
 .form-horizontal textarea,

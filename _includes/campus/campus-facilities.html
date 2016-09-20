@@ -1,13 +1,13 @@
 {% for campus in site.data.campus %}
     {% if campus.facilities.size > 0 and campus.campus == page.campus' %}
-    <section class="col-md-12  color-bg events" style="background:#52B3D9;">        
+    <section class="col-md-12  color-bg events" style="background:#52B3D9;">
             <!-- list of events -->
             <section id="portfolio-list" class="container color-bg" style="background:#52B3D9;">
                 <header class="col-sm-12 text-center">
                     <h2 class="text-uppercase">Our <strong style="color:white;">facilities</strong></h2>
                 </header>
                 <div class="main">
-                    <ul id="og-grid" class="og-grid"> 
+                    <ul id="og-grid" class="og-grid">
 
                             {% for facility in campus.facilities %}
                                 {% include /campus/campus-facility.html %}
@@ -19,6 +19,6 @@
                 </footer>
             </section>
             <!-- end of events-list id -->
-    </section>    
+    </section>
     {% endif %}
 {% endfor %}
