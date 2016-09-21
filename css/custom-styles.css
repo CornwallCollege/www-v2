@@ -696,7 +696,7 @@ button.icon-btn:hover,
 a.fullwidth{
     display: block;
     font-size: 1.4em;
-    
+
 }
 a.fullwidth:hover{
     letter-spacing: normal;
@@ -1355,7 +1355,6 @@ div#logo-wrap #bicton{
 }
 /* --------- Contact Section ENDS -----------*/
 /* --------- Full time section call to action --------- */
-
 .fulltime-bar {
     clear: both;
     text-align: center;
@@ -1381,18 +1380,71 @@ div#logo-wrap #bicton{
     background-repeat: no-repeat;
 }
 
-@media(device-width: 768px) {
-    .fulltime-bar {
-        background: url(../images/IMG_3996.jpg);
-        background-size: cover;
-    }
+@media (min-width: 768px) {
+  .fulltime-bar {
+      background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg);
+      /* For Safari 5.1 to 6.0 */
+
+      background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg);
+      /* For Opera 11.1 to 12.0 */
+
+      background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg);
+      /* For Firefox 3.6 to 15 */
+
+      background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg);
+      /* Standard syntax */
+      background-size: cover;
+  }
+}
+
+.leisure-bar {
+    clear: both;
+    text-align: center;
+    padding: 0;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg-mobile.jpg);
+    /* For Safari 5.1 to 6.0 */
+
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg-mobile.jpg);
+    /* For Opera 11.1 to 12.0 */
+
+    background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg-mobile.jpg);
+    /* For Firefox 3.6 to 15 */
+
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg-mobile.jpg);
+    /* Standard syntax */
+
+    background-size: -webkit-cover;
+    background-size: -o-cover;
+    background-size: -moz-cover;
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .leisure-bar {
+      background: -webkit-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg.jpg);
+      /* For Safari 5.1 to 6.0 */
+
+      background: -o-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg.jpg);
+      /* For Opera 11.1 to 12.0 */
+
+      background: -moz-linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg.jpg);
+      /* For Firefox 3.6 to 15 */
+
+      background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg.jpg);
+      /* Standard syntax */
+      background-size: cover;
+  }
 }
 
 .margin-top {
     margin-top: 70px;
 }
 
-.fulltime-bar section {
+.fulltime-bar section,
+.leisure-bar section {
     letter-spacing: 1.5px;
     /*height: 400px;*/
 
@@ -1401,7 +1453,8 @@ div#logo-wrap #bicton{
     margin: 0;
 }
 
-.fulltime-bar h2 {
+.fulltime-bar h2,
+.leisure-bar h2 {
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1410,7 +1463,8 @@ div#logo-wrap #bicton{
     text-align: center
 }
 
-.fulltime-bar .btn {
+.fulltime-bar .btn,
+.leisure-bar .btn {
     background: transparent;
     border: 5px #52B3D9 solid;
     color: #52B3D9;
@@ -1432,14 +1486,17 @@ div#logo-wrap #bicton{
 }
 
 @media(max-width: 480px) {
-    .fulltime-bar h2 {
+    .fulltime-bar h2,
+    .leisure-bar h2 {
         padding-top: 70px;
         font-size: 40px;
     }
-    .fulltime-bar .btn {
+    .fulltime-bar .btn,
+    .leisure-bar .btn {
         font-size: 20px;
         padding: 10px 20px;
         margin-bottom: 70px;
+        white-space: normal;
     }
 }
 /* USP bar */
@@ -1477,8 +1534,8 @@ div#logo-wrap #bicton{
 }
 
 .apply-bar h2:before,
-.fulltime-bar h2:before
-{
+.fulltime-bar h2:before,
+.leisure-bar h2:before {
     background: url(../images/subtle_carbon.png) center repeat;
     content: "";
     position: absolute;
@@ -2671,7 +2728,8 @@ APPLY BARS =====================================================================
 /*iPhones*/
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar,
-    .fulltime-bar {
+    .fulltime-bar,
+    .leisure-bar {
         background-repeat: no-repeat;
         background-size: auto 568px;
         background-position-x: 50%;
@@ -2687,7 +2745,8 @@ APPLY BARS =====================================================================
 }
 @media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar,
-    .fulltime-bar {
+    .fulltime-bar,
+    .leisure-bar {
         background-repeat: no-repeat;
         background-size: auto 568px;
         background-position-x: 50%;
@@ -2703,7 +2762,8 @@ APPLY BARS =====================================================================
 }
 @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     .apply-bar,
-    .fulltime-bar {
+    .fulltime-bar,
+    .leisure-bar {
         background-repeat: no-repeat;
         background-size: auto 568px;
         background-position-x: 50%;
@@ -2793,6 +2853,7 @@ APPLY BARS =====================================================================
     .engineering-bar,
     .public-services-bar,
     .fulltime-bar,
+    .leisure-bar
     .legal-bar{
         background-size:cover;
         background-attachment: fixed;
@@ -2874,6 +2935,7 @@ APPLY BARS =====================================================================
     .engineering-bar,
     .public-services-bar,
     .fulltime-bar,
+    .leisure-bar
     .legal-bar{
         background-size: auto 768px;
         z-index: 1;
@@ -5006,7 +5068,7 @@ button.collapsed h3:before{
     white-space: normal;
 }
 .useful-links a:hover{
-    letter-spacing:normal; 
+    letter-spacing:normal;
 }
 
 /* Slideshow container */

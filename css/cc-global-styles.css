@@ -503,8 +503,7 @@ div.logo-wrap-scroll :nth-child(4) {
     margin-bottom: 0;
 }
 
-#search-form input,
-#leisure-form input {
+#search-form input {
     border-radius: 0;
     -webkit-border-radius: 0;
     box-shadow: none;
@@ -517,24 +516,19 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 
 #search-form input:focus,
-#search-form input:hover,
-#leisure-form input:focus,
-#leisure-form input:hover {
+#search-form input:hover {
     border-color: #000;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
 
 #search-form:hover .input-group-addon,
-#search-form input:focus + .input-group-addon,
-#leisure-form:hover .input-group-addon,
-#leisure-form input:focus + .input-group-addon {
+#search-form input:focus + .input-group-addon {
     background: #000;
     color: #fff;
 }
 
-#search-form:hover input,
-#leisure-form:hover input {
+#search-form:hover input {
     border-color: #000;
 }
 
@@ -549,15 +543,6 @@ div.logo-wrap-scroll :nth-child(4) {
     cursor: pointer;
 }
 
-#leisure-form .input-group-addon {
-	  border: solid 3px white;
-    -webkit-border-color: #000;
-    background: #52B3D9;
-}
-
-#leisure-form .input-group-addon:hover {
-    cursor: pointer;
-}
 /* social icons */
 
 .social-icons {

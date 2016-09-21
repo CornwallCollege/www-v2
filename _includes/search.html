@@ -1,18 +1,12 @@
-<!-- dream career search -->
-<section class="col-sm-12 blue-bg bar2 career-search">
-  <h2 class="text-uppercase" style="color:white">Want to learn something new in your spare time?</h2>
-  <form name="course-search" id="leisure-form" class="container leisure" role="search" method="GET" action="{{ include.search-href }}">
-    <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-      <!--<input name="s" value="search" type="hidden" />-->
-      <input class="form-control" name="s" type="text" placeholder="Leisure Course Search">
-      <div class="input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button></div>
-      <!--<button type="submit"><span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span></button>-->
+<!-- Search Section -->
+    <div class="container">
+        <form name="course-search" id="leisure-form" class="container leisure" role="search" method="GET" action="{{ include.search-href }}">
+          <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <!--<input name="s" value="search" type="hidden" />-->
+            <input class="form-control" name="s" type="text" placeholder="Leisure Course Search">
+            <div class="input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button></div>
+            <!--<button type="submit"><span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span></button>-->
+          </div>
+        </form>
     </div>
-  </form>
-  <div class="col-sm-4 col-sm-offset-4 text-center">
-    <a class="btn ghost light" href="{{ include.button-href }}">
-      <span>Not sure, browse our</span>
-      <span><strong>leisure courses</strong></span>
-    </a>
-  </div>
 </section>
