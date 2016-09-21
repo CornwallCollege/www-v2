@@ -1,5 +1,7 @@
 <!-- Search Section -->
+<section class="col-sm-12 leisure-bar clearfix">
     <div class="container">
+        <h2>{{ include.title }}</h2>
         <form name="course-search" id="leisure-form" class="container leisure" role="search" method="GET" action="{{ include.search-href }}">
           <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <!--<input name="s" value="search" type="hidden" />-->
@@ -8,5 +10,6 @@
             <!--<button type="submit"><span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span></button>-->
           </div>
         </form>
+        <a class="apply-btn btn" href="{{ include.button-href }}">{{ include.button-title }}</a>
     </div>
 </section>

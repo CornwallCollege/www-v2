@@ -1,10 +1,10 @@
 <section class=" container" style="margin-bottom:50px;">
 <div id="form-ui">
-    <h3>Learning Area Filters</h3>  
-    <p class="lead no-margin">Filter our learning areas by selecting one or more of the filters below.</p> 
-        
-    <div class="col-xs-12 col-md-6">    
-        <h5><strong>Campus</strong></h5>    
+    <h3>Learning Area Filters</h3>
+    <p class="lead no-margin">Filter our learning areas by selecting one or more of the filters below.</p>
+
+    <div class="col-xs-12 col-md-6">
+        <h5><strong>Campus</strong></h5>
         <div class="btn-group" data-toggle="buttons">
           <label class="area-filter btn btn-primary">
             <input type="checkbox" name="campus-radio" value=".bicton-campus" data-campus="bicton" >Bicton
@@ -14,44 +14,44 @@
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".bristol-campus" data-campus="dbs-bristol">dBs Bristol
-          </label>            
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".eden-campus" data-campus="eden-project">Eden
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".falmouth-campus" data-campus="falmouth-marine-school">Falmouth
-          </label>   
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".newquay-campus" data-campus="newquay">Newquay
-          </label>    
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".rosewarne-campus" data-campus="rosewarne">Rosewarne
-          </label>    
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".saltash-campus" data-campus="saltash">Saltash
-          </label> 
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".st-austell-campus" data-campus="st-austell">St Austell
-          </label>    
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".stoke-campus" data-campus="stoke">Stoke Climsland
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value=".sisna-campus" data-campus="sisna-park">Plymouth Engineering
-          </label>   
-          <label class="btn btn-primary area-filter">
+          </label>
+          <label class="btn btn-primary area-filter" style="background-color: #2F6690">
             <input type="checkbox" name="campus-radio" value="" data-course-type="reset">Remove Filter
-          </label>        
-            
-        </div> 
+          </label>
+
+        </div>
     </div>
 
-    <!--<div class="col-xs-12 col-md-6 ">        
-        <h5>Brand</h5>    
+    <!--<div class="col-xs-12 col-md-6 ">
+        <h5>Brand</h5>
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="brand-radio" value=".bic" data-brand="bictoncollege" > Bicton College
-          </label>            
+          </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="brand-radio" value=".cc" data-brand="cornwallcollege" > Cornwall College
           </label>
@@ -61,11 +61,11 @@
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="brand-radio" value=".fms" data-brand="falmouthms"> Falmouth Marine School
           </label>
-        </div>  
-    </div>-->    
+        </div>
+    </div>-->
 
-    <div class="col-xs-12 col-md-6">        
-        <h5><strong>Sector</strong></h5>    
+    <div class="col-xs-12 col-md-6">
+        <h5><strong>Sector</strong></h5>
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="sector-radio" value=".university" data-course-type="he">University
@@ -78,16 +78,16 @@
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
-          </label>            
-          <label class="btn btn-primary area-filter">
+          </label>
+          <label class="btn btn-primary area-filter" style="background-color: #2F6690">
             <input type="checkbox" name="sector-radio" value="" data-course-type="reset">Remove Filter
-          </label>    
-        </div>  
-    </div>  
+          </label>
+        </div>
+    </div>
 
        <!--<p id="output">--</p>-->
 </div>
-</section>    
+</section>
 
     <!--<section class="career-items container" style="padding-bottom: 20px;">
         <a id="area-grid-anchor"></a>
@@ -104,30 +104,30 @@
 <!-- Learning Area Divs -->
 <section id="career-list" class="container main-section-margins">
         <div id="career-content" >
-            
+
         {% for cluster in site.data.sub-clusters %}
             {% for subcluster in cluster.subclusters %}
-            
+
             <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
-                <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">    
+                <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
                     <i class="fa fa-times close-icon"></i>
                     <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
                     <span class="readmore">Read More</span>
-                </a>    
+                </a>
                 <div class="detail collapse" id="{{ subcluster.search-link }}">
                     <p>{{ subcluster.intro }}</p>
                     <a style="margin-bottom:55px; bottom:0px" href="{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right course-area">View careers in this area</a>
                     <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right course-area">View courses in this area</a>
-                </div>    
-       
+                </div>
+
             </div>
-            
+
             {% endfor %}
-        {% endfor %}            
-            
-            
-          
+        {% endfor %}
+
+
+
         </div>
-</section>    
+</section>
 
     <!--learning area section ends -->
