@@ -1394,6 +1394,7 @@ div#logo-wrap #bicton{
       background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg);
       /* Standard syntax */
       background-size: cover;
+      background-attachment: fixed;      
   }
 }
 
@@ -1436,6 +1437,7 @@ div#logo-wrap #bicton{
       background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banners/leisure-banner-bg.jpg);
       /* Standard syntax */
       background-size: cover;
+      background-attachment: fixed;
   }
 }
 
