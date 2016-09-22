@@ -17,6 +17,42 @@ $(function () {
 
 });
     
+    /* MENU TOGGLING - 1.7 update*/
+    if ($("#cbp-spmenu-s2").length) {
+        var openRightPush = document.getElementById('openRightPush'),
+            menuRight = document.getElementById('cbp-spmenu-s2'),
+            body = document.body;
+
+        openRightPush.onclick = function () {
+            classie.toggle(this, 'active');
+            $('.menu-icon > i').toggleClass("fa-bars");
+            $('.menu-icon > i').toggleClass("fa-times");
+            $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+        };
+
+    }
+
+    /* the id="menu-container" has to be added to the one-page template,
+       to the <div class="container"> of the <nav id="cbp-spmenu-s2">
+
+    */
+
+    if ($("#menu-container").length) {
+        var menuContainer = document.getElementById('menu-container'),
+            menuRight = document.getElementById('cbp-spmenu-s2'),
+            body = document.body;
+
+        menuContainer.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+        };
+
+    }
+
+    /* end of 1.7 update */    
+    
+    
 /* SWIPER options (home page)*/
     if (location.pathname === "/") {
         var swiperH = new Swiper('.swiper-container-h', {
