@@ -1478,7 +1478,8 @@ div#logo-wrap #bicton{
     margin-bottom: 120px;
 }
 
-.bar .btn:hover {
+.bar .btn:hover,
+.dark-bg .btn:hover {
     border: 5px #fff solid;
     color: #fff;
     opacity: 1;
@@ -5141,7 +5142,7 @@ button.collapsed h3:before{
 /* two options */
 .two-options {
   margin-top: 30px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .two-options h2 {

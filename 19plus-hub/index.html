@@ -63,14 +63,7 @@ usefulLinks:
         </div>
     </section>
 
-<!-- 19+ area SECTION -->
-{% include /19plus/19plus-areas.html %}
-
-
-<!-- BROWSE BY section -->
-{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
-<!-- BROWSE BY section ENDS-->
-    <section class="col-sm-12 full-width-video-block">
+    <section class="col-sm-12 full-width-video-block no-padding">
         <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
             {% youtube https://youtu.be/fn7tnBdo55o %}
             <div class="text-center caption">
@@ -94,23 +87,35 @@ usefulLinks:
         </article>
     </section>
 
+<!-- 19+ area SECTION -->
+{% include /19plus/19plus-areas.html %}
+
+
+<!-- BROWSE BY section -->
+{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
+<!-- BROWSE BY section ENDS-->
+
+
 <!-- Access to HE -->
-    <section class="container ">
-        <div class="col-xs-12 main-section-margins">
-            <h2>Discover what you can do, <span>university study in Cornwall for adults</span> </h2>
-            <p class="lead">We offer the widest range of professional and trade qualifications, whether you want to boost your career or retrain. If university is your goal, we also provide Return to Study and Access to Higher Education Diplomas that can fast track you to degree study.</p>
 
-            <p>If you’ve not got the qualifications to start a degree, an Access to Higher Education Diploma is a fast-track route. Download our guide here or search ‘Access’ on our course search.</p>
+    
+        <div class="col-xs-12 main-section-padding dark-bg intro">
+            <section class="container">
+            <h2 class="text-uppercase text-center">Discover what you can do, <strong>university study in Cornwall for adults</strong> </h2>
+            <p class="lead white">We offer the widest range of professional and trade qualifications, whether you want to boost your career or retrain. If university is your goal, we also provide Return to Study and Access to Higher Education Diplomas that can fast track you to degree study.</p>
 
-            <p>Be inspired, visit our University Courses section to see degrees available in Cornwall and Devon.</p>
-            <div class="col-xs-12 col-sm-6"><a href="/university-hub/" class="btn ghost large fullwidth">Visit our University hub</a></div>
-            <div class="col-xs-12 col-sm-6"><a href="/documents/prospectuses/2016-access-he-flyer.pdf" class="btn ghost large fullwidth">Download our guide</a></div>
+            <p class="white">If you’ve not got the qualifications to start a degree, an Access to Higher Education Diploma is a fast-track route. Download our guide here or search ‘Access’ on our course search.</p>
+
+            <p class="white">Be inspired, visit our University Courses section to see degrees available in Cornwall and Devon.</p>
+            <div class="col-xs-12 col-sm-6"><a href="/university-hub/" class="btn  large fullwidth">Visit our University hub</a></div>
+            <div class="col-xs-12 col-sm-6"><a href="/documents/prospectuses/2016-access-he-flyer.pdf" class="btn large fullwidth">Download our guide</a></div>
             <div class="col-xs-12 main-section-margins">
             <!-- YOUTUBE video -->
             {% youtube https://youtu.be/wOyW18PzDiM %}
-            </div>                
+            </div>   
+            </section>     
         </div>
-    </section>    
+       
 <!-- videos -->
 {% include usp.html usp-text='Apprenticeships are for 19+ too!' link='/apprenticeship-hub/' %}
 
