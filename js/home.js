@@ -292,7 +292,7 @@ $(function () {
                 var video_options = [
                     {
                         brand: 'cornwall',
-                        videos: ['steps', 'door', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
+                        videos: [ 'wall-sketching',  'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
                         mobile_videos: ['mobile/landscape', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
                     },
                     {
@@ -475,16 +475,17 @@ $(function () {
                 $( '#cbp-spmenu-s2' ).removeClass('cbp-spmenu-open');
             }
         });
-        
-        swiperH.on('slideChangeStart', function () {
-            changeCurrentLogo();
+        $(document).ready(function () {
+            swiperH.on('slideChangeStart', function () {
+                changeCurrentLogo();
+            });
+            swiperH.on('slideChangeEnd', function () {
+                //small delay to let the hash load properly
+                setTimeout(stackLogosSwipe, 50);
+            });
+            var slide = swiperH.slides[swiperH.activeIndex];
+            loadVideo(slide);
         });
-        swiperH.on('slideChangeEnd', function () {
-            //small delay to let the hash load properly
-            setTimeout(stackLogosSwipe, 50);
-        });
-        var slide = swiperH.slides[swiperH.activeIndex];
-        loadVideo(slide);
     }
 
     /* Set brand cookie on home */

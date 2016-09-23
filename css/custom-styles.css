@@ -4149,17 +4149,17 @@ video,
     text-transform:none;
     white-space: normal;
 }
-section .feed-image{
-    background-image: url(../images/whats-on-fallback-1.jpg);
+.social-feed-element .feed-image{
+    background-image: url(../images/whats-on-fallback-1.jpg)!important;
 }
-section:nth-child(2n+0) .feed-image{
-    background-image: url(../images/whats-on-fallback-2.jpg);
+.social-feed-element:nth-of-type(4n-3) .feed-image{
+    background-image: url(../images/whats-on-fallback-2.jpg)!important;
 }
-section:nth-child(3n+0) .feed-image{
-    background-image: url(../images/whats-on-fallback-4.jpg);
+.social-feed-element:nth-of-type(4n-2) .feed-image{
+    background-image: url(../images/whats-on-fallback-4.jpg)!important;
 }
-section:nth-child(4n+0) .feed-image{
-    background-image: url(../images/whats-on-fallback-5.jpg);
+.social-feed-element:nth-of-type(4n+0) .feed-image{
+    background-image: url(../images/whats-on-fallback-5.jpg)!important;
 }
 .feed-image{
     overflow: hidden;
