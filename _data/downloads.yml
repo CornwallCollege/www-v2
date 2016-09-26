@@ -1132,6 +1132,14 @@
   search-link: ts-and-cs-accom(1)  # Document name
   colour: 00A5B4
   
+  #0157JW0716_CC_Student_Guide_2016
+- title: CC Student Guide 2016 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/0157JW0716_CC_Student_Guide_2016.pdf
+  search-link: 0157JW0716_CC_Student_Guide_2016  # Document name
+  colour: 00A5B4
+  
   # End of Guides
   
   #CAM_2011_Maps
