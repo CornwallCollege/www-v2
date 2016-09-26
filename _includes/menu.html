@@ -76,30 +76,7 @@
         </div>
 
         <div id="main-menu" class="container clearfix">
-            <!--<ul class="menu-item-links">
-                {% for menu in site.data.menu %}
-                
-                        {% if site.data.menu.sub-menu == empty %}
 
-                                <li>
-                                    <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
-                                </li>
-             
-                        {% else %}
-                            
-                                <li class="dropdown">
-                                    <a href="{{site.static_url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
-                                    <ul class="submenu-items transition">
-                                        {% for sub-menu in menu.sub-menu %}
-                                            <li><a href="{% if sub-menu.sub-menu-link contains 'http' %}{{sub-menu.sub-menu-link}}{% else %}{{site.static_url}}/{{sub-menu.sub-menu-link}}{% endif %}">{{sub-menu.sub-menu-name}}</a></li>
-                                        {% endfor %}
-                                    </ul>    
-                                </li>
-                            
-                        {% endif %}
-                
-                {% endfor %}
-            </ul>-->
         </div>
 
         {% include socialmedia.html %}

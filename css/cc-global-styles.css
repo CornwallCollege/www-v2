@@ -766,7 +766,15 @@ div.logo-wrap-scroll :nth-child(4) {
         padding-left: 55px;
     }
 }
-
+.main-menu-phone{
+    color:white; 
+    padding:5px 15px 0px 15px; 
+    right:0; 
+    bottom:0; 
+    position:absolute; 
+    background:#52B3D9; 
+    font-size:1.2em;
+}
 
 /* ------------ Menu styles ENDS --------------*/
 /* =================================
