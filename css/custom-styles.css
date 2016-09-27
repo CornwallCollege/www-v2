@@ -2995,6 +2995,23 @@ APPLY BARS =====================================================================
     padding: 0;
     margin-bottom: 15px;
 }
+.career-filter ul.subcluster-list{
+    margin-top: 15px
+    
+}
+.career-filter ul.subcluster-list li {
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    text-align: left;
+    display: block;
+    line-height: 1.3em;
+    /*list-style-type: square;*/
+    margin-left: 5px;
+    border-bottom: solid 2px rgba(255,255,255,0.1)
+}
+.career-filter ul.subcluster-list li:nth-of-type(even) {
+    /*font-weight: bold;*/
+}
 
 .career-filter ul li > a {
     display: block;
@@ -3013,19 +3030,19 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .career-filter ul li a {
-        min-height: 342px;
+        min-height: 435px;
     }
 }
 
 @media(min-width:992px) {
     .career-filter ul li a {
-        min-height: 254px;
+        min-height: 360px;
     }
 }
 
 @media(min-width:1200px) {
     .career-filter ul li a {
-        min-height: 210px;
+        min-height: 340px;
     }
 }
 /* Cluster colors ends*/
@@ -3077,9 +3094,9 @@ APPLY BARS =====================================================================
 }
 
 .career-filter ul li a.cve {
-    border: 5px solid #C7D301;
+    border: 5px solid #a9b201;
     color:  white;
-    background-color: #C7D301;
+    background-color: #a9b201;
 }
 
 .career-filter ul li a.cve:hover {
@@ -3213,10 +3230,15 @@ APPLY BARS =====================================================================
 }
 
 .career-filter ul li a h3 {
-    margin-bottom: 5px;
-    font-size: 100%;
-    line-height: 27px;
-    margin-top: 5px;
+    position: absolute;
+    bottom:0px;
+    right:20px;
+    font-size: 1.5em;
+    opacity: .3;
+    text-align: right;
+}
+.career-filter ul li a:hover h3 {
+    opacity: 1;
 }
 
 .career-filter ul li a span {

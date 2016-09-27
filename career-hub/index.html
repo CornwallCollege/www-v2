@@ -40,7 +40,7 @@ career: Career Hub
 ====================================================================== -->
 
 
-<section class="container main-section-margins ">
+<section class="container">
 
   <!-- list of clusters(ish) -->
   <section id="career-list" class="container">
@@ -52,11 +52,14 @@ career: Career Hub
 
                 <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     <a href="{{ cluster.a-href }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
-                        <h3>{{ cluster.cluster }}</h3>
+                        <ul class="subcluster-list">
                         {% for subcluster in cluster.subclusters %}
-                        <span>{{ subcluster.subcluster }}{% unless forloop.last %} - {% endunless %}</span>
 
+                                <li>{{ subcluster.subcluster }}</li>
+  
                         {% endfor %}
+                        </ul>                                  
+                        <h3>{{ cluster.cluster }}</h3>
                     </a>
                 </li>
 
