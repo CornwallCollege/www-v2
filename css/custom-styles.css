@@ -5262,3 +5262,21 @@ button.collapsed h3:before{
 .search-sidebar .input-group-addon {
   background: #555;
 }
+
+/* About Pages - Campus Contact Page */
+.contact-overview td:last-child,
+.contact-overview td a {
+    font-size: 16px;
+}
+
+@media(min-width:320px) and (max-width:425px) {
+    .contact-overview td:last-child,
+    .contact-overview td a,
+    .contact-overview td address {
+        font-size: 13px;
+        padding-left: 5px;
+    }
+}
+.all-contact-details article:nth-child(odd) {
+  clear:both
+}
