@@ -1394,7 +1394,7 @@ div#logo-wrap #bicton{
       background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMG_3996.jpg);
       /* Standard syntax */
       background-size: cover;
-      background-attachment: fixed;      
+      background-attachment: fixed;
   }
 }
 
@@ -2997,7 +2997,7 @@ APPLY BARS =====================================================================
 }
 .career-filter ul.subcluster-list{
     margin-top: 15px
-    
+
 }
 .career-filter ul.subcluster-list li {
     margin-bottom: 10px;
@@ -5232,4 +5232,33 @@ button.collapsed h3:before{
 
 .facilities {
     font-size: 21px;
+}
+
+/* Course Search Sidebar */
+.search-sidebar {
+  background: #52B3D9;
+}
+
+.search-sidebar h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 25px;
+  color: white;
+}
+
+.search-sidebar .btn {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: normal;
+  margin-bottom: 25px;
+  border: white solid;
+  color: white;
+}
+
+.search-sidebar .input-group {
+  margin-top: 10px;
+}
+
+.search-sidebar .input-group-addon {
+  background: #555;
 }
