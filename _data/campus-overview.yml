@@ -4,20 +4,25 @@
   brand: Bicton College
   copy: <p>Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.</p>
   link: /bicton-campus.html
-  contact-number: 01395 562400  
-  images: 
+  contact-number: 01395 562400
+  primary-color: 77BC43
+  secondary-color: 70AF3F
+  email: customer.services@bicton.ac.uk
+  address: East Budleigh, Budleigh Salterton, Devon, EX9 7BY
+  opening: 8:30am - 5:30pm
+  images:
     - link: /images/locations/Bicton/bicton-campus-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus.jpg
 
-      
+
     - link: /images/locations/Bicton/bicton-campus-33-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus-33.jpg
 
-      
+
     - link: /images/locations/Bicton/billy-nankivell-agriculture-LG.jpg
       thumb: /images/locations/Bicton/billy-nankivell-agriculture.jpg
 
-      
+
     - link: /images/locations/Bicton/joe-wroe-equine-LG.jpg
       thumb: /images/locations/Bicton/joe-wroe-equine.jpg
 
@@ -26,22 +31,27 @@
 
 - campus: Bristol
   anchor: "dbs"
-  search: "dbs-bristol"  
+  search: "dbs-bristol"
   brand: dBs Music
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
   contact-number: 01209 200200
-  images: 
+  primary-color: B51E8F
+  secondary-color: AB1D88
+  email: ...
+  address: Temple Studios, Temple Gate, Bristol, BS1 6QA
+  opening: ...
+  images:
     - link: /images/locations/DBS/dbs-logo-LG.jpg
       thumb: /images/locations/DBS/dbs-logo.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/DBS/matias-mery-LG.jpg
       thumb: /images/locations/DBS/matias-mery.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/DBS/lauren-adele-martin-LG.jpg
       thumb: /images/locations/DBS/lauren-adele-martin.jpg
       alt: an image
@@ -56,267 +66,312 @@
 
 - campus: Camborne Campus
   anchor: "camborne"
-  search: "camborne"  
+  search: "camborne"
   brand: Cornwall College
   copy: <p>Cornwall College Camborne is the largest of the three General Further Education campuses in the group, offering a wide variety of vocational courses from further education to university level, professional qualifications and the South’s West largest provider of apprenticeships; earning ourselves a respected reputation across the wider education sector and business community.</br></br>With a focused ethos on careers, progression and opportunity, we have attracted high profile partnerships including our famous Academy Nathan Outlaw, Blue Flame Academy and our new Digital Academy.</p>
   link: /camborne-campus.html
   contact-number:  01209 616161
-  images: 
+  primary-color: 00509B
+  secondary-color: 004B93
+  email: enqiries@cornwall.ac.uk
+  address: Trevenson Road, Redruth, Cornwall, TR15 3RD
+  opening: 8:30am - 4:30pm
+  images:
     - link: /images/locations/Camborne/cam-campus-beauty-LG.jpg
       thumb: /images/locations/Camborne/cam-campus-beauty.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Camborne/cam-campus-chef-LG.jpg
       thumb: /images/locations/Camborne/cam-campus-chef.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Camborne/camborne-built-enviroment-LG.jpg
       thumb: /images/locations/Camborne/camborne-built-enviroment.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Camborne/lauren-adele-martin-HND-music-LG.jpg
       thumb: /images/locations/Camborne/lauren-adele-martin-HND-music.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/camborne/
-  
-  
+
+
 - campus: The Eden Project
   anchor: "eden-project"
-  search: "eden-project" 
-  brand: 
+  search: "eden-project"
+  brand:
   copy: <p >In partnership with the Eden Project, we have introduced a range of new apprenticeships for enterprising and innovative individuals and businesses that are motivated to make the world a better place. The Eden Project and the Cornwall College Group are working together to train and employ a range of new apprentices in key business areas such as service excellence, cookery and horticulture.</p>
   link: /eden-campus.html
-  contact-number: 01209 200200  
-  images: 
+  contact-number: 01209 200200
+  primary-color: CC0E0E
+  secondary-color: BF0D0D
+  email: ...
+  address: Eden Project, Bodelva, Cornwall, PL24 2SG
+  opening: ...
+  images:
     - link: /images/locations/Eden/eden-project-1-LG.jpg
       thumb: /images/locations/Eden/eden-project-1.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Eden/eden-project-2-LG.jpg
       thumb: /images/locations/Eden/eden-project-2.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Eden/eden-project-3-LG.jpg
       thumb: /images/locations/Eden/eden-project-3.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Eden/eden-project-4-LG.jpg
       thumb: /images/locations/Eden/eden-project-4.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/eden-project/
-  
-  
+
+
 - campus: Falmouth Campus
   anchor: "falmouth-marine-school"
-  search: "falmouth-marine-school"  
+  search: "falmouth-marine-school"
   brand: Falmouth Marine School
   copy: <p>Falmouth Marine School provides a comprehensive selection of courses from introductory to degree level in partnership with Plymouth University. We specialise in Boatbuilding, Leisure & Watersports, Marine Engineering and Marine Science & Biology.</p>
   link: /falmouth-campus.html
-  contact-number: 01326 310323 
-  images: 
+  contact-number: 01326 310323
+  primary-color: 00AFBF
+  secondary-color: 00A5B4
+  email: falenquiries@cornwall.ac.uk
+  address: Killigrew Street, Falmouth, Cornwall, TR11 3QS
+  opening: 8:30am - 5:00pm
+  images:
     - link: /images/locations/FMS/falmouth-campus-LG.jpg
       thumb: /images/locations/FMS/falmouth-campus.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/FMS/campus-overview-2-LG.jpg
       thumb: /images/locations/FMS/campus-overview-2.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/FMS/campus-overview-3-LG.jpg
       thumb: /images/locations/FMS/campus-overview-3.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/FMS/campus-overview-1-LG.jpg
       thumb: /images/locations/FMS/campus-overview-1.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/falmouth/
-  
-  
+
+
 - campus: Newquay Campus
   anchor: "newquay"
-  search: "newquay"  
+  search: "newquay"
   brand: Cornwall College
   copy: <p>Cornwall College Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in zoology, marine and surf science studies, the campus is well-known in Cornwall as a friendly and inclusive setting for high quality teaching and research. <br><br> Studying in Newquay gives you access to an amazing environment and incredible opportunities, including international field trips and taking advantage of our close partnerships with local businesses including Newquay Zoo, Blue Reef Aquarium, Cornwall Wildlife Trust and The Eden Project. You can volunteer with our world-leading Student Invasive Non-Native Group (SINNG) and engage with our most valuable teaching resource - our team of highly qualified research active staff.</p>
   link: /newquay-campus.html
-  contact-number:  01637 857965 
-  images: 
+  contact-number:  01637 857965
+  primary-color: 00509B
+  secondary-color: 004B93
+  email: newquay.enquiries@cornwall.ac.uk
+  address: Wildflower Lane, Trenance Gardens, Newquay, Cornwall, TR7 2LZ
+  opening: 8:30am - 5:30pm
+  images:
     - link: /images/locations/Newquay/blue-reef-logo-LG.jpg
       thumb: /images/locations/Newquay/blue-reef-logo.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Newquay/wildlife-LG.jpg
       thumb: /images/locations/Newquay/wildlife.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Newquay/zoo-LG.jpg
       thumb: /images/locations/Newquay/zoo.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Newquay/newquay-zoo-logo-LG.jpg
       thumb: /images/locations/Newquay/newquay-zoo-logo.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/newquay/
-  
-  
+
+
 - campus: Rosewarne Campus
   anchor: "rosewarne"
-  search: "rosewarne"  
+  search: "rosewarne"
   brand: Duchy College
   copy: <p>Duchy College Rosewarne is situated just outside Camborne on a working farm. Our extensive beautiful grounds are spread over approximately 47 hectares and are an excellent horticultural resource with national plant collections on campus. Onsite we also have a working nursery where we grow and sell our own plants, a working farm and protected cropping unit, land-based engineering workshops and specialist veterinary nursing facilities, the only one of its kind in the county. To get you to and from Rosewarne we have our own transport network that will collect you from a range of towns and villages.</p>
   link: /rosewarne-campus.html
-  contact-number: 01209 722100 
-  images: 
+  contact-number: 01209 722100
+  primary-color: 007B4C
+  secondary-color: 006D43
+  email: rosewarne.enquiries@duchy.ac.uk
+  address: Duchy College Rosewarne, Camborne, Cornwall, TR14 0AB
+  opening: Mon to Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
+  images:
     - link: /images/locations/Rosewarne/charlie-bullingham-LG.jpg
       thumb: /images/locations/Rosewarne/charlie-bullingham.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Rosewarne/linda-bouldstridge-horticulture-LG.jpg
       thumb: /images/locations/Rosewarne//linda-bouldstridge-horticulture.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Rosewarne/rose-campus-LG.jpg
       thumb: /images/locations/Rosewarne/rose-campus.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Rosewarne/rosewarne-campus-LG.jpg
       thumb: /images/locations/Rosewarne/rosewarne-campus.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/rosewarne/
-  
-  
+
+
 - campus: Saltash Campus
   anchor: "saltash"
-  search: "saltash"  
+  search: "saltash"
   brand: Cornwall College
   copy: <p>The campus at Saltash is based on Church Road, nestled in the heart of a residential area only a few minutes’ walk from the town centre and close to the A38. We are a small and friendly campus sat in a semi-rural location, perfect if you live in South-East and North Cornwall, Plymouth or South-West Devon. We have excellent facilities including; a higher education centre, construction skills training centre, commercial hair and beauty salons and a state-of-the-art training kitchen.</p>
   link: /saltash-campus.html
-  contact-number: 01752 850200  
-  images: 
+  contact-number: 01752 850200
+  primary-color: 00509B
+  secondary-color: 004B93
+  email: info@saltash.ac.uk
+  address: Church Rd, Saltash, Cornwall, PL12 4AE
+  opening: 8:30am - 5:00pm
+  images:
     - link: /images/locations/Saltash/H-and-B-LG.jpg
       thumb: /images/locations/Saltash/H-and-B.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Saltash/norpro-LG.jpg
       thumb: /images/locations/Saltash/norpro.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Saltash/saltash-LG.jpg
       thumb: /images/locations/Saltash/saltash.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Saltash/saltash-eng-LG.jpg
       thumb: /images/locations/Saltash/saltash-eng.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/saltash/
-  
-  
+
+
 - campus: St Austell Campus
   anchor: "st-austell"
-  search: "st-austell"  
+  search: "st-austell"
   brand: Cornwall College
   copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, A-level centre, an arts block and dedicated construction and engineering skills centre, Koko Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities.</p>
   link: /st-austell-campus.html
-  contact-number: 01726 226622 
-  images: 
+  contact-number: 01726 226622
+  primary-color: 00509B
+  secondary-color: 004B93
+  email: info@st-austell.ac.uk
+  address: Tregonissey Road, St Austell, Cornwall, PL25 4DJ
+  opening: 8.30am till 5.00pm
+  images:
     - link: /images/locations/StAustell/chloe-potts-A-levels-LG.jpg
       thumb: /images/locations/StAustell/chloe-potts-A-levels.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/StAustell/cloisters-LG.jpg
       thumb: /images/locations/StAustell/cloisters.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/StAustell/ED-dance-LG.jpg
       thumb: /images/locations/StAustell/ED-dance.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/StAustell/STAC-site-shots-LG.jpg
       thumb: /images/locations/StAustell/STAC-site-shots.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/st-austell/
-  
-  
+
+
 - campus: Stoke Climsland Campus
   anchor: "stoke"
-  search: "stoke"  
+  search: "stoke"
   brand: Duchy College
   copy: <p>Our campus is nestled in the rural Cornish countryside at Stoke Climsland. The campus offers great land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities.</p>
   link: /stoke-campus.html
-  contact-number: 01579 372222 
-  images: 
+  contact-number: 01579 372222
+  primary-color: 007B4C
+  secondary-color: 006D43
+  email: stoke.enquiries@duchy.ac.uk
+  address: Stoke Climsland, Callington, Cornwall, PL17 8PB
+  opening: 9.00am - 5.00pm
+  images:
     - link: /images/locations/Stoke/equine-field-LG.jpg
       thumb: /images/locations/Stoke/equine-field.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Stoke/stoke-agri-LG.jpg
       thumb: /images/locations/Stoke/stoke-agri.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Stoke/stoke-climsland-LG.jpg
       thumb: /images/locations/Stoke/stoke-climsland.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Stoke/stoke-sport-LG.jpg
       thumb: /images/locations/Stoke/stoke-sport.jpg
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/stoke/
-  
-  
+
+
 - campus: Plymouth Engineering
   anchor: "sisna-park"
-  search: "sisna-park"  
+  search: "sisna-park"
   brand: Cornwall College
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html
   contact-number: 01209 200200
-  images: 
+  primary-color: D1D1D1
+  secondary-color: C6C6C6
+  email: enquiries@cornwall.ac.uk
+  address: 87-89, Sisna Park Road, PLYMOUTH
+  opening: 8:30am - 5:00pm
+  images:
     - link: /images/locations/Sisna/campus-overview-1-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-1.jpg
       alt: an image
       title: image 1
-      
+
     - link: /images/locations/Sisna/campus-overview-2-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-2.jpg
       alt: an image
       title: image 2
-      
+
     - link: /images/locations/Sisna/campus-overview-3-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-3.jpg
       alt: an image
       title: image 3
-      
+
     - link: /images/locations/Sisna/campus-overview-4-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-4.jpg
       alt: an image
