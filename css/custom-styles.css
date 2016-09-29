@@ -5006,6 +5006,7 @@ div.btn-group .area-filter{
     padding: 0.5em;
     max-width: 13em;
     width: 100%;
+    min-height:160px;
 
 }
 .download h4 span{
