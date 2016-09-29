@@ -17,7 +17,7 @@ background-image: /local-office.jpg
         {% endif %}
       </span></h2>
     </header>
-  </section>
+</section>
 <!-- END OF HEADER -->
 
 
@@ -25,70 +25,33 @@ background-image: /local-office.jpg
 
 <section class="container all-contact-details">
   {% for campus in site.data.campus-overview %}
-  {% if campus.campus == 'Plymouth Engineering' %}
-  <article class="col-sm-12 col-md-6" >
-    <table class="contact-overview contact-details" style="background-color:#{{ campus.primary-color }}">
-      <tbody>
-        <tr>
-          <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-university fa-2x"></i></td>
-          <td><address style="color: black">{{ campus.brand }} {{ campus.campus }}</address></td>
-        </tr>
-        <tr>
-          <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-phone fa-2x" ></i></td>
-          <td style="color: black">{{ campus.contact-number }}</td>
-        </tr>
-        <tr>
-          <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-envelope-o fa-2x"></i></td>
-          <td><a href="mailto:{{ campus.email }}" style="color: black;"><strong>{{ campus.email }}</strong></a></td>
-        </tr>
-        <tr>
-          <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-map-marker fa-2x"></i></td>
-          <td style="color: black">{{ campus.address }}</td>
-        </tr>
-        <tr>
-          <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-clock-o fa-2x"></i></td>
-          <td style="color: black">{{ campus.opening }}</td>
-        </tr>
-        <tr>
-          <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-link fa-2x"></i></td>
-          <td>
-            <a href="/location-pages/{{ campus.link }}" title="{{ campus.campus }} Page" style="color: black"><strong>{{ campus.campus }} Page</strong></a></td>
+  <div class="col-sm-12 col-md-6" style="padding-bottom:15px">
+    <article class="contact-overiew-container" style="border-left-color:#{{ campus.primary-color }}">
+      <table class="contact-overview contact-details">
+        <tbody>
+          <tr>
+            <h2 class="contact-title">{{ campus.brand }}<span style="color:#{{ campus.primary-color }}">{{ campus.campus }}</span></h2>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-phone fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{{ campus.contact-number }}</td>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-envelope-o fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td><a href="mailto:{{ campus.email }}"><strong>{{ campus.email }}</strong></a></td>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-map-marker fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{{ campus.address }}</td>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-clock-o fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{{ campus.opening }}</td>
           </tr>
         </tbody>
       </table>
+      <a title="view the {{ campus.campus }} page" href="/location-pages/{{ campus.link }}" class="btn campus-link" style="background-color:#{{ campus.primary-color }}">View The {{ campus.campus }} Page</a>
     </article>
-    {% else %}
-    <article class="col-sm-12 col-md-6" >
-      <table class="contact-overview contact-details" style="background-color:#{{ campus.primary-color }}">
-        <tbody>
-          <tr>
-            <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-university fa-2x"></i></td>
-            <td><address style="color: white">{{ campus.brand }} {{ campus.campus }}</address></td>
-          </tr>
-          <tr>
-            <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-phone fa-2x" ></i></td>
-            <td style="color: white">{{ campus.contact-number }}</td>
-          </tr>
-          <tr>
-            <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-envelope-o fa-2x"></i></td>
-            <td><a href="mailto:{{ campus.email }}" style="color: white;"><strong>{{ campus.email }}</strong></a></td>
-          </tr>
-          <tr>
-            <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-map-marker fa-2x"></i></td>
-            <td style="color: white">{{ campus.address }}</td>
-          </tr>
-          <tr>
-            <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-clock-o fa-2x"></i></td>
-            <td style="color: white">{{ campus.opening }}</td>
-          </tr>
-          <tr>
-            <td class="text-center" style="background-color:#{{ campus.secondary-color }}"><i class="fa fa-link fa-2x"></i></td>
-            <td>
-              <a href="/location-pages/{{ campus.link }}" title="{{ campus.campus }} Page" style="color: white"><strong>{{ campus.campus }} Page</strong></a></td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
-    {% endif %}
+  </div>
   {% endfor %}
 </section>

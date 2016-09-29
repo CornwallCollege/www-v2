@@ -5264,19 +5264,49 @@ button.collapsed h3:before{
 }
 
 /* About Pages - Campus Contact Page */
-.contact-overview td:last-child,
-.contact-overview td a {
-    font-size: 16px;
+article.contact-overiew-container {
+    border-width: 2px 2px 2px 12px;
+    border-style: solid;
+    border-color: #ddd;
+    padding:20px 30px;
 }
 
-@media(min-width:320px) and (max-width:425px) {
-    .contact-overview td:last-child,
-    .contact-overview td a,
-    .contact-overview td address {
+.contact-overiew-container a {
+    font-size: 1em;
+}
+
+h2.contact-title {
+    margin: 0;
+    font-size: 2.1em;
+}
+
+h2.contact-title span {
+  font-weight: bold;
+}
+
+table.contact-overview {
+  margin: 15px 0px 0px 0px;
+}
+
+.contact-overview tbody tr td:first-child {
+  background: white;
+}
+
+.contact-overview tbody tr td:last-child,
+.contact-overview tbody tr td a {
+    font-size: 16px;
+    padding: 0px;
+    color: black;
+}
+
+@media(min-width:320px) and (max-width:440px) {
+    .contact-overview tbody tr td:last-child,
+    .contact-overview tbody tr td a {
         font-size: 13px;
         padding-left: 5px;
     }
 }
+
 .all-contact-details article:nth-child(odd) {
   clear:both
 }

@@ -6,7 +6,6 @@
   link: /bicton-campus.html
   contact-number: 01395 562400
   primary-color: 77BC43
-  secondary-color: 70AF3F
   email: customer.services@bicton.ac.uk
   address: East Budleigh, Budleigh Salterton, Devon, EX9 7BY
   opening: 8:30am - 5:30pm
@@ -29,15 +28,14 @@
   query: https://network.cornwall.ac.uk/campus/bicton/
 
 
-- campus: Bristol
+- campus: Bristol Campus
   anchor: "dbs"
   search: "dbs-bristol"
   brand: dBs Music
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
   contact-number: 01209 200200
-  primary-color: B51E8F
-  secondary-color: AB1D88
+  primary-color: AB1D88
   email: ...
   address: Temple Studios, Temple Gate, Bristol, BS1 6QA
   opening: ...
@@ -72,7 +70,6 @@
   link: /camborne-campus.html
   contact-number:  01209 616161
   primary-color: 00509B
-  secondary-color: 004B93
   email: enqiries@cornwall.ac.uk
   address: Trevenson Road, Redruth, Cornwall, TR15 3RD
   opening: 8:30am - 4:30pm
@@ -102,12 +99,11 @@
 - campus: The Eden Project
   anchor: "eden-project"
   search: "eden-project"
-  brand:
+  brand: Cornwall College
   copy: <p >In partnership with the Eden Project, we have introduced a range of new apprenticeships for enterprising and innovative individuals and businesses that are motivated to make the world a better place. The Eden Project and the Cornwall College Group are working together to train and employ a range of new apprentices in key business areas such as service excellence, cookery and horticulture.</p>
   link: /eden-campus.html
   contact-number: 01209 200200
   primary-color: CC0E0E
-  secondary-color: BF0D0D
   email: ...
   address: Eden Project, Bodelva, Cornwall, PL24 2SG
   opening: ...
@@ -142,7 +138,6 @@
   link: /falmouth-campus.html
   contact-number: 01326 310323
   primary-color: 00AFBF
-  secondary-color: 00A5B4
   email: falenquiries@cornwall.ac.uk
   address: Killigrew Street, Falmouth, Cornwall, TR11 3QS
   opening: 8:30am - 5:00pm
@@ -177,7 +172,6 @@
   link: /newquay-campus.html
   contact-number:  01637 857965
   primary-color: 00509B
-  secondary-color: 004B93
   email: newquay.enquiries@cornwall.ac.uk
   address: Wildflower Lane, Trenance Gardens, Newquay, Cornwall, TR7 2LZ
   opening: 8:30am - 5:30pm
@@ -212,7 +206,6 @@
   link: /rosewarne-campus.html
   contact-number: 01209 722100
   primary-color: 007B4C
-  secondary-color: 006D43
   email: rosewarne.enquiries@duchy.ac.uk
   address: Duchy College Rosewarne, Camborne, Cornwall, TR14 0AB
   opening: Mon to Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
@@ -247,7 +240,6 @@
   link: /saltash-campus.html
   contact-number: 01752 850200
   primary-color: 00509B
-  secondary-color: 004B93
   email: info@saltash.ac.uk
   address: Church Rd, Saltash, Cornwall, PL12 4AE
   opening: 8:30am - 5:00pm
@@ -282,7 +274,6 @@
   link: /st-austell-campus.html
   contact-number: 01726 226622
   primary-color: 00509B
-  secondary-color: 004B93
   email: info@st-austell.ac.uk
   address: Tregonissey Road, St Austell, Cornwall, PL25 4DJ
   opening: 8.30am till 5.00pm
@@ -317,7 +308,6 @@
   link: /stoke-campus.html
   contact-number: 01579 372222
   primary-color: 007B4C
-  secondary-color: 006D43
   email: stoke.enquiries@duchy.ac.uk
   address: Stoke Climsland, Callington, Cornwall, PL17 8PB
   opening: 9.00am - 5.00pm
@@ -351,8 +341,7 @@
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html
   contact-number: 01209 200200
-  primary-color: D1D1D1
-  secondary-color: C6C6C6
+  primary-color: 666
   email: enquiries@cornwall.ac.uk
   address: 87-89, Sisna Park Road, PLYMOUTH
   opening: 8:30am - 5:00pm
