@@ -729,10 +729,11 @@ a {
 	position: absolute;
 	border: 1px solid #52B3D9;
 	height: 0;
-	width: 25px;
+	width: 22px;
 	content: "";
 	top: 39%;
-	left: 97px;
+	left: 100px;
+      margin-top: -10px
 }
 .how-we-work .clean-code ul li,
 .we-perfection ul li
