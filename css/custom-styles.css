@@ -4992,10 +4992,18 @@ a.learning-area:hover{
     color: #ffffff;
     background: #1a1a1a;
     -webkit-border-radius: 50%;
-    border-radius: 50%;
+    border-radius: 10%;
     top: -5px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
-
+.portfolio-thumb i:before{
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    display: block;
+}
 @media (min-device-width:360px) and (max-device-width:425px) and (orientation:portrait) {
     .portfolio-thumb {
         width: 82%;
@@ -5003,7 +5011,7 @@ a.learning-area:hover{
 }
 
 .portfolio-thumb:hover i {
-	background: #bba454;
+	background: #52B3D9;
 }
 
 .portfolio-thumb b {
@@ -5042,6 +5050,7 @@ a.learning-area:hover{
 .jcarousel-pagination a {
     border: solid 1px #aaa;
 }
+
 /*----------------- Learning area filters ------------------*/
 .area{
     min-height: 160px;

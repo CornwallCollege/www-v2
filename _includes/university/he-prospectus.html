@@ -1,10 +1,10 @@
 <!-- Download a Prospectus -->
-	<section id="download" class="download col-xs-12">
+	<section id="download" class="download col-xs-12 main-section-margins">
 			<section class="container">
 
 
 				<!-- The title -->
-				<header class="col-sm-12 text-center main-section-margins">
+				<header class="col-sm-12 text-center ">
                     <h2>Download a <span>Prospectus</span></h2>
 				</header>
 
@@ -15,7 +15,7 @@
 
             {% for prospectus in page.prospectus %}
 
-                <div class="six columns medium-six columns small-twelve columns">
+                <div class="col-xs-12 col-md-6">
                     <div class="portfolio-thumb">
                         <a href="/documents/prospectuses/{{prospectus.link}}">
                             <img src="/images/{{prospectus.image}}" alt="cornwall college HE">
