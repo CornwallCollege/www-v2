@@ -404,7 +404,7 @@
           campus-link: /rosewarne-campus.html
 
       career-link: https://mtest.cornwall.ac.uk/career-pages/land-based-engineering/index.html
-      search-link: land-based-engineering-technology
+      search-link: agriculture-countryside-management
       intro: Enjoy working outside and find farm work, livestock and machinery interesting? Then you should consider a career in agriculture.
 
 
@@ -627,9 +627,9 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-        
+
         - campus-name: Saltash Campus
-          campus-link: /saltash-campus.html  
+          campus-link: /saltash-campus.html
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
@@ -778,7 +778,7 @@
       brand: cc dc bc
       level: 2 3 4 5 6 7
       sector: 16-18 19plus apprenticeships university
-      
+
       career-link: https://mtest.cornwall.ac.uk/career-pages/business-school/index.html
       search-link: business-school
       intro: Having a good head for business could mean you have skills such as creativity, good communication, insight into trends and understanding of finance and people.
@@ -826,7 +826,7 @@
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-      
+
       career-link: https://mtest.cornwall.ac.uk/career-pages/digital-technologies/index.html
       search-link: digital-academy
       intro: For anyone interested in digital technology, this is a great time to start a career in this sector.
