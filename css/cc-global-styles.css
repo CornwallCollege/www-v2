@@ -898,13 +898,12 @@ div.logo-wrap-scroll :nth-child(4) {
     padding: 10px 20px;
     font-family: "Raleway";
     opacity: 0.9;
-    background: #52B3D9;
 }
+
 .contact-details tr td:last-child {
     padding: 20px 20px 0 20px;
     font-family: "Raleway";
     font-weight: 400;
-    background: #52B3D9;
 }
 .all-contact-details .contact-details tr td:last-child {
     background: initial;
