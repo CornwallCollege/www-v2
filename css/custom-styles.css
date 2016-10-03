@@ -1175,11 +1175,13 @@ div#logo-wrap #bicton{
 }
 /*----------- Apprentice header styles ENDS ---------*/
 /*----------- 19 Plus styles ---------*/
-#nineteen-plus{
+#nineteen-plus,
+#university-hub{
     background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
 }
 @media(min-width:768px) {
-    #nineteen-plus {
+    #nineteen-plus,
+    #university-hub{
         background-image: url(../images/19-plus.jpg);
         background-repeat: no-repeat;
         background-position:50% 0 ;
@@ -1507,7 +1509,7 @@ div#logo-wrap #bicton{
     color: white;
     font-weight: bold;
     font-size: 6em;
-    line-height: .8em;
+    line-height: .9em;
     text-align: center;
     padding: 0 10%;
 }
@@ -4883,7 +4885,163 @@ a.learning-area:hover{
         margin-bottom: 30px;
     }
 }
+/* ******************** University faculty areas ******************** */
+.video-container {
+	display: block;
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+#university-hub{
+    height: 100%;
+    background-size: cover;
+}
+#university-hub header {
+    bottom: calc(40% + 20px);
+    left: 0;
+    width: 100%;
+}
+#university-hub h2{
+    text-align: center
+}
+#university-hub h3{
+    color: white;
+    text-align: center;
+    margin-top: -8px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 24px;
+    
+}
+.faculty-areas {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
 
+.download {
+	position: relative;
+	padding-top: 100px!important;
+	padding-bottom: 140px!important;
+	background: #f0f0f0;
+    margin: 0!important;   
+    border: none!important;    
+}
+
+
+@media (max-width: 767px) {
+    .portfolio-thumb {
+        min-height: 350px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .portfolio-thumb {
+        min-height: 350px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+    .portfolio-thumb {
+        min-height: 410px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .portfolio-thumb {
+        min-height: 466px;
+    }
+}
+
+.portfolio-thumb {
+	display: block;
+	background: #f7f7f7;
+	padding-bottom: 10px;
+    margin-bottom: 20px;  
+}
+.portfolio-thumb {
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+.portfolio-thumb:hover {
+    opacity: .6;
+}
+
+.portfolio-thumb a {
+	text-align: center;
+	text-decoration: none;
+}
+
+.portfolio-thumb img {
+	margin-bottom: -35px;
+}
+
+.portfolio-thumb i {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 10px auto 0px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    background: #1a1a1a;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: -5px;
+}
+
+@media (min-device-width:360px) and (max-device-width:425px) and (orientation:portrait) {
+    .portfolio-thumb {
+        width: 82%;
+    }
+}
+
+.portfolio-thumb:hover i {
+	background: #bba454;
+}
+
+.portfolio-thumb b {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+.portfolio-thumb em {
+	font-family: 'Cutive', serif;
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 0;
+	text-transform: none;
+	color: #adadad;
+}
+
+.portfolio-thumb b,
+.portfolio-thumb em {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+@media (min-width:360px) and (max-width:425px) and (orientation:portrait) {
+    .portfolio-thumb b {
+        padding: 0px
+    }    
+}
+.jcarousel-pagination a {
+    border: solid 1px #aaa;
+}
 /*----------------- Learning area filters ------------------*/
 .area{
     min-height: 160px;
@@ -5233,3 +5391,6 @@ button.collapsed h3:before{
 .facilities {
     font-size: 21px;
 }
+#wrapper_mbYTP_video{
+display: none;
+} 

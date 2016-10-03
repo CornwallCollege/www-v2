@@ -1,21 +1,91 @@
 ---
 layout: hub
-title: <span itemprop="name">University Hub</span>
+title: <span itemprop="name">University Study</span>
+sub-title: Be inspired by Cornwall and study a quality degree by the sea.
 description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
 link: University
+page: university
 apply-area: Course Intrest Area - University Courses
+
+prospectus:
+    - title: Cornwall College
+      image: /images/university-hub/cornwall-he-prospectus.jpg
+      link: /documents/prospectuses/CC%20HE%20Web%20Version%202015.pdf
+
+    - title: Duchy College
+      image: /images/university-hub/duchy-he-prospectus.jpg
+      link: /documents/prospectuses/DC%20HE%20Web%20Version%202015.pdf
+
+gallery:
+
+    - title: Shopping in Truro
+      subtitle: Explore Truro's vibrant mix of independent shop, national stores and unique retailers.
+      image: /images/university-hub/shopping-truro.jpg
+      image-thumb: /images/university-hub/shopping-truro-thumb.jpg
+
+    - title: Climbing at Hound Tor
+      subtitle: The extensive, atmospheric remains of this isolated village lie on the eastern edge of Dartmoor.
+      image: /images/university-hub/hound-tor.jpg
+      image-thumb: /images/university-hub/hound-tor-thumb.jpg
+
+    - title: Eden Sessions
+      subtitle: Watch your favourite artists perform at one of the most spectacular venues in the world.
+      image: /images/university-hub/eden-sessions.jpg
+      image-thumb: /images/university-hub/eden-sessions-thumb.jpg
+
+    - title: St Michaels Mount
+      subtitle: A rocky island crowned by a medieval church and castle.
+      image: /images/university-hub/st-michaels-mount.jpg
+      image-thumb: /images/university-hub/st-michaels-mount-thumb.jpg
+
+    - title: Surfing at Fistral
+      subtitle: Fistral Beach is Newquay's iconic beach, quite simply one of the most consistent and best surfing beaches in the UK.
+      image: /images/university-hub/surfing-fistral.jpg
+      image-thumb: /images/university-hub/surfing-fistral-thumb.jpg
+
+    - title: Tallships regatta Falmouth
+      subtitle: A regatta featuring dozens of vessels and attracting thousands of visitors
+      image: /images/university-hub/tallships-regatta.jpg
+      image-thumb: /images/university-hub/tallships-regatta-thumb.jpg
+
+    - title: Stunning walks around Lands End
+      subtitle: Land's End is one of Britain's most magnificent landmarks
+      image: /images/university-hub/walk-lands-end.jpg
+      image-thumb: /images/university-hub/walk-lands-end-thumb.jpg
+
+    - title: Looe
+      subtitle: A busy fishing port, with a popular family beach
+      image: /images/university-hub/loe.jpg
+      image-thumb: /images/university-hub/loe-thumb.jpg
+    
 ---
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+<div id="home" class="home-wrap video">
+    <div class="home-content text-white" style="opacity: 1; visibility: visible;">
+    </div>
+</div>
+
+
     <!-- HEADER SECTION -->
-    <section id="nineteen-plus" class="col-md-12 jumbotron header-title">
+    <section id="university-hub" class="col-md-12 jumbotron header-title video">
         <header class="container">
             <h2><a href="/"><small>Home </small></a><span>{{ page.title }}</span></h2>
+            <h3>{{ page.sub-title }}</h3>
+            <div class="col-xs-12 text-center">
+                <a class="button play-btn-normal btn ghost"  onclick="jQuery('#video').YTPFullscreen()"> <i class="fa fa-play-circle-o"></i> Watch The Video </a>
+            </div>    
 
         </header>
     </section>
+<div style="background-image: url(&quot;images/surfer-on-the-beach.jpg&quot;); opacity: 1; visibility: visible;" class="fullscreen-img"></div>
     <!-- END OF HEADER -->
-
+    <div class="video-container" style="display:none">
+        <a id="video" class="fullscreen-video mb_YTPlayer isMuted" data-property="{videoURL:'https://youtu.be/D-k3YV47GDY'}" style="display: none; background-image: none;">The Video</a> 
+    </div>
     <!-- BODY SECTION -->
 
     <section class="container ">
@@ -37,32 +107,20 @@ apply-area: Course Intrest Area - University Courses
         </div>
     </section>
 
-    <section class="col-sm-12 full-width-video-block no-padding">
-        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
-            {% youtube https://youtu.be/fn7tnBdo55o %}
-            <div class="text-center caption">
-                <h4>Be inspired</h4>
-                <p>A range of courses for all interests</p>
-            </div>
-        </article>
-        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
-            {% youtube https://youtu.be/-096aHQI7yw %}
-            <div class="text-center caption">
-                <h4>Help with costs</h4>
-                <p>Advanced Learning Loans for 19+</p>
-            </div>
-        </article>
-        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
-            {% youtube https://youtu.be/q0lgbOorn7s %}
-            <div class="text-center caption">
-                <h4>Join thousands of adults</h4>
-                <p>A new beginning is just a click away</p>
-            </div>
-        </article>
-    </section>
 
-<!-- 19+ area SECTION -->
-{% include /19plus/19plus-areas.html %}
+<!-- usp section -->
+{% include usp.html usp-text='View the largest selection of University level courses in Cornwall' link='#faculty-areas' %}
+
+
+<!-- gallery section -->
+
+{% include gallery.html %}
+
+<!-- faculty areas section -->
+
+{% include university/he-areas.html %}
+
+{% include university/he-prospectus.html %}
 
 
 <!-- BROWSE BY section -->
@@ -70,52 +128,10 @@ apply-area: Course Intrest Area - University Courses
 <!-- BROWSE BY section ENDS-->
 
 
-<!-- Access to HE -->
-
-    
-        <div class="col-xs-12 main-section-padding dark-bg intro">
-            <section class="container">
-            <h2 class="text-uppercase text-center">Discover what you can do, <strong>university study in Cornwall for adults</strong> </h2>
-            <p class="lead white">We offer the widest range of professional and trade qualifications, whether you want to boost your career or retrain. If university is your goal, we also provide Return to Study and Access to Higher Education Diplomas that can fast track you to degree study.</p>
-
-            <p class="white">If you’ve not got the qualifications to start a degree, an Access to Higher Education Diploma is a fast-track route. Download our guide here or search ‘Access’ on our course search.</p>
-
-            <p class="white">Be inspired, visit our University Courses section to see degrees available in Cornwall and Devon.</p>
-            <div class="col-xs-12 col-sm-6"><a href="/university-hub/" class="btn  large fullwidth">Visit our University hub</a></div>
-            <div class="col-xs-12 col-sm-6"><a href="/documents/prospectuses/2016-access-he-flyer.pdf" class="btn large fullwidth">Download our guide</a></div>
-            <div class="col-xs-12 main-section-margins">
-            <!-- YOUTUBE video -->
-            {% youtube https://youtu.be/wOyW18PzDiM %}
-            </div>   
-            </section>     
-        </div>
-       
-<!-- videos -->
-{% include usp.html usp-text='Apprenticeships are for 19+ too!' link='/apprenticeship-hub/' %}
-
-    <section class="col-sm-12 full-width-video-block main-section-margins">
-        <h2><span>student</span> case studies</h2>
-        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
-            {% youtube https://youtu.be/oOl91_KwS0s %}
-        </article>
-        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
-            {% youtube https://youtu.be/7B-FtNJV9JU %}
-        </article>
-        <article class="col-md-4 col-xs-12 col-sm-6 no-padding">
-            {% youtube https://youtu.be/1rSXwC9k2Sw %}
-        </article>
-    </section>
-
-
-<!-- usp section -->
-
     <section class="col-sm-12 fulltime-bar clearfix">
         <div class="container">
             <h2>Seen enough, apply now! </h2>
             <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>
-{% include university/he-areas.html %}
-
-{% include university/he-prospectus.html %}
 

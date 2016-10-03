@@ -1,39 +1,32 @@
 <!-- Download a Prospectus -->
-	<section id="download" class="download">
-		<div class="row">
-			<div class="ten columns center margin-bottom">
+	<section id="download" class="download col-xs-12">
+			<section class="container">
 
 
 				<!-- The title -->
-				<div class="title">
-					<h1 style="font-family: 'Cutive', serif;">Download a Prospectus</h1>
-					<hr>
-				</div>
+				<header class="col-sm-12 text-center main-section-margins">
+                    <h2>Download a <span>Prospectus</span></h2>
+				</header>
 
 
-			</div>
-		</div>
 
+            <!-- Thumbnails -->
+            <div class="row margin equal">
 
-		<!-- Thumbnails -->
-		<div class="row margin equal">
+            {% for prospectus in page.prospectus %}
 
-        {% for prospectus in site.data.university %}
-            {% if prospectus.prospectus %}
+                <div class="six columns medium-six columns small-twelve columns">
+                    <div class="portfolio-thumb">
+                        <a href="/documents/prospectuses/{{prospectus.link}}">
+                            <img src="/images/{{prospectus.image}}" alt="cornwall college HE">
+                            <i class="fa fa-download"></i>
+                            <b>{{prospectus.title}}</b>
+                            <em>Undergraduate Prospectus</em>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="six columns medium-six columns small-twelve columns">
-				<div class="portfolio-thumb">
-					<a href="/documents/prospectuses/{{prospectus.link}}">
-						<img src="/images/{{prospectus.image}}" alt="cornwall college HE">
-						<i class="fa fa-download"></i>
-						<b>{{prospectus.prospectus}}</b>
-						<em>Undergraduate Prospectus</em>
-					</a>
-				</div>
-			</div>
-
-            {% endif %}
-        {% endfor %}
-
-		</div>
+            {% endfor %}
+            </div>    
+		</section>
 	</section>
