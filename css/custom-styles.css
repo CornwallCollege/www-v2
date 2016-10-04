@@ -5004,11 +5004,7 @@ a.learning-area:hover{
     transform: rotate(-45deg);
     display: block;
 }
-@media (min-device-width:360px) and (max-device-width:425px) and (orientation:portrait) {
-    .portfolio-thumb {
-        width: 82%;
-    }
-}
+
 
 .portfolio-thumb:hover i {
 	background: #52B3D9;
