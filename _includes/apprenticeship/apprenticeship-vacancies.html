@@ -1,20 +1,20 @@
 <section class="col-md-12 main-section-margins intro">
   <section class="container">
+    
     <article class="col-xs-12">
-        <h2><strong>LATEST</strong> VACANCIES</h2>
-        <p class="lead center">We have many vacancies available throughout the year, click the link to see them listed on the National Apprenticeship Service.</p> 
-    </article>    
-    <article class="col-sm-12 col-md-3 left">
+      <h2><strong>LATEST</strong> VACANCIES</h2>
+      <p class="lead center">We have many vacancies available throughout the year, click the link to see them listed on the National Apprenticeship Service.</p>
     </article>
-    <article class="col-sm-12 col-md-10 col-md-offset-1 clearfix apprenticeships">
-        <div class="main">
-            <ul id="og-grid" class="og-grid"> 
-                {% for apprenticeship in site.data.apprenticeships %}
-                            {% include /apprenticeship/apprenticeship-vacancy.html %}
-                {% endfor %}
-            </ul>
-        </div>    
-        
+
+    <article class="col-sm-12 clearfix right apprenticeships">
+      <div class="main">
+        <ul id="og-grid" class="og-grid">
+          {% for apprenticeship in site.data.apprenticeships %}
+          {% include /apprenticeship/apprenticeship-vacancy.html %}
+          {% endfor %}
+        </ul>
+      </div>
     </article>
+
   </section>
 </section>

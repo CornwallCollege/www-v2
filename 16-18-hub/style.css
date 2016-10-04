@@ -729,10 +729,11 @@ a {
 	position: absolute;
 	border: 1px solid #52B3D9;
 	height: 0;
-	width: 102px;
+	width: 22px;
 	content: "";
-	top: 35%;
+	top: 39%;
 	left: 100px;
+      margin-top: -10px
 }
 .how-we-work .clean-code ul li,
 .we-perfection ul li
@@ -766,6 +767,8 @@ a {
 	line-height: 100px;
 	color: #52B3D9;
 	margin-bottom: 20px;
+      margin-right: 15px;
+      background-color: white;
 }
 .how-we-work ul li:hover a > i {
 	background-color: #52B3D9;

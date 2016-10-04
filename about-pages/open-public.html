@@ -26,86 +26,85 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
 
 <section class="container main-section-margins ">
 
-    <!-- list of businesses -->
-    <section id="public-list" class="container">
-        <div class="public-filter">
+  <!-- list of businesses -->
+  <section id="public-list" class="container">
+    <div class="public-filter">
+      <!-- CAREER FILTER OPTIONS -->
+      <ul>
+        {% for business in site.data.open-public %}
+        <li class="{{ business.class }}" onclick="window.smoothScrollTo('{{business.short}}');">
+          <a class="transition {{ business.short }}" >
+            <h3>{{ business.business }}</h3>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 
-            <!-- CAREER FILTER OPTIONS -->
-            <ul>
-                {% for business in site.data.open-public %}
-                <li class="{{ business.class }}" onclick="window.smoothScrollTo('{{business.short}}');">
-                    <a class="transition {{ business.short }}" >
-                        <h3>{{ business.business }}</h3>
-                    </a>
-                </li>       
-                {% endfor %}
-                    
-            </ul>
-        </div>
-    </section>        
-            
-    <div class="clearfix"></div>
+  <div class="clearfix"></div>
 
-    
-    {% for business in site.data.open-public %}        
-        <section id="{{ business.short }}" style="border-left-color: #{{ business.color }}" class="col-xs-12 col-sm-12 public-body">
-            
-            <section class="col-xs-12 col-md-offset-3">
-                <h2 class="main-section-margins" style="color: #{{business.color}}">{{ business.business }}</h2>
-            </section>
-            
-            <section class="col-xs-12 col-sm-3">
-                <article>
-                    {% if business.logo.size >= 0 %}
-                        <img style="margin-bottom:10px" class="img-responsive" src="{{ business.logo }}">
-                    {% endif %}
-                </article>
-                <article>
-                    <table>
-                        {% for table in business.table %}
-                        {% if business.table != null %}
-                        <tr>
-                            <td class="text-center" style="padding:10px; background-color: #{{ business.color }}"><i class="{{ table.icon }} fa-2x" aria-hidden="true"></i></td>
-                            <td style="padding:10px; color: #fff; background-color: #{{ business.color }}">{{ table.detail }}  </td>
-                        </tr>
-                        {% endif %}
-                        {% endfor %}
-                    </table>
-                </article>
+  {% for business in site.data.open-public %}
+  <section id="{{ business.short }}" style="border-left-color: #{{ business.color }}" class="col-xs-12 col-sm-12 public-body">
 
-                <article>
-                    <img class="img-responsive" src="{{ business.image }}">
-                </article>
-                
-            </section>
-            
-            <div class="col-xs-12 col-sm-9">
-                
-                <p class="lead">{{ business.title }}</p>
-                <p>{{ business.text }}</p>
-                
-                <div class="panel-group" id="accordion-{{ business.short }}" >
-                    {% for campus in business.campus %}
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: #{{ business.color }}">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href="#{{ campus.id }}">{{ campus.campus-name }}</a>
-                            </h4>
-                        </div>
-                        <div id="{{ campus.id }}" class="{{ campus.class }}" style= "background-color: #{{ business.color }}">
-                            <div class="panel-body">{{ campus.text }} {% if campus.download.size >= 0 %}<a style="color:white" href="{{ campus.download }}">Download {% endif %}</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-                
+    <section class="col-xs-12 col-sm-9 pull-right">
+      <h2 class="main-section-margins" style="color:#{{business.color}}; text-align:left">{{ business.business }}</h2>
+    </section>
+
+    <section class="col-xs-12 col-sm-3">
+      <article>
+        {% if business.logo.size >= 0 %}
+        <img style="margin-bottom:10px" class="img-responsive" src="{{ business.logo }}">
+        {% endif %}
+      </article>
+
+      <article>
+        <table>
+          {% for table in business.table %}
+          {% if business.table != null %}
+          <tr>
+            <td class="text-center" style="padding:10px; background-color: #{{ business.color }}"><i class="{{ table.icon }} fa-2x" aria-hidden="true"></i></td>
+            <td style="padding:10px; color: #fff; background-color: #{{ business.color }}">{{ table.detail }}  </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+        </table>
+      </article>
+
+      <article>
+        <img class="img-responsive" src="{{ business.image }}">
+      </article>
+    </section>
+
+    <div class="col-xs-12 col-sm-9">
+
+      <p class="lead">{{ business.title }}</p>
+      <p>{{ business.text }}</p>
+
+
+      <div class="panel-group" id="accordion-{{ business.short }}" >
+        {% for campus in business.campus %}
+        <div class="panel panel-default">
+
+          <div class="panel-heading" style="background-color: #{{ business.color }}">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href="#{{ campus.id }}">{{ campus.campus-name }}</a>
+            </h4>
+          </div>
+
+          <div id="{{ campus.id }}" class="{{ campus.class }}" style= "background-color: #{{ business.color }}">
+            <div class="panel-body">{{ campus.text }} {% if campus.download.size >= 0 %}<a style="color:white" href="{{ campus.download }}">Download {% endif %}</a>
             </div>
-            
-        </section>
-    {% endfor %}
-    
+          </div>
+
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+
+  </section>
+  {% endfor %}
 </section>
 
 
@@ -113,8 +112,8 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
 <!-- Career Areas Divs -->
 
 <section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
-    <div id="career-content">
-    </div>
+  <div id="career-content">
+  </div>
 </section>
 
 <!-- CAREER section ends -->
