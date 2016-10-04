@@ -11,6 +11,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 course_site_baseurl: https://network.cornwall.ac.uk/
 event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
+support_site_url: https://network.cornwall.ac.uk/student-support/
 
 # Build settings
 markdown: kramdown
