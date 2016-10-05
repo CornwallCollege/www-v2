@@ -1,14 +1,14 @@
 
 {% for campus in site.data.campus-overview %}
-<section id="{{ campus.anchor }}" class="campus-overview" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+<section id="{{ campus.anchor }}" style="background:#{{ campus.primary-color }};" class="campus-overview" itemscope itemtype="https://schema.org/CollegeOrUniversity">
     <section class="container">
         <a name="{{ campus.anchor }}"></a>
                 <section class="col-xs-12">
                     
-                    <article class="col-sm-12 col-md-7 col-lg-7">
+                    <article class="col-sm-12 col-md-8 col-lg-8">
                         <a href="/location-pages{{ campus.link }}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
                     </article>
-                    <article class="col-sm-12 col-md-5 col-lg-4 campus-seach">
+                    <article class="col-sm-12 col-md-4 campus-seach">
                             <h4><span>Courses@</span>{{ campus.campus }}</h4>
                             <form method="get" id="searchform-{{ campus.anchor }}" action="{{ site.course_site_baseurl }}">
                                 <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
@@ -41,7 +41,7 @@
             </section>    
             
             <article class="col-sm-12 col-md-12">
-                <a title='view all courses in this area' href='/location-pages{{ campus.link }}' class="btn campus-link">View {{ campus.campus }} page</a>
+                <a title='view all courses in this area' {% if campus.external-link %} href='{{ campus.external-link }}' {% else %} href='/location-pages{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
             </article>    
                            
         </section>

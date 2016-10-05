@@ -4400,7 +4400,7 @@ ul#og-grid li h4{
 }
 .campus-overview .input-group-addon{
     background: #52B3D9;
-    border: 1px solid #52B3D9;
+    border: 1px solid white;
     width: auto;
     right: 0px;
     top: 0px;
@@ -4417,9 +4417,6 @@ ul#og-grid li h4{
     margin-bottom:20px;
 }
 /* Bicton Campus */
-#bicton-campus{
-    background: #77BC43;
-}
 #bicton-campus h2 strong,
 #bicton-campus h5 span{
     color: white;
@@ -4444,15 +4441,6 @@ ul#og-grid li h4{
     color: white
 }
 /* camborne, newquay, saltash, st austell */
-#camborne,
-#newquay,
-#saltash,
-#st-austell{
-    background: #004b93;
-}
-#dbs{
-   background: #AB1D88;
-}
 #dbs h2 strong,
 #dbs h5 span{
     color: white;
@@ -4478,9 +4466,6 @@ ul#og-grid li h4{
 }
 
 /* Eden Campus */
-#eden-project{
-    background:#BF0D0D;
-}
 #eden-project h2 strong,
 #eden-project h5 span{
     color: white;
@@ -4509,10 +4494,6 @@ ul#og-grid li h4{
     background: #C6C6C6;
 }
 /* Stoke Campus */
-#stoke,
-#rosewarne{
-    background: #007B4C;
-}
 #stoke h2 strong,
 #rosewarne h2 strong,
 #stoke h5 span,
@@ -4546,9 +4527,6 @@ ul#og-grid li h4{
 }
 
 /* Falmouth Campus */
-#falmouth-marine-school{
-    background: #00A5B4;
-}
 #falmouth-marine-school h2 strong,
 #falmouth-marine-school h5 span{
     color: white;
@@ -4572,7 +4550,39 @@ ul#og-grid li h4{
 #falmouth-marine-school .campus-seach-button i{
     color: white
 }
+/*sisna-park*/
+#sisna-park .campus-seach{
+    background: white;
+}
+#sisna-park .campus-seach h4{
+    color:  #777;
+}
+/*CHS Campus  #DE2071 */
+#chs h2 strong,
+#chs h5 span{
+    color: #DE2071;
+}
+#chs .campus-seach{
+    background: #DE2071;
+}
+#chs .campus-seach h4{
+    color:  white;
+}
+#chs .form-control{
+    border: solid 2px  #DE2071;
+}
+#chs .campus-link{
+    background: #DE2071;
+    color:white;
+}
+#chs .campus-seach-button{
+    background:  #DE2071;
+}
+#chs .campus-seach-button i{
+    color: white
+}
 
+/*defualt styling*/
 .campus-seach{
     background: #52b3d9;
     padding:20px;
