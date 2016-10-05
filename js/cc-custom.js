@@ -30,18 +30,23 @@ $(document).ready(function () {
 });
     
 
+    // resposive logo; first click open second click follow link
+    $('.brand-image').click(function (e) {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 301){
 
-// resposive logo; first click open second click follow link
-$('.brand-image').click(function (e) {
-    if (!$('#logo-wrap').children().hasClass('active')) {
-        //$('#logo-wrap').removeClass('active');
-        $('#logo-wrap').children().addClass('active');
-        e.preventDefault();
-    } else {
-        $('#logo-wrap').children().removeClass('active');
-       //return true;
-    }
-});
+            if (!$('#logo-wrap').children().hasClass('active')) {
+                //$('#logo-wrap').removeClass('active');
+                $('#logo-wrap').children().addClass('active');
+                e.preventDefault();
+            } else {
+                $('#logo-wrap').children().removeClass('active');
+               return true;
+            }
+
+        }
+    });   
+
 
 // click off and collapse
 $(document).click(function (e) {
@@ -70,7 +75,6 @@ $(function () {
 
             //add active class to white bg behind logos (slides down)
             $('#white-nav-bg').addClass('active');
-
         } else {
             // if its at the top of the page
             logoWrap.removeClass("logo-wrap-scroll").addClass('logo-wrap');
@@ -78,6 +82,8 @@ $(function () {
             $('#white-nav-bg').removeClass('active');
 
         }
+  
+  
     });
 });
 
