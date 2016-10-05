@@ -1027,6 +1027,12 @@ div#logo-wrap #bicton{
     z-index: 1;
 }
 /* ----------------- Example Careers Primary Tiles---------------------*/
+.box-square article h2,
+.box-square article:nth-child(1) h2 span,
+.box-square article:nth-child(5) h2 span{
+    text-align: left;
+    color: white;
+}
 
 .box-square article:nth-child(1) a{
     color: #fff;
@@ -1053,10 +1059,13 @@ div#logo-wrap #bicton{
 
 .box-square article:nth-child(3) a,
 .box-square article:nth-child(3) h2,
-.box-square .more article:nth-child(1) a,
+.box-square article:nth-child(3) h2 span,
+.box-square .more article:nth-child(1) h2 span,
 .box-square .more article:nth-child(1) h2,
+.box-square .more article:nth-child(1) a,
 .box-square .more article:nth-child(5) a,
-.box-square .more article:nth-child(5) h2 {
+.box-square .more article:nth-child(5) h2,
+.box-square .more article:nth-child(5) h2 span {
     color: #52B3D9;
     border-color: #52B3D9;
 }
@@ -1085,6 +1094,10 @@ div#logo-wrap #bicton{
 .box-square .more article:nth-child(2) h2,
 .box-square .more article:nth-child(2) a,
 .box-square .more article:nth-child(2) p,
+.box-square .more article:nth-child(3) h2,
+.box-square .more article:nth-child(3) h2 span,
+.box-square .more article:nth-child(3) a,
+.box-square .more article:nth-child(3) p,
 .box-square .more article:nth-child(6) h2,
 .box-square .more article:nth-child(6) a,
 .box-square .more article:nth-child(6) p {
@@ -1095,8 +1108,6 @@ div#logo-wrap #bicton{
 .box-square article:nth-child(5) h2,
 .box-square article:nth-child(5) a,
 .box-square article:nth-child(5) p,
-.box-square .more article:nth-child(3) h2,
-.box-square .more article:nth-child(3) a,
 .box-square .more article:nth-child(3) p {
     color: #fff;
     border-color: #fff;
