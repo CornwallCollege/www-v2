@@ -1,0 +1,22 @@
+---
+---
+
+<!DOCTYPE html>
+{% include site-html-tag.html %}
+
+  {% include head.html %}
+
+  <body itemscope itemtype='{{site.schema-college}}'>
+    
+    {% include menu.html %}
+
+    {% include back-button.html %}
+    {{ page.iframe }}
+
+
+    {% include footer.html %}
+    {% include scripts.html %}
+      
+  </body>
+
+</html>

@@ -13,6 +13,10 @@ course_site_baseurl: https://network.cornwall.ac.uk/
 event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
 support_site_url: https://network.cornwall.ac.uk/student-support/
 
+collections:
+  campaign:
+    output: true
+
 # Build settings
 markdown: kramdown
 exclude:
