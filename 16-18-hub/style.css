@@ -351,6 +351,16 @@ a {
 	margin-top: 81px;
 	margin-left: 0px;
 	cursor: pointer;
+}
+
+/*992 - 1200 */
+.why-choose .feature-box-inner {
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+	margin-top: 81px;
+	margin-left: 0px;
+	cursor: pointer;
   margin: 0px;
   display: flex;
   flex-direction: row;
@@ -669,11 +679,17 @@ a {
   width: 35%;
   height: 100%;
   margin: 0;
-  margin-left: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (min-width: 992px) {
+  .why-choose-inner {
+    margin-left: 40%;
+  }
+}
+
 
 .why-choose-box .block-title,
 .why-choose-box p,
