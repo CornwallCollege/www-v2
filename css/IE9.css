@@ -1,0 +1,16 @@
+a.learning-area {
+    padding:10px 15px;
+    border:solid 1px #ddd;
+    margin:5px 0;
+    min-height: 80px;
+    display: block;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #52b3d9;
+    background:white;
+    /*opacity: .7;*/
+    font-weight: bold;
+    font-size:0.9em;  
+}
