@@ -353,15 +353,12 @@ a {
 	cursor: pointer;
 }
 
-/*992 - 1200 */
 .why-choose .feature-box-inner {
 	text-align: right;
 	display: inline-block;
 	width: 100%;
-	margin-top: 81px;
-	margin-left: 0px;
 	cursor: pointer;
-  margin: 0px;
+  margin: 10px 0px 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -416,6 +413,24 @@ a {
 	color: #fff;
 	border: 2px solid #fff;
 	line-height: 98px;
+}
+
+.feature-box-text {
+  width: 60%;
+  margin: 0px;
+  text-align: initial;
+}
+
+@media(min-width:500px) {
+  .feature-box-text {
+    width: 70%;
+  }
+}
+
+@media(min-width:769px) {
+  .feature-box-text {
+    width: 80%
+  }
 }
 
 .mobile-iphone {
@@ -676,18 +691,29 @@ a {
 	-moz-transform: skew(-15deg);
 	-o-transform: skew(-15deg);
 	-ms-transform: skew(-15deg);
-  width: 35%;
+  width: 80%;
   height: 100%;
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .why-choose-inner {
+    width: 35%;
+  }
 }
 
 @media (min-width: 992px) {
   .why-choose-inner {
     margin-left: 40%;
   }
+}
+
+@media (min-width: 1201px) {
+
 }
 
 
