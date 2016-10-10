@@ -4941,13 +4941,13 @@ a.learning-area:hover{
 	padding-bottom: 70px;
 }
 
-.download {
+.uni-download {
 	position: relative;
-	padding-top: 100px!important;
-	padding-bottom: 140px!important;
+	padding-top: 100px;
+	padding-bottom: 140px;
 	background: #f0f0f0;
-    margin: 0!important;   
-    border: none!important;    
+    margin: 0;   
+    border: none;    
 }
 
 

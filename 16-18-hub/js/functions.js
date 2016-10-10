@@ -1,6 +1,55 @@
 (function($)
 {
 	"use strict"
+//get the global menus
+    jQuery(document).ready(function () {
+        jQuery("#main-menu").load("/global-menu.html");
+        jQuery("#footer").load("/global-footer.html");
+    });
+//ask a question global script
+    jQuery(document).on("click", "#question", function (e) {
+        var pageURL = jQuery(location).attr("href");
+        //var formURL = 'https://network.cornwall.ac.uk/form/'
+        e.preventDefault();
+        //window.location.href = $(this).attr("href") + '?' + pageURL;  
+        window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;
+    });
+
+//Slide in menue script
+    /* MENU TOGGLING - 1.7 update*/
+    if ($("#cbp-spmenu-s2").length) {
+        var openRightPush = document.getElementById('openRightPush'),
+            menuRight = document.getElementById('cbp-spmenu-s2'),
+            body = document.body;
+
+        openRightPush.onclick = function () {
+            classie.toggle(this, 'active');
+            $('.menu-icon > i').toggleClass("fa-bars");
+            $('.menu-icon > i').toggleClass("fa-times");
+            $('.menu-text').html($('.menu-text').html() == 'MENU' ? 'CLOSE' : 'MENU');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+        };
+
+    }
+
+    /* the id="menu-container" has to be added to the one-page template,
+       to the <div class="container"> of the <nav id="cbp-spmenu-s2">
+
+    */
+
+    if ($("#menu-container").length) {
+        var menuContainer = document.getElementById('menu-container'),
+            menuRight = document.getElementById('cbp-spmenu-s2'),
+            body = document.body;
+
+        menuContainer.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+        };
+
+    }
+
+    /* end of 1.7 update */
 
 	/* Event - Window Scroll */
 	$(window).scroll(function()
