@@ -914,63 +914,53 @@ $(document).ready(function () {
             }
         });
 
+
+
+$(document).ready(function(){
+	var onMobile = false;
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { onMobile = true; }
+	if( ( onMobile === false ) ) {
+		// The videoplayer - controlled background video
+
+		// First we're going to hide these elements
+		$(".video-controls").hide();
+
+		// Start the movie
+		$("#bgndVideo").on("YTPStart",function(){
+			$(".video-controls").show().css({opacity: 0, visibility: "visible"}).animate({opacity: 1},300);
+		});
+        //on play show the controls
+		$("#bgndVideo").on("YTPPlay",function(){
+			$(".video-controls").show().css({opacity: 0, visibility: "visible"}).animate({opacity: 1},300);
+		});        
+        //Hide the UI 
+        $( ".play-btn-normal" ).click(function() {
+            $(".playbutton").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
+            $(".raster").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);               
+		});
+		// Pause the movie
+		$("#bgndVideo").on("YTPPause",function(){
+			$(".playbutton").css({opacity: 0, visibility: "visible", display:'block'}).animate({opacity: 1},300);
+			$(".video-controls").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
+		});
+
+		$("#bgndVideo").on("YTPFullScreenStart",function(){
+            $("#video").playYTP();
+            $("#wrapper_mbYTP_video").show();
+		});
+		// exit full screen
+		$("#bgndVideo").on("YTPFullScreenEnd",function(){
+            $("#video").YTPStop();
+            $("#wrapper_mbYTP_video").hide();
+		});
+        
+		$("#bgndVideo").mb_YTPlayer({});
+	} else {
+		// Fallback for mobile devices
+		$("#home").removeClass(".video");
+		$(".fullscreen-video, .video-controls, .play-btn-normal").hide();
+	}
 });
-
-jQuery(function () {
-	var myPlayer = jQuery("#bgndVideo").YTPlayer({
-		onReady: function (player) {
-			YTPConsole.append(player.id + " player is ready");
-			YTPConsole.append("<br>");
-		}
-	});
-
-	/* DEBUG ******************************************************************************************/
-
-	var YTPConsole = jQuery("#eventListener");
-	// EVENT: YTPStart YTPEnd YTPLoop YTPPause YTPBuffering
-	myPlayer.on("YTPStart YTPEnd YTPLoop YTPPause YTPBuffering", function (e) {
-		YTPConsole.append(e.type + " - " + jQuery("#bgndVideo").getPlayer().getPlayerState() + " - time: " + e.time);
-		YTPConsole.append("<br>");
-	});
-	// EVENT: YTPChanged
-	myPlayer.on("YTPChanged", function (e) {
-		YTPConsole.html("");
-	});
-
-	// EVENT: YTPData
-	myPlayer.on("YTPData", function (e) {
-		YTPConsole.append("******************************");
-		YTPConsole.append("<br>");
-		YTPConsole.append(e.type);
-		YTPConsole.append("<br>");
-		YTPConsole.append(e.prop.title);
-		YTPConsole.append("<br>");
-		YTPConsole.append(e.prop.description.replace(/\n/g, "<br/>"));
-		YTPConsole.append("<br>");
-		YTPConsole.append("******************************");
-		YTPConsole.append("<br>");
-	});
-
-	// EVENT: YTPTime
-	myPlayer.on("YTPTime", function (e) {
-		var currentTime = e.time;
-		var player = e.target.wrapper;
-		var traceLog = currentTime / 4 == Math.floor(currentTime / 4);
-
-		if (traceLog && YTPConsole.is(":visible")) {
-			YTPConsole.append(e.type + " actual time is: " + currentTime);
-			YTPConsole.append("<br>");
-		}
-	});
-
-	/* DEBUG END ******************************************************************************************/
-
-});
-
 var v = false;
-function changeVideo() {
-	var vID = v ? "7SnmCUwOsts" : "BsekcY04xvQ";
-	jQuery('#bgndVideo').changeMovie({videoURL: vID});
-	$("#vidData").toggle(1000);
-	v = !v;
-}
+
+});

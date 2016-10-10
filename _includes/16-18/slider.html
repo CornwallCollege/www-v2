@@ -6,7 +6,9 @@
                 <img src="/16-18-hub/images/slide-bg.jpg" alt="16-18 cornwall college" style="backface-visibility: hidden; position: absolute; left: -69px; top: 0px; z-index: -1; max-width: none; height: 900px; width: 1694.12px;">
                 <div id="video-section" class="video-section" style="height:100%;">
 
-				<a id="bgndVideo" class="player" data-property="{videoURL:'XdOXXldJazQ',containment:'.video-section', showControls:false, autoPlay:true, loop:false, vol:50, mute:false, opacity:1, addRaster:false, quality:'default', optimizeDisplay:true}">16-18 hub</a> <!--BsekcY04xvQ-->
+				<a id="bgndVideo" class="player" data-property="{
+                videoURL:'XdOXXldJazQ',containment:'.video-section', showControls:true, autoPlay:true, loop:false, vol:50, mute:true, opacity:1, addRaster:false, quality:'default', optimizeDisplay:true                              
+                }">16-18 hub</a> <!--BsekcY04xvQ-->
                 </div>
                 <h2 class="slide-title">
 					<span class="inner-circle">
@@ -34,6 +36,13 @@
 				</div>-->
 			</div>
 		</div>
+        <div class="playbutton video-icons" style="display: none; opacity: 0; visibility: hidden; ">
+            <button class="play-btn-normal" onclick="jQuery('#bgndVideo').YTPTogglePlay()"><i class="fa fa-play "></i></button>
+        </div>        
+        <div class="video-controls video-icons" style="display: none; opacity: 0; visibility: hidden; position: absolute;s">
+            <button onclick="jQuery('#bgndVideo').YTPTogglePlay()"><i class="fa fa-pause"></i></button>
+            <button onclick="jQuery('#bgndVideo').YTPToggleVolume()"><i class="fa fa-volume-up"></i></button>
+        </div>
 
 		<p class="goto-next">More<a class="arrow animated ci bounce" href="#video-block"><i class="fa fa-angle-down"></i></a></p>
 	</div>

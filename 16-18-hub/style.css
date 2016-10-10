@@ -1635,7 +1635,59 @@ a {
     opacity: 0;
 
 }
+/* Video controls */
+#controlBar_bgndVideo{
+    margin-top: -50px;
+}
+.video-icons button {
+	filter: alpha(opacity=30);
+	opacity: 0.5;
+	cursor: pointer;
+	margin: 4px;
+	font-family: 'FontAwesome';
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 34px;
+	color: #ffffff;
+	background: none;
+	border: 2px solid #ffffff;
+	-webkit-border-radius: 50%;
+			border-radius: 50%;
+}
 
+.video-icons button:hover {
+	filter: alpha(opacity=100);
+	opacity: 1;
+	color: #ffffff;
+}
+.video-controls{
+    bottom: 15%; 
+    z-index: 9; 
+    left: 50%;    
+    width:100px;
+    margin-left:-50px;
+    left: 50%;
+}
+.playbutton {
+    position: absolute; 
+    top: 50%; 
+    z-index: 9; 
+    margin-left:-50px;
+    left: 50%;
+
+}
+.playbutton button{
+	width: 100px;
+	height: 100px;    
+    font-size: 51px
+}
+.playbutton i{
+    margin-left:10px;
+}
 /* ## Statistics Section ## */
 
 .statistics-section {
