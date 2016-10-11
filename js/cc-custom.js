@@ -33,7 +33,8 @@ $(document).ready(function () {
     // resposive logo; first click open second click follow link
     $('.brand-image').click(function (e) {
         var scroll = $(window).scrollTop();
-        if (scroll >= 301){
+        var window = $( window ).width();
+        if (scroll >= 301 || window <= 600){
 
             if (!$('#logo-wrap').children().hasClass('active')) {
                 //$('#logo-wrap').removeClass('active');
