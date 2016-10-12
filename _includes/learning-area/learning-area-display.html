@@ -1,9 +1,9 @@
-<section class=" container" style="margin-bottom:50px;">
+<section class=" container">
 <div id="form-ui">
     <h3>Learning Area Filters</h3>
     <p class="lead no-margin">Filter our learning areas by selecting one or more of the filters below.</p>
 
-    <div class="col-xs-12 col-md-6">
+
         <h5><strong>Campus</strong></h5>
         <div class="btn-group" data-toggle="buttons">
           <label class="area-filter btn btn-primary">
@@ -42,9 +42,8 @@
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="campus-radio" value="" data-course-type="reset">Remove Filter
           </label>
-
         </div>
-    </div>
+
 
     <!--<div class="col-xs-12 col-md-6 ">
         <h5>Brand</h5>
@@ -64,7 +63,7 @@
         </div>
     </div>-->
 
-    <div class="col-xs-12 col-md-6">
+
         <h5><strong>Sector</strong></h5>
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary area-filter">
@@ -83,7 +82,7 @@
             <input type="checkbox" name="sector-radio" value="" data-course-type="reset">Remove Filter
           </label>
         </div>
-    </div>
+
 
        <!--<p id="output">--</p>-->
 </div>
@@ -114,10 +113,10 @@
                     <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
                     <span class="readmore">Read More</span>
                 </a>
-                <div class="detail collapse" id="{{ subcluster.search-link }}">
+                <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
                     <p>{{ subcluster.intro }}</p>
-                    <a style="margin-bottom:55px; bottom:0px" href="{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right course-area">View careers in this area</a>
-                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn pull-right course-area">View courses in this area</a>
+                    <a href="{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View careers in this area</a>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
                 </div>
 
             </div>

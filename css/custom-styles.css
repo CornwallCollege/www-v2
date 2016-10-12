@@ -5075,17 +5075,24 @@ a.learning-area:hover{
     margin: 1px 0 0 ;
 }
 .area.big{
-    height: 330px;
+    height: auto;
 }
 @media(max-width:1181px) and (min-width:769px){
     .area.big{
         height: 400px;
     }
 }
+/*for very small devices*/
+@media(max-width:400px){
+    .area.big{
+        height: 450px;
+    }
+}
 .area a:active,
 .area a:hover,
 .area a{
     text-decoration: none;
+    letter-spacing: normal;
 }
 .area > div{
     background:none!important;
@@ -5111,9 +5118,11 @@ div.btn-group .area-filter{
     letter-spacing: 0.11em;
 }
 .area div.detail a{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    margin-bottom:5px;
+    margin-top: 0
+}
+.area div.detail a:last-child{
+    margin-bottom:20px;
 }
 @media(min-width:1183px){
     div.btn-group .area-filter{

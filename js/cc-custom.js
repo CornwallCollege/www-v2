@@ -761,20 +761,33 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             itemSelector: '.area',
             //resizable: false
         });
+        function rebuildLayout() {  
+            $('#career-content').isotope( 'layout' );
+        }        
         // read more link on Learning area page     
         $container.on('click', '.show-more', function () {
             // change size of item by toggling big class
+            if($(this).parent().find(".detail").is(':visible')){
+               $(this).parent().find(".detail").fadeOut(100);
+            }
+            else{
+               $(this).parent().find(".detail").fadeIn(1500);   
+            }
+            
             $(this).parent().toggleClass('big');
+
             //hide the readmore link  
             $(this).children(".readmore").toggle();
             //re-build the layout  
-            $container.isotope('layout');
+            setTimeout(rebuildLayout, 300);
         });
+
         // read more link on sector page    
         $sector.on('click', '.show-more', function () {
             $(this).parent().toggleClass('big');
             $(this).children(".readmore").toggle();
             $sector.isotope('layout');
+
         });
 
         // filter items on button click Sector hub page
