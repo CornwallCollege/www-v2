@@ -761,14 +761,14 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             itemSelector: '.area',
             //resizable: false
         });
-        function rebuildLayout() {  
-            $('#career-content').isotope( 'layout' );
+        function rebuildLayout(id) { 
+            $(id).isotope( 'layout' );     
         }        
         // read more link on Learning area page     
         $container.on('click', '.show-more', function () {
             // change size of item by toggling big class
             if($(this).parent().find(".detail").is(':visible')){
-               $(this).parent().find(".detail").fadeOut(100);
+                $(this).parent().find(".detail").fadeOut(50);
             }
             else{
                $(this).parent().find(".detail").fadeIn(1500);   
@@ -778,8 +778,8 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 
             //hide the readmore link  
             $(this).children(".readmore").toggle();
-            //re-build the layout  
-            setTimeout(rebuildLayout, 300);
+            //re-build the layout after a delay 
+            setTimeout(function(){rebuildLayout('#career-content')}, 300);
         });
 
         // read more link on sector page    
@@ -787,7 +787,8 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             $(this).parent().toggleClass('big');
             $(this).children(".readmore").toggle();
             $sector.isotope('layout');
-
+            //re-build the layout after a delay 
+            setTimeout(function(){rebuildLayout('#sector-page-content')}, 300);
         });
 
         // filter items on button click Sector hub page

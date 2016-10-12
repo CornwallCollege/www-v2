@@ -2990,7 +2990,7 @@ APPLY BARS =====================================================================
 }
 
 #career-list p {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     display: inline-block;
 }
 
@@ -4851,6 +4851,11 @@ a.learning-area:hover{
     text-transform: uppercase;
 
 }
+@media(max-width: 600px){
+    #event-carousel h3 {
+        font-size: 20px
+    }
+}
 #event-carousel article:hover {
     border-color: #52B3D9;
 }
@@ -5074,20 +5079,7 @@ a.learning-area:hover{
     border:solid 1px #ddd;
     margin: 1px 0 0 ;
 }
-.area.big{
-    height: auto;
-}
-@media(max-width:1181px) and (min-width:769px){
-    .area.big{
-        height: 400px;
-    }
-}
-/*for very small devices*/
-@media(max-width:400px){
-    .area.big{
-        height: 450px;
-    }
-}
+
 .area a:active,
 .area a:hover,
 .area a{
@@ -5105,6 +5097,7 @@ a.learning-area:hover{
 }
 .area h4, .area p{
     color:#52b3d9;
+    padding-right: 10px
 }
 div.btn-group .area-filter{
     margin-top:0;
