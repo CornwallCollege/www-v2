@@ -4270,7 +4270,7 @@ section.key-stats:after{
 /* Campus Maps section */
     #gmap_canvas {
         position: relative;
-        height: 600px;
+        height: 502px;
         width: 100%;
     }
 
