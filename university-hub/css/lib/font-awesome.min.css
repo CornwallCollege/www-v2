@@ -559,7 +559,6 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 }
 .fa-gears:before, .fa-cogs:before {
 	content:"\f085";
-      margin-left:35px;
 }
 .fa-comments:before {
 	content:"\f086"
@@ -644,7 +643,6 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 }
 .fa-certificate:before {
 	content:"\f0a3";
-      margin-left:35px;
 }
 .fa-hand-o-right:before {
 	content:"\f0a4"
@@ -846,7 +844,6 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 }
 .fa-building-o:before {
 	content:"\f0f7";
-      margin-left:35px;
 }
 .fa-hospital-o:before {
 	content:"\f0f8"
@@ -1018,7 +1015,6 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 }
 .fa-rocket:before {
 	content:"\f135";
-      margin-left:35px;
 }
 .fa-maxcdn:before {
 	content:"\f136"
