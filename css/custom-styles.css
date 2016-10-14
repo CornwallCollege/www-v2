@@ -3345,6 +3345,10 @@ APPLY BARS =====================================================================
     margin: 0 0 10px 0;
 }
 
+.public-body li {
+    color: #333;
+}
+
 .public-body table {
     border: none;
     width: 100%;
@@ -4938,7 +4942,7 @@ a.learning-area:hover{
     font-weight: 300;
     text-transform: uppercase;
     font-size: 24px;
-    
+
 }
 .faculty-areas {
 	position: relative;
@@ -4951,8 +4955,8 @@ a.learning-area:hover{
 	padding-top: 100px;
 	padding-bottom: 140px;
 	background: #f0f0f0;
-    margin: 0;   
-    border: none;    
+    margin: 0;
+    border: none;
 }
 
 
@@ -4984,7 +4988,7 @@ a.learning-area:hover{
 	display: block;
 	background: #f7f7f7;
 	padding-bottom: 10px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 .portfolio-thumb {
   -o-transition:.2s;
@@ -5067,7 +5071,7 @@ a.learning-area:hover{
 @media (min-width:360px) and (max-width:425px) and (orientation:portrait) {
     .portfolio-thumb b {
         padding: 0px
-    }    
+    }
 }
 .jcarousel-pagination a {
     border: solid 1px #aaa;
@@ -5422,7 +5426,7 @@ button.collapsed h3:before{
 }
 #wrapper_mbYTP_video{
 display: none;
-} 
+}
 
 /* Course Search Sidebar */
 .search-sidebar {
