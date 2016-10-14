@@ -14,3 +14,50 @@ a.learning-area {
     font-weight: bold;
     font-size:0.9em;  
 }
+
+/* IE9 Main Page Breaks on Video  */
+
+    .swiper-container-no-flexbox #cc-home-slide,
+    .swiper-container-no-flexbox #dc-home-slide,
+    .swiper-container-no-flexbox #fms-home-slide,
+    .swiper-container-no-flexbox #bic-home-slide{
+        position:initial;
+        top: 0;
+        bottom:0;
+        right:0;
+        left: 0;
+        margin: auto;
+        height:initial;
+    }
+
+/* Transparent Div when scrolling not transparent Weird behaviour on hover */
+#white-nav-bg.active {
+	top:0px;
+      display:none;
+}
+
+/* Apply Div Image broken */
+
+/* 16-18 hub text not displaying over vieo */
+
+/* 19+ hub broken */
+a.learning-area{
+    padding:10px 15px;
+    border:solid 1px #ddd;
+    margin:5px 0;
+    min-height: 80px;
+    display: block;
+    align-items: center;
+    color: #52b3d9;
+    background:white;
+    /*opacity: .7;*/
+    font-weight: bold;
+    font-size:0.9em;
+}
+
+/*
+Leisure Image broken
+
+Course Display broken
+
+*/
