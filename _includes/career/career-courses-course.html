@@ -1,12 +1,14 @@
-{% if include.title %}     
-    <div class="row career-course">         
+ {% if include.title %}
+    <div class="row career-course">
+
         <article class="col-xs-12 col-sm-12 col-md-8 offering-title">
             <p>{{include.title}}</p>
         </article>
+
         <article class="col-xs-12 col-sm-12 col-md-4 offering-apply transition">
             <a href="{{ site.course_site_baseurl }}{{include.link}}" class="btn">View full details</a>
-        </article>           
+        </article>
+        
         <hr class="visible-xs visible-sm hidden-md col-xs-11">
-    </div>  
+    </div>
 {% endif %}
-
