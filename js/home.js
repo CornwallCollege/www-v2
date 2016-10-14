@@ -317,8 +317,8 @@ $(function () {
                     },
                     {
                         brand: 'duchy',
-                        videos: ['cow', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                        mobile_videos: ['mobile/cow', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
+                        videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
+                        mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
                     },
                     {
                         brand: 'falmouth',
@@ -327,8 +327,8 @@ $(function () {
                     },
                     {
                         brand: 'bicton',
-                        videos: ['grass', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                        mobile_videos: ['mobile/grass', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
+                        videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
+                        mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
                     },
                 ]
             
