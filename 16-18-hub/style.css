@@ -1250,6 +1250,7 @@ a {
 .we-launch ul.our-learners{
     font-size: 1em;
     line-height: 1.9em;
+    text-align: left;
 }
 .we-launch ul.our-learners span{
     font-weight: bold;
