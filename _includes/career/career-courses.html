@@ -19,7 +19,12 @@
       {% include /career/career-courses-course.html title=include.courseTitle4 link=include.infoLink4 %}
       {% include /career/career-courses-course.html title=include.courseTitle5 link=include.infoLink5 %}
 
-      <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.title | downcase | remove: "&amp;" | remove: "of" | remove: "," | replace: ' ', '-' | replace: '--', '-'}}' class="btn">View All Courses in {{ page.title }}</a>
+
+      {% if page.top5-name %}
+        <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.top5-name }}' class="btn">View All Courses in {{ page.title }}</a>
+      {% else %}
+        <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.title | downcase | remove: "&amp;" | remove: "of" | remove: "," | replace: ' ', '-' | replace: '--', '-'}}' class="btn">View All Courses in {{ page.title }}</a>
+      {% endif %}
     </section>
 
   </section>
