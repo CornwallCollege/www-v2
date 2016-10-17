@@ -5,7 +5,7 @@
   a-class: transition sne
   a-data-filter: .sne
   subclusters:
-    - subcluster: Applied Science & Forensic Science
+    - subcluster: Applied Science & Forensics
       university-faculty: Applied Science
       image: /images/sne/applied-forensic-science-desktop.jpg
       mobile-image: /images/sne/applied-forensic-science-mobile.jpg
@@ -221,11 +221,11 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
       career-link: /motor-vehicle/index.html
       search-link: motor-vehicle
@@ -247,19 +247,19 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash          
+          campus-filter: saltash
 
       career-link: /engineering/index.html
       search-link: engineering
@@ -289,15 +289,15 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke          
+          campus-filter: stoke
 
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
-          campus-filter: rosewarne            
+          campus-filter: rosewarne
 
       career-link: /agriculture/index.html
       search-link: agriculture-countryside-management
@@ -320,15 +320,15 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke          
+          campus-filter: stoke
 
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
-          campus-filter: rosewarne 
+          campus-filter: rosewarne
 
       career-link: /animal-science-management/index.html
       search-link: animal-management-veterinary-nursing
@@ -350,11 +350,11 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke 
+          campus-filter: stoke
 
       career-link: /equine/index.html
       search-link: equine
@@ -378,7 +378,7 @@
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke 
+          campus-filter: stoke
 
       career-link: /food-production/index.html
       search-link: food-technology-production
@@ -400,19 +400,19 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke 
+          campus-filter: stoke
 
         - campus-name: Eden Campus
           campus-link: /eden-campus.html
-          campus-filter: eden-project         
+          campus-filter: eden-project
 
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
-          campus-filter: rosewarne           
+          campus-filter: rosewarne
 
       career-link: /horticulture/index.html
       search-link: horticulture-floristry
@@ -431,15 +431,15 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton            
+          campus-filter: bicton
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke          
+          campus-filter: stoke
 
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
-          campus-filter: rosewarne          
+          campus-filter: rosewarne
 
       career-link: /land-based-engineering/index.html
       search-link: agriculture-countryside-management
@@ -469,15 +469,15 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne         
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell              
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash           
+          campus-filter: saltash
 
       career-link: /arts-media/index.html
       search-link: arts-media
@@ -499,19 +499,19 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne            
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell           
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash           
+          campus-filter: saltash
 
         - campus-name: Eden Campus
           campus-link: /eden-campus.html
-          campus-filter: eden-project          
+          campus-filter: eden-project
 
       career-link: /catering-academy/index.html
       search-link: catering-academy-nathan-outlaw
@@ -533,19 +533,19 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne         
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash           
+          campus-filter: saltash
 
         - campus-name: Eden Campus
           campus-link: /eden-campus.html
-          campus-filter: eden-project            
+          campus-filter: eden-project
 
       career-link: /hospitality-front/index.html
       search-link: hospitality-front-house
@@ -565,19 +565,19 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell           
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash          
+          campus-filter: saltash
 
         - campus-name: Bristol Campus
           campus-link: /bristol-campus.html
-          campus-filter: dbs-bristol               
+          campus-filter: dbs-bristol
 
       career-link: /music-performing-arts/index.html
       search-link: music-performing-arts
@@ -596,11 +596,11 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne               
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell            
+          campus-filter: st-austell
 
       career-link: /travel-tourism/index.html
       search-link: travel-tourism
@@ -624,8 +624,8 @@
       campus-long:
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell  
-          
+          campus-filter: st-austell
+
       sector: 16-18 19plus
       colour: 616161
       learning-style: academic
@@ -657,15 +657,15 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne            
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell            
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash            
+          campus-filter: saltash
 
       career-link: /hair-beauty/index.html
       search-link: hairdressing-beauty-therapy
@@ -687,19 +687,19 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne            
+          campus-filter: camborne
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash          
+          campus-filter: saltash
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke          
+          campus-filter: stoke
 
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
       career-link: /public-services/index.html
       search-link: public-services-military-academy
@@ -722,28 +722,28 @@
 
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne            
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell            
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash            
+          campus-filter: saltash
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke            
+          campus-filter: stoke
 
         - campus-name: Falmouth Campus
           campus-link: /falmouth-campus.html
           campus-filter: falmouth-marine-school
-          
+
         - campus-name: Newquay Campus
           campus-link: /newquay-campus.html
-          campus-filter: newquay  
-          
+          campus-filter: newquay
+
       career-link: /sport/index.html
       search-link: sports-fitness
       intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
@@ -764,11 +764,11 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell               
+          campus-filter: st-austell
 
       career-link: /health/index.html
       search-link: social-care-health
@@ -787,7 +787,7 @@
       campus-long:
         - campus-name: Falmouth Campus
           campus-link: /falmouth-campus.html
-          campus-filter: falmouth-marine-school          
+          campus-filter: falmouth-marine-school
 
       career-link: /water-sports/index.html
       search-link: watersports
@@ -813,15 +813,15 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash          
+          campus-filter: saltash
 
       career-link: /accountancy-financial/index.html
       search-link: accounting
@@ -840,19 +840,19 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash 
+          campus-filter: saltash
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke          
+          campus-filter: stoke
 
       colour: E54028
       brand: cc dc bc
@@ -876,11 +876,11 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell  
+          campus-filter: st-austell
 
       career-link: /sales-marketing/index.html
       search-link: customer-service
@@ -902,15 +902,15 @@
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash 
+          campus-filter: saltash
 
       career-link: /digital-technologies/index.html
       search-link: digital-academy
@@ -937,23 +937,23 @@
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
-          campus-filter: bicton          
+          campus-filter: bicton
 
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
-          campus-filter: camborne          
+          campus-filter: camborne
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
-          campus-filter: st-austell          
+          campus-filter: st-austell
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
-          campus-filter: saltash 
+          campus-filter: saltash
 
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
-          campus-filter: stoke          
+          campus-filter: stoke
 
       career-link: /foundation/index.html
       search-link: foundation-learning
