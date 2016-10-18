@@ -918,7 +918,7 @@ div.logo-wrap-scroll :nth-child(4) {
     
 }
 .all-contact-details .contact-details tr td:last-child {
-    background: initial;
+    background: none;
 }
 
 .contact-details td a {
