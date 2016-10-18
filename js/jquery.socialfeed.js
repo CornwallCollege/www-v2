@@ -218,7 +218,7 @@ if (typeof Object.create !== 'function') {
             twitter: {
                 posts: [],
                 loaded: false,
-                api: 'http://api.tweecool.com/',
+                api: 'https://api.tweecool.com/',
 
                 getData: function(account) {
 
@@ -272,13 +272,13 @@ if (typeof Object.create !== 'function') {
                             post.id = element.id;
                             //prevent a moment.js console warning due to Twitter's poor date format.
                             post.dt_create = moment(new Date(element.created_at));
-                            post.author_link = 'http://twitter.com/' + element.user.screen_name;
+                            post.author_link = 'https://twitter.com/' + element.user.screen_name;
                             post.author_picture = element.user.profile_image_url;
                             post.post_url = post.author_link + '/status/' + element.id_str;
                             post.author_name = element.user.name;
                             post.message = element.text;
                             post.description = '';
-                            post.link = 'http://twitter.com/' + element.user.screen_name + '/status/' + element.id_str;
+                            post.link = 'https://twitter.com/' + element.user.screen_name + '/status/' + element.id_str;
 
                             if (options.show_media === true) {
                                 if (element.entities.media && element.entities.media.length > 0) {
@@ -371,13 +371,13 @@ if (typeof Object.create !== 'function') {
 
                         post.id = element.id;
                         post.dt_create = moment(element.created_time);
-                        post.author_link = 'http://facebook.com/' + element.from.id;
+                        post.author_link = 'https://facebook.com/' + element.from.id;
                         post.author_picture = Feed.facebook.graph + element.from.id + '/picture';
                         post.author_name = element.from.name;
                         post.name = element.name || "";
                         post.message = (text) ? text : '';
                         post.description = (element.description) ? element.description : '';
-                        post.link = (element.link) ? element.link : 'http://facebook.com/' + element.from.id;
+                        post.link = (element.link) ? element.link : 'https://facebook.com/' + element.from.id;
 
                         if (options.show_media === true) {
                             if (element.picture) {
@@ -529,7 +529,7 @@ if (typeof Object.create !== 'function') {
 
                         post.id = element.id;
                         post.dt_create = moment(element.created_time * 1000);
-                        post.author_link = 'http://instagram.com/' + element.user.username;
+                        post.author_link = 'https://instagram.com/' + element.user.username;
                         post.author_picture = element.user.profile_picture;
                         post.author_name = element.user.full_name || element.user.username;
                         post.message = (element.caption && element.caption) ? element.caption.text : '';
@@ -656,7 +656,7 @@ if (typeof Object.create !== 'function') {
                             post.id = element.id['$t'].replace(/[^a-z0-9]/gi, '');
                             post.dt_create = moment((element.published['$t']));
                             post.author_link = element.author[0]['uri']['$t'];
-                            post.author_picture = 'http:' + element.author[0]['gd$image']['src'];
+                            post.author_picture = 'https:' + element.author[0]['gd$image']['src'];
                             post.author_name = element.author[0]['name']['$t'];
                             post.message = element.title['$t'] + '</br></br>' + stripHTML(element.content['$t']);
                             post.description = '';
