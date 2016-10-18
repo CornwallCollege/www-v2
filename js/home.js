@@ -312,7 +312,7 @@ $(function () {
                 var video_options = [
                     {
                         brand: 'cornwall',
-                        videos: ['door-crop', 'woman', 'walking-by', 'wall-sketching',  'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'mines', 'stac'], 
+                        videos: ['door-crop', 'woman', 'walking-by', 'wall-sketching',  'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac'], 
                         mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
                     },
                     {
