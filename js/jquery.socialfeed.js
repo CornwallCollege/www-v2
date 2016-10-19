@@ -349,7 +349,13 @@ if (typeof Object.create !== 'function') {
                     getExternalImageURL: function(image_url, parameter) {
                         image_url = decodeURIComponent(image_url).split(parameter + '=')[1];
                         if (image_url.indexOf('fbcdn-sphotos') === -1) {
-                            return image_url.split('&')[0];
+                            image_url = image_url.split('&')[0];
+
+                            if(image_url.indexOf("fbstaging") !== -1) {
+                              image_url = "https://external.xx.fbcdn.net/safe_image.php?url="+encodeURIComponent(image_url);
+                            }
+
+                            return image_url
                         } else {
                             return image_url;
                         }
