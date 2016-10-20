@@ -4999,7 +4999,7 @@ a.learning-area:hover{
 
 @media (min-width:360px) and (max-width:425px) and (orientation:portrait) {
     .portfolio-thumb b {
-        padding: 0px
+        padding: 7px 0 0 0;
     }
 }
 .jcarousel-pagination a {
