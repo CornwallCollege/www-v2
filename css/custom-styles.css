@@ -1114,12 +1114,25 @@ div#logo-wrap #bicton{
 }
 /*----------- Apprentice header styles ENDS ---------*/
 /*----------- 19 Plus styles ---------*/
-#nineteen-plus,
+#nineteen-plus{
+    background: url(../images/19-plus-hub-header.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+    #nineteen-plus{
+        background-image: url(../images/19-plus-hub-header-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position:50% 0 ;
+
+    }
+}
+/*----------- 19 Plus ENDS ---------*/
+/*----------- uni header ---------*/
 #university-hub{
     background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
 }
 @media(min-width:768px) {
-    #nineteen-plus,
+
     #university-hub{
         background-image: url(../images/19-plus.jpg);
         background-repeat: no-repeat;
@@ -1127,7 +1140,7 @@ div#logo-wrap #bicton{
 
     }
 }
-/*----------- 19 Plus ENDS ---------*/
+
 /* ----------- key stats bar ------------ */
 
 .custom-progress {
