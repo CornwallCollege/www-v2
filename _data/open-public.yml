@@ -15,8 +15,9 @@
         <li>Out of school club</li>
         <li>Other registered childcare</li>
         </ul>
-        <p>Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care.</br>Find more information here. www.gov.uk/care&#8208;to&#8208;learn</br>Or call Directgov’s Learner Support helpline on 0800 121 8989.</p>
-        <p>Childcare Application Form download</br>FE Bursary Application Form download</p>
+        <p>Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care.</br>Find more information visit <a href="https://www.gov.uk/care-to-learn">gov.uk/care-to-learn</a></br>Or call Directgov’s Learner Support helpline on 0800 121 8989.</p>
+        <p><a href="/documents/childcare/CHILDCARE DOWNLOAD 2 - FE Application for Financial Help Towards Childcare.docx">Childcare Application Form download</a></p>
+        <p><a href="/documents/childcare/CHILDCARE DOWNLOAD 1 - 19+ Bursary application form - 2015.pdf">FE Bursary Application Form download</a></p>
   campus:
     - campus-name: Flying Start Childcare (Camborne)
       id: camborne-childcare
@@ -104,7 +105,7 @@
     #  detail: <a href="mailto:sportandfitness@cornwall.ac.uk" target="_top">E-mail Me</a>
 
      - icon: fa fa-facebook
-       detail: <a style="color:white" href="https://www.facebook.com/search/str/Evolve%2BSport%2B%2526%2BFitness/keywords_places/"> Facebook
+       detail: <a style="color:white" href="https://www.facebook.com/CCGGetFit">/CCGGetFit</a>
 
 - business: Equine
   color: 007B4C
@@ -112,7 +113,10 @@
   short: equine1
   image: /images/public/equine.jpg
   title:
-  text: <P>The Equestrian Centre provides excellent teaching and learning facilities for full and part&#8208;time students and external customers. See the section on Equine courses for more information. The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC&#8208;Schooling field, Walker, Weighbridge and Solarium. There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</p><p>We offer a range of Livery options for Students, from Working Livery to Full Livery. Our team of highly qualified experienced staff are on hand to offer their expertise. If you are interested in booking the facilities or livery options, please contact us on 01395 562354, or email equestrian.centre@bicton.ac.uk </p><p>Our Stoke Climsland campus is home to an industry&#8208;approved Equestrian Centre with extensive stabling and is equipped with two indoor arenas and large outdoor arena, a weighbridge, horse walker, wash down and solarium facilities as well as state&#8208;of&#8208;the&#8208;&#8208;art equipment and technology, all of which are used extensively by students. With excellent links to employers, practitioners and researchers, nationally and internationally, our students have the opportunity to train and develop their skills for employment in all aspects of the equestrian industry.</p><p>Duchy College is also home to the Equitation Science Research and Training Centre which works closely with the International Society for Equitation Science. Our students also benefit from comprehensive links with leading equine practitioners such as equine nutritionists, organisations, charities (such as The Horse Trust), veterinary professionals, competitors and equitation science practitioners.</p>
+  text: <P>The Equestrian Centre provides excellent teaching and learning facilities for full and part&#8208;time students and external customers. See the section on Equine courses for more information. The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC&#8208;Schooling field, Walker, Weighbridge and Solarium. There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</p>
+        <p>We offer a range of Livery options for Students, from Working Livery to Full Livery. Our team of highly qualified experienced staff are on hand to offer their expertise. If you are interested in booking the facilities or livery options, please contact using the information below.</p>
+        <p>Our Stoke Climsland campus is home to an industry approved Equestrian Centre with extensive stabling and is equipped with two indoor arenas and large outdoor arena, a weighbridge, horse walker, wash down and solarium facilities as well as state&#8208;of&#8208;the&#8208;art equipment and technology, all of which are used extensively by students. With excellent links to employers, practitioners and researchers, nationally and internationally, our students have the opportunity to train and develop their skills for employment in all aspects of the equestrian industry.</p>
+        <p>Duchy College is also home to the Equitation Science Research and Training Centre which works closely with the International Society for Equitation Science. Our students also benefit from comprehensive links with leading equine practitioners such as equine nutritionists, organisations, charities (such as The Horse Trust), veterinary professionals, competitors and equitation science practitioners.</p>
   table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
@@ -147,8 +151,8 @@
   logo: /images/public/milllogo-open-to-public.png
   image: /images/et/automotive-mobile.jpg
   alt: Mill Autoquip Image
-  title: We provide all the services you would expect to find at any servicing garage - except of course for the prices that we         charge.
-  text: <p>We are lucky enough to have some of the latest diagnostic equipment available and we are well supported by a leading data provider:- "Autodata" so our students have access to some of the best facilities and information in the country.</p>
+  title: We provide all the services you would expect to find at any servicing garage at a fraction of the cost.
+  text: <p>We are lucky enough to have some of the latest diagnostic equipment available and we are well supported by Autodata, a leading data provider, so our students have access to some of the best facilities and information in the country.</p>
         <p>We do have to make a charge for workshop time, but it is only a fraction of what you would have to pay at a garage (even the smallest ones). We also are able to sell most of our parts at a discount price.</p>
         <p>Another service we offer is to get your car ready for its MOT test and also make the booking for you to take it to a local test station where we know and trust the staff to ensure that you get a fair test, This means that you will never need to worry about things being failed unnecessarily and if something does need to be done, there is usually no charge for the re-test.</p>
         <p>Come and see us at the shop/reception desk in the Brunel building</p>
@@ -199,7 +203,6 @@
         <p>We are open for lunch, Monday &#8208; Friday, with evening meals and a choice menu available on certain dates.</p>
         <p>Offering excellent food at greatly reduced rates, with some experimental menus from our students as well as the traditional classics you would expect from a five star restaurant.</p>
         <p>Cloisters Restaurant uses fine locally sourced produce and is also fully licensed, offering a comprehensive selection of wines chosen to accompany each dish on the menu. In addition to regular fine dining lunchtime sessions during term time, Cloisters Restaurant also offers a series of fine dining evenings, devised, prepared and hosted by the students themselves throughout the year.The restaurant is also available for large group bookings.</p>
-
   table:
     - icon: fa fa-clock-o
       detail: "Mon to Fri for lunch"
@@ -219,7 +222,6 @@
   title: Duchy College, Rosewarne’s Dog Grooming Salon boasts a range of high quality, state of the art equipment for the students to use whilst training.
   text: <p>The salon has two stainless steel baths, one “easy-step” manual bath and the other a remote controlled, electrically adjusted bath. There are six electric tables to suit a range of dogs from Yorkshire Terriers to Giant Schnauzers plus a wide variety of restraint equipment and crates to help the groomer and keep the dogs safe and secure whilst in the team’s care. Blasters, stand and tornado dryers are available, which are both mobile and directional for ease of coat drying after bathing.  The salon team use a wide range of professional shampoos and conditioners for each, unique coat type and colour. Each student has access to brushing, scissoring, clipping and mat removal equipment or staff can advise where to purchase a student pack of equipment should they prefer to use their own.</p>
         <p>The salon is bright, roomy and has high level air conditioning, sealed, easy to clean flooring and walls and a viewing window for others to observe the busy lessons. The lecturers and trainers are industry experts and qualified in both teaching and dog grooming and the Course Manager is a registered Dog Behaviour Trainer as well as a dog groomer. The welfare and safety of the dogs are taken into account at all times thus creating a relaxed environment so both dogs and students feel at ease throughout the process.</p>
-
   table:
     - icon: fa fa-clock-o
       detail: "12:00 - 13:00"
@@ -247,7 +249,6 @@
         </ul>
         <p>Take your marketing to the next level by sending movie eshots, adding video to your website, or DVD display media to your offices or promotional areas.</p>
   table:
-
     - icon: fa fa-phone
       detail: 01209 611659
 
@@ -265,7 +266,11 @@
   logo: /images/public/koko-logo.png
   image: /images/public/koko.jpg
   title: Koko hair and beauty salons are located at three Cornwall College campuses – Saltash, St Austell and Camborne.
-  text: <p>A wide range of services and treatments are available, including hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures. As training salons, all services at KoKo are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.</p><p>We only use high-quality professional products,from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all KoKo salons. New for 2016 we are delighted to offer skin rejuvenation and hair removal with the Lynton Excelight Advance intense pulsed light system (IPL) – contact your nearest KoKo salon to check availability and discuss your treatment requirements</p><p>Get in touch to book an appointment</p><p>There is dedicated customer parking for the Koko salons at Cornwall College Camborne and St Austell.</p><p>The koko salons are training salons and are open from Monday – Friday with varying opening hours. We recommend that you give us a call to book your appointment.</p>
+  text: <p>A wide range of services and treatments are available, including hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures. As training salons, all services at KoKo are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors.</p>
+        <p>We only use high-quality professional products,from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all KoKo salons. New for 2016 we are delighted to offer skin rejuvenation and hair removal with the Lynton Excelight Advance intense pulsed light system (IPL) – contact your nearest KoKo salon to check availability and discuss your treatment requirements</p>
+        <p>Get in touch to book an appointment</p>
+        <p>There is dedicated customer parking for the Koko salons at Cornwall College Camborne and St Austell.</p>
+        <p>The koko salons are training salons and are open from Monday – Friday with varying opening hours. We recommend that you give us a call to book your appointment.</p>
   campus:
     - campus-name: Cornwall College Camborne
       id: camborne-koko
@@ -335,11 +340,17 @@
   short: trevenson
   logo: /images/public/trevenson-logo.png
   image: /images/public/trevenson.jpg
-  title: The award winning Trevenson Restaurant is located at Cornwall College’s Camborne campus and is one of two fine dining            commercial restaurants within the Cornwall College Group.
-  text: <p>Mon to Fri for lunch, some Wed evenings (term) The award winning Trevenson Restaurant is one of two fine dining commercial restaurants within the Cornwall College Group. Opened by Michelin star chefs Nathan Outlaw and Pierre Koffmann, Trevenson offers a very special dining experience, offering both creative and mouth&#8208;watering menus every day.</p><p>Recent winners of a prestigious Highly Commended AA College Rosette, the ethos to Trevenson is simple; continually driven by sustainable seasonality, using locally sourced ingredients, we ensure ever changing gastronomic dishes, freshly prepared in our state&#8208;of&#8208;the&#8208;art kitchens & delivered by an attentive and enthusiastic team. The Hospitality & Catering Department also holds 3 Centre’s of Excellence including Fish & Shellfish, Food & Beverage Service and Patisserie & Confectionary as well as the coveted title by People 1st of Gold Accreditation, this makes us one of the best catering college in the UK, evident by the standard of food on our menus and the attention to detail in our service.</p><p>Trevenson Restaurant not only serve traditional classic dishes, they also serve new and exciting dishes to cater for all tastes which are devised by our professional staff and experienced students. </p><p>The stylish interior is akin to any fine dining establishment, offering a relaxing atmosphere for informal lunch, as well as a contemporary ambience for evening fine diners.</p><p>Trevenson has also been awarded the Gold Cornwall Healthier Eating and Food Safety (CHEFS) Award two years running, making it only one of five restaurants in the county to receive the accolade, something we are all truly proud of. </p><p>To dine at Trevenson is a wonderful experience and as well as our a la carte menu, we also offer tasting menus and special themed evenings, where we invite local established chefs to devise, prepare and host selected events, all supported by our staff and students. To find out about our next themed evening, simply contact the reservations number below. </p><p>Trevenson is fully licensed and offers a comprehensive selection of wines and beers, carefully chosen to accompany each dish on the menu. </p>
+  title: The award winning Trevenson Restaurant is located at Cornwall College’s Camborne campus and is one of two fine dining commercial restaurants within the Cornwall College Group.
+  text: <p>Open Monday to Friday for lunch and some Wednesday evenings (term time), the award winning Trevenson Restaurant is one of the two fine dining commercial restaurants within the Cornwall College Group. Opened by Michelin star chefs Nathan Outlaw and Pierre Koffmann, Trevenson offers a very special dining experience, offering both creative and mouth&#8208;watering menus every day.</p>
+        <p>Recent winners of a prestigious Highly Commended AA College Rosette, the ethos to Trevenson is simple; continually driven by sustainable seasonality, using locally sourced ingredients, we ensure ever changing gastronomic dishes, freshly prepared in our state&#8208;of&#8208;the&#8208;art kitchens & delivered by an attentive and enthusiastic team. The Hospitality & Catering Department also holds 3 Centre’s of Excellence including Fish & Shellfish, Food & Beverage Service and Patisserie & Confectionary as well as the coveted title by People 1st of Gold Accreditation, this makes us one of the best catering college in the UK, evident by the standard of food on our menus and the attention to detail in our service.</p>
+        <p>Trevenson Restaurant not only serve traditional classic dishes, they also serve new and exciting dishes to cater for all tastes which are devised by our professional staff and experienced students.</p>
+        <p>The stylish interior is akin to any fine dining establishment, offering a relaxing atmosphere for informal lunch, as well as a contemporary ambience for evening fine diners.</p>
+        <p>Trevenson has also been awarded the Gold Cornwall Healthier Eating and Food Safety (CHEFS) Award two years running, making it only one of five restaurants in the county to receive the accolade, something we are all truly proud of.</p>
+        <p>To dine at Trevenson is a wonderful experience and as well as our a la carte menu, we also offer tasting menus and special themed evenings, where we invite local established chefs to devise, prepare and host selected events, all supported by our staff and students. To find out about our next themed evening, simply contact the reservations number below.</p>
+        <p>Trevenson is fully licensed and offers a comprehensive selection of wines and beers, carefully chosen to accompany each dish on the menu.</p>
   table:
     - icon: fa fa-clock-o
-      detail: "Mon to Fri for lunch "
+      detail: "Mon to Fri for lunch"
 
     #- icon: fa fa-envelope-o
     #  detail: "jonny@john.jo.hn"
