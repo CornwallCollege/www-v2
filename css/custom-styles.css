@@ -5374,18 +5374,18 @@ display: none;
 }
 
 /* Course Search Sidebar */
-.search-sidebar {
+.sidebar-search {
   background: #52B3D9;
 }
 
-.search-sidebar h4 {
+.sidebar-search h4 {
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 25px;
   color: white;
 }
 
-.search-sidebar .btn {
+.sidebar-search .btn {
   font-size: 14px;
   font-weight: 500;
   white-space: normal;
@@ -5394,12 +5394,27 @@ display: none;
   color: white;
 }
 
-.search-sidebar .input-group {
+.sidebar-search .input-group {
   margin-top: 10px;
 }
 
-.search-sidebar .input-group-addon {
+.sidebar-search .input-group-addon {
   background: #555;
+}
+
+/* Link Sidebar */
+.sidebar-link {
+  background: #f7f7f7
+}
+
+.sidebar-link h3 {
+  color: #aaa;
+  text-align: left;
+}
+
+.sidebar-link .btn {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 /* About Pages - Campus Contact Page */
