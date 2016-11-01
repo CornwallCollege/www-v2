@@ -306,7 +306,7 @@
   brand: Duchy College
   copy: <p>Our campus is nestled in the rural Cornish countryside at Stoke Climsland. The campus offers great land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities.</p>
   link: /stoke-campus.html
-  contact-number: 01579 372222
+  contact-number: 0330 123 4784
   primary-color: 007B4C
   email: stoke.enquiries@duchy.ac.uk
   address: Stoke Climsland, Callington, Cornwall, PL17 8PB
@@ -366,8 +366,8 @@
       alt: an image
       title: image 4
   query: https://network.cornwall.ac.uk/campus/sisna-park/
-  
-- campus: The Centre for Housing & Support 
+
+- campus: The Centre for Housing & Support
   anchor: "chs"
   search: "worcester"
   external-link: http://www.chs.ac.uk/index.php?page=_Home
