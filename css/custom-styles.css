@@ -1784,13 +1784,13 @@ div#logo-wrap #bicton{
 }
 /* HEALTH & WELLBEING | watersports | header bar */
 
-#sport {
+#watersports {
     background: url(../images/area-banners/watersports-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
 @media(min-width:768px) {
-    #sport {
+    #watersports {
         background: url(../images/area-banners/watersports-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
@@ -2029,6 +2029,7 @@ div#logo-wrap #bicton{
     #health,
     #social-care,
     #sport,
+    #watersports,
     #childrens-workforce,
     #hair-beauty,
     #performing-arts,
@@ -2421,6 +2422,22 @@ APPLY BARS =====================================================================
         background-repeat: no-repeat;
     }
 }
+/* HEALTH & WELLBEING | watersports | apply now bar */
+
+.watersports-bar {
+    background: url(../images/area-banners/watersports-mobile.jpg);
+    /* Standard syntax */
+}
+/*DESKTOP version of the background*/
+
+@media(min-width:768px) {
+    .watersports-bar {
+        background: url(../images/area-banners/watersports-desktop.jpg) ;
+
+        background-position:50% 0;
+        background-repeat: no-repeat;
+    }
+}
 /* HEALTH & WELLBEING | Social Care | apply now bar */
 
 .social-care-bar {
@@ -2768,6 +2785,7 @@ APPLY BARS =====================================================================
     #health,
     #social-care,
     #sport,
+    #watersports,
     #childrens-workforce,
     #hair-beauty,
     #performing-arts,
@@ -2806,6 +2824,7 @@ APPLY BARS =====================================================================
     .health-bar,
     .social-care-bar,
     .sport-bar,
+    .watersports-bar,
     .childrens-workforce-bar,
     .hair-beauty-bar,
     .performing-arts-bar,
@@ -2850,6 +2869,7 @@ APPLY BARS =====================================================================
     #health,
     #social-care,
     #sport,
+    #watersports,
     #childrens-workforce,
     #hair-beauty,
     #performing-arts,
@@ -2888,6 +2908,7 @@ APPLY BARS =====================================================================
     .health-bar,
     .social-care-bar,
     .sport-bar,
+    .watersports-bar,
     .childrens-workforce-bar,
     .hair-beauty-bar,
     .performing-arts-bar,
