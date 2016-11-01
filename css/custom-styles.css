@@ -1782,6 +1782,20 @@ div#logo-wrap #bicton{
         background-size: cover;
     }
 }
+/* HEALTH & WELLBEING | watersports | header bar */
+
+#sport {
+    background: url(../images/area-banners/watersports-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+
+@media(min-width:768px) {
+    #sport {
+        background: url(../images/area-banners/watersports-desktop.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+    }
+}
+
 /* HEALTH & WELLBEING | Health | header bar */
 
 #health {
