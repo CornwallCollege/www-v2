@@ -28,11 +28,12 @@ gems:
 
 # Plugins.
 asset_bundler:
-  bundle_name: mini-v8.43
+  bundle_name: mini-v10
+  dev: false
 
   compress:
-    js: false
-    css: false
+    js: yui
+    css: true
 
 relative_permalinks: false
 
