@@ -1,5 +1,5 @@
 <!-- One Option Section -->
-<section class="col-sm-12 fulltime-bar clearfix">
+<section class="col-sm-12 fulltime-bar clearfix" style="{% if include.background-img %}background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ include.background-img }}); background-size: cover; background-attachment: fixed;{% endif %}">
     <div class="container">
         <h2>{{ include.one-option-text }}</h2>
         <a href="{{ include.one-option-href }}" class="apply-btn btn">{{ include.one-option-button-text }}</a>
