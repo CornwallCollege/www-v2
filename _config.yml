@@ -22,7 +22,7 @@ markdown: kramdown
 exclude:
   - [vendor]
   - SupportCode
-  
+
 gems:
    - closure-compiler
 
@@ -33,6 +33,7 @@ asset_bundler:
   compress:
     js: closure
     css: yui
+    dev: true
 
 relative_permalinks: false
 
@@ -43,7 +44,7 @@ schema-college: https://schema.org/CollegeOrUniversity
 uncss:
   stylesheets:            # a list of stylesheets to be processed; mandatory
     - css/animate.css
-    #- css/custom-styles.css  
+    #- css/custom-styles.css
     #- css/swiper.css
 
   #files:                  # html files to consider, globs are supported; default: **/*.html

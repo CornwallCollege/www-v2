@@ -295,8 +295,8 @@
       - sub-area-title: Accounting
         sub-area-link: accounting
 
-      - sub-area-title: Business, Law & Medical Administration
-        sub-area-link: business-law-medical-administration
+      - sub-area-title: Business School
+        sub-area-link: business-school
 
       - sub-area-title: Customer Service
         sub-area-link: customer-service
@@ -310,8 +310,11 @@
       - sub-area-title: Arts & Media
         sub-area-link: arts-media
 
-      - sub-area-title: Catering & Hospitality
-        sub-area-link: catering-hospitality
+      - sub-area-title: Catering & Academy Nathan Outlaw
+        sub-area-link: catering-academy-nathan-outlaw
+
+      - sub-area-title: Hospitality & Front of House
+        sub-area-link: hospitality-front-house
 
       - sub-area-title: Music & Performing Arts
         sub-area-link: music-performing-arts
@@ -511,8 +514,8 @@
     - area-title: Technology
       area-color: 00A1CB
       sub-areas:
-      - sub-area-title: Boatbuilding & Marine Engineering
-        sub-area-link: boatbuilding-marine-engineering
+      - sub-area-title: Marine Engineering & Boatbuilding
+        sub-area-link: marine-engineering-boatbuilding
 
     - area-title: Health & Wellbeing
       area-color: D70060
@@ -525,8 +528,6 @@
       sub-areas:
       - sub-area-title: Marine & Natural Environment
         sub-area-link: marine-natural-environment
-
-
 
 
 - campus: Cornwall College Newquay
@@ -853,8 +854,8 @@
       - sub-area-title: Accounting
         sub-area-link: accounting
 
-      - sub-area-title: Business, Law & Medical Administration
-        sub-area-link: business-law-medical-administration
+      - sub-area-title: Business School
+        sub-area-link: business-school
 
       - sub-area-title: Digital Academy
         sub-area-link: digital-academy
@@ -865,8 +866,11 @@
       - sub-area-title: Arts & Media
         sub-area-link: arts-media
 
-      - sub-area-title: Catering & Hospitality
-        sub-area-link: catering-hospitality
+      - sub-area-title: Catering & Academy Nathan Outlaw
+        sub-area-link: catering-academy-nathan-outlaw
+
+      - sub-area-title: Hospitality & Front of House
+        sub-area-link: hospitality-front-house
 
     - area-title: Education
       area-color: 01A4A4
@@ -1006,8 +1010,8 @@
       - sub-area-title: Accounting
         sub-area-link: accounting
 
-      - sub-area-title: Business, Law & Medical Administration
-        sub-area-link: business-law-medical-administration
+      - sub-area-title: Business School
+        sub-area-link: business-school
 
       - sub-area-title: Customer Service
         sub-area-link: customer-service
@@ -1021,8 +1025,11 @@
       - sub-area-title: Arts & Media
         sub-area-link: arts-media
 
-      - sub-area-title: Catering & Hospitality
-        sub-area-link: catering-hospitality
+      - sub-area-title: Catering & Academy Nathan Outlaw
+        sub-area-link: catering-academy-nathan-outlaw
+
+      - sub-area-title: Hospitality & Front of House
+        sub-area-link: hospitality-front-house
 
       - sub-area-title: Music & Performing Arts
         sub-area-link: music-performing-arts
@@ -1211,7 +1218,7 @@
 
 
 
-- campus: Engineering Skills Centre Plymouth
+- campus: Plymouth Engineering Skills Centre
   long: 50.4223444
   lat: -4.0955227
   link: /location-pages/sisna-park-campus.html
