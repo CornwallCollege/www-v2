@@ -34,6 +34,9 @@
     - sub-menu-name: Plymouth Engineering
       sub-menu-link: location-pages/sisna-park-campus.html
       
+    - sub-menu-name: CHS Worcester
+      sub-menu-link: http://www.chs.ac.uk/index.php?page=_Home    
+      
 - menu-name: What you study
   menu-link: learning-area-hub/ 
   sub-menu: 
