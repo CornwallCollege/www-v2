@@ -29,11 +29,10 @@ gems:
 # Plugins.
 asset_bundler:
   bundle_name: mini-v10
-  dev: false
 
   compress:
-    js: yui
-    css: true
+    js: closure
+    css: yui
 
 relative_permalinks: false
 
