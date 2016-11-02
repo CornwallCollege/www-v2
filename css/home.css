@@ -69,6 +69,109 @@
     .home {
         background: rgba(0, 0, 0, 0.3)!important;
     }
+
+
+/* slide font styles */
+    .swiper-slide h1,
+    .swiper-slide p{
+        color:white;
+    }
+    .swiper-slide h1{
+        font-size: 5.8rem;
+        font-weight:300;
+    }
+
+@media screen and (max-device-width: 420px){
+        .swiper-slide h1{
+            font-size: 4rem;
+            margin-top:120px;
+        }
+        .swiper-slide h2{
+            font-size: 2rem;
+        }
+    }
+/* FIX for super small netbook screens */
+@media screen and (max-width: 1020px) and (max-height: 500px){
+        .swiper-slide h1{
+            font-size: 4rem;
+            margin-top: 35px;
+        }
+        .swiper-slide h2{
+            font-size: 2rem;
+        }
+        .navbar-header .sub-brand img{
+            width:90px;
+            height:90px;
+        }
+        .navbar-header .current-brand img{
+            top: 15px;
+            width:120px;
+            height:120px;
+        }
+        .navbar-header .sub-brand{
+            top: 25px;
+        }  
+        #home-page-select-wrap .cover_sod {
+            width: 80%;
+            border: 2px solid #ffffff;
+            padding: 5px 10px;
+            font-size: 1em;
+            margin-top: 10px;
+        }    
+        #home-page-select-wrap .sod_placeholder{
+            font-size: 3rem!important;
+        }    
+        #home-page-select-wrap .cover_sod .sod_list_wrapper{
+            top: calc(100% + 10px);
+        }
+        #home-page-select-wrap .cover_sod .sod_option {
+            padding: 10px 30px;
+            font-size: 14px;
+        }   
+        #home-page-select-wrap .cover_sod:before{
+                top: 20%;
+        }    
+    
+}
+/* slide input styles */
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+      background-image: none;
+      right: 20px;
+      left: auto;
+    }
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+      background-image: none;
+      left: 20px;
+    }
+    .swiper-button-next i,
+    .swiper-button-prev i {
+        font-size:11rem;
+        color:white;
+    }
+    .swiper-button-next{
+
+    }
+    .swiper-button-disabled{
+        display:none;
+    }
+@media screen and (max-device-width: 420px){
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+    }
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+    }
+    .swiper-button-next i,
+    .swiper-button-prev i {
+        font-size:6rem;
+        color:white;
+    }
+}
+
 /*==== SWIPER STYLES =====*/
 /*==== SELECT-OR-DIE STYLES =====*/
 

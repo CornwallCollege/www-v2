@@ -4095,67 +4095,6 @@ video,
 .fade-in-video.is-playing {
     opacity: 1;
 }
-/* slide font styles */
-    .swiper-slide h1,
-    .swiper-slide p{
-        color:white;
-    }
-    .swiper-slide h1{
-        font-size: 5.8rem;
-        font-weight:300;
-    }
-
-@media screen and (max-device-width: 420px){
-        .swiper-slide h1{
-            font-size: 4rem;
-            margin-top:120px;
-        }
-        .swiper-slide h2{
-            font-size: 2rem;
-        }
-    }
-/* slide input styles */
-    .swiper-button-next,
-    .swiper-container-rtl .swiper-button-prev {
-      background-image: none;
-      right: 20px;
-      left: auto;
-    }
-    .swiper-button-prev,
-    .swiper-container-rtl .swiper-button-next {
-      background-image: none;
-      left: 20px;
-    }
-    .swiper-button-next i,
-    .swiper-button-prev i {
-        font-size:11rem;
-        color:white;
-    }
-    .swiper-button-next{
-
-    }
-    .swiper-button-disabled{
-        display:none;
-    }
-@media screen and (max-device-width: 420px){
-    .swiper-button-next,
-    .swiper-container-rtl .swiper-button-prev {
-      right: 10px;
-    }
-    .swiper-button-prev,
-    .swiper-container-rtl .swiper-button-next {
-      left: 10px;
-    }
-    .swiper-button-next i,
-    .swiper-button-prev i {
-        font-size:6rem;
-        color:white;
-    }
-}
-/* career side */
-    .career-bg{
-        background-color:#7D7EBB;
-    }
 /* SWIPER styles ends
 
 /* SOCIAL FEED styles */
@@ -4730,7 +4669,7 @@ a.learning-area:hover{
                 border-radius: 0;
                 font-size: 20px;
                 font-weight: 300;
-                padding: 10px 0;
+                padding: 0;
             }
 
             .cover_sod .sod_option {
