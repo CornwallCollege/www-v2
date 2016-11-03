@@ -115,24 +115,24 @@
         .navbar-header .sub-brand{
             top: 25px;
         }  
-        #home-page-select-wrap .cover_sod {
+        .home-page-select-wrap .cover_sod {
             width: 80%;
             border: 2px solid #ffffff;
             padding: 5px 10px;
             font-size: 1em;
             margin-top: 10px;
         }    
-        #home-page-select-wrap .sod_placeholder{
+        .home-page-select-wrap .sod_placeholder{
             font-size: 3rem!important;
         }    
-        #home-page-select-wrap .cover_sod .sod_list_wrapper{
+        .#home-page-select-wrap .cover_sod .sod_list_wrapper{
             top: calc(100% + 10px);
         }
-        #home-page-select-wrap .cover_sod .sod_option {
+        .home-page-select-wrap .cover_sod .sod_option {
             padding: 10px 30px;
             font-size: 14px;
         }   
-        #home-page-select-wrap .cover_sod:before{
+        .home-page-select-wrap .cover_sod:before{
                 top: 20%;
         }    
     
