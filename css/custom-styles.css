@@ -537,6 +537,9 @@ section h2 strong {
         padding: 70px 0;
     }
 }
+#event .main-section-margins h2{
+    text-align: left;
+}
 /* ---------------- event styles ENDS--------------------*/
 
 button.icon-btn,
