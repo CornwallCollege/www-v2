@@ -680,7 +680,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function () {
-   // if (location.pathname.indexOf("location-pages") !== -1) {
+    if (location.pathname.indexOf("location-pages") !== -1) ||
+        location.pathname.indexOf("apprenticeship-hub") !== -1){
         //jQuery RSS parse for events on campus pages
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
         var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
@@ -730,7 +731,7 @@ $(document).ready(function () {
                 });
             }
         });
-   // }
+    }
 });
 /*------------------- Download  filer ISOTOPE ----------------------*/
 if (location.pathname.indexOf("about-pages") !== -1) {
