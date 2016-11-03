@@ -69,8 +69,12 @@
     .home {
         background: rgba(0, 0, 0, 0.3)!important;
     }
-
-
+    #whats-on-group,
+    #whats-on-duchy,
+    #whats-on-falmouth,
+    #whats-on-bicton{
+        cursor: pointer;
+    }
 /* slide font styles */
     .swiper-slide h1,
     .swiper-slide p{

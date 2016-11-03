@@ -89,7 +89,7 @@ $(function () {
                 paginationClickable: true,
                 direction: 'vertical',
                 spaceBetween: 0,
-                nextButton: '.swiper-button-more',
+                nextButton: '#whats-on-group',
                 prevButton: '.swiper-button-less',
                 threshold: 50,
                 mousewheelControl: true,
