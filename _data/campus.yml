@@ -44,29 +44,30 @@
 
 
   facilities:
-    - title: Learning <br> Centre
+    - title: Learning<br>Centre
       location: Bicton
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
       link: /bicton-learning-area/
       image: /bicton/learning-centre.jpg
       image-thumb: /bicton/learning-centre-thumb.jpg
 
 
-    - title: Students’<br> Union
+    - title: Bicton<br>Earth
       location: Bicton
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!<br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union<br><strong>Student Bar & Social</strong><br><br>Sun to Thur 7pm – 11pm<br> The social life at the College is full with regular themed event nights, karaoke, quiz nights and the big party nights of the year when we hold the Summer Festival and Winter Ball. For students who enjoy shopping, weekend trips are arranged to Exeter on a regular basis and a free weekly minibus to the local supermarket.
       link: /bicton-learning-area/
       image: /bicton/students-union.jpg
       image-thumb: /bicton/students-union-thumb.jpg
+      read-more: /facility-pages/bicton-earth.html
 
-    - title: Restaurant & <br> Café
+    - title: Restaurant &<br>Café
       location: Bicton
-      detail: <strong>Bicton Kitchen Restaurant</strong><br><strong>Weekdays </strong>7.30am - 9.30am (Breakfast), 9.30am - 12noon (Hot Snacks),<br>12noon - 1.45pm (Lunch), 2pm - 4pm (Snacks & Homemade Cakes),5pm - 6.15pm (Dinner)<br><strong>Weekends </strong>11am - 2.30pm (Lunch), 4pm - 6pm (Dinner), call to order a meal.<br><br>We provide a variety of meals for all dietary requirements and allergies. It is at the heart of Bicton House, offering a wide & varied menu of street food, wholesome, healthy food and snacks. We offer a choice of three main meals during the week and at weekends use a call to order system.<br><br> <strong>Café Neo</strong><br>Mon to Fri 8.30am – 1.30pm <br> Freshly Brewed Barista Coffee and tasty treats, the Café is the hub for all students to connect and relax.
+      detail: <strong>Bicton Kitchen Restaurant</strong><br><strong>Weekdays </strong>7.30am - 9.30am (Breakfast), 9.30am - 12noon (Hot Snacks),<br>12noon - 1.45pm (Lunch), 2pm - 4pm (Snacks & Homemade Cakes),5pm - 6.15pm (Dinner)<br><strong>Weekends </strong>11am - 2.30pm (Lunch), 4pm - 6pm (Dinner), call to order a meal.<br><br>We provide a variety of meals for all dietary requirements and allergies. It is at the heart of Bicton House, offering a wide & varied menu of street food, wholesome, healthy food and snacks. We offer a choice of three main meals during the week and at weekends use a call to order system.<br><br> <strong>Café Neo</strong><br>Mon to Fri 8.30am – 1.30pm<br>Freshly Brewed Barista Coffee and tasty treats, the Café is the hub for all students to connect and relax.
       link: /bicton-learning-area/
       image: /bicton/restaurant.jpg
       image-thumb: /bicton/restaurant-thumb.jpg
 
-    - title: Residential <br> Accommodation
+    - title: Residential<br>Accommodation
       location: Bicton
       detail: We understand that feeling settled within your environment gives you a much better chance of enjoying your course, meeting new friends and more time to study. Our accommodation is situated on the Bicton College campus at East Budleigh, Devon and we are able to offer a total of 231 beds. Layouts include two/three bed shared rooms with a shared shower and toilets, single room with shared bathroom facilities and ensuite room. All blocks have common rooms. We also have rooms and facilities that have been adapted for disabled students.<br><br>Bicton’s dedicated Residential Services Team support students in all areas of accommodation, counselling, careers guidance, enrichment activities, funding and transport. We will endeavour to make your time here a truly great experience, both in and outside the classroom.
       link: /bicton-learning-area/
@@ -81,8 +82,7 @@
       image: /bicton/sports-outdoor.jpg
       image-thumb: /bicton/sports-outdoor-thumb.jpg
 
-
-    - title: Bicton <br> Equine
+    - title: Equestrian<br>Centre
       location: Bicton
       detail: The Equestrian Centre provides excellent teaching and learning facilities for full and part-time students and external customers. See the section on Equine courses for more information. The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC-Schooling field, Walker, Weighbridge and Solarium. There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.<br>We offer a range of Livery options for Students, from Working Livery to Full Livery. Our team of highly qualified experienced staff are on hand to offer their expertise. If you are interested in booking the facilities or livery options, please contact us on 01395 562354,<br> or email equestrian.centre@bicton.ac.uk
       link: /bicton-learning-area/
@@ -96,11 +96,12 @@
       image: /bicton/childcare.jpg
       image-thumb: /bicton/childcare-thumb.jpg
 
-    - title: Animal Management & Agriculture
-      detail: Bicton’s Home Farm is a working commercial farm. The farm's core objectives are:<br>To provide state-of-the-art resources for education and practical training.<br>To generate a financial surplus for re-investment.<br>To show efficient methods of production and demonstrate leading practices in land use.<br>To provide Devon's agricultural industry with innovative and sustainable pathways for the future.<br>The farm is run with the aim of producing above average husbandry results and financial returns. <br> Students undertake regular periods of work experience and practical instruction, enabling them to gain a wide appreciation of the differing sectors of agriculture.
+    - title: Home<br>Farm
+      detail: Bicton’s Home Farm is a working commercial farm. The farm's core objectives are:<br>To provide state-of-the-art resources for education and practical training.<br>To generate a financial surplus for re-investment.<br>To show efficient methods of production and demonstrate leading practices in land use.<br>To provide Devon's agricultural industry with innovative and sustainable pathways for the future.<br>The farm is run with the aim of producing above average husbandry results and financial returns.<br>Students undertake regular periods of work experience and practical instruction, enabling them to gain a wide appreciation of the differing sectors of agriculture.
       link: /bicton-learning-area/
       image: /bicton/animal-management.jpg
       image-thumb: /bicton/animal-management-thumb.jpg
+      read-more: /facility-pages/bicton-home-farm.html
 
 
   learning-areas:
@@ -151,14 +152,14 @@
   anchor: "dbs"
   slug: "dbs-bristol"
   facilities:
-    - title: dBs <br> Music Studios FE
+    - title: dBs<br>Music Studios FE
       location: Bristol
       detail:  Temple Studios<br>Temple Gate<br>Bristol<br>BS1 6QA<br>Tel 0333 344 2235<br><br>Enquiries 8.30am - 5pm<br>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. dBs Music opened their purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. Students have access to top recording and production equipment, the latest industry standard software packages and IT facilities. Highlights include 5 studios, 4 practice/rehearsal rooms, live room, and 5 IT Suites. All supported by a team of tutors passionate about passing on their years of experience and knowledge.
       link: /bristol-learning-area/
       image: /bristol/dbs-music.jpg
       image-thumb: /bristol/dbs-music-thumb.jpg
 
-    - title: dBs <br> Music Studios HE
+    - title: dBs<br>Music Studios HE
       location: Bristol
       detail:  17 St Thomas Street<br>Bristol<br>BS1 6JS<br>Tel 03333 442238<br><br>Enquiries 8.30am - 5pm<br>The latest addition to dBs Music is the state-of-the-art HE facility in central Bristol. Equipped with 10 recording and production studios, dedicated surround sound studio, Foley room, large live rooms and exceptional lecture theatre/viewing room. It is also the only education facility in the UK to house the extraordinary API 1608 Recording Console. As in all dBs centres, Bristol HE students are taught by a team of excellent tutors from a vast range of professional backgrounds all backed up by a comprehensive guest lecture programme that in the recent past has included DJ Maseo (De La Soul), Alistair Lindsey (Head of Music Production for Sony Games), Matt Colton (Alchemy Mastering) and many more at the top of their game in the industry.
       link: /bristol-learning-area/
@@ -219,7 +220,7 @@
       partner-link: http://www.heartlandscornwall.com/
 
   facilities:
-    - title: Students' <br> Union
+    - title: Students'<br>Union
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!<br><br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union<br><br><strong>Pirans College Shop</strong> <br>On campus we also have the well-stocked Piran’s College Shop, located in Student Central. The shop sells stationery, art equipment, food and drinks, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. Card payments can be taken (minimum £3 spend).
       link: /camborne-learning-area/
       image: /camborne/students-union.jpg
@@ -232,9 +233,8 @@
       image-thumb: /camborne/koko-hair-beauty-salon-thumb.jpg
       read-more: /facility-pages/koko.html
 
-    - title: Restaurants & <br> Cafe
+    - title: Restaurants &<br>Cafe
       detail: <strong>Trevenson Restaurant <br></strong>Mon to Fri for lunch, some Wed evenings (term) <br>To make a reservation 01209 616160 or via Facebook. The award winning Trevenson Restaurant is one of two fine dining commercial restaurants within the Cornwall College Group. <br><br><strong>Café Metro, Penhaligion Restaurant & Denise’s Snack Bar <br>Cafe Metro </strong>Mon to Fri 8.40am - 2pm, Pop up Cafe Tues to Fri 10.30am - 1pm (term)<br><strong>Penhaligon</strong> Mon to Fri, 8.30am to 2pm (term time), 9.30am to 1.30pm (holidays) 01209 616297 or 01209 616199<br><strong>Denise’s Snack Bar</strong> (Brunel) Mon to Fri, 8.30am to 3pm (term time) Tel 01209 616211<br>
-
       link: /camborne-learning-area/
       image: /camborne/trevenson-restaurant.jpg
       image-thumb: /camborne/trevenson-restaurant-thumb.jpg
@@ -246,14 +246,14 @@
       image: /camborne/sport-science-lab.jpg
       image-thumb: /camborne/sport-science-lab-thumb.jpg
 
-    - title: dBs <br> Music Studios
+    - title: dBs<br>Music Studios
       detail: Industry leader dBs Music have created a state-of-the-art recording, production and performance facility directly on our Camborne campus. The building now houses industry standard studios, rehearsal spaces, IT Suites, dedicated DJ pods and a surround sound lecture theatre. If you are crazy about music and sound and have a real passion to be working in this industry then you will love what dBs Music is all about. At dBs Music we give a true flavor of the music industry and provide you with an environment that will inspire, challenge and excite the music professional in you. Whilst we provide our students with the necessary theoretical foundation they need to support their vocational practice, it is our belief that students should spend most of their time honing their music production craft and getting practical experience on the very best industry standard equipment. The facilities within dBs Music at Cornwall College Camborne are available outside of normal class time.
       link: /camborne-learning-area/
       image: /camborne/dbs-music.jpg
       image-thumb: /camborne/dbs-music-thumb.jpg
 
     - title: Learning Centre & <br>CDP Design and Print
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all. On campus we also have a fully operating print facility on site, CDP Designs & Print.
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all. On campus we also have a fully operating print facility on site, CDP Designs & Print.
       link: /camborne-learning-area/
       image: /camborne/learning-cent.jpg
       image-thumb: /camborne/learning-centre-thumb.jpg
@@ -264,14 +264,14 @@
       image: /camborne/gym-sport-centre.jpg
       image-thumb: /camborne/gym-sport-centre-thumb.jpg
 
-    - title: Flying Start <br> Childcare
+    - title: Flying Start<br>Childcare
       detail: We offer great childcare at Cornwall College, Camborne. If you have young children you may be eligible for financial support towards your childcare costs.<br><br><strong>Nurseries</strong><br> Our nursery, provides high quality childcare; enabling you to leave your child or children in good hands while you are in class.<br><br>Take-up for places is very competitive so you should contact the nursery as soon as you know you need a place. The Flying Start nursery on the Cornwall College Camborne campus. <br>For more information contact 01209 611609
       link: /camborne-learning-area/
       image: /camborne/childcare.jpg
       image-thumb: /camborne/childcare-thumb.jpg
 
   #  - title: Piran's College Shop
-   #   detail: "If you need a pen, a notepad or forgotten somebody’s birthday Piran’s has everything you need. <br> Piran’s College Shop is a cheerful, well-stocked shop, located in Campus Central. The shop sells stationery, art equipment, chilled foods and drinks, “old fashioned – loose sweets”, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. <br>Card payments can be taken (minimum £3 limit). <br>The shop also offers a lot of opportunities for students to complete work experience.<br> Students from the Faculty for Continuing & Community Education, come to the shop, they learn to serve customers, price items, order stock and basic skills to  run a shop.<br> Students from different faculties often produce items and sell them in the shop.<br> Business/Enterprise & IT students come to the shop to complete parts of their business course criteria.<br><br> Pirans shop is in the Trelawney Building, ground floor."
+   #   detail: "If you need a pen, a notepad or forgotten somebody’s birthday Piran’s has everything you need.<br>Piran’s College Shop is a cheerful, well-stocked shop, located in Campus Central. The shop sells stationery, art equipment, chilled foods and drinks, “old fashioned – loose sweets”, gifts, jewellery, greeting cards, stamps, memory sticks, USB gadgets, earphones, newspapers, ice creams and college hoodies. <br>Card payments can be taken (minimum £3 limit). <br>The shop also offers a lot of opportunities for students to complete work experience.<br> Students from the Faculty for Continuing & Community Education, come to the shop, they learn to serve customers, price items, order stock and basic skills to  run a shop.<br> Students from different faculties often produce items and sell them in the shop.<br> Business/Enterprise & IT students come to the shop to complete parts of their business course criteria.<br><br> Pirans shop is in the Trelawney Building, ground floor."
       #link: /camborne-learning-area/
       #image: /camborne/pirans-shop.jpg
       #image-thumb: /camborne/pirans-shop -thumb.jpg
@@ -388,7 +388,7 @@
       image: /eden/eden-sessions.jpg
       image-thumb: /eden/eden-sessions-thumb.jpg
 
-    - title: Foundation <br> Building
+    - title: Foundation<br>Building
       detail: The Foundation Building is the hub of the education activity on site housing most of the dedicated classroom spaces and the HE Student Common Room.
       link: /eden-learning-area/
       image: /eden/eden-foundation-building-LG.jpg
@@ -468,19 +468,19 @@
       image: /falmouth/learning-centre.jpg
       image-thumb: /falmouth/learning-centre-thumb.jpg
 
-    - title: Students’ <br> Union
+    - title: Students’<br>Union
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!<br><br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union.
       link: /falmouth-learning-area/
       image: /falmouth/students-union.jpg
       image-thumb: /falmouth/students-union-thumb.jpg
 
-    - title: Sails <br> Café
+    - title: Sails<br>Café
       detail: Mon to Fri, 8.15am - 3pm daily (term time)<br>5 Rating and Gold Award for Cornwall Healthy Eating Federation<br>The café offers a great choice of hot and cold snacks together with soft drinks and confectionery. We also provide a Weekly Special of a hot meal along with other meal deals and coffee and delicious homemade cake deals. All allergens and dietary requirements catered for.<br>Tel 01326 310327 if you wish to order any specific items or if you require catering for events or meetings etc
       link: /falmouth-learning-area/
       image: /falmouth/sails-cafe.jpg
       image-thumb: /falmouth/sails-cafe-thumb.jpg
 
-    - title: Ponsharden <br> Workshops
+    - title: Ponsharden<br>Workshops
       detail: Our workshops at Ponshardon is situated in the heart of the boatbuilding industry. We are in-between Rustler yachts and The National Maritime Museum restoration workshop.<br><br> While using the latest technical processes you will be taught in our dedicated woodworking and specialist fibre reinforced plastics workshops.
       link: /falmouth-learning-area/
       image: /falmouth/ponsharden-workshops.jpg
@@ -498,7 +498,7 @@
       image: /falmouth/watersports-centre.jpg
       image-thumb: /falmouth/watersports-centre-thumb.jpg
 
-    - title: Marine Science <br> Lab
+    - title: Marine Science<br>Lab
       detail: We have one of the largest aquatic teaching facilities in the UK. We have research tank systems that include:<br>• Sharks<br>• Corals<br>• Seahorses<br>• Fresh water fish<br>• Tropical fish<br>• Piranhas<br><br> We also have fully equipped laboratories to undertake the necessary research work as part of your course.
       link: /falmouth-learning-area/
       image: /falmouth/marine-science-lab.jpg
@@ -577,8 +577,8 @@
 
 
   facilities:
-    - title: Learning <br> Centre
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
+    - title: Learning<br>Centre
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
       image: /newquay/learning-centre.jpg
       image-thumb: /newquay/learning-centre-thumb.jpg
 
@@ -588,13 +588,13 @@
       image: /newquay/students-union.jpg
       image-thumb: /newquay/students-union-thumb.jpg
 
-    - title: The <br> Watering Hole
-      detail: Mon and Fri  9.45am - 1.30pm <br>Tues to Thur 9.30am - 1.30pm <br><br>A small café offering all home-made locally sources snacks and light meals everyday. We sell a wide range of sandwiches, rolls, baguettes, wraps, salads, jacket potatoes, homemade quiche, homemade soup and other exciting homemade food. <br> <br>Our aim is to supply food which is locally produced, free range, organic, farm assured, English and where possible from sustainable sources.
+    - title: The<br>Watering Hole
+      detail: Mon and Fri  9.45am - 1.30pm <br>Tues to Thur 9.30am - 1.30pm <br><br>A small café offering all home-made locally sources snacks and light meals everyday. We sell a wide range of sandwiches, rolls, baguettes, wraps, salads, jacket potatoes, homemade quiche, homemade soup and other exciting homemade food.<br><br>Our aim is to supply food which is locally produced, free range, organic, farm assured, English and where possible from sustainable sources.
       link: /newquay-learning-area/
       image: /newquay/the-watering-hole.jpg
       image-thumb: /newquay/the-watering-hole-thumb.jpg
 
-    - title: Wild <br> Things
+    - title: Wild<br>Things
       detail: We have conservation areas including a pond and wildflower meadow that are great for studying nature up close
       link: /newquay-learning-area/
       image: /newquay/wild-things.jpg
@@ -612,13 +612,13 @@
       image: /newquay/student-invasive.jpg
       image-thumb: /newquay/student-invasive-thumb.jpg
 
-    - title: Exciting <br> Partnerships
+    - title: Exciting<br>Partnerships
       detail: We have our own classrooms in Newquay Zoo and Blue Reef Aquarium and on Tolcarne Beach and close partnerships with St Francis Dogs Home, Cornish Birds of Prey, Cornwall Wildlife Trust and Skindog Surfboards.
       link: /newquay-learning-area/
       image: /newquay/bluereef.jpg
       image-thumb: /newquay/bluereef-thumb.jpg
 
-    - title: The Gannel <br> Estuary
+    - title: The Gannel<br>Estuary
       detail: This tidal river, which has recently been given Marine Conservation Zone (MCZ) status, provides a great place to research birds, plants and fish.
       link: /newquay-learning-area/
       image: /newquay/the-gannel-estuary.jpg
@@ -690,7 +690,7 @@
 
   facilities:
     - title: Learning <br>Centre
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all. On Camborne campus we also have a fully operating print facility on site, CDP Designs & Print.
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all. On Camborne campus we also have a fully operating print facility on site, CDP Designs & Print.
       link: /rosewarne-learning-area/
       image: /rosewarne/learning-centre.jpg
       image-thumb: /rosewarne/learning-centre-thumb.jpg
@@ -701,7 +701,7 @@
       image: /rosewarne/students-union.jpg
       image-thumb: /rosewarne/students-union-thumb.jpg
 
-    - title: Choughs <br> Restaurant
+    - title: Choughs<br>Restaurant
       detail: Chough’s Canteen <br><br>8.30am - 4pm (term time) Tel 01209 721348<br>Chough’s at Rosewarne pride themselves on their quality home cooked meals made freshly each day, along with scrumptious homemade sandwiches.Why not visit Chough’s and meet their friendly and helpful staff who are only too willing to help cater for all your dietary and allergy requirements.<br> If you wish to order any specific items or if you require catering for events or meetings please contact each individual eatery.Choughs has a 5 Rating and Platinum Award for Cornwall Healthy Eating Federation.
       link: /rosewarne-learning-area/
       image: /rosewarne/choughs-restaurant.jpg
@@ -713,7 +713,7 @@
       image: /rosewarne/animal-management-centre.jpg
       image-thumb: /rosewarne/animal-management-centre-thumb.jpg
 
-    - title: Rosewarne <br> Nursery
+    - title: Rosewarne<br>Nursery
       detail: This well established Nursery supplies most of the garden centres across Cornwall including Carnon Downs, Chacewater and Trevena Cross, as well as having prestigious clients such as the Eden Project, Lost Gardens of Heligan and the National Trust. Sustainability and environmental issues are always at the forefront of our work here, for example, using peat-free compost and relying on borehole water to supply the nursery. It is this ethos that has encouraged the likes of Eden and the National Trust to work closely with us.<br><br>We supply a broad variety of plants including Southern Hemisphere plants, coastal plants and a good range of hardy shrubs, grasses and herbaceous varieties focussing on the landscape trade. Our speciality is the hardy Agapanthus Rosewarne. The nursery is run by a dedicated team to a high standard of quality and cleanliness to show how a wholesale nursery should be run, encouraging best practice. To visit please contact our Nursery Manager https://www.facebook.com/rosewarnenurseries/
       link: /rosewarne-learning-area/
       image: /rosewarne/working-nursery.jpg
@@ -725,7 +725,7 @@
       image: /rosewarne/land-based-engineering.jpg
       image-thumb: /rosewarne/land-based-engineering-thumb.jpg
 
-    - title: Agriculture & <br> Farming
+    - title: Agriculture &<br>Farming
       detail: The working farm is home to cattle, ponies, pigs, goats and chickens, as well as a protected cropping unit
       link: /rosewarne-learning-area/
       image: /rosewarne/agriculture.jpg
@@ -800,7 +800,7 @@
 
   facilities:
     - title: Learning <br>Centre
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
       link: /saltash-learning-area/
       image: /saltash/learning-centre.jpg
       image-thumb: /saltash/learning-centre-thumb.jpg
@@ -949,13 +949,13 @@
 
 
   facilities:
-    - title: Learning <br> Centre
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
+    - title: Learning<br>Centre
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
       link: /st-austell-learning-area/
       image: /st-austell/learning-centre.jpg
       image-thumb: /st-austell/learning-centre-thumb.jpg
 
-    - title: Students’ <br> Union
+    - title: Students’<br>Union
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!<br><br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union.
       link: /st-austell-learning-area/
       image: /camborne/students-union.jpg
@@ -967,7 +967,7 @@
       image: /st-austell/gym-fitness-suite.jpg
       image-thumb: /st-austell/gym-fitness-suite-thumb.jpg
 
-    - title: KoKo Hair & <br> Beauty Salon
+    - title: KoKo Hair &<br>Beauty Salon
       detail: Various throughout the week including one Saturday a month KoKo Salon is open to the public. There is dedicated customer parking available.<br><br>A wide range of services and treatments are available, including hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures. As training salons, all services at KoKo are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors. We only use high-quality professional products,from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all KoKo salons. New for 2016 we are delighted to offer skin rejuvenation and hair removal with the Lynton Excelight Advance intense pulsed light system (IPL) – contact your nearest KoKo salon to check availability and discuss your treatment requirements<br><br> Hairdressing 01726 226728 Beauty & Holistic Therapies 01726 226731 <br>koko.staustell@cornwall.ac.uk<br>Download a pricelist.
       link: /st-austell-learning-area/
       image: /st-austell/koko-hair-beauty-salon.jpg
@@ -1126,7 +1126,7 @@
 
   facilities:
     - title: Learning Centre
-      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC <br> You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
+      detail:  9am to 4.30pm, with most offering evening opening hours. (term time)<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
       link: /stoke-climsland-learning-area/
       image: /stoke/learning-centre.jpg
       image-thumb: /stoke/learning-centre-thumb.jpg
@@ -1138,7 +1138,7 @@
       image-thumb: /stoke/students-union-thumb.jpg
 
     - title: Sam’s & Pastures Restaurants
-      detail: Sam's<br> Mon, Tues and Thurs 8.30am to 3pm Wednesday , Friday  8.30am to 2.30pmThe campus restaurant has a hot food counter and snack shack open every day<br> Pastures <br> Monday to Friday, 8.30 to 2.30pm
+      detail: Sam's<br> Mon, Tues and Thurs 8.30am to 3pm Wednesday , Friday  8.30am to 2.30pmThe campus restaurant has a hot food counter and snack shack open every day<br> Pastures<br>Monday to Friday, 8.30 to 2.30pm
       link: /stoke-climsland-learning-area/
       image: /stoke/sams.jpg
       image-thumb: /stoke/sams-thumb.jpg

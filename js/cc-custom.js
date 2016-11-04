@@ -680,11 +680,20 @@ $(document).ready(function(){
 });
 
 $(document).ready(function () {
-    if (location.pathname.indexOf("location-pages") !== -1) ||
-        location.pathname.indexOf("apprenticeship-hub") !== -1){
+    
+    if (location.pathname.indexOf("location-pages") !== -1 ||
+        location.pathname.indexOf("apprenticeship-hub") !== -1) {        
         //jQuery RSS parse for events on campus pages
+        
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
-        var rssurl = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
+        
+        if (location.pathname.indexOf("apprenticeship-hub") !== -1){
+            var event_filter = "//network.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
+        } else {
+            var event_filter = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
+        }
+
+        var rssurl = event_filter;
         $.get(rssurl, function (data) {
             var $XML = $(data);
             $XML.find("item").each(function () {
