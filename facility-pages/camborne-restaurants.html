@@ -3,55 +3,36 @@ layout: about-page
 title: Restaurants & Cafe
 description: Find out more about sport services at Bicton Campus
 background-image: sport-desktop.jpg
+postcode: TR15 3RD
 ---
 {% include /about/about-header.html %}
 
 
 <section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
+
   <!-- MENUS BOX -->
-  <article class="col-xs-6 col-md-12" style="margin-bottom: 15px;">
-    <table>
-      <tr>
-        <td class="text-center" style="padding:10px; background-color: #52B3D9; font-size:20px; color: #fff; opacity:0.9; padding-right: 45px; max-width:90px"></td>
-        <td style="background-color: #52b3d9"></td>
-      </tr>
-      <tr>
-        <td class="text-center" style="padding:10px; background-color: #52B3D9; color: #fff;opacity:0.9"><i class="fa fa-file fa-2x" aria-hidden="true"></i></td>
-        <td style="background-color: #52B3D9; padding-right: 8px"><a style="color:white; padding:8px" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a> <br></td>
-      </tr>
-      <tr>
-        <td class="text-center" style="padding:10px; background-color: #52B3D9; color: #fff;opacity:0.9"><i class="fa fa-file fa-2x" aria-hidden="true"></i></td>
-        <td style="background-color: #52B3D9; padding-right: 8px"><a style="color:white; padding:8px" href="/documents/other/Trevenson MENU 12.pdf">Trevenson Tasting Menu</a> <br></td>
-      </tr>
-      <tr>
-        <td class="text-center" style="padding:10px; background-color: #52B3D9; color: #fff;opacity:0.9"><i class="fa fa-file fa-2x" aria-hidden="true"></i></td>
-        <td style="background-color: #52B3D9; padding-right: 8px"><a style="color:white; padding:8px; padding-right: 16px;" href="/documents/other/Christmas Lunch Menu 2013.pdf">Trevenson Christmas Menu</a><br></td>
-      </tr>
-    </table>
+  <article class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom: 30px">
+    <a class="btn" style="color:#fff" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
+    <a class="btn" style="color:#fff" href="/documents/other/Trevenson MENU 12.pdf">Trevenson Tasting Menu</a><br>
+    <a class="btn" style="color:#fff" href="/documents/other/Christmas Lunch Menu 2013.pdf">Trevenson Christmas Menu</a><br>
   </article>
 
   <!-- DIRECTIONS -->
-  <article  class="col-xs-6 col-md-12" style="margin-bottom: 15px;">
-    <table>
-      <tr>
-        <td style="padding:5px; ; background-color: #f7f7f7; font-size:20px; opacity:0.9">
-          <form action="https://maps.google.com/maps" method="get" target="_blank">
-            <label for="saddr" style="color:black; font-size:20px; font-weight:300">Enter your location</label><br/>
-            <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
-            <input type="hidden" name="daddr" value="CAMBORNE CAMPUS Trevenson Road, Pool, Redruth, Cornwall TR15 3RD" />
-            <input type="submit" class="icon-btn" value="Get directions" style="color:white; margin-right:14px; background-color: #52b3d9" />
-          </form>
-        </td>
-      </tr>
-      <tr>
-        <td class="text-center" style="padding:5px; background-color: #f7f7f7; font-size:20px; opacity:0.9"><div style="background-color:#52b3d9; max-width: 185px; padding:5px;"><a style="color:white;font-size:12.5px; background-color: #52b3d9; padding:5px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a></div></td>
-      </tr>
-    </table>
+  <article class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom:30px">
+    <div style="background-color:#f7f7f7; padding:20px">
+      <form action="https://maps.google.com/maps" method="get" target="_blank">
+        <h4>Enter your location</h4>
+        <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
+        <input type="hidden" name="daddr" value="CAMBORNE CAMPUS Trevenson Road, Pool, Redruth, Cornwall TR15 3RD"/>
+        <input type="submit" class="icon-btn" value="Get directions" style="color:#fff; background-color:#52b3d9; margin-right:14px"/>
+      </form>
+      <a class="btn" style="color:white; background-color:#52B3D9 font-size:12.5px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a>
+    </div>
   </article>
 
   <!-- Slideshow -->
   <article class="col-xs-12">
-    <div class="slideshow-container" style="width:85%; margin-right:85px;">
+    <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext">1 / 2</div>
         <img src="/images/facilities/slideshow/demo-kitchen.jpg" style="width:100%">
@@ -62,9 +43,8 @@ background-image: sport-desktop.jpg
         <img src="/images/facilities/slideshow/training-kitchen.jpg" style="width:100%">
       </div>
     </div>
-    <br>
 
-    <div style="text-align:center; margin-right:85px;">
+    <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
     </div>
