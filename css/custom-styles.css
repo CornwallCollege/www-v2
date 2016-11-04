@@ -450,7 +450,7 @@ a.ask-a-question:focus {
 /* ---------------- Help bar ENDS -------------------- */
 /* Hidden search form on home page */
 /* Hidden Search form */
-#hidden-search-form {
+.hidden-search-form {
     clear: both;
     margin-top: 20px;
     margin-bottom: 0;
@@ -462,7 +462,7 @@ a.ask-a-question:focus {
     position: relative;
 }
 
-#hidden-search-form input {
+.hidden-search-form input {
     border-radius: 0;
     -webkit-border-radius: 0;
     box-shadow: none;
@@ -473,24 +473,24 @@ a.ask-a-question:focus {
     display: inline;
     color: #52B3D9;
 }
-#hidden-search-form .input-group-addon{
+.hidden-search-form .input-group-addon{
     padding:0;
 }
 
-#hidden-search-form input:focus,
-#hidden-search-form input:hover {
+.hidden-search-form input:focus,
+.hidden-search-form input:hover {
     border-color: #000;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
 
-#hidden-search-form:hover .input-group-addon,
-#hidden-search-form input:focus + .input-group-addon {
+.hidden-search-form:hover .input-group-addon,
+.hidden-search-form input:focus + .input-group-addon {
     background: #000;
     color: #fff;
 }
 
-#hidden-search-form:hover input {
+.hidden-search-form:hover input {
     border-color: #000;
 }
 
@@ -4585,7 +4585,7 @@ a.learning-area:hover{
     background: #f1f1f1
 }
 /* Select or die styles */
-#home-page-select-wrap{
+.home-page-select-wrap{
     z-index:1;
     position: relative;
 }

@@ -85,6 +85,10 @@
         font-weight:300;
     }
 
+    course-search{
+        margin-top: 20px
+    }
+
 @media screen and (max-device-width: 420px){
         .swiper-slide h1{
             font-size: 4rem;
