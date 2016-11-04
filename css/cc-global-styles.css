@@ -588,9 +588,9 @@ div.logo-wrap-scroll :nth-child(4) {
 #search-form .search-submit{
     background: none;
     border: none;
-	padding: 0 15px;
-	height:20px;
-	width:70px;
+    padding: 0px 15px;
+    height: 40px;
+    width:70px;
 }
 
 .input-group-addon i,
