@@ -1,5 +1,5 @@
-<div class="swiper-slide" id="bic-home-slide">
-    <div class="col-xs-12">
+<section class="swiper-slide" id="bic-home-slide">
+    <section class="col-xs-12">
         <section class="container main-section-margins">
 
             <h1 class="text-uppercase">What is most important to you?</h1>
@@ -14,9 +14,9 @@
                 </select>
             </div>
             <div class="course-search transition" style="display:none;">
-                <form name="course-search" class="hidden-search-form course-search" role="search" method="GET" action="//network.cornwall.ac.uk/" >
+                <form name="course-search" class=" hidden-search-form course-search" role="search" method="GET" action="{{site.course_site_baseurl}}" >
                     <div class="input-group margin-bottom-sm col-xs-12 col-md-8 col-md-offset-2">
-                        <!--<input name="s" value="search" type="hidden" />-->
+                        <input type="hidden" name="brand" value="bictoncollege">
                         <input class="form-control" name="s" type="text" placeholder="Course Search">
                         <div class="input-group-addon transition">
                             <button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button>
@@ -31,11 +31,11 @@
             </div>
 
         </section>
-    </div>
-    <div id="whats-on-bicton" class="plus-button">
+    </section>
+    <section id="whats-on-bicton" class="plus-button">
         <i class="fa fa fa-arrow-down swiper-button-more text-uppercase"></i>
         <section>
             <p class="text-uppercase white">check out what's happening @Bicton College</p>
         </section>
-    </div>
-</div>
+    </section>
+</section>
