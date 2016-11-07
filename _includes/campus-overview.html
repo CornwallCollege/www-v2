@@ -32,8 +32,8 @@
             <section class="hidden-xs">
             {% for image in campus.images %}
                 <div class="col-xs-12 col-sm-3 col-lg-3 blog-post-thumbnails">
-                    <a href="{{ image.link }}" data-lightbox="blog-gallery" title="{{ image.title }}" data-title="{{ image.title }}" rel="thickbox" width="900" height="550">
-                    <img src="{{ image.thumb }}" width="150" height="150" class="img-square img-border img-fade img-responsive transition">
+                    <a href="{{ image.link }}" data-lightbox="blog-gallery" title="{{ image.title }}" data-title="{{ image.title }}" rel="thickbox" >
+                    <img src="{{ image.thumb }}" width="150" height="150" alt="{{ image.title }}" class="img-square img-border img-fade img-responsive transition">
                     </a>
                 </div>
             {% endfor %}
