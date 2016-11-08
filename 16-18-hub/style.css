@@ -36,7 +36,7 @@
     font-size: 1.7em!important;
     line-height: 1.5em!important;
 }
-body { font-size: 14px; font-family: 'Lato', sans-serif; }
+body { font-size: 14px; font-family: 'Raleway', sans-serif; }
 /**/
 [class*="-section"] { overflow: hidden; }
 
@@ -67,9 +67,17 @@ a {
 }
 
 .post-date{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
-
+h3{
+    line-height: 1.4em;
+    font-size: 1.8em
+}
+h2{
+    line-height: 1.4em;
+    font-size: 2em!important;
+}
+h2,
 .section-header h2,
 .block-title,
 .slider-section .slide-title,
@@ -102,7 +110,7 @@ a {
 .by-admin p,
 .comment .media-list .media a ,
 .heading {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cutive', sans-serif!important;
 }
 
 .section-header h2,
@@ -159,8 +167,7 @@ a {
 .section-header h2,
 .features-section h2,
 .why-choose h2{
-	font-size: 48px;
-	text-transform: uppercase;
+	font-size: 2.5em;
 }
 .section-header h2 {
 	display: block;
@@ -200,7 +207,6 @@ a {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	font-size: 36px;
 }
 
 .service-section .col-md-6 {
@@ -330,7 +336,7 @@ a {
 }
 
 .features-section:before {
-    width: 44%;
+    width: 48%;
 	position: absolute;
 	height: 100%;
 	top: 0;
@@ -733,7 +739,7 @@ a {
 }
 
 .why-choose:before {
-	width: 56%;
+	width: 60%;
 	position: absolute;
 	height: 100%;
 	top: 0px;
@@ -1008,8 +1014,7 @@ a {
 	transform: skewX(0deg);
 }
 .shape-content h3 {
-	font-size: 36px;
-	margin-bottom: 50px;
+	margin-bottom: 18px;
 }
 
 .shape-content p {
@@ -1024,10 +1029,9 @@ a {
 }
 
 .clean-code-box {
-	top: 33%;
+    top: 25%;
 }
 .clean-code-box p.lead,
-.we-launch h3,
 .we-perfection p.lead{
     text-transform: uppercase;
 }
@@ -1725,7 +1729,7 @@ a {
 .statistics-section h2,
 .service-section h2{
     font-weight: 900;
-    font-size: 72px;
+    font-size: 3em;
     text-transform: uppercase;
     color: #52B3D9;
     margin-bottom: 30px;
@@ -2122,9 +2126,12 @@ a {
 }
 .start-project h2,
 .send-msg h2 {
-	font-size: 55px;
+	font-size: 3em;
 	text-align: left;
 	margin: 40px 0;
+}
+.start-project:first-child h2{
+	text-align:right;
 }
 
 .start-project p,
@@ -2533,7 +2540,7 @@ a {
 	font-weight: 300;
 	margin-bottom: 15px;
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 25px;
 }
 .comment .media-list .media a {

@@ -30,14 +30,17 @@
 }
 
 .slider-section .slide-title span.inner-circle span:nth-child(1) {
-	font-size: 69px;
+    font-size: 2em;
+    line-height: 1.5em;
 }
 
 .slider-section .slide-title span.inner-circle span:nth-child(2) {
-	font-size: 63px;
+    font-size: 2em;
+    line-height: 1.5em;
 }
 .slider-section .slide-title span.inner-circle span:nth-child(3) {
-	font-size: 60px;
+    font-size: 2em;
+    line-height: 1.5em;
 }
 .slider-section .slide-sub-title {
 	color: #fff;
