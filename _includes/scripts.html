@@ -11,19 +11,43 @@
 <script type="text/javascript" src="/js/cookie.js"></script>
 <!--needed on just the home -->
 {% if page.page == 'home' %}
-<script type="text/javascript" src="/js/codebird.js"></script>
-<script type="text/javascript" src="/js/doT.min.js"></script>
-<script type="text/javascript" src="/js/moment.min.js"></script>
-<script type="text/javascript" defer src="/js/jquery.socialfeed.js"></script>
-<script type="text/javascript" src="/js/canvas-video-player.js"></script>
-<script type="text/javascript" src="/js/selectordie.js"></script>
-<script type="text/javascript" src="/js/swiper.jquery.js"></script>
-<script type="text/javascript" src="/js/home.js"></script>
+
+{% bundle %}
+- /js/codebird.js
+- /js/doT.min.js
+- /js/moment.min.js
+- /js/jquery.socialfeed.js
+- /js/canvas-video-player.js
+- /js/selectordie.js
+- /js/swiper.jquery.js
+- /js/home.js
+{% endbundle %}
 
 {% else %}
+
+{% bundle %}
+- https://maps.google.com/maps/api/js?key=AIzaSyBanzA6NUlcWkOb4dC8DyPuxs2S9uIrdkQ
+- /js/jquery.ytplayer.js
+- /js/imagesloaded.pkgd.min.js
+- /js/isotope-2.0.0.pkgd.min.js
+- /js/waypoints-2.0.5.min.js
+- /js/grid.js
+- /js/BetterTube.js
+- /js/jquery.superslides.min.js
+- /js/owl.carousel.min.js
+- /js/jquery.jcarousel.min.js
+- /js/jekyll-search.js
+- /js/lightbox.min.js
+- /js/cc-autohover.js
+- /js/cc-custom.js
+
+{% endbundle %}
+<!--
 <script defer type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBanzA6NUlcWkOb4dC8DyPuxs2S9uIrdkQ"></script>
 <script type="text/javascript" src="/js/jquery.ytplayer.js"></script>
+
 <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
+
 <script type="text/javascript" src="/js/isotope-2.0.0.pkgd.min.js"></script>
 <script type="text/javascript" src="/js/waypoints-2.0.5.min.js"></script>
 <script type="text/javascript" src="/js/grid.js"></script>
@@ -34,8 +58,7 @@
 <script type="text/javascript" src="/js/jekyll-search.js"></script>
 <script type="text/javascript" src="/js/lightbox.min.js"></script>
 <script type="text/javascript" src="/js/cc-autohover.js"></script>
-<!-- custom scripts-->
+<!-- custom scripts
 <script type="text/javascript" src="/js/cc-custom.js"></script>
+-->
 {% endif %}
-
-
