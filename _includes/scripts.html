@@ -3,62 +3,14 @@
 <!-- Minified JS FILES  -->  
 
 <!--needed on all pages -->
-<script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
-<script type="text/javascript" src="/js/jquery-ui-1.11.3.min.js"></script>
-<script type="text/javascript" src="/js/modernizr-2.8.3.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap-3.2.0.min.js"></script>
-<script type="text/javascript" src="/js/classie.js"></script>
-<script type="text/javascript" src="/js/cookie.js"></script>
+//=require jquery-2.1.3.min
+//=require jquery-ui-1.11.3.min
+//=require modernizr-2.8.3.min
+//=require bootstrap-3.2.0.min
+//=require cookie
+//=require classie
 <!--needed on just the home -->
-{% if page.page == 'home' %}
 
-{% bundle %}
-- /js/codebird.js
-- /js/doT.min.js
-- /js/moment.min.js
-- /js/jquery.socialfeed.js
-- /js/canvas-video-player.js
-- /js/selectordie.js
-- /js/swiper.jquery.js
-- /js/home.js
-{% endbundle %}
 
-{% else %}
-
-{% bundle %}
-- https://maps.google.com/maps/api/js?key=AIzaSyBanzA6NUlcWkOb4dC8DyPuxs2S9uIrdkQ
-- /js/jquery.ytplayer.js
-- /js/imagesloaded.pkgd.min.js
-- /js/isotope-2.0.0.pkgd.min.js
-- /js/waypoints-2.0.5.min.js
-- /js/grid.js
-- /js/BetterTube.js
-- /js/jquery.superslides.min.js
-- /js/owl.carousel.min.js
-- /js/jquery.jcarousel.min.js
-- /js/jekyll-search.js
-- /js/lightbox.min.js
-- /js/cc-autohover.js
-- /js/cc-custom.js
-
-{% endbundle %}
-<!--
-<script defer type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBanzA6NUlcWkOb4dC8DyPuxs2S9uIrdkQ"></script>
-<script type="text/javascript" src="/js/jquery.ytplayer.js"></script>
-
-<script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
-
-<script type="text/javascript" src="/js/isotope-2.0.0.pkgd.min.js"></script>
-<script type="text/javascript" src="/js/waypoints-2.0.5.min.js"></script>
-<script type="text/javascript" src="/js/grid.js"></script>
-<script type="text/javascript" src="/js/BetterTube.js"></script>
-<script type="text/javascript" src="/js/jquery.superslides.min.js"></script>
-<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script>
-<script type="text/javascript" src="/js/jekyll-search.js"></script>
-<script type="text/javascript" src="/js/lightbox.min.js"></script>
-<script type="text/javascript" src="/js/cc-autohover.js"></script>
-<!-- custom scripts
-<script type="text/javascript" src="/js/cc-custom.js"></script>
--->
-{% endif %}
+<!-- custom scripts -->
+//require cc-custom

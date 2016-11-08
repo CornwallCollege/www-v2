@@ -24,16 +24,15 @@ exclude:
   - SupportCode
 
 gems:
-   - closure-compiler
+    - jekyll-assets
 
-# Plugins.
-asset_bundler:
-  bundle_name: mini-v10
+assets:
+    sources:
+        - js
+    compress:
+        css:  sass
+        js:   uglifier
 
-  compress:
-    js: closure
-    css: yui
-    dev: true
 
 relative_permalinks: false
 
