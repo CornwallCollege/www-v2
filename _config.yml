@@ -28,7 +28,8 @@ gems:
 
 assets:
     sources:
-        - js
+        - _assets/js
+        - _assets/css
     compress:
         css:  sass
         js:   uglifier

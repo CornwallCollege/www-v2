@@ -512,6 +512,7 @@ div.logo-wrap-scroll :nth-child(4) {
     height: 45px;
     display: inline;
     color: #52B3D9;
+    padding: 26px;
 }
 
 #search-form input:focus,
