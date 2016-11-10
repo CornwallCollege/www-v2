@@ -43,7 +43,7 @@
 
 - business: Evolve Sport Fitness & Outdoor Activities
   color: 37aae3
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
   short: evolve
   logo: /images/public/evolve.jpg
   image: /images/public/sport-fitness.jpg
@@ -96,7 +96,7 @@
 
 - business: Equine
   color: 007B4C
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-4
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
   short: equine1
   image: /images/public/equine.jpg
   title:
@@ -134,7 +134,7 @@
 
 - business: Mill Autoquip
   color: e6007e
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
+  class: cluster-hover col-xs-12 col-sm-3 col-lg-4
   short: mill
   logo: /images/public/milllogo-open-to-public.png
   image: /images/et/automotive-mobile.jpg
