@@ -33,7 +33,7 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
       <ul>
         {% for business in site.data.open-public %}
         <li class="{{ business.class }}" onclick="window.smoothScrollTo('{{business.short}}');">
-          <a class="transition {{ business.short }}" >
+          <a class="transition {{ business.short }}" style="background-image:url( {{ business.image }} )">
             <h3>{{ business.business }}</h3>
           </a>
         </li>
