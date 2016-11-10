@@ -3,7 +3,6 @@ source "http://rubygems.org"
 
 # gem "rails"
 gem 'jekyll', '~>3.0'
-gem 'therubyracer'
 gem 'closure-compiler'
 gem 'jekyll-assets'
 gem 'coffee-script' # We want to write our javascripts in CoffeeScript
