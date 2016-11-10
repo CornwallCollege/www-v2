@@ -22,17 +22,17 @@
     - campus-name: Flying Start Childcare (Camborne)
       id: camborne-childcare
       class: panel-collapse collapse in
-      text: "Tel: 01209 611609"
+      text: "Tel&#58; 01209 611609"
 
     - campus-name: Saplings Children's Centre (Bicton)
       id: bicton-childcare
       class: panel-collapse collapse
-      text: "Tel: 01579 371004"
+      text: Tel&#58; 01579 371004
 
     - campus-name: Flying Start Childcare (Saltash)
       id: saltash-childcare
       class: panel-collapse collapse
-      text: "Tel: 01752 840240"
+      text: Tel&#58; 01752 840240
   #table:
    # - icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
@@ -61,51 +61,38 @@
       id: camborne-evolve
       class: panel-collapse collapse in
       text: Mon to Thu 12pm – 9pm, Fri 12pm – 8pm, Sat & Sun open on request.</br>
-            Tel 01209 617732</br>
-            Email sportandfitness@cornwall.ac.uk</br>
-            Facebook www.facebook.com/CCGGetFit</br>
-            Twitter @CCGGetFit</br>
+            Tel&#58; 01209 617732<br>
       download: ""
 
     - campus-name: Evolve Sport and Fitness (St-Austell)
       id: staustell-evolve
       class: panel-collapse collapse
-      text: Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm</br>Opening Hours subject to change</br>
-            Tel 01726 226440</br>
-            Email sportandfitness@cornwall.ac.uk</br>
-            Facebook www.facebook.com/CCGGetFit</br>
-            Twitter @CCGGetFit</br>
+      text: Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm</br>Opening Hours subject to change<br>
+            Tel&#58; 01726 226440<br>
       download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
 
     - campus-name: Evolve Sport, Fitness and Outdoors (Stoke Climsland)
       id: stoke-evolve
       class: panel-collapse collapse
-      text: Please contact us for opening hours</br>
-            Tel 01579 372206</br>
-            Email sportandfitness@cornwall.ac.uk</br>
-            Facebook www.facebook.com/CCGGetFit</br>
-            Twitter @CCGGetFit</br>
+      text: Please contact us for opening hours<br>
+            Tel&#58; 01579 372206<br>
       download: ""
 
     - campus-name: Evolve Sport, Fitness and Outdoors (Bicton)
       id: bicton-evolve
       class: panel-collapse collapse
       text: Mon to Thu 5pm – 9.30pm</br>
-            Fri 5pm – 8pm</br>
-            Sat & Sun open on request</br>
-            Tel 01209 617732</br>
-            Email sportandfitness@cornwall.ac.uk</br>
+            Fri 5pm – 8pm<br>
+            Sat & Sun open on request<br>
+            Tel&#58; 01209 617732<br>
       download: "/documents/Bicton Download 1- Sports Fees and Charges 1617.pdf"
 
   table:
-   # - icon: fa fa-clock-o
-   #   detail: "12:00 - 13:00"
+    - icon: fa fa-envelope-o
+      detail: <a style="color:white" href="mailto:sportandfitness@cornwall.ac.uk" target="_top">e-mail us</a>
 
-   # - icon: fa fa-envelope-o
-    #  detail: <a href="mailto:sportandfitness@cornwall.ac.uk" target="_top">E-mail Me</a>
-
-     - icon: fa fa-facebook
-       detail: <a style="color:white" href="https://www.facebook.com/CCGGetFit">/CCGGetFit</a>
+    - icon: fa fa-facebook
+      detail: <a style="color:white" href="https://www.facebook.com/CCGGetFit">/CCGGetFit</a>
 
 - business: Equine
   color: 007B4C
@@ -113,7 +100,8 @@
   short: equine1
   image: /images/public/equine.jpg
   title:
-  text: <P>The Equestrian Centre provides excellent teaching and learning facilities for full and part&#8208;time students and external customers. See the section on Equine courses for more information. The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC&#8208;Schooling field, Walker, Weighbridge and Solarium. There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</p>
+  text: <P>The Equestrian Centre provides excellent teaching and learning facilities for full and part&#8208;time students and external customers. See the section on Equine courses for more information.</p>
+        <p>The facilities include an extended 20m x 61m indoor arena with a Wax Pro surface with mirrors, gallery seating for 148 people, two state of the art teaching rooms, judging areas and staff offices/reception area. In addition there is a 30 x 60 Outdoor arena, 2 full sets of show jumps, Music and PA system, XC&#8208;Schooling field, Walker, Weighbridge and Solarium. There are 2 separate yards consisting of 14 traditional stables adjacent to the Indoor School and 24 internal loose boxes in an American Style Barn.</p>
         <p>We offer a range of Livery options for Students, from Working Livery to Full Livery. Our team of highly qualified experienced staff are on hand to offer their expertise. If you are interested in booking the facilities or livery options, please contact using the information below.</p>
         <p>Our Stoke Climsland campus is home to an industry approved Equestrian Centre with extensive stabling and is equipped with two indoor arenas and large outdoor arena, a weighbridge, horse walker, wash down and solarium facilities as well as state&#8208;of&#8208;the&#8208;art equipment and technology, all of which are used extensively by students. With excellent links to employers, practitioners and researchers, nationally and internationally, our students have the opportunity to train and develop their skills for employment in all aspects of the equestrian industry.</p>
         <p>Duchy College is also home to the Equitation Science Research and Training Centre which works closely with the International Society for Equitation Science. Our students also benefit from comprehensive links with leading equine practitioners such as equine nutritionists, organisations, charities (such as The Horse Trust), veterinary professionals, competitors and equitation science practitioners.</p>
@@ -122,7 +110,7 @@
     #  detail: "12:00 - 13:00"
 
     #- icon: fa fa-envelope-o
-    #  detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
+    #  detail: <a href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">e-mail us</a>
 
     #- icon: fa fa-phone
     #  detail: 01209 611659
@@ -133,15 +121,15 @@
     - campus-name: Stoke Equine
       id: stoke-equine
       class: panel-collapse collapse in
-      text: Tel 01579 372210</br>
-            Email equine.events@duchy.ac.uk</br>
+      text: Tel&#58; 01579 372210</br>
+            Email&#58; equine.events@duchy.ac.uk</br>
             <a href="/documents/Stoke Equine Terms of Hire.pdf">Download Livery & Equestrian Centre Hire Price list</a>
 
     - campus-name: Bicton Equine
       id: bicton-equine
       class: panel-collapse collapse
-      text: Tel 01395 562354 </br>
-            Email equestrian.centre@bicton.ac.uk</br>
+      text: Tel&#58; 01395 562354 </br>
+            Email&#58; equestrian.centre@bicton.ac.uk</br>
             <a href="/documents/Bicton Equine Pricelist 2016.pdf">Download Livery & Equestrian Centre Hire Price list</a>
 
 - business: Mill Autoquip
@@ -161,7 +149,7 @@
       detail: "8.30am - 5pm"
 
     - icon: fa fa-envelope-o
-      detail: <a style="color:white" href="mailto:anthony.colgate@cornwall.ac.uk" target="_top">E-mail Me</a>
+      detail: <a style="color:white" href="mailto:anthony.colgate@cornwall.ac.uk" target="_top">E-mail Us</a>
 
     - icon: fa fa-phone
       detail: 01209 616209
@@ -187,7 +175,7 @@
       detail: <a style="color:#fff" href="https://www.facebook.com/rosewarnenurseries/">/rosewarnenurseries</a>
 
     - icon: fa fa-envelope-o
-      detail: <a style="color:white" href="mailto:john.ashton@duchy.ac.uk" target="_top">E-mail Me</a>
+      detail: <a style="color:white" href="mailto:john.ashton@duchy.ac.uk" target="_top">e-mail us</a>
 
     - icon: fa fa-phone
       detail: 07748920489
@@ -227,7 +215,7 @@
       detail: "12:00 - 13:00"
 
     - icon: fa fa-envelope-o
-      detail: <a style="color:white" href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">E-mail Me</a>
+      detail: <a style="color:white" href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">e-mail us</a>
 
     - icon: fa fa-phone
       detail: 01209 611659
@@ -239,25 +227,11 @@
   short: CDP
   image: /images/public/college-print.jpg
   title:
-  text: <p>With the latest in innovative software and creative techniques we can produce</p>
-        <ul>
-            <li>Interactive media and presentations</li>
-            <li>DVDs with menu functionality</li>
-            <li>promotional video</li>
-            <li>editing and web conversion</li>
-            <li>iPad and android publication conversion</li>
-        </ul>
-        <p>Take your marketing to the next level by sending movie eshots, adding video to your website, or DVD display media to your offices or promotional areas.</p>
+  text: <p>With the latest in innovative software and creative techniques we can produce</p> <ul> <li>Interactive media and presentations</li> <li>DVDs with menu functionality</li> <li>promotional video</li> <li>editing and web conversion</li> <li>iPad and android publication conversion</li> </ul> <p>Take your marketing to the next level by sending movie eshots, adding video to your website, or DVD display media to your offices or promotional areas.</p> <p>Visit us at <a style="color:333" href="http://www.designprintsolutions.org.uk/">designprintsolutions.org.uk</a></p>
   table:
     - icon: fa fa-phone
       detail: 01209 611659
 
-  campus:
-    - campus-name: College Design and Print (Camborne)
-      id: camborne-college-print
-      class: panel-collapse collapse in
-      text: 01209 616166 </br>
-            <a style="color:white" href="www.cdpcornwall.co.uk">www.cdpcornwall.ac.uk</a>
 
 - business: Koko hair beauty and holistic therapies
   color: 8b005b
@@ -272,29 +246,33 @@
         <p>There is dedicated customer parking for the Koko salons at Cornwall College Camborne and St Austell.</p>
         <p>The koko salons are training salons and are open from Monday – Friday with varying opening hours. We recommend that you give us a call to book your appointment.</p>
   campus:
-    - campus-name: Cornwall College Camborne
+    - campus-name: Koko (Camborne)
       id: camborne-koko
       class: panel-collapse collapse in
-      text: Hairdressing 01209 616167<br>
-            Beauty & Holistic Therapies 01209 616167<br>
-            koko.camborne@cornwall.ac.uk<br>
-      download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
+      text: Hairdressing&#58; 01209 616167<br>
+            Beauty & Holistic Therapies&#58; 01209 616167<br>
+            Email&#58; koko.camborne@cornwall.ac.uk<br>
+            <br>
+            The Complementary Health Therapy&#58; 01209 617796<br>
+            Email&#58; cornwallclinic@hotmail.co.uk<br>
+            <a href="/documents/koko-camborne-priceList.pdf">Download a Camborne price list</a>
 
-    - campus-name: Cornwall College St Austell
+    - campus-name: Koko (St Austell)
       id: staustell-koko
       class: panel-collapse collapse
-      text: Hairdressing 01726 226728<br>
-            Beauty & Holistic Therapies 01726 226731<br>
-            koko.staustell@cornwall.ac.uk<br>
-      download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
+      text: Hairdressing&#58; 01726 226728<br>
+            Beauty & Holistic Therapies&#58; 01726 226731<br>
+            Email&#58; koko.staustell@cornwall.ac.uk<br>
+            <a href="/documents/koko-stAustell-priceList.pdf">Download a St Austell price list</a>
 
-    - campus-name: Cornwall College Saltash
+    - campus-name: Koko (Saltash)
       id: saltash-koko
       class: panel-collapse collapse
-      text: Hairdressing 01752 850207<br>
-            Beauty & Holistic Therapies 01752 850206<br>
-            koko.saltash@cornwall.ac.uk<br>
-      download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
+      text: Hairdressing&#58; 01752 850207<br>
+            Beauty & Holistic Therapies&#58; 01752 850206<br>
+            Email&#58; koko.saltash@cornwall.ac.uk<br>
+            <a href="/documents/koko-saltash-priceList.pdf">Download a Saltash price list</a>
+
   #table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
@@ -310,7 +288,7 @@
   image: /images/public/venue-hire.jpg
   title: The Cornwall College Group offers venue hire at its college locations incorporating the very latest technology, facilities and resources. Each location has something different to offer from conferences to room hire, weddings to festivals
   text: <p>Whether you have 2 or 200 delegates, we will work with you to deliver a tailor&#8208;made conference or events package to suit your budget and requirements. We offer </p>
-      <ul>
+        <ul>
           <li> A range of onsite leisure and outdoor activities mean that every event &#8208; from large and corporate to small and intimate &#8208; can be catered for. </li>
           <li> Our experienced and friendly staff will work alongside your event manager to ensure that your occasion runs smoothly and to a high standard throughout.</li>
           <li> A range of stylish and functional rooms of all sizes, ideal for conferences, events, workshops, seminars, private functions and parties.</li>
@@ -319,19 +297,14 @@
           <li> Catering to suit your requirements. &#8208; from working lunches to barbecues, all dietary needs catered for.</li>
           <li> A range of outdoor pursuits to cater for your team-building events. (Bicton and Stoke Climsland only)</li>
           <li> Team Building with our Outdoor Adventure Instructors. </li>
-      </ul>
+        </ul>
+        <p><strong>Useful Downloads&#58;<br><a href="/documents/venue hire enquiry 2016.pdf">Enquiry Form</a></strong></p>
   table:
     #- icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
 
     #- icon: fa fa-envelope-o
-    #  detail: <a href="mailto:Helen.Pennells@cornwall.ac.uk" target="_top">E-mail Me</a>
-
-  campus:
-    - campus-name: Enquiry form
-      id: enquiry-venue
-      class: panel-collapse collapse in
-      text: <a href="/documents/venue hire enquiry 2016.pdf">Enquiry Form
+    #  detail: <a href="mailto:Helen.Pennells@cornwall.ac.uk" target="_top">e-mail us</a>
 
 
 - business: Trevenson Restaurant
@@ -359,7 +332,7 @@
       detail: 01209 616160
 
     - icon: fa fa-facebook
-      detail: <a style="color:white" href="https://www.facebook.com/TrevensonR/">Facebook</a>
+      detail: <a style="color:white" href="https://www.facebook.com/TrevensonR/">/TrevensonR</a>
 
   campus:
     - campus-name: Trevenson Menu
@@ -367,12 +340,12 @@
       class: panel-collapse collapse in
       text: <a href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu </a>
 
-    - campus-name: Trevenson 2nd Menu
+    - campus-name: Tasting Menu
       id: trevenson-menu2
       class: panel-collapse collapse
-      text: <a href="/documents/other/Trevenson MENU 2.pdf">Trevenson 2nd Menu</a>
+      text: <a href="/documents/other/Trevenson MENU 2.pdf">Tasting Menu</a>
 
-    - campus-name: Trevenson Christmas Menu
+    - campus-name: Christmas Menu
       id: trevenson-menu3
       class: panel-collapse collapse
-      text: <a href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a>
+      text: <a href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Christmas Menu</a>
