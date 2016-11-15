@@ -38,7 +38,7 @@ assets:
 
 relative_permalinks: false
 
-schema-college: https://schema.org/CollegeOrUniversity
+schema-college: "http://schema.org/CollegeOrUniversity"
 
 
 # Remove unused css

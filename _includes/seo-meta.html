@@ -3,19 +3,20 @@
 
 
 <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="{{site.twitter_username}}">
-    <meta name="twitter:title" content="{{site.title}}">
-    <meta name="twitter:url" content="https://twitter.com/{{site.twitter_site}}">
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="{{site.twitter_username}}"/>
+    <meta name="twitter:title" content="{{site.title}}"/>
+    <meta name="twitter:url" content="https://twitter.com/{{site.twitter_site}}"/>
     <meta name="twitter:description" content="{{site.description}}" />
     
-<!-- Open Graph Protocol -->
-    <meta property="og:title" content="{{page.title}}">
-    <meta property="og:type" content="article">
+<!-- Open Graph Protocol 
+    <meta property="og:title" content="{{page.title}}"/>-->
+<meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article"/>
     <meta property="og:image" content="{{site.image}}" />
-    <meta property="og:url" content="{{site.static_url}}{{page.url}}">
-    <meta name="og:description" content="{{site.description}}" />
-    <meta property="og:site_name" content="{{site.author}}">
+    <meta property="og:url" content="{{site.static_url}}{{page.url}}"/>
+    <meta name="og:description" content="{{page.description}}" />
+    <meta property="og:site_name" content="{{site.author}}"/>
 
 <!-- Google Plus -->
     <link rel="publisher" href="https://plus.google.com/+cornwallcollege">
