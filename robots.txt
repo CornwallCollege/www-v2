@@ -1,4 +1,8 @@
+---
+layout: null
+permalink: robots.txt
+---
 # robots.txt
 User-agent: *
 # Disallow: /
-Sitemap: https://mtest.cornwall.ac.uk/sitemap.xml
+Sitemap: {{ site.static_url }}/sitemap.xml
