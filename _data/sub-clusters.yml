@@ -95,7 +95,7 @@
       colour: 01A4A4
       brand: cc
       sector: 16-18 19plus university apprenticeships
-      campus: camborne-campus st-austell-campus saltash-campus
+      campus: camborne-campus st-austell-campus saltash-campus rosewarne-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -108,6 +108,10 @@
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
           campus-filter: saltash
+          
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne          
 
       career-link: /teaching-education/index.html
       search-link: teaching-education
@@ -760,7 +764,7 @@
       icon: fa-users
       brand: cc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus st-austell-campus
+      campus: camborne-campus st-austell-campus rosewarne-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -769,6 +773,10 @@
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
           campus-filter: st-austell
+          
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne           
 
       career-link: /health/index.html
       search-link: social-care-health
