@@ -11,4 +11,3 @@
 //= require ./lightbox.min
 //= require ./cc-autohover
 //= require ./cc-custom
-//= require ./google-maps
