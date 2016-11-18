@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: blank
 permalink: robots.txt
 ---
 # robots.txt
