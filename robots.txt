@@ -1,5 +1,7 @@
 ---
 layout: blank
+title: Learning Area Hub
+description: robots
 permalink: robots.txt
 ---
 # robots.txt
