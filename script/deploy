@@ -29,9 +29,20 @@ git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
+echo "====================="
+echo "File Copy Start."
+echo "====================="
 rsync -av ./_site/ ../out
+echo "====================="
+echo "File Copy Finish."
+echo "====================="
 
 cd ../out
+cwd
+
+echo "====================="
+echo "Starting GIT publish."
+echo "====================="
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
