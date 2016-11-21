@@ -28,14 +28,13 @@ gems:
     - jekyll-assets
 
 assets:
+    cache: false
     sources:
         - _assets/js
         - _assets/css
     compress:
         css:  sass 
         js:   false
-        
-     
 
 
 relative_permalinks: false
