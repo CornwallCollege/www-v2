@@ -21,7 +21,7 @@ collections:
 # Build settings
 markdown: kramdown
 exclude:
-  - [vendor]
+  - vendor
   - SupportCode
 
 gems:
