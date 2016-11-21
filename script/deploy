@@ -27,7 +27,7 @@ SHA=`git rev-parse --verify HEAD`
 git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
 
 # Clean out existing contents
-rm -rf out/**/* || exit 0
+rm -rf ../out/**/* || exit 0
 
 echo "====================="
 echo "File Copy Start."
