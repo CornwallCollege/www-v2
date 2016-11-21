@@ -28,6 +28,7 @@ gems:
     - jekyll-assets
 
 assets:
+    cache: false
     sources:
         - _assets/js
         - _assets/css

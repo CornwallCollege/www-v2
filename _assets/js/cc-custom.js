@@ -1,7 +1,3 @@
----
----    
-
-
 jQuery(document).ready(function () {
     jQuery("#main-menu").load("/global-menu.html");
     jQuery("#footer").load("/global-footer.html");
