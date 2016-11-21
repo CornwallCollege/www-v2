@@ -1,0 +1,10 @@
+title: duchy.ac.uk
+url: https://www.duchy.ac.uk
+destination: _site/duchy_ac_uk
+brand: dc
+brand-slug: brand/duchycollege
+cookie-domain: .duchy.ac.uk 
+hash: duchy
+initial-slide: 1
+# source: '_example.com'
+# exclude: ['some-file.md']

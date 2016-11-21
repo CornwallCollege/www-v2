@@ -6,41 +6,16 @@
 
         <h5><strong>Campus</strong></h5>
         <div class="btn-group" data-toggle="buttons">
+        {% for location in site.data.learning-area-filters %} 
+          {% if location.brand contains site.brand %} 
           <label class="area-filter btn btn-primary">
-            <input type="checkbox" name="campus-radio" value=".bicton-campus" data-campus="bicton" >Bicton
+            <input type="checkbox" name="campus-radio" value="{{location.value}}" data-campus="{{location.data-campus}}" >{{location.title}}
           </label>
+          {% endif %}    
+            
+        {% endfor %}
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".camborne-campus" data-campus="camborne">Camborne
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".bristol-campus" data-campus="dbs-bristol">dBs Bristol
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".eden-campus" data-campus="eden-project">Eden
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".falmouth-campus" data-campus="falmouth-marine-school">Falmouth
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".newquay-campus" data-campus="newquay">Newquay
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".rosewarne-campus" data-campus="rosewarne">Rosewarne
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".saltash-campus" data-campus="saltash">Saltash
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".st-austell-campus" data-campus="st-austell">St Austell
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".stoke-campus" data-campus="stoke">Stoke Climsland
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value=".sisna-campus" data-campus="sisna-park">Plymouth Engineering
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="campus-radio" value="" data-course-type="reset">Remove Filter
+            <input type="checkbox" name="campus-radio" value="" >Remove Filter
           </label>
         </div>
 
@@ -65,7 +40,7 @@
 
 
         <h5><strong>Sector</strong></h5>
-        <div class="btn-group" data-toggle="buttons">
+        <div class="btn-group" data-toggle="buttons">   
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="sector-radio" value=".university" data-course-type="he">University
           </label>
@@ -79,7 +54,7 @@
             <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value="" data-course-type="reset">Remove Filter
+            <input type="checkbox" name="sector-radio" value="" >Remove Filter
           </label>
         </div>
 
@@ -106,21 +81,50 @@
 
         {% for cluster in site.data.sub-clusters %}
             {% for subcluster in cluster.subclusters %}
+            
+                {% if subcluster.brand contains site.brand and site.brand != 'cc' %} 
+    
+                    {% case site.brand %}
+                        {% when 'dc' %}
+                            {% assign brand-slug = "brand/duchycollege" %}
+                        {% when 'fms' %}
+                            {% assign brand-slug = "brand/falmouthms" %}
+                        {% when 'bic' %}
+                            {% assign brand-slug = "brand/bictoncollege" %}            
+                    {% else %}
+                    {% endcase %}
+                        
+                    <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                        <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+                            <i class="fa fa-times close-icon"></i>
+                            <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+                            <span class="readmore">Read More</span>
+                        </a>
+                        <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
+                            <p>{{ subcluster.intro }}</p>
+                            <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                            <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/{{ brand-slug }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                        </div>
 
-            <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
-                <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
-                    <i class="fa fa-times close-icon"></i>
-                    <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
-                    <span class="readmore">Read More</span>
-                </a>
-                <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
-                    <p>{{ subcluster.intro }}</p>
-                    <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
-                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
-                </div>
+                    </div>
+                {% else %}
+            
+                    <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                        <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+                            <i class="fa fa-times close-icon"></i>
+                            <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+                            <span class="readmore">Read More</span>
+                        </a>
+                        <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
+                            <p>{{ subcluster.intro }}</p>
+                            <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                            <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                        </div>
 
-            </div>
-
+                    </div>            
+            
+                {% endif %} 
+            
             {% endfor %}
         {% endfor %}
 

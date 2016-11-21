@@ -1,0 +1,10 @@
+title: Cornwall.ac.uk
+url: https://www.cornwall.ac.uk
+destination: _site/cornwall_ac_uk
+brand: cc
+brand-slug: brand/cornwallcollege
+cookie-domain: .cornwall.ac.uk 
+hash: cornwall
+initial-slide: 0
+# source: '_example.com'
+# exclude: ['some-file.md']

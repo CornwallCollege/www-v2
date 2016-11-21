@@ -1,3 +1,6 @@
+---
+---    
+
 
 jQuery(document).ready(function () {
     jQuery("#main-menu").load("/global-menu.html");
@@ -688,9 +691,9 @@ $(document).ready(function () {
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
         
         if (location.pathname.indexOf("apprenticeship-hub") !== -1){
-            var event_filter = "//network.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
+            var event_filter = "{{site.course_site_baseurl}}/events/whats-on/category/apprenticeship-event/feed/";
         } else {
-            var event_filter = "//network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
+            var event_filter = "{{site.course_site_baseurl}}/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
         }
 
         var rssurl = event_filter;
