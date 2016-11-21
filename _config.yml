@@ -14,6 +14,16 @@ course_site_baseurl: https://network.cornwall.ac.uk/
 event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
 support_site_url: https://network.cornwall.ac.uk/student-support/
 
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+        envs: [development]
+    blanklines: false
+    profile: false
+    startings: []
+
 collections:
   campaign:
     output: true
