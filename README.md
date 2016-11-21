@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/CornwallCollege/www-v2.svg?branch=master)](https://travis-ci.org/CornwallCollege/www-v2)
+
 # www-v2
 
 
