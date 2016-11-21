@@ -37,7 +37,7 @@ jekyll build --config _config.yml,_site_cornwall_ac_uk.yml
 jekyll build --config _config.yml,_site_duchy_ac_uk.yml
 ```
 
-#####Falmouth Marine School Site
+####Falmouth Marine School Site
 ```bash
 jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml
 ```
