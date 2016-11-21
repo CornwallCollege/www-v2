@@ -1,6 +1,6 @@
 _site/*
 .sass-cache/*
-_deploy/*
+out/*
 .asset-cache/*
 
 #ignore thumbnails created by windows

@@ -29,7 +29,7 @@ git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ./out
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
-rsync --delete -av ./_site/ ./out
+rsync -av ./_site/ ./out
 
 cd out
 git config user.name "Travis CI"
