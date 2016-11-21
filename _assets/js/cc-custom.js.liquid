@@ -15,6 +15,13 @@ jQuery(document).on("click", "#question", function (e) {
 
 
 $(document).ready(function () {
+    
+    //set brand from site config
+    Cookies.set('brand', '#{{site.hash}}' );             
+    Cookies.set('course-brand', '#{{site.hash}}', {
+        domain: '{{site.cookie-domain}}'
+    });
+
 
     if(is_IOS()){
         //background:; cover fix
@@ -133,35 +140,30 @@ function incrementCount(counter) {
 }
 
 (function ($) {
-
-    /* Set brand cookie on home */
-    $(function () {
-
-
-                $('.logo').removeClass('current-brand');
-                $('.logo').addClass('sub-brand grow');
-                $( Cookies.get('brand') ).removeClass('grow');
-                $( Cookies.get('brand') ).addClass('current-brand');
-                //bring the active logo to the front
-                $( Cookies.get('brand') ).css("z-index", "999");
-
-                //apply z-index to correctly stack the logos
-                var offset = 1;
-                $( Cookies.get('brand') ).prevAll().each(function(index){
-                   $(this).css("z-index", 999 - offset);
-                    offset++;
-                });
-                $( Cookies.get('brand') ).nextAll().each(function(index){
-                   $(this).css("z-index", 999 - offset);
-                    offset++;
-
-                });
-
-
-    });
     
     
     $(document).ready(function () {
+    /* Set brand cookie on home */
+        $('.logo').removeClass('current-brand');
+        $('.logo').addClass('sub-brand grow');
+        $( Cookies.get('brand') ).removeClass('grow');
+        $( Cookies.get('brand') ).addClass('current-brand');
+        //bring the active logo to the front
+        $( Cookies.get('brand') ).css("z-index", "999");
+
+        //apply z-index to correctly stack the logos
+        var offset = 1;
+        $( Cookies.get('brand') ).prevAll().each(function(index){
+           $(this).css("z-index", 999 - offset);
+            offset++;
+        });
+        $( Cookies.get('brand') ).nextAll().each(function(index){
+           $(this).css("z-index", 999 - offset);
+            offset++;
+
+        });        
+        
+        
         $('#loader').fadeOut(400);
         /*
             $(window).load(function() { // makes sure the whole site is loaded
@@ -179,19 +181,19 @@ function incrementCount(counter) {
        }
 
        /* FULL-TIME-HUB - Job Lookup */
-       $(document).ready(function () {
-           if (location.pathname.indexOf("career-hub") !== -1) {
-               SimpleJekyllSearch.init({
-                   searchInput: document.getElementById('jobs-input'),
-                   resultsContainer: document.getElementById('jobs-results'),
-                   dataSource: '/data/jobs.json',
-                   searchResultTemplate: '<li><a href="/career-pages/{url}/index.html" title="{title}">{title}</a></li>',
-                   noResultsText: '<li>None found, please choose from below</li>',
-                   limit: 10,
-                   fuzzy: false,
-               })
-           }
-       });
+
+       if (location.pathname.indexOf("career-hub") !== -1) {
+           SimpleJekyllSearch.init({
+               searchInput: document.getElementById('jobs-input'),
+               resultsContainer: document.getElementById('jobs-results'),
+               dataSource: '/data/jobs.json',
+               searchResultTemplate: '<li><a href="/career-pages/{url}/index.html" title="{title}">{title}</a></li>',
+               noResultsText: '<li>None found, please choose from below</li>',
+               limit: 10,
+               fuzzy: false,
+           })
+       }
+
 
     });
 
@@ -317,11 +319,9 @@ function incrementCount(counter) {
                 fuzzy: false,
             })
         }
-    });
 
 
     /* CAREER PAGES */
-    $(document).ready(function () {
         if (location.pathname.indexOf("career-pages") !== -1) {
 
             $(document).on("click", "[aria-expanded]", function (event) {
@@ -676,9 +676,7 @@ $(document).ready(function(){
 		$("#home").removeClass(".video");
 		$(".fullscreen-video, .video-controls, .play-btn-normal").hide();
 	}
-});
 
-$(document).ready(function () {
     
     if (location.pathname.indexOf("location-pages") !== -1 ||
         location.pathname.indexOf("apprenticeship-hub") !== -1) {        

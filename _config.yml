@@ -35,8 +35,6 @@ assets:
     compress:
         css:  sass 
         js:   false
-        
-     
 
 
 relative_permalinks: false
