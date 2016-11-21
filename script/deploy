@@ -24,14 +24,14 @@ REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
 
-git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ./out
+git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
 
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
-rsync -av ./_site/ ./out
+rsync -av ./_site/ ../out
 
-cd out
+cd ../out
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
