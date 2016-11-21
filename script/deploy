@@ -37,8 +37,10 @@ echo "====================="
 echo "File Copy Finish."
 echo "====================="
 
+
+pwd
 cd ../out
-cwd
+pwd
 
 echo "====================="
 echo "Starting GIT publish."
