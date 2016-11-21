@@ -1,4 +1,18 @@
 ---
 layout: compress 
 ---
-{{ content }}
+
+<!DOCTYPE html>
+{% include site-html-tag.html %}
+
+  {% include head.html %}
+
+  <body itemscope="" itemtype='{{site.schema-college}}'>
+
+ 
+    {{ content }}
+
+      
+  </body>
+
+</html>
