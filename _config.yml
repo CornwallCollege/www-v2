@@ -35,8 +35,8 @@ exclude:
   - vendor
   - SupportCode
   - README.md
-  - deploy_key
-  - deploy_key.enc
+  - CornwallCollegeTravisBot
+  - CornwallCollegeTravisBot.enc
   - Gemfile
   - Gemfile.lock
   - win_build.cmd
