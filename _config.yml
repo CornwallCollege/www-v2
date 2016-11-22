@@ -35,7 +35,13 @@ exclude:
   - vendor
   - SupportCode
   - README.md
-  - deploy_key.enc
+  - deploy_key_live
+  - deploy_key_cornwall
+  - deploy_key_bicton
+  - deploy_key_falmouth
+  - deploy_key_duchy
+  - travis_deploy_keys.tar
+  - travis_deploy_keys.tar.enc
   - Gemfile
   - Gemfile.lock
   - win_build.cmd
