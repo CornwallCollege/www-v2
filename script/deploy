@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e # halt script on error
-
+echo "START DEPLOY"
+echo "============"
+echo.
 SOURCE_BRANCH="Ocotpus"
 TARGET_BRANCH="Master"
 
