@@ -1,5 +1,6 @@
 title: Cornwall.ac.uk
 url: https://www.cornwall.ac.uk
+testurl: http://testwww.cornwall.ac.uk
 destination: _site/cornwall_ac_uk
 brand: cc
 brand-slug: brand/cornwallcollege

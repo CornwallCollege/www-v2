@@ -1,5 +1,6 @@
 title: bicton.ac.uk
 url: https://www.bicton.ac.uk
+testurl: http://testwww.bicton.ac.uk
 destination: _site/bicton_ac_uk
 brand: bic
 cookie-domain: .bicton.ac.uk 

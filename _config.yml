@@ -30,9 +30,16 @@ collections:
 
 # Build settings
 markdown: kramdown
+# Do not copy these files to the output directory
 exclude:
   - vendor
   - SupportCode
+  - README.md
+  - deploy_key.enc
+  - Gemfile
+  - Gemfile.lock
+  - win_build.cmd
+  - script
 
 gems:
     - jekyll-assets

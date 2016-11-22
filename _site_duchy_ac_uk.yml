@@ -1,5 +1,6 @@
 title: duchy.ac.uk
 url: https://www.duchy.ac.uk
+testurl: http://testwww.duchy.ac.uk
 destination: _site/duchy_ac_uk
 brand: dc
 brand-slug: brand/duchycollege

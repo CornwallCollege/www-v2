@@ -1,14 +1,8 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-SOURCE_BRANCH="Multisite-update"
+SOURCE_BRANCH="Ocotpus"
 TARGET_BRANCH="Master"
-
-# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
-    echo "Skipping deploy; just doing a build."
-    exit 0
-fi
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
@@ -24,45 +18,240 @@ REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
 
-git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
 
-# Clean out existing contents
-rm -rf ../out/**/* || exit 0
+# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+    echo "Deploying to Test"
+    
+    
+    echo "====================="
+    echo "BICTON - TEST"
+    echo "====================="
+    
+    git clone git@github.com:CornwallCollege/test-bicton-ac-uk.git ../out/bicton
+    rm -rf ../out/bicton/**/*
+    
+    echo "====================="
+    echo "File Copy Start."
+    echo "====================="
+    rsync -av ./_site/bicton_ac_uk ../out/bicton
+    echo "====================="
+    echo "File Copy Finish."
+    echo "====================="
+    
+    pwd
+    cd ../out/bicton
+    pwd
+    
+    echo "====================="
+    echo "Starting GIT publish."
+    echo "====================="
+    git config user.name "Travis CI"
+    git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-echo "====================="
-echo "File Copy Start."
-echo "====================="
-rsync -av ./_site/ ../out
-echo "====================="
-echo "File Copy Finish."
-echo "====================="
+    #Detect if just new files have been added
+    git add -N .
+
+    # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+    if [ -z `git diff --exit-code` ]; then
+        echo "No changes to the output on this push; exiting."
+        exit 0
+    fi
+
+    # Commit the "changes", i.e. the new version.
+    # The delta will show diffs between new and old versions.
+    git add .
+    git commit -m "Deploy to GitHub: ${SHA}"
 
 
-pwd
-cd ../out
-pwd
 
-echo "====================="
-echo "Starting GIT publish."
-echo "====================="
-git config user.name "Travis CI"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+    # Now that we're all set up, we can push.
+    git push
+    
+    echo "====================="
+    echo "CORNWALL - TEST"
+    echo "====================="
+    
+    cd ../../
+    pwd
+    
+    git clone git@github.com:CornwallCollege/test-cornwall-ac-uk.git ./out/cornwall
+    rm -rf ./out/cornwall/**/*
+    
+    echo "====================="
+    echo "File Copy Start."
+    echo "====================="
+    rsync -av ./www-v2/_site/cornwall_ac_uk ./out/cornwall
+    echo "====================="
+    echo "File Copy Finish."
+    echo "====================="
+    
+    pwd
+    cd ./out/cornwall
+    pwd
+    
+    echo "====================="
+    echo "Starting GIT publish."
+    echo "====================="
+    git config user.name "Travis CI"
+    git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-#Detect if just new files have been added
-git add -N .
+    #Detect if just new files have been added
+    git add -N .
 
-# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if [ -z `git diff --exit-code` ]; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
+    # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+    if [ -z `git diff --exit-code` ]; then
+        echo "No changes to the output on this push; exiting."
+        exit 0
+    fi
+
+    # Commit the "changes", i.e. the new version.
+    # The delta will show diffs between new and old versions.
+    git add .
+    git commit -m "Deploy to GitHub: ${SHA}"
+
+
+
+    # Now that we're all set up, we can push.
+    git push
+    
+    echo "====================="
+    echo "DUCHY - TEST"
+    echo "====================="
+    
+    cd ../../
+    pwd
+    
+    git clone git@github.com:CornwallCollege/test-duchy-ac-uk.git ./out/duchy
+    rm -rf ./out/duchy/**/*
+    
+    echo "====================="
+    echo "File Copy Start."
+    echo "====================="
+    rsync -av ./www-v2/_site/duchy_ac_uk ./out/duchy
+    echo "====================="
+    echo "File Copy Finish."
+    echo "====================="
+    
+    pwd
+    cd ./out/duchy
+    pwd
+    
+    echo "====================="
+    echo "Starting GIT publish."
+    echo "====================="
+    git config user.name "Travis CI"
+    git config user.email "$COMMIT_AUTHOR_EMAIL"
+
+    #Detect if just new files have been added
+    git add -N .
+
+    # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+    if [ -z `git diff --exit-code` ]; then
+        echo "No changes to the output on this push; exiting."
+        exit 0
+    fi
+
+    # Commit the "changes", i.e. the new version.
+    # The delta will show diffs between new and old versions.
+    git add .
+    git commit -m "Deploy to GitHub: ${SHA}"
+
+    # Now that we're all set up, we can push.
+    git push
+    
+    echo "====================="
+    echo "FALMOUTH - TEST"
+    echo "====================="
+    
+    cd ../../
+    pwd
+    
+    git clone git@github.com:CornwallCollege/test-falmouthmarineschool-ac-uk.git ./out/falmouth
+    rm -rf ./out/falmouth/**/*
+    
+    echo "====================="
+    echo "File Copy Start."
+    echo "====================="
+    rsync -av ./www-v2/_site/falmouthmarineschool_ac_uk ./out/falmouth
+    echo "====================="
+    echo "File Copy Finish."
+    echo "====================="
+    
+    pwd
+    cd ./out/falmouth
+    pwd
+    
+    echo "====================="
+    echo "Starting GIT publish."
+    echo "====================="
+    git config user.name "Travis CI"
+    git config user.email "$COMMIT_AUTHOR_EMAIL"
+
+    #Detect if just new files have been added
+    git add -N .
+
+    # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+    if [ -z `git diff --exit-code` ]; then
+        echo "No changes to the output on this push; exiting."
+        exit 0
+    fi
+
+    # Commit the "changes", i.e. the new version.
+    # The delta will show diffs between new and old versions.
+    git add .
+    git commit -m "Deploy to GitHub: ${SHA}"
+
+    # Now that we're all set up, we can push.
+    git push
+    
+else
+    echo "Deploying to Production"
+    
+    
+    git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
+
+    # Clean out existing contents
+    rm -rf ../out/**/*
+
+    echo "====================="
+    echo "File Copy Start."
+    echo "====================="
+    rsync -av ./_site/ ../out
+    echo "====================="
+    echo "File Copy Finish."
+    echo "====================="
+
+
+    pwd
+    cd ../out
+    pwd
+
+    echo "====================="
+    echo "Starting GIT publish."
+    echo "====================="
+    git config user.name "Travis CI"
+    git config user.email "$COMMIT_AUTHOR_EMAIL"
+
+    #Detect if just new files have been added
+    git add -N .
+
+    # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+    if [ -z `git diff --exit-code` ]; then
+        echo "No changes to the output on this push; exiting."
+        exit 0
+    fi
+
+    # Commit the "changes", i.e. the new version.
+    # The delta will show diffs between new and old versions.
+    git add .
+    git commit -m "Deploy to GitHub: ${SHA}"
+
+
+
+    # Now that we're all set up, we can push.
+    git push
 fi
 
-# Commit the "changes", i.e. the new version.
-# The delta will show diffs between new and old versions.
-git add .
-git commit -m "Deploy to GitHub: ${SHA}"
 
 
-
-# Now that we're all set up, we can push.
-git push
