@@ -35,7 +35,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     echo "====================="
     echo "File Copy Start."
     echo "====================="
-    rsync -av ./_site/bicton_ac_uk ../out/bicton
+    rsync -av ./_site/bicton_ac_uk/ ../out/bicton
     echo "====================="
     echo "File Copy Finish."
     echo "====================="
@@ -86,7 +86,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     echo "====================="
     echo "File Copy Start."
     echo "====================="
-    rsync -av ./www-v2/_site/cornwall_ac_uk ./out/cornwall
+    rsync -av ./www-v2/_site/cornwall_ac_uk/ ./out/cornwall
     echo "====================="
     echo "File Copy Finish."
     echo "====================="
@@ -136,7 +136,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     echo "====================="
     echo "File Copy Start."
     echo "====================="
-    rsync -av ./www-v2/_site/duchy_ac_uk ./out/duchy
+    rsync -av ./www-v2/_site/duchy_ac_uk/ ./out/duchy
     echo "====================="
     echo "File Copy Finish."
     echo "====================="
@@ -181,7 +181,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     echo "====================="
     echo "File Copy Start."
     echo "====================="
-    rsync -av ./www-v2/_site/falmouthmarineschool_ac_uk ./out/falmouth
+    rsync -av ./www-v2/_site/falmouthmarineschool_ac_uk/ ./out/falmouth
     echo "====================="
     echo "File Copy Finish."
     echo "====================="
