@@ -84,7 +84,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     pwd
     
     git clone git@github.com:CornwallCollege/test-cornwall-ac-uk.git ./out/cornwall
-    rm -rf ./out/cornwall/**/*
+    rm -rf ./out/cornwall/*
     
     echo "====================="
     echo "File Copy Start."
@@ -134,7 +134,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     pwd
     
     git clone git@github.com:CornwallCollege/test-duchy-ac-uk.git ./out/duchy
-    rm -rf ./out/duchy/**/*
+    rm -rf ./out/duchy/*
     
     echo "====================="
     echo "File Copy Start."
@@ -179,7 +179,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     pwd
     
     git clone git@github.com:CornwallCollege/test-falmouthmarineschool-ac-uk.git ./out/falmouth
-    rm -rf ./out/falmouth/**/*
+    rm -rf ./out/falmouth/*
     
     echo "====================="
     echo "File Copy Start."
@@ -223,7 +223,7 @@ else
     git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
 
     # Clean out existing contents
-    rm -rf ../out/**/*
+    rm -rf ../out/*
 
     echo "====================="
     echo "File Copy Start."
