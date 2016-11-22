@@ -54,6 +54,9 @@ assets:
         css:  sass 
         js:   false
 
+sitemap:
+    exclude: ["/CNAME"]
+
 
 relative_permalinks: false
 
