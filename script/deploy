@@ -57,10 +57,14 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
         echo "No changes to the output on this push; exiting."
         exit 0
     fi
-
+    echo "Changes Detected deploying"
+    
     # Commit the "changes", i.e. the new version.
     # The delta will show diffs between new and old versions.
+    echo "Add Stage Changes"
     git add .
+    git status
+    echo "Deploying"
     git commit -m "Deploy to GitHub: ${SHA}"
 
 
