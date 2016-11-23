@@ -62,6 +62,11 @@ relative_permalinks: false
 
 schema-college: "http://schema.org/CollegeOrUniversity"
 
+cornwall-base-url: "//testwww.cornwall.ac.uk/"
+duchy-base-url: "//testwww.duchy.ac.uk/"
+bicton-base-url: "//testwww.bicton.ac.uk/"
+falmouth-base-url: "//testwww.falmouthmarineschool.ac.uk/"
+
 
 # Remove unused css
 uncss:

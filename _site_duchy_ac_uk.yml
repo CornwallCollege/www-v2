@@ -7,5 +7,7 @@ brand-slug: brand/duchycollege
 cookie-domain: .duchy.ac.uk 
 hash: duchy
 initial-slide: 1
+
+
 # source: '_example.com'
 # exclude: ['some-file.md']
