@@ -514,6 +514,10 @@ div.logo-wrap-scroll :nth-child(4) {
     color: #52B3D9;
     padding: 26px;
 }
+#cbp-spmenu-s2 #search-form input,
+#cbp-spmenu-s2 .search-form input{
+    padding: 0 0 0 15px; 
+}
 
 #search-form input:focus,
 #search-form input:hover,
