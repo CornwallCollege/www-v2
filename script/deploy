@@ -3,7 +3,7 @@ set -e # halt script on error
 echo "START DEPLOY"
 echo "============"
 
-SOURCE_BRANCH="Ocotpus"
+SOURCE_BRANCH="Octopus"
 TARGET_BRANCH="Master"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
