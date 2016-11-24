@@ -1,0 +1,12 @@
+title: bicton.ac.uk
+url: https://www.bicton.ac.uk
+testurl: http://testwww.bicton.ac.uk
+destination: _site/bicton_ac_uk
+brand: bic
+brand-long: bictoncollege
+brand-slug: brand/bictoncollege
+cookie-domain: .bicton.ac.uk 
+hash: bicton
+initial-slide: 3
+# source: '_example.com'
+# exclude: ['some-file.md']

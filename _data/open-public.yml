@@ -6,8 +6,8 @@
   title: If you have young children we can provide you with support so that you can achieve your qualifications and career goals.
   text: <p>You will be eligible for financial support towards your childcare costs if you have a household income of less than £21,000 (£25,000 for students in reciept of an Advanced Learning Loan).</p>
         <p>To apply, please download and complete the two forms at the bottom of this page.</p>
-        <p><strong>Under 20?</strong></br>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.</br>Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning.
-        <p>Letting someone else look after you child can be a big step! </br>Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places</p>
+        <p><strong>Under 20?</strong><br/>If you are under 20 at the start of your course, you can apply for funding to help your childcare costs.<br/>Care to Learn has been set up by the government to help pay for your childcare and related travel costs while you are learning.
+        <p>Letting someone else look after you child can be a big step! <br/>Care to Learn helps by letting you choose the type of childcare that suits you and your child. You can, for example, use it to pay for childcare at any of the following places</p>
         <ul>
         <li>Childminder</li>
         <li>Pre&#8208;school playgroup</li>
@@ -15,7 +15,7 @@
         <li>Out of school club</li>
         <li>Other registered childcare</li>
         </ul>
-        <p>Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care.</br>Find more information visit <a href="https://www.gov.uk/care-to-learn">gov.uk/care-to-learn</a></br>Or call Directgov’s Learner Support helpline on 0800 121 8989.</p>
+        <p>Childcare providers must be registered with Ofsted, meet national standards and may be inspected to make sure they are providing good quality care.<br/>Find more information visit <a href="https://www.gov.uk/care-to-learn">gov.uk/care-to-learn</a><br/>Or call Directgov’s Learner Support helpline on 0800 121 8989.</p>
         <p><a href="/documents/childcare/CHILDCARE DOWNLOAD 2 - FE Application for Financial Help Towards Childcare.docx">Childcare Application Form download</a></p>
         <p><a href="/documents/childcare/CHILDCARE DOWNLOAD 1 - 19+ Bursary application form - 2015.pdf">FE Bursary Application Form download</a></p>
   campus:
@@ -49,25 +49,25 @@
   image: /images/public/sport-fitness.jpg
   title:  The sports and fitness facilities are open to the Public, we offer a wide range of facilities to suit a full range of activities.
   text: <p><strong>Sports Halls</strong> (Camborne, Bicton & Stoke Climsland)<br>Our four-court sports halls are available for hire, equipped for badminton, basketball, football, netball, volleyball and cricket.</p>
-        <p><strong>Fitness Suite</strong> (Camborne, St Austell & Stoke Climsland)</br>Open to the public our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No membership contract, Free ½ hour programme updates, Free gym challenges, Free personalised training programme, Free nutritional advice, Fit testing (additional charge), Motivator sessions (additional charge) and Personal training (additional charge).</p>
-        <p><strong>Dance Studio</strong> (Camborne & St Austell)</br> The dance studios have a semi&#8208;sprung wooden floor and caters for a variety of fitness classes as well as being available for hire.</p>
-        <p><strong>3G Astro Turf</strong> (Camborne & Bicton)</br> The astro turf is suitable for football, rugby training and multi sports.</p>
-        <p><strong>Grass Pitches</strong> (Camborne, Stoke Climsland & Bicton)</br> Available for hire, suitable for football, Bicton also has rugby pitches available for hire.</p>
-        <p><strong>Birthday Parties</strong></br>Let us take the hassle out of your birthday party, we offer a range of parties from sports activities to adventurous activity parties.</p>
-        <p><strong>Adventurous Activities</strong> (Bicton and Stoke Climsland)</br>Stimulate, motivate and educate with an outdoor adventure activity course.</br>We offer a range of activities in a beautiful setting with expert instruction, high safety standards and once in a lifetime experiences!</br>Activity days help promote active learning and awareness of others needs whilst positively impacting intellectual, moral and physical development. Participants will have the opportunity to take part in many new and exciting activities including Kayaking, Canoeing, Climbing Tower, Low Ropes and Raft Building and many more activities.These are available for use for community groups, residential stays, clubs, societies, friends, schools using our qualified instructors or if you want a birthday party with a difference, or just book for a day</p>
-        <p><strong>Prices</strong></br>For prices or a leaflet or to discuss your requirements please call 01209 617790 or email sportandfitness@cornwall.ac.uk.</p>
+        <p><strong>Fitness Suite</strong> (Camborne, St Austell & Stoke Climsland)<br />Open to the public our gym provides a fitness room, equipped with cardio and resistance machines and a free weights area. We offer No membership contract, Free ½ hour programme updates, Free gym challenges, Free personalised training programme, Free nutritional advice, Fit testing (additional charge), Motivator sessions (additional charge) and Personal training (additional charge).</p>
+        <p><strong>Dance Studio</strong> (Camborne & St Austell)<br/> The dance studios have a semi&#8208;sprung wooden floor and caters for a variety of fitness classes as well as being available for hire.</p>
+        <p><strong>3G Astro Turf</strong> (Camborne & Bicton)<br/> The astro turf is suitable for football, rugby training and multi sports.</p>
+        <p><strong>Grass Pitches</strong> (Camborne, Stoke Climsland & Bicton)<br/> Available for hire, suitable for football, Bicton also has rugby pitches available for hire.</p>
+        <p><strong>Birthday Parties</strong><br/>Let us take the hassle out of your birthday party, we offer a range of parties from sports activities to adventurous activity parties.</p>
+        <p><strong>Adventurous Activities</strong> (Bicton and Stoke Climsland)<br/>Stimulate, motivate and educate with an outdoor adventure activity course.<br/>We offer a range of activities in a beautiful setting with expert instruction, high safety standards and once in a lifetime experiences!<br/>Activity days help promote active learning and awareness of others needs whilst positively impacting intellectual, moral and physical development. Participants will have the opportunity to take part in many new and exciting activities including Kayaking, Canoeing, Climbing Tower, Low Ropes and Raft Building and many more activities.These are available for use for community groups, residential stays, clubs, societies, friends, schools using our qualified instructors or if you want a birthday party with a difference, or just book for a day</p>
+        <p><strong>Prices</strong><br/>For prices or a leaflet or to discuss your requirements please call 01209 617790 or email sportandfitness@cornwall.ac.uk.</p>
   campus:
     - campus-name: Evolve Sport and Fitness (Camborne)
       id: camborne-evolve
       class: panel-collapse collapse in
-      text: Mon to Thu 12pm – 9pm, Fri 12pm – 8pm, Sat & Sun open on request.</br>
+      text: Mon to Thu 12pm – 9pm, Fri 12pm – 8pm, Sat & Sun open on request.<br/>
             Tel&#58; 01209 617732<br>
       download: ""
 
     - campus-name: Evolve Sport and Fitness (St-Austell)
       id: staustell-evolve
       class: panel-collapse collapse
-      text: Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm</br>Opening Hours subject to change<br>
+      text: Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm<br/>Opening Hours subject to change<br>
             Tel&#58; 01726 226440<br>
       download: "/documents/0144JW0716_Koko_CCC_pricelist.pdf"
 
@@ -81,7 +81,7 @@
     - campus-name: Evolve Sport, Fitness and Outdoors (Bicton)
       id: bicton-evolve
       class: panel-collapse collapse
-      text: Mon to Thu 5pm – 9.30pm</br>
+      text: Mon to Thu 5pm – 9.30pm<br/>
             Fri 5pm – 8pm<br>
             Sat & Sun open on request<br>
             Tel&#58; 01209 617732<br>
@@ -121,15 +121,15 @@
     - campus-name: Stoke Equine
       id: stoke-equine
       class: panel-collapse collapse in
-      text: Tel&#58; 01579 372210</br>
-            Email&#58; equine.events@duchy.ac.uk</br>
+      text: Tel&#58; 01579 372210<br/>
+            Email&#58; equine.events@duchy.ac.uk<br/>
             <a href="/documents/Stoke Equine Terms of Hire.pdf">Download Livery & Equestrian Centre Hire Price list</a>
 
     - campus-name: Bicton Equine
       id: bicton-equine
       class: panel-collapse collapse
-      text: Tel&#58; 01395 562354 </br>
-            Email&#58; equestrian.centre@bicton.ac.uk</br>
+      text: Tel&#58; 01395 562354 <br/>
+            Email&#58; equestrian.centre@bicton.ac.uk<br/>
             <a href="/documents/Bicton Equine Pricelist 2016.pdf">Download Livery & Equestrian Centre Hire Price list</a>
 
 - business: Mill Autoquip

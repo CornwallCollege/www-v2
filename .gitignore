@@ -1,5 +1,7 @@
 _site/*
 .sass-cache/*
+out/*
+.asset-cache/*
 
 #ignore thumbnails created by windows
 Thumbs.db
@@ -33,7 +35,5 @@ packages/
 *.jekyll-metadata
 *.jekyll-metadata
 images/19plus-hub/childcare.jpg
-
-.DS_Store
 
 .DS_Store

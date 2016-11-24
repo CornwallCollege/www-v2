@@ -14,31 +14,58 @@ course_site_baseurl: https://network.cornwall.ac.uk/
 event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
 support_site_url: https://network.cornwall.ac.uk/student-support/
 
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+        envs: [development]
+    blanklines: false
+    profile: false
+    startings: []
+
 collections:
   campaign:
     output: true
 
 # Build settings
 markdown: kramdown
+# Do not copy these files to the output directory
 exclude:
-  - [vendor]
+  - vendor
   - SupportCode
+  - README.md
+  - CornwallCollegeTravisBot
+  - CornwallCollegeTravisBot.enc
+  - Gemfile
+  - Gemfile.lock
+  - win_build.cmd
+  - script
 
 gems:
     - jekyll-assets
 
 assets:
+    cache: false
     sources:
         - _assets/js
         - _assets/css
     compress:
-        css:  sass
-        js:   uglifier
+        css:  sass 
+        js:   false
+
+sitemap:
+    exclude: ["/CNAME"]
 
 
 relative_permalinks: false
 
 schema-college: "http://schema.org/CollegeOrUniversity"
+
+cornwall-base-url: "//testwww.cornwall.ac.uk/"
+duchy-base-url: "//testwww.duchy.ac.uk/"
+bicton-base-url: "//testwww.bicton.ac.uk/"
+falmouth-base-url: "//testwww.falmouthmarineschool.ac.uk/"
 
 
 # Remove unused css

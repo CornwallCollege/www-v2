@@ -2,6 +2,7 @@
   anchor: "bicton-campus"
   search: "bicton"
   brand: Bicton College
+  attached-brands: "bic"
   copy: <p>Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.</p>
   link: /bicton-campus.html
   contact-number: 01395 562400
@@ -29,6 +30,7 @@
   anchor: "dbs"
   search: "dbs-bristol"
   brand: dBs Music
+  attached-brands: "cc"
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
   contact-number: 01209 200200
@@ -63,6 +65,7 @@
   anchor: "camborne"
   search: "camborne"
   brand: Cornwall College
+  attached-brands: "cc"  
   copy: <p>Cornwall College Camborne is the largest of the three General Further Education campuses in the group, offering a wide variety of vocational courses from further education to university level, professional qualifications and the South’s West largest provider of apprenticeships; earning ourselves a respected reputation across the wider education sector and business community.</p><p>With a focused ethos on careers, progression and opportunity, we have attracted high profile partnerships including our famous Academy Nathan Outlaw, Blue Flame Academy and our new Digital Academy.</p>
   link: /camborne-campus.html
   contact-number:  01209 616161
@@ -97,6 +100,7 @@
   anchor: "eden-project"
   search: "eden-project"
   brand: Cornwall College
+  attached-brands: "cc dc bic"  
   copy: <p >In partnership with the Eden Project, we have introduced a range of new apprenticeships for enterprising and innovative individuals and businesses that are motivated to make the world a better place. The Eden Project and the Cornwall College Group are working together to train and employ a range of new apprentices in key business areas such as service excellence, cookery and horticulture.</p>
   link: /eden-campus.html
   contact-number: 01209 200200
@@ -131,6 +135,7 @@
   anchor: "falmouth-marine-school"
   search: "falmouth-marine-school"
   brand: Falmouth Marine School
+  attached-brands: "fms"  
   copy: <p>Falmouth Marine School provides a comprehensive selection of courses from introductory to degree level in partnership with Plymouth University. We specialise in Boatbuilding, Leisure & Watersports, Marine Engineering and Marine Science & Biology.</p>
   link: /falmouth-campus.html
   contact-number: 01326 310323
@@ -165,6 +170,7 @@
   anchor: "newquay"
   search: "newquay"
   brand: Cornwall College
+  attached-brands: "cc"  
   copy: <p>Cornwall College Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in zoology, marine and surf science studies, the campus is well-known in Cornwall as a friendly and inclusive setting for high quality teaching and research.</p><p>Studying in Newquay gives you access to an amazing environment and incredible opportunities, including international field trips and taking advantage of our close partnerships with local businesses including Newquay Zoo, Blue Reef Aquarium, Cornwall Wildlife Trust and The Eden Project. You can volunteer with our world-leading Student Invasive Non-Native Group (SINNG) and engage with our most valuable teaching resource - our team of highly qualified research active staff.</p>
   link: /newquay-campus.html
   contact-number:  01637 857965
@@ -199,6 +205,7 @@
   anchor: "rosewarne"
   search: "rosewarne"
   brand: Duchy College
+  attached-brands: "dc"  
   copy: <p>Duchy College Rosewarne is situated just outside Camborne on a working farm. Our extensive beautiful grounds are spread over approximately 47 hectares and are an excellent horticultural resource with national plant collections on campus. Onsite we also have a working nursery where we grow and sell our own plants, a working farm and protected cropping unit, land-based engineering workshops and specialist veterinary nursing facilities, the only one of its kind in the county. To get you to and from Rosewarne we have our own transport network that will collect you from a range of towns and villages.</p>
   link: /rosewarne-campus.html
   contact-number: 01209 722100
@@ -233,6 +240,7 @@
   anchor: "saltash"
   search: "saltash"
   brand: Cornwall College
+  attached-brands: "cc"  
   copy: <p>The campus at Saltash is based on Church Road, nestled in the heart of a residential area only a few minutes’ walk from the town centre and close to the A38. We are a small and friendly campus sat in a semi-rural location, perfect if you live in South-East and North Cornwall, Plymouth or South-West Devon. We have excellent facilities including; a higher education centre, construction skills training centre, commercial hair and beauty salons and a state-of-the-art training kitchen.</p>
   link: /saltash-campus.html
   contact-number: 01752 850200
@@ -267,6 +275,7 @@
   anchor: "st-austell"
   search: "st-austell"
   brand: Cornwall College
+  attached-brands: "cc"    
   copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, A-level centre, an arts block and dedicated construction and engineering skills centre, Koko Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities.</p>
   link: /st-austell-campus.html
   contact-number: 01726 226622
@@ -301,6 +310,7 @@
   anchor: "stoke"
   search: "stoke"
   brand: Duchy College
+  attached-brands: "dc"    
   copy: <p>Our campus is nestled in the rural Cornish countryside at Stoke Climsland. The campus offers great land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities.</p>
   link: /stoke-campus.html
   contact-number: 0330 123 4784
@@ -335,6 +345,7 @@
   anchor: "sisna-park"
   search: "sisna-park"
   brand: Cornwall College
+  attached-brands: "cc"    
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html
   contact-number: 01209 200200
@@ -367,10 +378,10 @@
 - campus: The Centre for Housing & Support
   anchor: "chs"
   search: "worcester"
-  external-link: http://www.chs.ac.uk/index.php?page=_Home
+  external-link: http://www.chs.ac.uk
   brand: The Cornwall College Group
+  attached-brands: "cc"    
   copy: <p>Qualifications and training courses for sheltered and supported housing managers and staff.</p><p>Established in 1990, The Centre for Housing and Support is at the forefront of national training provision for professionals working in Housing-related Support services.</p>
-  link: http://www.chs.ac.uk/index.php?page=_Home
   contact-number: 01905 727272
   primary-color: F8A132
   email: info@chs.ac.uk

@@ -50,7 +50,7 @@ background-image: /local-office.jpg
           </tr>
         </tbody>
       </table>
-      <a title="view the {{ campus.campus }} page" href="/location-pages/{{ campus.link }}" class="btn campus-link" style="background-color:#{{ campus.primary-color }}">View The {{ campus.campus }} Page</a>
+      <a title="view the {{ campus.campus }} page" href="{% if campus.link %}/location-pages{{ campus.link }}{% else %}{{ campus.external-link}}{% endif %}" class="btn campus-link" style="background-color:#{{ campus.primary-color }}">View The {{ campus.campus }} Page</a>
     </article>
   </div>
   {% endfor %}

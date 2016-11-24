@@ -1,25 +1,25 @@
     <div id="form-ui">
-    <h3>Document filters</h3>  
-    <p class="lead no-margin">Filter the selected documents using the filters below.</p>    
-    
-        <h5>Category</h5>    
+        <h3>Document filters</h3>  
+        <p class="lead no-margin">Filter the selected documents using the filters below.</p>    
 
-        <div class="button-group filter-button-group">
-          <button class="btn " data-filter="*">Show All</button>
-          <button class="btn " data-filter=".application-forms">Application forms</button>    
-          <button class="btn " data-filter=".course-documents">Course Documents</button>
-          <button class="btn " data-filter=".equality-and-diversity">Equality &amp; Diversity</button>
-          <button class="btn " data-filter=".guides">Guides</button>
-          <button class="btn " data-filter=".maps">Maps</button>
-          <button class="btn " data-filter=".newsletter">Newsletter</button>
-          <button class="btn " data-filter=".other">Other</button>
-          <button class="btn " data-filter=".plans">Plans</button>
-          <button class="btn " data-filter=".prospectuses">Prospectuses</button>
-          <button class="btn " data-filter=".reports">Reports</button>    
-        </div>
+            <h5>Category</h5>    
+
+            <div class="button-group filter-button-group">
+              <button class="btn " data-filter="*">Show All</button>
+              <button class="btn " data-filter=".application-forms">Application forms</button>    
+              <button class="btn " data-filter=".course-documents">Course Documents</button>
+              <button class="btn " data-filter=".equality-and-diversity">Equality &amp; Diversity</button>
+              <button class="btn " data-filter=".guides">Guides</button>
+              <button class="btn " data-filter=".maps">Maps</button>
+              <button class="btn " data-filter=".newsletter">Newsletter</button>
+              <button class="btn " data-filter=".other">Other</button>
+              <button class="btn " data-filter=".plans">Plans</button>
+              <button class="btn " data-filter=".prospectuses">Prospectuses</button>
+              <button class="btn " data-filter=".reports">Reports</button>    
+            </div>
 
 
-</section>
+    </div>
     <section class="career-items container">
         <a id="area-grid-anchor"></a>
         <ul id="learning-area-grid" class="grid-layout more-padding hover-effect">
@@ -39,11 +39,9 @@
             
             
             <div class="download {{title.category}} col-xs-12 col-sm-6 col-md-4 col-lg-2" style="border-left:solid 5px #{{ title.colour }};">
-                <a data-toggle="collapse" data-target="#{{ title.category }}" href="#{{ title.search-link }}" >    
-                    <h4><span style="color:#{{ title.colour }};">{{ title.category }}</span>{{ title.title }}<span>File Type:{{ title.type }}</span></h4>
-                    <a class="btn" style="margin-botttom:5px" href="{{ title.download-link }}" > Download File</a>
-                </a>
-                    
+                <a data-toggle="collapse" data-target="#{{ title.category }}" href="#{{ title.search-link }}" > </a>   
+                <h4><span style="color:#{{ title.colour }};">{{ title.category }}</span>{{ title.title }}<span>File Type:{{ title.type }}</span></h4>
+                <a class="btn" style="margin-botttom:5px" href="{{ title.download-link }}" > Download File</a>                    
             </div>    
 
         {% endfor %}            
