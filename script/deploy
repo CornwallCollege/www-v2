@@ -220,7 +220,7 @@ else
     echo "Deploying to Production"
     
     
-    git clone git@github.com:CornwallCollege/cornwallcollege.github.io.git ../out
+    git clone git@github.com:CornwallCollege/www_static ../out
 
     # Clean out existing contents
     rm -rf ../out/*
