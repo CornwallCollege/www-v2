@@ -38,7 +38,7 @@ background-image: /local-office.jpg
           </tr>
           <tr>
             <td class="text-center hidden-xs"><i class="fa fa-envelope-o fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
-            <td><a href="mailto:{{ campus.email }}"><strong>{{ campus.email }}</strong></a></td>
+            <td>{% if campus.email != "..." %}<a href="mailto:{{ campus.email }}"><strong>{{ campus.email }}</strong></a>{% else %}{{ campus.email }}{% endif %}</td>
           </tr>
           <tr>
             <td class="text-center hidden-xs"><i class="fa fa-map-marker fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
