@@ -3,7 +3,7 @@
     <h3>Learning Area Filters</h3>
     <p class="lead no-margin">Filter our learning areas by selecting one or more of the filters below.</p>
 
-
+    {% if site.brand != 'fms' %}
         <h5><strong>Campus</strong></h5>
         <div class="btn-group" data-toggle="buttons">
         {% for location in site.data.learning-area-filters %} 
@@ -18,26 +18,7 @@
             <input type="checkbox" name="campus-radio" value="" >Remove Filter
           </label>
         </div>
-
-
-    <!--<div class="col-xs-12 col-md-6 ">
-        <h5>Brand</h5>
-        <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="brand-radio" value=".bic" data-brand="bictoncollege" > Bicton College
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="brand-radio" value=".cc" data-brand="cornwallcollege" > Cornwall College
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="brand-radio" value=".dc" data-brand="duchycollege"> Duchy College
-          </label>
-          <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="brand-radio" value=".fms" data-brand="falmouthms"> Falmouth Marine School
-          </label>
-        </div>
-    </div>-->
-
+    {% endif %}   
 
         <h5><strong>Sector</strong></h5>
         <div class="btn-group" data-toggle="buttons">   
@@ -63,17 +44,6 @@
 </div>
 </section>
 
-    <!--<section class="career-items container" style="padding-bottom: 20px;">
-        <a id="area-grid-anchor"></a>
-        <ul id="learning-area-grid" class="grid-layout more-padding hover-effect">
-            <li>
-                <figure>
-
-                </figure>
-            </li>
-        </ul>
-    </section>-->
-
 
 <!-- Learning Area Divs -->
 <section id="career-list" class="container main-section-margins">
@@ -82,31 +52,35 @@
         {% for cluster in site.data.sub-clusters %}
             {% for subcluster in cluster.subclusters %}
             
-                {% if subcluster.brand contains site.brand and site.brand != 'cc' %} 
+                {% if site.brand != 'cc' %}
+            
+                    {% if subcluster.brand contains site.brand %} 
     
-                    {% case site.brand %}
-                        {% when 'dc' %}
-                            {% assign brand-slug = "brand/duchycollege" %}
-                        {% when 'fms' %}
-                            {% assign brand-slug = "brand/falmouthms" %}
-                        {% when 'bic' %}
-                            {% assign brand-slug = "brand/bictoncollege" %}            
-                    {% else %}
-                    {% endcase %}
-                        
-                    <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
-                        <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
-                            <i class="fa fa-times close-icon"></i>
-                            <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
-                            <span class="readmore">Read More</span>
-                        </a>
-                        <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
-                            <p>{{ subcluster.intro }}</p>
-                            <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
-                            <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/{{ brand-slug }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
-                        </div>
+                        {% case site.brand %}
+                            {% when 'dc' %}
+                                {% assign brand-slug = "brand/duchycollege" %}
+                            {% when 'fms' %}
+                                {% assign brand-slug = "brand/falmouthms" %}
+                            {% when 'bic' %}
+                                {% assign brand-slug = "brand/bictoncollege" %}            
+                        {% else %}
+                        {% endcase %}
 
-                    </div>
+                        <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                            <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+                                <i class="fa fa-times close-icon"></i>
+                                <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+                                <span class="readmore">Read More</span>
+                            </a>
+                            <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
+                                <p>{{ subcluster.intro }}</p>
+                                <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                                <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/{{ brand-slug }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                            </div>
+
+                        </div>
+                     {% endif %} 
+            
                 {% else %}
             
                     <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">

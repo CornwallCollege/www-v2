@@ -863,7 +863,7 @@
           campus-filter: stoke
 
       colour: E54028
-      brand: cc dc bc
+      brand: cc dc bic
       level: 2 3 4 5 6 7
       sector: 16-18 19plus apprenticeships university
 
@@ -939,7 +939,7 @@
       a-href: /career-pages/foundation/index.html
       level: Entry 1 2
       colour: F18D05
-      brand: cc dc bc
+      brand: cc dc bic
       sector: 16-18 19plus
       campus: stoke-campus bicton-campus camborne-campus saltash-campus st-austell-campus
       campus-long:

@@ -3,6 +3,7 @@ url: https://www.duchy.ac.uk
 testurl: http://testwww.duchy.ac.uk
 destination: _site/duchy_ac_uk
 brand: dc
+brand-long: duchycollege
 brand-slug: brand/duchycollege
 cookie-domain: .duchy.ac.uk 
 hash: duchy

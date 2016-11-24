@@ -2,7 +2,8 @@ title: Cornwall.ac.uk
 url: https://www.cornwall.ac.uk
 testurl: http://testwww.cornwall.ac.uk
 destination: _site/cornwall_ac_uk
-brand: cc
+brand: 'cc'
+brand-long: cornwallcollege
 brand-slug: brand/cornwallcollege
 cookie-domain: .cornwall.ac.uk 
 hash: cornwall

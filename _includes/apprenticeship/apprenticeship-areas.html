@@ -7,7 +7,15 @@
 
     <article class="col-sm-12 col-md-9 clearfix right apprenticeships">
         <div class="main">
-        
+        {% if site.brand != cc %}
+                {% for apprenticeship-cluster in site.data.sub-clusters %}
+                  {% for apprenticeship-area in apprenticeship-cluster.subclusters %}
+                     {% if apprenticeship-area.sector contains 'apprenticeships' and apprenticeship-area.brand contains site.brand %}
+                        {% include /apprenticeship/apprenticeship-area.html %}
+                     {% endif %}
+                    {% endfor %}
+                {% endfor %}
+        {% else %}
                 {% for apprenticeship-cluster in site.data.sub-clusters %}
                   {% for apprenticeship-area in apprenticeship-cluster.subclusters %}
                      {% if apprenticeship-area.sector contains 'apprenticeships' %}
@@ -15,6 +23,7 @@
                      {% endif %}
                     {% endfor %}
                 {% endfor %}
+        {% endif %}
           
         </div>
 
