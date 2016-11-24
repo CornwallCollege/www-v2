@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-if [ "$TRAVIS_BRANCH" == "$Octopus" ]; then
+if [ "$TRAVIS_BRANCH" == "$octopus" ]; then
     set -e # halt script on error
     JEKYLL_ENV=production
     echo "PRODUCTION BUILD"
 fi
 
-if [ "$TRAVIS_BRANCH" != "$Octopus" ]; then
-    JEKYLL_ENV=development
+if [ "$TRAVIS_BRANCH" != "$octopus" ]; then
+    JEKYLL_ENV=test
     echo "DEVELOPMENT BUILD"
 fi
 
