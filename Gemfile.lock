@@ -75,7 +75,7 @@ GEM
       mini_portile2 (~> 2.1.0)
     nokogiri (1.6.8.1-x86-mingw32)
       mini_portile2 (~> 2.1.0)
-    parallel (1.9.0)
+    parallel (1.10.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
