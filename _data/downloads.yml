@@ -1228,7 +1228,7 @@
 - title: SINNG Newsletter # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/newsletter/sinng_newsletter.pdf
+  download-link: /documents/newsletters/sinng_newsletter.pdf
   search-link: sinng_newsletter  # Document name
   colour: e69900
   
