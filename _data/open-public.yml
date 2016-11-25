@@ -127,7 +127,7 @@
   short: nursery
   image: /images/working-nursery.jpg
   title: "Rosewarne Nursery began in the early 1990s as an educational facility and quickly grew into a commercial enterprise supplying the nursery trade throughout Cornwall and Devon, which it is still doing to this day."
-  text: "We are now supplying the majority of the garden centres across Cornwall including Carnon Downs, Chacewater and Trevena Cross, as well as having prestigious clients such as the Eden Project, Lost Gardens of Heligan and the National Trust.</p><p>Sustainability and environmental issues are always at the forefront of our work here, for example, using peat-free compost and relying on borehole water to supply the nursery. It is this ethos that has encouraged the likes of Eden and the National Trust to work closely with us.</p><p>We supply a broad variety of plants including Southern Hemisphere plants, coastal plants and a good range of hardy shrubs, grasses and herbaceous varieties focussing on the landscape trade. We also grow and supply a huge number of Agapanthus Rosewarne, which was bred in the early 1990s and still proves to be a really good all round and hardy agapanthus and one of our best-sellers.</p><p>The nursery is still a valuable educational resource and we endeavour to keep the nursery to a high standard of quality and cleanliness to show how a wholesale nursery should be run, encouraging best practice in our students. It is run by a small, dedicated and knowledgeable team, led by Nursery Manager John Ashton.</p><p>If you want to visit the nursery, please contact us in advance.</p>"
+  text: "We are now supplying the majority of the garden centres across Cornwall including Carnon Downs, Chacewater and Trevena Cross, as well as having prestigious clients such as the Eden Project, Lost Gardens of Heligan and the National Trust.</p><p>Sustainability and environmental issues are always at the forefront of our work here, for example, using peat-free compost and relying on borehole water to supply the nursery. It is this ethos that has encouraged the likes of Eden and the National Trust to work closely with us.</p><p>We supply a broad variety of plants including Southern Hemisphere plants, coastal plants and a good range of hardy shrubs, grasses and herbaceous varieties focussing on the landscape trade. We also grow and supply a huge number of Agapanthus Rosewarne, which was bred in the early 1990s and still proves to be a really good all round and hardy agapanthus and one of our best-sellers.</p><p>The nursery is still a valuable educational resource and we endeavour to keep the nursery to a high standard of quality and cleanliness to show how a wholesale nursery should be run, encouraging best practice in our students. It is run by a small, dedicated and knowledgeable team, led by Nursery Manager John Ashton.</p><p>If you want to visit the nursery, please contact us in advance."
 
   table:
     - icon: fa fa-facebook
@@ -205,12 +205,12 @@
     - campus-name: Koko (St Austell)
       id: staustell-koko
       class: panel-collapse collapse
-      text: "Hairdressing&#58; 01726 226728<br>Beauty & Holistic Therapies&#58; 01726 226731<br>Email&#58; koko.staustell@cornwall.ac.uk<br><a href='/documents/koko-stAustell-priceList.pdf'>Download a St Austell price list</a>
+      text: "Hairdressing&#58; 01726 226728<br>Beauty & Holistic Therapies&#58; 01726 226731<br>Email&#58; koko.staustell@cornwall.ac.uk<br><a href='/documents/koko-stAustell-priceList.pdf'>Download a St Austell price list</a>"
 
     - campus-name: Koko (Saltash)
       id: saltash-koko
       class: panel-collapse collapse
-      text: "Hairdressing&#58; 01752 850207<br>Beauty & Holistic Therapies&#58; 01752 850206<br>Email&#58; koko.saltash@cornwall.ac.uk<br><a href='/documents/koko-saltash-priceList.pdf'>Download a Saltash price list</a>
+      text: "Hairdressing&#58; 01752 850207<br>Beauty & Holistic Therapies&#58; 01752 850206<br>Email&#58; koko.saltash@cornwall.ac.uk<br><a href='/documents/koko-saltash-priceList.pdf'>Download a Saltash price list</a>"
 
   #table:
     #- icon: fa fa-clock-o
