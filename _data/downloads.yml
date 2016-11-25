@@ -47,14 +47,6 @@
   search-link: Application-Day-Consent-form # Document name
   colour: 77BC43
   
-  #Application Form (full and part-time qualification courses)
-- title: Application Form (full and part-time qualification courses)  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/Application-form/Application Day Consent form.pdf
-  search-link: Application-Day-Consent-form # Document name
-  colour: 77BC43
-
   #CC Leisure Application Form
 - title: CC Leisure Application Form  # Document name
   type: PDF # Document type
@@ -124,8 +116,8 @@
 - title: Spark application form - CC  # Document name
   type: PDF # Document type
   category: application-forms # Document category
-  download-link: /documents/Application-form/Spark application form - CC.pdf
-  search-link: Spark-application-form-CC # Document name
+  download-link: /documents/Application-form/spark-application-form-cc.pdf
+  search-link: spark-application-form-cc # Document name
   colour: 77BC43
   
   #Spark application form 2015 NEW
@@ -821,11 +813,11 @@
   colour: 00A5B4
   
   #CC HE T&C's 2016
-- title: CC HE T&Cs 2016 # Document name
+- title: "CC HE T &amp; Cs 2016" # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/CC HE T&Cs 2016.pdf
-  search-link: CC-HE-T&Cs-2016 # Document name
+  download-link: /documents/guides/CC-HE-TandCs-2016.pdf
+  search-link: CC-HE-TandCs-2016 # Document name
   colour: 00A5B4
   
   #CC NQ A3 Fold A5 Parents Guide
@@ -984,8 +976,8 @@
 - title: External Room Booking Charges 2012-2013 # Document name
   type: Excel Spreadsheet # Document type
   category: guides # Document category
-  download-link: /documents/guides/External Room Booking Charges 2012-2013.xslx
-  search-link: External-Room-Booking-Charges-2012-2013  # Document name
+  download-link: /documents/guides/external-room-booking-charges-2012-2013.xslx
+  search-link: external-room-booking-charges-2012-2013  # Document name
   colour: 00A5B4
   
   #Falmouth Accommodation 2015
@@ -1236,8 +1228,8 @@
 - title: SINNG Newsletter # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/newsletter/SINNG_Newsletter_01_0.pdf
-  search-link: SINNG-Newsletter-01-0  # Document name
+  download-link: /documents/newsletter/sinng_newsletter.pdf
+  search-link: sinng_newsletter  # Document name
   colour: e69900
   
   #young peoples project 28.11.14
@@ -1454,8 +1446,8 @@
 - title: Web Version Safeguarding Policy and Procedures # Document name
   type:  Word # Document type
   category: other # Document category
-  download-link: /documents/other/Web Version Safeguarding Policy and Procedures.doc
-  search-link: Web-Version-Safeguarding-Policy-and-Procedures # Document name
+  download-link: /documents/other/web-version-safeguarding-policy-procedures.doc
+  search-link: web-version-safeguarding-policy-procedures # Document name
   colour: 961313
   
   #Young Mums Will Achieve Leaflet
@@ -1708,8 +1700,8 @@
 - title: TCCG Ofsted Jan-16
   type:  PDF # Document type
   category: reports # Document category
-  download-link: /documents/reports/TCCG Ofsted Jan-16.pdf
-  search-link: TCCG-Ofsted-Jan-16 # Document name
+  download-link: /documents/reports/TCCG-ofsted-jan-16.pdf
+  search-link: TCCG-ofsted-jan-16 # Document name
   colour: bc77ee
   
   #End of Reports
