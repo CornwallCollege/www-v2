@@ -54,7 +54,7 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
     <section class="col-xs-12 col-sm-3">
       <article>
         {% if business.logo.size >= 0 %}
-        <img style="margin-bottom:10px" class="img-responsive" src="{{ business.logo }}">
+        <img style="margin-bottom:10px" alt="{{business.business}}" class="img-responsive" src="{{ business.logo }}">
         {% endif %}
       </article>
 
@@ -72,7 +72,7 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
       </article>
 
       <article>
-        <img class="img-responsive" src="{{ business.image }}">
+        <img class="img-responsive" alt="{{business.title}}" src="{{ business.image }}">
       </article>
     </section>
 
