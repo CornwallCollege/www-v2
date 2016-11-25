@@ -19,7 +19,7 @@ ssh-add CornwallCollegeTravisBot
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
-COMMITTER_EMAIL = 'git log HEAD^..HEAD --pretty='%aE' | sort -u'
+COMMITTER_EMAIL = `git log HEAD^..HEAD --pretty='%aE' | sort -u`
 
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
