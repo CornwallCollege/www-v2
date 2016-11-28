@@ -11,11 +11,6 @@ script:
 after_success:
         ./script/deploy
 
-# branch whitelist, only for GitHub Pages
-branches:
-  only:
-  - Multisite-update
-  - octopus
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
