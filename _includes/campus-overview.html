@@ -8,7 +8,7 @@
                             <section class="col-xs-12">
 
                                 <article class="col-sm-12 col-md-8 col-lg-8">
-                                    <a href="/location-pages{{ campus.link }}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
+                                    <a href="{% if campus.link contains 'http' %}{{ campus.link }}{% else %}/location-pages{{ campus.link }}{% endif %}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
                                 </article>
                                 <article class="col-sm-12 col-md-4 campus-seach">
                                         <h4><span>Courses@</span>{{ campus.campus }}</h4>
