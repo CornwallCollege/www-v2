@@ -43,7 +43,7 @@
                         </section>    
 
                         <article class="col-sm-12 col-md-12">
-                            <a title='view all courses in this area' {% if campus.external-link %} href='{{ campus.external-link }}' {% else %} href='/location-pages/{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
+                            <a title='view all courses in this area' {% if {{ campus.link }} contains 'http' %} href='{{ campus.link }}' {% else %} href='/location-pages/{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
                         </article>    
 
                     </section>
