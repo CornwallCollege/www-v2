@@ -1,5 +1,4 @@
 ---
-layout: compress
 ---
 
 <!DOCTYPE html>
@@ -7,8 +6,8 @@ layout: compress
 
   {% include head.html %}
 
-  <body>
-
+  <body itemscope="" itemtype='{{site.schema-college}}'>
+    
     {% include menu.html %}
 
     {% include back-button.html %}
@@ -16,7 +15,10 @@ layout: compress
 
 
     {% include footer.html %}
-    {% include scripts.html %}
+      
+    {% include scripts.html %}   
+    {% js main %}
+    {% js bundle-non-home %}
       
   </body>
 

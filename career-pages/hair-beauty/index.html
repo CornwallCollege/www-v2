@@ -1,34 +1,93 @@
 ---
 layout: career-page
-title: Hair & Beauty
+title: Hairdressing &amp; Beauty Therapy
 description: Find out more about starting an Education and Teaching Career at The Cornwall College Group
 career: hair-beauty
 link: course-subjects/hair-beauty
 brand: CC
+background-image: /images/area-banners/hair-beauty-desktop.jpg
+campuscodes: A,C,S
+schema: https://schema.org/course
+
+staff-name: Fran Clapham
+staff-role: Team Lead - Beauty
+staff-photo: /images/staff/fran-clapham.jpg
+staff-text: Cornwall College St Austell lecturer Fran Clapham has been recognised as one of the highest trained skin care                      professionals in the country. She now holds Dermalogica Expert status, the only trainer in Cornwall to achieve this.
+
+alumni-name: Alisha Dobson
+alumni-role: a-lister Jessie j's personal hairstylist
+alumni-photo: /images/alumni/health-wellbeing/hairdressing-beauty/alisha-dobson.jpg
+alumni-text: I wouldn't be doing this without college and my training salon. College gives you the foundation for everything.
+
+student-name1: Wassim Imchichi
+student-role1:
+student-photo1: /images/students/health-wellbeing/wassim-imchichi.jpg
+student-text1: I definitely want to study my Hairdressing Diploma Level 3 at the College first, and I've also looked into working overseas and on cruise ships.
+
+student-name2:
+student-role2:
+student-photo2:
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
+
+careers:
+- career-number: 1
+  career-title: Hairdresser or Barber
+  career-paragraph: Hairdressers and barbers shampoo, cut, colour, style and treat hair.
+  jobs-now: 18166
+  jobs-future: 19900
+  starting-salary: 14000
+  hashtag: hairdresser
+
+- career-number: 2
+  career-title: Beauty Therapist or Nail Technician
+  career-paragraph: Beauticians and related workers give facial and body beauty treatments, apply cosmetics and dress wigs.
+  jobs-now: 6476
+  jobs-future: 6928
+  starting-salary: 12000
+  hashtag: beauty-therapist
+
+- career-number: 3
+  career-title: Spa or Salon Manager
+  career-paragraph: Salon managers plan, organise, direct and co-ordinate the activities and resources of hairdressing salons, beauty treatment and similar establishments.
+  jobs-now: 2267
+  jobs-future: 2466
+  starting-salary: 14000
+  hashtag: spa-manager
 ---
 
-{% include career-header.html %}
+{% include /career/career-header.html %}
 
-{% include career-intro.html p1="Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people." %}
+{% include /career/career-intro.html p1="Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people." %}
 
 <section class="container">{% youtube https://youtu.be/47b1xZQJiwU %}</section>
 
-{% include career-examples-head.html %}
+{% include /career/example-careers.html %}
 
-{% include career-example-job.html number='2' title='Hairdresser or Barber' paragraph='Hairdressers and barbers shampoo, cut, colour, style and treat hair.' jobsIn='the Southwest' jobsNow=16383 jobsFuture=16517 startingSalary=14000 %}
+{% include /career/career-apply-bar-first.html %}
 
-{% include career-example-job.html number='1' title='Beauty Therapist or Nail Technician' paragraph='Beauticians and related workers give facial and body beauty treatments, apply cosmetics and dress wigs.' jobsIn='the Southwest' jobsNow=6324 jobsFuture=6378 startingSalary=12000 %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
-{% include career-example-job.html number='3' title='Spa or Salon Manager' paragraph='Salon managers plan, organise, direct and co-ordinate the activities and resources of hairdressing salons, beauty treatment and similar establishments.' jobsIn='the Southwest' jobsNow=2697 jobsFuture=2997 startingSalary=14000 %}
-{% include career-examples-foot.html %}
+{% include /career/student-case-studies.html %}
 
-{% include career-staff.html name="Fran Clapham" text="Fran is recognised as one of only two people in Cornwall to be recognised as a Dermalogica Expert. To achieve this status she had to complete a series specialist product, treatment and business workshops: something that Dermalogica only offer to the most skilled and knowledgeable therpsits in the industry." photo="alumni/hair-beauty-fran-clapham.jpg" %}
+{% include /career/career-stats.html percent1=100 end1='of our Hairdressing Diploma students say that teaching on their course is good.' %}
 
-{% include career-apply-bar-first.html %}  
+{% include /career/key-stats.html stat1="salon managers earn £30k+" stat2="the hair & beauty industry is worth £6.2 billion" stat3="nail technicians can earn up to £25k a year" stat4="1000s of apprentices started their careers with us"%}
 
-{% include career-stats.html percent1=100 end1='of our Hairdressing Diploma students say that teaching on their course is good.' %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
-{% include career-alumni.html name="Alisha Dobson" text="Alisha has travelled the world since leaving Cornwall College, working on prime time TV shows including the X Factor and Britain's Got Talent.  She is now touring with Jessie J and working as her personal hair stylist." photo="alumni/hair-beauty-alisha-dobson.jpg" %}
+<section class="container">
+    <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
+            <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
+    </section>
+</section>
+{% include /career/campus-locations.html %}
 
-{% include career-apply-bar-second.html %}    
-
+{% include /career/career-courses.html
+courseTitle1='Sports Massage Therapy VTCT Certificate' infoLink1='?courses=sports-massage-therapy-vtct-certificate' courseTitle2='Nail Services City &amp; Guilds Technical Diploma' infoLink2='?courses=nail-services-city-guilds-technical-diploma' courseTitle3='Beauty Therapy City &amp; Guilds Diploma' infoLink3='?courses=beauty-therapy-city-guilds-diploma' courseTitle4='Hairdressing &amp; Barbering City &amp; Guilds Certificate' infoLink4='?courses=hairdressing-barbering-city-guilds-certificate' courseTitle5='Theatrical, Special Effects, Hair &amp; Media Make-Up City &amp; Guilds Diploma' infoLink5='?courses=theatrical-special-effects-hair-media-make-up' %}

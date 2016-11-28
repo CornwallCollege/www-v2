@@ -1,0 +1,17 @@
+
+
+{% for outreach in site.data.outreach-centres %}
+<section id="{{ outreach.anchor }}" class="outreach-centres" style="background-color:#{{outreach.bg-color}};">
+    <section class="container">
+        <a></a>
+                <section idclass="col-xs-12">   
+                    <article class="col-sm-12">
+                        <h3 class="outreach-centre h3 span" style="color:#{{outreach.font-color}};"><span itemprop="subOrganization" style="font-size:40px">{{ outreach.outreach }}</span> <strong></strong></h3>
+                        <p class="outreach-centre p" > {{ outreach.detail }}</p>                        
+                    </article>       
+                </section>                           
+        </section>
+    </section>  
+{% endfor %}
+
+

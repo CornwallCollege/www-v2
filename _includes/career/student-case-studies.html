@@ -1,0 +1,26 @@
+<!-- student case studies -->
+<section class="col-md-12 main-section-margins student-case-study">
+    <section class="col-md-12 main-section-margins intro">
+      <article class="col-sm-12 text-center"> <h2>OUR <strong>STUDENTS</strong></h2> </article>
+    </section>
+      <section class="container">
+
+          <ul class="no-padding">
+            {% if page.student-name2 == null %}
+              <!-- One Student -->
+                {% include /career/student-case-studies-single.html studentImage=page.student-photo1 studentName=page.student-name1 studentRole=page.student-role1 studentQuote=page.student-text1 %}
+
+            {% elsif page.student-name3 == null %}
+              <!-- Two Students -->
+                {% include /career/student-case-studies-double.html studentImage1=page.student-photo1 studentName1=page.student-name1 studentRole1=page.student-role1 studentQuote1=page.student-text1 studentImage2=page.student-photo2 studentName2=page.student-name2 studentRole2=page.student-role2 studentQuote2=page.student-text2 %}
+
+            {% else %}
+              <!-- Three Students -->
+                {% include /career/student-case-studies-triple.html studentImage1=page.student-photo1 studentName1=page.student-name1 studentRole1=page.student-role1 studentQuote1=page.student-text1 studentImage2=page.student-photo2 studentName2=page.student-name2 studentRole2=page.student-role2 studentQuote2=page.student-text2 studentImage3=page.student-photo3 studentName3=page.student-name3 studentRole3=page.student-role3 studentQuote3=page.student-text3 %}
+
+            {% endif %}
+          </ul>
+
+      </section>
+</section>
+<!-- END OF TEAM MEMBERS CAROUSEL -->

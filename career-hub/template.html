@@ -1,0 +1,24 @@
+<section style="background:#f3f3f3;">
+<section class="col-sm-6 sq-sm text-block blog-post-list popup popup-position popup-right text-right social-feed-element {{? !it.moderation_passed}}hidden{{?}}" dt-create="{{=it.dt_create}}" social-feed-id = "{{=it.id}}" style="background: 50% 10% no-repeat url({{=it.attachment}}); background-size:cover;">
+             <div>               
+                <i class="fa fa-{{=it.social_network}}" style="color:#52B3D9; position:absolute; top:0; left:0; font-size:4rem;"></i>     
+                <span class="social-feed-date date"> {{=it.time_ago}}</span>
+
+            <!--<a href="single-blog-post.html"><h3 class="transition">{{=it.author_name}}</h3></a>-->
+            <!--<span class="meta">
+              <i class="fa fa-eye"></i> 243 .
+              <a href="#"><i class="fa fa-comments-o"></i> 2</a> .
+              <a href="#"><i class="fa fa-heart-o"></i> 48</a> 
+            </span>-->
+
+            <span class="hidden-xs hidden-sm hidden-md hidden-lg">
+             <i class="fa fa-long-arrow-right fa-lg"></i>
+            </span>
+            </div>
+    </section>
+</section>     
+        <section class="col-xs-12 col-sm-6 sq-sm text-block color-bg social-feed-element">
+          <p>{{=it.text}}</p>
+            <a href="{{=it.link}}" target="_blank" class="white-link">Full Article</a>
+        </section>
+<section style="height:10px; clear:both;"></section>    

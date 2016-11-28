@@ -1,0 +1,110 @@
+<section class=" container">
+<div id="form-ui">
+    <h3>Learning Area Filters</h3>
+    <p class="lead no-margin">Filter our learning areas by selecting one or more of the filters below.</p>
+
+    {% if site.brand != 'fms' %}
+        <h5><strong>Campus</strong></h5>
+        <div class="btn-group" data-toggle="buttons">
+        {% for location in site.data.learning-area-filters %} 
+          {% if location.brand contains site.brand %} 
+          <label class="area-filter btn btn-primary">
+            <input type="checkbox" name="campus-radio" value="{{location.value}}" data-campus="{{location.data-campus}}" >{{location.title}}
+          </label>
+          {% endif %}    
+            
+        {% endfor %}
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="campus-radio" value="" >Remove Filter
+          </label>
+        </div>
+    {% endif %}   
+
+        <h5><strong>Sector</strong></h5>
+        <div class="btn-group" data-toggle="buttons">   
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he">University
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="sector-radio" value=".16-18" data-course-type="fe16_18">16-18
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="sector-radio" value=".19plus" data-course-type="fe19plus">Adult 19+
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
+          </label>
+          <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="sector-radio" value="" >Remove Filter
+          </label>
+        </div>
+
+
+       <!--<p id="output">--</p>-->
+</div>
+</section>
+
+
+<!-- Learning Area Divs -->
+<section id="career-list" class="container main-section-margins">
+        <div id="career-content" >
+
+        {% for cluster in site.data.sub-clusters %}
+            {% for subcluster in cluster.subclusters %}
+            
+                {% if site.brand != 'cc' %}
+            
+                    {% if subcluster.brand contains site.brand %} 
+    
+                        {% case site.brand %}
+                            {% when 'dc' %}
+                                {% assign brand-slug = "brand/duchycollege" %}
+                            {% when 'fms' %}
+                                {% assign brand-slug = "brand/falmouthms" %}
+                            {% when 'bic' %}
+                                {% assign brand-slug = "brand/bictoncollege" %}            
+                        {% else %}
+                        {% endcase %}
+
+                        <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                            <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+                                <i class="fa fa-times close-icon"></i>
+                                <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+                                <span class="readmore">Read More</span>
+                            </a>
+                            <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
+                                <p>{{ subcluster.intro }}</p>
+                                <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                                <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/{{ brand-slug }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                            </div>
+
+                        </div>
+                     {% endif %} 
+            
+                {% else %}
+            
+                    <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                        <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+                            <i class="fa fa-times close-icon"></i>
+                            <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+                            <span class="readmore">Read More</span>
+                        </a>
+                        <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
+                            <p>{{ subcluster.intro }}</p>
+                            <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                            <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                        </div>
+
+                    </div>            
+            
+                {% endif %} 
+            
+            {% endfor %}
+        {% endfor %}
+
+
+
+        </div>
+</section>
+
+    <!--learning area section ends -->

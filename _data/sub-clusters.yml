@@ -1,0 +1,968 @@
+#Science & Natural Environment 113F8C
+- cluster: Science & Natural Environment
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition sne
+  a-data-filter: .sne
+  subclusters:
+    - subcluster: Applied Science & Forensics
+      university-faculty: Applied Science
+      image: /images/sne/applied-forensic-science-desktop.jpg
+      mobile-image: /images/sne/applied-forensic-science-mobile.jpg
+      filter: sne
+      a-href: /career-pages/applied-forensic-science/index.html
+      he-image: applied-science-forensic-science.jpg
+      icon: fa-flask
+      level: 2 3 4 5 6
+      colour: 113F8C
+      brand: cc
+      sector: 16-18 19plus university
+      campus: camborne-campus st-austell-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+      career-link: /applied-forensic-science/index.html
+      search-link: applied-science-forensics
+      intro: For those who love science, have an enquiring mind and attention to detail a career in applied or forensics could be perfect. Whether working as a forensic scientist helping to solve crimes, in an industrial laboratory or in research and development there is a broad range of careers available to you.
+
+    - subcluster: Marine & Natural Environment
+      university-faculty: Marine & Natural Environment
+      image: /images/sne/marine-science2.jpg
+      mobile-image: /images/sne/marine-science2-mobile.jpg
+      filter: sne
+      a-href: /career-pages/marine-natural-science/index.html
+      he-image: marine-natural-environment.jpg
+      icon: fa-anchor
+      level: 2 3 4 5 6
+      colour: 113F8C
+      sector: 16-18 19plus university
+      brand: fms
+      campus: falmouth-campus
+      campus-long:
+        - campus-name: Falmouth Campus
+          campus-link: /falmouth-campus.html
+          campus-filter: falmouth-marine-school
+
+      career-link: /marine-natural-science/index.html
+      search-link: marine-natural-environment
+      intro: "Our world is precious and it takes a special set of skills to nurture and protect it. Careers in this area are all about sustaining our world, supporting flora and fauna and educating future generations to create a sustainable environment. You'll need an interest in sciences and a passion for our world's living creatures."
+
+    - subcluster: Wildlife Conservation & Zoology
+      university-faculty: Wildlife Conservation & Zoology
+      image: /images/sne/environmental-science-desktop.jpg
+      mobile-image: /images/sne/environmental-science-mobile.jpg
+      filter: sne
+      a-href: /career-pages/wildlife-conservation/index.html
+      he-image: zoology.jpg
+      icon: fa-paw
+      level: 3 6
+      colour: 113F8C
+      brand: cc
+      sector: 16-18 19plus university
+      campus: newquay-campus
+      campus-long:
+        - campus-name: Newquay Campus
+          campus-link: /newquay-campus.html
+          campus-filter: newquay
+
+      career-link: /wildlife-conservation/index.html
+      search-link: wildlife-conservation-zoology
+      intro: "If you're interested in the environment and the Earth's natural resources a career in environmental based sciences may be for you."
+
+
+#Education 01A4A4
+- cluster: Education
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition edc
+  a-data-filter: .ed
+  subclusters:
+    - subcluster: Teaching & Education
+      university-faculty: Teaching & Education
+      image: /images/bpi/education.jpg
+      mobile-image: /images/bpi/education-mobile.jpg
+      filter: ed
+      a-href: /career-pages/teaching-education/index.html
+      he-image: school-of-education-professional-development.jpg
+      icon: fa-graduation-cap
+      level: 1 2 3 4 5 6 7
+      colour: 01A4A4
+      brand: cc
+      sector: 16-18 19plus university apprenticeships
+      campus: camborne-campus st-austell-campus saltash-campus rosewarne-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+          
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne          
+
+      career-link: /teaching-education/index.html
+      search-link: teaching-education
+      intro: Inspiring others to achieve their potential is a great vocation, to be able to capture imagination, build and develop ideas and motivate a generation to become more than they thought possible requires knowledge, patience, good communication skills and a sense of humour.
+
+    - subcluster: Children, Schools & Families
+      image: /images/hw/childcare.jpg
+      mobile-image: /images/hw/childcare-mobile.jpg
+      filter: ed
+      a-href: /career-pages/children-schools/index.html
+      level: 1 2 3
+      colour: 01A4A4
+      brand: cc dc
+      sector: 16-18
+      campus: camborne-campus st-austell-campus stoke-campus saltash-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+      career-link: /children-schools/index.html
+      search-link: children-schools-families
+      intro: "Shaping the way our world grows by working with a new generation is an exciting prospect. Whether you are working in a childcare setting with babies and toddlers or developing youth projects, children's workforce careers are so important to how our society develops and offer a truly challenging and rewarding experience."
+
+
+#Technology 00A1CB
+- cluster: Technology
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition tch
+  a-data-filter: .et
+  subclusters:
+    - subcluster: Marine Engineering & Boatbuilding
+      university-faculty: Marine Engineering & Boatbuilding
+      image: /images/et/boatbuilding.jpg
+      mobile-image: /images/et/boatbuilding-mobile.jpg
+      he-image: boatbuilding.jpg
+      filter: et
+      a-href: /career-pages/boatbuilding/index.html
+      level: 1 2 3 4
+      colour: 00A1CB
+      brand:  fms
+      icon: fa-ship
+      sector: 16-18 apprenticeships 19plus university
+      campus: falmouth-campus
+      campus-long:
+        - campus-name: Falmouth Campus
+          campus-link: /falmouth-campus.html
+          campus-filter: falmouth-marine-school
+
+      career-link: /boatbuilding/index.html
+      search-link: marine-engineering-boatbuilding
+      intro: "If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world carrying out repairs and maintenance, re-fits, conversions and building from scratch."
+
+    - subcluster: Construction
+      university-faculty: Construction
+      image: /images/et/construction-large.jpg
+      mobile-image: /images/et/construction-mobile.jpg
+      filter: et
+      a-href: /career-pages/construction/index.html
+      he-image: construction.jpg
+      icon: fa-home
+      level: 1 2 3
+      colour: 00A1CB
+      brand:  bic cc dc
+      sector: 16-18 19plus apprenticeships university
+      campus: bicton-campus camborne-campus st-austell-campus saltash-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+      career-link: /construction/index.html
+      search-link: construction
+      intro: From laying foundations to tiling the roof and everything in between, we offer practical skills training in all construction trades. If you like working outdoors, using your hands and experiencing different environments, the construction industry is waiting for you.
+
+    - subcluster: Motor Vehicle
+      image: /images/et/automotive.jpg
+      mobile-image: /images/et/automotive-mobile.jpg
+      filter: et
+      a-href: /career-pages/motor-vehicle/index.html
+      level: Entry 1 2 3
+      colour: 00A1CB
+      brand:  cc
+      sector: 16-18 19plus apprenticeships
+      campus: camborne-campus st-austell-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+      career-link: /motor-vehicle/index.html
+      search-link: motor-vehicle
+      intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
+
+    - subcluster: Engineering
+      university-faculty: Engineering
+      image: /images/et/engineering.jpg
+      mobile-image: /images/et/engineering-mobile.jpg
+      filter: et
+      a-href: /career-pages/engineering/index.html
+      he-image: engineering.jpg
+      icon: fa-cogs
+      level: 1 2 3 4 5
+      colour: 00A1CB
+      brand:  bic cc
+      sector: 16-18 19plus apprenticeships university
+      campus: bicton-campus camborne-campus st-austell-campus saltash-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+      career-link: /engineering/index.html
+      search-link: engineering
+      intro: Engineers solve scientific and practical problems which affect all aspects of our lives underpinning economic activity and quality of life.
+
+
+#Rural Economy 61AE24
+- cluster: Rural Economy
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition re
+  a-data-filter: .re
+  subclusters:
+    - subcluster: Agriculture & Countryside Management
+      university-faculty: Agriculture Horticulture Food & Land-use
+      image: /images/re/countryside-lnd-desktop.jpg
+      mobile-image: /images/re/countryside-lnd-mobile.jpg
+      filter: re
+      a-href: /career-pages/agriculture/index.html
+      he-image: agriculture-countryside-management.jpg
+      icon: fa-leaf
+      level: 1 2 3 4 5 6
+      colour: 61AE24
+      brand: bic dc
+      sector: 16-18 19plus apprenticeships university
+      campus: bicton-campus rosewarne-campus stoke-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne
+
+      career-link: /agriculture/index.html
+      search-link: agriculture-countryside-management
+      intro: "If you love the countryside, are passionate about its protection and conservation and the livelihoods that rely on its existence, this could be the career path for you. You'll need to love working outdoors, and want to understand how nature works and how we interact with it in a sustainable way."
+
+
+    - subcluster: Animal Management & Veterinary Nursing
+      university-faculty: Animal Management & Veterinary Nursing
+      image: /images/re/animal-care.jpg
+      mobile-image: /images/re/animal-care-mobile.jpg
+      filter: re
+      a-href: /career-pages/animal-science-management/index.html
+      he-image: animal-management.jpg
+      icon: fa-stethoscope
+      level: 1 2 3 6
+      colour: 61AE24
+      brand: bic dc
+      sector: 16-18 19plus apprenticeships university
+      campus: bicton-campus rosewarne-campus stoke-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne
+
+      career-link: /animal-science-management/index.html
+      search-link: animal-management-veterinary-nursing
+      intro: "Are you passionate about animals and their welfare? Understanding animal behaviour, environments and health requires scientific understanding as well as a caring nature. We can offer you the chance to work with animals at whichever level suits you best, from veterinary sciences to dog grooming, you'll learn from experts and our industry partners."
+
+    - subcluster: Equine
+      university-faculty: Equine
+      image: /images/re/equine-desktop.jpg
+      mobile-image: /images/re/equine-mobile.jpg
+      filter: re
+      a-href: /career-pages/equine/index.html
+      he-image: equine.jpg
+      icon: fa-trophy
+      level: 1 2 3 4 5 6
+      colour: 61AE24
+      brand: bic dc
+      sector: 16-18 19plus apprenticeships university
+      campus: bicton-campus stoke-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+      career-link: /equine/index.html
+      search-link: equine
+      intro: "Equine sector jobs allow you to follow a career working with something you are passionate about horses. Whether that's the welfare, husbandry and supervision of horses in a stable or livery, training thoroughbred racehorses or coaching and breeding. You could be a jockey, show jumper or support technician, there is a wide range of careers to choose from."
+
+
+    - subcluster: Food Technology & Production
+      university-faculty: Food Technology & Production
+      image: /images/re/food-production-desktop.jpg
+      he-image: food-production.jpg
+      mobile-image: /images/re/food-production-mobile.jpg
+      filter: re
+      a-href: /career-pages/food-production/index.html
+      level: 2 3 4 5 6
+      icon: fa-industry
+      colour: 61AE24
+      brand: dc
+      sector: 16-18 19plus apprenticeships university
+      campus: stoke-campus
+      campus-long:
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+      career-link: /food-production/index.html
+      search-link: food-technology-production
+      intro: "The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currently in the food and grocery sector, so there's plenty of choice!"
+
+    - subcluster: Horticulture & Floristry
+      university-faculty: Horticulture & Floristry
+      image: /images/re/horticulture-floristry.jpg
+      he-image: horticulture-floristry.jpg
+      mobile-image: /images/re/horticulture-floristry.jpg
+      filter: re
+      a-href: /career-pages/horticulture/index.html
+      level: 1 2 3 6
+      colour: 61AE24
+      icon: fa-envira
+      brand: bic dc
+      sector: 16-18 19plus apprenticeships university
+      campus: bicton-campus rosewarne-campus stoke-campus eden
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+        - campus-name: Eden Campus
+          campus-link: /eden-campus.html
+          campus-filter: eden-project
+
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne
+
+      career-link: /horticulture/index.html
+      search-link: horticulture-floristry
+      intro: If plants, their growth, sustainability and making the environment beautiful are close to your heart a career in horticulture could be for you.
+
+    - subcluster: Land-based Engineering & Technology
+      image: /images/re/agriculture.jpg
+      mobile-image: /images/re/agriculture-mobile.jpg
+      filter: re
+      a-href: /career-pages/land-based-engineering/index.html
+      level: 1 2 3
+      colour: 61AE24
+      brand: bic dc
+      sector: 16-18 19plus apprenticeships
+      campus: bicton-campus rosewarne-campus stoke-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne
+
+      career-link: /land-based-engineering/index.html
+      search-link: land-based-engineering-technology
+      intro: Enjoy working outside and find farm work, livestock and machinery interesting? Then you should consider a career in agriculture.
+
+
+#Cultural & Visitor Economy D0D102
+- cluster: Cultural & Visitor Economy
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition cve
+  a-data-filter: .cve
+  subclusters:
+    - subcluster: Arts & Media
+      university-faculty: Creative Arts & Media
+      image: /images/cve/art.jpg
+      mobile-image: /images/cve/art-mobile.jpg
+      filter: cve
+      a-href: /career-pages/arts-media/index.html
+      he-image: arts-media.jpg
+      icon: fa-paint-brush
+      level: 2 3 4 5 6
+      colour: D0D102
+      brand: cc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus st-austell-campus saltash-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+      career-link: /arts-media/index.html
+      search-link: arts-media
+      intro: "Whether it's your passion to perform or create beautiful things for the world to enjoy, a career in the arts offers you an amazing variety or opportunities."
+
+    - subcluster: Catering & Academy Nathan Outlaw
+      university-faculty: Catering & Academy Nathan Outlaw
+      image: /images/cve/catering-small.jpg
+      mobile-image: /images/cve/catering-mobile.jpg
+      filter: cve
+      a-href: /career-pages/catering-academy/index.html
+      he-image: catering.jpg
+      icon: fa-cutlery
+      level: 1 2 4 5 6
+      colour: D0D102
+      brand: cc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus st-austell-campus saltash-campus eden-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Eden Campus
+          campus-link: /eden-campus.html
+          campus-filter: eden-project
+
+      career-link: /catering-academy/index.html
+      search-link: catering-academy-nathan-outlaw
+      intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries.
+
+    - subcluster: Hospitality & Front of House
+      university-faculty: Hospitality & Front of House
+      image: /images/cve/hospitality.jpg
+      mobile-image: /images/cve/hospitality-mobile.jpg
+      filter: cve
+      a-href: /career-pages/hospitality-front/index.html
+      he-image: hospitality.jpg
+      icon: fa-beer
+      level: 1 2 4 5 6
+      colour: D0D102
+      brand: cc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus st-austell-campus saltash-campus eden-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Eden Campus
+          campus-link: /eden-campus.html
+          campus-filter: eden-project
+
+      career-link: /hospitality-front/index.html
+      search-link: hospitality-front-house
+      intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries.
+
+
+    - subcluster: Music & Performing Arts
+      image: /images/cve/media.jpg
+      mobile-image: /images/cve/media-mobile.jpg
+      filter: cve
+      a-href: /career-pages/music-performing-arts/index.html
+      level: 2 3 4 5 6
+      colour: D0D102
+      brand: cc
+      sector: 16-18 19plus apprenticeships
+      campus: camborne-campus st-austell-campus bristol-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Bristol Campus
+          campus-link: /bristol-campus.html
+          campus-filter: dbs-bristol
+
+      career-link: /music-performing-arts/index.html
+      search-link: music-performing-arts
+      intro: Make films, create magazines, explore journalism and design brands. These and many more pathways are available for anyone with a creative soul and passion for new ideas.
+
+    - subcluster: Travel & Tourism
+      image: /images/cve/travel-tourism-small.jpg
+      mobile-image: /images/cve/travel-tourism-mobile.jpg
+      filter: cve
+      a-href: /career-pages/travel-tourism/index.html
+      level: 2 3
+      colour: D0D102
+      brand: cc
+      sector: 16-18 19plus apprenticeships
+      campus: camborne-campus st-austell-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+      career-link: /travel-tourism/index.html
+      search-link: travel-tourism
+      intro: "The 21st century has seen Cornwall emerge as one of the world's iconic destinations for its beaches, culture, watersports, countryside and history."
+
+
+#AS & A-level
+- cluster: A-levels
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  a-href: /career-pages/a-levels/index.html
+  a-class: transition as
+  a-data-filter:
+  subclusters:
+    - subcluster: A-levels
+      image: /images/as/a-levels-lnd-dsktop.jpg
+      mobile-image: /images/as/a-levels-lnd-mobile.jpg
+      filter: as
+      a-href: /career-pages/a-levels/index.html
+      brand: cc
+      campus: st-austell-campus
+      campus-long:
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+      sector: 16-18 19plus
+      colour: 616161
+      learning-style: academic
+      career-link: /a-levels/index.html
+      search-link: as-a-level
+      intro: A-levels at St Austell, pre university courses on your doorstep with 99.2% pass rate in 2014. If your focus is university and you want to get a personalised learning experience, plus work experience and a great support network, look no further.
+
+
+#Health & Wellbeing D70060
+- cluster: Health & Wellbeing
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition hw
+  a-data-filter: .hw
+  subclusters:
+    - subcluster: Hairdressing & Beauty Therapy
+      university-faculty: Hairdressing & Beauty Therapy
+      image: /images/hw/hair.jpg
+      mobile-image: /images/hw/hair-mobile.jpg
+      filter: hw
+      a-href: /career-pages/hair-beauty/index.html
+      he-image: hair.jpg
+      icon: fa-scissors
+      level: 1 2 3
+      colour: D70060
+      brand: cc
+      sector: 16-18 19plus apprenticeships
+      campus: camborne-campus st-austell-campus saltash-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+      career-link: /hair-beauty/index.html
+      search-link: hairdressing-beauty-therapy
+      intro: "Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people."
+
+    - subcluster: Public Services & Military Academy
+      university-faculty: Public Services & Military Academy
+      image: /images/hw/public-services.jpg
+      mobile-image: /images/hw/public-services-mobile.jpg
+      filter: hw
+      a-href: /career-pages/public-services/index.html
+      he-image: public-service.jpg
+      icon: fa-fire-extinguisher
+      level: 1 2 3
+      colour: D70060
+      brand: cc
+      sector: 16-18 19plus university
+      campus: camborne-campus saltash-campus bicton-campus stoke-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+      career-link: /public-services/index.html
+      search-link: public-services-military-academy
+      intro: "A career in the armed forces or the blue light public services is for anyone who cares about others, wants variety and a new challenge every day. Working with people to help keep them safe, happy and healthy is the driver for public servants and provides opportunity for careers locally, nationally and around the world."
+
+    - subcluster: Sports and Fitness
+      university-faculty: Sports and Fitness
+      image: /images/hw/sport.jpg
+      mobile-image: /images/hw/sport-mobile.jpg
+      filter: hw
+      a-href: /career-pages/sport/index.html
+      he-image: sport-fitness.jpg
+      icon: fa-futbol-o
+      level: 1 2 3 4 5 6
+      colour: D70060
+      brand: cc fms dc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus newquay-campus st-austell-campus falmouth-campus stoke-campus
+      campus-long:
+
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+        - campus-name: Falmouth Campus
+          campus-link: /falmouth-campus.html
+          campus-filter: falmouth-marine-school
+
+        - campus-name: Newquay Campus
+          campus-link: /newquay-campus.html
+          campus-filter: newquay
+
+      career-link: /sport/index.html
+      search-link: sports-fitness
+      intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
+
+    - subcluster: Social Care & Health
+      university-faculty: Social Care & Health
+      image: /images/hw/health2.jpg
+      mobile-image: /images/hw/health2-mobile.jpg
+      he-image: social.jpg
+      filter: hw
+      a-href: /career-pages/health/index.html
+      level: 2 3 4 5 6
+      colour: D70060
+      icon: fa-users
+      brand: cc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus st-austell-campus rosewarne-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+          
+        - campus-name: Rosewarne Campus
+          campus-link: /rosewarne-campus.html
+          campus-filter: rosewarne           
+
+      career-link: /health/index.html
+      search-link: social-care-health
+      intro: "If you're interested in the human body, how it works and heals, and want to work to help people live better lives a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people."
+
+    - subcluster: Watersports
+      image: /images/hw/watersports.jpg
+      mobile-image: /images/hw/watersports-mobile.jpg
+      filter: hw
+      a-href: /career-pages/water-sports/index.html
+      level:
+      colour: D70060
+      brand: fms
+      sector:
+      campus: falmouth-campus
+      campus-long:
+        - campus-name: Falmouth Campus
+          campus-link: /falmouth-campus.html
+          campus-filter: falmouth-marine-school
+
+      career-link: /water-sports/index.html
+      search-link: watersports
+      intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
+
+
+#Business & Professional E54028
+- cluster: Business & Professional
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  cluster-link: #
+  a-class: transition bpi
+  a-data-filter: .bpi
+  subclusters:
+    - subcluster: Accountancy
+      image: /images/bpi/accountancy.jpg
+      mobile-image: /images/bpi/accountancy-mobile.jpg
+      filter: bpi
+      a-href: /career-pages/accountancy-financial/index.html
+      colour: E54028
+      brand: cc
+      sector: 16-18 19plus apprenticeships
+      campus: camborne-campus st-austell-campus saltash-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+      career-link: /accountancy-financial/index.html
+      search-link: accounting
+      level: 2 3
+      intro: If you have attention to detail and like working with numbers, a career in the financial sector could be very rewarding.
+
+    - subcluster: Business School
+      university-faculty: Business School
+      image: /images/bpi/business-small.jpg
+      mobile-image: /images/bpi/business-mobile.jpg
+      filter: bpi
+      a-href: /career-pages/business-school/index.html
+      he-image: business-pro.jpg
+      icon: fa-gavel
+      campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+      colour: E54028
+      brand: cc dc bic
+      level: 2 3 4 5 6 7
+      sector: 16-18 19plus apprenticeships university
+
+      career-link: /business-school/index.html
+      search-link: business-school
+      intro: Having a good head for business could mean you have skills such as creativity, good communication, insight into trends and understanding of finance and people.
+
+    - subcluster: Customer Service
+      image: /images/bpi/customer-service.jpg
+      mobile-image: /images/bpi/customer-service-mobile.jpg
+      filter: bpi
+      a-href: /career-pages/sales-marketing/index.html
+      colour: E54028
+      level: 2
+      brand: cc
+      sector: 16-18 19plus apprenticeships
+      campus: camborne-campus st-austell-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+      career-link: /sales-marketing/index.html
+      search-link: customer-service
+      intro: Marketers identify, anticipate and satisfy the customer - for a profit; sales people encourage us to buy and customer service professionals help us along the way.
+
+    - subcluster: Digital Academy
+      university-faculty: Digital Academy
+      image: /images/bpi/it-comms.jpg
+      mobile-image: /images/bpi/it-comms-mobile.jpg
+      filter: bpi
+      a-href: /career-pages/digital-technologies/index.html
+      he-image: digital-academy.jpg
+      icon: fa-gamepad
+      colour: E54028
+      level: 2 3
+      brand: cc
+      sector: 16-18 19plus apprenticeships university
+      campus: camborne-campus st-austell-campus saltash-campus
+      campus-long:
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+      career-link: /digital-technologies/index.html
+      search-link: digital-academy
+      intro: For anyone interested in digital technology, this is a great time to start a career in this sector.
+
+
+#Foundation Learning F18D05
+- cluster: Foundation Learning
+  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
+  a-href: /career-pages/foundation/index.html
+  a-class: transition fnd
+  a-data-filter:
+  subclusters:
+    - subcluster: Foundation Learning
+      image: /images/hw/public-services.jpg
+      mobile-image: /images/hw/public-services-mobile.jpg
+      filter: foundation
+      a-href: /career-pages/foundation/index.html
+      level: Entry 1 2
+      colour: F18D05
+      brand: cc dc bic
+      sector: 16-18 19plus
+      campus: stoke-campus bicton-campus camborne-campus saltash-campus st-austell-campus
+      campus-long:
+        - campus-name: Bicton Campus
+          campus-link: /bicton-campus.html
+          campus-filter: bicton
+
+        - campus-name: Camborne Campus
+          campus-link: /camborne-campus.html
+          campus-filter: camborne
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
+
+        - campus-name: Saltash Campus
+          campus-link: /saltash-campus.html
+          campus-filter: saltash
+
+        - campus-name: Stoke Climsland Campus
+          campus-link: /stoke-campus.html
+          campus-filter: stoke
+
+      career-link: /foundation/index.html
+      search-link: foundation-learning
+      intro:

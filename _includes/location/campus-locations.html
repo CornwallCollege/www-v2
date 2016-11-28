@@ -1,0 +1,36 @@
+{% if page.layout == "location-hub" %}
+    {% case site.brand %}
+        {% when 'dc' %}
+            {% assign campuscodes = "D,R,E" %}
+        {% when 'fms' %}
+            {% assign campuscodes = "F" %}
+        {% when 'bic' %}
+            {% assign campuscodes = "B, E" %}           
+    {% else %}
+        {% assign campuscodes= "M,B,C,F,N,R,S,A,D,E" %} 
+    {% endcase %}
+{% endif %}
+
+<section id="location-map" class="col-md-12 no-padding">  
+    <script>
+                var campuses = [            
+                    {% for campus in site.data.campus %}
+                    
+                        {% if page.layout == "location-hub" %}
+                            {% if campuscodes contains campus.code %}
+                                {% include /location/campus-locations-location.html campus=campus %}
+                            {% endif %}
+                        {% else %}
+                            {% if page.campuscodes contains campus.code %}
+                                {% include /location/campus-locations-location.html campus=campus %}
+                            {% endif %}                        
+                        {% endif %}
+                    
+                    {% endfor %} 
+                ];      
+    </script>    
+
+    <!-- map -->
+    <div id="gmap_canvas"></div>
+</section>    
+

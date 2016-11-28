@@ -1,38 +1,132 @@
 ---
 layout: career-page
-title: Digital Technologies
+title: Digital Academy
 description: Find out more about starting a career in the Digital Technologies sector at The Cornwall College Group
 career: digital-technologies
 link: course-subjects/information-communication-technology
 brand: CC
+background-image: /images/area-banners/digital-technologies-desktop.jpg
+campuscodes: C,S,A
+schema: https://schema.org/course
+
+staff-name: Buzz Banks
+staff-role: Team Lead - Digital Academy
+staff-photo: /images/staff/buzz-banks.jpg
+staff-text: These are very interesting times for the digital economy, everything is changing as we make more and more advances with technology. It’s a challenge we relish here at the College, to make sure our curriculum stays up-to-date with what industry demands of its future workforce. We’ve worked really closely with Software Cornwall and businesses to develop             our programmes, to ensure they fit exactly what the market is looking for. We also make sure we deliver the very latest             insights through our partnerships with Microsoft and as a CISCO Networking Academy.
+
+alumni-name: Mark Rowland
+alumni-role:
+alumni-photo: /images/alumni/business-pro/mark-rowland.jpg
+alumni-text: After leaving Cornwall College Mark started working as an IT engineer, something he is incredibly passionate about. Mark is now the director of Plymouth-based IT company Cutec Ltd."
+
+student-name1: Karolina Vabolyte
+student-role1:
+student-photo1: /images/students/business-pro/karolina-vabolyte.jpg
+student-text1: Quote
+
+student-name2:
+student-role2:
+student-photo2:
+student-text2:
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
+
+careers:
+- career-number: 1
+  career-title: IT Engineer
+  career-paragraph: IT engineers install, maintain and repair the physical components of computer systems and equipment and the networks they operate across.
+  jobs-now: 2797
+  jobs-future: 2584
+  starting-salary: 18000
+  hashtag: it-engineer
+
+- career-number: 2
+  career-title: IT Operations Technician
+  career-paragraph: IT operations technicians are responsible for the day-to-day running of networks including the preparation of back-up systems, and for performing regular checks to ensure smooth running.
+  jobs-now: 8954
+  jobs-future: 9201
+  starting-salary: 18000
+  hashtag: it-technician
+
+- career-number: 3
+  career-title: IT Project or Programme Manager
+  career-paragraph: IT project managers manage, co-ordinate and technically supervise specific IT projects and programmes of a discrete duration and/or budget.
+  jobs-now: 6091
+  jobs-future: 6545
+  starting-salary: 25000
+  hashtag: it-manager
+
+- career-number: 4
+  career-title: Programmer or Software Development Professional
+  career-paragraph: Design, develop, test, implement and maintain software systems for a business or even design and develop specialist software e.g. for computer games.
+  jobs-now: 22360
+  jobs-future: 24223
+  starting-salary: 22000
+  hashtag: programmer
+
+- career-number: 5
+  career-title: Telecommunications Engineer
+  career-paragraph: Telecommunications engineers install, maintain and repair public and private telephone systems and maintain, test and repair telecommunications cables.
+  jobs-now: 6125
+  jobs-future: 5665
+  starting-salary: 18000
+  hashtag: telecommunications-engineer
+
+- career-number: 6
+  career-title: Web Design & Development Professional
+  career-paragraph: Design, develop and maintain websites to meet a client’s specified requirements. This creative and technical career is in a fast-paced industry, that allows you to work anywhere in the world.
+  jobs-now: 6082
+  jobs-future: 6688
+  starting-salary: 18000
+  hashtag: web-designer
+
+- career-number: 7
+  career-title: Information Technology or Telecommunications Director
+  career-paragraph: Directors plan, organise and co-ordinate the work and resources necessary to provide and operate information technology and telecommunications services within an organisation.
+  jobs-now: 4795
+  jobs-future: 5338
+  starting-salary: 24000
+  hashtag: network-manager
+
+- career-number: 8
+  career-title: IT User Support Technicican
+  career-paragraph: Technicians are responsible for providing technical support, advice and guidance for users of IT systems and applications, either directly or by telephone, e-mail or other network interaction.
+  jobs-now: 6898
+  jobs-future: 7135
+  starting-salary: 24000
+  hashtag: IT-Technician
 ---
 
-{% include career-header.html %}
+{% include /career/career-header.html %}
 
-{% include career-intro.html p1="Computers, information networks and communication channels are rapidly changing and evolving in the modern world. This is a growth industry, as more of the planet goes on-line we rely on technology more and more to improve the quality of our lives." p2="For anyone interested in digital technology, this is a great time to start a career in this sector." %}
+{% include /career/career-intro.html p1="Computers, information networks and communication channels are rapidly changing and evolving in the modern world. This is a growth industry, as more of the planet goes on-line we rely on technology more and more to improve the quality of our lives." p2="For anyone interested in digital technology, this is a great time to start a career in this sector." %}
 
 <section class="container">{% youtube https://youtu.be/kq3V5sKSl3k %}</section>
 
-{% include career-examples-head.html %}
+{% include /career/example-careers.html %}
 
-{% include career-example-job.html number='1' title='IT Engineer' paragraph='IT engineers install, maintain and repair the physical components of computer systems and equipment and the networks they operate across.' jobsIn='the Southwest' jobsNow=3474 jobsFuture=3101 startingSalary=18000 %}
+{% include /career/career-apply-bar-first.html %}
 
-{% include career-example-job.html number='2' title='IT Operations Technician' paragraph='IT operations technicians are responsible for the day-to-day running of networks including the preparation of back-up systems, and for performing regular checks to ensure smooth running.' jobsIn='the Southwest' jobsNow=8886 jobsFuture=9272 startingSalary=18000 %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
-{% include career-example-job.html number='3' title='IT Project or Programme Manager' paragraph='IT project managers manage, co-ordinate and technically supervise specific IT projects and programmes of a discrete duration and/or budget.' jobsIn='the Southwest' jobsNow=5643 jobsFuture=6142 startingSalary=25000 %}
-{% include career-example-job.html number='4' title='Programmer or Software Development Professional' paragraph='Design, develop, test, implement and maintain software systems for a business or even design and develop specialist software e.g. for computer games.' jobsIn='the Southwest' jobsNow=22303 jobsFuture=24273 startingSalary=22000 %}
+<!-- STUDENT PROFILE -->
 
-{% include career-example-job.html number='5' title='Telecommunications Engineer' paragraph='Telecommunications engineers install, maintain and repair public and private telephone systems and maintain, test and repair telecommunications cables.' jobsIn='the Southwest' jobsNow=6107 jobsFuture=5448 startingSalary=18000 %}
+{% include /career/career-stats.html percent1=97 end1='of our ICT students say that lecturers know their subject well.' begin2='Our ICT for users courses have an' percent2=96.5 end2='success rate (<span>7.7%</span> higher than the national average).' %}
 
-{% include career-example-job.html number='6' title='Web Design & Development Professional' paragraph='Design, develop and maintain websites to meet a client’s specified requirements. This creative and technical career is in a fast-paced industry, that allows you to work anywhere in the world.' jobsIn='the Southwest' jobsNow=5804 jobsFuture=6317 startingSalary=18000 %}
+{% include /career/key-stats.html stat1='The tech sector contributes £91 billion to the UK economy' stat2='UK adults spend more time using media than they do sleeping' stat3='Last year, there were an extra 77,000 jobs available in the tech sector' stat4='26,000 new jobs were in the region between 2012-2013'%}
 
-{% include career-examples-foot.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
-{% include career-apply-bar-first.html %}
+<section class="container">
+    <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
+            <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
+    </section>
+</section>
+{% include /career/campus-locations.html %}
 
-{% include career-stats.html percent1=97 end1='of our ICT students say that lecturers know their subject well.' begin2='Our ICT for users courses have an' percent2=96.5 end2='success rate (<span>7.7%</span> higher than the national average).' %}
-
-
-{% include career-alumni.html name="Mark Rowland" text="After leaving Cornwall College Mark started working as an IT engineer, something he is incredibly passionate about. Mark is now the director of Plymouth-based IT company Cutec Ltd." photo="alumni/digital-technologies-mark-rowland.jpg" %}
-
-{% include career-apply-bar-second.html %} 
+{% include /career/career-courses.html courseTitle1='Software Development Extended Diploma' infoLink1='?courses=software-development-extended-diploma' courseTitle2='IT (Web Development) Edexcel BTEC Extended Diploma' infoLink2='?courses=it-web-development-edexcel-btec-extended-diploma' courseTitle3='IT Design &amp; Web Media Apprenticeship' infoLink3='?courses=it-design-web-media-apprenticeship' courseTitle4='FdSc Computing, Networking &amp; Software Development' infoLink4='?courses=fdsc-computing-networking-software-development' courseTitle5='ICT Systems &amp; Principles For IT Professionals Diploma' infoLink5='?courses=ict-systems-principles-for-it-professionals-diploma' %}

@@ -1,0 +1,18 @@
+<!-- More work -->
+
+<section class="col-xs-12">
+    <section class="container">
+        <header class="col-sm-12 text-center main-section-margins"> 
+            <h2 class="text-uppercase">Undergraduate <strong>Learning Areas</strong></h2>
+        </header>
+        <section id="faculty-areas" class="col-md-12 faculty-areas ">
+
+
+            <!-- Thumbnails -->
+            <div class="row margin equal">
+                {% for area in site.data.sub-clusters %} {% assign subs = area.subclusters | sort: 'subcluster' %} {% for sub in subs | sort: 'subcluster' %} {% include university/he-area.html %} {% endfor %} {% endfor %}
+
+            </div>
+        </section>
+    </section>    
+</section>

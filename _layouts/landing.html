@@ -1,20 +1,20 @@
 ---
-layout: compress
+layout: compress 
 ---
 <!DOCTYPE html>
 {% include site-html-tag.html %}
 
   {% include head.html %}
 
-  <body class="home">
+  <body class="home" itemscope="" itemtype='{{site.schema-college}}'>
 
     {% include menu.html %}
 
 
     {{ content }}
 
-
-    {% include scripts.html %}
+    {% js main %}
+    {% js bundle-home %}
   </body>
 
 </html>

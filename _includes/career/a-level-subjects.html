@@ -1,0 +1,15 @@
+{% if include.align == "right" %}
+<article class="col-xs-12 col-sm-5 popup-alt popup-right-alt a-levels" style="min-height: 335px">
+{% else %}
+<article class="col-xs-12 col-sm-5 col-sm-offset-1 popup-alt popup-left-alt a-levels" style="clear:left; min-height: 335px;">
+{% endif %}
+    <header>
+        <h5 class="col-xs-10 text-uppercase">{{include.a-level | upcase }}</h5>
+    </header>
+    <footer>
+        <p>{{include.a-level-summery }}</p>
+        <div class="btn ghost" style="margin-left: 120px">
+        <a href="{{include.a-level-link }}" style="opacity:1">See Our course</a>
+        </div>
+    </footer>
+</article>

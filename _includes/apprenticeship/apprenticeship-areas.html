@@ -1,0 +1,32 @@
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-12 col-md-3 pull-right">
+        <h2 style="text-align:left;"><strong>APPRENTICESHIP</strong> COURSE AREAS</h2>
+        <p class="lead" >You can study an apprenticeship in over 80 different areas</p>
+    </article>
+
+    <article class="col-sm-12 col-md-9 clearfix right apprenticeships">
+        <div class="main">
+        {% if site.brand != cc %}
+                {% for apprenticeship-cluster in site.data.sub-clusters %}
+                  {% for apprenticeship-area in apprenticeship-cluster.subclusters %}
+                     {% if apprenticeship-area.sector contains 'apprenticeships' and apprenticeship-area.brand contains site.brand %}
+                        {% include /apprenticeship/apprenticeship-area.html %}
+                     {% endif %}
+                    {% endfor %}
+                {% endfor %}
+        {% else %}
+                {% for apprenticeship-cluster in site.data.sub-clusters %}
+                  {% for apprenticeship-area in apprenticeship-cluster.subclusters %}
+                     {% if apprenticeship-area.sector contains 'apprenticeships' %}
+                        {% include /apprenticeship/apprenticeship-area.html %}
+                     {% endif %}
+                    {% endfor %}
+                {% endfor %}
+        {% endif %}
+          
+        </div>
+
+    </article>
+  </section>
+</section>

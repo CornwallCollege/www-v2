@@ -1,0 +1,12 @@
+title: falmouthmarineschool.ac.uk
+url: https://www.falmouthmarineschool.ac.uk
+testurl: http://testwww.falmouthmarineschool.ac.uk
+destination: _site/falmouthmarineschool_ac_uk
+brand: fms
+brand-slug: brand/falmouthms
+brand-long: falmouthms
+cookie-domain: .falmouthmarineschool.ac.uk 
+hash: falmouth
+initial-slide: 2
+# source: '_example.com'
+# exclude: ['some-file.md']

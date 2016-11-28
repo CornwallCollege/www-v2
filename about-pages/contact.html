@@ -1,0 +1,57 @@
+---
+layout: about-page
+title: Contact us
+description: Contact us and how to find us.
+background-image: /local-office.jpg
+---
+
+<!-- HEADER SECTION -->
+<section id="header-bar" style="background: url(/images/banners/{{page.background-image}}) 50% 0 no-repeat fixed; background-size: cover;" class="col-md-12 jumbotron header-title career-title">
+  <header class="container">
+    <h2><a href="/"><small>Home / </small></a><a href="/career-hub/index.html"><small> Contact Us</small></a>
+      <span>
+        {% if include.title %}
+        <span itemprop="department">{{ include.title | capitalize }}</span>
+        {% else %}
+        <span itemprop="department">{{ page.title | capitalize }}</span>
+        {% endif %}
+      </span></h2>
+    </header>
+</section>
+<!-- END OF HEADER -->
+
+
+{% include /career/career-intro.html p1="Contact details for all campuses will be stored here. For futher information regarding each campus visit that campuses page." %}
+
+<section class="container all-contact-details">
+  {% for campus in site.data.campus-overview %}
+  <div class="col-sm-12 col-md-6" style="padding-bottom:15px">
+    <article class="contact-overiew-container" style="border-left-color:#{{ campus.primary-color }}; background-color:#FFFFFF">
+      <table class="contact-overview contact-details">
+        <tbody>
+          <tr>
+            <h2 class="contact-title">{{ campus.brand }}<span style="color:#{{ campus.primary-color }}">{{ campus.campus }}</span></h2>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-phone fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{{ campus.contact-number }}</td>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-envelope-o fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{% if campus.email != "..." %}<a href="mailto:{{ campus.email }}"><strong>{{ campus.email }}</strong></a>{% else %}{{ campus.email }}{% endif %}</td>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-map-marker fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{{ campus.address }}</td>
+          </tr>
+          <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-clock-o fa-2x" style="color:#{{ campus.primary-color }}"></i></td>
+            <td>{{ campus.opening }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <a title="view the {{ campus.campus }} page" href="{% if campus.link %}/location-pages{{ campus.link }}{% else %}{{ campus.external-link}}{% endif %}" class="btn campus-link" style="background-color:#{{ campus.primary-color }}">View The {{ campus.campus }} Page</a>
+    </article>
+  </div>
+  {% endfor %}
+</section>

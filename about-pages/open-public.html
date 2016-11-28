@@ -1,0 +1,119 @@
+---
+layout: hub
+title: Career Hub
+description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
+link: 14-18
+background-image: /images/area-banners/hair-beauty-desktop.jpg
+---
+
+    <!-- HEADER SECTION -->
+    <section id="services" class="col-md-12 jumbotron header-title">
+        <header class="container">
+            <h2><a href="/"><small>Home </small></a><span>Open to the Public</span></h2>
+        </header>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- BODY SECTION -->
+
+    <section class="container">
+        <p class="lead">The Cornwall College Group has many fantastic facilities and purpose-built buildings that can be hired by the public or businesses. Our courses are focused on training our students to a very high standard to be work ready. It is important for our students to gain real experience with clients, under close supervision of fully qualified tutors. All areas available to the public offer a quality service at greatly discounted prices compared to the high street. Why not treat yourself to a Koko hair &amp; beauty salon treatment or a meal in our multi award winning Trevenson or Cloisters Restaurant.</p>
+    </section>
+
+    <!-- CAREER SECTION
+====================================================================== -->
+
+
+<section class="container main-section-margins ">
+
+  <!-- list of businesses -->
+  <section id="public-list" class="container">
+    <div class="public-filter">
+      <!-- CAREER FILTER OPTIONS -->
+      <ul>
+        {% for business in site.data.open-public %}
+        <li class="{{ business.class }} {{ business.short }}" onclick="window.smoothScrollTo('{{business.short}}');">
+          <a class="transition">
+          </a>
+          <h3>{{ business.business }}</h3>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <div class="clearfix"></div>
+
+  {% for business in site.data.open-public %}
+  <section id="{{ business.short }}" style="border-left-color: #{{ business.color }}" class="col-xs-12 col-sm-12 public-body">
+
+    <section class="col-xs-12 col-sm-9 pull-right">
+      <h2 class="main-section-margins" style="color:#{{business.color}}; text-align:left">{{ business.business }}</h2>
+    </section>
+
+    <section class="col-xs-12 col-sm-3">
+      <article>
+        {% if business.logo.size >= 0 %}
+        <img style="margin-bottom:10px" alt="{{business.business}}" class="img-responsive" src="{{ business.logo }}">
+        {% endif %}
+      </article>
+
+      <article>
+        <table>
+          {% for table in business.table %}
+          {% if business.table != null %}
+          <tr>
+            <td class="text-center" style="padding:10px; background-color: #{{ business.color }}"><i class="{{ table.icon }} fa-2x" aria-hidden="true"></i></td>
+            <td style="padding:10px; color: #fff; background-color: #{{ business.color }}">{{ table.detail }}  </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+        </table>
+      </article>
+
+      <article>
+        <img class="img-responsive" alt="{{business.title}}" src="{{ business.image }}">
+      </article>
+    </section>
+
+    <div class="col-xs-12 col-sm-9">
+
+      <p class="lead">{{ business.title }}</p>
+      <p class="open-text">{{ business.text }}</p>
+
+
+      <div class="panel-group" id="accordion-{{ business.short }}" >
+        {% for campus in business.campus %}
+        <div class="panel panel-default">
+
+          <div class="panel-heading" style="background-color: #{{ business.color }}">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href="#{{ campus.id }}">{{ campus.campus-name }}</a>
+            </h4>
+          </div>
+
+          <div id="{{ campus.id }}" class="{{ campus.class }}" style= "background-color: #{{ business.color }}">
+            <div class="panel-body">{{ campus.text }} {% if campus.download.size >= 0 %}<a style="color:white" href="{{ campus.download }}">Download</a> {% endif %}
+            </div>
+          </div>
+
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+
+  </section>
+  {% endfor %}
+</section>
+
+
+
+<!-- Career Areas Divs -->
+
+<section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
+  <div id="career-content">
+  </div>
+</section>
+
+<!-- CAREER section ends -->

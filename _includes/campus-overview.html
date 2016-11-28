@@ -1,0 +1,103 @@
+
+{% for campus in site.data.campus-overview %}
+    {% if site.hash != 'cornwall' %}
+        {% if site.brand contains campus.attached-brands %}
+            <div id="{{ campus.anchor }}" style="background:#{{ campus.primary-color }};" class="campus-overview" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+                <div class="container">
+
+                            <section class="col-xs-12">
+
+                                <article class="col-sm-12 col-md-8 col-lg-8">
+                                    <a href="/location-pages{{ campus.link }}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
+                                </article>
+                                <article class="col-sm-12 col-md-4 campus-seach">
+                                        <h4><span>Courses@</span>{{ campus.campus }}</h4>
+                                        <form method="get" id="searchform-{{ campus.anchor }}" action="{{ site.course_site_baseurl }}">
+                                            <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
+
+                                            <div class="input-group-addon transition">
+                                                <button type="submit" class=" search-submit" style="height:20px;"><i class="fa fa-search fa-fw"></i></button>
+                                            </div>
+
+                                            <input type="hidden" name="post_type" value="courses">
+                                            <input type="hidden" name="campus" value="{{ campus.search }}">
+                                        </form>
+                                </article>
+                                <article class="col-sm-12 col-md-8">
+                                    <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone">{{ campus.contact-number }}</span></h5>                        
+                                    {{ campus.copy }}
+                                </article>
+
+
+                            </section>
+                    <section class="col-xs-12">
+                        <section class="hidden-xs">
+                        {% for image in campus.images %}
+                            <div class="col-xs-12 col-sm-3 col-lg-3 blog-post-thumbnails">
+                                <a href="{{ image.link }}" data-lightbox="blog-gallery" title="{{ image.title }}" data-title="{{ image.title }}"  >
+                                <img src="{{ image.thumb }}" width="150" height="150" alt="{{ image.title }}" class="img-square img-border img-fade img-responsive transition">
+                                </a>
+                            </div>
+                        {% endfor %}
+
+                        </section>    
+
+                        <article class="col-sm-12 col-md-12">
+                            <a title='view all courses in this area' {% if campus.external-link %} href='{{ campus.external-link }}' {% else %} href='/location-pages{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
+                        </article>    
+
+                    </section>
+                </div>
+            </div>  
+        {% endif %}
+    {% else %}
+        <div id="{{ campus.anchor }}" style="background:#{{ campus.primary-color }};" class="campus-overview" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+            <div class="container">
+
+                        <section class="col-xs-12">
+
+                            <article class="col-sm-12 col-md-8 col-lg-8">
+                                <a href="/location-pages{{ campus.link }}"><h2><span itemprop="subOrganization">{{ campus.brand }}</span> <span itemprop="location"><strong>{{ campus.campus }}</strong></span></h2></a>
+                            </article>
+                            <article class="col-sm-12 col-md-4 campus-seach">
+                                    <h4><span>Courses@</span>{{ campus.campus }}</h4>
+                                    <form method="get" id="searchform-{{ campus.anchor }}" action="{{ site.course_site_baseurl }}">
+                                        <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
+
+                                        <div class="input-group-addon transition">
+                                            <button type="submit" class=" search-submit" style="height:20px;"><i class="fa fa-search fa-fw"></i></button>
+                                        </div>
+
+                                        <input type="hidden" name="post_type" value="courses">
+                                        <input type="hidden" name="campus" value="{{ campus.search }}">
+                                    </form>
+                            </article>
+                            <article class="col-sm-12 col-md-8">
+                                <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone">{{ campus.contact-number }}</span></h5>                        
+                                {{ campus.copy }}
+                            </article>
+
+
+                        </section>
+                <section class="col-xs-12">
+                    <section class="hidden-xs">
+                    {% for image in campus.images %}
+                        <div class="col-xs-12 col-sm-3 col-lg-3 blog-post-thumbnails">
+                            <a href="{{ image.link }}" data-lightbox="blog-gallery" title="{{ image.title }}" data-title="{{ image.title }}"  >
+                            <img src="{{ image.thumb }}" width="150" height="150" alt="{{ image.title }}" class="img-square img-border img-fade img-responsive transition">
+                            </a>
+                        </div>
+                    {% endfor %}
+
+                    </section>    
+
+                    <article class="col-sm-12 col-md-12">
+                        <a title='view all courses in this area' {% if campus.external-link %} href='{{ campus.external-link }}' {% else %} href='/location-pages{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
+                    </article>    
+
+                </section>
+            </div>
+        </div>   
+    {% endif %}
+
+{% endfor %}

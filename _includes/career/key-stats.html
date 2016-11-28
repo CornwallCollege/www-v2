@@ -1,0 +1,16 @@
+<section id="counters" style="background-image:url({{ page.background-image }}); " class="col-md-12 main-section-margins text-center key-stats">
+    <div class="container">
+        <ul class="stats no-padding">
+        {% include /career/key-stats-stat.html stat=include.stat1 %}
+        {% include /career/key-stats-stat.html stat=include.stat2 %}
+        {% include /career/key-stats-stat.html stat=include.stat3 %}
+        {% include /career/key-stats-stat.html stat=include.stat4 %}
+        </ul>
+<section class="col-sm-12 health-bar apply-bar clearfix" style="background:none;">
+    <div class="container">
+                <h2>Take the first step in your new career</h2>
+                <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.career | replace:' ','-' | downcase }}" class="apply-btn btn" data-career="{{ page.career | replace:'-',' ' | capitalize }}">Apply NOW</a>
+    </div>
+        </section>
+    </div> 
+</section>

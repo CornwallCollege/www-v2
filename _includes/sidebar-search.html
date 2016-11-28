@@ -1,0 +1,18 @@
+<article class="col-xs-6 hidden-xs col-sm-6 hidden-sm col-md-12 col-lg-12 leisure-bar pull-right sidebar-search">
+  <h4>Learn in your spare time with a leisure course</h4>
+
+  <form name="course-search" id="leisure-form" class="container leisure col-sm-12" role="search" method="GET" action="{{ include.search-href }}">
+    <div class="input-group">
+      <!--<input name="s" value="search" type="hidden" />-->
+      <input class="form-control" name="s" type="text" placeholder="Leisure Search">
+      <div class="input-group-addon transition">
+        <button type="submit" class="search-submit">
+          <i class="fa fa-search fa-fw"></i>
+        </button>
+      </div>
+      <!--<button type="submit"><span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span></button>-->
+    </div>
+  </form>
+
+  <a class="btn col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1" href="{{ include.button-href }}">{{ include.button-title }}</a>
+</article>

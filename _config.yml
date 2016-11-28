@@ -1,21 +1,88 @@
 # Site settings
 title: The Career College | The Cornwall College Group
 email: webmaster@cornwall.ac.uk
-author: Cornwall College
+author: The Cornwall College Group
 description: "Cornwall College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
+image: "/image/cc-brand-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://m.cornwall.ac.uk" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+#url: "https://mtest.cornwall.ac.uk"
+static_url: https://mtest.cornwall.ac.uk # the base hostname & protocol for your site
+twitter_username: "@cornwallcollege"
+twitter_site: cornwallcollege
 github_username:  jekyll
+course_site_baseurl: https://network.cornwall.ac.uk/
+event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
+support_site_url: https://network.cornwall.ac.uk/student-support/
+
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+        envs: [development, test]
+    blanklines: false
+    profile: false
+    startings: []
+
+collections:
+  campaign:
+    output: true
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
+# Do not copy these files to the output directory
+exclude:
+  - vendor
+  - SupportCode
+  - README.md
+  - CornwallCollegeTravisBot
+  - CornwallCollegeTravisBot.enc
+  - Gemfile
+  - Gemfile.lock
+  - win_build.cmd
+  - script
 
-# Plugins
-asset_bundler:
-  bundle_name: mini-v8.33
+gems:
+    - jekyll-assets
 
-  compress:
-    js: closure
-    css: yui
+assets:
+    cache: false
+    sources:
+        - _assets/js
+        - _assets/css
+    compress:
+        css:  sass 
+        js:   false
+
+sitemap:
+    exclude: ["/CNAME"]
+
+
+relative_permalinks: false
+
+schema-college: "http://schema.org/CollegeOrUniversity"
+
+cornwall-base-url: "//testwww.cornwall.ac.uk/"
+duchy-base-url: "//testwww.duchy.ac.uk/"
+bicton-base-url: "//testwww.bicton.ac.uk/"
+falmouth-base-url: "//testwww.falmouthmarineschool.ac.uk/"
+
+
+# Remove unused css
+uncss:
+  stylesheets:            # a list of stylesheets to be processed; mandatory
+    - css/animate.css
+    #- css/custom-styles.css
+    #- css/swiper.css
+
+  #files:                  # html files to consider, globs are supported; default: **/*.html
+   # - "**/*.html"
+   # - "**/*.htm"
+  #compress: true          # compress resulting css with sass; default: false
+  #ignore:                 # always keep rules for these selectors; default: none
+   # - ".is-loading"
+   # - "#titleBar"
+ # media:                  # additional media queries to consider; default: undefined
+   # - print
+   # - print
+  #timeout: 30             # how long to wait for the JS to be loaded; default: undefined

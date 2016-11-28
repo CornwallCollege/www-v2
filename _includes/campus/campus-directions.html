@@ -1,0 +1,39 @@
+<div >
+    <div class="col-md-8 col-sm-6 hidden-xs no-padding" style="height: 480px; position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
+
+        {% include /location/campus-locations.html %}
+
+
+    </div>
+    <div class="col-md-4 col-sm-6 " style="height: 480px; background-color: rgb(245, 245, 245);">
+        <div class="col-xs-11 col-xs-offset-1 col-sm-offset-0">
+            <h3 class="font-body t400 ls1">DIRECTIONS</h3>
+
+            <div style="font-size: 16px; line-height: 1.7;">
+                <address style="line-height: 1.7;">
+                    <strong>Address:</strong><br>
+                    <span itemprop="address">
+					{{page.campus}} <br/>
+                    {{page.address}} <br/>
+                    {{page.postcode}}
+                    </span>    
+				</address>
+
+                <div class="clear topmargin-sm"></div>
+
+                <address style="line-height: 1.7;">
+				    <strong>Contact:</strong><br>
+				    <span itemprop="telephone">{{page.phone}}</span><br>
+				    <a href="mailto:{{page.email}}">{{page.email}}</a><br>
+				</address>
+                <a href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}" target="_blank" class="icon-btn">Get Your Location</a>
+                <form action="https://maps.google.com/maps" method="get" target="_blank">
+                    <label for="saddr" >ENTER YOUR LOCATION</label><br/>
+                    <input type="text" name="saddr" style="padding-bottom:5px; margin-bottom:8px; width:80%" placeholder="Place Name/Postcode"/>
+                    <input type="hidden" name="daddr" value="{{page.campus}} {{page.address}} {{page.postcode}}" />
+                    <input type="submit" class="icon-btn" value="Get directions" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<section class="col-xs-12 main-section-margins clearfix">
+
+    <section class="container">
+        <header class="col-sm-12 text-center">
+            <h2 class="text-uppercase">LOVE <strong>WHERE YOU STUDY</strong></h2> </header>
+        <section class="col-md-12 main-section-margins clearfix">
+
+            <section class="container">
+                <div class="jcarousel-wrapper">
+                    <div class="jcarousel">
+                        <!-- list of the latest/best/featured projects in the carousel -->
+                        <ul id="portfolio-grid" class="grid-layout hover-effect">
+
+                            {% for slide in page.gallery %}
+                            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <figure>
+                                    <img src="{{ slide.image-thumb }}" alt="{{ slide.title }}" class="img-responsive">
+
+                                    <div>
+                                        <h4>{{ slide.title }}</h4>
+                                        <span>{{ slide.subtitle }}</span>
+
+                                        <a href="{{ slide.image }}" class="icon-btn home-btn icon-expand" data-lightbox="{{ slide.title }}" data-title="{{ slide.subtitle }}">
+                                            <i class="fa fa-expand"></i>
+                                        </a>
+                                      
+
+                                    </div>
+
+                                </figure>
+                            </li>
+                            {% endfor %}
+
+                        </ul>
+
+                        <!-- end of the projects -->
+                    </div>
+
+                    <a href="#" class="jcarousel-control-prev"><i class="fa fa-long-arrow-left"></i></a>
+                    <a href="#" class="jcarousel-control-next"><i class="fa fa-long-arrow-right"></i></a>
+                    <p class="jcarousel-pagination"></p>
+                </div>
+
+            </section>
+        </section>
+    </section>
+</section>

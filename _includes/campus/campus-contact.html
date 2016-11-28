@@ -1,0 +1,28 @@
+   <section class="col-md-5 col-sm-12 col-xs-12">
+    <table id="main-contact" class="contact-details">
+      <tbody>
+        <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-phone fa-2x"></i></td>
+            <td style="color:white"><address itemprop="telephone">{{page.phone}}</address></td>
+        </tr>
+
+        <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-location-arrow fa-2x"></i></td>
+            <td style="color:white"><address itemprop="address">{{page.address}}</address></td>
+        </tr>
+        <tr>
+            <td class="text-center hidden-xs"><i class="fa fa-envelope fa-2x"></i></td>
+            <td style="color:white;"><address><a href="mailto:{{page.email}}" itemprop="email">{{page.email}}</a></address></td>
+        </tr>
+        <tr>
+            <td class="text-center hidden-xs" ><i class="fa fa-clock-o fa-2x"></i></td>
+            <td>
+                <address style="color:white">
+                        {{page.opening-times}}
+                </address>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+    {% include /campus/campus-outreach-btn.html %}
+</section>

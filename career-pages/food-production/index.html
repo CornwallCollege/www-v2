@@ -1,30 +1,105 @@
 ---
 layout: career-page
-title: Food Production
+title: Food Technology &amp; Production
 description: Find out more about starting a career in Food Production at The Cornwall College Group
 career: food-production
 link: course-subjects/food-manufacturing-technology
 brand: DC
+background-image: /images/area-banners/food-production-mobile.jpg
+apprentice-area: 20
+campuscodes: B,R,D
+schema: https://schema.org/course
+
+staff-name: Glenn Coulson
+staff-role: Lecturer - Food Studies
+staff-photo: /images/staff/glenn-coulson.jpg
+staff-text: Glenn’s main role at Duchy College is to teach on the Food Studies programmes (including the foundation degree), he also works as laboratory support for other courses and is a consultant for the College’s Food Innovation Service (FIS). Glenn graduated with a Microbiology & Virology degree and began a career in food analysis with a Campden BRI accredited food testing laboratory.
+
+alumni-name: Philip Farndon
+alumni-role: Lynher Dairies
+alumni-photo: /images/alumni/rural-economy/philip-farndon.jpg
+alumni-text: I can honestly say that I have thoroughly enjoyed my course at Duchy College and find the teaching to be of a very high standard.
+
+student-name1: Kerry Roberts
+student-role1:
+student-photo1: /images/students/rural-economy/food-technology/kerry-roberts.jpg
+student-text1: I saw the prospectus for the College and it looked really interesting. I looked into it more, and I was able to bring my horse here and use all the other great facilities, and this was the most in-depth course to do with food technology.
+
+student-name2: Alex Murray
+student-role2:
+student-photo2: /images/students/rural-economy/food-technology/alex-murray.jpg
+student-text2: My sister came to Ducky College and thinks it's a great college. The best thin about coming to college is meeting new people and getting industrialexperience. In the Food Technology Diploma we do microbiology, a lot of practical and learn about the law behind food
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
+
+careers:
+- career-number: 1
+  career-title: Butcher
+  career-paragraph: Butchers direct and undertake the slaughter of animals and prepare carcasses for storage, processing and sale.
+  jobs-now: 2437
+  jobs-future: 2448
+  starting-salary: 12500
+  hashtag: butcher
+
+- career-number: 2
+  career-title: Process Plant Operative
+  career-paragraph: Workers in this area assist the work of machine operatives and perform a variety of manual tasks in foundries, engineering and allied trades and in other process and plant operations.
+  jobs-now: 7156
+  jobs-future: 7108
+  starting-salary: 12000
+  hashtag: process-plant-operative
+
+- career-number: 3
+  career-title: Food, Drink or Tobacco Process Operative
+  career-paragraph: Food, drink and tobacco process operatives set, operate and attend machinery to bake, freeze, heat, crush, mix, blend and otherwise process foodstuffs, beverages and tobacco leaves.
+  jobs-now: 9118
+  jobs-future: 7433
+  starting-salary: 12000
+  hashtag: food-drink
+
+- career-number: 4
+  career-title: Packer, Bottler, Canner or Filler
+  career-paragraph: Workers in this area pack, wrap, fill, label and seal containers by hand or machine.
+  jobs-now: 11153
+  jobs-future: 10897
+  starting-salary: 12000
+  hashtag: packer
+
+- career-number: 5
+  career-title: Planning, Process or Production Technician
+  career-paragraph: Jobs in this group perform a variety of technical support functions to assist production, process and planning engineers with production programmes and schedules and with manufacturing and processing procedures in order to ensure accuracy, cost-effectiveness and efficiency.
+  jobs-now: 2079
+  jobs-future: 2164
+  starting-salary: 12000
+  hashtag: production-technician
 ---
 
-{% include career-header.html %}
+{% include /career/career-header.html %}
 
-{% include career-intro.html p1="The food industry is fast moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currently in the food and grocery sector, so there's plenty of choice!" %}
+{% include /career/career-intro.html p1="The food industry is fast-moving, dynamic and vibrant. It is one of the largest industries in Britain, with a huge range of opportunities in a variety of careers from food manufacturing to new product development, technical compliance, engineering and logistics. One in seven jobs in the UK is currently in the food and grocery sector, so there's plenty of choice!" %}
 
 <section class="container">{% youtube https://youtu.be/Yr9C_3eKj2M %}</section>
 
-{% include career-examples-head.html %}
+{% include /career/example-careers.html %}
 
-{% include career-example-job.html number='1' title='Butcher' paragraph='Butchers direct and undertake the slaughter of animals and prepare carcasses for storage, processing and sale.' jobsIn='Cornwall' jobsNow=356 jobsFuture=300 startingSalary=12500 %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
-{% include career-example-job.html number='2' title='Process Plant Operative' paragraph='Workers in this area assist the work of machine operatives and perform a variety of manual tasks in foundries, engineering and allied trades and in other process and plant operations.' jobsIn='Cornwall' jobsNow=886 jobsFuture=902 startingSalary=12000 %}
+{% include /career/student-case-studies.html %}
 
-{% include career-example-job.html number='3' title='Food, Drink or Tobacco Process Operative' paragraph='Food, drink and tobacco process operatives set, operate and attend machinery to bake, freeze, heat, crush, mix, blend and otherwise process foodstuffs, beverages and tobacco leaves.' jobsIn='the Southwest' jobsNow=9585 jobsFuture=7800 startingSalary=12000 %}
+{% include /career/key-stats.html stat1='Food &amp; Drink manufacturing is the largest segment in the UK manufacturing sector' stat2='The agri-food sector contributed £103billion to the UK economy in 2013' stat3='Food &amp; Drink exports from the UK doubled in the last 10 years to £12.8 billion in 2014' stat4='It is estimated that over 2,000 new recruits are needed in the food and drink industry in Cornwall by 2020' %}
 
-{% include career-example-job.html number='4' title='Packer, Bottler, Canner or Filler' paragraph='Workers in this area pack, wrap, fill, label and seal containers by hand or machine.' jobsIn='the Southwest' jobsNow=14788 jobsFuture=15052 startingSalary=12000 %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
 
-{% include career-example-job.html number='5' title='Planning, Process or Production Technician' paragraph='Jobs in this group perform a variety of technical support functions to assist production, process and planning engineers with production programmes and schedules and with manufacturing and processing procedures in order to ensure accuracy, cost-effectiveness and efficiency.' jobsIn='the Southwest' jobsNow=2100 jobsFuture=2190 startingSalary=12000 %}
+<section class="container">
+    <section class="col-md-12 main-section-margins intro" style="margin-top:10px;">
+            <article class="col-sm-12 text-center"><h2 class="text-uppercase">Course <strong>Locations</strong> </h2></article>
+    </section>
+</section>
+{% include /career/campus-locations.html campuscodes='BRD'%}
 
-{% include career-examples-foot.html %}
-
-{% include career-apply-bar-second.html %}    
+{% include /career/career-courses.html courseTitle1='FdSc Food Studies' infoLink1='?courses=fdsc-food-studies' %}

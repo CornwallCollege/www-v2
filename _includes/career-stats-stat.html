@@ -1,7 +1,0 @@
-{% if include.percent %}
-<section class="progress custom-progress">
-    <div class="progress-bar" role="progressbar" aria-valuenow="{{include.percent}}" aria-valuemin="0" aria-valuemax="100" style="width: {{include.percent}}%;">
-        {% if include.begin %}{{include.begin}}&nbsp;{% endif %}<span>{{include.percent}}% </span>{{include.end}}
-    </div>
-</section>
-{% endif %}

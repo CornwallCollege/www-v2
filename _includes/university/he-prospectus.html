@@ -1,0 +1,32 @@
+<!-- Download a Prospectus -->
+	<section id="download" class="uni-download col-xs-12 main-section-margins">
+			<section class="container">
+
+
+				<!-- The title -->
+				<header class="col-sm-12 text-center ">
+                    <h2>Download a <span>Prospectus</span></h2>
+				</header>
+
+
+
+            <!-- Thumbnails -->
+            <div class="row margin equal">
+
+            {% for prospectus in page.prospectus %}
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="portfolio-thumb">
+                        <a href="/documents/prospectuses/{{prospectus.link}}">
+                            <img src="/images/{{prospectus.image}}" class="img-responsive" alt="cornwall college HE">
+                            <i class="fa fa-download"></i>
+                            <b>{{prospectus.title}}</b>
+                            <em>Undergraduate Prospectus</em>
+                        </a>
+                    </div>
+                </div>
+
+            {% endfor %}
+            </div>    
+		</section>
+	</section>

@@ -1,0 +1,131 @@
+---
+layout: hub
+title: How you learn sector hub
+description: The Cornwall College Group enable you to study for a range of courses to suit your learning needs, find and more and apply here.
+link: 14-18
+---
+
+    <!-- HEADER SECTION -->
+    <section id="services" class="col-md-12 jumbotron header-title">
+        <header class="container">
+            <h2><a href="/"><small>Home </small></a><span>your next step</span></h2>
+        </header>
+    </section>
+    <!-- END OF HEADER -->
+
+    <!-- BODY SECTION -->
+
+    <section class="container">
+        <p class="lead">If you want to embark on a real career and turn your passion into a profession, we can help you succeed. The Cornwall College Group run a wide range of specialist courses and training, that offer exciting opportunities for all. Our qualifications range from entry-level to degrees and postgraduate programmes.</p>
+
+    <section class="col-xs-12 main-section-margins intro container ">
+      <article class="col-sm-12 text-center"> <h2>YOUR<strong>NEXT STEP</strong></h2> </article>
+    </section>
+
+    </section>
+
+    <!-- SECTORS SECTION
+====================================================================== -->
+
+
+<section class="container main-section-margins blocks">
+    <div class="row equal-wrap">
+        <article id="16-18" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+            <h3>16-18</h3>
+            <p>Our specialist career pathways will help you to develop your USP, giving you the very best opportunity to fulfil your potential. Our range of study programmes, for young people aged 16-18, are the best preparation for the world of work...</p>
+            <div class="link-wrap">
+                <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase; font-size:12px;">View 16-18 Learning Areas</button>
+                <a href="/16-18-hub" class="icon-btn">Visit our 16-18 hub</a>
+
+            </div>
+        </article>
+        <article id="university" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
+            <h3>University</h3>
+            <p>There's never been a better time to gain a quality degree right here in Cornwall, with an incredible range of over 80 programmes providing you with real skills to start the career you want straight away. Our programmes are awarded by Plymouth University, one of the Sunday Times' top three modern universities in the UK.</p>
+            <div class="link-wrap">
+                 <button data-filter=".university" class="icon-btn">View Higher Education Areas</button>
+                 <a href="/university-hub" class="icon-btn">Visit our University hub</a>
+            </div>
+        </article>
+        <article id="19+" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-bookmark fa-3x" aria-hidden="true"></i>
+            <h3>19+</h3>
+            <p>As an adult returning to education you will have many demands on your time. That is why we offer a range of flexible, part-time qualifications. There's something for everyone, from entry-level all the way to postgraduate study.</p>
+            <div class="link-wrap">
+                <button data-filter=".19plus" class="icon-btn" style="text-transform:uppercase">View Learning areas Areas</button>
+                <a href="/19plus-hub" class="icon-btn">Visit our 19+ hub</a>
+            </div>
+        </article>
+    </div>
+    <div class="row equal-wrap">
+        <article id="leisure" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+            <h3>Leisure Courses</h3>
+            <p>Cornwall College offers a wide range of day, evening and weekend courses for all ages and interests.</p>
+            <div class="link-wrap">
+                <a href="{{site.course_site_baseurl}}leisure" class="icon-btn">Visit our Leisure hub</a>
+            </div>
+        </article>
+        <article id="apprenticeships" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+            <h3>Apprenticeships</h3>
+            <p>An apprenticeship is an ideal way to get in to the world of work and gain a qualification while earning real money.</p>
+            <div class="link-wrap">
+                <button data-filter=".apprenticeships" class="icon-btn" style="text-transform:uppercase">View Apprenticeships Areas</button>
+                <a href="/apprenticeship-hub" class="icon-btn">Visit our Apprenticeship hub</a>
+            </div>
+        </article>
+        <article id="business" class="col-sm-12 col-md-4 text-center">
+            <i class="fa fa-briefcase fa-3x" aria-hidden="true"></i>
+            <h3>Business Training</h3>
+            <p>CCB Training Solutions are here to support your business training needs to help provide opportunities for growth within your business.</p>
+            <div class="link-wrap">
+                <a href="https://www.ccbtraining.co.uk/" class="icon-btn">Visit the CCB Training Solutions Site</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+
+<!-- Learning Area Divs -->
+<section class="container main-section-margins">
+        <div id="sector-page-content" class="transition" style="display:none">
+
+        {% for cluster in site.data.sub-clusters %}
+            {% for subcluster in cluster.subclusters  %}
+
+            <div class="area {{subcluster.learning-style}} {{subcluster.campus}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+                <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+                    <i class="fa fa-times close-icon"></i>
+                    <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+                    <span class="readmore">Read More</span>
+                </a>
+                <div class="detail collapse" id="{{ subcluster.search-link }}">
+                    <p>{{ subcluster.intro }}</p>
+                    <h5>Available at:</h5>
+                    {% for campus in subcluster.campus-long %}
+                     <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/campus/{{ campus.campus-filter}}" title="{{ campus.campus-name }}" class="btn ">{{ campus.campus-name}}</a>
+                    {% endfor %}
+                    <h5>Courses Available in this sector</h5>
+                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn ">View courses in this area</a>
+                </div>
+
+            </div>
+
+            {% endfor %}
+        {% endfor %}
+
+        </div>
+</section>
+
+    <!--learning area section ends -->
+
+    <!-- action to call section -->
+    <section class="col-sm-12 fulltime-bar clearfix">
+        <div class="container">
+            <h2>Seen enough, apply now! </h2>
+            <a href="/apply/index.html" class="apply-btn btn">Apply NOW</a>
+        </div>
+    </section>

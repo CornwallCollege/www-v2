@@ -1,28 +1,111 @@
 ---
 layout: career-page
-title: Boatbuilding
+title: Marine Engineering &amp; Boatbuilding
 description: Find out more about starting a Career in Boatbuilding at The Cornwall College Group
 career: boatbuilding
 link: boat-building
 brand: FMS
+background-image: /images/area-banners/boatbuilding-desktop.jpg
+campuscodes: F
+schema: https://schema.org/course
+
+staff-name: Simon Combe
+staff-role: Workshop Technician - Boatbuilding
+staff-photo: /images/staff/simon-combe.jpg
+staff-text: Simon is a Falmouth Marine School alumni and has worked with a range of boatyards in the construction of yachts and small craft. He supervises both the wood and composite workshops at Falmouth Marine School’s boatbuilding training centre in Ponsharden boatyard, helping learners on a day-today basis with developing their practical skills, techniques and project planning. He also acts as a consultant with the College’s Marine Innovation Service, assisting local businesses who wish to develop their processes and products in composite boat manufacturing (FRP).
+
+alumni-name: Nick Smith
+alumni-role: Mylor Yacht Harbour
+alumni-photo: /images/alumni/technology/nick-smith.jpg
+alumni-text: Falmouth Marine School has helped me immensely with my career. I was enrolled onto a course that I wanted to do and really suited me needs
+
+student-name1: Alex Somers
+student-role1:
+student-photo1: /images/students/technology/boat-building/alex-somers.jpg
+student-text1: The apprenticeship offers the best chance of decent wages while you learn. I really enjoy working at Duchy Hydraulics. I'm always paired with an experienced employee so I can learn from them. Attending college one day a week breaks up my working days and allows me to gain a qualification and wider marine engineering skills through the various projects we work on.
+
+student-name2: Joseph Rasmussen
+student-role2:
+student-photo2: /images/students/technology/boat-building/joseph-rasmussen.jpg
+student-text2: Through doing the yacht fit out and composites I got to work with the National Maritime Museum Cornwall restoring their historical boat collection, further developing the skills I gained on my course. The workshops are great and the tutors are really approachable.
+
+student-name3:
+student-role3:
+student-photo3:
+student-text3:
+
+careers:
+- career-number: 1
+  career-title: Boat &amp; Ship Builder or Repairer
+  career-paragraph: Boat and ship builders and repairers construct, install and repair wooden structures and fittings, and shape, position, rivet and seal metal plates and girders to form the metal structures and frameworks for marine craft.
+  jobs-now: 2173
+  jobs-future: 2006
+  starting-salary: 15000
+  hashtag: boat-builder
+
+- career-number: 2
+  career-title: Ships or Hovercraft Officer
+  career-paragraph: Ship and hovercraft officers command and navigate ships and other craft, co-ordinate the activities of officers and deck and engine room ratings, operate and maintain communications equipment on board ship and undertake minor repairs to engines, boilers and other mechanical and electrical equipment.
+  jobs-now: 1325
+  jobs-future: 1417
+  starting-salary: 20000
+  hashtag: ships-officer
+
+- career-number: 3
+  career-title: Civil Engineer
+  career-paragraph: Civil engineers undertake research and design, direct construction and manage the operation and maintenance of civil and mining engineering structures.
+  jobs-now: 7457
+  jobs-future: 8257
+  starting-salary: 17000
+  hashtag: civil-engineer
+
+- career-number: 4
+  career-title: Design &amp; Development Engineer
+  career-paragraph: Design and development engineers conceive engineering designs from product ideas or requirements in mechanical, electrical and electronic engineering.
+  jobs-now: 7192
+  jobs-future: 7899
+  starting-salary: 20000
+  hashtag: design-development-engineer
+
+- career-number: 5
+  career-title: Quality Control &amp; Planning Engineer
+  career-paragraph: Quality control and planning engineers plan production schedules, work sequences, and manufacturing and processing procedures to ensure accuracy, quality and reliability.
+  jobs-now: 2414
+  jobs-future: 2658
+  starting-salary: 20000
+  hashtag: quality-control
+
+- career-number: 6
+  career-title: Production &amp; Process Engineer
+  career-paragraph: Quality control and planning engineers plan production schedules, work sequences, and manufacturing and processing procedures to ensure accuracy, quality and reliability.
+  jobs-now: 4446
+  jobs-future: 4884
+  starting-salary: 22000
+  hashtag: production-engineer
 ---
 
-{% include career-header.html %} 
+{% include /career/career-header.html %}
 
-{% include career-intro.html p1="If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch." p2="You'll need good practical skills, the ability to work in a team and an interest in learning traditional boatbuilding skills as well as modern engineering methods." %}
+{% include /career/career-intro.html p1="If you're technically minded, good with your hands and flexible about where you work, consider boatbuilding. You could be working on boats and ships anywhere in the world: carrying out repairs and maintenance, re-fits, conversions and building from scratch." p2="You'll need good practical skills, the ability to work in a team and an interest in learning traditional boatbuilding skills as well as modern engineering methods." %}
 
 <section class="container">{% youtube https://youtu.be/4wl08vd9Zxg %}</section>
 
-{% include career-examples-head.html %}
+{% include /career/example-careers.html %}
 
-{% include career-example-job.html number='1' title='Boat &amp; Ship Builder or Repairer' paragraph='Boat and ship builders and repairers construct, install and repair wooden structures and fittings, and shape, position, rivet and seal metal plates and girders to form the metal structures and frameworks for marine craft.' jobsIn='the Southwest' jobsNow=1169 jobsFuture=1043 startingSalary=15000 %}
+{% include /career/career-apply-bar-first.html %}
 
-{% include career-examples-foot.html %}
+<!-- Staff Profile -->
+{% include profile.html profile-title="Meet Our <strong>Staff</strong>" profile-heading=page.staff-name profile-subheading=page.staff-role profile-text=page.staff-text profile-image=page.staff-photo %}
 
-{% include career-apply-bar-first.html %}
+{% include /career/student-case-studies.html %}
 
-{% include career-stats.html percent1=100 end1='of our boatbuilding students say that teaching on their course is good.' %}
+{% include /career/career-stats.html percent1=100 end1='of our boatbuilding students say that teaching on their course is good.' %}
 
-{% include career-alumni.html name="National Maritime Museum Cornwall" text="Students from Falmouth Marine School have been involved in creating a high profile exhibition at the National Maritime Museum Cornwall. The Viking faering they built is the centrepiece of a touch and feel exhibition in the award-winning museum." photo="alumni/maritime-museum-logo.jpg" %}
+{% include /career/key-stats.html stat1='Marine industries employ nearly 90,000 people in the UK' stat2='Experienced marine engineers can earn between £28,000 and £50,000 a year' stat3='Recreational boat and yacht building in the UK is worth £905m' stat4='Minesweeper vessels are one of the largest glass fibre reinforced polymer composite boats fabricated'%}
 
-{% include career-apply-bar-second.html %}
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
+
+{% include /career/campus-locations.html %}
+
+{% include /career/career-courses.html courseTitle1='Boatbuilding Apprenticeship Level 3' infoLink1='?courses=boatbuilding-apprenticeship-level-3' courseTitle2='Marine Engineering Extended Diploma Level 3' infoLink2='?courses=marine-engineering-extended-diploma-level-3' courseTitle3='Fibreglass Surfboard Production' infoLink3='?courses=fibreglass-surfboard-production' courseTitle4='Advanced Composite Materials And Processing' infoLink4='?courses=advanced-composite-materials-and-processing' courseTitle5='Woodworking For Small Marine Projects' infoLink5='?courses=woodworking-for-small-marine-projects' %}

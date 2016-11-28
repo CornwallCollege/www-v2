@@ -1,0 +1,235 @@
+---
+layout: hub
+title: <span itemprop="name">University Study</span>
+sub-title: Be inspired in a beautiful environment and study a quality degree in the south west.
+description: The Cornwall College Group enable you to study for a range of careers, find and more and apply here.
+link: University
+page: university
+apply-area: Course Intrest Area University Courses
+
+usefulLinks:
+    - href: /financial-support/#uni-programme-applicants
+      title: Financial information, loans, bursaries and grants explained
+      baseurl: true
+      suburl: student-support
+
+    - href: /supporting-your-learning
+      title: Supporting your learning
+      baseurl: true
+      suburl: student-support
+
+    - href: /supporting-you
+      title: Supporting you during your time with us
+      baseurl: true
+      suburl: student-support
+
+    - href: /how-to-apply/#university
+      title: The application process explained
+      baseurl: true
+      suburl: student-support
+
+prospectus:
+    - title: Cornwall College
+      image: cornwall-he-prospectus.jpg
+      link: TCCG%20HE%20Prospectus%202017%20Web.pdf
+
+    - title: Duchy College & Bicton College
+      image: duchy-he-prospectus.jpg
+      link: DC%20HE%20Web%20Version%202015.pdf
+
+gallery:
+
+    - title: Shopping in Truro
+      subtitle: Explore Truro's vibrant mix of independent shop, national stores and unique retailers.
+      image: /images/university-hub/shopping-truro.jpg
+      image-thumb: /images/university-hub/shopping-truro-thumb.jpg
+
+    - title: Climbing at Hound Tor
+      subtitle: The extensive, atmospheric remains of this isolated village lie on the eastern edge of Dartmoor.
+      image: /images/university-hub/hound-tor.jpg
+      image-thumb: /images/university-hub/hound-tor-thumb.jpg
+
+    - title: Eden Sessions
+      subtitle: Watch your favourite artists perform at one of the most spectacular venues in the world.
+      image: /images/university-hub/eden-sessions.jpg
+      image-thumb: /images/university-hub/eden-sessions-thumb.jpg
+
+    - title: St Michaels Mount
+      subtitle: A rocky island crowned by a medieval church and castle.
+      image: /images/university-hub/st-michaels-mount.jpg
+      image-thumb: /images/university-hub/st-michaels-mount-thumb.jpg
+
+    - title: Surfing at Fistral
+      subtitle: Fistral Beach is Newquay's iconic beach, quite simply one of the most consistent and best surfing beaches in the UK.
+      image: /images/university-hub/surfing-fistral.jpg
+      image-thumb: /images/university-hub/surfing-fistral-thumb.jpg
+
+    - title: Tallships regatta Falmouth
+      subtitle: A regatta featuring dozens of vessels and attracting thousands of visitors
+      image: /images/university-hub/tallships-regatta.jpg
+      image-thumb: /images/university-hub/tallships-regatta-thumb.jpg
+
+    - title: Stunning walks around Lands End
+      subtitle: Land's End is one of Britain's most magnificent landmarks
+      image: /images/university-hub/walk-lands-end.jpg
+      image-thumb: /images/university-hub/walk-lands-end-thumb.jpg
+
+    - title: Looe
+      subtitle: A busy fishing port, with a popular family beach
+      image: /images/university-hub/loe.jpg
+      image-thumb: /images/university-hub/loe-thumb.jpg
+
+---
+
+
+
+
+<div id="home" class="home-wrap video">
+    <div class="home-content text-white" style="opacity: 1; visibility: visible;">
+    </div>
+</div>
+
+
+<!-- HEADER SECTION -->
+<section id="university-hub" class="col-md-12 jumbotron header-title video">
+  <header class="container">
+    <h2><a href="/"><small>Home </small></a><span>{{ page.title }}</span></h2>
+    <h3>{{ page.sub-title }}</h3>
+    <div class="col-xs-12 text-center">
+      <a class="button play-btn-normal btn ghost"  onclick="jQuery('#video').YTPFullscreen()"> <i class="fa fa-play-circle-o"></i> Watch The Video </a>
+    </div>
+
+  </header>
+</section>
+
+<!-- END OF HEADER -->
+<div class="video-container" style="display:none">
+  <a id="video" class="fullscreen-video mb_YTPlayer isMuted" data-property="{videoURL:'https://youtu.be/D-k3YV47GDY'}" style="display: none; background-image: none;">The Video</a>
+</div>
+<!-- BODY SECTION -->
+<section class="col-xs-12">
+  <section class="container ">
+    <div class="col-sm-12 col-md-8 main-section-margins">
+      <h3>UNDERGRADUATE COURSES WITH THE CORNWALL COLLEGE GROUP</h3>
+      <p class="lead">There's never been a better time to gain a quality degree, with an incredible range of over 80 programmes providing you with real skills to start the career you want straight away.</p>
+
+    </div>
+
+    <div class="col-sm-12 col-md-4 useful-links main-section-margins">
+      <h3>HELPFUL LINKS</h3>
+      {% for link in page.usefulLinks %}
+      <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+
+
+
+<!-- usp section -->
+{% include usp.html usp-text='WE HAVE A WIDE RANGE OF SPECIALIST APPLIED UNIVERSITY PROGRAMMES' onclick='faculty-areas'  %}
+
+<!-- MONEY / ACCOMMODATION SECTION -->
+<section class="col-xs-12">
+  <section class="container main-section-margins blocks">
+
+    <div class="row equal-wrap">
+      <article class="col-xs-12 col-sm-6 col-lg-5 text-center">
+        <i class="fa fa-bed fa-3x"></i>
+        <h3>Accommodation</h3>
+        <p>We understand that finding the right place to live is just as important as finding the right course to study. Here at the Cornwall College Group we have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
+        <p><a href="{{ site.support_site_url }}accommodation/" class="btn ghost">Find out more</a></p>
+      </article>
+
+      <article class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-2 text-center">
+        <i class="fa fa-money fa-3x"></i>
+        <h3>Money</h3>
+        <p>If you are planning to join us in 2017 and live in the EU you will be glad to know that our fees are set from £7,500 per year. A range of scholarships and bursaries are available.</p>
+        <p><a href="{{ site.support_site_url }}financial-support/#uni-programme-applicants" class="btn ghost">Find out more</a></p>
+      </article>
+    </div>
+
+  </section>
+</section>
+
+<!-- gallery section -->
+
+{% include gallery.html %}
+
+<!-- faculty areas section -->
+
+{% include university/he-areas.html %}
+
+{% include university/he-prospectus.html %}
+
+<section class="col-xs-12 container main-section-margins clearfix" style="text-align:center">
+  <div class="col-xs-12 col-md-10 col-md-offset-1" style="border:5px solid #C60018">
+    <h2 class="text-uppercase">UCAS interactive<span style="color:#c60018">information guide</span></h2>
+    <p class="lead col-xs-12 col-md-4 col-md-offset-2">Unsure about Higher Education and the UCAS application process? Use this UCAS information guide to clear up any confusion.</p>
+
+    <div class="col-xs-12 col-md-5" style="margin-bottom:30px">
+      <!--UCAS Adviser widget iframe -->
+      <iframe id="ucas_adviser_widget"
+      src="https://www.ucasdigital.com/widgets/advisers/ucas-adviser-widget.html"
+      width="300" height="250"></iframe>
+      <!-- end UCAS Adviser widget iframe -->
+    </div>
+
+  </div>
+</section>
+
+<!-- BROWSE BY section -->
+{% include two-options.html first-half-text="Want to find out more about our degrees?" first-half-sub-text="Talk directly to a programme manager about the course" first-half-button="Ask a question" first-half-link="https://network.cornwall.ac.uk/ask-a-question/?referrer=University%20Hub%20Page%20Question" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
+<!-- BROWSE BY section ENDS-->
+
+
+<section class="col-sm-12 fulltime-bar clearfix">
+  <div class="container">
+    <h2>Seen enough, Find out how to apply now! </h2>
+    <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
+  </div>
+</section>
+
+{% include /campus/campus-events.html %}
+
+<!-- PARTNERSHIPS -->
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+    <article class="col-sm-6 col-md-4 left">
+        <h2>OUR <strong>PARTNERSHIPS</strong></h2>
+
+    </article>
+
+    <article class="partner-logo col-xs-12 col-sm-6 col-md-8 clearfix right">
+
+    <!-- PARTNER LOGO 1 -->
+	<span class="col-xs-6 col-md-4 text-center">
+	    <a href="https://www.plymouth.ac.uk/" title='Plymouth University'>
+		<img src="/images/partnerships/plymouth-university.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='Plymouth University Logo'>
+	    </a>
+	</span>
+
+     <!-- PARTNER LOGO 2 -->
+	<span class="col-xs-6 col-md-4 text-center">
+	    <a href="http://www.marjon.ac.uk/" title='University of St Mark & St John'>
+		<img src="/images/partnerships/marjon.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='University of St Mark & St John Logo'>
+	    </a>
+	</span>
+
+    <!-- PARTNER LOGO 3 -->
+	<span class="col-xs-6 col-md-4 text-center">
+	    <a href="https://www.falmouth.ac.uk/" title='Falmouth University'>
+		<img src="/images/partnerships/falmouth-university.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='Falmouth University'>
+	    </a>
+	</span>
+
+    <!-- PARTNER LOGO 4 -->
+	<span class="col-xs-6 col-md-4 text-center">
+	    <a href="http://uksa.org/" title='UKSA'>
+		<img src="/images/partnerships/UKSA.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='UKSA'>
+	    </a>
+	</span>
+
+</article>
+  </section>
+</section>

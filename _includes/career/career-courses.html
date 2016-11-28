@@ -1,0 +1,31 @@
+<section id="courses" class="col-md-12 main-section-margins intro ">
+  <section class="container">
+
+    <article class="col-sm-12 text-center">
+      <h2>TOP<strong> COURSES </strong>IN THIS AREA</h2>
+    </article>
+
+    <section id="career-course" class="header-icon">
+      <!-- Headings -->
+      <div class="row">
+        <article class="hidden-xs hidden-sm col-md-12 offering-heading">
+          <h5>Course Title</h5>
+        </article>
+      </div>
+
+      {% include /career/career-courses-course.html title=include.courseTitle1 link=include.infoLink1 %}
+      {% include /career/career-courses-course.html title=include.courseTitle2 link=include.infoLink2 %}
+      {% include /career/career-courses-course.html title=include.courseTitle3 link=include.infoLink3 %}
+      {% include /career/career-courses-course.html title=include.courseTitle4 link=include.infoLink4 %}
+      {% include /career/career-courses-course.html title=include.courseTitle5 link=include.infoLink5 %}
+
+
+      {% if page.top5-name %}
+        <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.top5-name }}' class="btn">View All Courses in {{ page.title }}</a>
+      {% else %}
+        <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.title | downcase | remove: "&amp;" | remove: "of" | remove: "," | replace: ' ', '-' | replace: '--', '-'}}' class="btn">View All Courses in {{ page.title }}</a>
+      {% endif %}
+    </section>
+
+  </section>
+</section>

@@ -5,18 +5,15 @@ CACHE MANIFEST
 
 # rev {{ site.time }}
 
-CACHE:
-{% for page in site.pages %}{% if page.url != '/manifest.appcache' %}{{ page.url }}{% endif %}
-{% endfor %}
+#CACHE:
+#{% for page in site.pages %}{% if page.url != '/manifest.appcache' %}{{ page.url }}{% endif %}
+#{% endfor %}
 
-/bundles/mini-v8.33.js
-/bundles/mini-v8.33.css 
+#{% for item in site.static_files %}{% if item.extname != '.php' %}{{ item.path }}
+#{% endif %}{% endfor %}
 
-{% for item in site.static_files %}{% if item.extname != '.php' %}{{ item.path }}
-{% endif %}{% endfor %}
-
-NETWORK:
-{% for item in site.static_files %}{% if item.extname == '.php'  %}{{ item.path }}
-{% endif %}{% endfor %}
+#NETWORK:
+#{% for item in site.static_files %}{% if item.extname == '.php'  %}{{ item.path }}
+#{% endif %}{% endfor %}
 *
 
