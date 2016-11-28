@@ -664,7 +664,7 @@ if (typeof Object.create !== 'function') {
                             post.author_link = element.author[0]['uri']['$t'];
                             post.author_picture = 'https:' + element.author[0]['gd$image']['src'];
                             post.author_name = element.author[0]['name']['$t'];
-                            post.message = element.title['$t'] + '</br></br>' + stripHTML(element.content['$t']);
+                            post.message = element.title['$t'] + '<br><br>' + stripHTML(element.content['$t']);
                             post.description = '';
                             post.link = element.link.pop().href;
 
