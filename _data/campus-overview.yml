@@ -13,19 +13,19 @@
   images:
     - link: /images/locations/Bicton/bicton-campus-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus.jpg
-      title: Bicton campus
+      title: Outside Bicton Campus
 
     - link: /images/locations/Bicton/bicton-campus-33-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus-33.jpg
-      title: Bicton campus
+      title: Learning Centre
 
     - link: /images/locations/Bicton/billy-nankivell-agriculture-LG.jpg
       thumb: /images/locations/Bicton/billy-nankivell-agriculture.jpg
-      title: Billy nankivell agriculture
+      title: Billy Nankivell Agriculture
 
     - link: /images/locations/Bicton/joe-wroe-equine-LG.jpg
       thumb: /images/locations/Bicton/joe-wroe-equine.jpg
-      title: Joe wroe equine
+      title: Joe Wroe Equine
 
   query: https://network.cornwall.ac.uk/campus/bicton/
 
@@ -45,23 +45,20 @@
   images:
     - link: /images/locations/DBS/dbs-logo-LG.jpg
       thumb: /images/locations/DBS/dbs-logo.jpg
-      alt: an image
-      title: image 1
+      title: DBS Music Logo
 
     - link: /images/locations/DBS/matias-mery-LG.jpg
       thumb: /images/locations/DBS/matias-mery.jpg
-      alt: an image
-      title: image 2
+      title: Matias Mery Producing
 
     - link: /images/locations/DBS/lauren-adele-martin-LG.jpg
       thumb: /images/locations/DBS/lauren-adele-martin.jpg
-      alt: an image
-      title: image 3
+      title: Lauren Adele Martin Singing
 
     - link: /images/locations/DBS/matias-mery-2-LG.jpg
       thumb: /images/locations/DBS/matias-mery-2.jpg
-      alt: an image
-      title: image 4
+      title: Matias Mery Producing Lauren Adele Singing
+
   query: https://network.cornwall.ac.uk/campus/dbs-bristol/
 
 - campus: Bristol Campus
@@ -79,23 +76,20 @@
   images:
     - link: /images/locations/DBS/dbs-logo-LG.jpg
       thumb: /images/locations/DBS/dbs-logo.jpg
-      alt: an image
-      title: image 1
+      title: DBS Music Logo
 
     - link: /images/locations/DBS/matias-mery-LG.jpg
       thumb: /images/locations/DBS/matias-mery.jpg
-      alt: an image
-      title: image 2
+      title: Matias Mery Producing
 
     - link: /images/locations/DBS/lauren-adele-martin-LG.jpg
       thumb: /images/locations/DBS/lauren-adele-martin.jpg
-      alt: an image
-      title: image 3
+      title: Lauren Adele Martin Singing
 
     - link: /images/locations/DBS/matias-mery-2-LG.jpg
       thumb: /images/locations/DBS/matias-mery-2.jpg
-      alt: an image
-      title: image 4
+      title: Matias Mery Producing Lauren Adele Singing
+
   query: https://network.cornwall.ac.uk/campus/dbs-bristol/
 
 
@@ -114,23 +108,20 @@
   images:
     - link: /images/locations/Camborne/cam-campus-beauty-LG.jpg
       thumb: /images/locations/Camborne/cam-campus-beauty.jpg
-      alt: an image
-      title: image 1
+      title: Facial Lesson
 
     - link: /images/locations/Camborne/cam-campus-chef-LG.jpg
       thumb: /images/locations/Camborne/cam-campus-chef.jpg
-      alt: an image
-      title: image 2
+      title: Catering Dessert Lesson
 
     - link: /images/locations/Camborne/camborne-built-enviroment-LG.jpg
       thumb: /images/locations/Camborne/camborne-built-enviroment.jpg
-      alt: an image
-      title: image 3
+      title: Brunel Building Camborne Campus
 
     - link: /images/locations/Camborne/lauren-adele-martin-HND-music-LG.jpg
       thumb: /images/locations/Camborne/lauren-adele-martin-HND-music.jpg
-      alt: an image
-      title: image 4
+      title: Lauren Adele Martin Outside
+
   query: https://network.cornwall.ac.uk/campus/camborne/
 
 
@@ -149,23 +140,20 @@
   images:
     - link: /images/locations/Eden/eden-project-1-LG.jpg
       thumb: /images/locations/Eden/eden-project-1.jpg
-      alt: an image
-      title: image 1
+      title: Lesson Inside Eden Project Biomes
 
     - link: /images/locations/Eden/eden-project-2-LG.jpg
       thumb: /images/locations/Eden/eden-project-2.jpg
-      alt: an image
-      title: image 2
+      title: Eden Project Biomes and The Core
 
     - link: /images/locations/Eden/eden-project-3-LG.jpg
       thumb: /images/locations/Eden/eden-project-3.jpg
-      alt: an image
-      title: image 3
+      title: Theatrical Perfomance Inside Biomes
 
     - link: /images/locations/Eden/eden-project-4-LG.jpg
       thumb: /images/locations/Eden/eden-project-4.jpg
-      alt: an image
-      title: image 4
+      title: Eden Sessions
+
   query: https://network.cornwall.ac.uk/campus/eden-project/
 
 
@@ -184,23 +172,20 @@
   images:
     - link: /images/locations/FMS/falmouth-campus-LG.jpg
       thumb: /images/locations/FMS/falmouth-campus.jpg
-      alt: an image
-      title: image 1
+      title: Falmouth Marine School Sign
 
     - link: /images/locations/FMS/campus-overview-2-LG.jpg
       thumb: /images/locations/FMS/campus-overview-2.jpg
-      alt: an image
-      title: image 2
+      title: Engineering Lesson
 
     - link: /images/locations/FMS/campus-overview-3-LG.jpg
       thumb: /images/locations/FMS/campus-overview-3.jpg
-      alt: an image
-      title: image 3
+      title: Boatbuilding Student
 
     - link: /images/locations/FMS/campus-overview-1-LG.jpg
       thumb: /images/locations/FMS/campus-overview-1.jpg
-      alt: an image
-      title: image 4
+      title: Watersport Laser Pico Sailing
+
   query: https://network.cornwall.ac.uk/campus/falmouth/
 
 
@@ -219,23 +204,20 @@
   images:
     - link: /images/locations/Newquay/blue-reef-logo-LG.jpg
       thumb: /images/locations/Newquay/blue-reef-logo.jpg
-      alt: an image
-      title: image 1
+      title: Blue Reef Aquarium Logo
 
     - link: /images/locations/Newquay/wildlife.jpg
       thumb: /images/locations/Newquay/wildlife.jpg
-      alt: an image
-      title: image 2
+      title: Durrel Centre for Wildlife Education
 
     - link: /images/locations/Newquay/zoo.jpg
       thumb: /images/locations/Newquay/zoo.jpg
-      alt: an image
-      title: image 3
+      title: Student at Newquay Zoo
 
     - link: /images/locations/Newquay/newquay-zoo-logo-LG.jpg
       thumb: /images/locations/Newquay/newquay-zoo-logo.jpg
-      alt: an image
-      title: image 4
+      title: Newquay Zoo Logo
+
   query: https://network.cornwall.ac.uk/campus/newquay/
 
 
@@ -254,23 +236,20 @@
   images:
     - link: /images/locations/Rosewarne/charlie-bullingham-LG.jpg
       thumb: /images/locations/Rosewarne/charlie-bullingham.jpg
-      alt: an image
-      title: image 1
+      title: Charlie Bullingham
 
     - link: /images/locations/Rosewarne/linda-bouldstridge-horticulture-LG.jpg
       thumb: /images/locations/Rosewarne//linda-bouldstridge-horticulture.jpg
-      alt: an image
-      title: image 2
+      title: Linda Bouldstridge
 
     - link: /images/locations/Rosewarne/rose-campus-LG.jpg
       thumb: /images/locations/Rosewarne/rose-campus.jpg
-      alt: an image
-      title: image 3
+      title: Duchy Veterinary Lesson
 
     - link: /images/locations/Rosewarne/rosewarne-campus-LG.jpg
       thumb: /images/locations/Rosewarne/rosewarne-campus.jpg
-      alt: an image
-      title: image 4
+      title: Duchy Rosewarne Campus
+
   query: https://network.cornwall.ac.uk/campus/rosewarne/
 
 
@@ -289,23 +268,20 @@
   images:
     - link: /images/locations/Saltash/H-and-B-LG.jpg
       thumb: /images/locations/Saltash/H-and-B.jpg
-      alt: an image
-      title: image 1
+      title: Koko Hair Salon
 
     - link: /images/locations/Saltash/norpro-LG.jpg
       thumb: /images/locations/Saltash/norpro.jpg
-      alt: an image
-      title: image 2
+      title: Motor Vehicle Lesson
 
     - link: /images/locations/Saltash/saltash-LG.jpg
       thumb: /images/locations/Saltash/saltash.jpg
-      alt: an image
-      title: image 3
+      title: Saltash Campus
 
     - link: /images/locations/Saltash/saltash-eng-LG.jpg
       thumb: /images/locations/Saltash/saltash-eng.jpg
-      alt: an image
-      title: image 4
+      title: Engineering Student
+
   query: https://network.cornwall.ac.uk/campus/saltash/
 
 
@@ -324,23 +300,20 @@
   images:
     - link: /images/locations/StAustell/chloe-potts-A-levels-LG.jpg
       thumb: /images/locations/StAustell/chloe-potts-A-levels.jpg
-      alt: an image
-      title: image 1
+      title: Chloe Potts Writing
 
     - link: /images/locations/StAustell/cloisters-LG.jpg
       thumb: /images/locations/StAustell/cloisters.jpg
-      alt: an image
-      title: image 2
+      title: Cloisters Hospitality Student
 
     - link: /images/locations/StAustell/ED-dance-LG.jpg
       thumb: /images/locations/StAustell/ED-dance.jpg
-      alt: an image
-      title: image 3
+      title: Dancing Students
 
     - link: /images/locations/StAustell/STAC-site-shots-LG.jpg
       thumb: /images/locations/StAustell/STAC-site-shots.jpg
-      alt: an image
-      title: image 4
+      title: St Austell Campus
+
   query: https://network.cornwall.ac.uk/campus/st-austell/
 
 
@@ -359,23 +332,20 @@
   images:
     - link: /images/locations/Stoke/equine-field-LG.jpg
       thumb: /images/locations/Stoke/equine-field.jpg
-      alt: an image
-      title: image 1
+      title: Show Jumping Student
 
     - link: /images/locations/Stoke/stoke-agri-LG.jpg
       thumb: /images/locations/Stoke/stoke-agri.jpg
-      alt: an image
-      title: image 2
+      title: Lambing Student
 
     - link: /images/locations/Stoke/stoke-climsland-LG.jpg
       thumb: /images/locations/Stoke/stoke-climsland.jpg
-      alt: an image
-      title: image 3
+      title: Stoke Climsland Campus
 
     - link: /images/locations/Stoke/stoke-sport-LG.jpg
       thumb: /images/locations/Stoke/stoke-sport.jpg
-      alt: an image
-      title: image 4
+      title: Football Sport Student
+
   query: https://network.cornwall.ac.uk/campus/stoke/
 
 
@@ -394,23 +364,20 @@
   images:
     - link: /images/locations/Sisna/campus-overview-1-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-1.jpg
-      alt: an image
-      title: image 1
+      title: Metal Inert Gas Mig Welding Machines
 
     - link: /images/locations/Sisna/campus-overview-2-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-2.jpg
-      alt: an image
-      title: image 2
+      title: Sisna Work Benches
 
     - link: /images/locations/Sisna/campus-overview-3-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-3.jpg
-      alt: an image
-      title: image 3
+      title: Plymouth Engineering Skills Centre Campus
 
     - link: /images/locations/Sisna/campus-overview-4-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-4.jpg
-      alt: an image
-      title: image 4
+      title: Engineering Student on Lathe
+
   query: https://network.cornwall.ac.uk/campus/sisna-park/
 
 - campus: The Centre for Housing & Support
