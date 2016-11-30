@@ -146,7 +146,7 @@ if (typeof Object.create !== 'function') {
                     var query = '[social-feed-id=' + data.id + '] img.attachment';
                     var image = $(query);
                     
-                    image.each (function (){
+                    $(image).each (function (){
                         var imgSrc = this.attributes.src.value;
                         var protocol = imgSrc.split("/");
 
