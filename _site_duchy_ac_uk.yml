@@ -1,4 +1,5 @@
 title: duchy.ac.uk
+description: "Duchy College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
 url: https://www.duchy.ac.uk
 testurl: http://testwww.duchy.ac.uk
 destination: _site/duchy_ac_uk
@@ -8,7 +9,9 @@ brand-slug: brand/duchycollege
 cookie-domain: .duchy.ac.uk 
 hash: duchy
 initial-slide: 1
-
+image: "/images/dc-brand-logo.png"
+twitter_username: "@duchycollege"
+twitter_site: duchycollege
 
 # source: '_example.com'
 # exclude: ['some-file.md']
