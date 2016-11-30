@@ -146,14 +146,14 @@ if (typeof Object.create !== 'function') {
                     var query = '[social-feed-id=' + data.id + '] img.attachment';
                     var image = $(query);
                     
-                    $(image).each (function (){
+                    $(image).load (function (){
                         var imgSrc = this.attributes.src.value;
                         var protocol = imgSrc.split("/");
 
                         if(protocol[0] !== "https:") {
-                            this.remove();
+                            return false;
                         }   
-                    })
+                    });
                                       
                 }
                 
@@ -165,7 +165,7 @@ if (typeof Object.create !== 'function') {
                     // preload the image
                     var height, width = '';
                     var img = new Image();
-                    var imgSrc = image.attr("src");
+                    var imgSrc = this.attributes.src.value;
 
                     $(img).load(function() {
 
@@ -179,10 +179,7 @@ if (typeof Object.create !== 'function') {
                         // image couldnt be loaded
                         image.hide();
 
-                    }).attr({
-                        src: imgSrc
                     });
-
                 }
 
                 loaded_post_count++;
