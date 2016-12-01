@@ -1051,7 +1051,7 @@ div#logo-wrap #bicton{
 }
 
 .box-square article:nth-child(5) p,
-.box-square .more article:nth-child(3) p, {
+.box-square .more article:nth-child(3) p {
     color: #666;
 }
 
@@ -3613,9 +3613,9 @@ APPLY BARS =====================================================================
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 30%;
-          }
     }
 }
+
 
 @media(min-width:992px) {
     .public-filter ul li a {
@@ -5568,4 +5568,3 @@ table.contact-overview {
 .all-contact-details article:nth-child(odd) {
   clear:both
 }
->>>>>>> octopus
