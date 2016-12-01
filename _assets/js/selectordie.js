@@ -496,13 +496,13 @@
                 var $sodPosition   = $sod[0].getBoundingClientRect(),
                     $sodListHeight = $sodList.outerHeight();
 
-                // If the list is below the viewport AND fits above, then show it above
+                /* If the list is below the viewport AND fits above, then show it above
                 if ( ($sodPosition.bottom + $sodListHeight + 10) > $(window).height() && ($sodPosition.top - $sodListHeight) > 10 ) {
                     $sod.addClass("above");
                 }
                 else {
                     $sod.removeClass("above");
-                }
+                }*/
 
                 // This was fun, lets do it again and again.
                 $_sodViewportTimeout = setTimeout( function() {
