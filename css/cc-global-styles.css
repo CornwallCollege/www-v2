@@ -1242,3 +1242,10 @@ h2 span {
     color: #52B3D9;
     font-weight: bold;
 }
+
+.main-section-margins .course-search h2{
+    color:#333;
+}
+.course-search .form-control {
+    min-height: 60px;
+}
