@@ -40,6 +40,7 @@ exclude:
 
 gems:
     - jekyll-assets
+    - jekyll-minifier
 
 assets:
     cache: false
