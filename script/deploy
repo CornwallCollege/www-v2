@@ -30,7 +30,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     echo "BICTON - TEST"
     echo "====================="
     
-    git clone git@github.com:CornwallCollege/test-bicton-ac-uk.git ../out/bicton
+    git clone --depth 1 git@github.com:CornwallCollege/test-bicton-ac-uk.git ../out/bicton
     rm -rf ../out/bicton/*
     echo "================"
     echo "Directory Contents"
@@ -84,7 +84,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     cd ../../
     pwd
     
-    git clone git@github.com:CornwallCollege/test-cornwall-ac-uk.git ./out/cornwall
+    git clone --depth 1 git@github.com:CornwallCollege/test-cornwall-ac-uk.git ./out/cornwall
     rm -rf ./out/cornwall/*
     
     echo "====================="
@@ -134,7 +134,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     cd ../../
     pwd
     
-    git clone git@github.com:CornwallCollege/test-duchy-ac-uk.git ./out/duchy
+    git clone --depth 1 git@github.com:CornwallCollege/test-duchy-ac-uk.git ./out/duchy
     rm -rf ./out/duchy/*
     
     echo "====================="
@@ -179,7 +179,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     cd ../../
     pwd
     
-    git clone git@github.com:CornwallCollege/test-falmouthmarineschool-ac-uk.git ./out/falmouth
+    git clone --depth 1 git@github.com:CornwallCollege/test-falmouthmarineschool-ac-uk.git ./out/falmouth
     rm -rf ./out/falmouth/*
     
     echo "====================="
@@ -221,7 +221,7 @@ else
     echo "Deploying to Production"
     
     
-    git clone git@github.com:CornwallCollege/www_static ../out
+    git clone --depth 1 git@github.com:CornwallCollege/www_static ../out
 
     # Clean out existing contents
     rm -rf ../out/*

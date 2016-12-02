@@ -93,7 +93,7 @@
       icon: fa-graduation-cap
       level: 1 2 3 4 5 6 7
       colour: 01A4A4
-      brand: cc
+      brand: cc dc
       sector: 16-18 19plus university apprenticeships
       campus: camborne-campus st-austell-campus saltash-campus rosewarne-campus
       campus-long:
@@ -762,7 +762,7 @@
       level: 2 3 4 5 6
       colour: D70060
       icon: fa-users
-      brand: cc
+      brand: cc dc
       sector: 16-18 19plus apprenticeships university
       campus: camborne-campus st-austell-campus rosewarne-campus
       campus-long:

@@ -1,4 +1,5 @@
 title: Cornwall.ac.uk
+description: "Cornwall College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
 url: https://www.cornwall.ac.uk
 testurl: http://testwww.cornwall.ac.uk
 destination: _site/cornwall_ac_uk
@@ -8,5 +9,9 @@ brand-slug: brand/cornwallcollege
 cookie-domain: .cornwall.ac.uk 
 hash: cornwall
 initial-slide: 0
+image: "/images/cc-brand-logo.png"
+twitter_username: "@cornwallcollege"
+twitter_site: cornwallcollege
+
 # source: '_example.com'
 # exclude: ['some-file.md']

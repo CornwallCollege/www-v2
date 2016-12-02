@@ -129,7 +129,7 @@
         .home-page-select-wrap .sod_placeholder{
             font-size: 3rem!important;
         }    
-        .#home-page-select-wrap .cover_sod .sod_list_wrapper{
+        .home-page-select-wrap .cover_sod .sod_list_wrapper{
             top: calc(100% + 10px);
         }
         .home-page-select-wrap .cover_sod .sod_option {

@@ -1,5 +1,5 @@
     <title>{{ site.title }} | {{ page.title }}</title>
-    <meta name="author" content="{{ site.author }}" />
+    <meta name="author" content="{{ site.author }}"/>
 
 
 <!-- Twitter Card -->
@@ -7,26 +7,24 @@
     <meta name="twitter:site" content="{{site.twitter_username}}"/>
     <meta name="twitter:title" content="{{site.title}}|{{page.title}}"/>
     <meta name="twitter:url" content="https://twitter.com/{{site.twitter_site}}"/>
-    <meta name="twitter:description" content="{{site.description}}" />
+    <meta name="twitter:description" content="{{site.description}}"/>
     
 <!-- Open Graph Protocol 
     <meta property="og:title" content="{{page.title}}"/>-->
-    <meta property="og:title" content="{{site.title}}|{{ page.title }}" />
+    <meta property="og:title" content="{{site.title}}|{{ page.title }}"/>
     <meta property="og:type" content="article"/>
     <meta property="og:image" content="{{site.image}}" />
     <meta property="og:url" content="{{site.url}}{{page.url}}"/>
-    <meta name="og:description" content="{{page.description}}" />
+    <meta name="og:description" content="{{page.description}}"/>
     <meta property="og:site_name" content="{{site.author}}"/>
 
 <!-- Google Plus -->
     <link rel="publisher" href="https://plus.google.com/+cornwallcollege">
-
     
     {% if page.description %}
-    <meta name="description" content="{{page.description }}" />
+    <meta name="description" content="{{page.description }}"/>
     {% else %}
-    <meta name="description" content="{{site.description }}" />
+    <meta name="description" content="{{site.description }}"/>
     {% endif %}
 
-
-    <link rel="canonical" href="{{site.url}}{{page.url}}" />
+    <link rel="canonical" href="{{site.url}}{{page.url}}">

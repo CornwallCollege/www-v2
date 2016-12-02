@@ -2,10 +2,11 @@
 echo "START TESTS"
 echo "==========="
 
-bundle exec htmlproofer ./_site/bicton_ac_uk --url-ignore "/#.*/" --check-html "true" --disable-external > ./_site/bicton_ac_uk/error.txt 2>&1
-bundle exec htmlproofer ./_site/cornwall_ac_uk --url-ignore "/#.*/" --check-html "true" --disable-external > ./_site/cornwall_ac_uk/error.txt 2>&1
-bundle exec htmlproofer ./_site/duchy_ac_uk --url-ignore "/#.*/" --check-html "true" --disable-external > ./_site/duchy_ac_uk/error.txt 2>&1
-bundle exec htmlproofer ./_site/falmouthmarineschool_ac_uk --url-ignore "/#.*/" --check-html "true" --disable-external > ./_site/falmouthmarineschool_ac_uk/error.txt 2>&1
+bundle exec htmlproofer ./_site/bicton_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/bicton_ac_uk/template.html" --check-favicon "true" --check-opengraph "true" --check-html "true" --disable-external > ./_site/bicton_ac_uk/error.txt 2>&1
+bundle exec htmlproofer ./_site/cornwall_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/cornwall_ac_uk/template.html" --check-favicon "true" --check-opengraph "true" --check-html "true" --disable-external > ./_site/cornwall_ac_uk/error.txt 2>&1
+bundle exec htmlproofer ./_site/duchy_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/duchy_ac_uk/template.html" --check-favicon "true" --check-opengraph "true" --check-html "true" --disable-external > ./_site/duchy_ac_uk/error.txt 2>&1
+bundle exec htmlproofer ./_site/falmouthmarineschool_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/falmouthmarineschool_ac_uk/template.html" --check-favicon "true" --check-opengraph "true" --check-html "true" --disable-external > ./_site/falmouthmarineschool_ac_uk/error.txt 2>&1
 
 echo "TESTS COMPLETE"
 echo "=============="
+ 

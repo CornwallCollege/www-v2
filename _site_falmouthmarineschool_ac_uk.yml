@@ -1,4 +1,5 @@
 title: falmouthmarineschool.ac.uk
+description: "Falmouth Marine School offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
 url: https://www.falmouthmarineschool.ac.uk
 testurl: http://testwww.falmouthmarineschool.ac.uk
 destination: _site/falmouthmarineschool_ac_uk
@@ -8,5 +9,8 @@ brand-long: falmouthms
 cookie-domain: .falmouthmarineschool.ac.uk 
 hash: falmouth
 initial-slide: 2
+image: "/images/fms-brand-logo.png"
+twitter_username: "@MarineSchool"
+twitter_site: MarineSchool
 # source: '_example.com'
 # exclude: ['some-file.md']
