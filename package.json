@@ -1,0 +1,22 @@
+{
+  "name": "www-v2",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/CornwallCollege/www-v2.svg?branch=master)](https://travis-ci.org/CornwallCollege/www-v2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CornwallCollege/www-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CornwallCollege/www-v2/issues"
+  },
+  "homepage": "https://github.com/CornwallCollege/www-v2#readme",
+  "dependencies": {
+    "grunt-purifycss": "^0.1.1"
+  }
+}
