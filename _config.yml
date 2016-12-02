@@ -37,10 +37,10 @@ exclude:
   - Gemfile.lock
   - win_build.cmd
   - script
+  - html-minifier.conf
 
 gems:
     - jekyll-assets
-    - jekyll-minifier
 
 assets:
     cache: false
