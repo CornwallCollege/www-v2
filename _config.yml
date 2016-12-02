@@ -46,9 +46,6 @@ assets:
     sources:
         - _assets/js
         - _assets/css
-    compress:
-        css:  sass 
-        js:   false
 
 sitemap:
     exclude: ["/CNAME"]
