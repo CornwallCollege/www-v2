@@ -99,7 +99,7 @@ gulp.task('optimize-css-duchy', function() {
 });
 
 gulp.task('optimize-css-falmouth', function() {
-   return optimize_css ('falmouth');
+   return optimize_css ('falmouthmarineschool');
 });
 
 function critical_css(site_name) {
@@ -129,7 +129,7 @@ gulp.task('critical-duchy',  function () {
 });
 
 gulp.task('critical-falmouth',  function () {
-    return critical_css('falmouth');
+    return critical_css('falmouthmarineschool');
 });
 
 function minify_js(site_name) {
@@ -151,7 +151,7 @@ gulp.task('minifyjs-duchy',  function () {
 });
 
 gulp.task('minifyjs-falmouth',  function () {
-    return minify_js('falmouth');
+    return minify_js('falmouthmarineschool');
 });
 
 
@@ -201,7 +201,7 @@ gulp.task('build-duchy', () => {
 });
 
 gulp.task('build-falmouth', () => {
-	build('falmouth');
+	build('falmouthmarineschool');
 });
 
 gulp.task('serve-bicton', () => {
@@ -217,7 +217,7 @@ gulp.task('serve-duchy', () => {
 });
 
 gulp.task('serve-falmouth', () => {
-	buildWithIncremental('falmouth');
+	buildWithIncremental('falmouthmarineschool');
 });
 
 function buildSiteForServe(site_name, callback) {
@@ -260,7 +260,7 @@ gulp.task('serve-duchy', () => {
 });
 
 gulp.task('serve-falmouth', () => {
-	serveSite('falmouth');
+	serveSite('falmouthmarineschool');
   
 });
 
