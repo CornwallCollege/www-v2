@@ -120,24 +120,11 @@ gulp.task('minify-css', ['uncss'], function() {
 // Extracting the critical path CSS
 gulp.task('critical',  function() {
 
-	/*critical.generateInline({
-	    	base: '_site/cornwall_ac_uk/',
-		    //inline: true,
-		    src: 'index.html',  // Extract critical path CSS for index.html
-		    assetPaths: ['assets/', 'css/'],
-		    styleTarget: 'assets/combined.css',
-		    htmlTarget: 'index.html',
-		    //dest: 'index-critical.html',
-		    //width: 320,
-        	//height: 480,
-		    //include: [/cc_/],
-		    //ignore: ['font-face']
-		  }, cb.bind(cb));*/
 	critical.generate({
         inline: true,
         base: '_site/cornwall_ac_uk/',
         src: 'index.html',
-        dest: '_site/cornwall_ac_uk/index-critical.html',
+        dest: '_site/cornwall_ac_uk/index.html',
         minify: true,
         width: 320,
         height: 480
@@ -229,6 +216,7 @@ gulp.task('dry-run-all', function(callback) {
 		'optimize-images',
 		'optimize-css',
 		'optimize-html',
+		'critical'
 		callback
 	);
 });
@@ -248,6 +236,7 @@ gulp.task('deploy', function(callback) {
 		'html-proofer-falmouth',
 		'optimize-html',
 		'optimize-images',
+		'critical'
 		callback
 	);
 });
