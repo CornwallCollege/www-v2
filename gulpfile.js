@@ -10,6 +10,7 @@ var config = require('./gulpconfig.json'),
 	fs = require('fs'),
 	download = require('gulp-download-stream'),
 	git = require('gulp-git'),
+	gulpif = require('gulp-if'),
 	build_environment="development";
 
 gulp.task('fetch-newest-analytics', function() {
@@ -54,9 +55,9 @@ gulp.task('html-proofer-falmouth', function(done) {
 
 gulp.task('optimize-html', function() {
  	return gulp.src('index.html', { read: false })
-		.pipe(shell([
+		.pipe(gulpif(build_environment==="production",shell([
 			'html-minifier -c html-minifier.conf --input-dir ./_site --output-dir ./_site --file-ext html'
-		]));
+		])));
 });
 
 gulp.task('optimize-images', function () {

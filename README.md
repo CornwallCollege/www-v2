@@ -4,7 +4,11 @@
 
 
 ##Setting up local environment for dev
+Firstly, clone this repo to your local machine.
+
 The website is based upon Jekyll, so follow the instructions for installing that first [Jekyll](https://jekyllrb.com/docs/installation/).
+
+Goto the root of this repository on your local machine.
 
 The deployment uses [bundler](http://bundler.io/), so best install that too.
 ```bash
@@ -17,34 +21,54 @@ Then you can run bundler to get all the gems setup.
 bundle install
 ```
 
+You will also need node.js and npm, download and install node from here [Nodejs](https://nodejs.org/en/). Once installed you can download the packages that the build depends upon.
+
+```bash
+npm install
+```
+
 ## Building
 The project uses [jekyll multi-site](https://github.com/sumdog/jekyll-multisite) to create the groups 4 branded sites.  Mutlisite enables the sitemap to be generated correctly and also enables pages to be built with filtering for particular brands.
 
 This means that the stanard Jekyll Build / Serve doesn't show the acutal output.
 
-The commands are:
+To make the build and development process easier, [Gulp](https://www.npmjs.com/package/gulp) is used to build and serve the website.
 
-####Bicton College Site
+The commands that are available are:
+
+For standard development, with rebuilding on file change and auto-browser refreshing
+
 ```bash
-jekyll build --config _config.yml,_site_bicton_ac_uk.yml
+gulp serve-bicton
 ```
 
-####Cornwall College Site
 ```bash
-jekyll build --config _config.yml,_site_cornwall_ac_uk.yml
+gulp serve-cornwall
 ```
 
-####Duchy College Site
 ```bash
-jekyll build --config _config.yml,_site_duchy_ac_uk.yml
+gulp serve-duchy
 ```
 
-####Falmouth Marine School Site
 ```bash
-jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml
+gulp serve-falmouth
 ```
 
-To view the sites local swap build for serve.
+To see how the final site looks, including minification and cleaning up css
 
-ps. there is an issue with multi-site, if the folder _site isn't already there it will error, so that needs to be created.
+```bash
+gulp build-bicton
+```
+
+```bash
+gulp build-cornwall
+```
+
+```bash
+gulp build-duchy
+```
+
+```bash
+gulp build-falmouth
+```
 
