@@ -127,32 +127,29 @@ gulp.task('critical', ['minify-css'], function() {
   });
 });
 
-function buildSite(site_name) {
+function buildSite(site_name, callback) {
+	console.log('Starting build of: ' + site_name);
 	runSequence(
 		//'fetch-newest-analytics',
 		//'fetch-newest-maps',
 		'configure-environment',
 		'build-'+site_name,
-		'html-proofer-'+site_name
+		'html-proofer-'+site_name, 
+		callback
 	);	
 }
 
 function serveSite(site_name) {
 
-	buildSite(site_name);
-
-	browserSync.init({
-    files: ['./_site/' +site_name+'_ac_uk/**'],
-    port: 4000,
-    server: {
-      baseDir: './_site/' +site_name+'_ac_uk/'
-    }
-  });
-
-  gulp.watch('**/*.*,!./_site/'+site_name+'_ac_uk/**/*.*', () => {
-  	buildSite(site_name);
-  	reload();
-  });
+	buildSite(site_name, () => {
+		browserSync.init({
+		    files: ['./_site/' +site_name+'_ac_uk/**'],
+		    port: 4000,
+		    server: {
+		      baseDir: './_site/' +site_name+'_ac_uk/'
+		    }
+		});
+	});	
 }
 
 gulp.task('serve-bicton', () => {
