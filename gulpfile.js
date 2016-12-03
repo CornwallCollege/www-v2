@@ -15,6 +15,8 @@ var config = require('./gulpconfig.json'),
 	gulpif = require('gulp-if'),
 	browserSync = require('browser-sync').create(),
 	reload      = browserSync.reload,
+	child = require('child_process'),
+	gutil = require('gulp-util'),
 	build_environment="development";
 
 gulp.task('configure-environment', function() {
@@ -38,7 +40,7 @@ gulp.task('fetch-newest-maps', function() {
 
 gulp.task('build-bicton', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_bicton_ac_uk.yml']));
 
-gulp.task('build-cornwall', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_cornwall_ac_uk.yml']));
+//gulp.task('build-cornwall', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --watch --incremental --drafts --config _config.yml,_site_cornwall_ac_uk.yml']));
 
 gulp.task('build-duchy', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_duchy_ac_uk.yml']));
 
@@ -125,6 +127,31 @@ gulp.task('critical', ['minify-css'], function() {
     include: [/cc_/],
     ignore: ['@font-face']
   });
+});
+
+function build (site_name) {
+	const jekyll = child.spawn('bundle', 
+	[	
+		'exec',
+		'jekyll build --watch --incremental --drafts --config _config.yml,_site_' + site_name + '_ac_uk.yml'
+	],
+	{
+		'JEKYLL_ENV' : build_environment
+	}
+  );
+
+  const jekyllLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => gutil.log('Jekyll: ' + message));
+  };
+
+  jekyll.stdout.on('data', jekyllLogger);
+  jekyll.stderr.on('data', jekyllLogger);	
+}
+
+gulp.task('build-cornwall', () => {
+	build('cornwall');
 });
 
 function buildSite(site_name, callback) {

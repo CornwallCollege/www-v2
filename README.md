@@ -54,6 +54,12 @@ gulp serve-duchy
 gulp serve-falmouth
 ```
 
+It's quite possible that on linux you will initial get an error due to the number of files that need to be watched by Jekyll and BrowserServe. To solve this and increase the limit run the following commands:
+
+```bash
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+
 To see how the final site looks, including minification and cleaning up css
 
 ```bash
