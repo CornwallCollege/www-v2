@@ -77,10 +77,10 @@ gulp.task('optimize-images', function () {
 function optimize_css (site_name) {
 	return gulp.src('_site/' + site_name + '_ac_uk/**/*.css')
 	   .pipe(gulpif(build_environment==="production",autoprefixer()))
-	   .pipe(gulpif(build_environment==="production",uncss({
-		   html: ['_site/' + site_name + '_ac_uk/**/*.html'],
-		   ignore: []
-	   })))
+	  // .pipe(gulpif(build_environment==="production",uncss({
+		//   html: ['_site/' + site_name + '_ac_uk/**/*.html'],
+		//   ignore: []
+	 //  })))
 	   //.pipe(csscomb())
 	   .pipe(gulpif(build_environment==="production",cleanCSS()))
 	   .pipe(gulp.dest('_site/' + site_name + '_ac_uk/'));	
