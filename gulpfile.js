@@ -17,6 +17,14 @@ var config = require('./gulpconfig.json'),
 	reload      = browserSync.reload,
 	build_environment="development";
 
+gulp.task('configure-environment', function() {
+  	if(process.env.TRAVIS_BRANCH === 'master') {
+  		build_environment = 'production';	
+	}
+	console.log("Configuring for " +build_environment);
+});
+
+
 gulp.task('fetch-newest-analytics', function() {
 	return download('https://www.google-analytics.com/analytics.js')
     	.pipe(gulp.dest('_assets/js'));
@@ -119,14 +127,19 @@ gulp.task('critical', ['minify-css'], function() {
   });
 });
 
-function serveSite(site_name) {
+function buildSite(site_name) {
 	runSequence(
 		//'fetch-newest-analytics',
 		//'fetch-newest-maps',
 		'configure-environment',
 		'build-'+site_name,
 		'html-proofer-'+site_name
-	);
+	);	
+}
+
+function serveSite(site_name) {
+
+	buildSite(site_name);
 
 	browserSync.init({
     files: ['./_site/' +site_name+'_ac_uk/**'],
@@ -136,8 +149,10 @@ function serveSite(site_name) {
     }
   });
 
-  gulp.watch('**/*', ['build-'+site_name, 'html-proofer-'+site_name]);
-  gulp.watch('_site/'+site_name+'/**/*').on('change', reload);	
+  gulp.watch('**/*.*,!./_site/'+site_name+'_ac_uk/**/*.*', () => {
+  	buildSite(site_name);
+  	reload();
+  });
 }
 
 gulp.task('serve-bicton', () => {
@@ -159,23 +174,6 @@ gulp.task('serve-falmouth', () => {
   
 });
 
-gulp.task('configure-environment', function() {
-  	if(process.env.TRAVIS_BRANCH === 'master') {
-  		build_environment = 'production';	
-	}
-});
-
-gulp.task('raw-build-all', function(callback) {
-	runSequence(
-		'configure-environment',
-		'build-bicton',
-		'build-cornwall',
-		'build-duchy',
-		'build-falmouth',
-		callback
-	);
-});
-
 gulp.task('dry-run-all', function(callback) {
 	runSequence(
 		'fetch-newest-analytics',
@@ -192,20 +190,6 @@ gulp.task('dry-run-all', function(callback) {
 		'optimize-images',
 		'optimize-css',
 		'optimize-html',
-		callback
-	);
-});
-
-gulp.task('dry-run-cornwall', function(callback) {
-	runSequence(
-		'fetch-newest-analytics',
-		'fetch-newest-maps',
-		'configure-environment',
-		'build-cornwall',
-		'html-proofer-cornwall',
-		'optimize-html',
-		'optimize-images',
-		//'optimize-css-cornwall',
 		callback
 	);
 });
