@@ -1,7 +1,6 @@
 var config = require('./gulpconfig.json'),
 	gulp = require('gulp'),
 	shell = require('gulp-shell'),
-	htmlmin = require('gulp-html-minifier'),
 	runSequence = require('run-sequence'),
 	autoprefixer = require('gulp-autoprefixer'),
 	uncss = require('gulp-uncss'),
