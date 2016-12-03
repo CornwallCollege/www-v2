@@ -196,12 +196,18 @@ gulp.task('dry-run-cornwall', function(callback) {
 gulp.task('deploy', function(callback) {
 	runSequence(
 		'fetch-newest-analytics',
-		'jekyll',
-		'optimize-images',
-		'optimize-css',
+		'fetch-newest-maps',
+		'configure-environment',
+		'build-bicton',
+		'build-cornwall',
+		'build-duchy',
+		'build-falmouth',
+		'html-proofer-bicton',
+		'html-proofer-cornwall',
+		'html-proofer-duchy',
+		'html-proofer-falmouth',
 		'optimize-html',
-		'rsync-files',
-		'purge-cache',
+		'optimize-images',
 		callback
 	);
 });
