@@ -73,41 +73,32 @@ gulp.task('optimize-images', function () {
 		.pipe(gulp.dest('_site/'));
 });
 
-gulp.task('optimize-css-cornwall', function() {
-   return gulp.src('_site/cornwall_ac_uk/**/*.css')
-	   .pipe(autoprefixer())
-	   .pipe(uncss({
-		   html: ['_site/cornwall_ac_uk/**/*.html'],
+function optimize_css (site_name) {
+	return gulp.src('_site/'+site_name+'_ac_uk''/**/*.css')
+	   .pipe(gulpif(build_environment==="production",autoprefixer())
+	   .pipe(gulpif(build_environment==="production",uncss({
+		   html: ['_site/'+site_name+'_ac_uk/**/*.html'],
 		   ignore: []
 	   }))
-	   .pipe(csscomb())
-	   .pipe(cleanCSS())
-	   .pipe(gulp.dest('_site/cornwall_ac_uk/'));
+	   //.pipe(csscomb())
+	   .pipe(gulpif(build_environment==="production",cleanCSS()))
+	   .pipe(gulp.dest('_site/'+site_name+'_ac_uk/'));	
+}
+
+gulp.task('optimize-css-bicton', function() {
+   return optimize_css ('bicton');
 });
 
-// Sorting the CSS
-gulp.task('styles', ['less'], function() {
-  return gulp.src('./assets/css/big/style.css')
-  .pipe(csscomb())
-  .pipe(gulp.dest('./assets/css/combed'));
+gulp.task('optimize-css-cornwall', function() {
+   return optimize_css ('cornwall');
 });
 
-// Removing unused classes in CSS
-gulp.task('uncss', ['styles'], function() {
-  return gulp.src('./assets/css/combed/style.css')
-    .pipe(uncss({
-    html: ['./_site/**/*.html'],
-    ignore: [/fp/],
-    timeout: 1000
-  }))
-  .pipe(gulp.dest('./assets/css/uncss/'));
+gulp.task('optimize-css-duchy', function() {
+   return optimize_css ('duchy');
 });
 
-// Removing tabs and spaces in CSS
-gulp.task('minify-css', ['uncss'], function() {
-  return gulp.src('assets/css/uncss/style.css')
-  .pipe(cleanCSS({compatibility: 'ie8'}))
-  .pipe(gulp.dest('assets/css/'));
+gulp.task('optimize-css-falmouth', function() {
+   return optimize_css ('falmouth');
 });
 
 function critical_css(site_name) {
@@ -288,6 +279,10 @@ gulp.task('deploy', function(callback) {
 		'html-proofer-falmouth',
 		'optimize-html',
 		'optimize-images',
+		'optimize-css-bicton',
+		'optimize-css-cornwall',
+		'optimize-css-duchy',
+		'optimize-css-falmouth',
 		'critical-bicton',
 		'critical-cornwall',
 		'critical-duchy',
