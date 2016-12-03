@@ -216,7 +216,7 @@ gulp.task('dry-run-all', function(callback) {
 		'optimize-images',
 		'optimize-css',
 		'optimize-html',
-		'critical'
+		'critical',
 		callback
 	);
 });
@@ -236,7 +236,7 @@ gulp.task('deploy', function(callback) {
 		'html-proofer-falmouth',
 		'optimize-html',
 		'optimize-images',
-		'critical'
+		'critical',
 		callback
 	);
 });
