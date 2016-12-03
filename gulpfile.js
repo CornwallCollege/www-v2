@@ -18,6 +18,7 @@ var config = require('./gulpconfig.json'),
 	child = require('child_process'),
 	gutil = require('gulp-util'),
 	critical = require('critical').stream,
+	uglifyjs = require('gulp-uglify'),
 	build_environment="development";
 
 gulp.task('configure-environment', function() {
@@ -74,15 +75,15 @@ gulp.task('optimize-images', function () {
 });
 
 function optimize_css (site_name) {
-	return gulp.src('_site/'+site_name+'_ac_uk''/**/*.css')
+	return gulp.src('_site/' + site_name + '_ac_uk/**/*.css')
 	   .pipe(gulpif(build_environment==="production",autoprefixer())
 	   .pipe(gulpif(build_environment==="production",uncss({
-		   html: ['_site/'+site_name+'_ac_uk/**/*.html'],
+		   html: ['_site/' + site_name + '_ac_uk/**/*.html'],
 		   ignore: []
 	   }))
 	   //.pipe(csscomb())
 	   .pipe(gulpif(build_environment==="production",cleanCSS()))
-	   .pipe(gulp.dest('_site/'+site_name+'_ac_uk/'));	
+	   .pipe(gulp.dest('_site/' + site_name + '_ac_uk/'));	
 }
 
 gulp.task('optimize-css-bicton', function() {
