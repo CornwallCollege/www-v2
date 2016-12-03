@@ -56,7 +56,7 @@ gulp.task('html-proofer-falmouth', function(done) {
 gulp.task('optimize-html', function() {
  	return gulp.src('index.html', { read: false })
 		.pipe(shell([
-			'bundle exec html-minifier -c html-minifier.conf --input-dir ./_site --output-dir ./_site --file-ext html'
+			'html-minifier -c html-minifier.conf --input-dir ./_site --output-dir ./_site --file-ext html'
 		]));
 });
 
