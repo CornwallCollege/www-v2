@@ -24,13 +24,13 @@ gulp.task('fetch-newest-maps', function() {
     	.pipe(gulp.dest('_assets/js/'));
 });
 
-gulp.task('build-bicton', shell.task(['JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_bicton_ac_uk.yml']));
+gulp.task('build-bicton', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_bicton_ac_uk.yml']));
 
-gulp.task('build-cornwall', shell.task(['JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_cornwall_ac_uk.yml']));
+gulp.task('build-cornwall', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_cornwall_ac_uk.yml']));
 
-gulp.task('build-duchy', shell.task(['JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_duchy_ac_uk.yml']));
+gulp.task('build-duchy', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_duchy_ac_uk.yml']));
 
-gulp.task('build-falmouth', shell.task([ 'JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml']));
+gulp.task('build-falmouth', shell.task([ 'JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml']));
 
 // Validate html, links, etc.
 gulp.task('html-proofer-bicton', function() {
