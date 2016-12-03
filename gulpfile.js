@@ -11,6 +11,7 @@ var config = require('./gulpconfig.json'),
 	download = require('gulp-download-stream'),
 	git = require('gulp-git'),
 	gulpif = require('gulp-if'),
+	browserSync = require('browser-sync').create(),
 	build_environment="development";
 
 gulp.task('fetch-newest-analytics', function() {
@@ -115,11 +116,21 @@ gulp.task('critical', ['minify-css'], function() {
   });
 });
 
-gulp.task('rsync-files', function() {
-	return gulp.src('index.html', { read: false })
-		.pipe(shell([
-			'cd _site && rsync -az --delete . ' + config.remoteServer + ':' + config.remotePath
-		]));
+function serveSite(site_name) {
+	browserSync.init({
+    files: ['./_site_' +site_name+'_ac_uk/**'],
+    port: 4000,
+    server: {
+      baseDir: './_site_' +site_name+'_ac_uk/'
+    }
+  });
+
+  gulp.watch(cssFiles, ['css']);	
+}
+
+gulp.task('serve-cornwall', () => {
+	serveSite('cornwall')
+  
 });
 
 gulp.task('configure-environment', function() {
