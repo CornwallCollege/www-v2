@@ -39,14 +39,6 @@ gulp.task('fetch-newest-maps', function() {
     	.pipe(gulp.dest('_assets/js/'));
 });
 
-gulp.task('build-bicton', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_bicton_ac_uk.yml']));
-
-//gulp.task('build-cornwall', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --watch --incremental --drafts --config _config.yml,_site_cornwall_ac_uk.yml']));
-
-gulp.task('build-duchy', shell.task(['JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_duchy_ac_uk.yml']));
-
-gulp.task('build-falmouth', shell.task([ 'JEKYLL_ENV=' + build_environment + ' bundle exec jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml']));
-
 // Validate html, links, etc.
 gulp.task('html-proofer-bicton', function() {
 	return gulp.src('index.html', { read: false })
@@ -124,14 +116,14 @@ gulp.task('critical',  function() {
         inline: true,
         base: '_site/cornwall_ac_uk/',
         src: 'index.html',
-        dest: '_site/cornwall_ac_uk/index.html',
+        //dest: '_site/cornwall_ac_uk/',
         minify: true,
         width: 320,
         height: 480
     });
 });
 
-function build (site_name) {
+function buildWithIncremental (site_name) {
 	const jekyll = child.spawn('bundle', 
 	[	
 		'exec',
@@ -152,17 +144,66 @@ function build (site_name) {
   jekyll.stderr.on('data', jekyllLogger);	
 }
 
+function build (site_name) {
+	const jekyll = child.spawn('bundle', 
+	[	
+		'exec',
+		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
+	],
+	{
+		'JEKYLL_ENV' : build_environment
+	}
+  );
+
+  const jekyllLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => gutil.log('Jekyll: ' + message));
+  };
+
+  jekyll.stdout.on('data', jekyllLogger);
+  jekyll.stderr.on('data', jekyllLogger);	
+}
+
+gulp.task('build-bicton', () => {
+	build('bicton');
+});
+
 gulp.task('build-cornwall', () => {
 	build('cornwall');
 });
 
-function buildSite(site_name, callback) {
+gulp.task('build-duchy', () => {
+	build('duchy');
+});
+
+gulp.task('build-falmouth', () => {
+	build('falmouth');
+});
+
+gulp.task('serve-bicton', () => {
+	buildWithIncremental('bicton');
+});
+
+gulp.task('serve-cornwall', () => {
+	buildWithIncremental('cornwall');
+});
+
+gulp.task('serve-duchy', () => {
+	buildWithIncremental('duchy');
+});
+
+gulp.task('serve-falmouth', () => {
+	buildWithIncremental('falmouth');
+});
+
+function buildSiteForServe(site_name, callback) {
 	console.log('Starting build of: ' + site_name);
 	runSequence(
 		//'fetch-newest-analytics',
 		//'fetch-newest-maps',
 		'configure-environment',
-		'build-'+site_name,
+		'serve-'+site_name,
 		'html-proofer-'+site_name, 
 		callback
 	);	
@@ -170,7 +211,7 @@ function buildSite(site_name, callback) {
 
 function serveSite(site_name) {
 
-	buildSite(site_name, () => {
+	buildSiteForServe(site_name, () => {
 		browserSync.init({
 		    files: ['./_site/' +site_name+'_ac_uk/**'],
 		    port: 4000,
