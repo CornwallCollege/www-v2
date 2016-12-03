@@ -17,6 +17,7 @@ var config = require('./gulpconfig.json'),
 	reload      = browserSync.reload,
 	child = require('child_process'),
 	gutil = require('gulp-util'),
+	critical = require('critical'),
 	build_environment="development";
 
 gulp.task('configure-environment', function() {
@@ -117,16 +118,30 @@ gulp.task('minify-css', ['uncss'], function() {
 });
 
 // Extracting the critical path CSS
-gulp.task('critical', ['minify-css'], function() {
-  critical.generate({
-    base: '_site/',
-    src: 'index.html',  // Extract critical path CSS for index.html
-    css: ['assets/css/style.css'],
-    dest: './_includes/critical.css',
-    minify: true,
-    include: [/cc_/],
-    ignore: ['@font-face']
-  });
+gulp.task('critical',  function() {
+
+	/*critical.generateInline({
+	    	base: '_site/cornwall_ac_uk/',
+		    //inline: true,
+		    src: 'index.html',  // Extract critical path CSS for index.html
+		    assetPaths: ['assets/', 'css/'],
+		    styleTarget: 'assets/combined.css',
+		    htmlTarget: 'index.html',
+		    //dest: 'index-critical.html',
+		    //width: 320,
+        	//height: 480,
+		    //include: [/cc_/],
+		    //ignore: ['font-face']
+		  }, cb.bind(cb));*/
+	critical.generate({
+        inline: true,
+        base: '_site/cornwall_ac_uk/',
+        src: 'index.html',
+        dest: '_site/cornwall_ac_uk/index-critical.html',
+        minify: true,
+        width: 320,
+        height: 480
+    });
 });
 
 function build (site_name) {

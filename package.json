@@ -14,6 +14,7 @@
     "gulp-git": "^1.12.0",
     "gulp-if": "^2.0.2",
     "browser-sync" : "^2.18.2",
-    "gutil" : "^3.0.7"
+    "gutil" : "^1.6.4",
+    "critical" : "^0.8.1"
   }
 }
