@@ -134,7 +134,7 @@ gulp.task('critical-falmouth',  function () {
 
 function minify_js(site_name) {
 	return gulp.src('_site/'+site_name+'_ac_uk/**/*.js')
-	.pipe (uglify())
+	.pipe (gulpif(build_environment==="production",uglify()))
 	.pipe(gulp.dest('_site/'+site_name+'_ac_uk'));	
 }
 
