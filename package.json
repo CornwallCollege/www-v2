@@ -1,22 +1,16 @@
 {
-  "name": "www-v2",
-  "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/CornwallCollege/www-v2.svg?branch=master)](https://travis-ci.org/CornwallCollege/www-v2)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CornwallCollege/www-v2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CornwallCollege/www-v2/issues"
-  },
-  "homepage": "https://github.com/CornwallCollege/www-v2#readme",
+  "private": true,
   "dependencies": {
-    "grunt-purifycss": "^0.1.1"
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-html-minifier": "^0.1.8",
+    "run-sequence": "^1.2.2",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-uncss": "^1.0.6",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-download-stream": "^0.0.13",
+    "gulp-git": "^1.12.0"
   }
 }
