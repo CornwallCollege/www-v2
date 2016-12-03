@@ -1,3 +1,5 @@
+"use strict";
+
 var config = require('./gulpconfig.json'),
 	gulp = require('gulp'),
 	shell = require('gulp-shell'),
@@ -12,6 +14,7 @@ var config = require('./gulpconfig.json'),
 	git = require('gulp-git'),
 	gulpif = require('gulp-if'),
 	browserSync = require('browser-sync').create(),
+	reload      = browserSync.reload,
 	build_environment="development";
 
 gulp.task('fetch-newest-analytics', function() {
@@ -117,19 +120,42 @@ gulp.task('critical', ['minify-css'], function() {
 });
 
 function serveSite(site_name) {
+	runSequence(
+		//'fetch-newest-analytics',
+		//'fetch-newest-maps',
+		'configure-environment',
+		'build-'+site_name,
+		'html-proofer-'+site_name
+	);
+
 	browserSync.init({
-    files: ['./_site_' +site_name+'_ac_uk/**'],
+    files: ['./_site/' +site_name+'_ac_uk/**'],
     port: 4000,
     server: {
-      baseDir: './_site_' +site_name+'_ac_uk/'
+      baseDir: './_site/' +site_name+'_ac_uk/'
     }
   });
 
-  gulp.watch(cssFiles, ['css']);	
+  gulp.watch('**/*', ['build-'+site_name, 'html-proofer-'+site_name]);
+  gulp.watch('_site/'+site_name+'/**/*').on('change', reload);	
 }
 
+gulp.task('serve-bicton', () => {
+	serveSite('bicton');
+});
+
 gulp.task('serve-cornwall', () => {
-	serveSite('cornwall')
+	serveSite('cornwall');
+  
+});
+
+gulp.task('serve-duchy', () => {
+	serveSite('duchy');
+  
+});
+
+gulp.task('serve-falmouth', () => {
+	serveSite('falmouth');
   
 });
 
