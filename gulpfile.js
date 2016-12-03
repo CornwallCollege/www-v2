@@ -17,7 +17,7 @@ var config = require('./gulpconfig.json'),
 	reload      = browserSync.reload,
 	child = require('child_process'),
 	gutil = require('gulp-util'),
-	critical = require('critical'),
+	critical = require('critical').stream,
 	build_environment="development";
 
 gulp.task('configure-environment', function() {
@@ -110,18 +110,34 @@ gulp.task('minify-css', ['uncss'], function() {
   .pipe(gulp.dest('assets/css/'));
 });
 
-// Extracting the critical path CSS
-gulp.task('critical',  function() {
+function critical_css(site_name) {
+	return gulp.src('_site/'+site_name+'_ac_uk/**/*.html')
+		.pipe(critical({
+			base: '_site/'+site_name+'_ac_uk',
+	        inline: true,
+	        minify: true,
+	        width: 320,
+	        height: 480
+	    }))
+	    .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+	    .pipe(gulp.dest('_site/'+site_name+'_ac_uk'));;	
+}
 
-	critical.generate({
-        inline: true,
-        base: '_site/cornwall_ac_uk/',
-        src: 'index.html',
-        //dest: '_site/cornwall_ac_uk/',
-        minify: true,
-        width: 320,
-        height: 480
-    });
+// Extracting the critical path CSS
+gulp.task('critical-bicton',  function () {
+    return critical_css('bicton');
+});
+
+gulp.task('critical-cornwall',  function () {
+    return critical_css('cornwall');
+});
+
+gulp.task('critical-duchy',  function () {
+    return critical_css('duchy');
+});
+
+gulp.task('critical-falmouth',  function () {
+    return critical_css('falmouth');
 });
 
 function buildWithIncremental (site_name) {
@@ -154,16 +170,7 @@ function build (site_name) {
 	{
 		'JEKYLL_ENV' : build_environment
 	}
-  );
-
-  const jekyllLogger = (buffer) => {
-    buffer.toString()
-      .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll: ' + message));
-  };
-
-  jekyll.stdout.on('data', jekyllLogger);
-  jekyll.stderr.on('data', jekyllLogger);	
+  );	
 }
 
 gulp.task('build-bicton', () => {
@@ -258,7 +265,10 @@ gulp.task('dry-run-all', function(callback) {
 		'optimize-images',
 		'optimize-css',
 		'optimize-html',
-		'critical',
+		'critical-bicton',
+		'critical-cornwall',
+		'critical-duchy',
+		'critical-falmouth',
 		callback
 	);
 });
@@ -278,7 +288,10 @@ gulp.task('deploy', function(callback) {
 		'html-proofer-falmouth',
 		'optimize-html',
 		'optimize-images',
-		'critical',
+		'critical-bicton',
+		'critical-cornwall',
+		'critical-duchy',
+		'critical-falmouth',
 		callback
 	);
 });
