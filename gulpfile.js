@@ -24,33 +24,13 @@ gulp.task('fetch-newest-maps', function() {
     	.pipe(gulp.dest('_assets/js/'));
 });
 
-gulp.task('build-bicton', function() {
-	return gulp.src('index.html', { read: false })
-		.pipe(shell([
-			'JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_bicton_ac_uk.yml'
-		]));
-});
+gulp.task('build-bicton', shell.task(['JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_bicton_ac_uk.yml']));
 
-gulp.task('build-cornwall', function() {
-	return gulp.src('index.html', { read: false })
-		.pipe(shell([
-			'JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_cornwall_ac_uk.yml'
-		]));
-});
+gulp.task('build-cornwall', shell.task(['JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_cornwall_ac_uk.yml']));
 
-gulp.task('build-duchy', function() {
-	return gulp.src('index.html', { read: false })
-		.pipe(shell([
-			'JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_duchy_ac_uk.yml'
-		]));
-});
+gulp.task('build-duchy', shell.task(['JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_duchy_ac_uk.yml']));
 
-gulp.task('build-falmouth', function() {
-	return gulp.src('index.html', { read: false })
-		.pipe(shell([
-			'JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml'
-		]));
-});
+gulp.task('build-falmouth', shell.task([ 'JEKYLL_ENV=' + build_environment + ' jekyll build --config _config.yml,_site_falmouthmarineschool_ac_uk.yml']));
 
 // Validate html, links, etc.
 gulp.task('html-proofer-bicton', function() {
@@ -65,12 +45,12 @@ gulp.task('html-proofer-cornwall', function() {
 
 gulp.task('html-proofer-duchy', function(done) {
 	return gulp.src('index.html', { read: false })
- 		.pipe(shell(['./_site/duchy_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/duchy_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/duchy_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
+ 		.pipe(shell(['htmlproofer ./_site/duchy_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/duchy_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/duchy_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
 });
 
 gulp.task('html-proofer-falmouth', function(done) {
 	return gulp.src('index.html', { read: false })
-  		.pipe(shell(['./_site/falmouthmarineschool_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/falmouthmarineschool_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/falmouthmarineschool_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
+  		.pipe(shell(['htmlproofer ./_site/falmouthmarineschool_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/falmouthmarineschool_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/falmouthmarineschool_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
 });
 
 gulp.task('optimize-html', function() {
