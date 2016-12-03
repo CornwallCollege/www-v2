@@ -35,28 +35,28 @@ gulp.task('build-falmouth', shell.task([ 'JEKYLL_ENV=' + build_environment + ' b
 // Validate html, links, etc.
 gulp.task('html-proofer-bicton', function() {
 	return gulp.src('index.html', { read: false })
-  		.pipe(shell(['htmlproofer ./_site/bicton_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/bicton_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/bicton_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
+  		.pipe(shell(['bundle exec htmlproofer ./_site/bicton_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/bicton_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/bicton_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
 });
 
 gulp.task('html-proofer-cornwall', function() {
 	return gulp.src('index.html', { read: false })
-		.pipe(shell(['htmlproofer ./_site/cornwall_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/cornwall_ac_uk/template.html" --check-opengraph "true" --check-html "true" --disable-external > ./_site/cornwall_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
+		.pipe(shell(['bundle exec htmlproofer ./_site/cornwall_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/cornwall_ac_uk/template.html" --check-opengraph "true" --check-html "true" --disable-external > ./_site/cornwall_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
 });
 
 gulp.task('html-proofer-duchy', function(done) {
 	return gulp.src('index.html', { read: false })
- 		.pipe(shell(['htmlproofer ./_site/duchy_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/duchy_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/duchy_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
+ 		.pipe(shell(['bundle exec htmlproofer ./_site/duchy_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/duchy_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/duchy_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
 });
 
 gulp.task('html-proofer-falmouth', function(done) {
 	return gulp.src('index.html', { read: false })
-  		.pipe(shell(['htmlproofer ./_site/falmouthmarineschool_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/falmouthmarineschool_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/falmouthmarineschool_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
+  		.pipe(shell(['bundle exec htmlproofer ./_site/falmouthmarineschool_ac_uk --url-ignore "/#.*/" --file-ignore "./_site/falmouthmarineschool_ac_uk/template.html"  --check-opengraph "true" --check-html "true" --disable-external > ./_site/falmouthmarineschool_ac_uk/error.txt 2>&1'], {ignoreErrors: true}));
 });
 
 gulp.task('optimize-html', function() {
  	return gulp.src('index.html', { read: false })
 		.pipe(shell([
-			'html-minifier -c html-minifier.conf --input-dir ./_site --output-dir ./_site --file-ext html'
+			'bundle exec html-minifier -c html-minifier.conf --input-dir ./_site --output-dir ./_site --file-ext html'
 		]));
 });
 
