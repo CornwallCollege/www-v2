@@ -80,6 +80,7 @@ gulp.task('optimize-css-cornwall', function() {
 		   html: ['_site/cornwall_ac_uk/**/*.html'],
 		   ignore: []
 	   }))
+	   .pipe(csscomb())
 	   .pipe(cleanCSS())
 	   .pipe(gulp.dest('_site/cornwall_ac_uk/'));
 });
@@ -145,7 +146,7 @@ function buildWithIncremental (site_name) {
 }
 
 function build (site_name) {
-	const jekyll = child.spawn('bundle', 
+	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
