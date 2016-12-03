@@ -204,19 +204,19 @@ gulp.task('build-falmouth', () => {
 	build('falmouthmarineschool');
 });
 
-gulp.task('serve-bicton', () => {
+gulp.task('buildForServe-bicton', () => {
 	buildWithIncremental('bicton');
 });
 
-gulp.task('serve-cornwall', () => {
+gulp.task('buildForServe-cornwall', () => {
 	buildWithIncremental('cornwall');
 });
 
-gulp.task('serve-duchy', () => {
+gulp.task('buildForServe-duchy', () => {
 	buildWithIncremental('duchy');
 });
 
-gulp.task('serve-falmouth', () => {
+gulp.task('buildForServe-falmouth', () => {
 	buildWithIncremental('falmouthmarineschool');
 });
 
@@ -226,7 +226,7 @@ function buildSiteForServe(site_name, callback) {
 		//'fetch-newest-analytics',
 		//'fetch-newest-maps',
 		'configure-environment',
-		'serve-'+site_name,
+		'buildForServe-'+site_name,
 		'html-proofer-'+site_name, 
 		callback
 	);	
