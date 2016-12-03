@@ -18,7 +18,7 @@ var config = require('./gulpconfig.json'),
 	child = require('child_process'),
 	gutil = require('gulp-util'),
 	critical = require('critical').stream,
-	uglifyjs = require('gulp-uglify'),
+	uglify = require('gulp-uglify'),
 	build_environment="development";
 
 gulp.task('configure-environment', function() {
@@ -76,11 +76,11 @@ gulp.task('optimize-images', function () {
 
 function optimize_css (site_name) {
 	return gulp.src('_site/' + site_name + '_ac_uk/**/*.css')
-	   .pipe(gulpif(build_environment==="production",autoprefixer())
+	   .pipe(gulpif(build_environment==="production",autoprefixer()))
 	   .pipe(gulpif(build_environment==="production",uncss({
 		   html: ['_site/' + site_name + '_ac_uk/**/*.html'],
 		   ignore: []
-	   }))
+	   })))
 	   //.pipe(csscomb())
 	   .pipe(gulpif(build_environment==="production",cleanCSS()))
 	   .pipe(gulp.dest('_site/' + site_name + '_ac_uk/'));	
@@ -131,6 +131,29 @@ gulp.task('critical-duchy',  function () {
 gulp.task('critical-falmouth',  function () {
     return critical_css('falmouth');
 });
+
+function minify_js(site_name) {
+	return gulp.src('_site/'+site_name+'_ac_uk/**/*.js')
+	.pipe (uglify())
+	.pipe(gulp.dest('_site/'+site_name+'_ac_uk'));	
+}
+
+gulp.task('minifyjs-bicton',  function () {
+    return minify_js('bicton');
+});
+
+gulp.task('minifyjs-cornwall',  function () {
+    return minify_js('cornwall');
+});
+
+gulp.task('minifyjs-duchy',  function () {
+    return minify_js('duchy');
+});
+
+gulp.task('minifyjs-falmouth',  function () {
+    return minify_js('falmouth');
+});
+
 
 function buildWithIncremental (site_name) {
 	const jekyll = child.spawn('bundle', 
@@ -261,6 +284,10 @@ gulp.task('dry-run-all', function(callback) {
 		'critical-cornwall',
 		'critical-duchy',
 		'critical-falmouth',
+		'minifyjs-bicton',
+		'minifyjs-cornwall',
+		'minifyjs-duchy',
+		'minifyjs-falmouth',
 		callback
 	);
 });
@@ -288,6 +315,10 @@ gulp.task('deploy', function(callback) {
 		'critical-cornwall',
 		'critical-duchy',
 		'critical-falmouth',
+		'minifyjs-bicton',
+		'minifyjs-cornwall',
+		'minifyjs-duchy',
+		'minifyjs-falmouth',
 		callback
 	);
 });
