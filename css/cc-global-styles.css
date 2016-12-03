@@ -1112,11 +1112,11 @@ a {
     }
 }
 @media(max-width:599px){
+    
     .plus-button,
     .less-button{
         z-index: 0;
-    }      
-    
+    }    
     .sub-brand img,
     .current-brand img{
         width:100px;

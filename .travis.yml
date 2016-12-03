@@ -2,14 +2,16 @@ language: ruby
 rvm:
 - 2.2.5
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script:
-    ./script/cibuild &&
-    ./script/test
 
-after_success:
-        ./script/deploy
+before_install:
+  - nvm install 4.2
+
+before_script:
+  - npm install -g gulp
+  - npm install
+
+script: gulp deploy && script/deploy
+
 git:
   depth: 3
   

@@ -218,8 +218,18 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     git push
     
 else
+
     echo "Deploying to Production"
+
+    echo "====================="
+    echo "Minifying HTML."
+    echo "====================="
+
+    npm install html-minifier
     
+    html-minifier -c html-minifier.conf --input-dir ./_site --output-dir ./_site --file-ext html
+
+    echo "Done with minification."
     
     git clone --depth 1 git@github.com:CornwallCollege/www_static ../out
 
