@@ -221,8 +221,8 @@ div.logo-wrap-scroll :nth-child(4) {
     z-index: 1003;
     font-weight: 300;
     font-size: 28px;
-    /*float: right;*/
-    display: inline-block;
+    float: right;
+    display: block;
     color: #fff;
     opacity: 0.9;
     top: 0;
@@ -283,7 +283,7 @@ div.logo-wrap-scroll :nth-child(4) {
     transition: all 0.3s ease;
 }
 
-.cbp-spmenu #closeRightPush {
+.cbp-spmenu span#closeRightPush {
     color: #fff;
     margin: 0;
     font-weight: 300;
@@ -297,7 +297,7 @@ div.logo-wrap-scroll :nth-child(4) {
     padding: 20px 28px;
 }
 
-.cbp-spmenu #closeRightPush:hover {
+.cbp-spmenu span#closeRightPush:hover {
     opacity: 0.8;
 }
 
@@ -1112,11 +1112,11 @@ a {
     }
 }
 @media(max-width:599px){
+    
     .plus-button,
     .less-button{
         z-index: 0;
-    }      
-    
+    }    
     .sub-brand img,
     .current-brand img{
         width:100px;

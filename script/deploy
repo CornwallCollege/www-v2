@@ -218,8 +218,8 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     git push
     
 else
+
     echo "Deploying to Production"
-    
     
     git clone --depth 1 git@github.com:CornwallCollege/www_static ../out
 
