@@ -271,6 +271,7 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 /* General styles for all menus */
 
+
 .cbp-spmenu {
     position: fixed;
     background: rgb(255, 255, 255);    
@@ -1246,6 +1247,7 @@ h2 span {
 .main-section-margins .course-search h2{
     color:#333;
 }
-.course-search .form-control {
+.course-search .form-control,
+.input-group .form-control{
     min-height: 60px;
 }
