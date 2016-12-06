@@ -108,10 +108,10 @@
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
           campus-filter: saltash
-          
+
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
-          campus-filter: rosewarne          
+          campus-filter: rosewarne
 
       career-link: /teaching-education/index.html
       search-link: teaching-education
@@ -635,7 +635,7 @@
       learning-style: academic
       career-link: /a-levels/index.html
       search-link: as-a-level
-      intro: A-levels at St Austell, pre university courses on your doorstep with 99.2% pass rate in 2014. If your focus is university and you want to get a personalised learning experience, plus work experience and a great support network, look no further.
+      intro: Our A-level department has seen its best results ever in 2016, with an overall pass rate of 99.6%, which is the highest in Cornwall. Our students achieved a 100% pass rate in 25 out of 26 subjects and our value added is in the top 1% in the UK! If your focus is university and you want to get a personalised learning experience, plus work experience and a great support network, look no further.
 
 
 #Health & Wellbeing D70060
@@ -773,10 +773,10 @@
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
           campus-filter: st-austell
-          
+
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
-          campus-filter: rosewarne           
+          campus-filter: rosewarne
 
       career-link: /health/index.html
       search-link: social-care-health
