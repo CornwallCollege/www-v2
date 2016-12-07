@@ -135,7 +135,7 @@
 
     - area-title: Technology
       area-color: 00A1CB
-      sub-area:
+      sub-areas:
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
@@ -356,7 +356,7 @@
 
     - area-title: Technology
       area-color: 00A1CB
-      sub-area:
+      sub-areas:
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
@@ -365,7 +365,6 @@
 
       - sub-area-title: Motor Vehicle
         sub-area-link: motor-vehicle
-
 
 - campus: The Eden Project
   long: 50.360518
@@ -926,7 +925,7 @@
 
     - area-title: Technology
       area-color: 00A1CB
-      sub-area:
+      sub-areas:
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
@@ -1106,7 +1105,7 @@
 
     - area-title: Technology
       area-color: 00A1CB
-      sub-area:
+      sub-areas:
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
@@ -1264,7 +1263,7 @@
   learning-areas:
     - area-title: Technology
       area-color: 00A1CB
-      sub-area:
+      sub-areas:
 
       - sub-area-title: Engineering
         sub-area-link: engineering
