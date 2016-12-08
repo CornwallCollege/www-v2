@@ -165,10 +165,7 @@ function buildWithIncremental (site_name) {
 	[	
 		'exec',
 		'jekyll build --watch --incremental --drafts --config _config.yml,_site_' + site_name + '_ac_uk.yml'
-	],
-	{
-		env:{'JEKYLL_ENV' : build_environment}
-	}
+	]
   );
 
   const jekyllLogger = (buffer) => {
@@ -182,15 +179,26 @@ function buildWithIncremental (site_name) {
 }
 
 function build (site_name) {
-	const jekyll = child.spawnSync('bundle', 
+
+	var env = Object.create( process.env );
+	env.JEKYLL_ENV = build_environment;
+
+	const jekyll = child.spawn('bundle', 
 	[	
 		'exec',
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
-	{
-		env:{'JEKYLL_ENV' : build_environment}
-	}
+	{ env: env}
   );	
+
+	const jekyllLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => gutil.log('Jekyll: ' + message));
+  };
+
+  jekyll.stdout.on('data', jekyllLogger);
+  jekyll.stderr.on('data', jekyllLogger);
 }
 
 gulp.task('build-bicton', () => {
