@@ -114,7 +114,8 @@ function critical_css(site_name) {
              }, {
                  height: 900,
                  width: 1200
-             }]
+             }],
+             ignore: ['@font-face']
 	    }))
 	    .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
 	    .pipe(gulp.dest('_site/'+site_name+'_ac_uk'));;	
@@ -179,17 +180,19 @@ function buildWithIncremental (site_name) {
 }
 
 function build (site_name) {
-
+	console.log("Build Start:" + site_name);
 	var env = Object.create( process.env );
 	env.JEKYLL_ENV = build_environment;
-
+	console.log("Created env:")
+	console.log(env);
 	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
 	{ env: env}
-  );	
+  );
+  console.log(jekyll);	
 }
 
 gulp.task('build-bicton', () => {
