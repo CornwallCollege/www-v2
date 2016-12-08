@@ -166,7 +166,7 @@ function buildWithIncremental (site_name) {
 		'exec',
 		'jekyll build --watch --incremental --drafts --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
-	{
+	env: {
 		'JEKYLL_ENV' : build_environment
 	}
   );
@@ -187,7 +187,7 @@ function build (site_name) {
 		'exec',
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
-	{
+	env: {
 		'JEKYLL_ENV' : build_environment
 	}
   );	
