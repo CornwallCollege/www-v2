@@ -190,15 +190,6 @@ function build (site_name) {
 	],
 	{ env: env}
   );	
-
-	const jekyllLogger = (buffer) => {
-    buffer.toString()
-      .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll: ' + message));
-  };
-
-  jekyll.stdout.on('data', jekyllLogger);
-  jekyll.stderr.on('data', jekyllLogger);
 }
 
 gulp.task('build-bicton', () => {
