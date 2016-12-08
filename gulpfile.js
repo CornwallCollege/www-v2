@@ -303,13 +303,11 @@ gulp.task('dry-run-all', function(callback) {
 
 gulp.task('deploy', function(callback) {
 	runSequence(
-		'fetch-newest-analytics',
-		'fetch-newest-maps',
+		['fetch-newest-analytics','fetch-newest-maps'],
 		'configure-environment',
 		['build-bicton','build-cornwall','build-duchy','build-falmouth'],
 		['html-proofer-bicton','html-proofer-cornwall','html-proofer-duchy','html-proofer-falmouth'],
-		'optimize-html',
-		'optimize-images',
+		['optimize-html','optimize-images'],
 		['optimize-css-bicton','optimize-css-cornwall','optimize-css-duchy','optimize-css-falmouth'],
 		['critical-bicton',	'critical-cornwall','critical-duchy','critical-falmouth'],
 		['minifyjs-bicton',	'minifyjs-cornwall','minifyjs-duchy','minifyjs-falmouth'],
