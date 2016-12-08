@@ -183,7 +183,7 @@ function build (site_name) {
 	var env = Object.create( process.env );
 	env.JEKYLL_ENV = build_environment;
 
-	const jekyll = child.spawn('bundle', 
+	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
