@@ -42,7 +42,6 @@
       partner-logo: /images/partnerships/army-be-the-best-logo.jpg
       partner-link: http://www.army.mod.uk/
 
-
   facilities:
     - title: Learning<br>Centre
       location: Bicton
@@ -50,7 +49,6 @@
       link: /bicton-learning-area/
       image: /bicton/learning-centre.jpg
       image-thumb: /bicton/learning-centre-thumb.jpg
-
 
     - title: Bicton<br>Earth
       location: Bicton
@@ -103,7 +101,6 @@
       image-thumb: /bicton/home-farm-thumb.jpg
       read-more: /facility-pages/bicton-home-farm.html
 
-
   learning-areas:
     - area-title: Foundation Learning
       area-color: F18D05
@@ -141,7 +138,6 @@
       sub-area:
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
-
 
 
 - campus: dbs Music Bristol
@@ -327,9 +323,9 @@
       sub-areas:
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
-        
+
       - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education        
+        sub-area-link: teaching-education
 
     - area-title: Foundation Learning
       area-color: F18D05
@@ -416,6 +412,35 @@
       image-thumb: /eden/canteen-thumb.jpg
 
   learning-areas:
+    - area-title: Business & Professional
+      area-color: E54028
+      sub-areas:
+      - sub-area-title: Business School
+        sub-area-link: business-school
+
+    - area-title: Cultural & Visitor Economy
+      area-color: D0D102
+      sub-areas:
+      - sub-area-title: Catering & Academy Nathan Outlaw
+        sub-area-link: catering-academy-nathan-outlaw
+
+      - sub-area-title: Music & Performing Arts
+        sub-area-link: music-performing-arts
+
+      - sub-area-title: Travel & Tourism
+        sub-area-link: travel-tourism
+
+    - area-title: Rural Economy
+      area-color: 61AE24
+      sub-areas:
+      - sub-area-title: Horticulture & Floristry
+        sub-area-link: horticulture-floristry
+
+    - area-title: Science & Natural Environment
+      area-color: 113F8C
+      sub-areas:
+      - sub-area-title: Marine & Natural Environment
+        sub-area-link: marine-natural-environment
 
 
 - campus: Falmouth Marine School
@@ -426,7 +451,6 @@
   anchor: "falmouth-marine-school"
   slug: "falmouth-marine-school"
   partnerships:
-
   - partner-title: Biaza
     partner-logo: /images/partnerships/BIAZA.jpg
     partner-link: http://www.biaza.org.uk/
@@ -462,7 +486,6 @@
   - partner-title: "A&amp;P"
     partner-logo: /images/partnerships/AandP.jpg
     partner-link: http://www.ap-group.co.uk/facilities/falmouth/
-
 
   facilities:
     - title: Learning <br>Centre
@@ -577,8 +600,6 @@
       partner-logo: /images/partnerships/ESF.jpg
       partner-link: http://www.englishsurfing.co.uk/
 
-
-
   facilities:
     - title: Learning<br>Centre
       detail:  Monday – Thursday 8.30am - 6pm, Friday 8.30am – 4.30pm during term time and varied opening hours during half terms and holidays.<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
@@ -644,8 +665,6 @@
         sub-area-link: sports-fitness
 
 
-        sub-area-link: sports-fitness
-
 - campus: Duchy College Rosewarne
   long: 50.2234417
   lat: -5.3028398
@@ -677,7 +696,6 @@
     - partner-title: NFU
       partner-logo: /images/partnerships/nfu.jpg
       partner-link: http://www.nfuonline.com/home/
-
 
     - partner-title: Royal Horticulutral Society
       partner-logo: /images/partnerships/royal-hort-soc.jpg
@@ -755,15 +773,16 @@
 
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
-        
+
     - area-title: Education
       area-color: 01A4A4
       sub-areas:
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
-        
+
       - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education      
+        sub-area-link: teaching-education
+
 
 - campus: Cornwall College Saltash
   long: 50.4055478
@@ -808,7 +827,6 @@
     - partner-title: Heartlands
       partner-logo: /images/partnerships/heartlands.jpg
       partner-link: http://www.heartlandscornwall.com/
-
 
   facilities:
     - title: Learning <br>Centre
@@ -890,9 +908,9 @@
       sub-areas:
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
-        
+
       - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education        
+        sub-area-link: teaching-education
 
     - area-title: Foundation Learning
       area-color: F18D05
@@ -962,7 +980,6 @@
     - partner-title: Flying Start Nursery
       partner-logo: /images/partnerships/flying-start-logo.jpg
       partner-link: http://www.flyingstart.uk.com/
-
 
   facilities:
     - title: Learning<br>Centre
@@ -1059,9 +1076,9 @@
       sub-areas:
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
-        
+
       - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education     
+        sub-area-link: teaching-education
 
     - area-title: Foundation Learning
       area-color: F18D05
@@ -1237,7 +1254,6 @@
         sub-area-link: land-based-engineering-technology
 
 
-
 - campus: Plymouth Engineering Skills Centre
   long: 50.4223444
   lat: -4.0955227
@@ -1245,7 +1261,6 @@
   code: P
   anchor: "sisna"
   slug: "sisna-park"
-  
   learning-areas:
     - area-title: Technology
       area-color: 00A1CB
@@ -1253,4 +1268,3 @@
 
       - sub-area-title: Engineering
         sub-area-link: engineering
-
