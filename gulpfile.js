@@ -108,8 +108,13 @@ function critical_css(site_name) {
 			base: '_site/'+site_name+'_ac_uk',
 	        inline: true,
 	        minify: true,
-	        width: 320,
-	        height: 480
+	        dimensions: [{
+                 height: 200,
+                 width: 500
+             }, {
+                 height: 900,
+                 width: 1200
+             }]
 	    }))
 	    .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
 	    .pipe(gulp.dest('_site/'+site_name+'_ac_uk'));;	
@@ -162,7 +167,7 @@ function buildWithIncremental (site_name) {
 		'jekyll build --watch --incremental --drafts --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
 	{
-		'JEKYLL_ENV' : build_environment
+		env:{'JEKYLL_ENV' : build_environment}
 	}
   );
 
@@ -183,7 +188,7 @@ function build (site_name) {
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
 	{
-		'JEKYLL_ENV' : build_environment
+		env:{'JEKYLL_ENV' : build_environment}
 	}
   );	
 }
