@@ -50,7 +50,7 @@ relative_permalinks: false
 
 schema-college: "http://schema.org/CollegeOrUniversity"
 
-cornwall-base-url: "//testwww.cornwall.ac.uk/"
-duchy-base-url: "//testwww.duchy.ac.uk/"
-bicton-base-url: "//testwww.bicton.ac.uk/"
-falmouth-base-url: "//testwww.falmouthmarineschool.ac.uk/"
+cornwall-base-url: "www.cornwall.ac.uk/"
+duchy-base-url: "www.duchy.ac.uk/"
+bicton-base-url: "www.bicton.ac.uk/"
+falmouth-base-url: "www.falmouthmarineschool.ac.uk/"
