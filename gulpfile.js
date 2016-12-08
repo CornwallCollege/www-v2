@@ -161,14 +161,14 @@ gulp.task('minifyjs-falmouth',  function () {
 
 
 function buildWithIncremental (site_name) {
-	const jekyll = child.spawn(
-    'bundle', 
-	[	'exec',
+	const jekyll = child.spawn('bundle', 
+	[	
+		'exec',
 		'jekyll build --watch --incremental --drafts --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
-    {
-        env: {'JEKYLL_ENV' : build_environment}
-    }
+	env: {
+		'JEKYLL_ENV' : build_environment
+	}
   );
 
   const jekyllLogger = (buffer) => {
@@ -187,17 +187,14 @@ function build (site_name) {
 		'exec',
 		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
 	],
-    {
-        env: {'JEKYLL_ENV' : build_environment}
-    }
+	env: {
+		'JEKYLL_ENV' : build_environment
+	}
   );	
 }
 
 gulp.task('build-bicton', () => {
-	runSequence(
-		'configure-environment',
-		'build-bicton'
-        );
+	build('bicton');
 });
 
 gulp.task('build-cornwall', () => {
