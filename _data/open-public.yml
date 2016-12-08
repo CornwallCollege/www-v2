@@ -1,6 +1,6 @@
 - business: "Childcare"
   color: 0624a2
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
+  class: col-xs-12 col-sm-3 col-lg-3
   short: flying
   image: /images/public/childcare.jpg
   title: "If you have young children we can provide you with support so that you can achieve your qualifications and career goals."
@@ -30,7 +30,7 @@
 
 - business: "Evolve Sport Fitness & Outdoor Activities"
   color: 37aae3
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
+  class: col-xs-12 col-sm-3 col-lg-3
   short: evolve
   logo: /images/public/evolve.jpg
   image: /images/public/sport-fitness.jpg
@@ -70,7 +70,7 @@
 
 - business: "Equine"
   color: 007B4C
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
+  class: col-xs-12 col-sm-3 col-lg-2
   short: equine1
   image: /images/public/equine.jpg
   title: "The Equestrian Centre"
@@ -100,7 +100,7 @@
 
 - business: "Mill Autoquip"
   color: e6007e
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-4
+  class: col-xs-12 col-sm-3 col-lg-4
   short: mill
   logo: /images/public/milllogo-open-to-public.png
   image: /images/et/automotive-mobile.jpg
@@ -123,7 +123,7 @@
 
 - business: "Rosewarne Nursery"
   color: 0a7316
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-5
+  class: col-xs-12 col-sm-3 col-lg-5
   short: nursery
   image: /images/working-nursery.jpg
   title: "Rosewarne Nursery began in the early 1990s as an educational facility and quickly grew into a commercial enterprise supplying the nursery trade throughout Cornwall and Devon, which it is still doing to this day."
@@ -141,11 +141,11 @@
 
 - business: Cloisters Restaurant
   color: ca1b3c
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
+  class: col-xs-12 col-sm-3 col-lg-2
   short: cloisters
   image: /images/public/cloisters.jpg
   alt: Cloisters Restaurant Image
-  title: "Cloisters Restaurant is located at Cornwall College’s St Austell campus and is one of two fine dining commercial restaurants within the Cornwall College Group." 
+  title: "Cloisters Restaurant is located at Cornwall College’s St Austell campus and is one of two fine dining commercial restaurants within the Cornwall College Group."
   text: "Here students host and serve as well as create some mouth-watering menus every day for the general public.</p><p>We are open for lunch, Monday &#8208; Friday, with evening meals and a choice menu available on certain dates.</p><p>Offering excellent food at greatly reduced rates, with some experimental menus from our students as well as the traditional classics you would expect from a five star restaurant.</p><p>Cloisters Restaurant uses fine locally sourced produce and is also fully licensed, offering a comprehensive selection of wines chosen to accompany each dish on the menu. In addition to regular fine dining lunchtime sessions during term time, Cloisters Restaurant also offers a series of fine dining evenings, devised, prepared and hosted by the students themselves throughout the year.The restaurant is also available for large group bookings."
   table:
     - icon: fa fa-clock-o
@@ -160,7 +160,7 @@
 
 - business: "Dog Grooming"
   color: 77BC43
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
+  class: col-xs-12 col-sm-3 col-lg-3
   short: dog-grooming
   image: /images/public/dog-grooming.jpg
   title: "Duchy College, Rosewarne’s Dog Grooming Salon boasts a range of high quality, state of the art equipment for the students to use whilst training."
@@ -178,7 +178,7 @@
 
 - business: "College Design and Print"
   color: 37aae3
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-2
+  class: col-xs-12 col-sm-3 col-lg-2
   short: CDP
   image: /images/public/college-print.jpg
   title: "Design and Print Studios"
@@ -190,7 +190,7 @@
 
 - business: "Koko hair beauty and holistic therapies"
   color: 8b005b
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-4
+  class: col-xs-12 col-sm-3 col-lg-4
   short: koko
   logo: /images/public/koko-logo.png
   image: /images/public/koko.jpg
@@ -222,7 +222,7 @@
 
 - business: "Venue Hire"
   color: 203d7c
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-3
+  class: col-xs-12 col-sm-3 col-lg-3
   short: room
   image: /images/public/venue-hire.jpg
   title: "The Cornwall College Group offers venue hire at its college locations incorporating the very latest technology, facilities and resources. Each location has something different to offer from conferences to room hire, weddings to festivals"
@@ -232,7 +232,7 @@
 
 - business: "Trevenson Restaurant"
   color: 5f5f5f
-  class: cluster-hover col-xs-12 col-sm-3 col-lg-5
+  class: col-xs-12 col-sm-3 col-lg-5
   short: trevenson
   logo: /images/public/trevenson-logo.png
   image: /images/public/trevenson.jpg
