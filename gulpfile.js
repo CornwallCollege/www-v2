@@ -180,11 +180,10 @@ function buildWithIncremental (site_name) {
 }
 
 function build (site_name) {
-	console.log("Build Start:" + site_name);
+
 	var env = Object.create( process.env );
 	env.JEKYLL_ENV = build_environment;
-	console.log("Created env:")
-	console.log(env);
+
 	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
@@ -192,7 +191,7 @@ function build (site_name) {
 	],
 	{ env: env}
   );
-  console.log(jekyll);	
+
 }
 
 gulp.task('build-bicton', () => {
