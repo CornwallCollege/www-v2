@@ -24,6 +24,7 @@ GEM
     fastimage (2.0.1)
       addressable (~> 2)
     ffi (1.9.14)
+    ffi (1.9.14-x64-mingw32)
     forwardable-extended (2.6.0)
     html-proofer (3.3.1)
       activesupport (>= 4.2, < 6.0)
@@ -69,6 +70,8 @@ GEM
     minitest (5.10.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    nokogiri (1.6.8.1-x64-mingw32)
+      mini_portile2 (~> 2.1.0)
     parallel (1.10.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -94,6 +97,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   closure-compiler

@@ -189,7 +189,7 @@ function build (site_name) {
 	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
-		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml' + dev_config;
+		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml' + dev_config
 	],
 	{ env: env}
   );
