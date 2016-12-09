@@ -4,7 +4,7 @@
             {% if site.data.menu.sub-menu == empty %}
 
                     <li>
-                        <a href="{% if jekyll.environment=="test" %}{{site.testurl}}{% else %}{{site.url}}{% endif %}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
+                        <a href="{{site.url}}/{{menu.menu-link}}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
                     </li>
 
             {% else %}
@@ -13,7 +13,7 @@
                         <a href="{% if menu.menu-link contains 'http' %}{{menu.menu-link}}{% else %}{{site.url}}/{{menu.menu-link}}{% endif %}" title="{{menu.menu-name}}">{{menu.menu-name}}</a>
                         <ul class="submenu-items transition">
                             {% for sub-menu in menu.sub-menu %}
-                                <li><a href="{% if sub-menu.sub-menu-link contains 'http' %}{{sub-menu.sub-menu-link}}{% else %}{% if jekyll.environment=="test" %}{{site.testurl}}{% else %}{{site.url}}{% endif %}/{{sub-menu.sub-menu-link}}{% endif %}">{{sub-menu.sub-menu-name}}</a></li>
+                                <li><a href="{% if sub-menu.sub-menu-link contains 'http' %}{{sub-menu.sub-menu-link}}{% else %}{{ site.url }}/{{sub-menu.sub-menu-link}}{% endif %}">{{sub-menu.sub-menu-name}}</a></li>
                             {% endfor %}
                         </ul>    
                     </li>

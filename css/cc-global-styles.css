@@ -271,6 +271,7 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 /* General styles for all menus */
 
+
 .cbp-spmenu {
     position: fixed;
     background: rgb(255, 255, 255);    
@@ -781,14 +782,22 @@ div.logo-wrap-scroll :nth-child(4) {
         padding-left: 55px;
     }
 }
-.main-menu-phone{
-    color:white; 
+.main-menu-phone {
     padding:5px 15px 0px 15px; 
     right:0; 
     bottom:0; 
     position:absolute; 
     background:#52B3D9; 
     font-size:1.2em;
+}
+.main-menu-phone a{
+    color:white; 
+    font-size:1.2em;    
+}
+.main-menu-phone a:hover{
+    background: none;
+    letter-spacing: normal;
+    border: none;
 }
 #footer .main-menu-phone{
     display: none;
@@ -1246,6 +1255,7 @@ h2 span {
 .main-section-margins .course-search h2{
     color:#333;
 }
-.course-search .form-control {
+.course-search .form-control,
+.input-group .form-control{
     min-height: 60px;
 }

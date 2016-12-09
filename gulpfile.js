@@ -108,8 +108,14 @@ function critical_css(site_name) {
 			base: '_site/'+site_name+'_ac_uk',
 	        inline: true,
 	        minify: true,
-	        width: 320,
-	        height: 480
+	        dimensions: [{
+                 height: 200,
+                 width: 500
+             }, {
+                 height: 900,
+                 width: 1200
+             }],
+             ignore: ['@font-face']
 	    }))
 	    .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
 	    .pipe(gulp.dest('_site/'+site_name+'_ac_uk'));;	
@@ -160,10 +166,7 @@ function buildWithIncremental (site_name) {
 	[	
 		'exec',
 		'jekyll build --watch --incremental --drafts --config _config.yml,_site_' + site_name + '_ac_uk.yml'
-	],
-	{
-		'JEKYLL_ENV' : build_environment
-	}
+	]
   );
 
   const jekyllLogger = (buffer) => {
@@ -177,15 +180,20 @@ function buildWithIncremental (site_name) {
 }
 
 function build (site_name) {
+
+	var env = Object.create( process.env );
+	env.JEKYLL_ENV = build_environment;
+    
+    var dev_config = build_environment!=='production' ? ',_test_' + site_name + '_ac_uk.yml':'';
+
 	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
-		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
+		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml' + dev_config;
 	],
-	{
-		'JEKYLL_ENV' : build_environment
-	}
-  );	
+	{ env: env}
+  );
+
 }
 
 gulp.task('build-bicton', () => {
@@ -297,31 +305,14 @@ gulp.task('dry-run-all', function(callback) {
 
 gulp.task('deploy', function(callback) {
 	runSequence(
-		'fetch-newest-analytics',
-		'fetch-newest-maps',
+		['fetch-newest-analytics','fetch-newest-maps'],
 		'configure-environment',
-		'build-bicton',
-		'build-cornwall',
-		'build-duchy',
-		'build-falmouth',
-		'html-proofer-bicton',
-		'html-proofer-cornwall',
-		'html-proofer-duchy',
-		'html-proofer-falmouth',
-		'optimize-html',
-		'optimize-images',
-		'optimize-css-bicton',
-		'optimize-css-cornwall',
-		'optimize-css-duchy',
-		'optimize-css-falmouth',
-		'critical-bicton',
-		'critical-cornwall',
-		'critical-duchy',
-		'critical-falmouth',
-		'minifyjs-bicton',
-		'minifyjs-cornwall',
-		'minifyjs-duchy',
-		'minifyjs-falmouth',
+		['build-bicton','build-cornwall','build-duchy','build-falmouth'],
+		['html-proofer-bicton','html-proofer-cornwall','html-proofer-duchy','html-proofer-falmouth'],
+		['optimize-html','optimize-images'],
+		['optimize-css-bicton','optimize-css-cornwall','optimize-css-duchy','optimize-css-falmouth'],
+		['critical-bicton',	'critical-cornwall','critical-duchy','critical-falmouth'],
+		['minifyjs-bicton',	'minifyjs-cornwall','minifyjs-duchy','minifyjs-falmouth'],
 		callback
 	);
 });

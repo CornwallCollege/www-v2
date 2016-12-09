@@ -624,12 +624,12 @@ button.icon-btn:hover,
     color: #fff;
 }
 /*------------------ Ghost button styles --------------------*/
-a.fullwidth{
+.fullwidth{
     display: block;
     font-size: 1.4em;
 
 }
-a.fullwidth:hover{
+.fullwidth:hover{
     letter-spacing: normal;
 }
 .ghost {
@@ -4167,7 +4167,7 @@ textarea {
 .plus-button,
 .less-button{
     bottom: 0;
-    z-index: 9999;
+    z-index: 0;
     left: 0;
     width: 100%;
 }
