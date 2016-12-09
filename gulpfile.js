@@ -311,7 +311,9 @@ gulp.task('deploy', function(callback) {
 		['html-proofer-bicton','html-proofer-cornwall','html-proofer-duchy','html-proofer-falmouth'],
 		['optimize-html','optimize-images'],
 		['optimize-css-bicton','optimize-css-cornwall','optimize-css-duchy','optimize-css-falmouth'],
-		['critical-bicton',	'critical-cornwall','critical-duchy','critical-falmouth'],
+		'critical-bicton'
+        ,'critical-cornwall'
+        ,['critical-duchy','critical-falmouth'],
 		['minifyjs-bicton',	'minifyjs-cornwall','minifyjs-duchy','minifyjs-falmouth'],
 		callback
 	);
