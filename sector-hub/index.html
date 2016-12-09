@@ -65,7 +65,7 @@ link: 14-18
             <h3>Leisure Courses</h3>
             <p>Cornwall College offers a wide range of day, evening and weekend courses for all ages and interests.</p>
             <div class="link-wrap">
-                <a href="{{site.course_site_baseurl}}leisure" class="icon-btn">Visit our Leisure hub</a>
+                <a href="{{site.url}}leisure" class="icon-btn">Visit our Leisure hub</a>
             </div>
         </article>
         <article id="apprenticeships" class="col-sm-12 col-md-4 text-center">
@@ -106,10 +106,10 @@ link: 14-18
                     <p>{{ subcluster.intro }}</p>
                     <h5>Available at:</h5>
                     {% for campus in subcluster.campus-long %}
-                     <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/campus/{{ campus.campus-filter}}" title="{{ campus.campus-name }}" class="btn ">{{ campus.campus-name}}</a>
+                     <a href="{{site.url}}cluster/{{ subcluster.search-link }}/campus/{{ campus.campus-filter}}" title="{{ campus.campus-name }}" class="btn ">{{ campus.campus-name}}</a>
                     {% endfor %}
                     <h5>Courses Available in this sector</h5>
-                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn ">View courses in this area</a>
+                    <a href="{{site.url}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn ">View courses in this area</a>
                 </div>
 
             </div>

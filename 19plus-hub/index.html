@@ -58,7 +58,7 @@ usefulLinks:
         <div class="col-sm-12 col-md-4 useful-links main-section-margins">
             <h3>Links</h3>
             {% for link in page.usefulLinks %}
-                <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
+                <a class="btn" href="{% if link.baseurl == true %}{{ site.url }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
             {% endfor %}
         </div>
     </section>
@@ -138,6 +138,6 @@ usefulLinks:
     <section class="col-sm-12 fulltime-bar clearfix">
         <div class="container">
             <h2>Seen enough, apply now! </h2>
-            <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
+            <a href="{{site.url}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>

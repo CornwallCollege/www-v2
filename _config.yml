@@ -3,9 +3,6 @@ title: The Career College | The Cornwall College Group
 email: webmaster@cornwall.ac.uk
 author: The Cornwall College Group
 baseurl: "" # the subpath of your site, e.g. /blog/
-course_site_baseurl: https://network.cornwall.ac.uk/
-event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
-support_site_url: https://network.cornwall.ac.uk/student-support/
 
 collections:
   campaign:

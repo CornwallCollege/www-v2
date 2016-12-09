@@ -21,9 +21,9 @@
 
 
       {% if page.top5-name %}
-        <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.top5-name }}' class="btn">View All Courses in {{ page.title }}</a>
+        <a title='view all courses in this area' href='{{ site.url }}cluster/{{ page.top5-name }}' class="btn">View All Courses in {{ page.title }}</a>
       {% else %}
-        <a title='view all courses in this area' href='{{ site.course_site_baseurl }}cluster/{{ page.title | downcase | remove: "&amp;" | remove: "of" | remove: "," | replace: ' ', '-' | replace: '--', '-'}}' class="btn">View All Courses in {{ page.title }}</a>
+        <a title='view all courses in this area' href='{{ site.url }}cluster/{{ page.title | downcase | remove: "&amp;" | remove: "of" | remove: "," | replace: ' ', '-' | replace: '--', '-'}}' class="btn">View All Courses in {{ page.title }}</a>
       {% endif %}
     </section>
 

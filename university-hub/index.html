@@ -118,7 +118,7 @@ gallery:
     <div class="col-sm-12 col-md-4 useful-links main-section-margins">
       <h3>HELPFUL LINKS</h3>
       {% for link in page.usefulLinks %}
-      <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
+      <a class="btn" href="{% if link.baseurl == true %}{{ site.url }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
       {% endfor %}
     </div>
   </section>
@@ -138,14 +138,14 @@ gallery:
         <i class="fa fa-bed fa-3x"></i>
         <h3>Accommodation</h3>
         <p>We understand that finding the right place to live is just as important as finding the right course to study. Here at the Cornwall College Group we have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
-        <p><a href="{{ site.support_site_url }}accommodation/" class="btn ghost">Find out more</a></p>
+        <p><a href="{{ site.url }}accommodation/" class="btn ghost">Find out more</a></p>
       </article>
 
       <article class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-2 text-center">
         <i class="fa fa-money fa-3x"></i>
         <h3>Money</h3>
         <p>If you are planning to join us in 2017 and live in the EU you will be glad to know that our fees are set from £7,500 per year. A range of scholarships and bursaries are available.</p>
-        <p><a href="{{ site.support_site_url }}financial-support/#uni-programme-applicants" class="btn ghost">Find out more</a></p>
+        <p><a href="{{ site.url }}financial-support/#uni-programme-applicants" class="btn ghost">Find out more</a></p>
       </article>
     </div>
 
@@ -186,7 +186,7 @@ gallery:
 <section class="col-sm-12 fulltime-bar clearfix">
   <div class="container">
     <h2>Seen enough, Find out how to apply now! </h2>
-    <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
+    <a href="{{site.url}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
   </div>
 </section>
 
