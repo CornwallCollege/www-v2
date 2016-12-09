@@ -1,0 +1,7 @@
+---
+---
+{% capture cornwall_url %}{% if jekyll.environment=="test" %}{{site.cornwall-base-test-url}}{% else %}{{site.cornwall-base-url}}{% endif %}{% endcapture %}
+{% capture duchy_url %}{% if jekyll.environment=="test" %}{{site.duchy-base-test-url}}{% else %}{{site.duchy-base-url}}{% endif %}{% endcapture %}
+{% capture bicton_url %}{% if jekyll.environment=="test" %}{{site.bicton-base-test-url}}{% else %}{{site.bicton-base-url}}{% endif %}{% endcapture %}
+{% capture falmouth_url %}{% if jekyll.environment=="test" %}{{site.falmouth-base-test-url}}{% else %}{{site.falmouth-base-url}}{% endif %}{% endcapture %}
+{{content}}
