@@ -183,11 +183,13 @@ function build (site_name) {
 
 	var env = Object.create( process.env );
 	env.JEKYLL_ENV = build_environment;
+    
+    var dev_config = build_environment!=='production' ? ',_test_' + site_name + '_ac_uk.yml':'';
 
 	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
-		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml'
+		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml' + dev_config;
 	],
 	{ env: env}
   );
