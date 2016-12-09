@@ -189,7 +189,7 @@ function build (site_name) {
 	const jekyll = child.spawnSync('bundle', 
 	[	
 		'exec',
-		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml' + dev_config;
+		'jekyll build --config _config.yml,_site_' + site_name + '_ac_uk.yml' + dev_config
 	],
 	{ env: env}
   );
@@ -311,7 +311,9 @@ gulp.task('deploy', function(callback) {
 		['html-proofer-bicton','html-proofer-cornwall','html-proofer-duchy','html-proofer-falmouth'],
 		['optimize-html','optimize-images'],
 		['optimize-css-bicton','optimize-css-cornwall','optimize-css-duchy','optimize-css-falmouth'],
-		['critical-bicton',	'critical-cornwall','critical-duchy','critical-falmouth'],
+		'critical-bicton'
+        ,'critical-cornwall'
+        ,['critical-duchy','critical-falmouth'],
 		['minifyjs-bicton',	'minifyjs-cornwall','minifyjs-duchy','minifyjs-falmouth'],
 		callback
 	);

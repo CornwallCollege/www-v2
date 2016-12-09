@@ -3,9 +3,6 @@ title: The Career College | The Cornwall College Group
 email: webmaster@cornwall.ac.uk
 author: The Cornwall College Group
 baseurl: "" # the subpath of your site, e.g. /blog/
-course_site_baseurl: https://network.cornwall.ac.uk/
-event_site_baseurl: https://network.cornwall.ac.uk/events/whats-on
-support_site_url: https://network.cornwall.ac.uk/student-support/
 
 collections:
   campaign:
@@ -52,8 +49,3 @@ cornwall-base-url: "https://www.cornwall.ac.uk/"
 duchy-base-url: "https://www.duchy.ac.uk/"
 bicton-base-url: "https://www.bicton.ac.uk/"
 falmouth-base-url: "https://www.falmouthmarineschool.ac.uk/"
-
-cornwall-base-test-url: "http://testwww.cornwall.ac.uk/"
-duchy-base-test-url: "http://testwww.duchy.ac.uk/"
-bicton-base-test-url: "http://testwww.bicton.ac.uk/"
-falmouth-base-test-url: "http://testwww.falmouthmarineschool.ac.uk/"

@@ -56,7 +56,7 @@
         sub-menu-link: 19plus-hub
 
       - sub-menu-name: Leisure Courses
-        sub-menu-link: https://network.cornwall.ac.uk/leisure/
+        sub-menu-link: leisure/
 
       - sub-menu-name: Apprenticeships
         sub-menu-link: apprenticeship-hub/
@@ -71,13 +71,13 @@
         sub-menu-link: career-hub/
 
 - menu-name: About Us
-  menu-link: https://network.cornwall.ac.uk/governance
+  menu-link: governance   
   sub-menu:
       - sub-menu-name: Contact us/ how to find us
         sub-menu-link: about-pages/contact.html
 
       - sub-menu-name:  College Governance
-        sub-menu-link: https://network.cornwall.ac.uk/governance
+        sub-menu-link: governance  
 
       - sub-menu-name: Our Campuses
         sub-menu-link: location-hub/
@@ -89,43 +89,43 @@
         sub-menu-link: about-pages/open-public.html
 
       - sub-menu-name: Work for us
-        sub-menu-link: https://network.cornwall.ac.uk/governance/jobs/
+        sub-menu-link: governance/jobs/
 
       - sub-menu-name: News & Media Centre
-        sub-menu-link: https://network.cornwall.ac.uk/news
+        sub-menu-link: news   
 
       - sub-menu-name: College Events
-        sub-menu-link: https://network.cornwall.ac.uk/events/whats-on
+        sub-menu-link: events/whats-on
 
 - menu-name: Support
-  menu-link: https://network.cornwall.ac.uk/student-support
+  menu-link: student-support
   sub-menu:
       - sub-menu-name: "Supporting your learning"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/supporting-your-learning/
+        sub-menu-link: student-support/supporting-your-learning/
 
       - sub-menu-name: "Supporting you"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/supporting-you/
+        sub-menu-link: student-support/supporting-you/
 
       - sub-menu-name: "Transport"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/transport/
+        sub-menu-link: student-support/transport/
 
       - sub-menu-name: "Accommodation"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/accommodation/
+        sub-menu-link: student-support/accommodation/
 
       - sub-menu-name: "Students' Union"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/students-union/
+        sub-menu-link: student-support/students-union/
 
       - sub-menu-name: "Information for Parents"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/information-for-parents/
+        sub-menu-link: student-support/information-for-parents/
 
       - sub-menu-name: "How to apply"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/how-to-apply/
+        sub-menu-link: student-support/how-to-apply/
 
       - sub-menu-name: "College calendar"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/college-calendar/
+        sub-menu-link: student-support/college-calendar/
 
       - sub-menu-name: "Your options explained"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/your-options-and-qualifications-explained/
+        sub-menu-link: student-support/your-options-and-qualifications-explained/
 
       - sub-menu-name: "Financial support"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/financial-support/
+        sub-menu-link: student-support/financial-support/
