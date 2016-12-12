@@ -966,11 +966,6 @@ div#logo-wrap #bicton{
     color: white;
 }
 
-.box-square article:nth-child(1) a{
-    color: #fff;
-    border-color: #fff;
-}
-
 .box-square article:nth-child(2),
 .box-square article:nth-child(6),
 .box-square .more article:nth-child(4) {
@@ -1020,6 +1015,9 @@ div#logo-wrap #bicton{
     background: #000;
 }
 
+.box-square article:first-child h2,
+.box-square article:first-child a,
+.box-square article:first-child p,
 .box-square article:nth-child(4) h2,
 .box-square article:nth-child(4) a,
 .box-square article:nth-child(4) p,
