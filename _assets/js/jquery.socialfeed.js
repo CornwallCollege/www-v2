@@ -151,6 +151,7 @@ if (typeof Object.create !== 'function') {
                     // preload the image
                     var height, width = '';
                     var img = new Image();
+                    var imgSrc = image.attr("src");
 
                     $(img).load(function() {
 
@@ -163,6 +164,8 @@ if (typeof Object.create !== 'function') {
                     }).error(function() {
                         // image couldnt be loaded
                         image.hide();
+                    }).attr({
+                        src: imgSrc
                     });
                 }
 
@@ -670,7 +673,7 @@ if (typeof Object.create !== 'function') {
                             post.author_link = element.author[0]['uri']['$t'];
                             post.author_picture = element.author[0]['gd$image']['src'];
                             post.author_name = element.author[0]['name']['$t'];
-                            post.message = element.title['$t'] + '</br></br>' + stripHTML(element.content['$t']);
+                            post.message = element.title['$t'] + '<br><br>' + stripHTML(element.content['$t']);
                             post.description = '';
                             post.link = element.link.pop().href;
 
@@ -768,6 +771,8 @@ if (typeof Object.create !== 'function') {
 
                     getPosts: function(json) {
                         console.log(json);
+                        if(json.query.count < options.rss.limit)
+                            posts_to_load_count -= options.rss.limit - json.query.count;
                         if (json.query.count > 0 ){
                             $.each(json.query.results.feed, function(index, element) {
                                 var post = new SocialFeedPost('rss', Feed.rss.utility.unifyPostData(index, element));
