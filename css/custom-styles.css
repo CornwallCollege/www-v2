@@ -1105,6 +1105,7 @@ div#logo-wrap #bicton{
 /*----------- Apprentice header styles ---------*/
 #apprentice-hub{
     background: url(../images/apprentice-header-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
     #apprentice-hub {
@@ -1132,6 +1133,7 @@ div#logo-wrap #bicton{
 /*----------- Uni header styles -----------*/
 #university-hub{
     background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
 
@@ -1146,6 +1148,7 @@ div#logo-wrap #bicton{
 /*----------- Access header styles -----------*/
 #access-hub{
     background: url(../images/access-hub-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
 
