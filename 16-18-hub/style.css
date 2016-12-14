@@ -921,20 +921,9 @@ h2,
 .research-slope{
 	margin: -150px -50px 0 -50px;
 	overflow: hidden;
-	/*-webkit-transform: rotate(0deg);
-	-moz-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	transform: rotate(0deg);
-	-webkit-transform-origin: right center;
-	-moz-transform-origin: right center;
-	-o-transform-origin: right center;
-	-ms-transform-origin: right center;
-	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
 	background-image: url("/16-18-hub/images/general-a-level.jpg");
-	/*background-size: 100% 100%;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
