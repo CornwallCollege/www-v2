@@ -933,7 +933,7 @@ h2,
 	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
-	background-image: url("images/general-a-level.jpg");
+	background-image: url("/16-18-hub/images/general-a-level.jpg");
 	/*background-size: 100% 100%;*/
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1712,7 +1712,10 @@ h2,
     opacity: 0;
 
 }
+#controlBar_bgndVideo, .inlinePlayer{
+    top: -100px;
 
+}
 /* ## Statistics Section ## */
 
 .statistics-section {
