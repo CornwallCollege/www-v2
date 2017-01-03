@@ -913,15 +913,15 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
         });
     
 }
+if (location.pathname.indexOf("university-hub") !== -1) {
+    //play video on click UNIVERSITY Hub
+    var button = document.querySelector("#playVideo");
 
-//play video on click UNIVERSITY Hub
-var button = document.querySelector("#playVideo");
-
-button.addEventListener("click", function onclick(event) {
-    $('#video').YTPFullscreen();
-  event.preventDefault();
-});
-
+    button.addEventListener("click", function onclick(event) {
+        $('#video').YTPFullscreen();
+      event.preventDefault();
+    });
+}
 
 $(document).ready(function () {
     $( ".tile1" ).click(function() {
