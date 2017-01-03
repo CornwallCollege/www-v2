@@ -1085,6 +1085,10 @@ a {
 .blue-bg{
    background-color:#52B3D9;
 }
+.blue-bg a{
+    color: white;
+    font-weight: bold;
+} 
 .white{
     color:white!important;
 }
