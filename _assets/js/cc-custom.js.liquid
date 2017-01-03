@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('.brand-image').click(function (e) {
         var scroll = $(window).scrollTop();
         var window = $( window ).width();
-        if (scroll >= 301 || window <= 600){
+        if (scroll >= 301 || screen.width <= 600){
 
             if (!$('#logo-wrap').children().hasClass('active')) {
                 //$('#logo-wrap').removeClass('active');
