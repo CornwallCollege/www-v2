@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('.brand-image').click(function (e) {
         var scroll = $(window).scrollTop();
         var window = $( window ).width();
-        if (scroll >= 301 || window <= 600){
+        if (scroll >= 301 || screen.width <= 600){
 
             if (!$('#logo-wrap').children().hasClass('active')) {
                 //$('#logo-wrap').removeClass('active');
@@ -122,7 +122,7 @@ function incrementCount(counter) {
         prefix = '£';
     }
     if (current < max) {
-        var nextNumber = current + stepSize
+        var nextNumber = current +first stepSize
         var nextNumber = Number(nextNumber.toFixed(0));
         if (nextNumber > max) {
             nextNumber = Number(max.toFixed(0));
