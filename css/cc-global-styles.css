@@ -1266,7 +1266,7 @@ h2 span {
 
 /*================== announcement-alert styles =======================*/
 .announce-alert{
-    color: white;
+    color: #333;
     padding: 15px 30px;
     position: fixed;
     font-weight: bold;
@@ -1275,6 +1275,5 @@ h2 span {
     z-index: 99999999999;
     display: block;
     width: 100%;
-    text-transform: uppercase;
-    background: #d95270;
+    background: #d97852;
 }
