@@ -993,7 +993,7 @@ div.logo-wrap-scroll :nth-child(4) {
 a {
     font-family: 'Raleway', serif;
     color: #52B3D9;
-    font-size: 12px;
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: 400;
     -webkit-transition: all 0.4s;
