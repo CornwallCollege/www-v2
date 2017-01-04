@@ -1263,3 +1263,18 @@ h2 span {
 .input-group .form-control{
     min-height: 60px;
 }
+
+/*================== announcement-alert styles =======================*/
+.announce-alert{
+    color: white;
+    padding: 15px 30px;
+    position: fixed;
+    font-weight: bold;
+    font-size: 1.7em;
+    bottom: 0;
+    z-index: 99999999999;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    background: #d95270;
+}
