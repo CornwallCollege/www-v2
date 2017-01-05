@@ -1,0 +1,82 @@
+---
+layout: redirect
+title: redirect
+description: 404 old content page not found
+---
+<section id="search" >
+    {% include contact-header.html title='Page not found' %}
+    <section class="container">
+<p class="lead home-lead">You'll be automatically redirected in <span id="count">15</span> seconds...</p>
+
+<script type="text/javascript">
+
+window.onload = function(){
+
+(function(){
+  var counter = 15;
+
+  setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    // Display 'counter' wherever you want to display it.
+    if (counter === 0) {
+        //alert('this is where it happens');
+        clearInterval(counter);
+    }
+
+  }, 1000);
+
+})();
+
+}
+
+</script>
+            <div>
+                <p class="lead home-lead" itemprop="description">You have reached this page looking for old content that may no longer exist, please use the course search below or the links to our main sections.
+                </p>
+            </div>
+        
+            <div class="course-search transition" >
+                <form name="course-search" class=" hidden-search-form course-search" role="search" method="GET" action="/search" >
+                    <div class="input-group margin-bottom-sm col-xs-12 col-md-8 col-md-offset-2">
+                        <input class="form-control" name="s" type="text" placeholder="Course Search">
+                        <div class="input-group-addon transition">
+                            <button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h3>Useful Links</h3>
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/learning-area-hub" class="btn fullwidth">Learning areas</a>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/location-hub/" class="btn fullwidth">Our Campuses</a>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/career-hub/" class="btn fullwidth">Careers</a>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/learning-area-hub/" class="btn fullwidth">Your Next Step</a>
+                </div>                 
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/student-support" class="btn fullwidth">Student Support</a>
+                </div>                
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/governance" class="btn fullwidth">Governance</a>
+                </div>  
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/student-portal" class="btn fullwidth">Student Portal</a>
+                </div> 
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <a href="/staff-portal" class="btn fullwidth">Staff Portal</a>
+                </div>                 
+                  
+            </div>
+        
+    </section>
+</section>
