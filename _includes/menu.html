@@ -4,9 +4,35 @@
 <!-- End Google Tag Manager -->
 <div id="alert-container"></div>
 <header>
-    <div id="loader"></div>
+    <div id="loader">
+
+      <div id="bicton-load">
+        <svg width="60" height="60">
+          <rect width="60" height="60" rx="10" ry="10" fill="#77BC43"/>
+        </svg>
+      </div>
+
+      <div id="falmouth-load">
+        <svg width="60" height="60">
+          <rect width="60" height="60" rx="10" ry="10" fill="#00AFBF"/>
+        </svg>
+      </div>
+
+      <div id="duchy-load">
+          <svg width="60" height="60">
+            <rect width="60" height="60" rx="10" ry="10" fill="#007B4C"/>
+          </svg>
+      </div>
+
+      <div id="cornwall-load">
+        <svg width="60" height="60">
+          <rect width="60" height="60" rx="10" ry="10" fill="#00509B"/>
+        </svg>
+      </div>
+      
+    </div>
     <!-- LOGO SECTION ====================================================================== -->
-    
+
     <nav class="navbar-fixed-top click-through" >
         <div id="white-nav-bg" class="white-nav-bg grow"></div>
         <div class="fixed-head-wrap">
@@ -37,21 +63,21 @@
                                 <div>
                                     <img id="fms-logo" src="/images/fms-brand-logo.png" class="brand-image" alt="falmouth marine school logo" itemprop="logo"/>
                                 </div>
-                            </a>                
+                            </a>
                         </div>
                         <div id="bicton" class="bicton-brand-logo sub-brand grow logo">
                             <a class="click-me" href="{% if page.page == 'home' %}/#bicton{% else %}{{ site.bicton-base-url }}{% endif %}">
                                 <div>
                                    <img id="bic-logo" src="/images/bic-brand-logo.png" class="brand-image" alt="bicton college logo" itemprop="logo"/>
                                 </div>
-                            </a>                
+                            </a>
                         </div>
-                    </div>    
+                    </div>
 
 
                 </div>
             </div>
-        </div>    
+        </div>
     </nav>
     <!-- LOGO SECTION END -->
 
