@@ -39,7 +39,7 @@ assets:
 
 sitemap:
     exclude: ["/CNAME"]
-    file: "/sitemap-static.xml"
+    file: "sitemap-static.xml"
 
 relative_permalinks: false
 
