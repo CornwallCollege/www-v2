@@ -3,10 +3,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
        <sitemap>
-          <loc>{{site.url}}/wp-sitemaps/sitemap-static.xml</loc>
+          <loc>{{site.url}}/sitemap-static.xml</loc>
        </sitemap>
        <sitemap>
-          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-course.xml</loc>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-courses.xml</loc>
        </sitemap>
        <sitemap>
           <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-leisure.xml</loc>
