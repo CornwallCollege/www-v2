@@ -38,8 +38,10 @@ assets:
         - css
 
 sitemap:
-    exclude: ["/CNAME"]
-    file: "sitemap-static.xml"
+    exclude: 
+        - "/CNAME"
+        - "/sitemap-index.xml"
+
 
 relative_permalinks: false
 

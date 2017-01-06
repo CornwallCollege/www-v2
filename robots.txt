@@ -7,4 +7,4 @@ permalink: robots.txt
 # robots.txt
 User-agent: *
 # Disallow: /
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/sitemap-index.xml
