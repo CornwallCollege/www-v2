@@ -2,7 +2,11 @@
     <section class="col-xs-12">
         <section class="container main-section-margins">
 
+            {% if site.hash == 'bicton' %}
             <h1 class="text-uppercase" itemprop="name">What is most important to you?</h1>
+            {% else %}
+            <h2 class="text-uppercase" itemprop="name">What is most important to you?</h2>            
+            {% endif %}
             <div class="home-page-select-wrap">
                 <select class="home-page-select select" data-custom-class="cover_sod no_highlight">
                     <option value="#">Select</option>

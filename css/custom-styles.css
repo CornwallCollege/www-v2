@@ -4135,6 +4135,10 @@ textarea {
         text-align: center;
         font-size: 18px;
     }
+    .swiper-slide .main-section-margins h2{
+        color: white;
+        font-size: 3.2em;
+    }
 
     #cc-home-slide,
     #dc-home-slide,
@@ -4841,7 +4845,9 @@ a.learning-area:hover{
                 margin-bottom: 10px;
                 left: 50%;
             }
-            .swiper-slide h1{
+            .swiper-slide h1,
+            .swiper-slide .main-section-margins h2
+            {
                 font-size: 3.5rem;
             }
             .sod_placeholder{
