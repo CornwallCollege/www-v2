@@ -993,7 +993,7 @@ div.logo-wrap-scroll :nth-child(4) {
 a {
     font-family: 'Raleway', serif;
     color: #52B3D9;
-    font-size: 12px;
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: 400;
     -webkit-transition: all 0.4s;
@@ -1085,6 +1085,10 @@ a {
 .blue-bg{
    background-color:#52B3D9;
 }
+.blue-bg a{
+    color: white;
+    font-weight: bold;
+} 
 .white{
     color:white!important;
 }
@@ -1258,4 +1262,18 @@ h2 span {
 .course-search .form-control,
 .input-group .form-control{
     min-height: 60px;
+}
+
+/*================== announcement-alert styles =======================*/
+.announce-alert{
+    color: #333;
+    padding: 15px 30px;
+    position: fixed;
+    font-weight: bold;
+    font-size: 1.7em;
+    bottom: 0;
+    z-index: 99999999999;
+    display: block;
+    width: 100%;
+    background: #d97852;
 }

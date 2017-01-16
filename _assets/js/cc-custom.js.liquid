@@ -1,20 +1,15 @@
-jQuery(document).ready(function () {
-    jQuery("#main-menu").load("/global-menu.html");
-    jQuery("#footer").load("/global-footer.html");
-});
-
-jQuery(document).on("click", "#question", function (e) {
-    var pageURL = jQuery(location).attr("href");
-    //var formURL = 'https://network.cornwall.ac.uk/form/'
-    e.preventDefault();
-    //window.location.href = $(this).attr("href") + '?' + pageURL;  
-    window.location.href = jQuery(this).attr("href") + 'referrer=' + pageURL;
-});
-
-
-
-
 $(document).ready(function () {
+
+    //ajax in global menu items
+    $("#main-menu").load("/global-menu.html");
+    $("#footer").load("/global-footer.html");
+
+    //ask a question
+    $(document).on("click", "#question", function (e) {
+        var pageURL = $(location).attr("href");
+        e.preventDefault();
+        window.location.href = $(this).attr("href") + 'referrer=' + pageURL;
+    });
     
     //set brand from site config
     Cookies.set('brand', '#{{site.hash}}' );             
@@ -40,7 +35,7 @@ $(document).ready(function () {
     $('.brand-image').click(function (e) {
         var scroll = $(window).scrollTop();
         var window = $( window ).width();
-        if (scroll >= 301 || window <= 600){
+        if (scroll >= 301 || screen.width <= 600){
 
             if (!$('#logo-wrap').children().hasClass('active')) {
                 //$('#logo-wrap').removeClass('active');
@@ -351,7 +346,22 @@ function incrementCount(counter) {
 
         }
     });
-
+    
+    if (location.pathname.indexOf("university-hub") !== -1 ) {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });    
+    }
+    
     $(function () {
         window.smoothScrollTo = function (id) {
             $('html, body').animate({
@@ -685,9 +695,11 @@ $(document).ready(function(){
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
         
         if (location.pathname.indexOf("apprenticeship-hub") !== -1){
-            var event_filter = "{{site.url}}/events/whats-on/category/apprenticeship-event/feed/";
+            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
+        } else if (location.pathname.indexOf("university-hub") !== -1){    
+            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/university/feed/";                 
         } else {
-            var event_filter = "{{site.url}}/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
+            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
         }
 
         var rssurl = event_filter;
@@ -904,7 +916,16 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
         });
     
 }
-    
+if (location.pathname.indexOf("university-hub") !== -1) {
+    //play video on click UNIVERSITY Hub
+    var button = document.querySelector("#playVideo");
+
+    button.addEventListener("click", function onclick(event) {
+        $('#video').YTPFullscreen();
+      event.preventDefault();
+    });
+}
+
 $(document).ready(function () {
     $( ".tile1" ).click(function() {
         $( ".content1" ).slideToggle( "slow", "swing");

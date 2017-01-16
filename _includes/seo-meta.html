@@ -27,4 +27,8 @@
     <meta name="description" content="{{site.description }}"/>
     {% endif %}
 
+    {% if page.page == "home" %}
+    <link rel="canonical" href="{{site.url}}/">
+    {% else %}
     <link rel="canonical" href="{{site.url}}/{{page.url}}">
+    {% endif %}

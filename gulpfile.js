@@ -69,9 +69,9 @@ gulp.task('optimize-html', function() {
 });
 
 gulp.task('optimize-images', function () {
-	return gulp.src(['_site/**/*.jpg', '_site/**/*.jpeg', '_site/**/*.gif', '_site/**/*.png'])
-		.pipe(imagemin())
-		.pipe(gulp.dest('_site/'));
+	return gulp.src(['./**/*.jpg', './**/*.jpeg', './**/*.gif', './**/*.png'])
+		.pipe(gulpif(build_environment==="production",imagemin()))
+		.pipe(gulp.dest('./'));
 });
 
 function optimize_css (site_name) {
@@ -307,9 +307,10 @@ gulp.task('deploy', function(callback) {
 	runSequence(
 		['fetch-newest-analytics','fetch-newest-maps'],
 		'configure-environment',
+		'optimize-images',
 		['build-bicton','build-cornwall','build-duchy','build-falmouth'],
 		['html-proofer-bicton','html-proofer-cornwall','html-proofer-duchy','html-proofer-falmouth'],
-		['optimize-html','optimize-images'],
+		['optimize-html'],
 		['optimize-css-bicton','optimize-css-cornwall','optimize-css-duchy','optimize-css-falmouth'],
 		'critical-bicton'
         ,'critical-cornwall'
