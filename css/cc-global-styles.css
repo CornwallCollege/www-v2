@@ -1277,3 +1277,50 @@ h2 span {
     width: 100%;
     background: #d97852;
 }
+/*================== all site search styles =======================*/
+a.not-active{
+    background: #bdbdbd;;
+    margin-left: 2px;
+    padding: 7px 15px 4px 15px;
+    margin: 26px 2px 0 2px;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    font-size: .96em;
+}
+.btn.active{
+    -webkit-box-shadow: none;    
+    box-shadow: none;
+    padding: 8px 15px;
+}
+.btn.active:hover{
+    letter-spacing: normal;
+    color:white;
+}
+/*------------ results overrides --------------*/
+.gsc-input{
+    border:solid 1px grey;
+    padding:5px;
+}
+.gs-snippet,
+.gs-image{
+    margin-left:5px;
+    font-size:1.2em;
+}
+a.gs-title:hover{
+    letter-spacing: normal;
+} 
+.gs-snippet,
+a.gs-title{
+    font-family: 'lato';
+}
+#adBlock{
+    display:none;
+}
+.gsc-tabHeader{
+	margin:0 3px;
+	padding:0px 15px!important;
+	text-transform:uppercase;
+}
+.gsc-tabhActive{
+	color:white!important;
+}

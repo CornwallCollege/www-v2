@@ -5411,6 +5411,8 @@ display: none;
   text-transform: uppercase;
   margin-top: 25px;
   color: white;
+  text-align: center;   
+  font-weight: bold;
 }
 
 .sidebar-search .btn {
@@ -5430,6 +5432,31 @@ display: none;
   background: #555;
 }
 
+/* CCB Course Search Sidebar */
+.ccb-search {
+  background: #941b1f;
+}
+.ccb-search h4 {
+  margin-top: 25px;    
+  color: white;
+  text-align: center;    
+  text-transform: uppercase;
+}
+.ccb-search .input-group-addon{
+    background: #555;
+}
+/*.ccb-search .input-group-addon i{
+  color: #941b1f;
+}*/
+.ccb-search .btn {
+    font-size: 14px;
+    font-weight: 500;
+    white-space: normal;
+    margin-bottom: 25px;
+    border: white solid;
+    color: white;
+    background: none;
+}
 /* Link Sidebar */
 .sidebar-link {
   background: #f7f7f7
@@ -5439,10 +5466,18 @@ display: none;
   color: #aaa;
   text-align: left;
 }
+.sidebar-link h4 {
+  margin-top: 25px;    
+  color: #aaa;
+  text-align: center;
+  text-transform: uppercase;    
+}
 
 .sidebar-link .btn {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
+  white-space: normal;
+  font-size: 14px;
 }
 
 /* About Pages - Campus Contact Page */

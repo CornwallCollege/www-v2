@@ -1,4 +1,19 @@
 $(document).ready(function () {
+    
+    $( "#site-search" ).click(function() {   
+        $('#search-form').attr('action', '/site-search.html/');
+        $('.form-control').attr("placeholder","Search the whole site");
+        $('.form-control').attr("name","q");
+        $( "#site-search" ).addClass("active").removeClass( "not-active" );
+        $( "#course-search" ).removeClass( "active" ).addClass("not-active");        
+    });
+    $( "#course-search" ).click(function() {   
+        $('#search-form').attr('action', '/search');
+        $('.form-control').attr("placeholder","Course Search");
+        $('.form-control').attr("name","s");
+        $( "#course-search" ).addClass("active").removeClass( "not-active" );
+        $( "#site-search" ).removeClass( "active" ).addClass("not-active");
+    });         
    
     $("#main-menu").load("/global-menu.html");
     $("#footer").load("/global-footer.html");
