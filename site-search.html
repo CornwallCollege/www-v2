@@ -1,0 +1,31 @@
+---
+layout: hub
+title: The Cornwall College Group all site search
+---
+<!-- HEADER SECTION -->
+<section id="services" class="col-md-12 jumbotron header-title">
+    <header class="container">
+        <h2><a href="/"><small>Home </small></a><span>Site Search</span></h2>
+    </header>
+</section>
+<!-- END OF HEADER -->
+
+<!-- BODY SECTION -->
+
+
+
+<section class="container">
+    <div class="col-xs-12 col-md-8" >
+    
+
+    <gcse:searchresults-only></gcse:searchresults-only>
+    
+    </div>    
+    <div class="col-xs-12 col-md-4">
+    {% include sidebar-search.html title="Learn in your spare time with a leisure course" search-href='//network.cornwall.ac.uk/leisure/' button-title="browse all our leisure courses" button-href='//network.cornwall.ac.uk/leisure/' action="leisure" form-id="leisure-form" place-holder="Leisure Search" add-class="sidebar-link" %}        
+    </div>
+    <div class="col-xs-12 col-md-4">
+    {% include sidebar-search.html title="Search our courses" search-href='//network.cornwall.ac.uk/' button-title="Browse our learning areas" button-href='/learning-area-hub/' action="search" form-id="course-search-form" place-holder="Course Search" add-class="sidebar-search" %}         
+    </div>
+
+</section>
