@@ -1,19 +1,26 @@
 $(document).ready(function () {
     
     $( "#site-search" ).click(function() {   
-        $('#search-form').attr('action', '/site-search.html/');
+        $('#search-form').attr('action', '/site-search.html');
         $('.form-control').attr("placeholder","Search the whole site");
         $('.form-control').attr("name","q");
         $( "#site-search" ).addClass("active").removeClass( "not-active" );
-        $( "#course-search" ).removeClass( "active" ).addClass("not-active");        
+        $( "#course-search", "#event-search" ).removeClass( "active" ).addClass("not-active");     
     });
     $( "#course-search" ).click(function() {   
         $('#search-form').attr('action', '/search');
         $('.form-control').attr("placeholder","Course Search");
         $('.form-control').attr("name","s");
         $( "#course-search" ).addClass("active").removeClass( "not-active" );
-        $( "#site-search" ).removeClass( "active" ).addClass("not-active");
-    });    
+        $( "#site-search", "#event-search" ).removeClass( "active" ).addClass("not-active");
+    }); 
+    $( "#event-search" ).click(function() {   
+        $('#search-form').attr('action', '/events/whats-on');
+        $('.form-control').attr("placeholder","Course Search");
+        $('.form-control').attr("name","tribe-bar-search");
+        $( "#event-search" ).addClass("active").removeClass( "not-active" );
+        $( "#course-search", "#site-search" ).removeClass( "active" ).addClass("not-active");
+    });   
 
     //ajax in global menu items
     $("#main-menu").load("/global-menu.html");

@@ -87,12 +87,16 @@
         <!-- MENU SEARCH FORM -->
    
         
-        <form name="course-search" id="search-form" class="container" role="search" method="GET" action="/search">
+        <form name="course-search" id="search-form" class="container" role="search" method="GET" action="{{site.url}}/search">
             <div class="no-padding col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
-                <a id="course-search" class="btn active">Course Search</a><a id="site-search" class="btn not-active">Site Search</a>
+                <a id="course-search" class="btn active">Course Search</a>
+                <a id="site-search" class="btn not-active">Site Search</a>
+                <a id="event-search" class="btn not-active">Search Events</a>
             </div>            
             <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
-                {% if site.hash != 'cornwall' %} <input name="brand" value="{{site.brand-long}}" type="hidden" /> {% endif %}
+                {% if site.hash != 'cornwall' %} 
+                <input name="brand" value="{{site.brand-long}}" type="hidden" />
+                {% endif %}
                 <input id="site-search-input" class="form-control" name="s" type="text" placeholder="Course Search">
                 <div class="input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button></div>
 
