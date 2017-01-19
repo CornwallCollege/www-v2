@@ -1,19 +1,4 @@
 $(document).ready(function () {
-    
-    $( "#site-search" ).click(function() {   
-        $('#search-form').attr('action', '/site-search.html/');
-        $('.form-control').attr("placeholder","Search the whole site");
-        $('.form-control').attr("name","q");
-        $( "#site-search" ).addClass("active").removeClass( "not-active" );
-        $( "#course-search" ).removeClass( "active" ).addClass("not-active");        
-    });
-    $( "#course-search" ).click(function() {   
-        $('#search-form').attr('action', '/search');
-        $('.form-control').attr("placeholder","Course Search");
-        $('.form-control').attr("name","s");
-        $( "#course-search" ).addClass("active").removeClass( "not-active" );
-        $( "#site-search" ).removeClass( "active" ).addClass("not-active");
-    });     
 
     //ajax in global menu items
     $("#main-menu").load("/global-menu.html");
@@ -704,8 +689,7 @@ $(document).ready(function(){
 
     
     if (location.pathname.indexOf("location-pages") !== -1 ||
-        location.pathname.indexOf("apprenticeship-hub") !== -1) || 
-        location.pathname.indexOf("university-hub") !== -1){        
+        location.pathname.indexOf("apprenticeship-hub") !== -1) {        
         //jQuery RSS parse for events on campus pages
         
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
