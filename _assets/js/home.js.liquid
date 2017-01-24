@@ -1,4 +1,27 @@
 $(document).ready(function () {
+    
+    $( "#site-search" ).click(function() {   
+        $('#search-form').attr('action', '/site-search.html');
+        $('.form-control').attr("placeholder","Search the whole site");
+        $('.form-control').attr("name","q");
+        $( this ).addClass("active").removeClass( "not-active" );
+        $( "#course-search, #event-search" ).removeClass( "active" ).addClass("not-active");     
+    });
+    $( "#course-search" ).click(function() {   
+        $('#search-form').attr('action', '/search');
+        $('.form-control').attr("placeholder","Course Search");
+        $('.form-control').attr("name","s");
+        $( this ).addClass("active").removeClass( "not-active" );
+        $( "#site-search, #event-search" ).removeClass( "active" ).addClass("not-active");
+    }); 
+    $( "#event-search" ).click(function() {   
+        $('#search-form').attr('action', '/events/whats-on');
+        $('.form-control').attr("placeholder","Course Search");
+        $('.form-control').attr("name","tribe-bar-search");
+        $( this ).addClass("active").removeClass( "not-active" );
+        $( "#course-search, #site-search" ).removeClass( "active" ).addClass("not-active");
+    });      
+    
    
     $("#main-menu").load("/global-menu.html");
     $("#footer").load("/global-footer.html");
@@ -135,7 +158,7 @@ $(document).ready(function () {
         },
         //RSS FEED
         rss: {
-            urls: ['{{site.course_site_baseurl}}news/feed/?post_type=article&newsBrand=cornwall-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['https://network.cornwall.ac.uk/news/feed/?post_type=article&newsBrand=cornwall-college','https://network.cornwall.ac.uk/events/whats-on/feed/?organizer=6'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 3
         },
 
@@ -169,7 +192,7 @@ $(document).ready(function () {
 
         //RSS FEED
         rss: {
-            urls: ['{{site.course_site_baseurl}}news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 2
         },
 
@@ -199,7 +222,7 @@ $(document).ready(function () {
 
         //RSS FEED
         rss: {
-            urls: ['{{site.course_site_baseurl}}news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 2
         },
 
@@ -229,7 +252,7 @@ $(document).ready(function () {
 
         //RSS FEED
         rss: {
-            urls: ['{{site.course_site_baseurl}}news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 2
         },
 
@@ -533,6 +556,14 @@ $(document).ready(function () {
         }
     });
 
+    // get announcement form
+    // Lookup alert message and display if required
+    $.getJSON('https://network.cornwall.ac.uk/?action=ccg_get_announcement', function(data) {
+        if(data.enabled && data.message) {
+            $('#alert-container').html('<div class="announce-alert">' + data.message + '</div>');
+            $('#alert-container').show();
+        }
+    });
 
     
 });

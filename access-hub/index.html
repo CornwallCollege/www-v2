@@ -1,0 +1,117 @@
+---
+layout: hub
+title: Access to Higher Education hub
+description: The home of excellent higher education in the the south west | The Cornwall College Group
+link: access-hub
+background-image: /images/access-hub-desktop.jpg
+apply-area: Course Interest Area - Access
+usefulLinks:
+- href: /financial-support/#adults-returning-to-study
+  title: Financial information, loans, bursaries and grants explained
+  baseurl: true
+  suburl: student-support
+
+- href: /supporting-your-learning
+  title: Supporting your learning
+  baseurl: true
+  suburl: student-support
+
+- href: /supporting-you
+  title: Supporting you during your time with us
+  baseurl: true
+  suburl: student-support
+
+- href: /how-to-apply/#19+
+  title: The application process explained
+  baseurl: true
+  suburl: student-support
+
+faq-main-title: ACCESS COURSE <strong>FREQUENTLY</strong> ASKED QUESTIONS
+faqs:
+- question: What are Access Courses?
+  id: what-are-access-courses
+  answer: Access courses are specifically designed for adults looking to return to study
+
+- question: How can I fit in time to study?
+  id: timetable
+  answer: The timetable is built to help you balance work, family and other commitments
+
+- question: Can I use the Access qualification to get into any College or University?
+  id: qualification
+  answer: Access to Higher Education Diplomas are widely recognised by UK universities and colleges
+
+- question: How can I afford to pay for the Access course?
+  id: loans
+  answer: Advanced Learning Loans are available to cover tuition costs of Access courses
+
+- question: Won't an Access course and a Degree put me in alot of dept?
+  id: paid-loan
+  answer: No, there is no upper age limit and to start an apprenticeship you need to be at least 16.
+
+- question: What if I'm not prepared for an Access Course?
+  id: long
+  answer: We also offer Progression (Pre-Access) courses to prepare you for an Access course, ideal if you have been away from studying for some time
+
+text:
+- tile-number: 1
+  tile-title: Helping you to be prepared
+  tile-paragraph: On an Access course you will study a subject of your choice with fellow adults. The course will be delivered in a flexible way with supportive staff who understand the challenges adults may face when returning to education.</p><p>As well as expanding your subject knowledge we will help you develop the study skills needed to succeed at university. We know we are good at this as our past students often tell us how confident they felt in their first year of university study, compared to some of their peers. Often our learners make long lasting friendships with fellow students and support each other throughout the Access programme and beyond.
+
+- tile-number: 2
+  tile-title: Helping you gain your university place
+  tile-paragraph: We will help you identify the best university courses for you and support you with your application. Our students progress onto a wide range of university courses; some with us, some at other institutions in Cornwall, and some further afield.
+
+- tile-number: 3
+  tile-title: Fees
+  tile-paragraph: Fees for 2016 entry are approximately £3,000, this is usually confirmed by the Skills Funding Agency in April/May each year. For anyone who is 19 years or over, you can apply for an Advanced Learning Loan to cover all costs. You do not have to repay the loan until you are earning a minimum of £21,000 a year.</p><p>The loan may also be written off by the Student Loans Company if you go on to complete a full higher education qualification. The College also has a limited bursary fund to support people from low income families with their course costs, childcare and transport.
+  tile-link: /student-support/financial-support/#adults-returning-to-study
+
+- tile-number: 4
+  tile-title: Careers Advice
+  tile-paragraph: If you want to change your career but are not sure if an Access course is the right route please feel free to make an appointment with one of our advisors, they are totally impartial and will help you to explore all your options.
+
+alumni-name: Mark Gill
+alumni-photo: /images/access-hub/paramedic.png
+alumni-text: My tutors ar Cornwall College were very knowledgeable, supportive and positive. They allowed me to be more independent in my learning and I could tailor my projects to my design interests.
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- HEADER SECTION -->
+<section id="access-hub" class="col-md-12 jumbotron header-title">
+  <header class="container">
+    <h2><a href="/"><small>Home </small></a><span>{{ page.title }}</span></h2>
+  </header>
+</section>
+<!-- END OF HEADER -->
+
+<!-- BODY SECTION -->
+<section class="container ">
+  <div class="col-sm-12 col-md-8 main-section-margins">
+    <p class="lead ">Have you ever thought there may be more for you? Education can unlock so many different worlds, whether you want to gain skills and knowledge to boost your career, change direction or just prove to yourself, yes I can do this.</p>
+    <p>If you’d like to study for a degree and are aged 19 and over, but don’t have the qualifications you need, then an Access to Higher Education course could help refresh your study skills, build your confidence and open the gateway to a new career.</p>
+  </div>
+
+  <div class="col-sm-12 col-md-4 useful-links main-section-margins">
+    <h3>Links</h3>
+    {% for link in page.usefulLinks %}
+    <a class="btn" href="{% if link.baseurl == true %}{{ site.course_site_baseurl }}{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
+    {% endfor %}
+  </div>
+</section>
+
+{% include faq.html %}
+
+{% include tiles-dropdown.html %}
+
+{% include /career/key-stats-three-stats.html stat1='92% of Access students were in employment six months after completing their undergraduate studies' stat2='6% (around 20,000) of all UCAS applications are from Access students' stat3='Each year around 50,000 adults study an Access course' %}
+
+<!-- Alumni Profile -->
+{% include profile.html profile-title="Meet Our <strong>Alumni</strong>" profile-heading=page.alumni-name profile-subheading=page.alumni-role profile-text=page.alumni-text profile-image=page.alumni-photo %}
+
+<!-- usp section -->
+<section class="col-sm-12 fulltime-bar clearfix">
+  <div class="container">
+    <h2>Seen enough, apply now!</h2>
+    <a href="{{site.course_site_baseurl}}apply-page/?course-title=Career-Area:{{page.apply-area}}" class="apply-btn btn">Apply NOW</a>
+  </div>
+</section>

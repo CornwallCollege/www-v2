@@ -221,68 +221,7 @@
    
          
    /* CONTACT FORM VALIDATION SCRIPT */
-   $(function() {
-       if ( $( "#contact" ).length ) {
-         $('#contact').validate({
-             
-             errorElement: "em", 
-             rules: {
-                 name: {
-                     required: true
-                 },
-                 email: {
-                     required: true,
-                     email: true
-                 },
-                 intrest: {
-                     required: true
-                 },
-                 contact: {
-                     required: true
-                 }                 
-             },
-             messages: {
-                 name: {
-                     required: ""
-                 },
-                 email: {
-                     required: ""
-                 },
-                 intrest: {
-                     required: ""
-                 },
-                 contact: {
-                     required: ""
-                 }                 
-             },
-   
-               submitHandler: function(form) {
-                   $(form).ajaxSubmit({
-                       type:"POST",
-                       data: $(form).serialize(),
-                       url:"include/process.php",
-                 
-                       success: function() {
-                          
-                           $('#success').fadeIn('slow', function() {
-                                   setTimeout("$('#success').fadeOut('slow');", 2000);
-                                   $('#contact :input').val('');
-                                 
-                           })
-                       },
-       
-                       error: function() {
-                           
-                               $('#contact').fadeTo( "slow", 0.15, function() {
-                               $('#error').fadeIn();
-                           });
-                       }
-                   });
-               }
-           });
-       }
-   });
-   
+     
       
       
    /* GOOGLE MAP EMBEDDED IN THE CONTACT PAGE */

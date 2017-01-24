@@ -1,15 +1,14 @@
-<section class="col-md-12 no-padding">  
+<section class="col-md-12 no-padding text-center main-section-margins">
+  <h2 class="main-section-margins" style="text-transform: uppercase">Course <strong>Locations</strong></h2>
     <script>
-                var campuses = [            
-                    {% for campus in site.data.campus %}
-                        {% if page.campuscodes contains campus.code %}
-                            {% include /location/campus-locations-location.html campus=campus %}
-                        {% endif %}
-                    {% endfor %} 
-                ];      
-    </script>    
-
+      var campuses = [
+          {% for campus in site.data.campus %}
+              {% if page.campuscodes contains campus.code %}
+                  {% include /location/campus-locations-location.html campus=campus %}
+              {% endif %}
+          {% endfor %}
+      ];
+    </script>
     <!-- map -->
-    <div id="gmap_canvas"></div>
-</section>    
-
+  <div id="gmap_canvas"></div>
+</section>

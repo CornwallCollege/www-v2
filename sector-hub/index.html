@@ -36,7 +36,7 @@ link: 14-18
             <p>Our specialist career pathways will help you to develop your USP, giving you the very best opportunity to fulfil your potential. Our range of study programmes, for young people aged 16-18, are the best preparation for the world of work...</p>
             <div class="link-wrap">
                 <button data-filter=".16-18" class="icon-btn" style="text-transform:uppercase; font-size:12px;">View 16-18 Learning Areas</button>
-                <a href="/16-18-hub" class="icon-btn">Visit our 16-18 hub</a>
+                <a href="/16-18-hub/" class="icon-btn">Visit our 16-18 hub</a>
 
             </div>
         </article>
@@ -46,7 +46,7 @@ link: 14-18
             <p>There's never been a better time to gain a quality degree right here in Cornwall, with an incredible range of over 80 programmes providing you with real skills to start the career you want straight away. Our programmes are awarded by Plymouth University, one of the Sunday Times' top three modern universities in the UK.</p>
             <div class="link-wrap">
                  <button data-filter=".university" class="icon-btn">View Higher Education Areas</button>
-                 <a href="/university-hub" class="icon-btn">Visit our University hub</a>
+                 <a href="/university-hub/" class="icon-btn">Visit our University hub</a>
             </div>
         </article>
         <article id="19+" class="col-sm-12 col-md-4 text-center">
@@ -65,7 +65,7 @@ link: 14-18
             <h3>Leisure Courses</h3>
             <p>Cornwall College offers a wide range of day, evening and weekend courses for all ages and interests.</p>
             <div class="link-wrap">
-                <a href="{{site.course_site_baseurl}}leisure" class="icon-btn">Visit our Leisure hub</a>
+                <a href="{{site.url}}/leisure/" class="icon-btn">Visit our Leisure hub</a>
             </div>
         </article>
         <article id="apprenticeships" class="col-sm-12 col-md-4 text-center">
@@ -74,7 +74,7 @@ link: 14-18
             <p>An apprenticeship is an ideal way to get in to the world of work and gain a qualification while earning real money.</p>
             <div class="link-wrap">
                 <button data-filter=".apprenticeships" class="icon-btn" style="text-transform:uppercase">View Apprenticeships Areas</button>
-                <a href="/apprenticeship-hub" class="icon-btn">Visit our Apprenticeship hub</a>
+                <a href="/apprenticeship-hub/" class="icon-btn">Visit our Apprenticeship hub</a>
             </div>
         </article>
         <article id="business" class="col-sm-12 col-md-4 text-center">
@@ -106,10 +106,10 @@ link: 14-18
                     <p>{{ subcluster.intro }}</p>
                     <h5>Available at:</h5>
                     {% for campus in subcluster.campus-long %}
-                     <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/campus/{{ campus.campus-filter}}" title="{{ campus.campus-name }}" class="btn ">{{ campus.campus-name}}</a>
+                     <a href="{{site.url}}/cluster/{{ subcluster.search-link }}/campus/{{ campus.campus-filter}}" title="{{ campus.campus-name }}" class="btn ">{{ campus.campus-name}}</a>
                     {% endfor %}
                     <h5>Courses Available in this sector</h5>
-                    <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn ">View courses in this area</a>
+                    <a href="{{site.url}}/cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn ">View courses in this area</a>
                 </div>
 
             </div>
@@ -126,6 +126,6 @@ link: 14-18
     <section class="col-sm-12 fulltime-bar clearfix">
         <div class="container">
             <h2>Seen enough, apply now! </h2>
-            <a href="/apply/index.html" class="apply-btn btn">Apply NOW</a>
+            <a href="{{site.url}}/apply-page?course-title=apply%20area%20{{page.title}}" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>

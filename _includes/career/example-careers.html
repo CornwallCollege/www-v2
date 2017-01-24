@@ -9,7 +9,7 @@
 </section>
 
 <section class="col-md-12 main-section-margins clearfix career-areas">
-  <section class="container box-square box-square-alt">
+  <div class="container box-square box-square-alt">
 
     {% for career in page.careers %}
     {% if forloop.index < 7 %}
@@ -46,7 +46,7 @@
           </div>
         </section>
         <section>
-          <a href="{{ site.course_site_baseurl }}tag/{{career.hashtag}}" title="career: {{career.career-title}}" class="btn ghost" style="width:100%; white-space:normal;">view courses relating to {{career.career-title}}</a>
+          <a href="{{ site.url }}/tag/{{career.hashtag}}" title="career: {{career.career-title}}" class="btn ghost" style="width:100%; white-space:normal;">view courses relating to {{career.career-title}}</a>
         </section>
       </div>
     </article>
@@ -102,7 +102,7 @@
               </div>
             </section>
             <section>
-              <a href="{{ site.course_site_baseurl }}tag/{{career.hashtag}}" title="career: {{career.career-title}}" class="btn ghost" style="width:100%; white-space:normal;">view courses relating to {{career.career-title}}</a>
+              <a href="{{ site.url }}/tag/{{career.hashtag}}" title="career: {{career.career-title}}" class="btn ghost" style="width:100%; white-space:normal;">view courses relating to {{career.career-title}}</a>
             </section>
           </div>
         </article>
@@ -110,5 +110,5 @@
     {% endfor %}
 
     </section>
-
-  </section><!--end-->
+  </div>
+</section><!--end-->

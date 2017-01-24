@@ -472,7 +472,7 @@ a.selected{
 }
 
 #loader {
-    background: #fff url('../images/loader.gif') no-repeat center;
+    background: #fff;
     padding-top: 50%;
     padding-left: 50%;
     position: fixed;

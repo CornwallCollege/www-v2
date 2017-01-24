@@ -1,7 +1,6 @@
 title: bicton.ac.uk
 description: "Bicton College offers a range of subjects through a variety of qualifications including: A-levels, Diplomas, NVQs, Apprenticeships and Degree courses."
 url: https://www.bicton.ac.uk
-testurl: http://testwww.bicton.ac.uk
 destination: _site/bicton_ac_uk
 brand: bic
 brand-long: bictoncollege

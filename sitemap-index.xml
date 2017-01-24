@@ -1,0 +1,26 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+   <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+       <sitemap>
+          <loc>{{site.url}}/sitemap.xml</loc>
+       </sitemap>
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-courses.xml</loc>
+       </sitemap>
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-leisure.xml</loc>
+       </sitemap>            
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-governance.xml</loc>
+       </sitemap>  
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-news.xml</loc>
+       </sitemap> 
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-student-support.xml</loc>
+       </sitemap>  
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-events.xml</loc>
+       </sitemap>        
+   </sitemapindex>

@@ -12,7 +12,7 @@
                                 </article>
                                 <article class="col-sm-12 col-md-4 campus-seach">
                                         <h4><span>Courses@</span>{{ campus.campus }}</h4>
-                                        <form method="get" id="searchform-{{ campus.anchor }}" action="{{ site.course_site_baseurl }}">
+                                        <form method="get" id="searchform-{{ campus.anchor }}" action="/search">
                                             <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
 
                                             <div class="input-group-addon transition">
@@ -24,7 +24,7 @@
                                         </form>
                                 </article>
                                 <article class="col-sm-12 col-md-8">
-                                    <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone">{{ campus.contact-number }}</span></h5>                        
+                                    <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone"><a class="white" href="tel:{{ campus.contact-number }}">{{ campus.contact-number }}</a></span></h5>                        
                                     {{ campus.copy }}
                                 </article>
 
@@ -61,7 +61,7 @@
                             </article>
                             <article class="col-sm-12 col-md-4 campus-seach">
                                     <h4><span>Courses@</span>{{ campus.campus }}</h4>
-                                    <form method="get" id="searchform-{{ campus.anchor }}" action="{{ site.course_site_baseurl }}">
+                                    <form method="get" id="searchform-{{ campus.anchor }}" action="/search">
                                         <input class="form-control" name="s" type="text" placeholder="Campus Course Search">
 
                                         <div class="input-group-addon transition">
@@ -73,7 +73,7 @@
                                     </form>
                             </article>
                             <article class="col-sm-12 col-md-8">
-                                <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone">{{ campus.contact-number }}</span></h5>                        
+                                <h5>Campus Contact Number: <span style="font-weight:bold;text-transform:uppercase;" itemprop="telephone"><a href="tel:{{ campus.contact-number }}">{{ campus.contact-number }}</a></span></h5>                        
                                 {{ campus.copy }}
                             </article>
 

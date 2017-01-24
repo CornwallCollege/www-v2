@@ -1,131 +1,134 @@
 - menu-name: Where you study
   menu-link: location-hub/
-  sub-menu: 
-    - sub-menu-name: Bicton 
+  sub-menu:
+    - sub-menu-name: Bicton
       sub-menu-link: location-pages/bicton-campus.html
-      
-    - sub-menu-name: dBs Bristol        
+
+    - sub-menu-name: dBs Bristol
       sub-menu-link: location-pages/bristol-campus.html
-      
+
     - sub-menu-name: Camborne
       sub-menu-link: location-pages/camborne-campus.html
-    
+
     - sub-menu-name: Eden Project
       sub-menu-link: location-pages/eden-campus.html
 
     - sub-menu-name: Falmouth
       sub-menu-link: location-pages/falmouth-campus.html
-      
+
     - sub-menu-name: Newquay
       sub-menu-link: location-pages/newquay-campus.html
-      
+
     - sub-menu-name: Rosewarne
       sub-menu-link: location-pages/rosewarne-campus.html
-      
+
     - sub-menu-name: Saltash
-      sub-menu-link: location-pages/saltash-campus.html      
-    
+      sub-menu-link: location-pages/saltash-campus.html
+
     - sub-menu-name: St Austell
       sub-menu-link: location-pages/st-austell-campus.html
-      
+
     - sub-menu-name: Stoke Climsland
-      sub-menu-link: location-pages/stoke-campus.html      
-      
+      sub-menu-link: location-pages/stoke-campus.html
+
     - sub-menu-name: Plymouth Engineering
       sub-menu-link: location-pages/sisna-park-campus.html
-      
+
     - sub-menu-name: CHS Worcester
-      sub-menu-link: http://www.chs.ac.uk/index.php?page=_Home    
-      
+      sub-menu-link: http://www.chs.ac.uk/index.php?page=_Home
+
 - menu-name: What you study
-  menu-link: learning-area-hub/ 
-  sub-menu: 
-      - sub-menu-name: What you study hub  
-        sub-menu-link: learning-area-hub/ 
-  
+  menu-link: learning-area-hub/
+  sub-menu:
+      - sub-menu-name: What you study hub
+        sub-menu-link: learning-area-hub/
+
 - menu-name: Your next step
   menu-link: sector-hub/
-  sub-menu: 
-      - sub-menu-name: 16-18  
+  sub-menu:
+      - sub-menu-name: 16-18
         sub-menu-link: 16-18-hub/
-        
+
+      - sub-menu-name: Access
+        sub-menu-link: access-hub/
+
       - sub-menu-name: University
         sub-menu-link: university-hub/
-        
+
       - sub-menu-name: 19+
         sub-menu-link: 19plus-hub
-        
+
       - sub-menu-name: Leisure Courses
-        sub-menu-link: https://network.cornwall.ac.uk/leisure/
-        
+        sub-menu-link: leisure/
+
       - sub-menu-name: Apprenticeships
         sub-menu-link: apprenticeship-hub/
-        
+
       - sub-menu-name: Business Training
         sub-menu-link: http://www.ccbtraining.co.uk
-        
-- menu-name: Career Area
-  menu-link: career-hub/ 
-  sub-menu: 
-      - sub-menu-name: Career Area hub  
-        sub-menu-link: career-hub/  
-        
+
+- menu-name: Career Path
+  menu-link: career-hub/
+  sub-menu:
+      - sub-menu-name: Career Area hub
+        sub-menu-link: career-hub/
+
 - menu-name: About Us
-  menu-link: https://network.cornwall.ac.uk/governance   
+  menu-link: governance   
   sub-menu:
       - sub-menu-name: Contact us/ how to find us
         sub-menu-link: about-pages/contact.html
-      
-      - sub-menu-name:  College Governance 
-        sub-menu-link: https://network.cornwall.ac.uk/governance  
-        
+
+      - sub-menu-name:  College Governance
+        sub-menu-link: governance  
+
       - sub-menu-name: Our Campuses
         sub-menu-link: location-hub/
-        
+
       - sub-menu-name: Downloads & Documents
         sub-menu-link: about-pages/download.html
-        
+
       - sub-menu-name: Open to the Public
         sub-menu-link: about-pages/open-public.html
-        
+
       - sub-menu-name: Work for us
-        sub-menu-link: https://network.cornwall.ac.uk/governance/jobs/
-        
+        sub-menu-link: governance/jobs/
+
       - sub-menu-name: News & Media Centre
-        sub-menu-link: https://network.cornwall.ac.uk/news   
-        
+        sub-menu-link: news   
+
       - sub-menu-name: College Events
-        sub-menu-link: https://network.cornwall.ac.uk/events/whats-on
-  
+        sub-menu-link: events/whats-on
+
 - menu-name: Support
-  menu-link: https://network.cornwall.ac.uk/student-support
+  menu-link: student-support
   sub-menu:
       - sub-menu-name: "Supporting your learning"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/supporting-your-learning/
-        
+        sub-menu-link: student-support/supporting-your-learning/
+
       - sub-menu-name: "Supporting you"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/supporting-you/
-        
+        sub-menu-link: student-support/supporting-you/
+
       - sub-menu-name: "Transport"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/transport/
-        
+        sub-menu-link: student-support/transport/
+
       - sub-menu-name: "Accommodation"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/accommodation/
-        
+        sub-menu-link: student-support/accommodation/
+
       - sub-menu-name: "Students' Union"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/students-union/
-        
+        sub-menu-link: student-support/students-union/
+
       - sub-menu-name: "Information for Parents"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/information-for-parents/
-        
+        sub-menu-link: student-support/information-for-parents/
+
       - sub-menu-name: "How to apply"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/how-to-apply/
-        
+        sub-menu-link: student-support/how-to-apply/
+
       - sub-menu-name: "College calendar"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/college-calendar/
-        
+        sub-menu-link: student-support/college-calendar/
+
       - sub-menu-name: "Your options explained"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/your-options-and-qualifications-explained/
-        
+        sub-menu-link: student-support/your-options-and-qualifications-explained/
+
       - sub-menu-name: "Financial support"
-        sub-menu-link: https://network.cornwall.ac.uk/student-support/financial-support/
+        sub-menu-link: student-support/financial-support/

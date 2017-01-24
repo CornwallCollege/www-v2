@@ -1,0 +1,26 @@
+<!-- example careers in this area -->
+
+<section class="col-md-12 main-section-margins clearfix career-areas">
+  <div class="container box-square box-square-alt">
+
+    {% for tile in page.text %}
+    <article class="col-sm-6">
+      <a data-toggle="collapse" data-target="#career-{{tile.tile-number}}" href="#career-{{tile.tile-number}}" aria-expanded="false" aria-controls="career-{{tile.tile-number}}" class="collapsed">
+        <h2>{{tile.tile-title}}<span class="readmore"><br/>Read more...</span></h2>
+        <i class="fa fa-times close-icon"></i>
+      </a>
+      <div {{site.schema-job}} class="collapse" id="career-{{tile.tile-number}}">
+        <p>{{tile.tile-paragraph}}</p>
+
+        {% if tile.tile-link %}
+          <section>
+            <a class="btn ghost" href="{{ site.course_site_baseurl }}{{ tile.tile-link }}" title="{{ tile.tile-title }}" style="width:100%; white-space:normal;">Financial Information</a>
+          </section>
+        {% endif %}
+        
+      </div>
+    </article>
+    {% endfor %}
+
+  </div>
+</section><!--end-->

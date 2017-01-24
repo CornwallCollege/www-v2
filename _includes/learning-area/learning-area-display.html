@@ -32,6 +32,9 @@
             <input type="checkbox" name="sector-radio" value=".19plus" data-course-type="fe19plus">Adult 19+
           </label>
           <label class="btn btn-primary area-filter">
+            <input type="checkbox" name="sector-radio" value=".access" data-course-type="fe19plus">Access
+          </label>
+          <label class="btn btn-primary area-filter">
             <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
           </label>
           <label class="btn btn-primary area-filter">
@@ -74,8 +77,8 @@
                             </a>
                             <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
                                 <p>{{ subcluster.intro }}</p>
-                                <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
-                                <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}/{{ brand-slug }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                                <a href="{{site.url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                                <a href="{{site.url}}/cluster/{{ subcluster.search-link }}/{{ brand-slug }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
                             </div>
 
                         </div>
@@ -91,8 +94,8 @@
                         </a>
                         <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
                             <p>{{ subcluster.intro }}</p>
-                            <a href="{{site.static_url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
-                            <a href="{{site.course_site_baseurl}}cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+                            <a href="{{site.url}}/career-pages{{ subcluster.career-link }}" title="{{ subcluster.subcluster }}" class="btn ">View careers in this area</a>
+                            <a href="{{site.url}}/cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
                         </div>
 
                     </div>            

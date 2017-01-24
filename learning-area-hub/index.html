@@ -19,8 +19,7 @@ description: The Cornwall College Group enable you to study for a range of cours
         <p class="lead ">The Cornwall College Group has got lots of courses across the southwest, with Cornwall College, Bicton College, Duchy College and Falmouth Marine School. Click on the learning areas below to find a course that interests you.</p>
     </section>
 
-    <!-- CAREER SECTION
-====================================================================== -->
+    <!-- CAREER SECTION -->
 
 
 <section class="col-xs-12">
@@ -33,7 +32,7 @@ description: The Cornwall College Group enable you to study for a range of cours
 
 </section>
 
-  {% include search.html title="Want to learn something new in your spare time?" search-href='//network.cornwall.ac.uk/leisure/' button-title="Not sure? browse our leisure courses" button-href='//network.cornwall.ac.uk/leisure/' %}
+  {% include search.html title="Want to learn something new in your spare time?" search-href='/leisure/' button-title="Not sure? browse our leisure courses" button-href='/leisure/' %}
     <!-- why you choose us section -->
     <section class="col-md-12  main-section-padding dark-bg intro">
         <section class="container">
@@ -66,6 +65,6 @@ description: The Cornwall College Group enable you to study for a range of cours
     <section class="col-sm-12 fulltime-bar clearfix">
         <div class="container">
             <h2>Seen enough, apply now! </h2>
-            <a href="{{site.course_site_baseurl}}apply-page/?course-title=apply%20area%20{{page.title}}" class="apply-btn btn">Apply NOW</a>
+            <a href="{{site.url}}/apply-page?course-title=apply%20area%20{{page.title}}" class="apply-btn btn">Apply NOW</a>
         </div>
     </section>

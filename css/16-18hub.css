@@ -921,20 +921,9 @@ h2,
 .research-slope{
 	margin: -150px -50px 0 -50px;
 	overflow: hidden;
-	/*-webkit-transform: rotate(0deg);
-	-moz-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	transform: rotate(0deg);
-	-webkit-transform-origin: right center;
-	-moz-transform-origin: right center;
-	-o-transform-origin: right center;
-	-ms-transform-origin: right center;
-	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
-	background-image: url("images/general-a-level.jpg");
-	/*background-size: 100% 100%;*/
+	background-image: url("/16-18-hub/images/general-a-level.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -1710,7 +1699,9 @@ h2,
     right: 0;
     top: 0;
     opacity: 0;
-
+}
+.mb_YTPBar, .inlinePlayer{
+    top:-100px;
 }
 
 /* ## Statistics Section ## */
@@ -2792,7 +2783,7 @@ h2,
 }
 .load-complete {
     position: fixed;
-	overflow: hidden;
+	  overflow: hidden;
     background: #fff;
     width: 100%;
     height: 100%;
@@ -2808,6 +2799,59 @@ h2,
 	display: block;
 	margin-bottom: 20px;
 }
+
+.loading-logo {
+    background: #fff;
+    padding-top: 50%;
+    padding-left: 50%;
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+}
+
+.loading-logo > * {
+position: absolute;
+top: 48%;
+}
+
+.loading-logo svg {
+transform: rotate(45deg);
+}
+
+.loading-logo #cornwall-load {
+animation: orbit 2s linear 0.6s infinite;
+}
+
+.loading-logo #duchy-load {
+animation: orbit 2s linear 0.4s infinite;
+}
+
+.loading-logo #falmouth-load {
+animation: orbit 2s linear 0.2s infinite;
+}
+
+.loading-logo #bicton-load {
+animation: orbit 2s linear infinite;
+}
+
+@keyframes orbit {
+0% { transform: rotate(0deg) translateY(0px) rotate(0deg); }
+5% { transform: rotate(0deg) translateY(-30px) rotate(0deg); }
+55% { transform: rotate(360deg) translateY(-30px) rotate(-360deg); }
+60% { transform: rotate(360deg) translateY(0px) rotate(-360deg); }
+100% { transform: rotate(360deg) translateY(0px) rotate(-360deg); }
+}
+
+/* .load-complete .load-position {
+    position: absolute;
+    top: 47%;
+    left: 0;
+    z-index: 999;
+    right: 0;
+    margin-top: -100px;
+}
+
 .load-complete .load-position h6 {
     text-align: center;
     color: #000;
@@ -2815,14 +2859,7 @@ h2,
 	font-weight: 400;
 	font-style: italic;
 }
-.load-complete .load-position {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 999;
-    right: 0;
-    margin-top: -100px;
-}
+
 .load-complete .loading {
     position: absolute;
     width: 100%;
@@ -2903,7 +2940,7 @@ h2,
     to {
         left: 100%;
     }
-}
+} */
 
 .alert-msg {
 	text-align: left;

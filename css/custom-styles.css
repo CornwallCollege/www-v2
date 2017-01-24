@@ -130,6 +130,14 @@ p.white{
 .white{
     color:white!important;
 }
+a.white{
+    color:white; 
+    font-size:1em;
+    font-weight: bold;
+}
+a.white:hover{
+    color:white;
+}
 @media(max-width:991px) {
     h2.apprenticeships, h2.leisure {
         font-size: 50px!important;
@@ -624,12 +632,12 @@ button.icon-btn:hover,
     color: #fff;
 }
 /*------------------ Ghost button styles --------------------*/
-a.fullwidth{
+.fullwidth{
     display: block;
     font-size: 1.4em;
 
 }
-a.fullwidth:hover{
+.fullwidth:hover{
     letter-spacing: normal;
 }
 .ghost {
@@ -644,16 +652,17 @@ a.fullwidth:hover{
     color: white!important;
     border: 4px solid white!important;
 }
-footer a.btn{
-  background: transparent;
-  border: 5px white solid;
-  color: white;
-  opacity: 1;
-  padding: 10px 30px;
-  font-weight: 700;
-  font-size: 24px;
-    margin-top:0px;
+
+.center {
+  display: flex;
+  justify-content: center;
 }
+
+.bottom {
+  position: absolute;
+  bottom: 11%;
+}
+
 @media(min-width: 1200px) {
     .ghost {
         background: transparent;
@@ -965,11 +974,6 @@ div#logo-wrap #bicton{
     color: white;
 }
 
-.box-square article:nth-child(1) a{
-    color: #fff;
-    border-color: #fff;
-}
-
 .box-square article:nth-child(2),
 .box-square article:nth-child(6),
 .box-square .more article:nth-child(4) {
@@ -1019,6 +1023,9 @@ div#logo-wrap #bicton{
     background: #000;
 }
 
+.box-square article:first-child h2,
+.box-square article:first-child a,
+.box-square article:first-child p,
 .box-square article:nth-child(4) h2,
 .box-square article:nth-child(4) a,
 .box-square article:nth-child(4) p,
@@ -1106,6 +1113,7 @@ div#logo-wrap #bicton{
 /*----------- Apprentice header styles ---------*/
 #apprentice-hub{
     background: url(../images/apprentice-header-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
     #apprentice-hub {
@@ -1116,7 +1124,7 @@ div#logo-wrap #bicton{
     }
 }
 /*----------- Apprentice header styles ENDS ---------*/
-/*----------- 19 Plus styles ---------*/
+/*----------- 19 Plus header styles ---------*/
 #nineteen-plus{
     background: url(../images/19-plus-hub-header.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
@@ -1129,10 +1137,11 @@ div#logo-wrap #bicton{
 
     }
 }
-/*----------- 19 Plus ENDS ---------*/
-/*----------- uni header ---------*/
+/*----------- 19 Plus header styles ENDS -----------*/
+/*----------- Uni header styles -----------*/
 #university-hub{
     background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
 
@@ -1143,7 +1152,22 @@ div#logo-wrap #bicton{
 
     }
 }
+/*----------- Uni header styles ENDS -----------*/
+/*----------- Access header styles -----------*/
+#access-hub{
+    background: url(../images/access-hub-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
 
+    #access-hub{
+        background-image: url(../images/access-hub-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+
+    }
+}
+/*----------- Access header styles ENDS -----------*/
 /* ----------- key stats bar ------------ */
 
 .custom-progress {
@@ -3304,281 +3328,16 @@ APPLY BARS =====================================================================
 
 /* -------  career search ENDS -------- */
 /* --------- Open to Public Section --------- */
-
-.public-body {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-    border-style: solid;
-    border-color: #ddd;
-    border-left-width: 12px;
-    border-left-style: solid;
-}
-
-.public-body h2{
-    margin: 0;
-}
-
-.public-body p {
-    color: #333;
-    margin: 0 0 10px 0;
-}
-
-.public-body li {
-    color: #333;
-}
-
-.public-body table {
-    border: none;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.public-body table th {
-    display: none;
-}
-
-.public-body table td {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    height: 50px;
-}
-
-.public-body .panel {
-    border: none;
-}
-
-.public-body .panel-title {
-    color: white;
-}
-
-.public-body .panel-body {
-    color: white;
-}
-
-.public-body img.business-image {
-    height: 247px;
-    width: 247px;
-}
-
-
-/* Cluster Tile Colors*/
-.public-filter ul .flying a {
-    border: 5px solid #0624a2;
-    color:  white;
-    background-color: #0624a2;
-}
-
-.public-filter ul .flying a:hover {
-    border: 5px solid #0624a2;
-    color: #0624a2;
-    background-color: white;
-}
-
-.public-filter ul .flying:hover h3 {
-    color: #0624a2;
-}
-
-
-.public-filter ul .evolve a {
-    border: 5px solid #37aae3;
-    color:  white;
-    background-color: #37aae3;
-}
-
-.public-filter ul .evolve a:hover {
-    border: 5px solid #37aae3;
-    color: #37aae3;
-    background-color: white;
-}
-
-.public-filter ul .evolve:hover h3 {
-    color: #37aae3;
-}
-
-
-.public-filter ul .koko a {
-    border: 5px solid #8b005b;
-    color:  white;
-    background-color: #8b005b;
-}
-
-.public-filter ul .koko a:hover {
-    border: 5px solid #8b005b;
-    color: #8b005b;
-    background-color: white;
-}
-
-.public-filter ul .koko:hover h3 {
-    color: #8b005b;
-}
-
-
-.public-filter ul .mill a {
-    border: 5px solid #e6007e;
-    color:  white;
-    background-color: #e6007e;
-}
-
-.public-filter ul .mill a:hover {
-    border: 5px solid #e6007e;
-    color: #e6007e;
-    background-color: white;
-}
-
-.public-filter ul .mill:hover h3 {
-    color: #e6007e;
-}
-
-
-.public-filter ul .trevenson a {
-    border: 5px solid #5f5f5f;
-    color:  white;
-    background-color: #5f5f5f;
-}
-
-.public-filter ul .trevenson a:hover {
-    border: 5px solid #5f5f5f;
-    color: #5f5f5f;
-    background-color: white;
-}
-
-.public-filter ul .trevenson:hover h3 {
-    color: #5f5f5f;
-}
-
-
-.public-filter ul .cloisters a {
-    border: 5px solid #ca1b3c;
-    color:  white;
-    background-color: #ca1b3c;
-}
-
-.public-filter ul .cloisters a:hover {
-    border: 5px solid #ca1b3c;
-    color: #ca1b3c;
-    background-color: white;
-}
-
-.public-filter ul .cloisters:hover h3 {
-    color: #ca1b3c;
-}
-
-
-.public-filter ul .room a {
-    border: 5px solid #203d7c;
-    color:  white;
-    background-color: #203d7c;
-}
-
-.public-filter ul .room a:hover {
-    border: 5px solid #203d7c;
-    color: #203d7c;
-    background-color: white;
-}
-
-.public-filter ul .room:hover h3 {
-    color: #203d7c;
-}
-
-
-.public-filter ul .CDP a {
-    border: 5px solid #37aae3;
-    color:  white;
-    background-color: #37aae3;
-}
-
-.public-filter ul .CDP a:hover {
-    border: 5px solid #37aae3;
-    color: #37aae3;
-    background-color: white;
-}
-
-.public-filter ul .CDP:hover h3 {
-    color: #37aae3;
-}
-
-
-.public-filter ul .equine1 a {
-    border: 5px solid #007B4C;
-    color:  white;
-    background-color: #007B4C;
-}
-
-.public-filter ul .equine1 a:hover {
-    border: 5px solid #007B4C;
-    color: #007B4C;
-    background-color: white;
-}
-
-.public-filter ul .equine1:hover h3 {
-    color: #007B4C;
-}
-
-
-.public-filter ul .dog-grooming a {
-    border: 5px solid #77BC43;
-    color:  white;
-    background-color: #77BC43;
-}
-
-.public-filter ul .dog-grooming a:hover {
-    border: 5px solid #77BC43;
-    color: #77BC43;
-    background-color: white;
-}
-
-.public-filter ul .dog-grooming:hover h3 {
-    color: #77BC43;
-}
-
-
-.public-filter ul .nursery a {
-    border: 5px solid #0a7316;
-    color:  white;
-    background-color: #0a7316;
-}
-
-.public-filter ul .nursery a:hover {
-    border: 5px solid #0a7316;
-    color: #0a7316;
-    background-color: white;
-}
-
-.public-filter ul .nursery:hover h3 {
-    color: #0a7316;
-}
-
-
-#public {
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-}
-
 #public-list {
-    background-color: #fff;
     padding-left: 0;
 }
 
-@media(max-width:380px) {
-    #public-list {
-        padding-right: 0;
-    }
+@media(max-width:767px) {
+  #public-list {
+      padding-right: 0;
+  }
 }
 
-#public-list p {
-    margin-bottom: 70px;
-    display: inline-block;
-}
-
-.public-filter {
-    margin-bottom: 100px;
-    text-align: left;
-}
 
 .public-filter ul {
     padding-left: 0;
@@ -3590,46 +3349,10 @@ APPLY BARS =====================================================================
     margin-bottom: 15px;
 }
 
-.public-filter ul li > a {
-    margin-right: 10px;
-    padding: 10px 20px 20px 20px;
-    border: 1px solid transparent;
-    /*border-left: 1px solid #52B3D9;*/
-    display: block;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 1.5px;
-    line-height: 22px;
-    text-decoration: none;
-    text-align: center;
-    color: #000;
-    background-repeat: no-repeat;
-    background-size: cover;
+.public-filter ul li a {
+  padding: 10px 20px 20px 20px;
+  display: block;
 }
-
-@media(min-width:768px) {
-    .public-filter ul li a {
-        min-height: 200px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0 30%;
-    }
-}
-
-
-@media(min-width:992px) {
-    .public-filter ul li a {
-        min-height: 210px;
-    }
-}
-
-@media(min-width:1200px) {
-    .public-filter ul li a {
-        min-height: 190px;
-    }
-}
-/* Cluster colors ends*/
-
 
 .public-filter ul li a:hover,
 .public-filter ul li a:focus {
@@ -3640,77 +3363,234 @@ APPLY BARS =====================================================================
     -o-transition: all 0.3s ease;
 }
 
-@media(max-width:765px) {
-    .public-filter ul li a {
-        margin-right: 0;
-    }
-}
-
-.public-filter ul li a:hover {
-    color: white;
-}
-
 .public-filter ul li h3 {
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 125%;
     font-weight: 700;
-    text-align: center;
     color: white;
 }
 
-.public-filter ul li a span {
-    color: white;
-    font-size: 80%;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    line-height: 20px;
-}
+@media(max-width:767px) {
+  .public-filter ul li {
+    display: flex;
+    justify-content: center;
+  }
 
-.public-filter ul li a:hover span,
-.public-filter ul li a.selected span {
-    color: #555;
-}
-
-.public-items {
-    margin-left: -15px;
-}
-
-@media (max-width: 767px) {
-    .public-items {
-        margin-left: 10px;
-        margin-top: 50px;
-    }
-}
-
-.public-popup {
+  .public-filter ul li a {
     width: 100%;
-    overflow-x: hidden;
-    height: 100%;
-    top: 0;
-    z-index: 1000;
+  }
+
+  .public-filter ul li h3 {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .public-filter ul li:hover h3 {
+    color: white
+  }
 }
 
-.public-popup-left {
-    left: -100%;
+@media(min-width:768px) {
+  .public-filter ul li a {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    margin-right: 10px;
+  }
 }
 
-.public-popup-left.cbp-spmenu-open {
-    left: 0;
+@media(min-width:992px) {
+  .public-filter ul li a {
+    min-height: 210px;
+  }
 }
 
-@media(max-width:420px) {
-    .public-areas .box-square {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .public-areas article {
-        padding: 15px 20px;
-        text-align: center;
-    }
+@media(min-width:1200px) {
+  .public-filter ul li a {
+    min-height: 190px;
+  }
 }
 
+
+/* Cluster Tile Colors*/
+.public-filter ul a {
+    color:  white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.public-filter ul a:hover {
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.public-filter ul .flying a {
+    border-color: #0624a2;
+    background-color: #0624a2;
+}
+
+.public-filter ul .flying a:hover {
+    border-color: #0624a2;
+    color: #0624a2;
+}
+
+.public-filter ul .flying:hover h3 {
+    color: #0624a2;
+}
+
+
+.public-filter ul .evolve a {
+    border-color: #37aae3;
+    background-color: #37aae3;
+}
+
+.public-filter ul .evolve a:hover {
+    border-color: #37aae3;
+    color: #37aae3;
+}
+
+.public-filter ul .evolve:hover h3 {
+    color: #37aae3;
+}
+
+
+.public-filter ul .koko a {
+    border-color: #8b005b;
+    background-color: #8b005b;
+}
+
+.public-filter ul .koko a:hover {
+    border-color: #8b005b;
+    color: #8b005b;
+}
+
+.public-filter ul .koko:hover h3 {
+    color: #8b005b;
+}
+
+
+.public-filter ul .mill a {
+    border-color: #e6007e;
+    background-color: #e6007e;
+}
+
+.public-filter ul .mill a:hover {
+    border-color: #e6007e;
+    color: #e6007e;
+}
+
+.public-filter ul .mill:hover h3 {
+    color: #e6007e;
+}
+
+
+.public-filter ul .trevenson a {
+    border-color: #5f5f5f;
+    background-color: #5f5f5f;
+}
+
+.public-filter ul .trevenson a:hover {
+    border-color: #5f5f5f;
+    color: #5f5f5f;
+}
+
+.public-filter ul .trevenson:hover h3 {
+    color: #5f5f5f;
+}
+
+
+.public-filter ul .cloisters a {
+    border-color: #ca1b3c;
+    background-color: #ca1b3c;
+}
+
+.public-filter ul .cloisters a:hover {
+    border-color: #ca1b3c;
+    color: #ca1b3c;
+}
+
+.public-filter ul .cloisters:hover h3 {
+    color: #ca1b3c;
+}
+
+
+.public-filter ul .room a {
+    border-color: #203d7c;
+    background-color: #203d7c;
+}
+
+.public-filter ul .room a:hover {
+    border-color: #203d7c;
+    color: #203d7c;
+}
+
+.public-filter ul .room:hover h3 {
+    color: #203d7c;
+}
+
+
+.public-filter ul .CDP a {
+    border-color: #37aae3;
+    background-color: #37aae3;
+}
+
+.public-filter ul .CDP a:hover {
+    border-color: #37aae3;
+    color: #37aae3;
+}
+
+.public-filter ul .CDP:hover h3 {
+    color: #37aae3;
+}
+
+
+.public-filter ul .equine1 a {
+    border-color: #007B4C;
+    background-color: #007B4C;
+}
+
+.public-filter ul .equine1 a:hover {
+    border-color: #007B4C;
+    color: #007B4C;
+}
+
+.public-filter ul .equine1:hover h3 {
+    color: #007B4C;
+}
+
+
+.public-filter ul .dog-grooming a {
+    border-color: #77BC43;
+    background-color: #77BC43;
+}
+
+.public-filter ul .dog-grooming a:hover {
+    border-color: #77BC43;
+    color: #77BC43;
+}
+
+.public-filter ul .dog-grooming:hover h3 {
+    color: #77BC43;
+}
+
+
+.public-filter ul .nursery a {
+    border-color: #0a7316;
+    background-color: #0a7316;
+}
+
+.public-filter ul .nursery a:hover {
+    border-color: #0a7316;
+    color: #0a7316;
+}
+
+.public-filter ul .nursery:hover h3 {
+    color: #0a7316;
+}
+/* Cluster colors ends*/
 
 /* Cluster Tile Background Pictures */
 @media(min-width:768px) {
@@ -3727,7 +3607,6 @@ APPLY BARS =====================================================================
       -ms-transition: all 0.4s;
       -o-transition: all 0.4s;
       transition: all 0.4s;
-      color: white;
   }
 
   .public-filter ul li:hover h3 {
@@ -3742,8 +3621,11 @@ APPLY BARS =====================================================================
   .public-filter ul li a:hover {
     border-width: 2px;
     border-style: solid;
-    opacity: 0.2;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    cursor: pointer;
   }
+
 
   .public-filter ul .flying a {
       background-image: url(/images/public/childcare.jpg);
@@ -3846,7 +3728,44 @@ APPLY BARS =====================================================================
   .public-filter ul .nursery h3 {
       background-color: #0a7316;
   }
+}
 
+
+.public-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
+    border-style: solid;
+    border-color: #ddd;
+    border-left-width: 12px;
+}
+
+.public-body h2{
+    margin: 0;
+}
+
+.public-body p {
+    margin: 0 0 10px 0;
+}
+
+.public-body table {
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    color: #fff;
+}
+
+.public-body table td {
+    padding: 10px;
+    height: 50px;
+}
+
+.public-body .panel {
+    border: none;
+}
+
+.public-body .panel > * {
+  color: white;
 }
 /* --------- Open to Public Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
@@ -4117,6 +4036,10 @@ textarea {
         text-align: center;
         font-size: 18px;
     }
+    .swiper-slide .main-section-margins h2{
+        color: white;
+        font-size: 3.2em;
+    }
 
     #cc-home-slide,
     #dc-home-slide,
@@ -4157,7 +4080,7 @@ textarea {
 .plus-button,
 .less-button{
     bottom: 0;
-    z-index: 9999;
+    z-index: 0;
     left: 0;
     width: 100%;
 }
@@ -4823,7 +4746,9 @@ a.learning-area:hover{
                 margin-bottom: 10px;
                 left: 50%;
             }
-            .swiper-slide h1{
+            .swiper-slide h1,
+            .swiper-slide .main-section-margins h2
+            {
                 font-size: 3.5rem;
             }
             .sod_placeholder{
@@ -5486,6 +5411,8 @@ display: none;
   text-transform: uppercase;
   margin-top: 25px;
   color: white;
+  text-align: center;   
+  font-weight: bold;
 }
 
 .sidebar-search .btn {
@@ -5505,6 +5432,31 @@ display: none;
   background: #555;
 }
 
+/* CCB Course Search Sidebar */
+.ccb-search {
+  background: #941b1f;
+}
+.ccb-search h4 {
+  margin-top: 25px;    
+  color: white;
+  text-align: center;    
+  text-transform: uppercase;
+}
+.ccb-search .input-group-addon{
+    background: #555;
+}
+/*.ccb-search .input-group-addon i{
+  color: #941b1f;
+}*/
+.ccb-search .btn {
+    font-size: 14px;
+    font-weight: 500;
+    white-space: normal;
+    margin-bottom: 25px;
+    border: white solid;
+    color: white;
+    background: none;
+}
 /* Link Sidebar */
 .sidebar-link {
   background: #f7f7f7
@@ -5514,10 +5466,18 @@ display: none;
   color: #aaa;
   text-align: left;
 }
+.sidebar-link h4 {
+  margin-top: 25px;    
+  color: #aaa;
+  text-align: center;
+  text-transform: uppercase;    
+}
 
 .sidebar-link .btn {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
+  white-space: normal;
+  font-size: 14px;
 }
 
 /* About Pages - Campus Contact Page */

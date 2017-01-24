@@ -151,6 +151,7 @@ if (typeof Object.create !== 'function') {
                     // preload the image
                     var height, width = '';
                     var img = new Image();
+                    var imgSrc = image.attr("src");
 
                     $(img).load(function() {
 
@@ -163,6 +164,8 @@ if (typeof Object.create !== 'function') {
                     }).error(function() {
                         // image couldnt be loaded
                         image.hide();
+                    }).attr({
+                        src: imgSrc
                     });
                 }
 
@@ -670,7 +673,7 @@ if (typeof Object.create !== 'function') {
                             post.author_link = element.author[0]['uri']['$t'];
                             post.author_picture = element.author[0]['gd$image']['src'];
                             post.author_name = element.author[0]['name']['$t'];
-                            post.message = element.title['$t'] + '</br></br>' + stripHTML(element.content['$t']);
+                            post.message = element.title['$t'] + '<br><br>' + stripHTML(element.content['$t']);
                             post.description = '';
                             post.link = element.link.pop().href;
 
@@ -767,7 +770,6 @@ if (typeof Object.create !== 'function') {
                 utility: {
 
                     getPosts: function(json) {
-                        console.log(json);
                         if (json.query.count > 0 ){
                             $.each(json.query.results.feed, function(index, element) {
                                 var post = new SocialFeedPost('rss', Feed.rss.utility.unifyPostData(index, element));
@@ -794,27 +796,46 @@ if (typeof Object.create !== 'function') {
                         if( item.creator !== undefined ){
                             post.author_name = item.creator;
                         }
-                        post.message = item.title;
+                        if ( item.title.content !== undefined ){
+                            post.message = item.title.content;
+                        } else if( item.title !== undefined ) { 
+                            post.message = item.title; 
+                        }
                         post.description = '';
-                        if( item.summary !== undefined ){
+                        HTMLcontent = '';
+                        if ( item.content !== undefined ){
+                            post.description = Utility.stripHTML(item.content.content);
+                            HTMLcontent = item.content.content;
+                        } else if( item.summary !== undefined && HTMLcontent == ""){
                             post.description = Utility.stripHTML(item.summary.content);
+                            HTMLcontent = item.summary.content;
                         }
                         post.social_network = 'rss';
-                        post.link = item.link.href;
-                        if (options.show_media && item.thumbnail !== undefined ) {
-                            post.attachment = '<img class="attachment" src="' + item.thumbnail.url + '" />';
-                             if (options.show_https_media_only && item.thumbnail.url) {
-                                var protocol =  item.thumbnail.url.split("/");
-                                if(protocol[0] !== "https:") {
-                                    post.attachment = undefined;
-                                }
-                            }
+                        
+                        if ( item.link.href !== undefined ){
+                            post.link = item.link.href;
+                        } else if ( item.link[0].href !== undefined ){
+                            post.link = item.link[0].href;
+                        }
+                        
+                        if (options.show_media) { 
+                            if(item.thumbnail !== undefined && item.thumbnail.height !== "72") {
+                                post.attachment = '<img class="attachment-post-thumbnail" src="' + item.thumbnail.url + '" />';
+                            } else if (item.content[2] !== undefined) {
+                                // wordpress place for Image
+                                post.attachment = '<img class="attachment-post-thumbnail" src="' + item.content[2].url + '" />';
+                            } else if (HTMLcontent) {
+                                    var imgurl = '';
+                                    var regexp = /<img[^>]+src\s*=\s*['"]([^'"]+)['"][^>]*>/g;
+                                    var match = regexp.exec(HTMLcontent);
+                                    if (match !== null) imgurl = match[1];
+                                    if (imgurl !== '' && imgurl !== undefined) post.attachment = '<img class="attachment-post-thumbnail" src="' + imgurl + '" />';
+                            }                          
                         }
                         return post;
                     }
                 }
-            }
-        };
+            }        };
 
         //make the plugin chainable
         return this.each(function() {
