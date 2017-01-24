@@ -1299,6 +1299,20 @@ a.not-active:hover{
     letter-spacing: normal;
     color:white;
 }
+.search-filters select {
+  display: none;
+}
+@media (max-width: 960px) {
+    .search-filters a { 
+      display: none;
+    }
+    .search-filters select {     
+        display: block;
+        padding: 10px 20px;
+        margin: 15px 0 5px 0;
+        width: 100%;
+    }
+}
 /*------------ results overrides --------------*/
 .gsc-input{
     border:solid 1px grey;
