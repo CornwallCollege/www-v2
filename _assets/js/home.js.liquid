@@ -37,6 +37,21 @@ $(document).ready(function () {
         $(this).siblings().removeClass( "active" ).addClass("not-active");     
     });
     
+    //filter change for hidden form
+    $( ".hidden-search-form .search-filter" ).click(function() { 
+        //get data from link
+        var name = $(this).data('name');
+        var action = $(this).data('action');
+        var placeholder = $(this).data('placeholder');
+        
+        $('#hidden-search-form').attr('action', action );
+        $('.form-control').attr("placeholder", placeholder);
+        $('.form-control').attr("name", name);
+        $( this ).addClass("active").removeClass( "not-active" );
+        $(this).siblings().removeClass( "active" ).addClass("not-active");     
+    });
+    
+    
     //Watch for value change on select
     $('.search-filters select').on('change', function() {
         //get data from link
@@ -569,14 +584,23 @@ $(document).ready(function () {
     });
 
 
-    // Select or die dropdown 
-    $("select").selectOrDie({
+// Select or die dropdown 
+    
+    /*reset select on load/back
+    $("select").each(function () {
+        $(this).val($(this).find('option[selected]').val());
+    });*/  
+    
+    $("select.home-page-select").selectOrDie({
         // Option below is not needed
         placeholderOption: true,
         onChange: function () {
             if ($(this).val() === 'course-search') {
-                $('.' + $(this).val()).hide();
-                $('.' + $(this).val()).fadeIn("slow");
+                $('.course-search, .hidden-search-form').hide();
+                $('.course-search, .hidden-search-form').fadeIn("slow");
+                $('.search-links').fadeIn("slow");
+                $('.home-lead').fadeOut("slow");
+
 
             } else {
                 window.location.href = $(this).val();

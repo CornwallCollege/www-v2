@@ -1285,19 +1285,38 @@ a.not-active{
     margin: 26px 2px 0 0px;
     -webkit-box-shadow:none;
     box-shadow: none;
-    font-size: .96em;
+    font-size: .85em;
+}
+#hidden-course-search a.not-active{
+    font-size: .75em;
 }
 a.not-active:hover{
+    letter-spacing: normal;
+}
+.btn{
+    white-space: normal;
+}
+.btn.ghost{
+  
+}
+a.btn.ghost:hover{
+    background: #52B3D9;
     letter-spacing: normal;
 }
 .btn.active{
     -webkit-box-shadow: none;    
     box-shadow: none;
     padding: 8px 15px;
+    margin-top: -6px;
+    margin-right:2px;
 }
 .btn.active:hover{
     letter-spacing: normal;
     color:white;
+}
+a.search-filter{
+	margin-top:0;
+    float: left;
 }
 .search-filters select {
   display: none;
