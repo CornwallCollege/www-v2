@@ -596,10 +596,10 @@ $(document).ready(function () {
         placeholderOption: true,
         onChange: function () {
             if ($(this).val() === 'course-search') {
-                $('.course-search, .hidden-search-form').hide();
+                $('.course-search, .hidden-search-form, .search-links').hide();
                 $('.course-search, .hidden-search-form').fadeIn("slow");
                 $('.search-links').fadeIn("slow");
-                $('.home-lead').fadeOut("slow");
+                $('.home-lead').fadeOut("fast");
 
 
             } else {
