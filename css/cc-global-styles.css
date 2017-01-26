@@ -1324,7 +1324,10 @@ a.search-filter{
 .search-links .btn{
     margin-top: 10px;
 }
-    
+.pull-right {
+     clear: right;
+}
+
 @media (max-width: 960px) {
     #search-form .search-filters a { 
       display: none;
