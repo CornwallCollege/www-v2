@@ -1321,11 +1321,15 @@ a.search-filter{
 .search-filters select {
   display: none;
 }
+.search-links .btn{
+    margin-top: 10px;
+}
+    
 @media (max-width: 960px) {
-    .search-filters a { 
+    #search-form .search-filters a { 
       display: none;
     }
-    .search-filters select {     
+    #search-form .search-filters select {     
         display: block;
         padding: 10px 20px;
         margin: 15px 0 5px 0;

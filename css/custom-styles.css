@@ -4655,10 +4655,10 @@ a.learning-area:hover{
             -ms-transform: translate(-50%,-0%);
             transform: translate(-50%,-0%);
             width: 100%;
-            max-width: 930px;
+            max-width: 650px;
             min-width: 320px;
             background: rgba(0,0,0,.3);
-            border: 5px solid #ffffff;
+            border: 3px solid #ffffff;
             border-radius: 0;
             padding: 12px 20px;
             color: #ffffff;
@@ -4666,8 +4666,9 @@ a.learning-area:hover{
             font-weight: 400;
             font-family: 'Raleway', serif;
             text-align: center;
-            margin-top: 15px;
+            margin-top: 10px;
             display: block;
+            cursor: pointer;
         }
 
         .cover_sod:hover
