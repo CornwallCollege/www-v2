@@ -974,11 +974,6 @@ div#logo-wrap #bicton{
     color: white;
 }
 
-.box-square article:nth-child(1) a{
-    color: #fff;
-    border-color: #fff;
-}
-
 .box-square article:nth-child(2),
 .box-square article:nth-child(6),
 .box-square .more article:nth-child(4) {
@@ -1028,6 +1023,9 @@ div#logo-wrap #bicton{
     background: #000;
 }
 
+.box-square article:first-child h2,
+.box-square article:first-child a,
+.box-square article:first-child p,
 .box-square article:nth-child(4) h2,
 .box-square article:nth-child(4) a,
 .box-square article:nth-child(4) p,
@@ -1115,6 +1113,7 @@ div#logo-wrap #bicton{
 /*----------- Apprentice header styles ---------*/
 #apprentice-hub{
     background: url(../images/apprentice-header-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
     #apprentice-hub {
@@ -1142,6 +1141,7 @@ div#logo-wrap #bicton{
 /*----------- Uni header styles -----------*/
 #university-hub{
     background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
 
@@ -1156,6 +1156,7 @@ div#logo-wrap #bicton{
 /*----------- Access header styles -----------*/
 #access-hub{
     background: url(../images/access-hub-mobile.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
 }
 @media(min-width:768px) {
 
@@ -3327,47 +3328,89 @@ APPLY BARS =====================================================================
 
 /* -------  career search ENDS -------- */
 /* --------- Open to Public Section --------- */
-
-.public-body {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #333;
-    border-style: solid;
-    border-color: #ddd;
-    border-left-width: 12px;
+#public-list {
+    padding-left: 0;
 }
 
-.public-body h2{
-    margin: 0;
+@media(max-width:767px) {
+  #public-list {
+      padding-right: 0;
+  }
 }
 
-.public-body p {
-    margin: 0 0 10px 0;
+
+.public-filter ul {
+    padding-left: 0;
 }
 
-.public-body table {
+.public-filter ul li {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.public-filter ul li a {
+  padding: 10px 20px 20px 20px;
+  display: block;
+}
+
+.public-filter ul li a:hover,
+.public-filter ul li a:focus {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.public-filter ul li h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 125%;
+    font-weight: 700;
+    color: white;
+}
+
+@media(max-width:767px) {
+  .public-filter ul li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .public-filter ul li a {
     width: 100%;
-    margin-bottom: 30px;
-    border: none;
-    color: #fff;
+  }
+
+  .public-filter ul li h3 {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .public-filter ul li:hover h3 {
+    color: white
+  }
 }
 
-.public-body table td {
-    padding: 10px;
-    height: 50px;
+@media(min-width:768px) {
+  .public-filter ul li a {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    margin-right: 10px;
+  }
 }
 
-.public-body .panel {
-    border: none;
+@media(min-width:992px) {
+  .public-filter ul li a {
+    min-height: 210px;
+  }
 }
 
-.public-body .panel > * {
-  color: white;
-}
-
-.public-body img.business-image {
-    height: 247px;
-    width: 247px;
+@media(min-width:1200px) {
+  .public-filter ul li a {
+    min-height: 190px;
+  }
 }
 
 
@@ -3547,186 +3590,7 @@ APPLY BARS =====================================================================
 .public-filter ul .nursery:hover h3 {
     color: #0a7316;
 }
-
-
-#public {
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    background-size: -moz-cover;
-    background-size: cover;
-}
-
-#public-list {
-    background-color: #fff;
-    padding-left: 0;
-}
-
-@media(max-width:380px) {
-    #public-list {
-        padding-right: 0;
-    }
-}
-
-#public-list p {
-    margin-bottom: 70px;
-    display: inline-block;
-}
-
-.public-filter {
-    margin-bottom: 100px;
-    text-align: left;
-}
-
-.public-filter ul {
-    padding-left: 0;
-}
-
-.public-filter ul li {
-    display: inline-block;
-    padding: 0;
-    margin-bottom: 15px;
-}
-
-.public-filter ul li > a {
-    margin-right: 10px;
-    padding: 10px 20px 20px 20px;
-    border: 1px solid transparent;
-    /*border-left: 1px solid #52B3D9;*/
-    display: block;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 1.5px;
-    line-height: 22px;
-    text-decoration: none;
-    text-align: center;
-    color: #000;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media(max-width:767px) {
-  .public-filter ul li {
-    display: flex;
-    justify-content: center;
-  }
-
-  .public-filter ul li a {
-    width: 100%;
-  }
-
-  .public-filter ul li h3 {
-    position: absolute;
-    bottom: 0;
-  }
-
-  .public-filter ul li a:hover h3 {
-    color: white
-  }
-}
-
-@media(min-width:768px) {
-    .public-filter ul li a {
-        min-height: 200px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0 30%;
-    }
-}
-
-@media(min-width:992px) {
-    .public-filter ul li a {
-        min-height: 210px;
-    }
-}
-
-@media(min-width:1200px) {
-    .public-filter ul li a {
-        min-height: 190px;
-    }
-}
 /* Cluster colors ends*/
-
-
-.public-filter ul li a:hover,
-.public-filter ul li a:focus {
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-}
-
-@media(max-width:765px) {
-    .public-filter ul li a {
-        margin-right: 0;
-    }
-}
-
-.public-filter ul li a:hover {
-    color: white;
-}
-
-.public-filter ul li h3 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 125%;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-}
-
-.public-filter ul li a span {
-    color: white;
-    font-size: 80%;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    line-height: 20px;
-}
-
-.public-filter ul li a:hover span,
-.public-filter ul li a.selected span {
-    color: #555;
-}
-
-.public-items {
-    margin-left: -15px;
-}
-
-@media (max-width: 767px) {
-    .public-items {
-        margin-left: 10px;
-        margin-top: 50px;
-    }
-}
-
-.public-popup {
-    width: 100%;
-    overflow-x: hidden;
-    height: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.public-popup-left {
-    left: -100%;
-}
-
-.public-popup-left.cbp-spmenu-open {
-    left: 0;
-}
-
-@media(max-width:420px) {
-    .public-areas .box-square {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .public-areas article {
-        padding: 15px 20px;
-        text-align: center;
-    }
-}
-
 
 /* Cluster Tile Background Pictures */
 @media(min-width:768px) {
@@ -3743,7 +3607,6 @@ APPLY BARS =====================================================================
       -ms-transition: all 0.4s;
       -o-transition: all 0.4s;
       transition: all 0.4s;
-      color: white;
   }
 
   .public-filter ul li:hover h3 {
@@ -3762,6 +3625,7 @@ APPLY BARS =====================================================================
     filter: blur(4px);
     cursor: pointer;
   }
+
 
   .public-filter ul .flying a {
       background-image: url(/images/public/childcare.jpg);
@@ -3864,7 +3728,44 @@ APPLY BARS =====================================================================
   .public-filter ul .nursery h3 {
       background-color: #0a7316;
   }
+}
 
+
+.public-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
+    border-style: solid;
+    border-color: #ddd;
+    border-left-width: 12px;
+}
+
+.public-body h2{
+    margin: 0;
+}
+
+.public-body p {
+    margin: 0 0 10px 0;
+}
+
+.public-body table {
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    color: #fff;
+}
+
+.public-body table td {
+    padding: 10px;
+    height: 50px;
+}
+
+.public-body .panel {
+    border: none;
+}
+
+.public-body .panel > * {
+  color: white;
 }
 /* --------- Open to Public Section ENDS --------- */
 /* --------- Main Menu indent Fix ----------*/
@@ -4754,10 +4655,10 @@ a.learning-area:hover{
             -ms-transform: translate(-50%,-0%);
             transform: translate(-50%,-0%);
             width: 100%;
-            max-width: 930px;
+            max-width: 650px;
             min-width: 320px;
             background: rgba(0,0,0,.3);
-            border: 5px solid #ffffff;
+            border: 3px solid #ffffff;
             border-radius: 0;
             padding: 12px 20px;
             color: #ffffff;
@@ -4765,8 +4666,9 @@ a.learning-area:hover{
             font-weight: 400;
             font-family: 'Raleway', serif;
             text-align: center;
-            margin-top: 15px;
+            margin-top: 10px;
             display: block;
+            cursor: pointer;
         }
 
         .cover_sod:hover
@@ -4808,7 +4710,7 @@ a.learning-area:hover{
         }
 
         .sod_placeholder{
-            font-size: 4.5rem!important;
+            font-size: 3.7rem!important;
         }
 
         .cover_sod .sod_list_wrapper
@@ -5510,6 +5412,8 @@ display: none;
   text-transform: uppercase;
   margin-top: 25px;
   color: white;
+  text-align: center;   
+  font-weight: bold;
 }
 
 .sidebar-search .btn {
@@ -5529,6 +5433,31 @@ display: none;
   background: #555;
 }
 
+/* CCB Course Search Sidebar */
+.ccb-search {
+  background: #941b1f;
+}
+.ccb-search h4 {
+  margin-top: 25px;    
+  color: white;
+  text-align: center;    
+  text-transform: uppercase;
+}
+.ccb-search .input-group-addon{
+    background: #555;
+}
+/*.ccb-search .input-group-addon i{
+  color: #941b1f;
+}*/
+.ccb-search .btn {
+    font-size: 14px;
+    font-weight: 500;
+    white-space: normal;
+    margin-bottom: 25px;
+    border: white solid;
+    color: white;
+    background: none;
+}
 /* Link Sidebar */
 .sidebar-link {
   background: #f7f7f7
@@ -5538,10 +5467,18 @@ display: none;
   color: #aaa;
   text-align: left;
 }
+.sidebar-link h4 {
+  margin-top: 25px;    
+  color: #aaa;
+  text-align: center;
+  text-transform: uppercase;    
+}
 
 .sidebar-link .btn {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
+  white-space: normal;
+  font-size: 14px;
 }
 
 /* About Pages - Campus Contact Page */

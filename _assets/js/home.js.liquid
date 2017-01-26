@@ -1,4 +1,70 @@
 $(document).ready(function () {
+    
+//======================  Search filters  =================================
+    // Create the dropdown base
+    $("<select />").appendTo(".search-filters");
+
+    // Create default option "Go to..."
+    $("<option />", {
+       "selected": "selected",
+       "value"   : "",
+       "text"    : "Change Search..."
+    }).appendTo(".search-filters select");
+
+    // Populate dropdown with menu items
+    $(".search-filters a").each(function() {
+     var el = $(this);
+     $("<option />", {
+         "value"             : el.attr("href"),
+         "text"              : el.text(),
+         "data-name"         : el.attr("data-name"),
+         "data-action"       : el.attr("data-action"),
+         "data-placeholder"  : el.attr("data-placeholder")         
+     }).appendTo(".search-filters select");
+    });   
+    
+    // Search form update on click
+    $( ".search-filter" ).click(function() { 
+        //get data from link
+        var name = $(this).data('name');
+        var action = $(this).data('action');
+        var placeholder = $(this).data('placeholder');
+        
+        $('#search-form').attr('action', action );
+        $('.form-control').attr("placeholder", placeholder);
+        $('.form-control').attr("name", name);
+        $( this ).addClass("active").removeClass( "not-active" );
+        $(this).siblings().removeClass( "active" ).addClass("not-active");     
+    });
+    
+    //filter change for hidden form
+    $( ".hidden-search-form .search-filter" ).click(function() { 
+        //get data from link
+        var name = $(this).data('name');
+        var action = $(this).data('action');
+        var placeholder = $(this).data('placeholder');
+        
+        $('#hidden-search-form').attr('action', action );
+        $('.form-control').attr("placeholder", placeholder);
+        $('.form-control').attr("name", name);
+        $( this ).addClass("active").removeClass( "not-active" );
+        $(this).siblings().removeClass( "active" ).addClass("not-active");     
+    });
+    
+    
+    //Watch for value change on select
+    $('.search-filters select').on('change', function() {
+        //get data from link
+        var name = $(this).find(':selected').data('name');
+        var action = $(this).find(':selected').data('action');
+        var placeholder = $(this).find(':selected').data('placeholder');
+        
+        $('#search-form').attr('action', action );
+        $('.form-control').attr("placeholder", placeholder);
+        $('.form-control').attr("name", name);        
+        
+    });
+//======================  Search filters ENDS  =================================
    
     $("#main-menu").load("/global-menu.html");
     $("#footer").load("/global-footer.html");
@@ -135,7 +201,7 @@ $(document).ready(function () {
         },
         //RSS FEED
         rss: {
-            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=cornwall-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=cornwall-college','{{site.url}}/events/whats-on/feed/?organizer=6'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 3
         },
 
@@ -169,7 +235,7 @@ $(document).ready(function () {
 
         //RSS FEED
         rss: {
-            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=duchy-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=duchy-college', '{{site.url}}/events/whats-on/feed/?organizer=7'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 2
         },
 
@@ -199,7 +265,7 @@ $(document).ready(function () {
 
         //RSS FEED
         rss: {
-            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=falmouth-marine-school'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=falmouth-marine-school', '{{site.url}}/events/whats-on/feed/?organizer=8'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 2
         },
 
@@ -229,7 +295,7 @@ $(document).ready(function () {
 
         //RSS FEED
         rss: {
-            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=bicton-college'], //Array: Specifiy a list of rss feed from which to pull posts
+            urls: ['{{site.url}}/news/feed/?post_type=article&newsBrand=bicton-college', '{{site.url}}/events/whats-on/feed/?organizer=9'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 2
         },
 
@@ -518,14 +584,24 @@ $(document).ready(function () {
     });
 
 
-    // Select or die dropdown 
-    $("select").selectOrDie({
+// Select or die dropdown 
+    
+    /*reset select on load/back
+    $("select.home-page-select").each(function () {
+        $(this).val($(this).find('option[selected]').val());
+    });*/
+    $( "select.home-page-select" ).val($("select.home-page-select option:first").val());
+    
+    $("select.home-page-select").selectOrDie({
         // Option below is not needed
         placeholderOption: true,
         onChange: function () {
             if ($(this).val() === 'course-search') {
-                $('.' + $(this).val()).hide();
-                $('.' + $(this).val()).fadeIn("slow");
+                $('.course-search, .hidden-search-form, .search-links').hide();
+                $('.course-search, .hidden-search-form').fadeIn("slow");
+                $('.search-links').fadeIn("slow");
+                $('.home-lead').fadeOut("fast");
+
 
             } else {
                 window.location.href = $(this).val();

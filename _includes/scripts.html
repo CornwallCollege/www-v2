@@ -1,3 +1,28 @@
 
 <!-- EXTERNAL scripts -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBanzA6NUlcWkOb4dC8DyPuxs2S9uIrdkQ"></script>
+<!--Google auto complete script -->
+<script>
+  var enableAutoComplete = function() {
+    google.search.CustomSearchControl.attachAutoCompletionWithOptions(
+      '013758913649466621994:in_cmlejpiq',
+      document.getElementById('site-search-input'),
+      'search-form',
+      // set to true to prevent the search box form from being submitted, since
+      // the search control displaying the results is on the same page.
+      {'preferOnSubmitToSubmit': true});
+  };
+
+  var myCallback = function() {
+    // Search module is loaded.
+    if (document.readyState == 'complete') {
+      enableAutoComplete();
+    } else {
+      google.setOnLoadCallback(enableAutoComplete, true);
+    }
+  };
+
+  window.__gcse = {
+    callback: myCallback
+  };
+</script>

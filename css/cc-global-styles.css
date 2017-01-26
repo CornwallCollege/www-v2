@@ -792,7 +792,8 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 .main-menu-phone a{
     color:white; 
-    font-size:1.2em;    
+    font-size:1.2em; 
+    border: none;
 }
 .main-menu-phone a:hover{
     background: none;
@@ -1276,4 +1277,93 @@ h2 span {
     display: block;
     width: 100%;
     background: #d97852;
+}
+/*================== all site search styles =======================*/
+a.not-active{
+    background: #bdbdbd;;
+    padding: 4px 10px 4px 10px;
+    margin: 26px 2px 0 0px;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    font-size: .85em;
+}
+#hidden-course-search a.not-active{
+    font-size: .75em;
+}
+a.not-active:hover{
+    letter-spacing: normal;
+}
+.btn{
+    white-space: normal;
+}
+.btn.ghost{
+  
+}
+a.btn.ghost:hover{
+    background: #52B3D9;
+    letter-spacing: normal;
+}
+.btn.active{
+    -webkit-box-shadow: none;    
+    box-shadow: none;
+    padding: 8px 15px;
+    margin-top: -6px;
+    margin-right:2px;
+}
+.btn.active:hover{
+    letter-spacing: normal;
+    color:white;
+}
+a.search-filter{
+	margin-top:0;
+    float: left;
+}
+.search-filters select {
+  display: none;
+}
+.search-links .btn{
+    margin-top: 10px;
+}
+.pull-right {
+     clear: right;
+}
+
+@media (max-width: 960px) {
+    #search-form .search-filters a { 
+      display: none;
+    }
+    #search-form .search-filters select {     
+        display: block;
+        padding: 10px 20px;
+        margin: 15px 0 5px 0;
+        width: 100%;
+    }
+}
+/*------------ results overrides --------------*/
+.gsc-input{
+    border:solid 1px grey;
+    padding:5px;
+}
+.gs-snippet,
+.gs-image{
+    margin-left:5px;
+    font-size:1.2em;
+}
+a.gs-title:hover{
+    letter-spacing: normal;
+} 
+.gs-snippet,
+a.gs-title{
+    font-family: 'lato';
+}
+#adBlock{
+    display:none;
+}
+.gsc-tabHeader{
+	margin:0 3px;
+	padding:0px 15px!important;
+	text-transform:uppercase;
+}
+.gsc-tabhActive{
+	color:white!important;
 }
