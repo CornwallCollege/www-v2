@@ -587,9 +587,10 @@ $(document).ready(function () {
 // Select or die dropdown 
     
     /*reset select on load/back
-    $("select").each(function () {
+    $("select.home-page-select").each(function () {
         $(this).val($(this).find('option[selected]').val());
-    });*/  
+    });*/
+    $( "select.home-page-select" ).val($("select.home-page-select option:first").val());
     
     $("select.home-page-select").selectOrDie({
         // Option below is not needed
