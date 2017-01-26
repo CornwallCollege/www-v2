@@ -4690,7 +4690,7 @@ a.learning-area:hover{
         .cover_sod:before
             {
                 content: "\f078";
-                font-size: 21px;
+                font-size: 18px;
                 top: 35%;
                 right: 5%;
                 width: auto;
@@ -4715,7 +4715,7 @@ a.learning-area:hover{
 
         .cover_sod .sod_list_wrapper
             {
-                top: calc(100% + 19px);
+                top: calc(100% + 7px);
                 width: 90%;
                 margin-left: 5%;
                 border: none;
@@ -4753,7 +4753,7 @@ a.learning-area:hover{
                 font-size: 3.5rem;
             }
             .sod_placeholder{
-                font-size: 2.5rem!important;
+                font-size: 1.7rem!important;
             }
 }
 
