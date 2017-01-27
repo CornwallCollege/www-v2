@@ -58,7 +58,9 @@ html, body {
         height: 100%;
 }
 
-
+a:focus, a:hover {
+    text-decoration: none;
+}
 /* ------------------------- Sector colours ------------------------- */
 
 h2.full-time span,
@@ -131,7 +133,7 @@ p.white{
     color:white!important;
 }
 a.white{
-    color:white; 
+    color:white;
     font-size:1em;
     font-weight: bold;
 }
@@ -969,6 +971,7 @@ div#logo-wrap #bicton{
 /* ----------------- Example Careers Primary Tiles---------------------*/
 .box-square article h2,
 .box-square article:nth-child(1) h2 span,
+.box-square article:nth-child(4) h2 span,
 .box-square article:nth-child(5) h2 span{
     text-align: left;
     color: white;
@@ -5412,7 +5415,7 @@ display: none;
   text-transform: uppercase;
   margin-top: 25px;
   color: white;
-  text-align: center;   
+  text-align: center;
   font-weight: bold;
 }
 
@@ -5438,9 +5441,9 @@ display: none;
   background: #941b1f;
 }
 .ccb-search h4 {
-  margin-top: 25px;    
+  margin-top: 25px;
   color: white;
-  text-align: center;    
+  text-align: center;
   text-transform: uppercase;
 }
 .ccb-search .input-group-addon{
@@ -5468,10 +5471,10 @@ display: none;
   text-align: left;
 }
 .sidebar-link h4 {
-  margin-top: 25px;    
+  margin-top: 25px;
   color: #aaa;
   text-align: center;
-  text-transform: uppercase;    
+  text-transform: uppercase;
 }
 
 .sidebar-link .btn {
