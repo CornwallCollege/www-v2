@@ -76,28 +76,28 @@
 - menu-name: About Us
   menu-link: governance   
   sub-menu:
-      - sub-menu-name: Contact us/ how to find us
+      - sub-menu-name: "Contact us/ how to find us"
         sub-menu-link: about-pages/contact.html
 
-      - sub-menu-name:  College Governance
+      - sub-menu-name: "College Governance"
         sub-menu-link: governance  
 
-      - sub-menu-name: Our Campuses
+      - sub-menu-name: "Our Campuses"
         sub-menu-link: location-hub/
 
-      - sub-menu-name: Downloads & Documents
+      - sub-menu-name: "Downloads & Documents"
         sub-menu-link: about-pages/download.html
 
-      - sub-menu-name: Open to the Public
+      - sub-menu-name: "Open to the Public"
         sub-menu-link: about-pages/open-public.html
 
-      - sub-menu-name: Work for us
+      - sub-menu-name: "Jobs at the College"
         sub-menu-link: governance/jobs/
 
-      - sub-menu-name: News & Media Centre
+      - sub-menu-name: "News & Media Centre"
         sub-menu-link: news   
 
-      - sub-menu-name: College Events
+      - sub-menu-name: "Events"
         sub-menu-link: events/whats-on
 
 - menu-name: Support

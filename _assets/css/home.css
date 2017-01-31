@@ -90,9 +90,10 @@
     }
 
 @media screen and (max-device-width: 420px){
-        .swiper-slide h1{
+        .swiper-slide h1,
+        .swiper-slide h2{
             font-size: 4rem;
-            margin-top:120px;
+            margin-top:60px;
         }
         .swiper-slide h2{
             font-size: 2rem;
@@ -405,3 +406,134 @@
                 opacity: 0;
                 z-index: 1;
             }
+/*==============================================================================*/
+/* Select or die custom styles */
+.home-page-select-wrap{
+    z-index:1;
+    position: relative;
+}
+.cover
+    {
+        width: 100%;
+        height: 100%;
+        background: #000000 url(../../!pix/bg.jpg) center no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid #000000;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    .cover_sod
+        {
+            -ms-transform: translate(-50%,-0%);
+            width: auto;
+            background: rgba(0,0,0,.3);
+            border: 3px solid #ffffff;
+            padding: 10px 25px;
+            color: #ffffff;
+            font-weight: 400;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            padding-right: 50px;
+            font-family: 'Raleway', serif;
+        }
+
+        .cover_sod:hover
+            {
+                background: rgba(0,0,0,.3);
+                border-color: #ffffff;
+            }
+
+        .cover_sod.open
+            {
+                background: #ffffff;
+                border-color: #ffffff;
+                color: #000000;
+                border-radius: 0;
+            }
+
+        .cover_sod.focus { border-color: #ffffff; }
+
+        .cover_sod:before
+            {
+                content: "\f078";
+                font-size: 18px;
+                top: 35%;
+                right: 5%;
+                width: auto;
+                height: auto;
+                font-family: FontAwesome;
+            }
+            .cover_sod.open:before {}
+
+            .cover_sod:after { display: none; }
+
+        .cover_sod .sod_label {
+            padding-right: 0px;
+            font-size: 3.5rem;
+            display: initial;
+            vertical-align: middle;
+            white-space: normal;
+        }
+
+        .sod_placeholder{
+            font-size: 3.7rem!important;
+        }
+
+        .cover_sod .sod_list_wrapper
+            {
+                top: calc(100% + 7px);
+                width: 90%;
+                margin-left: 5%;
+                border: none;
+                border-radius: 0;
+                font-size: 20px;
+                font-weight: 300;
+                padding: 0;
+            }
+
+            .cover_sod .sod_option {
+                padding: 15px 30px;
+                font-size: 16px;
+
+            }
+            .sod_select .sod_option.active {
+                background: #52b3d9;
+                color:white;
+            }
+        /* The native select in touch mode. Keep this first line. Sorry, keep everything. */
+        .sod_select.touch select
+            {
+                color:black;
+                font-size:.5em;
+            }
+
+@media(max-width:570px){
+            .cover_sod {
+                width:100%;
+            }
+            .swiper-slide h1,
+            .swiper-slide .main-section-margins h2
+            {
+                font-size: 3.5rem;
+            }
+            .sod_placeholder{
+                font-size: 2em!important;
+            }
+            .cover_sod .sod_option {
+                padding: 10px 5px;
+                font-size: 14px;
+            }
+}
+@media(max-width:320px){
+    
+            .sod_placeholder{
+                font-size: 1.6em!important;
+            }  
+            .cover_sod .sod_option {
+                padding: 7px 3px;
+                font-size: 13px;
+            }   
+            .cover_sod .sod_label {
+                font-size: 1.6rem;
+            }
+}

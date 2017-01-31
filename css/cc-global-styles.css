@@ -1339,6 +1339,24 @@ a.search-filter{
         width: 100%;
     }
 }
+@media(max-width:320px){
+    a.search-filter {
+        font-size: 12px;
+    }
+    .search-links .btn {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: normal;
+    }
+    .plus-button i, .less-button i {
+        font-size: 2rem;
+    }
+    .swiper-slide h1,
+    .swiper-slide .main-section-margins h2{
+        font-size: 3rem;
+    }    
+}
+
 /*------------ results overrides --------------*/
 .gsc-input{
     border:solid 1px grey;
