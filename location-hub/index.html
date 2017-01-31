@@ -14,14 +14,25 @@ link: location
     <!-- BODY SECTION -->
 
     <section class="container">
-        
+
             <section class="col-md-12 intro" style="margin-top:30px;">
                     <article class="col-sm-12 text-center"><h2 class="text-uppercase">Our <strong>Locations</strong> </h2></article>
-            </section> 
-            <article>  
+            </section>
+
+            {% if site.hash contains "cornwall"  %}
+            <article>
                 <p class="lead">As one of the South West’s largest education and training providers, we have campuses and outreach training centres across the region. Supporting over 35,000 learners every year on a range of pathways, from A-levels and diplomas for school leavers, the widest range of apprenticeships for all ages, practical skills training and professional qualifications. We are also one of the largest providers of higher education in a further education college in the region, with around 2,000 undergraduates studying with us on a range of foundation, honours and master’s degrees. </p>
-            </article>     
-            
+            </article>
+            {% elsif site.hash contains "bicton" %}
+
+            {% elsif site.hash contains "duchy" %}
+
+            {% elsif site.hash contains "falmouth" %}
+
+            {% else %}
+
+            {% endif %}
+
     </section>
 
 {% include campus-overview.html %}

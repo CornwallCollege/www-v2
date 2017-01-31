@@ -90,9 +90,10 @@
     }
 
 @media screen and (max-device-width: 420px){
-        .swiper-slide h1{
+        .swiper-slide h1,
+        .swiper-slide h2{
             font-size: 4rem;
-            margin-top:120px;
+            margin-top:60px;
         }
         .swiper-slide h2{
             font-size: 2rem;

@@ -9,24 +9,43 @@
             {% endif %}
             <div class="home-page-select-wrap">
                 <select class="home-page-select select" data-custom-class="cover_sod no_highlight">
-                    <option value="#">Select</option>
+                    <option value="#">Choose an option</option>
                     <option value="{{ site.falmouth-base-url }}location-hub/index.html">Where you study</option>
                     <option value="{{ site.falmouth-base-url }}learning-area-hub/">What you study</option>
                     <option value="{{ site.falmouth-base-url }}sector-hub/">Your next step</option>
                     <option value="{{ site.falmouth-base-url }}career-hub/index.html">Your Career path</option>
+                    <option value="https://www.ccbtraining.co.uk/">Your business training needs</option>                
                     <option value="course-search">Just give me a course search</option>
                 </select>
             </div>
             <div class="course-search transition" style="display:none;">
-                <form name="course-search" class=" hidden-search-form course-search" role="search" method="GET" action="/search" >
+                <form id="hidden-search-form" name="course-search" class=" hidden-search-form " role="search" method="GET" action="/search" >
+                    
+                    <div class="no-padding col-xs-12 col-md-8 col-md-offset-2">
+                        
+                        <a id="course-search" class="btn active search-filter"  data-name="s" data-placeholder="Course Search" data-action="'/search">Course Search</a>
+
+                        <a id="site-search" class="btn not-active search-filter" data-name="q" data-placeholder="Search the whole site" data-action="/site-search.html">Site Search</a>
+
+                    </div>                     
+                    
                     <div class="input-group margin-bottom-sm col-xs-12 col-md-8 col-md-offset-2">
-                        <input type="hidden" name="brand" value="falmouthms">
                         <input class="form-control" name="s" type="text" placeholder="Course Search">
+                        <input type="hidden" name="brand" value="falmouthms">
+
                         <div class="input-group-addon transition">
                             <button type="submit" class="search-submit"><i class="fa fa-search fa-fw"></i></button>
                         </div>
                     </div>
                 </form>
+                <div class="no-padding col-xs-12 search-links">
+                    <div class="col-xs-6 col-sm-12 col-md-4 col-md-offset-2">
+                        <a class="btn ghost light" href="{{site.url}}/leisure">Looking for a leisure course? Click here</a>
+                    </div>
+                    <div class="col-xs-6 col-sm-12 col-md-4 ">
+                        <a class="btn ghost light" href="https://www.ccbtraining.co.uk">Looking for Business Training? Click here</a>
+                    </div>    
+                </div>   
             </div>
             <div>
                 <p class="lead home-lead" itemprop="description">We have a diverse range of courses for all ages in locations across the southwest. Tell us what most important to you. and we will show you what we have to offer.
