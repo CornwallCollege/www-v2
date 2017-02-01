@@ -1,20 +1,21 @@
-<div class="social-feed-element {{=it.social_network}} element" dt-create="{{=it.dt_create}}" social-feed-id = "{{=it.id}}" style="margin-bottom:10px;" >
+<div class="social-feed-element {{=it.social_network}} element" dt-create="{{=it.dt_create}}" social-feed-id="{{=it.id}}" style="margin-bottom:10px;">
     <section style="background:#f3f3f3;">
-    <section class="col-sm-6 sq-sm text-block blog-post-list popup popup-position popup-right text-right social-feed-element feed-image"  style=" background-size:cover;">{{=it.attachment}}
-                <a href='{{=it.link}}' target="_blank"> 
-                    <div>               
-                        <i class="fa fa-{{=it.social_network}}" style="color:#52B3D9; position:absolute; top:0; left:0; font-size:4rem;"></i>     
-                        <span class="social-feed-date date"> {{=it.time_ago}}</span>
-                        <span class="hidden-xs hidden-sm hidden-md hidden-lg">
+        <section class="col-sm-6 sq-sm text-block blog-post-list popup popup-position popup-right text-right social-feed-element feed-image" style=" background-size:cover;"><img data-src="{{=it.attachment}}" class="swiper-lazy">
+            <div class="swiper-lazy-preloader"></div>
+            <a href='{{=it.link}}' target="_blank">
+                <div>
+                    <i class="fa fa-{{=it.social_network}}" style="color:#52B3D9; position:absolute; top:0; left:0; font-size:4rem;"></i>
+                    <span class="social-feed-date date"> {{=it.time_ago}}</span>
+                    <span class="hidden-xs hidden-sm hidden-md hidden-lg">
                          <i class="fa fa-long-arrow-right fa-lg"></i>
                         </span>
-                    </div>
-                </a>    
-        </section> 
-    </section>     
-            <section class="col-xs-12 col-sm-6 sq-sm text-block color-bg social-feed-element">
-              <p>{{=it.text}}</p>
-                <a href='{{=it.link}}' target="_blank" class="white-link">Full Article</a>
-            </section>
-   <section style="clear:both; padding-bottom:70px;"></section> 
+                </div>
+            </a>
+        </section>
+    </section>
+    <section class="col-xs-12 col-sm-6 sq-sm text-block color-bg social-feed-element">
+        <p>{{=it.text}}</p>
+        <a href='{{=it.link}}' target="_blank" class="white-link">Full Article</a>
+    </section>
+    <section style="clear:both; padding-bottom:70px;"></section>
 </div>
