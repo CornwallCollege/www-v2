@@ -406,7 +406,8 @@
                 opacity: 0;
                 z-index: 1;
             }
-/*==============================================================================*/
+
+
 /* Select or die custom styles */
 .home-page-select-wrap{
     z-index:1;
@@ -463,7 +464,6 @@
                 height: auto;
                 font-family: FontAwesome;
             }
-            .cover_sod.open:before {}
 
             .cover_sod:after { display: none; }
 
@@ -537,3 +537,4 @@
                 font-size: 1.6rem;
             }
 }
+
