@@ -283,7 +283,7 @@ if (typeof Object.create !== 'function') {
                                 if (element.entities.media && element.entities.media.length > 0) {
                                     var image_url = element.entities.media[0].media_url_https;
                                     if (image_url) {
-                                        post.attachment = '<img class="attachment" src="' + image_url + '" />';
+                                        post.attachment =  image_url ;
                                     }
                                 }
                             }
@@ -349,7 +349,7 @@ if (typeof Object.create !== 'function') {
                                 return;
                             }
                         }
-                        return '<img class="attachment" src="' + image_url + '" />';
+                        return image_url;
                     },
                     getExternalImageURL: function(image_url, parameter) {
                         image_url = decodeURIComponent(image_url).split(parameter + '=')[1];
@@ -455,7 +455,7 @@ if (typeof Object.create !== 'function') {
                                             }
                                         }
                                     } 
-                                    post.attachment = '<img class="attachment" src="' + image + '"/>';
+                                    post.attachment = image;
                                     if (options.show_https_media_only && image) {
                                         var protocol = image.split("/");
                                         if(protocol[0] !== "https:") {
@@ -547,7 +547,7 @@ if (typeof Object.create !== 'function') {
                         post.description = '';
                         post.link = element.link;
                         if (options.show_media) {
-                            post.attachment = '<img class="attachment" src="' + element.images.standard_resolution.url + '' + '" />';
+                            post.attachment = element.images.standard_resolution.url;
                             if (options.show_https_media_only && element.images.standard_resolution.url) {
                                 var protocol =  element.images.standard_resolution.url.split("/");
                                 if(protocol[0] !== "https:") {
@@ -608,11 +608,11 @@ if (typeof Object.create !== 'function') {
                         if (options.show_media) {
                             if (element.attachment) {
                                 if (element.attachment.type === 'link')
-                                    post.attachment = '<img class="attachment" src="' + element.attachment.link.image_src + '" />';
+                                    post.attachment = element.attachment.link.image_src;
                                 if (element.attachment.type === 'video')
-                                    post.attachment = '<img class="attachment" src="' + element.attachment.video.image_big + '" />';
+                                    post.attachment = element.attachment.video.image_big;
                                 if (element.attachment.type === 'photo')
-                                    post.attachment = '<img class="attachment" src="' + element.attachment.photo.src_big + '" />';
+                                    post.attachment = element.attachment.photo.src_big;
                             }
                         }
 
@@ -679,7 +679,7 @@ if (typeof Object.create !== 'function') {
 
                             if (options.show_media) {
                                 if (element['media$thumbnail']) {                                    
-                                    post.attachment = '<img class="attachment" src="' + element['media$thumbnail']['url'] + '" />';
+                                    post.attachment = element['media$thumbnail']['url'] ;
                                     if (options.show_https_media_only && element['media$thumbnail']['url']) {
                                         var protocol =  element['media$thumbnail']['url'].split("/");
                                         if(protocol[0] !== "https:") {
@@ -741,7 +741,7 @@ if (typeof Object.create !== 'function') {
                         post.social_network = 'pinterest';
                         post.link = element.link ? element.link : 'https://www.pinterest.com/pin/' + element.id;
                         if (options.show_media) {
-                            post.attachment = '<img class="attachment" src="' + element.image['original'].url + '" />';
+                            post.attachment = element.image['original'].url;
                             if (options.show_https_media_only && element.image['original'].url) {
                                 var protocol =  element.image['original'].url.split("/");
                                 if(protocol[0] !== "https:") {
@@ -820,16 +820,16 @@ if (typeof Object.create !== 'function') {
                         
                         if (options.show_media) { 
                             if(item.thumbnail !== undefined && item.thumbnail.height !== "72") {
-                                post.attachment = '<img class="attachment-post-thumbnail" src="' + item.thumbnail.url + '" />';
+                                post.attachment = item.thumbnail.url;
                             } else if (item.content[2] !== undefined) {
                                 // wordpress place for Image
-                                post.attachment = '<img class="attachment-post-thumbnail" src="' + item.content[2].url + '" />';
+                                post.attachment = item.content[2].url;
                             } else if (HTMLcontent) {
                                     var imgurl = '';
                                     var regexp = /<img[^>]+src\s*=\s*['"]([^'"]+)['"][^>]*>/g;
                                     var match = regexp.exec(HTMLcontent);
                                     if (match !== null) imgurl = match[1];
-                                    if (imgurl !== '' && imgurl !== undefined) post.attachment = '<img class="attachment-post-thumbnail" src="' + imgurl + '" />';
+                                    if (imgurl !== '' && imgurl !== undefined) post.attachment = imgurl;
                             }                          
                         }
                         return post;
