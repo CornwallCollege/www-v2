@@ -15,7 +15,7 @@
     "gulp-if": "^2.0.2",
     "browser-sync" : "^2.18.7",
     "gulp-util" : "^3.0.7",
-    "critical" : "^0.8.1",
+    "critical" : "^0.7.0",
     "gulp-uglify" : "^2.0.0"
   }
 }
