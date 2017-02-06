@@ -2,6 +2,5 @@
 //= require ./jquery-ui-1.11.3.min
 //= require ./modernizr-2.8.3.min
 //= require ./bootstrap-3.2.0.min
-//= require ./font-awesome.min.css 
 //= require ./cookie
 //= require ./classie
