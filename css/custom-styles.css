@@ -4636,7 +4636,7 @@ a.learning-area:hover{
     letter-spacing: normal;
     background: #f1f1f1
 }
-/* Select or die styles */
+/* Select or die custom styles */
 .home-page-select-wrap{
     z-index:1;
     position: relative;
@@ -4652,26 +4652,18 @@ a.learning-area:hover{
     }
     .cover_sod
         {
-            position: relative;
-            left: 50%;
-            -webkit-transform: translate(-50%,-0%);
             -ms-transform: translate(-50%,-0%);
-            transform: translate(-50%,-0%);
-            width: 100%;
-            max-width: 650px;
-            min-width: 320px;
+            width: auto;
             background: rgba(0,0,0,.3);
             border: 3px solid #ffffff;
-            border-radius: 0;
-            padding: 12px 20px;
+            padding: 10px 25px;
             color: #ffffff;
-            font-size: 46px;
             font-weight: 400;
-            font-family: 'Raleway', serif;
             text-align: center;
-            margin-top: 10px;
-            display: block;
+            display: inline-block;
             cursor: pointer;
+            padding-right: 50px;
+            font-family: 'Raleway', serif;
         }
 
         .cover_sod:hover
@@ -4700,13 +4692,12 @@ a.learning-area:hover{
                 height: auto;
                 font-family: FontAwesome;
             }
-            .cover_sod.open:before {}
 
             .cover_sod:after { display: none; }
 
         .cover_sod .sod_label {
             padding-right: 0px;
-            font-size: 2rem;
+            font-size: 3.5rem;
             display: initial;
             vertical-align: middle;
             white-space: normal;
@@ -4746,9 +4737,7 @@ a.learning-area:hover{
 
 @media(max-width:570px){
             .cover_sod {
-                font-size: 2.7rem;
-                margin-bottom: 10px;
-                left: 50%;
+                width:100%;
             }
             .swiper-slide h1,
             .swiper-slide .main-section-margins h2
@@ -4756,9 +4745,27 @@ a.learning-area:hover{
                 font-size: 3.5rem;
             }
             .sod_placeholder{
-                font-size: 1.7rem!important;
+                font-size: 2em!important;
+            }
+            .cover_sod .sod_option {
+                padding: 10px 5px;
+                font-size: 14px;
             }
 }
+@media(max-width:320px){
+    
+            .sod_placeholder{
+                font-size: 1.6em!important;
+            }  
+            .cover_sod .sod_option {
+                padding: 7px 3px;
+                font-size: 13px;
+            }   
+            .cover_sod .sod_label {
+                font-size: 1.6em;
+            }
+}
+
 
 /*------------------------- EVENT carousel styles -------------------------------------*/
 #event .intro a.btn{
