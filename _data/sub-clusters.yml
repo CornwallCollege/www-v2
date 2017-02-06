@@ -188,7 +188,7 @@
       icon: fa-home
       level: 1 2 3
       colour: 00A1CB
-      brand:  bic cc dc
+      brand:  cc dc
       sector: 16-18 19plus apprenticeships university
       campus: bicton-campus camborne-campus st-austell-campus saltash-campus
       campus-long:
@@ -685,9 +685,9 @@
       icon: fa-fire-extinguisher
       level: 1 2 3
       colour: D70060
-      brand: cc
+      brand: cc bic dc
       sector: 16-18 19plus university
-      campus: camborne-campus saltash-campus bicton-campus stoke-campus
+      campus: camborne-campus saltash-campus stoke-campus bicton-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
