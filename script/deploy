@@ -222,10 +222,10 @@ else
     echo "Deploying to Production"
     
     git clone --depth 1 git@github.com:CornwallCollege/www_static ../out
-
+sleep 5
     # Clean out existing contents
     rm -rf ../out/*
-
+ls -l ../out/
     echo "====================="
     echo "File Copy Start."
     echo "====================="
@@ -238,7 +238,7 @@ else
     pwd
     cd ../out
     pwd
-
+ls -a
     echo "====================="
     echo "Starting GIT publish."
     echo "====================="
