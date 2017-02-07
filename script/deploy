@@ -237,7 +237,7 @@ ls -l ../out/
 echo "====================="
 echo "Starting index.html check"
 echo "====================="
-if [ "$(ls -lR ../out | grep index.html | wc -l)" -ge "10" ];
+if [ "$(ls -lR ../out | grep sauce.html | wc -l)" -ge "10" ];
 then
   echo "==================================================================="
   echo "More than 10 index files exist so probably ok to push to www_static";
@@ -258,9 +258,10 @@ then
     git push
 
 else
-  echo "==============================================================="
-  echo "Didn't find index.html anywhere so not committing to www_static";
-  echo "==============================================================="
+  echo "=========================================================="
+  #echo "Didn't find index.html anywhere so not committing to www_static";
+  echo "Didn't find any sauce.html so not committing to www_static";
+  echo "=========================================================="
   exit 1
 fi;
 
