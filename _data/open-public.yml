@@ -40,20 +40,17 @@
     - campus-name: "Evolve Sport and Fitness (Camborne)"
       id: camborne-evolve
       class: panel-collapse collapse in
-      text: "Mon to Thu 12pm – 9pm, Fri 12pm – 8pm, Sat & Sun open on request.<br>Tel&#58; 01209 617732<br>"
-      download: ""
+      text: "Mon to Thu 12pm – 9pm, Fri 12pm – 8pm, Sat & Sun open on request.<br>Tel&#58; 01209 617732"
 
     - campus-name: "Evolve Sport and Fitness (St-Austell)"
       id: staustell-evolve
       class: panel-collapse collapse
-      text: "Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm<br>Opening Hours subject to change<br>Tel&#58; 01726 226440<br>"
-      download: "/documents/koko-camborne-priceList.pdf"
+      text: "Mon & Wed 7am – 9pm, Tue & Thu 9am – 9pm, Fri 9am – 8pm, Sat 8am – 1pm<br>Opening Hours subject to change<br>Tel&#58; 01726 226440"
 
     - campus-name: "Evolve Sport, Fitness and Outdoors (Stoke Climsland)"
       id: stoke-evolve
       class: panel-collapse collapse
-      text: "Please contact us for opening hours<br>Tel&#58; 01579 372206<br>"
-      download: ""
+      text: "Please contact us for opening hours<br>Tel&#58; 01579 372206"
 
     - campus-name: "Evolve Sport, Fitness and Outdoors (Bicton)"
       id: bicton-evolve
@@ -91,12 +88,14 @@
     - campus-name: "Stoke Equine"
       id: stoke-equine
       class: panel-collapse collapse in
-      text: "Tel&#58; 01579 372210<br>Email&#58; equine.events@duchy.ac.uk<br><a href='/documents/Stoke Equine Terms of Hire.pdf'>Download Livery & Equestrian Centre Hire Price list</a>"
+      text: "Tel&#58; 01579 372210<br>Email&#58; equine.events@duchy.ac.uk<br>"
+      download: "/documents/Stoke Equine Terms of Hire.pdf"
 
     - campus-name: Bicton Equine
       id: bicton-equine
       class: panel-collapse collapse
-      text: "Tel&#58; 01395 562354 <br>Email&#58; equestrian.centre@bicton.ac.uk<br><a href='/documents/Bicton Equine Pricelist 2016.pdf'>Download Livery & Equestrian Centre Hire Price list</a>"
+      text: "Tel&#58; 01395 562354 <br>Email&#58; equestrian.centre@bicton.ac.uk<br>"
+      download: "/documents/Bicton Equine Pricelist 2016.pdf"
 
 - business: "Mill Autoquip"
   color: e6007e
@@ -200,17 +199,20 @@
     - campus-name: Koko (Camborne)
       id: camborne-koko
       class: panel-collapse collapse in
-      text: "Hairdressing&#58; 01209 616167<br>Beauty & Holistic Therapies&#58; 01209 616167<br>Email&#58; koko.camborne@cornwall.ac.uk<br>The Complementary Health Therapy&#58; 01209 617796<br>Email&#58; cornwallclinic@hotmail.co.uk<br><a href='/documents/koko-camborne-priceList.pdf'>Download a Camborne price list</a>"
+      text: "Hairdressing&#58; 01209 616167<br>Beauty & Holistic Therapies&#58; 01209 616167<br>Email&#58; koko.camborne@cornwall.ac.uk<br>"
+      download: "/documents/koko-camborne-priceList.pdf"
 
     - campus-name: Koko (St Austell)
       id: staustell-koko
       class: panel-collapse collapse
-      text: "Hairdressing&#58; 01726 226728<br>Beauty & Holistic Therapies&#58; 01726 226731<br>Email&#58; koko.staustell@cornwall.ac.uk<br><a href='/documents/koko-stAustell-priceList.pdf'>Download a St Austell price list</a>"
+      text: "Hairdressing&#58; 01726 226728<br>Beauty & Holistic Therapies&#58; 01726 226731<br>Email&#58; koko.staustell@cornwall.ac.uk<br>"
+      download: "/documents/koko-stAustell-priceList.pdf"
 
     - campus-name: Koko (Saltash)
       id: saltash-koko
       class: panel-collapse collapse
-      text: "Hairdressing&#58; 01752 850207<br>Beauty & Holistic Therapies&#58; 01752 850206<br>Email&#58; koko.saltash@cornwall.ac.uk<br><a href='/documents/koko-saltash-priceList.pdf'>Download a Saltash price list</a>"
+      text: "Hairdressing&#58; 01752 850207<br>Beauty & Holistic Therapies&#58; 01752 850206<br>Email&#58; koko.saltash@cornwall.ac.uk<br>"
+      download: "/documents/koko-saltash-priceList.pdf"
 
   #table:
     #- icon: fa fa-clock-o
@@ -255,14 +257,14 @@
     - campus-name: Trevenson Menu
       id: trevenson-menu
       class: panel-collapse collapse in
-      text: "<a href='/documents/other/Trevenson MENU 1.pdf'>Trevenson Menu </a>"
+      download: "/documents/other/Trevenson MENU 1.pdf"
 
     - campus-name: Tasting Menu
       id: trevenson-menu2
       class: panel-collapse collapse
-      text: "<a href='/documents/other/Trevenson MENU 2.pdf'>Tasting Menu</a>"
+      download: "/documents/other/Trevenson MENU 2.pdf"
 
     - campus-name: Christmas Menu
       id: trevenson-menu3
       class: panel-collapse collapse
-      text: "<a href='/documents/other/Trevenson CHRISTMAS MENU.pdf'>Christmas Menu</a>"
+      download: "/documents/other/Trevenson CHRISTMAS MENU.pdf"

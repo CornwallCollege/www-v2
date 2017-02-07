@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
 //======================  Search filters  =================================
     // Create the dropdown base
     $("<select />").appendTo(".search-filters");
@@ -19,38 +19,38 @@ $(document).ready(function () {
          "text"              : el.text(),
          "data-name"         : el.attr("data-name"),
          "data-action"       : el.attr("data-action"),
-         "data-placeholder"  : el.attr("data-placeholder")         
+         "data-placeholder"  : el.attr("data-placeholder")
      }).appendTo(".search-filters select");
-    });   
-    
+    });
+
     // Search form update on click
-    $( ".search-filter" ).click(function() { 
+    $( ".search-filter" ).click(function() {
         //get data from link
         var name = $(this).data('name');
         var action = $(this).data('action');
         var placeholder = $(this).data('placeholder');
-        
+
         $('#search-form').attr('action', action );
         $('.form-control').attr("placeholder", placeholder);
         $('.form-control').attr("name", name);
         $( this ).addClass("active").removeClass( "not-active" );
-        $(this).siblings().removeClass( "active" ).addClass("not-active");     
+        $(this).siblings().removeClass( "active" ).addClass("not-active");
     });
-    
+
     //Watch for value change on select
     $('.search-filters select').on('change', function() {
         //get data from link
         var name = $(this).find(':selected').data('name');
         var action = $(this).find(':selected').data('action');
         var placeholder = $(this).find(':selected').data('placeholder');
-        
+
         $('#search-form').attr('action', action );
         $('.form-control').attr("placeholder", placeholder);
-        $('.form-control').attr("name", name);        
-        
+        $('.form-control').attr("name", name);
+
     });
 //======================  Search filters ENDS  =================================
-    
+
     //ajax in global menu items
     $("#main-menu").load("/global-menu.html");
     $("#footer").load("/global-footer.html");
@@ -61,9 +61,9 @@ $(document).ready(function () {
         e.preventDefault();
         window.location.href = $(this).attr("href") + 'referrer=' + pageURL;
     });
-    
+
     //set brand from site config
-    Cookies.set('brand', '#{{site.hash}}' );             
+    Cookies.set('brand', '#{{site.hash}}' );
     Cookies.set('course-brand', '#{{site.hash}}', {
         domain: '{{site.cookie-domain}}'
     });
@@ -73,14 +73,14 @@ $(document).ready(function () {
         //background:; cover fix
         $('.jumbotron').css({ 'background-size': "initial" });
         $('.fulltime-bar').css({ 'background-size': "initial", 'background-attachment': "initial", });
-    }      
-    
+    }
+
     function is_IOS() {
-      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
+      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
         return isIOS;
-    }  
+    }
 });
-    
+
 
     // resposive logo; first click open second click follow link
     $('.brand-image').click(function (e) {
@@ -98,7 +98,7 @@ $(document).ready(function () {
             }
 
         }
-    });   
+    });
 
 
 // click off and collapse
@@ -135,8 +135,8 @@ $(function () {
             $('#white-nav-bg').removeClass('active');
 
         }
-  
-  
+
+
     });
 });
 
@@ -186,8 +186,8 @@ function incrementCount(counter) {
 }
 
 (function ($) {
-    
-    
+
+
     $(document).ready(function () {
     /* Set brand cookie on home */
         $('.logo').removeClass('current-brand');
@@ -207,9 +207,9 @@ function incrementCount(counter) {
            $(this).css("z-index", 999 - offset);
             offset++;
 
-        });        
-        
-        
+        });
+
+
         $('#loader').fadeOut(400);
         /*
             $(window).load(function() { // makes sure the whole site is loaded
@@ -220,7 +220,7 @@ function incrementCount(counter) {
                 showPopup(hash);
             }
         */
-        
+
        /* EXPANDER GRID INITIALIZER (used in location facilities) */
        if ( $( "#og-grid" ).length ) {
           Grid.init();
@@ -397,7 +397,7 @@ function incrementCount(counter) {
 
         }
     });
-    
+
     if (location.pathname.indexOf("university-hub") !== -1 ) {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -410,9 +410,9 @@ function incrementCount(counter) {
               return false;
             }
           }
-        });    
+        });
     }
-    
+
     $(function () {
         window.smoothScrollTo = function (id) {
             $('html, body').animate({
@@ -463,6 +463,7 @@ $(document).ready(function () {
     //GOOGLE MAP
     if (location.pathname.indexOf("career-pages") !== -1 ||
         location.pathname.indexOf("location-hub") !== -1 ||
+        location.pathname.indexOf("access-hub") !== -1 ||
         location.pathname.indexOf("location-pages") !== -1) {
         function initMap() {
             var map = new google.maps.Map(document.getElementById('gmap_canvas'), {
@@ -584,7 +585,7 @@ $(document).ready(function () {
                             window.smoothScrollTo(this.anchor)
                         }
                     })(marker, i));
-                
+
                 } else if (location.pathname.indexOf("location-pages") !== -1) {
 
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {
@@ -592,8 +593,8 @@ $(document).ready(function () {
                             infowindow.setContent('<h4>' + campuses[i][0] + '</h4>');
                             infowindow.open(map, marker);
                         }
-                    })(marker, i));                    
-                    
+                    })(marker, i));
+
                 } else {
 
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {
@@ -633,33 +634,33 @@ $(document).ready(function () {
    $(function() {
        if ( $( ".jcarousel" ).length ) {
          var jcarousel = $('.jcarousel');
-       
+
          jcarousel
              .on('jcarousel:reload jcarousel:create', function () {
                  var width = jcarousel.innerWidth();
-       
+
                  if (width >= 768) {
                      width = width / 4;
                  } else if (width >= 450) {
-                     width = width / 2;                                     
-                 } 
-       
+                     width = width / 2;
+                 }
+
                  jcarousel.jcarousel('items').css('width', width + 'px');
              })
              .jcarousel({
                  wrap: 'circular'
              });
-   
+
          $('.jcarousel-control-prev')
              .jcarouselControl({
                  target: '-=1'
              });
-       
+
          $('.jcarousel-control-next')
              .jcarouselControl({
                  target: '+=1'
              });
-   
+
          $('.jcarousel-pagination')
              .on('jcarouselpagination:active', 'a', function() {
                  $(this).addClass('active');
@@ -711,10 +712,10 @@ $(document).ready(function(){
 			$(".video-controls").show().css({opacity: 0, visibility: "visible"}).animate({opacity: 1},300);
 			//$(".fullscreen-img, .home-content").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
 		});
-        //Hide the UI 
+        //Hide the UI
         $( ".play-btn-normal" ).click(function() {
             $(".fullscreen-img, .home-content").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
-            $(".raster").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);               
+            $(".raster").css({opacity: 1, visibility: "hidden"}).animate({opacity: 0},300);
 		});
 		// Pause the movie
 		$("#video").on("YTPPause",function(){
@@ -738,16 +739,16 @@ $(document).ready(function(){
 		$(".fullscreen-video, .video-controls, .play-btn-normal").hide();
 	}
 
-    
-    if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ) {        
+
+    if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ) {
         //jQuery RSS parse for events on campus pages
-        
+
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
-        
+
         if (location.pathname.indexOf("apprenticeship-hub") !== -1){
             var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
-        } else if (location.pathname.indexOf("university-hub") !== -1){    
-            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/university/feed/";                 
+        } else if (location.pathname.indexOf("university-hub") !== -1){
+            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/university/feed/";
         } else {
             var event_filter = "https://network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
         }
@@ -830,33 +831,33 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             itemSelector: '.area',
             //resizable: false
         });
-        function rebuildLayout(id) { 
-            $(id).isotope( 'layout' );     
-        }        
-        // read more link on Learning area page     
+        function rebuildLayout(id) {
+            $(id).isotope( 'layout' );
+        }
+        // read more link on Learning area page
         $container.on('click', '.show-more', function () {
             // change size of item by toggling big class
             if($(this).parent().find(".detail").is(':visible')){
                 $(this).parent().find(".detail").fadeOut(50);
             }
             else{
-               $(this).parent().find(".detail").fadeIn(1500);   
+               $(this).parent().find(".detail").fadeIn(1500);
             }
-            
+
             $(this).parent().toggleClass('big');
 
-            //hide the readmore link  
+            //hide the readmore link
             $(this).children(".readmore").toggle();
-            //re-build the layout after a delay 
+            //re-build the layout after a delay
             setTimeout(function(){rebuildLayout('#career-content')}, 300);
         });
 
-        // read more link on sector page    
+        // read more link on sector page
         $sector.on('click', '.show-more', function () {
             $(this).parent().toggleClass('big');
             $(this).children(".readmore").toggle();
             $sector.isotope('layout');
-            //re-build the layout after a delay 
+            //re-build the layout after a delay
             setTimeout(function(){rebuildLayout('#sector-page-content')}, 300);
         });
 
@@ -866,7 +867,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 
             $sector.isotope({ filter: filterValue });
             $sector.show();
-            //if 16-18 show the 'how you learn' filters 
+            //if 16-18 show the 'how you learn' filters
             $sector.isotope('layout');
             $('html, body').animate({
                 scrollTop: $('#sector-page-content').offset().top - 150
@@ -878,7 +879,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 
         // filter with selects and checkboxes
         var $checkboxes = $('#form-ui input');
-        //declare the courseType var for use later    
+        //declare the courseType var for use later
         var courseType;
         var campusFilter;
         var brandFilter;
@@ -891,14 +892,14 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
         });
 
         $checkboxes.change(function () {
-            // map input values to an array   
+            // map input values to an array
             //var exclusives = [];
             var inclusives = [];
             //get and set course type data value
             courseType = $(this).attr("data-course-type") || courseType;
             //get and set campus data value
             campusFilter = $(this).attr("data-campus") || campusFilter;
-            //get and set brand data value  
+            //get and set brand data value
             brandFilter = $(this).attr("data-brand") || brandFilter;
             // inclusive filters from checkboxes
 
@@ -922,7 +923,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             })
         });
 
-        // set the course area on click    
+        // set the course area on click
         $('.course-area').click(function () {
             //event.preventDefault();
             if (typeof courseType !== "undefined") {
@@ -947,7 +948,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 
         });
 
-        // Preset options 
+        // Preset options
         var brand_cookie = Cookies.get('brand');
         if (brand_cookie == '#duchy') {
             $('.area-filter > input[value=".dc"]').parent().click();
@@ -964,7 +965,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             filter: '*'
             });
         });
-    
+
 }
 if (location.pathname.indexOf("university-hub") !== -1) {
     //play video on click UNIVERSITY Hub
@@ -983,21 +984,21 @@ $(document).ready(function () {
         $( ".content3" ).slideUp( "slow", "swing");
         $( ".content4" ).slideUp( "slow", "swing");
     });
-    
+
     $( ".tile2" ).click(function() {
         $( ".content2" ).slideToggle( "slow", "swing");
         $( ".content1" ).slideUp( "slow", "swing");
         $( ".content3" ).slideUp( "slow", "swing");
         $( ".content4" ).slideUp( "slow", "swing");
     });
-    
+
     $( ".tile3" ).click(function() {
         $( ".content3" ).slideToggle( "slow", "swing");
         $( ".content1" ).slideUp( "slow", "swing");
         $( ".content2" ).slideUp( "slow", "swing");
         $( ".content4" ).slideUp( "slow", "swing");
     });
-    
+
     $( ".tile4" ).click(function() {
         $( ".content4" ).slideToggle( "slow", "swing");
         $( ".content1" ).slideUp( "slow", "swing");
@@ -1005,7 +1006,7 @@ $(document).ready(function () {
         $( ".content3" ).slideUp( "slow", "swing");
     });
 });
-// get announcement from 
+// get announcement from
 jQuery(document).ready(function () {
     // Lookup alert message and display if required
     jQuery.getJSON('https://network.cornwall.ac.uk/?action=ccg_get_announcement', function(data) {
@@ -1026,4 +1027,3 @@ jQuery(document).ready(function () {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
-
