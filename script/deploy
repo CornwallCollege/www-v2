@@ -237,7 +237,7 @@ ls -l ../out/
 echo "====================="
 echo "Starting index.html check"
 echo "====================="
-if [ "$(ls -lR ../out | grep sauce.html | wc -l)" -ge "10" ];
+if [ "$(ls -lR ../out | grep index.html | wc -l)" -ge "10" ];
 then
   echo "==================================================================="
   echo "More than 10 index files exist so probably ok to push to www_static";
