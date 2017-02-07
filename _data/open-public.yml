@@ -160,22 +160,22 @@
     - campus-name: Opening Times & Events
       id: cloisters-opening
       class: panel-collapse collapse in
-      download: "/documents/cloisters/calender.pdf"
+      download: "/documents/cloisters-menus/calendar.pdf"
 
     - campus-name: Lunch Menu
       id: cloisters-lunch
       class: panel-collapse collapse
-      download: "/documents/cloisters/lunch-menu.docx"
+      download: "/documents/cloisters-menus/lunch-menu.pdf"
 
     - campus-name: Drinks List
       id: cloisters-drinks
       class: panel-collapse collapse
-      download: "/documents/cloisters/drinks-list.docx"
+      download: "/documents/cloisters-menus/drinks-list.pdf"
 
     - campus-name: Wine List
       id: cloisters-wine
       class: panel-collapse collapse
-      download: "/documents/cloisters/wine-list.doc"
+      download: "/documents/cloisters-menus/wine-list.pdf"
 
 - business: "Dog Grooming"
   color: 77BC43
