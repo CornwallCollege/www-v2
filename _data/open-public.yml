@@ -156,6 +156,26 @@
     - icon: fa fa-phone
       detail: 01726 226740
 
+  campus:
+    - campus-name: Opening Times & Events
+      id: cloisters-opening
+      class: panel-collapse collapse in
+      download: "/documents/cloisters/calender.pdf"
+
+    - campus-name: Lunch Menu
+      id: cloisters-lunch
+      class: panel-collapse collapse
+      download: "/documents/cloisters/lunch-menu.docx"
+
+    - campus-name: Drinks List
+      id: cloisters-drinks
+      class: panel-collapse collapse
+      download: "/documents/cloisters/drinks-list.docx"
+
+    - campus-name: Wine List
+      id: cloisters-wine
+      class: panel-collapse collapse
+      download: "/documents/cloisters/wine-list.doc"
 
 - business: "Dog Grooming"
   color: 77BC43
