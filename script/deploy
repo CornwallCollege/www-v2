@@ -234,9 +234,14 @@ ls -l ../out/
     echo "File Copy Finish."
     echo "====================="
 
-if [ "$(ls -lR ../out | grep sauce.html | wc -l)" -ge "1" ];
+echo "====================="
+echo "Starting index.html check"
+echo "====================="
+if [ "$(ls -lR ../out | grep index.html | wc -l)" -ge "10" ];
 then
-  echo "More than 1 index file exists";
+  echo "==================================================================="
+  echo "More than 10 index files exist so probably ok to push to www_static";
+  echo "==================================================================="
 
     pwd
     cd ../out
@@ -253,9 +258,10 @@ then
     git push
 
 else
-  echo "No sauce - goodbye!";
-  #echo "Didn't find index.html";
-  exit 0
+  echo "==============================================================="
+  echo "Didn't find index.html anywhere so not committing to www_static";
+  echo "==============================================================="
+  exit 1
 fi;
 
 
