@@ -234,7 +234,7 @@ ls -l ../out/
     echo "File Copy Finish."
     echo "====================="
 
-if [ "$(ls -lR ../out | grep index.html | wc -l)" -ge "1" ];
+if [ "$(ls -lR ../out | grep sauce.html | wc -l)" -ge "1" ];
 then
   echo "More than 1 index file exists";
 
@@ -253,7 +253,8 @@ then
     git push
 
 else
-  echo "Didn't find index.html";
+  echo "No sauce - goodbye!";
+  #echo "Didn't find index.html";
   exit 0
 fi;
 
