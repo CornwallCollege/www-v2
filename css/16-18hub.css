@@ -3043,7 +3043,14 @@ animation: orbit 2s linear infinite;
     color:white;
 }
 /*================================ Media stuff =================================*/    
-    
+@media (max-width:500px){
+    .how-we-work ul li {
+        width:100%;
+    }    
+    .how-we-work ul li a i {
+        margin: 20px auto;
+    }
+}    
 @media (min-width:992px) and (max-width:1550px){
     .we-perfection-slope:before,
     .we-launch-slope:before{
