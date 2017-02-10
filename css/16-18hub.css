@@ -197,7 +197,7 @@ h2,
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin-top: 34px;
+	margin-top: 75px;
 }
 
 .service-section .service-bg > h3 {
@@ -213,14 +213,19 @@ h2,
 	position: relative;
 	padding: 0 20px;
 }
-.service-section .col-md-6:nth-child(4) {
-	right: 117px;
-	margin: 43px 0;
-}
+@media(min-width:992){
+    .service-section .col-md-6:nth-child(4) {
+        right: 117px;
+        margin: 43px 0;
+    }
 
-.service-section .col-md-6:nth-child(5) {
-	left: 117px;
-	margin: 43px 0;
+    .service-section .col-md-6:nth-child(5) {
+        left: 117px;
+        margin: 43px 0;
+    }
+    .service-section .col-md-6:nth-child(even) > .service-box-inner{
+        text-align: right;
+    }    
 }
 
 .service-box-inner {
@@ -257,9 +262,7 @@ h2,
 	transition: color 0.3s;
 }
 
-.service-section .col-md-6:nth-child(even) > .service-box-inner{
-	text-align: right;
-}
+
 
 .service-box-inner:hover .icon-srv {
 	background-color: #52B3D9;
@@ -1303,6 +1306,7 @@ h2,
         top:-40px;
 
     }
+}
 
 /* ## Application Section ## */
 
