@@ -1066,32 +1066,17 @@ h2,
 }
 
 .we-perfection-slope:before {
-	width: 58.5%;
-	height: 100%;
-	border-bottom: 800px solid rgba(101,177,214,0.9);
-	border-left: 0px solid transparent;
-	border-right: 230px solid transparent;
-	border-top: 0px solid rgba(101,177,214,0.9);
-	content: "";
-	position: absolute;
-	top: -4px;
-	left: 0;
-	bottom: 0;
-}
-@media(max-width:1550px){
-    .we-perfection-slope:before {
-        width: 60%;
-        height: 130%;
-        border-bottom: initial;
-        border-left: initial;
-        border-right: initial;
-        border-top: initial;
-        content: "";
-        position: absolute;
-        top: initial;
-        left: -60px;
-        bottom: 0;
-    }
+    width: 58.5%;
+    height: 120%;
+    border-bottom: 800px solid rgba(101,177,214,0.9);
+    border-left: 0px solid transparent;
+    border-right: 230px solid transparent;
+    border-top: 0px solid rgba(101,177,214,0.9);
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    bottom: 0;
 }
 
 .we-perfection-box-inner {
@@ -1218,7 +1203,7 @@ h2,
 }
 
 .we-launch-slope:before {
-	width: 55%;
+	width: 60%;
 	height: 100%;
 	border-bottom: 800px solid rgba(101,177,214,0.9);
 	border-left: 0px solid transparent;
@@ -3019,7 +3004,7 @@ animation: orbit 2s linear infinite;
 .punchout h2 span{
     font-weight: bold;
 }
-@media(max-width:680px;){
+@media(max-width:680px){
     .punchout h2{
         text-transform: uppercase;
         font-size: 1.9em;
@@ -3056,4 +3041,23 @@ animation: orbit 2s linear infinite;
 }
 .browse-by h4{
     color:white;
+}
+/*================================ Media stuff =================================*/    
+    
+@media (min-width:992px) and (max-width:1550px){
+    .we-perfection-slope:before,
+    .we-launch-slope:before{
+        width: 60%;
+        height: 130%;
+        border-bottom: initial;
+        border-left: initial;
+        border-right: initial;
+        border-top: initial;
+        content: "";
+        position: absolute;
+        top: initial;
+        left: -60px;
+        bottom: 0;
+    }
+
 }
