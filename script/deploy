@@ -28,6 +28,9 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "master" ]; then
 #///////////////
 	# git@github.com:CornwallCollege/www_static.git
     git clone --depth 1 git@github.com:CornwallCollege/www_static ../out
+    echo "Switched to develop branch"
+    git pull origin develop
+    echo "did pull"
     git checkout develop
     # Clean out existing contents
     rm -rf ../out/*
