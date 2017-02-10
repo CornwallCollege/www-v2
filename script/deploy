@@ -235,34 +235,37 @@ ls -l ../out/
     echo "====================="
 
 
+echo "====================="
+echo "Starting index.html check"
+echo "====================="
+if [ "$(ls -lR ../out | grep index.html | wc -l)" -ge "10" ];
+then
+  echo "==================================================================="
+  echo "More than 10 index files exist so probably ok to push to www_static";
+  echo "==================================================================="
+
     pwd
     cd ../out
     pwd
-ls -a
+    
     echo "====================="
     echo "Starting GIT publish."
     echo "====================="
     git config user.name "Travis CI"
     git config user.email "${COMMITTER_EMAIL}"
 
-    #Detect if just new files have been added
-    #git add -N .
-
-    # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-    #if [ -z `git diff --exit-code` ]; then
-    #    echo "No changes to the output on this push; exiting."
-    #    exit 0
-    #fi
-
-    # Commit the "changes", i.e. the new version.
-    # The delta will show diffs between new and old versions.
     git add -A .
     git commit -m "Deploy to GitHub: ${SHA}"
-
-
-
     # Now that we're all set up, we can push.
     git push
+
+else
+  echo "=========================================================="
+  echo "Didn't find any sauce.html so not committing to www_static";
+  echo "=========================================================="
+  exit 1
+fi;
+
 fi
 
 
