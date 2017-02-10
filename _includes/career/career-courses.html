@@ -18,10 +18,17 @@
       {% include /career/career-courses-course.html title=include.courseTitle3 link=include.infoLink3 %}
       {% include /career/career-courses-course.html title=include.courseTitle4 link=include.infoLink4 %}
       {% include /career/career-courses-course.html title=include.courseTitle5 link=include.infoLink5 %}
+      {% include /career/career-courses-course.html title=include.courseTitle6 link=include.infoLink6 %}
+      {% include /career/career-courses-course.html title=include.courseTitle7 link=include.infoLink7 %}
+      {% include /career/career-courses-course.html title=include.courseTitle8 link=include.infoLink8 %}
+      {% include /career/career-courses-course.html title=include.courseTitle9 link=include.infoLink9 %}
+      {% include /career/career-courses-course.html title=include.courseTitle10 link=include.infoLink10 %}
 
 
       {% if page.top5-name %}
         <a title='view all courses in this area' href='{{ site.url }}/cluster/{{ page.top5-name }}' class="btn">View All Courses in {{ page.title }}</a>
+      {% elsif page.link == 'access-hub' %}
+        <a title='view all courses in this area' href='{{ site.url }}/tag/access' class="btn">View All Courses in {{ page.title }}</a>
       {% else %}
         <a title='view all courses in this area' href='{{ site.url }}/cluster/{{ page.title | downcase | remove: "&amp;" | remove: "of" | remove: "," | replace: ' ', '-' | replace: '--', '-'}}' class="btn">View All Courses in {{ page.title }}</a>
       {% endif %}

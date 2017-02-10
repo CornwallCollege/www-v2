@@ -113,7 +113,7 @@ then
     git add -A .
     git commit -m "Deploy to GitHub: ${SHA}"
     # Now that we're all set up, we can push.
-    git push origin master
+    git push
 
 else
   echo "=========================================================="

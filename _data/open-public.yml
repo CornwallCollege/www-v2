@@ -145,7 +145,7 @@
   image: /images/public/cloisters.jpg
   alt: Cloisters Restaurant Image
   title: "Cloisters Restaurant is located at Cornwall College’s St Austell campus and is one of two fine dining commercial restaurants within the Cornwall College Group."
-  text: "Here students host and serve as well as create some mouth-watering menus every day for the general public.</p><p>We are open for lunch, Monday &#8208; Friday, with evening meals and a choice menu available on certain dates.</p><p>Offering excellent food at greatly reduced rates, with some experimental menus from our students as well as the traditional classics you would expect from a five star restaurant.</p><p>Cloisters Restaurant uses fine locally sourced produce and is also fully licensed, offering a comprehensive selection of wines chosen to accompany each dish on the menu. In addition to regular fine dining lunchtime sessions during term time, Cloisters Restaurant also offers a series of fine dining evenings, devised, prepared and hosted by the students themselves throughout the year.The restaurant is also available for large group bookings."
+  text: "Here students host and serve as well as create some mouth-watering menus every day for the general public.</p><p>We are open for lunch, Monday &#8208; Friday, with evening meals and a choice menu available on certain dates.</p><p>Offering excellent food at greatly reduced rates, with some experimental menus from our students as well as the traditional classics you would expect from a five star restaurant.</p><p>Cloisters Restaurant uses fine locally sourced produce and is also fully licensed, offering a comprehensive selection of wines chosen to accompany each dish on the menu. In addition to regular fine dining lunchtime sessions during term time, Cloisters Restaurant also offers a series of fine dining evenings, devised, prepared and hosted by the students themselves throughout the year. The restaurant is also available for large group bookings."
   table:
     - icon: fa fa-clock-o
       detail: "Mon to Fri for lunch"
@@ -156,6 +156,26 @@
     - icon: fa fa-phone
       detail: 01726 226740
 
+  campus:
+    - campus-name: Opening Times & Events
+      id: cloisters-opening
+      class: panel-collapse collapse in
+      download: "/documents/cloisters-menus/calendar.pdf"
+
+    - campus-name: Lunch Menu
+      id: cloisters-lunch
+      class: panel-collapse collapse
+      download: "/documents/cloisters-menus/lunch-menu.pdf"
+
+    - campus-name: Drinks List
+      id: cloisters-drinks
+      class: panel-collapse collapse
+      download: "/documents/cloisters-menus/drinks-list.pdf"
+
+    - campus-name: Wine List
+      id: cloisters-wine
+      class: panel-collapse collapse
+      download: "/documents/cloisters-menus/wine-list.pdf"
 
 - business: "Dog Grooming"
   color: 77BC43
