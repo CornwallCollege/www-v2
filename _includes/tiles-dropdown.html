@@ -14,10 +14,10 @@
 
         {% if tile.tile-link %}
           <section>
-            <a class="btn ghost" href="{{ site.course_site_baseurl }}{{ tile.tile-link }}" title="{{ tile.tile-title }}" style="width:100%; white-space:normal;">Financial Information</a>
+            <a class="btn ghost" href="{{ site.course_site_baseurl }}{{ tile.tile-link }}" title="{{ tile.tile-title }}" style="width:100%; white-space:normal;">{{ tile.tile-link-title }}</a>
           </section>
         {% endif %}
-        
+
       </div>
     </article>
     {% endfor %}
