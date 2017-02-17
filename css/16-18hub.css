@@ -75,7 +75,7 @@ h3{
 }
 h2{
     line-height: 1.4em;
-    font-size: 2em!important;
+    font-size: 2em;
 }
 h2,
 .section-header h2,
@@ -213,7 +213,6 @@ h2,
 	position: relative;
 	padding: 0 20px;
 }
-@media(min-width:992){
     .service-section .col-md-6:nth-child(4) {
         right: 117px;
         margin: 43px 0;
@@ -226,7 +225,7 @@ h2,
     .service-section .col-md-6:nth-child(even) > .service-box-inner{
         text-align: right;
     }    
-}
+
 
 .service-box-inner {
 	display: inline-block;
@@ -1321,7 +1320,7 @@ h2,
 
 .app-content-box h2 {
 	font-weight: 900;
-	font-size: 72px;
+	font-size: 3em;
 	text-transform: uppercase;
 	color: #52B3D9;
 	margin-bottom: 30px;
@@ -3042,15 +3041,53 @@ animation: orbit 2s linear infinite;
 .browse-by h4{
     color:white;
 }
-/*================================ Media stuff =================================*/    
-@media (max-width:500px){
+/*================================ Media stuff =================================*/
+/*mobile*/
+@media (max-width:420px){
     .how-we-work ul li {
         width:100%;
     }    
     .how-we-work ul li a i {
         margin: 20px auto;
     }
-}    
+    .project-section:before{
+         background: #52B3D9;   
+    }
+    .start-project h2, .send-msg h2{
+        font-size: 1.5em;
+    }    
+    .start-project a, .send-msg a {
+        font-size: 1em  ;
+        margin-right: 0;
+        width:100%;
+        margin-left: 10px;
+    }
+    .start-project{
+        padding-right:10px;
+    }
+    .send-msg p {
+        margin-left: 20px;
+    }
+    .start-project a, 
+    .send-msg a{
+        transform: initial;
+        -webkit-transform: initial;
+        -moz-transform: initial;
+        -o-transform: initial;
+        -ms-transform: initial;
+    }    
+
+    
+}
+/*mobile to tablet*/
+@media (min-width:421px) and (max-width:768px){
+
+}
+/*tablet*/
+@media (min-width:769px) and (max-width:1024px){
+    
+} 
+/*desktop*/
 @media (min-width:992px) and (max-width:1550px){
     .we-perfection-slope:before,
     .we-launch-slope:before{

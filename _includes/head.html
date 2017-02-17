@@ -68,6 +68,12 @@
 
 <!-- Latest compiled and minified CSS -->
 {% css main %}
+    
+{% if page.custom_css %}
+    
+    <link rel="stylesheet" type="text/css" href="{{ page.custom_css }}">
+    
+{% endif %}
 
 {% if page.page == 'home' %}
     <!--<link rel="stylesheet" type="text/css" href="/css/home.css">-->
