@@ -8,6 +8,11 @@
 .we-perfection h2 strong{
     color: #333
 }
+.how-we-work h2{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+} 
 .how-we-work ul {
 	text-align: center;
 	margin-bottom: 48px;
@@ -90,10 +95,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
-    color: white;
 }
-.shape-content{
-
+.research-slope .shape-content p{
+    color: white;
 }
 .research-slope:before {
 	width: 52%;
@@ -981,6 +985,9 @@
         padding-bottom:0;
     }
     .features-section:before {
+        display: none;
+    }   
+    .how-we-work ul li:before {
         display: none;
     }    
 }
