@@ -344,7 +344,7 @@
       - sub-area-title: Social Care & Health
         sub-area-link: social-care-health
 
-      - sub-area-title: Sports & Fitness
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
 
     - area-title: Science & Natural Environment
@@ -659,7 +659,7 @@
     - area-title: Health & Wellbeing
       area-color: D70060
       sub-areas:
-      - sub-area-title: Sports & Fitness
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
 
 
@@ -1099,7 +1099,7 @@
       - sub-area-title: Social Care & Health
         sub-area-link: social-care-health
 
-      - sub-area-title: Sports & Fitness
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
 
     - area-title: Science & Natural Environment
@@ -1233,7 +1233,7 @@
       - sub-area-title: Public Services & Military Academy
         sub-area-link: public-services-military-academy
 
-      - sub-area-title: Sports & Fitness
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
 
     - area-title: Rural Economy
