@@ -120,7 +120,7 @@
   colour: 77BC43
 
   #STAC Room Booking Form
-- title: STAC Room Booking Form  # Document name
+- title: Cornwall College St Austell Room Booking Form  # Document name
   type: Excel Spreadsheet # Document type
   category: application-forms # Document category
   download-link: /documents/application-form/STAC Room Booking Form.xlsx
@@ -162,14 +162,14 @@
   colour: 004B93
 
   #05336JW0315_CCB_Higher_Skills_Food_flyer
-- title: CCB Higher Skills Food flyer # Document name
+- title: Cornwall College Business Higher Skills Food flyer # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05336JW0315_CCB_Higher_Skills_Food_flyer.pdf
   colour: 004B93
 
   #05352JW0315_CCC_GasOil_flyer
-- title: CCC GasOil flyer # Document name
+- title: Cornwall College Camborne GasOil flyer # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05352JW0315_CCC_GasOil_flyer.pdf
@@ -225,7 +225,7 @@
   colour: 004B93
 
   #HE Term Dates 2016-17
-- title: HE Term Dates 2016-17 # Document name
+- title: Higher Education Term Dates 2016-17 # Document name
   type: Word # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/HE Term Dates 2016-17.doc
@@ -593,7 +593,7 @@
   # End of Equality and diversity section
 
   #03538JW0213_STAC_Alevel_Plus_info_A5
-- title: STAC Alevel Plus info_A5 # Document name
+- title: Cornwall College St Austell A-level Plus info_A5 # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/03538JW0213_STAC_Alevel_Plus_info_A5.pdf
@@ -607,21 +607,21 @@
   colour: 00A5B4
 
   #Access to He leaflet 21.11.14
-- title: Access to He leaflet 21.11.14 # Document name
+- title: Access to Higher Education leaflet 21.11.14 # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Access to He leaflet 21.11.14.pdf
   colour: 00A5B4
 
   #access to He leaflet x2000
-- title: access to He leaflet x2000 # Document name
+- title: Access to Higher Education leaflet x2000 # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/access to He leaflet x2000.pdf
   colour: 00A5B4
 
   #Accommodation info for HE students_1
-- title: Accommodation info for HE students # Document name
+- title: Accommodation info for Higher Education students # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Accommodation info for HE students_1.pdf
@@ -698,56 +698,56 @@
   colour: 00A5B4
 
   #CC CAM A3 Fold A5 Parents Guide
-- title: Cornwall College CAM A3 Fold A5 Parents Guide # Document name
+- title: Cornwall College Camborne A3 Fold A5 Parents Guide # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC CAM A3 Fold A5 Parents Guide.pdf
   colour: 00A5B4
 
   #CC CAM Bus times
-- title: Cornwall College CAM Bus times # Document name
+- title: Cornwall College Camborne Bus times # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC CAM Bus times.pdf
   colour: 00A5B4
 
   #CC HE T&C's 2016
-- title: "CC HE T &amp; Cs 2016" # Document name
+- title: "Cornwall College Higher Education T &amp; Cs 2016" # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC-HE-TandCs-2016.pdf
   colour: 00A5B4
 
-  #CC NQ A3 Fold A5 Parents Guide
-- title: Cornwall College NQ A3 Fold A5 Parents Guide # Document name
+  #CC Newquay A3 Fold A5 Parents Guide
+- title: Cornwall College Newquay A3 Fold A5 Parents Guide # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC NQ A3 Fold A5 Parents Guide.pdf
   colour: 00A5B4
 
   #CC SALT A3 Fold A5 Parents Guide
-- title: Cornwall College SALT A3 Fold A5 Parents Guide # Document name
+- title: Cornwall College Saltash A3 Fold A5 Parents Guide # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC SALT A3 Fold A5 Parents Guide.pdf
   colour: 00A5B4
 
   #CC STAC A3 Fold A5 Parents Guide
-- title: Cornwall College STAC A3 Fold A5 Parents Guide # Document name
+- title: Cornwall College St Austell A3 Fold A5 Parents Guide # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC STAC A3 Fold A5 Parents Guide.pdf
   colour: 00A5B4
 
   #CC_FOI_Scheme_Introduction
-- title: Cornwall College FOI Scheme Introduction # Document name
+- title: Cornwall College Freedom Of Information Scheme Introduction # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC_FOI_Scheme_Introduction.pdf
   colour: 00A5B4
 
   #CCES_FOI_Scheme_Introduction
-- title: CCES FOI Scheme Introduction # Document name
+- title: CCES Freedom Of Information Scheme Introduction # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CCES_FOI_Scheme_Introduction.pdf
@@ -859,7 +859,7 @@
   colour: 00A5B4
 
   #Falmouth Accommodation 2015
-- title: Falmouth Accommodation 2015 # Document name
+- title: Falmouth Marine School Accommodation 2015 # Document name
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/Falmouth Accommodation 2015.docx
@@ -908,7 +908,7 @@
   colour: 00A5B4
 
   #FOI__Guide_to__information__CC
-- title: FOI Guide to information Cornwall College # Document name
+- title: Freedom Of Information Act Guide to information Cornwall College # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/FOI__Guide_to__information__CC.pdf
@@ -936,7 +936,7 @@
   colour: 00A5B4
 
   #NQY External Room Booking Charges 2013-2014
-- title: NQY External Room Booking Charges 2013-2014 # Document name
+- title: Cornwall College Newquay External Room Booking Charges 2013-2014 # Document name
   type: Excel Spreadsheet # Document type
   category: guides # Document category
   download-link: /documents/guides/NQY External Room Booking Charges 2013-2014.xlsx
@@ -964,7 +964,7 @@
   colour: 00A5B4
 
   #Student_Accommodation_Advice_for_SC_2014
-- title: Student Accommodation Advice for SC 2014 # Document name
+- title: Student Accommodation Advice for Self-Catering 2014 # Document name
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/Student_Accommodation_Advice_for_SC_2014.doc
@@ -994,14 +994,14 @@
   # End of Guides
 
   #CAM_2011_Maps
-- title: Camborne 2011 Map # Document name
+- title: Cornwall College Camborne 2011 Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/CAM_2015_Maps.pdf
   colour: 006D43
 
   #Campus Map Falmouth
-- title: Campus Map Falmouth # Document name
+- title: Falmouth Marine School Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/Campus Map Falmouth.pdf
@@ -1015,35 +1015,35 @@
   colour: 006D43
 
   #NQ Campus Map
-- title: Newquay Campus Map # Document name
+- title: Cornwall College Newquay Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/NQ Campus Map.pdf
   colour: 006D43
 
   #Saltash Campus Map
-- title: Saltash Campus Map # Document name
+- title: Cornwall College Saltash Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/Saltash Campus Map.pdf
   colour: 006D43
 
   #Site Map St Austell
-- title: Site Map St Austell # Document name
+- title: Cornwall College St Austell Site Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/Site Map St Austell.pdf
   colour: 006D43
 
   #STAC 3D Map 2015
-- title: St Austell Map 2015 # Document name
+- title: Cornwall College St Austell Map 2015 # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/STAC 3D Map 2015.pdf
   colour: 006D43
 
   #Stoke Campus Map
-- title: Stoke Campus Map # Document name
+- title: Cornwall College Stoke Climsland Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/Stoke Campus Map.pdf
@@ -1066,7 +1066,7 @@
   colour: e69900
 
   #CCB App Recruit ad Insider 2014
-- title: CCB App Recruit ad Insider 2014 # Document name
+- title: Cornwall College Business App Recruit ad Insider 2014 # Document name
   type: PDF # Document type
   category: newsletter # Document category
   download-link: /documents/newsletters/CCB_App_Recruit_ad_Insider 2014.pdf
@@ -1096,14 +1096,14 @@
   colour: 961313
 
   #05503JW0615_CCC_Play_in_a_Week_poster
-- title: CCC Play in a Week poster # Document name
+- title: Cornwall College Camborne Play in a Week poster # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/05503JW0615_CCC_Play_in_a_Week_poster.pdf
   colour: 961313
 
   #05682JW1015_TCCG_Counselling_leaflet
-- title: TCCG Counselling leaflet # Document name
+- title: The Cornwall College Group Counselling leaflet # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/05682JW1015_TCCG_Counselling_leaflet.pdf
@@ -1131,14 +1131,14 @@
   colour: 961313
 
   #beauty landscape
-- title: beauty landscape # Document name
+- title: Beauty Landscape # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/beauty landscape.pdf
   colour: 961313
 
   #CC CAM Heartlands Xmas Fayre
-- title: Cornwall College CAM Heartlands Xmas Fayre # Document name
+- title: Cornwall College Camborne Heartlands Xmas Fayre # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/CC CAM Heartlands Xmas Fayre.pdf
@@ -1229,7 +1229,7 @@
   colour: 961313
 
   #satartsclub
-- title: satartsclub # Document name
+- title: Saturday Arts Club # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/satartsclub.pdf
@@ -1250,14 +1250,14 @@
   colour: 961313
 
   #Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15
-- title: Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15 # Document name
+- title: Subcontracting Funding Report for Publication on The Cornwall College Group Website-13-14 to 14-15 # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15.pdf
   colour: 961313
 
   #TCCG_Counselling_leaflet
-- title: TCCG Counselling Leaflet # Document name
+- title: The Cornwall College Group Counselling Leaflet # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/TCCG_Counselling_leaflet.pdf
@@ -1287,21 +1287,21 @@
   #End of other
 
   #Bicton Doc 26.11.14
-- title: Bicton Doc 26.11.14 # Document name
+- title: Bicton College Doc 26.11.14 # Document name
   type:  PDF # Document type
   category: plans # Document category
   download-link: /documents/plans/Bicton Doc 26.11.14.pdf
   colour: fd96f6
 
   #Bicton Doc V2 01.04.15
-- title: Bicton Doc V2 01.04.15 # Document name
+- title: Bicton College Doc V2 01.04.15 # Document name
   type:  PDF # Document type
   category: plans # Document category
   download-link: /documents/plans/Bicton Doc V2 01.04.15.pdf
   colour: fd96f6
 
   #CC SI MLW Complete
-- title: Cornwall College SI MLW Complete # Document name
+- title: Cornwall College Strategic Intent MLW Complete # Document name
   type:  PDF # Document type
   category: plans # Document category
   download-link: /documents/plans/CC SI MLW Complete.pdf
@@ -1317,7 +1317,7 @@
   # End of Plans
 
   #0012JW0216_DC_BC_HE_Prospectus_pages_2017
-- title: Duchy College Bicton College HE Prospectus pages 2017 # Document name
+- title: Duchy College, Bicton College Higher Education Prospectus pages 2017 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
@@ -1331,7 +1331,7 @@
   colour: e8d045
 
   #CC HE Web Version 2015
-- title: Cornwall College HE Web Version 2015 # Document name
+- title: Cornwall College Higher Education Web Version 2015 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
@@ -1345,10 +1345,10 @@
   colour: e8d045
 
   #DC HE Web Version 2015
-- title: Duchy College HE Web Version 2015 # Document name
+- title: Duchy College Higher Education Web Version 2015 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/DC HE Web Version 2015.pdf
+  download-link: /documents/prospectuses/DC Higher Education Web Version 2015.pdf
   colour: e8d045
 
   #Duchy College FE Prospectus 2017 - Low-Res
@@ -1359,7 +1359,7 @@
   colour: e8d045
 
   #FMS FE Prospectus 2017 - Low-Res
-- title: FMS Further Education Prospectus 2017 # Document name
+- title: Falmouth Marine School Further Education Prospectus 2017 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/FMS FE Prospectus 2017 - Low-Res.pdf
@@ -1373,14 +1373,14 @@
   colour: e8d045
 
   #TCCG HE Prospectus 2017 Web
-- title: TCCG HE Prospectus 2017 Web
+- title: The Cornwall College Group Higher Education Prospectus 2017 Web
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/TCCG HE Prospectus 2017 Web.pdf
   colour: e8d045
 
     #Access to HE flyer
-- title: Access to HE flyer
+- title: Access to Higher Education flyer
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/2016-access-he-flyer.pdf
@@ -1389,21 +1389,21 @@
   #End of Prospectuses
 
   #020 HE_Strategy 2013 update
-- title: 020 HE Strategy 2013 update
+- title: 020 Higher Education Strategy 2013 update
   type:  Word # Document type
   category: reports # Document category
   download-link: /documents/reports/020 HE_Strategy 2013 update.docx
   colour: bc77ee
 
   #05593JW0815_TCCG_HE_Student_Charter_PDF
-- title: TCCG HE Student Charter PDF
+- title: The Cornwall College Group Higher Education Student Charter PDF
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
   colour: bc77ee
 
   #Bicton Doc V3 05.08.15 (Final)
-- title: Bicton Doc V3 05.08.15 (Final)
+- title: Bicton College Doc V3 05.08.15 (Final)
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/Bicton Doc V3 05.08.15 (Final).pdf
@@ -1417,14 +1417,14 @@
   colour: bc77ee
 
   #CC SI Update 2015
-- title: Cornwall College SI Update 2015
+- title: Cornwall College Strategic Intent Update 2015
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/CC SI Update 2015.pdf
   colour: bc77ee
 
   #CC SummaryCharter 09
-- title: Cornwall College SummaryCharter 09
+- title: Cornwall College Summary Charter 09
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/CCSummaryCharter09.pdf
@@ -1487,7 +1487,7 @@
   colour: bc77ee
 
   #TCCG Ofsted Jan-16
-- title: TCCG Ofsted Jan-16
+- title: The Cornwall College Group Ofsted Jan-16
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/TCCG-ofsted-jan-16.pdf

@@ -665,6 +665,15 @@ $(document).ready(function () {
                         }
                     })(marker, i));
 
+                } else if (location.pathname.indexOf("access-hub") !== -1) {
+
+                  google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                      return function () {
+                          infowindow.setContent('<h4>' + campuses[i][0] + '</h4>' + '<a href="' + campuses[i][3] + '" class="campus-button">View Access Courses at this campus</a>');
+                          infowindow.open(map, marker);
+                      }
+                  })(marker, i));
+
                 } else {
 
                     google.maps.event.addListener(marker, 'click', (function (marker, i) {
