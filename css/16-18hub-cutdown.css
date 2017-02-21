@@ -945,7 +945,45 @@
 .app-updates p {
 	font-size: 16px;
 	line-height: 25px;
-}/**/
+}
+
+/* ## Statistics Section ## */
+
+.statistics-section {
+	background-color: #52B3D9;
+	margin-top: -5px;
+	text-align: center;
+	color: #fff;
+	padding: 82px 0 66px 0;
+}
+.statistics-section  h3 {
+	font-size: 40px;
+	font-weight: 400;
+}
+.statistics-section h2,
+.service-section h2{
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #52B3D9;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.statistics-section h2{
+    color: white;
+    font-size:3em;
+}
+.statistics-section  h3,
+.statistics-section p {
+	margin: 0;
+}
+.statistics-section p {
+	font-size: 12px;
+	margin-top: 20px;
+    color: white;
+}
+
+/*--------------------------------------------*/
 
 @media(max-width:786px){
 
