@@ -1,37 +1,61 @@
 ---
-layout: hub
-title: 16-18 Hub - courses for school leavers 
-description: Specialist study programmes for school leavers include A-levels, Diplomas, NVQs, practical skills training and work experience to give you a careers edge.
-link: 16-18
-event_cat_id: 8
-event_cat_slug: 16-18-event
-custom_css: /css/16-18hub-cutdown.css
+    title: 16-18 Hub - courses for school leavers 
+    description: Specialist study programmes for school leavers include A-levels, Diplomas, NVQs, practical skills training and work experience to give you a careers edge.
+    link: 16-18
+    event_cat_id: 8
+    event_cat_slug: 16-18-event
 ---
 
-<!-- HEADER SECTION -->
-<div id="home" class="home-wrap video">
-    <div class="home-content text-white" style="opacity: 1; visibility: visible;">
+{% include 16-18/head.html %}
+
+<body>
+    <!-- Google Tag Manager -->
+    {% include tag-manager.html %}
+    <!-- End Google Tag Manager -->
+    <a id="top"></a>
+
+    <!-- LOADER -->
+    <div id="site-loader" class="load-complete">
+        <div class="load-position">
+            <div class="loading-logo">
+
+              <div id="bicton-load">
+                <svg width="60" height="60">
+                  <rect width="60" height="60" rx="10" ry="10" fill="#77BC43"/>
+                </svg>
+              </div>
+
+              <div id="falmouth-load">
+                <svg width="60" height="60">
+                  <rect width="60" height="60" rx="10" ry="10" fill="#00AFBF"/>
+                </svg>
+              </div>
+
+              <div id="duchy-load">
+                  <svg width="60" height="60">
+                    <rect width="60" height="60" rx="10" ry="10" fill="#007B4C"/>
+                  </svg>
+              </div>
+
+              <div id="cornwall-load">
+                <svg width="60" height="60">
+                  <rect width="60" height="60" rx="10" ry="10" fill="#00509B"/>
+                </svg>
+              </div>
+
+            </div>
+
+            <div class="loading">
+                <div class="loading-line"></div>
+                <div class="loading-break loading-dot-1"></div>
+                <div class="loading-break loading-dot-2"></div>
+                <div class="loading-break loading-dot-3"></div>
+            </div>
+        </div>
     </div>
-</div>
 
+    {% include 16-18/slider.html %} {% include 16-18/header.html %}
 
-<!-- HEADER SECTION -->
-<section id="fe-hub" class="col-md-12 jumbotron header-title video">
-  <header class="container">
-    <h2><a href="/"><small>Home </small></a><span>making learning work</span></h2>
-    <h3>practical skills training and work experience to give you a careers edge.</h3>
-    <div class="col-xs-12 text-center">
-      <a class="button play-btn-normal btn ghost"  id="playVideo"> <i class="fa fa-play-circle-o"></i> Watch The Video </a>
-    </div>
-
-  </header>
-</section>
-
-<!-- END OF HEADER -->
-<div class="video-container" style="display:none">
-  <a id="video" class="fullscreen-video mb_YTPlayer isMuted" data-property="{videoURL:'https://youtu.be/XdOXXldJazQ'}" style="display: none; background-image: none;">The Video</a>
-</div>
-<!-- END OF HEADER -->
 
     <section id="video-block" class="col-sm-12 full-width-video-block">
         <article class="col-md-4 col-xs-12 no-padding">
@@ -57,9 +81,9 @@ custom_css: /css/16-18hub-cutdown.css
         </article>
     </section>
 
-    <section class="col-xs-12 full-width-video-block">
+    <section class="col-sm-12 full-width-video-block">
         <article class="col-md-4 col-xs-12  no-padding">
-            {% youtube https://youtu.be/s7OViF2XR3k %}
+            {% youtube https://youtu.be/C_yLJBhRMt8 %}
             <div class="text-center caption">
                 <h4>Outstanding alumni</h4>
                 <p>Our learners go on to great things</p>
@@ -80,17 +104,29 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
         </article>
     </section>
-
-    <!-- BROWSE BY section -->
-    {% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
-    <!-- BROWSE BY section ENDS-->
-
-<section id="how-we-work" class="how-we-work col-xs-12">
+    <!-- Project Section -->
+    <div class="project-section" style="margin-bottom:50px;">
+        <div class="container">
+            <div class="col-lg-6 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-6 col-xs-6 start-project">
+                <p>courses</p>
+                <h2>view our learning areas</h2>
+                <a href="/learning-area-hub/"><span>Let's Go</span></a>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-6 col-xs-6 send-msg">
+                <p>careers</p>
+                <h2>view our career areas</h2>
+                <a href="/career-hub/"><span>Let's Go</span></a>
+            </div>
+        </div>
+    </div>
+    <!-- Project Section Over -->
+    <!-- How We Work -->
+    <section id="how-we-work" class="how-we-work">
         <!-- Section Header -->
         <div class="section-header">
             <h2>career : edge</h2>
             <p class="lead text-center">Our study programme offers you the chance to gain a broad range of experience
-                <br> that will give you the edge when entering the workplace or progressing to university.</p>
+                <br/> that will give you the edge when entering the workplace or progressing to university.</p>
         </div>
         <!-- Section Header Over-->
         <div class="container" style="align-items: center; display: flex; justify-content: center">
@@ -98,31 +134,31 @@ custom_css: /css/16-18hub-cutdown.css
                 <li>
                     <a href="#">
                         <i class="fa fa-building-o"></i>
-                        <span>Professional<br>Qualification</span>
+                        <span>Professional<br/>Qualification</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="fa fa-certificate"></i>
-                        <span>Work<br>Experience</span>
+                        <span>Work<br/>Experience</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="fa fa-cogs"></i>
-                        <span>Soft<br>Skills</span>
+                        <span>Soft<br/>Skills</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="fa fa-rocket"></i>
-                        <span>A great start<br>to your career</span>
+                        <span>A great start<br/>to your career</span>
                     </a>
                 </li>
             </ul>
         </div>
 
-        <div class="how-we-work-container hidden-xs">
+        <div class="how-we-work-container hide-on-mobile">
             <div class="research-slope">
                 <div class="research shape-content">
                     <p class="lead">Our specialist programmes of study combine qualifications, work readiness skills training and work experience, giving you a careers edge and the very best preparation for the world of work.</p>
@@ -130,7 +166,7 @@ custom_css: /css/16-18hub-cutdown.css
                 </div>
             </div>
             
-            <div class="we-perfection-slope hidden-xs">
+            <div class="we-perfection-slope hide-on-mobile">
                 <div class="we-perfection shape-content">
                     <h2>With the <strong>largest</strong> provider of Apprenticeships in the South West you can:</h2>
                     <ul>
@@ -184,7 +220,7 @@ custom_css: /css/16-18hub-cutdown.css
 
                 </div>
             </div>
-            <div class="we-launch-slope hidden-xs">
+            <div class="we-launch-slope hide-on-mobile">
                 <div class="we-launch shape-content">
                     <h3>Our learners go on to great things:</h3>
                     <ul class="our-learners">
@@ -207,74 +243,76 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
         </div>
     </section>
+    <!-- How We Work Over -->
 
-<!--------------------------------------------------------------------------------------------->
 
-<div id="service-section" class="service-section col-xs-12">
+
+    <!-- Services Section -->
+    <div id="service-section" class="service-section">
         <h2 class="text-center">#thecareercollege</h2>
         <div class="container">
-            <div class="service-bg hidden-xs">
-                <img src="images/achive-image.png" alt="achive image">
-                <h3>How we help<br>you achieve<br>your career<br>goals</h3>
+            <div class="service-bg">
+                <img src="images/achive-image.png" alt="achive image" />
+                <h3>How we help<br/>you achieve<br/>your career<br/>goals</h3>
             </div>
             <div class="col-md-6">
-                <div class="service-box-inner animated slideInLeft">
-                    <div class="col-md-4 pull-right col-sm-5 hidden-xs">
+                <div class="service-box-inner">
+                    <div class="col-md-4 pull-right col-sm-5">
                         <i class="icon-srv fa fa-cogs"></i>
                     </div>
-                    <div class="col-md-8 content-box col-sm-7 col-xs-12">
+                    <div class="col-md-8 content-box col-sm-7">
                         <h3 class="block-title">Universal skills</h3>
                         <p>We’ll boost your qualifications if need be in English, maths and IT</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="service-box-inner animated slideInRight">
-                    <div class="col-md-4 col-sm-5 hidden-xs">
+                <div class="service-box-inner">
+                    <div class="col-md-4 col-sm-5">
                         <i class="icon-srv fa fa-building-o"></i>
                     </div>
-                    <div class="col-md-8 content-box col-sm-7 col-xs-12">
+                    <div class="col-md-8 content-box col-sm-7">
                         <h3 class="block-title">Work readiness</h3>
                         <p>Our dedicated team will work with you to become work ready with projects, guest lectures and work experience</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="service-box-inner animated slideInLeft">
-                    <div class="col-md-4 pull-right col-sm-5 hidden-xs">
+                <div class="service-box-inner">
+                    <div class="col-md-4 pull-right col-sm-5">
                         <i class="icon-srv fa fa-star"></i>
                     </div>
-                    <div class="col-md-8 content-box col-sm-7 col-xs-12">
+                    <div class="col-md-8 content-box col-sm-7">
                         <h3 class="block-title">Specialist skills</h3>
                         <p>The qualification you study will build your specialist knowledge and lead to further study, university or the workplace</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="service-box-inner animated slideInRight">
-                    <div class="col-md-4 col-sm-5 hidden-xs">
+                <div class="service-box-inner">
+                    <div class="col-md-4 col-sm-5">
                         <i class="icon-srv fa fa-users"></i>
                     </div>
-                    <div class="col-md-8 content-box col-sm-7 col-xs-12">
+                    <div class="col-md-8 content-box col-sm-7">
                         <h3 class="block-title">Personal skills</h3>
                         <p>Our coaching team will help you build on personal qualities, resilience, social awareness and confidence</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="service-box-inner animated slideInLeft">
-                    <div class="col-md-4 pull-right col-sm-5 hidden-xs">
+                <div class="service-box-inner">
+                    <div class="col-md-4 pull-right col-sm-5">
                         <i class="icon-srv fa fa-life-ring"></i>
                     </div>
-                    <div class="col-md-8 content-box col-sm-7 col-xs-12">
+                    <div class="col-md-8 content-box col-sm-7">
                         <h3 class="block-title">Supporting you</h3>
                         <p>You will have a personal advisor and a subject tutor to help you on every step of the journey</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="service-box-inner animated slideInRight">
-                    <div class="col-md-4 col-sm-5 hidden-xs">
+                <div class="service-box-inner">
+                    <div class="col-md-4 col-sm-5">
                         <i class="icon-srv fa fa-balance-scale"></i>
                     </div>
                     <div class="col-md-8 content-box col-sm-7">
@@ -285,60 +323,60 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
         </div>
     </div>
-
-<!---------------------------------------------------------------------------->
-
-<section id="why-choose" class="why-choose">
+    <!-- Services Section Over -->
+    <!-- Features Section -->
+    <section id="why-choose" class="why-choose">
         <div class="why-choose-inner">
 
             <h2 style="text-align:left;">CHOOSE CORNWALL COLLEGE</h2>
 
             <div class="feature-box-inner">
-                <div style="text-align:initial" class="col-xs-4">
+                <div style="text-align:initial">
                     <i class="icon-feature fa fa-cutlery"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title" style="padding:0px">One of the best catering colleges in the UK</h3>
                 </div>
             </div>
 
             <div class="feature-box-inner">
-                <div style="text-align:initial" class="col-xs-4">
+                <div style="text-align:initial">
                     <i class="icon-feature fa fa-hashtag"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title" style="padding:0px">#1 for apprenticeships in the South West</h3>
                 </div>
             </div>
 
             <div class="feature-box-inner">
-                <div style="text-align:initial" class="col-xs-4">
+                <div style="text-align:initial">
                     <i class="icon-feature fa fa-trophy"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title" style="padding:0px">Award winning students and tutors work with us</h3>
                 </div>
             </div>
 
             <div class="feature-box-inner">
-                <div style="text-align:initial" class="col-xs-4">
+                <div style="text-align:initial">
                     <i class="icon-feature fa fa-leaf"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title" style="padding:0px">Over 1,200 acres for land-based specialist training and education</h3>
                 </div>
             </div>
 
         </div>
-</section>
-<section id="features-section" class="features-section ow-background-no-size">
+    </section>
+
+    <section id="features-section" class="features-section ow-background-no-size">
         <div class="feature-box">
 
             <div class="feature-box-inner">
-                <div class="icon-left col-xs-4">
+                <div class="icon-left">
                     <i class="icon-feature fa fa-briefcase"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title">Courses developed in partnership with employers to ensure relevance to industry</h3>
                 </div>
                 <div class="icon-right">
@@ -347,10 +385,10 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
 
             <div class="feature-box-inner">
-                <div class="icon-left col-xs-4">
+                <div class="icon-left">
                     <i class="icon-feature fa fa-home"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title">National award-winning construction tradespeople train with us</h3>
                 </div>
                 <div class="icon-right">
@@ -359,10 +397,10 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
 
             <div class="feature-box-inner">
-                <div class="icon-left col-xs-4">
+                <div class="icon-left">
                     <i class="icon-feature fa fa-film"></i>
                 </div>
-                <div class="feature-box-text col-xs-8">
+                <div class="feature-box-text">
                     <h3 class="block-title">Award winning media studies department – 33 student awards in 11 years</h3>
                 </div>
                 <div class="icon-right">
@@ -372,19 +410,17 @@ custom_css: /css/16-18hub-cutdown.css
 
         </div>
     </section>
+    <!-- Features Section Over -->
 
-
-
-<!------------------------------------------------------------------->
-
-<section id="application-section" class="application-section">
+    <!-- Apllication Section -->
+    <section id="application-section" class="application-section">
         <div class="container">
-            <div class="col-md-6 hidden-xs">
-                <div class="application-iphone animated fadeInLeft">
-                    <img src="images/application/iphone.png" alt="application iphone"  class="img-responsive">
+            <div class="col-md-6">
+                <div class="application-iphone">
+                    <img src="images/application/iphone.png" alt="application iphone" />
                 </div>
             </div>
-            <div class="col-md-6 app-content-box animated fadeInRight">
+            <div class="col-md-6 app-content-box">
                 <h2>Plan your future on the move</h2>
                 <p>This website is mobile friendly, just bookmark this section, you can also use our careers hub to start planning your career journey. We’ve got the latest stats on starting salaries, job vacancy predictions in the region and training routes all mapped out.</p>
                 <div class="col-md-9 app-updates">
@@ -409,35 +445,120 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
         </div>
     </section>
+    <!-- Application Section Over -->
 
-<!---------------------------------------------------------------------->
 
     <!-- Statistics Section -->
     <div id="statistics-section" class="statistics-section">
         <h2 class="text-center">There’s more to The Cornwall College Group</h2>
-        <div class="container counters counters-alt">
+        <div class="container">
             <div class="col-md-3 col-sm-12">
-                <h3><i class="fa fa-graduation-cap"></i> <span class="counter">35</span>K</h3>
+                <h1><i class="fa fa-graduation-cap"></i> <span id="project"></span>K</h1>
                 <p>Learners we support every year</p>
             </div>
             <div class="col-md-3 col-sm-12">
-                <h3><i class="fa fa-map-o "></i> <span class="counter">9</span> &nbsp; </h3>
+                <h1><i class="fa fa-map-o "></i> <span id="work"></span> &nbsp; </h1>
                 <p>Campuses across 2 counties</p>
             </div>
             <div class="col-md-3 col-sm-12">
-                <h3><i class="fa fa-book"></i> <span class="counter">300</span> &nbsp; </h3>
+                <h1><i class="fa fa-book"></i> <span id="consumed"></span> &nbsp; </h1>
                 <p>Full-time courses for school leavers</p>
             </div>
             <div class="col-md-3 col-sm-12">
-                <h3><i class="fa fa-map-signs"></i> <span class="counter">80</span>+</h3>
+                <h1><i class="fa fa-map-signs"></i> <span id="videos"></span>+</h1>
                 <p>Apprenticeship career pathways</p>
             </div>
         </div>
     </div>
-<!----------------------------------------------------------------------->
 
-{% include /16-18/16-18-events.html %}
+    {% include /16-18/16-18-events.html %}
 
-<!----------------------------------------------------------------------->
+    <!-- Statistics Section Over -->
 
-{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
+    <!-- What Students Section
+	<section id="client-section" class="client-section">
+		<!-- Section Header
+		<div class="section-header">
+			<h2>WHAT OUR STUDENTS SAY</h2>
+		</div>
+		<!-- Section Header Over
+		<div class="client-style1">
+			<svg width="0" height="0">
+				<clipPath id="client-1">
+					<polygon points="0 152,1920 310,1920 0,0 0">
+					</polygon>
+				</clipPath>
+				<clipPath id="client-11">
+					<polygon points="0 752,1920 752,1920 0,0 0">
+					</polygon>
+				</clipPath>
+			</svg>
+			<div class="client-hover">
+				<h2>"Werbi in velit ligula eget vulputate ligulaviv sollicitudin rcusante orbi in velit"</h2>
+				<p>by Ane Doe</p>
+			</div>
+		</div>
+		<div class="client-style2 client-active">
+			<svg width="0" height="0">
+				<clipPath id="client-2">
+					<polygon points="-1 450,1920 289,1920 158,0 0">
+					</polygon>
+				</clipPath>
+				<clipPath id="client-21">
+					<polygon points="-1 752,1920 666,1920 97,0 0">
+					</polygon>
+				</clipPath>
+			</svg>
+			<div class="client-hover">
+				<h2>"Werbi in velit ligula eget vulputate ligulaviv sollicitudin rcusante orbi in velit"</h2>
+				<p>by Ane Doe</p>
+			</div>
+		</div>
+		<div class="client-style3">
+			<svg width="0" height="0">
+				<clipPath id="client-3">
+					<polygon points="-1 326,1920 316,1920 0,0 155">
+					</polygon>
+				</clipPath>
+				<clipPath id="client-31">
+					<polygon points="-1 752,1920 756,1920 0,0 155">
+					</polygon>
+				</clipPath>
+			</svg>
+			<div class="client-hover">
+				<h2>"Werbi in velit ligula eget vulputate ligulaviv sollicitudin rcusante orbi in velit"</h2>
+				<p>by Ane Doe</p>
+			</div>
+		</div>
+	</section>
+	<!-- What Clients Section Over -->
+
+
+    <!-- Project Section -->
+    <div class="project-section">
+        <div class="container">
+            <div class="col-lg-6 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-6 col-xs-6 start-project">
+                <p>courses</p>
+                <h2>view our learning areas</h2>
+                <a href="/learning-area-hub/"><span>Let's Go</span></a>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-6 col-xs-6 send-msg">
+                <p>careers</p>
+                <h2>view our career areas</h2>
+                <a href="/career-hub/"><span>Let's Go</span></a>
+            </div>
+        </div>
+    </div>
+    <!-- Project Section Over -->
+
+    <!-- Footer Section -->
+
+    {% include footer.html %}
+
+    <!-- Footer Section -->
+
+
+    {% js bundle-16-18 %}
+</body>
+
+</html>

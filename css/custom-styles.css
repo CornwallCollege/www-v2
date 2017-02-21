@@ -1156,6 +1156,7 @@ div#logo-wrap #bicton{
     }
 }
 /*----------- Uni header styles ENDS -----------*/
+
 /*----------- Access header styles -----------*/
 #access-hub{
     background: url(../images/access-hub-mobile.jpg) 50% 0 no-repeat fixed;
@@ -4911,7 +4912,7 @@ a.learning-area:hover{
     height: 100%;
     background-size: cover;
 }
-#university-hub header {
+#university-hub header{
     bottom: calc(40% + 20px);
     left: 0;
     width: 100%;
@@ -5059,6 +5060,43 @@ a.learning-area:hover{
 }
 .jcarousel-pagination a {
     border: solid 1px #aaa;
+}
+/*----------------- 16-18 hub---------------------------*/
+/*----------- 16-18 header styles -----------*/
+#fe-hub{
+    background: url(../16-18-hub/images/slide-bg.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+}
+@media(min-width:768px) {
+
+    #fe-hub{
+        background-image: url(../16-18-hub/images/slide-bg.jpg );
+        background-repeat: no-repeat;
+        background-position:50% 0 ;
+
+    }
+}
+/*----------- 16-18 header styles ENDS -----------*/
+#fe-hub{
+    height: 100%;
+    background-size: cover;
+}
+#fe-hub header{
+    bottom: calc(40% + 20px);
+    left: 0;
+    width: 100%;
+}
+#fe-hub h2{
+    text-align: center
+}
+#fe-hub h3{
+    color: white;
+    text-align: center;
+    margin-top: -8px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 24px;
+
 }
 
 /*----------------- Learning area filters ------------------*/
