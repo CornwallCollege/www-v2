@@ -468,7 +468,8 @@ function incrementCount(counter) {
     }
 
 
-    if (location.pathname.indexOf("university-hub") !== -1 ) {
+    if (location.pathname.indexOf("university-hub") !== -1 ||
+       location.pathname.indexOf("about-pages") !== -1) {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
