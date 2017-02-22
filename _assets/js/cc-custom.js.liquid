@@ -819,7 +819,8 @@ $(document).ready(function(){
 	}
 
 
-    if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ) {
+    if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ||
+    location.pathname.indexOf("16-18-hub") !== -1  ) {
         //jQuery RSS parse for events on campus pages
 
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
@@ -828,6 +829,8 @@ $(document).ready(function(){
             var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
         } else if (location.pathname.indexOf("university-hub") !== -1){
             var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/university/feed/";
+        } else if (location.pathname.indexOf("16-18-hub") !== -1){
+            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/16-18-event/feed/";
         } else {
             var event_filter = "https://network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
         }
