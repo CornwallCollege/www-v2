@@ -1112,3 +1112,38 @@ jQuery(document).ready(function () {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
+
+
+  $(function(){
+
+  function iframeModalOpen(){
+
+  		// We set the attributes to be added iframe eg: data-src will setup the url iframe
+  		$('.modalButton').on('click', function(e) {
+  			var src = $(this).attr('data-src');
+  			var width = $(this).attr('data-width') || 640; // iframe width if not set uses 640
+  			var height = $(this).attr('data-height') || 360; // iframe height if not set uses 360
+
+  			var allowfullscreen = $(this).attr('data-video-fullscreen'); // we set the button if the allowfullscreen attribute is a video to allow you to switch to full screen mode
+
+  			// We print our data in iframe
+  			$("#myModal iframe").attr({
+  				'src': src,
+  				'height': height,
+  				'width': width,
+  				'allowfullscreen':''
+  			});
+  		});
+
+  		// if you close the modal iframe we reset the data to prevent a video to continue to reproduce even when the modal is closed
+  		$('#myModal').on('hidden.bs.modal', function(){
+  			$(this).find('iframe').html("");
+  			$(this).find('iframe').attr("src", "");
+  		});
+  	}
+
+
+  		iframeModalOpen();
+
+
+  });

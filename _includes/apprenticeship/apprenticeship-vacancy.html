@@ -7,7 +7,10 @@
 <div class="col-xs-12 col-sm-6 col-md-4" style="transition: height 350ms ease;"> <a style="text-align:center;" href="#" data-title="{{ apprenticeship.apprenticeship-title }}" data-description="<iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>"> <span class="col-xs-12 apprentice-area" style="border-left:10px solid #{{ apprenticeship.colour }};">{{ apprenticeship.apprenticeship-title }}</span> </a> </div>-->
 
 <li style="transition: height 350ms ease;" >
-	<a href="#" data-title="{{ apprenticeship.apprenticeship-title }}" data-description="<iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>">
+	<a href="#" data-title="{{ apprenticeship.apprenticeship-title }}" data-description="<iframe style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>">
 		<span class="col-xs-12 apprentice-area" style="border-left:10px solid #{{ apprenticeship.colour }};">{{ apprenticeship.apprenticeship-title }}</span>
+
+
 	</a>
+
 </li>
