@@ -108,6 +108,9 @@
       - sub-area-title: Business School
         sub-area-link: business-school
 
+      - sub-area-title: Digital Academy
+        sub-area-link: digital-academy
+
     - area-title: Foundation Learning
       area-color: F18D05
       sub-areas:
@@ -119,6 +122,39 @@
       sub-areas:
       - sub-area-title: Public Services & Military Academy
         sub-area-link: public-services-military-academy
+
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
+        sub-area-link: sports-fitness
+
+      - sub-area-title: Social Care & Health
+        sub-area-link: social-care-health
+
+    - area-title: Technology
+      area-color: 00A1CB
+      sub-areas:
+      - sub-area-title: Engineering
+        sub-area-link: engineering
+
+    - area-title: Cultral & Visitor Economy
+      area-color: D0D102
+      sub-areas:
+      - sub-area-title: Arts & Media
+        sub-area-link: arts-media
+
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
+
+    - area-title: Science & Natural Environment
+      area-color: 113F8C
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensics
+
+      - sub-area-title: Wildlife Conservation & Zoology
+        sub-area-link: wildlife-conservation-zoology
 
     - area-title: Rural Economy
       area-color: 61AE24
@@ -137,6 +173,9 @@
 
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
+
+      - sub-area-title: Food Technology & Production
+        sub-area-link: food-technology-production
 
 
 - campus: dbs Music Bristol
@@ -287,9 +326,6 @@
     - area-title: Business & Professional
       area-color: E54028
       sub-areas:
-      - sub-area-title: Accounting
-        sub-area-link: accounting
-
       - sub-area-title: Business School
         sub-area-link: business-school
 
@@ -298,6 +334,30 @@
 
       - sub-area-title: Digital Academy
         sub-area-link: digital-academy
+
+      - sub-area-title: Accounting
+        sub-area-link: accounting
+
+    - area-title: Foundation Learning
+      area-color: F18D05
+      sub-areas:
+      - sub-area-title: Independent Living Skills
+        sub-area-link: foundation-learning
+
+    - area-title: Health & Wellbeing
+      area-color: D70060
+      sub-areas:
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
+        sub-area-link: sports-fitness
+
+      - sub-area-title: Public Services & Military Academy
+        sub-area-link: public-services-military-academy
+
+      - sub-area-title: Hairdressing & Beauty Therapy
+        sub-area-link: hairdressing-beauty-therapy
+
+      - sub-area-title: Social Care & Health
+        sub-area-link: social-care-health
 
     - area-title: Cultural & Visitor Economy
       area-color: D0D102
@@ -317,41 +377,14 @@
       - sub-area-title: Travel & Tourism
         sub-area-link: travel-tourism
 
-    - area-title: Education
-      area-color: 01A4A4
-      sub-areas:
-      - sub-area-title: Children, Schools & Families
-        sub-area-link: children-schools-families
-
-      - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education
-
-    - area-title: Foundation Learning
-      area-color: F18D05
-      sub-areas:
-      - sub-area-title: Independent Living Skills
-        sub-area-link: foundation-learning
-
-    - area-title: Health & Wellbeing
-      area-color: D70060
-      sub-areas:
-      - sub-area-title: Hairdressing & Beauty Therapy
-        sub-area-link: hairdressing-beauty-therapy
-
-      - sub-area-title: Public Services & Military Academy
-        sub-area-link: public-services-military-academy
-
-      - sub-area-title: Social Care & Health
-        sub-area-link: social-care-health
-
-      - sub-area-title: Sports, Fitness & Outdoor Adventure
-        sub-area-link: sports-fitness
-
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
       - sub-area-title: Applied Science & Forensic Science
         sub-area-link: applied-science-forensics
+
+      - sub-area-title: Marine & Natural Environment
+        sub-area-link: marine-natural-environment
 
     - area-title: Technology
       area-color: 00A1CB
@@ -359,11 +392,21 @@
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
+      - sub-area-title: Motor Vehicle
+        sub-area-link: motor-vehicle
+
       - sub-area-title: Engineering
         sub-area-link: engineering
 
-      - sub-area-title: Motor Vehicle
-        sub-area-link: motor-vehicle
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
+
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
+
 
 - campus: The Eden Project
   long: 50.360518
@@ -419,26 +462,29 @@
     - area-title: Cultural & Visitor Economy
       area-color: D0D102
       sub-areas:
-      - sub-area-title: Catering & Academy Nathan Outlaw
-        sub-area-link: catering-academy-nathan-outlaw
-
       - sub-area-title: Music & Performing Arts
         sub-area-link: music-performing-arts
+
+      - sub-area-title: Hospitality & Front of House
+        sub-area-link: hospitality-front-house
 
       - sub-area-title: Travel & Tourism
         sub-area-link: travel-tourism
 
-    - area-title: Rural Economy
-      area-color: 61AE24
-      sub-areas:
-      - sub-area-title: Horticulture & Floristry
-        sub-area-link: horticulture-floristry
+      - sub-area-title: Catering & Academy Nathan Outlaw
+        sub-area-link: catering-academy-nathan-outlaw
 
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
       - sub-area-title: Marine & Natural Environment
         sub-area-link: marine-natural-environment
+
+    - area-title: Rural Economy
+      area-color: 61AE24
+      sub-areas:
+      - sub-area-title: Horticulture & Floristry
+        sub-area-link: horticulture-floristry
 
 
 - campus: Falmouth Marine School
@@ -535,15 +581,12 @@
       image-thumb: /falmouth/marine-engineering-thumb.jpg
 
   learning-areas:
-    - area-title: Technology
-      area-color: 00A1CB
-      sub-areas:
-      - sub-area-title: Marine Engineering & Boatbuilding
-        sub-area-link: marine-engineering-boatbuilding
-
     - area-title: Health & Wellbeing
       area-color: D70060
       sub-areas:
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
+        sub-area-link: sports-fitness
+
       - sub-area-title: Watersports
         sub-area-link: watersports
 
@@ -552,6 +595,12 @@
       sub-areas:
       - sub-area-title: Marine & Natural Environment
         sub-area-link: marine-natural-environment
+
+    - area-title: Technology
+      area-color: 00A1CB
+      sub-areas:
+      - sub-area-title: Marine Engineering & Boatbuilding
+        sub-area-link: marine-engineering-boatbuilding
 
 
 - campus: Cornwall College Newquay
@@ -647,20 +696,29 @@
       image-thumb: /newquay/the-gannel-estuary-thumb.jpg
 
   learning-areas:
-    - area-title: Science & Natural Environment
-      area-color: 113F8C
-      sub-areas:
-      - sub-area-title: Marine & Natural Environment
-        sub-area-link: marine-natural-environment
-
-      - sub-area-title: Wildlife Conservation & Zoology
-        sub-area-link: wildlife-conservation-zoology
-
     - area-title: Health & Wellbeing
       area-color: D70060
       sub-areas:
       - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
+
+    - area-title: Science & Natural Environment
+      area-color: 113F8C
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensics
+
+      - sub-area-title: Wildlife Conservation & Zoology
+        sub-area-link: wildlife-conservation-zoology
+
+      - sub-area-title: Marine & Natural Environment
+        sub-area-link: marine-natural-environment
+
+    - area-title: Rural Economy
+      area-color: 61AE24
+      sub-areas:
+      - sub-area-title: Agriculture & Countryside Management
+        sub-area-link: agriculture-countryside-management
 
 
 - campus: Duchy College Rosewarne
@@ -757,6 +815,21 @@
       image-thumb: /rosewarne/veterinary-nursing-facilities-thumb.jpg
 
   learning-areas:
+    - area-title: Health & Wellbeing
+      area-color: D70060
+      sub-areas:
+      - sub-area-title: Social Care & Health
+        sub-area-link: social-care-health
+
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
+
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
+
     - area-title: Rural Economy
       area-color: 61AE24
       sub-areas:
@@ -766,26 +839,14 @@
       - sub-area-title: Animal Management & Veterinary Nursing
         sub-area-link: animal-management-veterinary-nursing
 
-      - sub-area-title: Horticulture & Floristry
-        sub-area-link: horticulture-floristry
-
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
 
-    - area-title: Education
-      area-color: 01A4A4
-      sub-areas:
-      - sub-area-title: Children, Schools & Families
-        sub-area-link: children-schools-families
+      - sub-area-title: Horticulture & Floristry
+        sub-area-link: horticulture-floristry
 
-      - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education
-
-    - area-title: Health & Wellbeing
-      area-color: D70060
-      sub-areas:
-      - sub-area-title: Social Care & Health
-        sub-area-link: social-care-health
+      - sub-area-title: Food Technology & Production
+        sub-area-link: food-technology-production
 
 
 - campus: Cornwall College Saltash
@@ -886,14 +947,32 @@
     - area-title: Business & Professional
       area-color: E54028
       sub-areas:
-      - sub-area-title: Accounting
-        sub-area-link: accounting
-
       - sub-area-title: Business School
         sub-area-link: business-school
 
       - sub-area-title: Digital Academy
         sub-area-link: digital-academy
+
+      - sub-area-title: Accounting
+        sub-area-link: accounting
+
+    - area-title: Foundation Learning
+      area-color: F18D05
+      sub-areas:
+      - sub-area-title: Independent Living Skills
+        sub-area-link: foundation-learning
+
+    - area-title: Health & Wellbeing
+      area-color: D70060
+      sub-areas:
+      - sub-area-title: Public Services & Military Academy
+        sub-area-link: public-services-military-academy
+
+      - sub-area-title: Hairdressing & Beauty Therapy
+        sub-area-link: hairdressing-beauty-therapy
+
+      - sub-area-title: Social Care & Health
+        sub-area-link: social-care-health
 
     - area-title: Cultral & Visitor Economy
       area-color: D0D102
@@ -907,26 +986,14 @@
       - sub-area-title: Hospitality & Front of House
         sub-area-link: hospitality-front-house
 
-    - area-title: Education
-      area-color: 01A4A4
-      sub-areas:
-      - sub-area-title: Children, Schools & Families
-        sub-area-link: children-schools-families
+      - sub-area-title: Travel & Tourism
+        sub-area-link: travel-tourism
 
-      - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education
-
-    - area-title: Foundation Learning
-      area-color: F18D05
+    - area-title: Science & Natural Environment
+      area-color: 113F8C
       sub-areas:
-      - sub-area-title: Independent Living Skills
-        sub-area-link: foundation-learning
-
-    - area-title: Health & Wellbeing
-      area-color: D70060
-      sub-areas:
-      - sub-area-title: Hairdressing & Beauty Therapy
-        sub-area-link: hairdressing-beauty-therapy
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensics
 
     - area-title: Technology
       area-color: 00A1CB
@@ -937,8 +1004,14 @@
       - sub-area-title: Engineering
         sub-area-link: engineering
 
-      - sub-area-title: Motor Vehicle
-        sub-area-link: motor-vehicle
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
+
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
 
 
 - campus: Cornwall College St Austell
@@ -1045,9 +1118,6 @@
     - area-title: Business & Professional
       area-color: E54028
       sub-areas:
-      - sub-area-title: Accounting
-        sub-area-link: accounting
-
       - sub-area-title: Business School
         sub-area-link: business-school
 
@@ -1056,6 +1126,27 @@
 
       - sub-area-title: Digital Academy
         sub-area-link: digital-academy
+
+      - sub-area-title: Accounting
+        sub-area-link: accounting
+
+    - area-title: Foundation Learning
+      area-color: F18D05
+      sub-areas:
+      - sub-area-title: Independent Living Skills
+        sub-area-link: foundation-learning
+
+    - area-title: Health & Wellbeing
+      area-color: D70060
+      sub-areas:
+      - sub-area-title: Sports, Fitness & Outdoor Adventure
+        sub-area-link: sports-fitness
+
+      - sub-area-title: Hairdressing & Beauty Therapy
+        sub-area-link: hairdressing-beauty-therapy
+
+      - sub-area-title: Social Care & Health
+        sub-area-link: social-care-health
 
     - area-title: Cultural & Visitor Economy
       area-color: D0D102
@@ -1075,33 +1166,6 @@
       - sub-area-title: Travel & Tourism
         sub-area-link: travel-tourism
 
-    - area-title: Education
-      area-color: 01A4A4
-      sub-areas:
-      - sub-area-title: Children, Schools & Families
-        sub-area-link: children-schools-families
-
-      - sub-area-title: Teaching & Education
-        sub-area-link: teaching-education
-
-    - area-title: Foundation Learning
-      area-color: F18D05
-      sub-areas:
-      - sub-area-title: Independent Living Skills
-        sub-area-link: foundation-learning
-
-    - area-title: Health & Wellbeing
-      area-color: D70060
-      sub-areas:
-      - sub-area-title: Hairdressing & Beauty Therapy
-        sub-area-link: hairdressing-beauty-therapy
-
-      - sub-area-title: Social Care & Health
-        sub-area-link: social-care-health
-
-      - sub-area-title: Sports, Fitness & Outdoor Adventure
-        sub-area-link: sports-fitness
-
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
@@ -1114,11 +1178,20 @@
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
+      - sub-area-title: Motor Vehicle
+        sub-area-link: motor-vehicle
+
       - sub-area-title: Engineering
         sub-area-link: engineering
 
-      - sub-area-title: Motor Vehicle
-        sub-area-link: motor-vehicle
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
+
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
 
 
 - campus: Duchy College Stoke Climsland
@@ -1215,11 +1288,11 @@
       image-thumb: /stoke/future-farm-thumb.jpg
 
   learning-areas:
-    - area-title: Education
-      area-color: 01A4A4
+    - area-title: Business & Professional
+      area-color: E54028
       sub-areas:
-      - sub-area-title: Children, Schools & Families
-        sub-area-link: children-schools-families
+      - sub-area-title: Business School
+        sub-area-link: business-school
 
     - area-title: Foundation Learning
       area-color: F18D05
@@ -1236,6 +1309,27 @@
       - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
 
+    - area-title: Technology
+      area-color: 00A1CB
+      sub-areas:
+      - sub-area-title: Engineering
+        sub-area-link: engineering
+
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
+
+      - sub-area-title: Children, Schools & Families
+        sub-area-link: children-schools-families
+
+    - area-title: Science & Natural Environment
+      area-color: 113F8C
+      sub-areas:
+      - sub-area-title: Applied Science & Forensic Science
+        sub-area-link: applied-science-forensics
+
     - area-title: Rural Economy
       area-color: 61AE24
       sub-areas:
@@ -1248,14 +1342,14 @@
       - sub-area-title: Equine
         sub-area-link: equine
 
-      - sub-area-title: Food Technology & Production
-        sub-area-link: food-technology-production
-
       - sub-area-title: Horticulture & Floristry
         sub-area-link: horticulture-floristry
 
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
+
+      - sub-area-title: Food Technology & Production
+        sub-area-link: food-technology-production
 
 
 - campus: Plymouth Engineering Skills Centre
@@ -1269,6 +1363,5 @@
     - area-title: Technology
       area-color: 00A1CB
       sub-areas:
-
       - sub-area-title: Engineering
         sub-area-link: engineering
