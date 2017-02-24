@@ -555,12 +555,17 @@ section h2 strong {
 button.icon-btn,
 a.icon-btn,
 .icon-btn{
-    border: 1px solid #52B3D9;
-    color:#52B3D9;
+    border: 1px solid #52b3d9;
+    color: #52b3d9;
     text-transform: uppercase;
-    font-size: 12.5px;
-    display: inline-block;
-
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    opacity: 0;
+}
+.hover-effect figure:hover div a.icon-btn{
+    opacity: 1!important;
 }
 a.icon-btn:hover,
 button.icon-btn:hover,
@@ -5579,4 +5584,8 @@ table.contact-overview {
 
 .all-contact-details article:nth-child(odd) {
   clear:both
+}
+.grid-layout div{
+    cursor: default;
+    opacity: .5;
 }
