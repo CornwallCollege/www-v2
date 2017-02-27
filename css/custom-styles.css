@@ -564,6 +564,27 @@ a.icon-btn,
     padding: 20px 15px;
     opacity: 0;
 }
+/*iPad*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    button.icon-btn,
+    a.icon-btn,
+    .icon-btn{
+        opacity: 1;
+    }
+}
+/*iPhone*/    
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+    button.icon-btn,
+    a.icon-btn,
+    .icon-btn{
+        opacity: 1;
+    }
+}
+    
 .hover-effect figure:hover div a.icon-btn{
     opacity: 1!important;
 }
