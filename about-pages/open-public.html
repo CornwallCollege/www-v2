@@ -1,6 +1,6 @@
 ---
 layout: hub
-title: Facilities open to the public 
+title: Facilities open to the public
 description: The Cornwall College Group has many fantastic facilities and purpose-built buildings that can be hired or used by the public or businesses.
 link: 14-18
 background-image: /images/area-banners/hair-beauty-desktop.jpg
@@ -46,11 +46,11 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
   {% for business in site.data.open-public %}
   <section id="{{ business.short }}" style="border-left-color: #{{ business.color }}" class="col-xs-12 col-sm-12 public-body">
 
-    <section class="col-xs-12 col-sm-9 pull-right">
+    <section class="col-sm-12 col-md-9 pull-right">
       <h2 class="main-section-margins" style="color:#{{business.color}}; text-align:left">{{ business.business }}</h2>
     </section>
 
-    <section class="col-xs-12 col-sm-3">
+    <section class="col-sm-12 col-md-3">
       <article>
         {% if business.logo.size >= 0 %}
         <img style="margin-bottom:10px" alt="{{business.business}}" class="img-responsive" src="{{ business.logo }}">
@@ -75,7 +75,7 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
       </article>
     </section>
 
-    <div class="col-xs-12 col-sm-9">
+    <div class="col-sm-12 col-md-9">
 
       <p class="lead">{{ business.title }}</p>
       <p class="open-text">{{ business.text }}</p>

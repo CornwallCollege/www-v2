@@ -20,6 +20,7 @@
       id: saltash-childcare
       class: panel-collapse collapse
       text: Tel&#58; 01752 840240
+
   #table:
    # - icon: fa fa-clock-o
     #  detail: "12:00 - 13:00"
@@ -65,6 +66,7 @@
     - icon: fa fa-facebook
       detail: "<a style='color:white' href='https://www.facebook.com/CCGGetFit'>/CCGGetFit</a>"
 
+
 - business: "Equine"
   color: 007B4C
   class: col-xs-12 col-sm-3 col-lg-2
@@ -82,8 +84,6 @@
     #- icon: fa fa-phone
     #  detail: 01209 611659
 
-
-
   campus:
     - campus-name: "Stoke Equine"
       id: stoke-equine
@@ -97,28 +97,6 @@
       text: "Tel&#58; 01395 562354 <br>Email&#58; equestrian.centre@bicton.ac.uk<br>"
       download: "/documents/Bicton Equine Pricelist 2016.pdf"
 
-- business: "Mill Autoquip"
-  color: e6007e
-  class: col-xs-12 col-sm-3 col-lg-4
-  short: mill
-  logo: /images/public/milllogo-open-to-public.png
-  image: /images/et/automotive-mobile.jpg
-  alt: Mill Autoquip Image
-  title: "We provide all the services you would expect to find at any servicing garage at a fraction of the cost."
-  text: "We are lucky enough to have some of the latest diagnostic equipment available and we are well supported by Autodata, a leading data provider, so our students have access to some of the best facilities and information in the country.</p><p>We do have to make a charge for workshop time, but it is only a fraction of what you would have to pay at a garage (even the smallest ones). We also are able to sell most of our parts at a discount price.</p><p>Another service we offer is to get your car ready for its MOT test and also make the booking for you to take it to a local test station where we know and trust the staff to ensure that you get a fair test, This means that you will never need to worry about things being failed unnecessarily and if something does need to be done, there is usually no charge for the re-test.</p><p>Come and see us at the shop/reception desk in the Brunel building"
-  table:
-    - icon: fa fa-clock-o
-      detail: "8.30am - 5pm"
-
-    - icon: fa fa-envelope-o
-      detail: <a style="color:white" href="mailto:anthony.colgate@cornwall.ac.uk" target="_top">E-mail Us</a>
-
-    - icon: fa fa-phone
-      detail: 01209 616209
-
-    - icon: fa fa-fax
-      detail: 01209 616210
-
 
 - business: "Rosewarne Nursery"
   color: 0a7316
@@ -127,16 +105,16 @@
   image: /images/working-nursery.jpg
   title: "Rosewarne Nursery began in the early 1990s as an educational facility and quickly grew into a commercial enterprise supplying the nursery trade throughout Cornwall and Devon, which it is still doing to this day."
   text: "We are now supplying the majority of the garden centres across Cornwall including Carnon Downs, Chacewater and Trevena Cross, as well as having prestigious clients such as the Eden Project, Lost Gardens of Heligan and the National Trust.</p><p>Sustainability and environmental issues are always at the forefront of our work here, for example, using peat-free compost and relying on borehole water to supply the nursery. It is this ethos that has encouraged the likes of Eden and the National Trust to work closely with us.</p><p>We supply a broad variety of plants including Southern Hemisphere plants, coastal plants and a good range of hardy shrubs, grasses and herbaceous varieties focussing on the landscape trade. We also grow and supply a huge number of Agapanthus Rosewarne, which was bred in the early 1990s and still proves to be a really good all round and hardy agapanthus and one of our best-sellers.</p><p>The nursery is still a valuable educational resource and we endeavour to keep the nursery to a high standard of quality and cleanliness to show how a wholesale nursery should be run, encouraging best practice in our students. It is run by a small, dedicated and knowledgeable team, led by Nursery Manager John Ashton.</p><p>If you want to visit the nursery, please contact us in advance."
-
   table:
     - icon: fa fa-facebook
-      detail: <a style="color:#fff" href="https://www.facebook.com/rosewarnenurseries/">/rosewarnenurseries</a>
+      detail: <a style="color:#fff" href="https://www.facebook.com/rosewarnenurseries/">/rosewarne<br>nurseries</a>
 
     - icon: fa fa-envelope-o
       detail: <a style="color:white" href="mailto:john.ashton@duchy.ac.uk" target="_top">e-mail us</a>
 
     - icon: fa fa-phone
       detail: "07748920489"
+
 
 - business: Cloisters Restaurant
   color: ca1b3c
@@ -177,6 +155,7 @@
       class: panel-collapse collapse
       download: "/documents/cloisters-menus/wine-list.pdf"
 
+
 - business: "Dog Grooming"
   color: 77BC43
   class: col-xs-12 col-sm-3 col-lg-3
@@ -192,7 +171,7 @@
       detail: <a style="color:white" href="mailto:deborah.macdonald@cornwall.ac.uk" target="_top">e-mail us</a>
 
     - icon: fa fa-phone
-      detail: 01209 611659
+      detail: 01209 721342
 
 
 - business: "College Design and Print"
@@ -247,8 +226,8 @@
   class: col-xs-12 col-sm-3 col-lg-3
   short: room
   image: /images/public/venue-hire.jpg
-  title: "The Cornwall College Group offers venue hire at its college locations incorporating the very latest technology, facilities and resources. Each location has something different to offer from conferences to room hire, weddings to festivals"
-  text: "Whether you have 2 or 200 delegates, we will work with you to deliver a tailor&#8208;made conference or events package to suit your budget and requirements. We offer </p><ul><li> A range of onsite leisure and outdoor activities mean that every event &#8208; from large and corporate to small and intimate &#8208; can be catered for. </li><li> Our experienced and friendly staff will work alongside your event manager to ensure that your occasion runs smoothly and to a high standard throughout.</li><li> A range of stylish and functional rooms of all sizes, ideal for conferences, events, workshops, seminars, private functions and parties.</li><li> Computer suites and Interactive whiteboards Main hall with seating for 200.</li><li> Onsite accommodation. (outside of term time &#8208; (Bicton and Stoke Climsland only)  </li><li> Catering to suit your requirements. &#8208; from working lunches to barbecues, all dietary needs catered for.</li><li> A range of outdoor pursuits to cater for your team-building events. (Bicton and Stoke Climsland only)</li><li> Team Building with our Outdoor Adventure Instructors. </li></ul><p><strong>Useful Downloads&#58;<br><a href='/documents/venue hire enquiry 2016.pdf'>Enquiry Form</a></strong>"
+  title: "The Cornwall College Group offers venue hire at its college locations incorporating the very latest technology, facilities and resources. Each location has something different to offer from conferences to room hire, weddings to festivals."
+  text: 'Whether you have 2 or 200 delegates, we will work with you to deliver a tailor made conference or events package to suit your budget and requirements. We offer</p><ul><li>Two professional conference venues in the heart of Truro and Lanceston <a href="http://www.thebusinessspace.co.uk">thebusinessspace.co.uk</a></li><li>A range of onsite leisure and outdoor activities mean that every event from large and corporate to small and intimate can be catered for</li><li>Our experienced and friendly staff will work alongside your event manager to ensure that your occasion runs smoothly and to a high standard throughout.</li><li>A range of stylish and functional rooms of all sizes, ideal for conferences, events, workshops, seminars, private functions and parties.</li><li>Computer suites and Interactive whiteboards</li><li>Onsite accommodation (outside of term time Bicton and Stoke Climsland only)</li><li>Catering to suit your requirements from working lunches to barbecues, all dietary needs catered for.</li><li>A range of outdoor pursuits to cater for your team building events (Bicton and Stoke Climsland only)</li><li>Team Building with our Outdoor Adventure Instructors</li></ul><p>Get in touch <a href="mailto:info@businessspace.co.uk">info@businessspace.co.uk</a>'
   table:
 
 
