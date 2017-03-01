@@ -1005,7 +1005,7 @@ if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.inde
 
     button.addEventListener("click", function onclick(event) {
         $('#video').YTPTogglePlay();
-        $("#university-header").fadeOut( "fast" );
+        $("#title-header").fadeOut( "fast" );
         $('#wrapper_mbYTP_video').fadeIn( "slow" );   
       event.preventDefault();
     });
@@ -1013,7 +1013,7 @@ if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.inde
     // on pause
     $("#video").on("YTPPause",function(){
         $("#wrapper_mbYTP_video").fadeOut( "fast" );
-        $("#university-header").fadeIn( "slow" );
+        $("#title-header").fadeIn( "slow" );
 
     }); 
 }
