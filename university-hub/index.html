@@ -93,7 +93,7 @@ gallery:
 
 <!-- HEADER SECTION -->
 <section id="university-hub" class="col-md-12 jumbotron header-title video">
-  <header class="container">
+  <header id="university-header" class="container">
     <h2><a href="/"><small>Home </small></a><span>UNIVERSITY STUDY</span></h2>
     <h3>BE INSPIRED IN A BEAUTIFUL ENVIRONMENT AND STUDY A QUALITY DEGREE IN THE SOUTH WEST.</h3>
     <div class="col-xs-12 text-center">
@@ -104,8 +104,11 @@ gallery:
 </section>
 
 <!-- END OF HEADER -->
-<div class="video-container" style="display:none">
-  <a id="video" class="fullscreen-video mb_YTPlayer isMuted" data-property="{videoURL:'https://youtu.be/D-k3YV47GDY'}" style="display: none; background-image: none;">The Video</a>
+
+<div id="video" class="player" style="display:none;"
+     data-property="{videoURL:'https://youtu.be/D-k3YV47GDY',containment:'#university-hub',startAt:0,mute:false,autoPlay:false,loop:false,opacity:1}">
+</div>    
+    
 </div>
 <!-- BODY SECTION -->
 <section class="col-xs-12">

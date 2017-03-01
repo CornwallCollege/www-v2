@@ -51,7 +51,7 @@ var getYTPVideoID = function( url ) {
 	jQuery.mbYTPlayer = {
 		name: "jquery.mb.YTPlayer",
 		version: "3.0.8",
-		build: "5878",
+		build: "5883",
 		author: "Matteo Bicocchi",
 		apiKey: "",
 		defaults: {
@@ -178,10 +178,12 @@ var getYTPVideoID = function( url ) {
 				var playerID = "mbYTP_" + YTPlayer.id;
 				YTPlayer.isAlone = false;
 				YTPlayer.hasFocus = true;
-				var videoID = this.opt.videoURL ? getYTPVideoID( this.opt.videoURL ).videoID : $YTPlayer.attr( "href" ) ? getYTPVideoID( $YTPlayer.attr( "href" ) ).videoID : false;
-				var playlistID = this.opt.videoURL ? getYTPVideoID( this.opt.videoURL ).playlistID : $YTPlayer.attr( "href" ) ? getYTPVideoID( $YTPlayer.attr( "href" ) ).playlistID : false;
-				YTPlayer.videoID = videoID;
-				YTPlayer.playlistID = playlistID;
+				YTPlayer.videoID = this.opt.videoURL ? getYTPVideoID( this.opt.videoURL ).videoID : $YTPlayer.attr( "href" ) ? getYTPVideoID( $YTPlayer.attr( "href" ) ).videoID : false;
+				YTPlayer.playlistID = this.opt.videoURL ? getYTPVideoID( this.opt.videoURL ).playlistID : $YTPlayer.attr( "href" ) ? getYTPVideoID( $YTPlayer.attr( "href" ) ).playlistID : false;
+				/*
+								YTPlayer.videoID = videoID;
+								YTPlayer.playlistID = playlistID;
+				*/
 				YTPlayer.opt.showAnnotations = YTPlayer.opt.showAnnotations ? '0' : '3';
 
 				var playerVars = {
@@ -395,7 +397,6 @@ var getYTPVideoID = function( url ) {
 									jQuery( YTPlayer.playerEl ).unselectable();
 
 									$YTPlayer.optimizeDisplay();
-									YTPlayer.videoID = videoID;
 									jQuery( window ).off( "resize.YTP_" + YTPlayer.id ).on( "resize.YTP_" + YTPlayer.id, function() {
 										$YTPlayer.optimizeDisplay();
 									} );
@@ -1805,11 +1806,8 @@ var getYTPVideoID = function( url ) {
 			win.width = el.outerWidth();
 			win.height = el.outerHeight();
 
-			vid.width = win.width;
-			vid.height = YTPlayer.opt.ratio == "16/9" ? Math.ceil( win.width * ( 9 / 16 ) ) : Math.ceil( win.width * ( 3 / 4 ) );
-
-			vid.width = win.width;
-			vid.height = YTPlayer.opt.ratio == "16/9" ? Math.ceil( win.width * ( 9 / 16 ) ) : Math.ceil( win.width * ( 3 / 4 ) );
+			vid.width = win.width + 100;
+			vid.height = YTPlayer.opt.ratio == "16/9" ? Math.ceil( vid.width * ( 9 / 16 ) ) : Math.ceil( vid.width * ( 3 / 4 ) );
 
 			vid.marginTop = -( ( vid.height - win.height ) / 2 );
 			vid.marginLeft = 0;
@@ -1828,7 +1826,8 @@ var getYTPVideoID = function( url ) {
 
 			for( var a in YTPAlign ) {
 
-				var al = YTPAlign[ a ].trim();
+				//var al = YTPAlign[ a ].trim();
+				var al = YTPAlign[ a ].replace( / /g, "" );
 
 				switch( al ) {
 
@@ -1946,7 +1945,6 @@ var getYTPVideoID = function( url ) {
 
 	jQuery.fn.YTPSetAlign = jQuery.mbYTPlayer.setAlign;
 	jQuery.fn.YTPGetAlign = jQuery.mbYTPlayer.getAlign;
-
 
 	/**
 	 *

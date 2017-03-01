@@ -765,7 +765,7 @@ $(document).ready(function () {
 $(document).ready(function(){
 	var onMobile = false;
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { onMobile = true; }
-	if( ( onMobile === false ) ) {
+	/*if( ( onMobile === false ) ) {
 		// The videoplayer - controlled background video
 		$(".fullscreen-video").mb_YTPlayer({
 			containment: "body",
@@ -818,7 +818,7 @@ $(document).ready(function(){
 		$("#home").removeClass(".video");
 		$(".fullscreen-video, .video-controls, .play-btn-normal").hide();
 	}
-
+*/
 
     if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ||
     location.pathname.indexOf("16-18-hub") !== -1  ) {
@@ -1052,43 +1052,28 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 }
 if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.indexOf("16-18-hub") !== -1) {
     //play video on click UNIVERSITY Hub
+    
+    $("#video").YTPlayer(function() {
+        $('#wrapper_mbYTP_video').hide();
+    });        
+    
     var button = document.querySelector("#playVideo");
 
     button.addEventListener("click", function onclick(event) {
-        $('#video').YTPFullscreen();
+        $('#video').YTPTogglePlay();
+        $("#university-header").fadeOut( "fast" );
+        $('#wrapper_mbYTP_video').fadeIn( "slow" );   
       event.preventDefault();
     });
+
+    // on pause
+    $("#video").on("YTPPause",function(){
+        $("#wrapper_mbYTP_video").fadeOut( "fast" );
+        $("#university-header").fadeIn( "slow" );
+
+    }); 
 }
 
-$(document).ready(function () {
-    $( ".tile1" ).click(function() {
-        $( ".content1" ).slideToggle( "slow", "swing");
-        $( ".content2" ).slideUp( "slow", "swing");
-        $( ".content3" ).slideUp( "slow", "swing");
-        $( ".content4" ).slideUp( "slow", "swing");
-    });
-
-    $( ".tile2" ).click(function() {
-        $( ".content2" ).slideToggle( "slow", "swing");
-        $( ".content1" ).slideUp( "slow", "swing");
-        $( ".content3" ).slideUp( "slow", "swing");
-        $( ".content4" ).slideUp( "slow", "swing");
-    });
-
-    $( ".tile3" ).click(function() {
-        $( ".content3" ).slideToggle( "slow", "swing");
-        $( ".content1" ).slideUp( "slow", "swing");
-        $( ".content2" ).slideUp( "slow", "swing");
-        $( ".content4" ).slideUp( "slow", "swing");
-    });
-
-    $( ".tile4" ).click(function() {
-        $( ".content4" ).slideToggle( "slow", "swing");
-        $( ".content1" ).slideUp( "slow", "swing");
-        $( ".content2" ).slideUp( "slow", "swing");
-        $( ".content3" ).slideUp( "slow", "swing");
-    });
-});
 // get announcement from
 jQuery(document).ready(function () {
     // Lookup alert message and display if required
