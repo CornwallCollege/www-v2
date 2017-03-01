@@ -419,17 +419,11 @@
   slug: "eden-project"
   accesslink: /tag/access/campus/eden-project
   facilities:
-    - title: Biomes
-      detail: The Rainforest and the Mediterranean Biomes are world class entertainment and educational attractions. Work alongside our skilled specialists in these awe-inspiring domes. The beautiful biomes of Eden offer an unique opportunity to experience and study exotic eco-sytems and tropical habitats. The Citrus Grove in the Mediterranean Biome is the stage for our contemporary storytelling and performance students. There are a range of restaurants, cafes and bars that also offer great work experience opportunities to our Chef apprentices.
-      link: /eden-learning-area/
-      image: /eden/biomes.jpg
-      image-thumb: /eden/biomes-thumb.jpg
-
-    - title: Hive & Eden Session
+    - title: Hive & Eden<br>Sessions
       detail: The Hive is on the main site and has been designed specifically for performance activities. This is where the stage and arena are and where the high profile Eden Sessions music concerts are held. We host a range of events at Eden from gigs, conferences, parties to weddings. All of these offer great work experience opportunities for our event management students.
       link: /eden-learning-area/
-      image: /eden/green-hub.jpg
-      image-thumb: /eden/green-hub-thumb.jpg
+      image: /eden/eden-sessions.jpg
+      image-thumb: /eden/eden-sessions-thumb.jpg
 
     - title: Foundation<br>Building
       detail: The Foundation Building is the hub of the education activity on site housing most of the dedicated classroom spaces and the HE Student Common Room.
@@ -437,7 +431,7 @@
       image: /eden/eden-foundation-building-LG.jpg
       image-thumb: /eden/eden-foundation-building-thumb.jpg
 
-    - title: Laboratory & Watering Lane Nursery
+    - title: Lab & Watering Lane Nursery
       detail: For apprentices and students studying horticulture, garden and landscape design the Laboratory & Watering Lane Nursery this is where you will spend much of your taught time. Watering Lane Nursery is a few miles off site and will form part of the extended campus for you also.
       link: /eden-learning-area/
       image: /eden/watering-lane-nursery.jpg
@@ -446,7 +440,13 @@
     - title: Green Build Hub & Learning Centre
       detail: The Green Build Hub is a new building for the 2016/2017 academic year,what is here for students. It houses the Design Studio as well as the Learning Centre.
       link: /eden-learning-area/
-      image: /eden/eden-sessions.jpg
+      image: /eden/green-hub.jpg
+      image-thumb: /eden/green-hub-thumb.jpg
+
+    - title: Biomes
+      detail: The Rainforest and the Mediterranean Biomes are world class entertainment and educational attractions. Work alongside our skilled specialists in these awe-inspiring domes. The beautiful biomes of Eden offer an unique opportunity to experience and study exotic eco-sytems and tropical habitats. The Citrus Grove in the Mediterranean Biome is the stage for our contemporary storytelling and performance students. There are a range of restaurants, cafes and bars that also offer great work experience opportunities to our Chef apprentices.
+      link: /eden-learning-area/
+      image: /eden/biomes.jpg
       image-thumb: /eden/biomes-thumb.jpg
 
     - title: Canteen
@@ -1246,23 +1246,11 @@
       partner-link: http://www.army.mod.uk/
 
   facilities:
-    - title: Learning Centre
-      detail: Monday – Thursday 8.30am - 6pm, Friday 8.30am – 4.30pm during term time and varied opening hours during half terms and holidays.<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
-      link: /stoke-climsland-learning-area/
-      image: /stoke/learning-centre.jpg
-      image-thumb: /stoke/learning-centre-thumb.jpg
-
     - title: Students’ Union
       detail: Cornwall College Student Union (CCSU) exists to represent your voice at every level in the College and to make sure you have a fantastic time while you are a student with us. Every campus has a team of elected student officers who will be working hard all year, from organising parties, to running campaigns, and you have plenty of chances to get involved. The Students Union is one of the best things about the College and you have the power to determine what it’s doing!<br><br> Remember, YOUR UNION, YOUR VOICE! Degree students can also access the University of Plymouth Students Union.
       link: /stoke-climsland-learning-area/
       image: /stoke/students-union.jpg
       image-thumb: /stoke/students-union-thumb.jpg
-
-    - title: Sam’s & Pastures Restaurants
-      detail: Sam's<br> Mon, Tues and Thurs 8.30am to 3pm Wednesday , Friday  8.30am to 2.30pmThe campus restaurant has a hot food counter and snack shack open every day<br> Pastures<br>Monday to Friday, 8.30 to 2.30pm
-      link: /stoke-climsland-learning-area/
-      image: /stoke/sams.jpg
-      image-thumb: /stoke/sams-thumb.jpg
 
     - title: Accommodation
       detail: We understand that many of you may need accommodation, which is why we can provide you with options both on and off campus.<br><br>At Duchy College Stoke Climsland we pride ourselves on the care we provide to our Students. Parents and guardians will be pleased to hear that the care of the students is also assessed by Government Standards and Ofsted. We can offer you various accommodation options both on and off campus. This ranges from full board with three cooked meals, seven days a week, to self-catering for older students.<br><br>For information packs and advice on student accommodation, please contact Accommodation Office Tel 01579 372208
@@ -1270,29 +1258,41 @@
       image: /stoke/accommodation.jpg
       image-thumb: /stoke/accommodation-thumb.jpg
 
-    - title: Evolve Sport, Fitness and Outdoors
-      detail: <strong>Contact - sportsmaker@cornwall.ac.uk</strong><br><br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.<br><br>There is a wide range of facilities including, 4 court sports hall,football pitches, climbing tower, offsite lake for watersports, orienteering course, and a fitness suite.<br> The College also has a golf putting green and swing studio and employs a full time golf professional, giving you outstanding facilities on site. <br><br>College sporting activities include; hockey, netball, football, kayaking, outdoor pursuits, horse riding, climbing, running, fitness classes, archery, lacrosse, racket sports, dodgeball and many more.
-      link: /stoke-climsland-learning-area/
-      image: /stoke/sports-outdoors.jpg
-      image-thumb: /stoke/sports-outdoors-thumb.jpg
-
     - title: Equine
       detail: Our Stoke Climsland campus is home to an industry-approved Equestrian Centre with extensive stabling and is equipped with two indoor arenas and large outdoor arena, a weighbridge, horse walker, wash down and solarium facilities as well as state-of–the-art equipment and technology, all of which are used extensively by students. With excellent links to employers, practitioners and researchers, nationally and internationally, our students have the opportunity to train and develop their skills for employment in all aspects of the equestrian industry.<br><br>Duchy College is also home to the Equitation Science Research and Training Centre which works closely with the International Society for Equitation Science. Our students also benefit from comprehensive links with leading equine practitioners such as equine nutritionists, organisations, charities (such as The Horse Trust), veterinary professionals, competitors and equitation science practitioners.
       link: /stoke-climsland-learning-area/
       image: /stoke/equine.jpg
       image-thumb: /stoke/equine-thumb.jpg
 
-    - title: Animal Management
-      detail: A dedicated animal management centre, with five animal paddocks and a dog grooming parlour
-      link: /stoke-climsland-learning-area/
-      image: /stoke/animal-management.jpg
-      image-thumb: /stoke/animal-management-thumb.jpg
-
     - title: Future Farm
       detail: The Daniel Building is the first part of the Future Farm project to be completed; a £10 million scheme including a new higher education hub and state-of-the-art dairy unit. The campus occupies a 660-acre estate with dairy, beef, sheep, arable and forage crops plus a range of dry and wet habitats typical of the area. Our teaching accommodation is recently built with well-equipped workshops and laboratories and we have an impressive portfolio of up-to-date farm machinery. We are also home to the Rural Business School, giving you unique opportunities to be involved in project work, meet industry leaders, and keep up-to-date with policy, economics and issues affecting rural businesses. You will benefit from our close relationships with agencies across the UK (including EBLEX, the NFU and Defra) and our links with industry across Europe mean excellent opportunities to experience alternative farming systems through work-based learning.<br><br>Duchy’s Home Farm is a working commercial farm and our livestock includes cattle, sheep and pigs. This will include state-of-the-art facilities including housing, milking and feeding. The layout of the new building will also enable dairy trials and research to be carried out.
       link: /stoke-climsland-learning-area/
       image: /stoke/future-farm.jpg
       image-thumb: /stoke/future-farm-thumb.jpg
+
+    - title: Learning<br>Centre
+      detail: Monday – Thursday 8.30am - 6pm, Friday 8.30am – 4.30pm during term time and varied opening hours during half terms and holidays.<br>The Learning Centres (LCs) offer a range of resources, facilities and support for your studies In each Learning Centre you will find a range of resources including<br>•  Books, e-books and magazines to support your studies<br>• Fiction books, graphic novels, DVDs and Audio CDs<br>• Study spaces for individual study and group work<br>• Computers, laptops and tablet devices to use in the LC<br>You will also find staff who can help with<br>• Finding and using books, ebooks and journals<br>• Support for developing your study and research skills, including using the Internet for research and avoiding plagiarism<br>• Help with using college computers and software<br> We have a network of 9 learning centres across our campuses, resources can be sourced from all.
+      link: /stoke-climsland-learning-area/
+      image: /stoke/learning-centre.jpg
+      image-thumb: /stoke/learning-centre-thumb.jpg
+
+    - title: Sam’s & Pastures Restaurants
+      detail: Sam's<br> Mon, Tues and Thurs 8.30am to 3pm Wednesday , Friday  8.30am to 2.30pmThe campus restaurant has a hot food counter and snack shack open every day<br> Pastures<br>Monday to Friday, 8.30 to 2.30pm
+      link: /stoke-climsland-learning-area/
+      image: /stoke/sams.jpg
+      image-thumb: /stoke/sams-thumb.jpg
+
+    - title: Evolve Sport, Fitness and Outdoors
+      detail: <strong>Contact - sportsmaker@cornwall.ac.uk</strong><br><br>Students are able to take part in free and subsidised sporting and recreational activities designed to enrich the student experience whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term for those interested.<br><br>There is a wide range of facilities including, 4 court sports hall,football pitches, climbing tower, offsite lake for watersports, orienteering course, and a fitness suite.<br> The College also has a golf putting green and swing studio and employs a full time golf professional, giving you outstanding facilities on site. <br><br>College sporting activities include; hockey, netball, football, kayaking, outdoor pursuits, horse riding, climbing, running, fitness classes, archery, lacrosse, racket sports, dodgeball and many more.
+      link: /stoke-climsland-learning-area/
+      image: /stoke/sports-outdoors.jpg
+      image-thumb: /stoke/sports-outdoors-thumb.jpg
+
+    - title: Animal<br>Management
+      detail: The Animal Management Centre provides an excellent teaching environment for animal husbandry and management. The centre provides accommodation, enclosures and paddocks for a wide range of animals, including small animals, aquatics, reptiles, invertebrates, poultry, waterfowl and farm animals. The centre also includes a dog grooming room and cat play room.<br><br>As well as the Animal Management Centre, facilities for animal management also include:<br>Duchy Home Farm &#x2010; a working commercial farm and includes cattle, sheep and pigs providing access to a range of larger animals<br>Duchy Equestrian Centre &#x2010; equipped with two indoor arenas and a large outdoor arena, a weighbridge, horse walker, wash down and solarium facilities as well as state&#x2010;of&#x2010;the&#x2010;art equipment and technology.<br>Fully equipped laboratory facilities for biological sciences.<br><br>Our students also benefit from comprehensive links with leading industry practitioners such as animal nutritionists, organisations, charities (such as The Donkey Sanctuary and Dartmoor Zoological Park), veterinary professionals, and paraprofessionals, giving the best opportunity to gain vocational skills.
+      link: /stoke-climsland-learning-area/
+      image: /stoke/animal-management.jpg
+      image-thumb: /stoke/animal-management-thumb.jpg
 
   learning-areas:
     - area-title: Business & Professional

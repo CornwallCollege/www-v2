@@ -570,8 +570,8 @@ a.icon-btn,
     opacity: 0;
 }
 /*iPad*/
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px){
     button.icon-btn,
     a.icon-btn,
@@ -579,9 +579,9 @@ and (max-device-width : 1024px){
         opacity: 1;
     }
 }
-/*iPhone*/    
-@media only screen 
-and (min-device-width : 414px) 
+/*iPhone*/
+@media only screen
+and (min-device-width : 414px)
 and (max-device-width : 736px) {
     button.icon-btn,
     a.icon-btn,
@@ -589,7 +589,7 @@ and (max-device-width : 736px) {
         opacity: 1;
     }
 }
-    
+
 .hover-effect figure:hover div a.icon-btn{
     opacity: 1!important;
 }
@@ -3507,21 +3507,6 @@ APPLY BARS =====================================================================
 }
 
 
-.public-filter ul .mill a {
-    border-color: #e6007e;
-    background-color: #e6007e;
-}
-
-.public-filter ul .mill a:hover {
-    border-color: #e6007e;
-    color: #e6007e;
-}
-
-.public-filter ul .mill:hover h3 {
-    color: #e6007e;
-}
-
-
 .public-filter ul .trevenson a {
     border-color: #5f5f5f;
     background-color: #5f5f5f;
@@ -3690,15 +3675,6 @@ APPLY BARS =====================================================================
 
   .public-filter ul .koko h3 {
       background-color: #8b005b;
-  }
-
-
-  .public-filter ul .mill a {
-      background-image: url(/images/et/automotive-mobile.jpg);
-  }
-
-  .public-filter ul .mill h3 {
-      background-color: #e6007e;
   }
 
 
@@ -4785,14 +4761,14 @@ a.learning-area:hover{
             }
 }
 @media(max-width:320px){
-    
+
             .sod_placeholder{
                 font-size: 1.6em!important;
-            }  
+            }
             .cover_sod .sod_option {
                 padding: 7px 3px;
                 font-size: 13px;
-            }   
+            }
             .cover_sod .sod_label {
                 font-size: 1.6em;
             }
