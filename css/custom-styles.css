@@ -4737,11 +4737,12 @@ a.learning-area:hover{
                 color:white;
             }
         /* The native select in touch mode. Keep this first line. Sorry, keep everything. */
-        .sod_select.touch select
-            {
+        .sod_select.touch select{
                 color:black;
-                font-size:.5em;
-            }
+                font-size:1.5em;
+        }
+            color:black;
+        }
 
 @media(max-width:570px){
             .cover_sod {
