@@ -11,10 +11,10 @@ postcode: TR15 3RD
 <section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
 
   <!-- MENUS BOX -->
-  <article class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom: 30px">
-    <a class="btn" style="color:#fff; margin-top:10px" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
-    <a class="btn" style="color:#fff; margin-top:10px" href="/documents/other/Trevenson MENU 2.pdf">Trevenson Tasting Menu</a><br>
-    <a class="btn" style="color:#fff; margin-top:10px" href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a><br>
+  <article class="col-xs-12 col-sm-6 col-md-12 facility-downloads">
+    <a class="btn" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
+    <a class="btn" href="/documents/other/Trevenson MENU 2.pdf">Trevenson Tasting Menu</a>
+    <a class="btn" href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a>
   </article>
 
   <!-- DIRECTIONS -->
@@ -49,29 +49,6 @@ postcode: TR15 3RD
       <span class="dot" onclick="currentSlide(2)"></span>
     </div>
   </article>
-
-  <!-- Slideshow JS -->
-  <script>
-  var slideIndex = 0;
-  showSlides();
-
-  function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex> slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" dot-active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " dot-active";
-      setTimeout(showSlides, 2225); // Change image every 3.5 seconds
-  }
-  </script>
 
 </section>
 

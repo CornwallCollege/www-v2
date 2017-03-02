@@ -5591,3 +5591,15 @@ table.contact-overview {
     cursor: default;
     opacity: .5;
 }
+
+/* Facility Pages */
+.facility-downloads {
+  margin-bottom: 30px;
+}
+
+.facility-downloads a {
+  display: block;
+  width: 54%;
+  margin: 10px auto 0 auto;
+  color: white;
+}
