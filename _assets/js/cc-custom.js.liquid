@@ -1002,10 +1002,43 @@ if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.inde
         //autoplay: true    
         debug: true
     });
-    instance.on('ready', function() {
-        on('#playVideo', 'click', function() { 
-          instance.play();
+    // Get an element
+    function get(selector) {
+        return document.querySelector(selector);
+    }
+  // Custom event handler
+    function on(element, type, callback) {
+        if (!(element instanceof HTMLElement)) {
+          element = get(element);
+        }
+        element.addEventListener(type, callback, false);
+    }
+    instances.forEach(function(instance) {
+        instance.on('ready', function() {
+            //$("#playVideo").fadeToggle(2000);
+            $('#playVideo').css('visibility','visible');
         });
+        on('#playVideo', 'click', function() { 
+            instance.play();
+            instance.toggleFullscreen();
+            $("#title-header").fadeOut( "fast" );
+            $("#plyr-wrap").fadeIn( "slow" );
+            $(".plyr").show();
+            $("#video-wrap").fadeIn( "slow" );
+            
+        });
+        instance.on('exitfullscreen', function() {
+            instance.pause();
+            $("#video-wrap").fadeOut();
+            $("#title-header").fadeIn( "fast" );
+            $(".plyr").hide();
+        });
+        instance.on('ended', function() {
+            $("#video-wrap").fadeOut();
+            $("#title-header").fadeIn( "fast" );
+            $(".plyr").hide();
+        });
+        
     });
 
     /*

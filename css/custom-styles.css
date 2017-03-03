@@ -5602,3 +5602,6 @@ table.contact-overview {
   margin: 10px auto 0 auto;
   color: white;
 }
+.plyr {
+    display: none;
+}
