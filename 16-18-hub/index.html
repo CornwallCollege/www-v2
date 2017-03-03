@@ -29,12 +29,16 @@ custom_css: /css/16-18hub-cutdown.css
 
 <!-- END OF HEADER -->
 
-<div id="video" class="player" style="display:none;"
-     data-property="{videoURL:'https://youtu.be/XdOXXldJazQ',containment:'#fe-hub',startAt:0,mute:false,autoPlay:false,loop:false,opacity:1}">
+<div id="video">
 </div> 
+
+
 <!-- END OF HEADER -->
 
     <section id="video-block" class="col-sm-12 full-width-video-block">
+        
+        <div data-plyr='{ autoplay: "true" }'  data-type="youtube" data-video-id="XdOXXldJazQ"></div>
+        
         <article class="col-md-4 col-xs-12 no-padding">
             {% youtube https://youtu.be/-AqUfso3nkY %}
             <div class="text-center caption">

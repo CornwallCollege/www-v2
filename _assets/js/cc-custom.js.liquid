@@ -997,12 +997,31 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.indexOf("16-18-hub") !== -1) {
     //play video on click UNIVERSITY Hub
     
+    var instances = plyr.setup({
+        // Output to console
+        //autoplay: true    
+        debug: true
+    });
+    instance.on('ready', function() {
+        on('#playVideo', 'click', function() { 
+          instance.play();
+        });
+    });
+
+    /*
     $("#video").YTPlayer(function() {
         $('#wrapper_mbYTP_video').hide();
-    });        
+    });
     
+    //setup the button var
     var button = document.querySelector("#playVideo");
-
+    
+    //show the play button whn ready
+    $("#video").on("YTPReady",function(){
+        $('#playVideo').fadeIn( "slow" );  
+    }); 
+    
+    //on play click
     button.addEventListener("click", function onclick(event) {
         $('#video').YTPTogglePlay();
         $("#title-header").fadeOut( "fast" );
@@ -1015,7 +1034,7 @@ if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.inde
         $("#wrapper_mbYTP_video").fadeOut( "fast" );
         $("#title-header").fadeIn( "slow" );
 
-    }); 
+    }); */
 }
 
 // get announcement from
