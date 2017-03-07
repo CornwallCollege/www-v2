@@ -87,11 +87,11 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
 
           <div class="panel-heading" style="background-color: #{{ business.color }}">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href="#{{ campus.id }}">{{ campus.campus-name }}</a>
+              <a data-toggle="collapse" data-parent="#accordion-{{ business.short }}" href=".{{ campus.id }}">{{ campus.campus-name }}</a>
             </h4>
           </div>
 
-          <div id="{{ campus.id }}" class="{{ campus.class }}" style= "background-color: #{{ business.color }}">
+          <div class="{{ campus.id }} {{ campus.class }}" style= "background-color: #{{ business.color }}">
             <div class="panel-body">{{ campus.text }} {% if campus.download.size >= 0 %}<a style="color:white" href="{{ campus.download }}">Download</a> {% endif %}
             </div>
           </div>
