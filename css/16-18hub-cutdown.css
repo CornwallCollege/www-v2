@@ -8,6 +8,11 @@
 .we-perfection h2 strong{
     color: #333
 }
+.how-we-work h2{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+} 
 .how-we-work ul {
 	text-align: center;
 	margin-bottom: 48px;
@@ -90,10 +95,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
-    color: white;
 }
-.shape-content{
-
+.research-slope .shape-content p{
+    color: white;
 }
 .research-slope:before {
 	width: 52%;
@@ -452,21 +456,23 @@
   display:flex;
   justify-content:center;
 }
-@media(min-width:900px){
-    .why-choose:before {
-        width: 60%;
-        position: absolute;
-        height: 100%;
-        top: 0px;
-        overflow: visible;
-        border-top: 0px solid rgba(82,179,217,0.90);
-        border-bottom: 1021px solid rgba(82,179,217,0.90);
-        border-left: 260px solid transparent;
-        border-right: 0px solid transparent;
-        content: "";
-        right: 0;
-    }
+.why-choose-inner{
+    z-index: 1;
 }
+.why-choose:before {
+    width: 60%;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    overflow: visible;
+    border-top: 0px solid rgba(82,179,217,0.90);
+    border-bottom: 1021px solid rgba(82,179,217,0.90);
+    border-left: 260px solid transparent;
+    border-right: 0px solid transparent;
+    content: "";
+    right: 0;
+}
+
 .why-choose h2 {
 	margin-left: 60px;
 	text-align: center;
@@ -941,7 +947,45 @@
 .app-updates p {
 	font-size: 16px;
 	line-height: 25px;
-}/**/
+}
+
+/* ## Statistics Section ## */
+
+.statistics-section {
+	background-color: #52B3D9;
+	margin-top: -5px;
+	text-align: center;
+	color: #fff;
+	padding: 82px 0 66px 0;
+}
+.statistics-section  h3 {
+	font-size: 40px;
+	font-weight: 400;
+}
+.statistics-section h2,
+.service-section h2{
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #52B3D9;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.statistics-section h2{
+    color: white;
+    font-size:3em;
+}
+.statistics-section  h3,
+.statistics-section p {
+	margin: 0;
+}
+.statistics-section p {
+	font-size: 12px;
+	margin-top: 20px;
+    color: white;
+}
+
+/*--------------------------------------------*/
 
 @media(max-width:786px){
 
@@ -982,7 +1026,40 @@
     }
     .features-section:before {
         display: none;
+    }   
+    .how-we-work ul li:before {
+        display: none;
     }    
 }
+@media( min-width:451px ) and ( max-width:991px ){
+    .how-we-work h2 {
+        font-size:2em;
+        text-align: center;
+        max-width: 100%
+    }
+    .we-perfection h2{
+        text-align: left;
+        max-width:80%;
+    }
+    .feature-box-inner .icon-feature{
+        float: right
+    }
 
+    .research{
+        right: 60px;   
+    }
+    .why-choose:before,
+    .features-section:before{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        top: 0px;
+        overflow: visible;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        background: rgba(82,179,217,0.90);
+    }    
+    
+}
 

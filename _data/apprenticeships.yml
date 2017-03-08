@@ -3,14 +3,24 @@
   colour: 00A1CB
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Agriculture
+- apprenticeship-title: Agriculture - Bicton College
   colour: 61AE24
-  nas-guid: 0a305493e54640f4bd6a27678adec109
+  nas-guid: 73a1623600512a1477893a4d006811d5
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Animal care, game keeping and equine
+- apprenticeship-title: Agriculture - Duchy College
   colour: 61AE24
-  nas-guid: ee3ec07fbc5f57b6935ff9d406b45888
+  nas-guid: 838154b80bea6dbb02c39192b291a4d6
+  course-link: /course-type/apprenticeship
+
+- apprenticeship-title: Animal care, game keeping and equine - Bicton College
+  colour: 61AE24
+  nas-guid: 9ad872680be66b67bb67998949f10522
+  course-link: /course-type/apprenticeship
+
+- apprenticeship-title: Animal care, game keeping and equine - Duchy College
+  colour: 61AE24
+  nas-guid: 8a6f8ecb6f693ac5e232c9555e89da1c
   course-link: /course-type/apprenticeship
 
 - apprenticeship-title: Boatbuilding
@@ -58,14 +68,14 @@
   nas-guid: 90f3e8d1085af4248a78b39015d67f0e
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Horticulture, green keeping and floristry
+- apprenticeship-title: Horticulture, green keeping and floristry - Bicton College
   colour: 61AE24
-  nas-guid: 793b5b846bb8c76fc1eb5af6e5afe292
+  nas-guid: 6d92ab00f614f35fa537e9d628c424df
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: IT
-  colour: E54028
-  nas-guid:
+- apprenticeship-title: Horticulture, green keeping and floristry - Duchy College
+  colour: 61AE24
+  nas-guid: 8b443179e5b08b95ade312469707b2ec
   course-link: /course-type/apprenticeship
 
 - apprenticeship-title: Journalism

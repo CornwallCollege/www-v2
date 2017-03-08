@@ -557,10 +557,41 @@ a.icon-btn,
 .icon-btn{
     border: 1px solid #52B3D9;
     color:#52B3D9;
+    border: 1px solid #52b3d9;
+    color: #52b3d9;
     text-transform: uppercase;
     font-size: 12.5px;
     display: inline-block;
 
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    opacity: 0;
+}
+/*iPad*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    button.icon-btn,
+    a.icon-btn,
+    .icon-btn{
+        opacity: 1;
+    }
+}
+/*iPhone*/
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+    button.icon-btn,
+    a.icon-btn,
+    .icon-btn{
+        opacity: 1;
+    }
+}
+
+.hover-effect figure:hover div a.icon-btn{
+    opacity: 1!important;
 }
 a.icon-btn:hover,
 button.icon-btn:hover,
@@ -3476,21 +3507,6 @@ APPLY BARS =====================================================================
 }
 
 
-.public-filter ul .mill a {
-    border-color: #e6007e;
-    background-color: #e6007e;
-}
-
-.public-filter ul .mill a:hover {
-    border-color: #e6007e;
-    color: #e6007e;
-}
-
-.public-filter ul .mill:hover h3 {
-    color: #e6007e;
-}
-
-
 .public-filter ul .trevenson a {
     border-color: #5f5f5f;
     background-color: #5f5f5f;
@@ -3659,15 +3675,6 @@ APPLY BARS =====================================================================
 
   .public-filter ul .koko h3 {
       background-color: #8b005b;
-  }
-
-
-  .public-filter ul .mill a {
-      background-image: url(/images/et/automotive-mobile.jpg);
-  }
-
-  .public-filter ul .mill h3 {
-      background-color: #e6007e;
   }
 
 
@@ -4297,7 +4304,7 @@ ul#og-grid li h4{
     margin-top:0;
 }
 .og-details h3 {
-    padding: 10px 0 10px;
+    padding: 0 0 10px;
 }
 .apprenticeships .og-details h3 {
     font-size: 30px;
@@ -4405,6 +4412,24 @@ ul#og-grid li h4{
 .campus-seach{
     margin-bottom:20px;
 }
+.og-details a::before {
+    content:none;
+}
+.og-details a {
+    font-size: 15px;
+    color: #52B3D9;
+    text-transform: uppercase;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    margin: 0;
+    outline: none;
+}
+.og-details .readmore {
+    color: white;
+    padding: 8px 20px;
+}
+
 /* Bicton Campus */
 #bicton-campus h2 strong,
 #bicton-campus h5 span{
@@ -4653,7 +4678,7 @@ a.learning-area:hover{
     }
     .cover_sod
         {
-            -ms-transform: translate(-50%,-0%);
+            /*-ms-transform: translate(-50%,-0%);*/
             width: auto;
             background: rgba(0,0,0,.3);
             border: 3px solid #ffffff;
@@ -4730,11 +4755,10 @@ a.learning-area:hover{
                 color:white;
             }
         /* The native select in touch mode. Keep this first line. Sorry, keep everything. */
-        .sod_select.touch select
-            {
-                color:black;
-                font-size:.5em;
-            }
+        .sod_select.touch select{
+                color:#000;
+                font-size:1.5em;
+        }
 
 @media(max-width:570px){
             .cover_sod {
@@ -4754,14 +4778,14 @@ a.learning-area:hover{
             }
 }
 @media(max-width:320px){
-    
+
             .sod_placeholder{
                 font-size: 1.6em!important;
-            }  
+            }
             .cover_sod .sod_option {
                 padding: 7px 3px;
                 font-size: 13px;
-            }   
+            }
             .cover_sod .sod_label {
                 font-size: 1.6em;
             }
@@ -5134,6 +5158,9 @@ div.btn-group .area-filter{
     line-height: normal;
     font-size: .9em;
     padding: 10px 20px;
+}
+div.btn-group .area-filter,
+div.btn-group .area-filter:hover{
     letter-spacing: 0.11em;
 }
 .area div.detail a{
@@ -5576,4 +5603,23 @@ table.contact-overview {
 
 .all-contact-details article:nth-child(odd) {
   clear:both
+}
+.grid-layout div{
+    cursor: default;
+    opacity: .5;
+}
+
+/* Facility Pages */
+.facility-downloads {
+  margin-bottom: 30px;
+}
+
+.facility-downloads a {
+  display: block;
+  width: 54%;
+  margin: 10px auto 0 auto;
+  color: white;
+}
+.plyr {
+    display: none;
 }
