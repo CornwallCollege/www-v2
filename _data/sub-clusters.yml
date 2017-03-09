@@ -685,7 +685,7 @@
 - cluster: A-levels
   filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
   cluster-link: #
-  a-class: transition ac
+  a-class: transition as
   a-data-filter: .ac
   subclusters:
     - subcluster: A-levels
