@@ -468,8 +468,9 @@ function incrementCount(counter) {
     }
 
 
-    if (location.pathname.indexOf("university-hub") !== -1 ||
-       location.pathname.indexOf("about-pages") !== -1) {
+    if (location.pathname.indexOf("university-hub", "about-pages", "career-hub") !== -1 ||
+       location.pathname.indexOf("about-pages") !== -1 ||
+       location.pathname.indexOf("career-hub") !== -1) {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -996,10 +997,10 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 }
 if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.indexOf("16-18-hub") !== -1) {
     //play video on click UNIVERSITY Hub
-    
+
     var instances = plyr.setup({
         // Output to console
-        //autoplay: true    
+        //autoplay: true
         debug: true
     });
     // Get an element
@@ -1018,14 +1019,14 @@ if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.inde
             //$("#playVideo").fadeToggle(2000);
             $('#playVideo').css('visibility','visible');
         });
-        on('#playVideo', 'click', function() { 
+        on('#playVideo', 'click', function() {
             instance.play();
             instance.toggleFullscreen();
             $("#title-header").fadeOut( "fast" );
             $("#plyr-wrap").fadeIn( "slow" );
             $(".plyr").show();
             $("#video-wrap").fadeIn( "slow" );
-            
+
         });
         instance.on('exitfullscreen', function() {
             instance.pause();
@@ -1038,27 +1039,27 @@ if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.inde
             $("#title-header").fadeIn( "fast" );
             $(".plyr").hide();
         });
-        
+
     });
 
     /*
     $("#video").YTPlayer(function() {
         $('#wrapper_mbYTP_video').hide();
     });
-    
+
     //setup the button var
     var button = document.querySelector("#playVideo");
-    
+
     //show the play button whn ready
     $("#video").on("YTPReady",function(){
-        $('#playVideo').fadeIn( "slow" );  
-    }); 
-    
+        $('#playVideo').fadeIn( "slow" );
+    });
+
     //on play click
     button.addEventListener("click", function onclick(event) {
         $('#video').YTPTogglePlay();
         $("#title-header").fadeOut( "fast" );
-        $('#wrapper_mbYTP_video').fadeIn( "slow" );   
+        $('#wrapper_mbYTP_video').fadeIn( "slow" );
       event.preventDefault();
     });
 
