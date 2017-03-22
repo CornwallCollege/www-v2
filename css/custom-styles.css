@@ -4273,15 +4273,6 @@ section.key-stats:after{
 .og-grid li {
     /*position: relative;*/
 }
-.apprenticeships .og-grid li {
-    height:80px;
-    width: 23%;
-}
-@media(max-width:769px){
-    .apprenticeships .og-grid li {
-        width: 100%;
-    }
-}
 ul#og-grid li h4{
     z-index: 1;
     position: relative;
@@ -4294,9 +4285,6 @@ ul#og-grid li h4{
     max-width: 250px;
     width: 100%;
 }
-.apprenticeships .og-grid .og-fullimg,
-.apprenticeships .og-grid .og-loading,
-/*.apprenticeships .og-grid .og-details h3,*/
 .og-details span{
 	display:none;
 }
@@ -4305,45 +4293,6 @@ ul#og-grid li h4{
 }
 .og-details h3 {
     padding: 0 0 10px;
-}
-.apprenticeships .og-details h3 {
-    font-size: 30px;
-    padding: 0px;
-    margin: 5px;
-}
-.apprentice-area{
-    padding: 10px 15px;
-    border: solid 1px #ddd;
-    margin: 5px 0;
-    min-height: 80px;
-    display: flex;
-    display: -webkit-flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-    color: #52b3d9;
-    background: white;
-    font-weight: bold;
-    line-height: 1.3em;
-    font-size: .9em
-}
-.apprenticeships .og-grid li:hover,
-.apprenticeships .og-grid li > a:hover{
-    letter-spacing: normal;
-}
-.apprenticeships .og-grid li > a span:hover{
-    background: #f1f1f1
-}
-.apprenticeships .og-expander{
-    margin-top:89px;
-}
-.apprenticeships .og-grid li.og-expanded > a::after {
-    top: 80px;
-}
-.apprenticeships .og-grid .og-details{
-	width:100%;
-	padding:0;
 }
 /* Campus Overview / Location hub */
 @media(max-width:640px){
@@ -5622,4 +5571,28 @@ table.contact-overview {
 }
 .plyr {
     display: none;
+}
+
+/* Apprentice hub Vacancies Modal */
+.apprenticeship-vaccancies {
+  margin-bottom: 60px;
+}
+.apprenticeship-vaccancies > div > button {
+  min-height: 80px;
+  width: 100%;
+  background: #fff;
+  color: #52b3d9;
+  border: solid 1px #ddd;
+  font-size: 0.9em;
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.apprenticeship-vaccancies > div > button:hover,
+.apprenticeship-vaccancies > div > button:active,
+.apprenticeship-vaccancies > div > button:focus {
+  background: #f1f1f1;
+  color: #52b3d9;
+  border: solid 1px #ddd;
 }
