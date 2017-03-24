@@ -676,60 +676,60 @@
 
   # End of Guides
 
-  #CAM_2011_Maps
-- title: Cornwall College Camborne 2011 Map # Document name
+  #Bicton College Campus Map
+- title: Bicton College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/CAM_2015_Maps.pdf
+  download-link: /documents/maps/bicton-college-campus-map.pdf
   colour: 006D43
 
-  #Campus Map Falmouth
+  #Cornwall College Camborne Campus Map
+- title: Cornwall College Camborne Campus Map # Document name
+  type: PDF # Document type
+  category: maps # Document category
+  download-link: /documents/maps/camborne-cornwall-college-campus-map.pdf
+  colour: 006D43
+
+  #Falmouth Marie School Campus Map
 - title: Falmouth Marine School Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/Campus Map Falmouth.pdf
+  download-link: /documents/maps/falmouth-marine-school-campus-map.pdf
   colour: 006D43
 
-  #DCR 2012 3D Map
-- title: Duchy College Rosewarne 2012 Map # Document name
+  #Duchy College Rosewarne Campus Map
+- title: Duchy College Rosewarne Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/DCR 2012 3D Map.pdf
+  download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf.pdf
   colour: 006D43
 
-  #NQ Campus Map
+  #Cornwall College Newquay Campus Map
 - title: Cornwall College Newquay Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/NQ Campus Map.pdf
+  download-link: /documents/maps/newquay-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Saltash Campus Map
+  #Cornwall College Saltash Campus Map
 - title: Cornwall College Saltash Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/Saltash Campus Map.pdf
+  download-link: /documents/maps/saltash-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Site Map St Austell
-- title: Cornwall College St Austell Site Map # Document name
+  #Cornwall College St Austell Campus Map
+- title: Cornwall College St Austell Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/Site Map St Austell.pdf
+  download-link: /documents/maps/st-austell-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #STAC 3D Map 2015
-- title: Cornwall College St Austell Map 2015 # Document name
+  #Duchy College Stoke Climsland Campus Map
+- title: Duchy College Stoke Climsland Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/STAC 3D Map 2015.pdf
-  colour: 006D43
-
-  #Stoke Campus Map
-- title: Cornwall College Stoke Climsland Campus Map # Document name
-  type: PDF # Document type
-  category: maps # Document category
-  download-link: /documents/maps/Stoke Campus Map.pdf
+  download-link: /documents/maps/stoke-climsland-duchy-college-campus-map.pdf
   colour: 006D43
 
   # End of Maps
@@ -778,27 +778,6 @@
   download-link: /documents/other/beauty landscape.pdf
   colour: 961313
 
-  #CC CAM Heartlands Xmas Fayre
-- title: Cornwall College Camborne Heartlands Xmas Fayre # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/CC CAM Heartlands Xmas Fayre.pdf
-  colour: 961313
-
-  #CC Schools contact Postcards
-- title: Cornwall College Schools contact Postcards # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/CC Schools contact Postcards.pdf
-  colour: 961313
-
-  #Clare Sansom Clinic App
-- title: Clare Sansom Clinic App # Document name
-  type: Word # Document type
-  category: other # Document category
-  download-link: /documents/other/Clare Sansom Clinic App.docx
-  colour: 961313
-
   #Cloisters Bar drinks list
 - title: Cloisters Bar drinks list # Document name
   type: Word # Document type
@@ -820,13 +799,6 @@
   download-link: /documents/other/Cornwall final web.pdf
   colour: 961313
 
-  #Job Description 2015
-- title: Job Description 2015 # Document name
-  type: Word # Document type
-  category: other # Document category
-  download-link: /documents/other/Job Description 2015.doc
-  colour: 961313
-
   #koko price list
 - title: koko price list # Document name
   type: PDF # Document type
@@ -834,53 +806,11 @@
   download-link: /documents/other/koko price list.pdf
   colour: 961313
 
-  #Kruger Field Course Itinerary and Details
-- title: Kruger Field Course Itinerary and Details # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Kruger Field Course Itinerary and Details.pdf
-  colour: 961313
-
-  #Making Learning Work 4U Nov Dec courses template
-- title: Making Learning Work 4U Nov Dec courses template # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Making Learning Work 4U Nov Dec courses template.pdf
-  colour: 961313
-
   #Nails landscape
 - title: Nails landscape # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Nails landscape.pdf
-  colour: 961313
-
-  #Pathways to careers 16.02.15
-- title: Pathways to careers 16.02.15 # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Pathways to careers 16 02 15.pdf
-  colour: 961313
-
-  #Primary pre-school and children's centres information sheet - Oliver Jeffers
-- title: Primary pre-school and childrens centres information sheet - Oliver Jeffers # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Primary pre-school and childrens centres information sheet - Oliver Jeffers.pdf
-  colour: 961313
-
-  #satartsclub
-- title: Saturday Arts Club # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/satartsclub.pdf
-  colour: 961313
-
-  #Saturday Arts Club-Poster_Latest
-- title: Saturday Arts Club Poster Latest # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Saturday Arts Club-Poster_Latest (2).pdf
   colour: 961313
 
   #Student_Complaints_Procedure_V9
@@ -916,13 +846,6 @@
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Young Mums Will Achieve Leaflet.pdf
-  colour: 961313
-
-  # CC Apprenticeship Learner A5 Booklet
-- title: Cornwall College Apprenticeship Learner A5 booklet
-  type:  PDF # Document type
-  category: Other # Document category
-  download-link: /documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf
   colour: 961313
 
   #End of other
@@ -962,13 +885,6 @@
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
-  colour: e8d045
-
-  #CC Adult courses flyer
-- title: Cornwall College Adult courses flyer # Document name
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/CC Adult courses flyer.pdf
   colour: e8d045
 
   #CC HE Web Version 2015
@@ -1029,13 +945,6 @@
 
   #End of Prospectuses
 
-  #020 HE_Strategy 2013 update
-- title: 020 Higher Education Strategy 2013 update
-  type:  Word # Document type
-  category: reports # Document category
-  download-link: /documents/reports/020 HE_Strategy 2013 update.docx
-  colour: bc77ee
-
   #05593JW0815_TCCG_HE_Student_Charter_PDF
 - title: The Cornwall College Group Higher Education Student Charter PDF
   type:  PDF # Document type
@@ -1062,13 +971,6 @@
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/CC SI Update 2015.pdf
-  colour: bc77ee
-
-  #CC SummaryCharter 09
-- title: Cornwall College Summary Charter 09
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/CCSummaryCharter09.pdf
   colour: bc77ee
 
   #Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy
