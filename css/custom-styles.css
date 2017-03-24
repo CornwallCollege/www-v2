@@ -5596,3 +5596,21 @@ table.contact-overview {
   color: #52b3d9;
   border: solid 1px #ddd;
 }
+
+.apprentice-area{
+  min-height: 80px;
+  margin: 5px 0;
+  border: solid 1px #ddd;
+  padding: 10px 15px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #52b3d9;
+  background: white;
+  font-weight: bold;
+  line-height: 1.3em;
+  font-size: .9em
+}
