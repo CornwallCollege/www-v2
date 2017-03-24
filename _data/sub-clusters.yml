@@ -17,7 +17,7 @@
       colour: 113F8C
       brand: cc
       sector: 16-18 19plus university
-      campus: camborne-campus st-austell-campus
+      campus: bicton-campus camborne-campus newquay-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -59,7 +59,7 @@
       colour: 113F8C
       sector: 16-18 19plus university
       brand: fms
-      campus: falmouth-campus
+      campus: camborne-campus eden-campus falmouth-campus newquay-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -93,7 +93,7 @@
       colour: 113F8C
       brand: cc
       sector: 16-18 19plus university
-      campus: newquay-campus
+      campus: bicton-campus newquay-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -127,7 +127,7 @@
       colour: 01A4A4
       brand: cc dc
       sector: 16-18 19plus university apprenticeships
-      campus: camborne-campus st-austell-campus saltash-campus rosewarne-campus
+      campus: bicton-campus camborne-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -166,7 +166,7 @@
       colour: 01A4A4
       brand: cc dc
       sector: 16-18 access
-      campus: camborne-campus st-austell-campus stoke-campus saltash-campus
+      campus: camborne-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -234,19 +234,19 @@
       colour: 00A1CB
       brand:  cc dc
       sector: 16-18 19plus apprenticeships university
-      campus: bicton-campus camborne-campus st-austell-campus saltash-campus
+      campus: camborne-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
           campus-filter: camborne
 
-        - campus-name: St Austell Campus
-          campus-link: /st-austell-campus.html
-          campus-filter: st-austell
-
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
           campus-filter: saltash
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
 
       career-link: /construction/index.html
       search-link: construction
@@ -287,7 +287,7 @@
       colour: 00A1CB
       brand:  bic cc
       sector: 16-18 19plus apprenticeships university
-      campus: bicton-campus camborne-campus st-austell-campus saltash-campus
+      campus: bicton-campus camborne-campus sisna-park-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -296,6 +296,10 @@
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
           campus-filter: camborne
+
+        - campus-name: Plymouth Engineering
+          campus-link: /sisna-park-campus.html
+          campus-filter: sisna-park
 
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
@@ -308,10 +312,6 @@
         - campus-name: Stoke Climsland Campus
           campus-link: /stoke-campus.html
           campus-filter: stoke
-
-        - campus-name: Plymouth Engineering
-          campus-link: /sisna-park-campus.html
-          campus-filter: sisna-park
 
       career-link: /engineering/index.html
       search-link: engineering
@@ -337,7 +337,7 @@
       colour: 61AE24
       brand: bic dc
       sector: 16-18 19plus apprenticeships university
-      campus: bicton-campus rosewarne-campus stoke-campus
+      campus: bicton-campus stoke-campus rosewarne-campus newquay-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -428,7 +428,7 @@
       colour: 61AE24
       brand: dc
       sector: 16-18 19plus apprenticeships university
-      campus: stoke-campus
+      campus: bicton-campus rosewarne-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -458,7 +458,7 @@
       icon: fa-envira
       brand: bic dc
       sector: 16-18 19plus apprenticeships university
-      campus: bicton-campus rosewarne-campus stoke-campus eden
+      campus: bicton-campus eden-campus rosewarne-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -527,7 +527,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships university access
-      campus: camborne-campus st-austell-campus saltash-campus
+      campus: bicton-campus camborne-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -561,7 +561,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus st-austell-campus saltash-campus eden-campus
+      campus: camborne-campus eden-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -595,7 +595,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus st-austell-campus saltash-campus eden-campus
+      campus: camborne-campus eden-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -627,7 +627,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships access
-      campus: camborne-campus st-austell-campus bristol-campus
+      campus: bristol-campus camborne-campus eden-campus st-austell-campus
       campus-long:
         - campus-name: Bristol Campus
           campus-link: /bristol-campus.html
@@ -658,7 +658,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships
-      campus: camborne-campus st-austell-campus
+      campus: camborne-campus eden-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -684,14 +684,14 @@
 #AS & A-level
 - cluster: A-levels
   filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
-  a-href: /career-pages/a-levels/index.html
+  cluster-link: #
   a-class: transition as
-  a-data-filter:
+  a-data-filter: .ac
   subclusters:
     - subcluster: A-levels
-      image: /images/as/a-levels-lnd-dsktop.jpg
-      mobile-image: /images/as/a-levels-lnd-mobile.jpg
-      filter: as
+      image: /images/as/a-levels-desktop.jpg
+      mobile-image: /images/as/a-levels-mobile.jpg
+      filter: ac
       a-href: /career-pages/a-levels/index.html
       brand: cc
       campus: st-austell-campus
@@ -727,19 +727,19 @@
       colour: D70060
       brand: cc
       sector: 16-18 19plus apprenticeships
-      campus: camborne-campus st-austell-campus saltash-campus
+      campus: camborne-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
           campus-filter: camborne
 
-        - campus-name: St Austell Campus
-          campus-link: /st-austell-campus.html
-          campus-filter: st-austell
-
         - campus-name: Saltash Campus
           campus-link: /saltash-campus.html
           campus-filter: saltash
+
+        - campus-name: St Austell Campus
+          campus-link: /st-austell-campus.html
+          campus-filter: st-austell
 
       career-link: /hair-beauty/index.html
       search-link: hairdressing-beauty-therapy
@@ -757,7 +757,7 @@
       colour: D70060
       brand: cc bic dc
       sector: 16-18 19plus university access
-      campus: camborne-campus saltash-campus stoke-campus bicton-campus
+      campus: bicton-campus camborne-campus saltash-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -791,7 +791,7 @@
       colour: D70060
       brand: cc fms dc
       sector: 16-18 19plus apprenticeships university access
-      campus: camborne-campus newquay-campus st-austell-campus falmouth-campus stoke-campus
+      campus: bicton-campus camborne-campus falmouth-campus newquay-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -833,7 +833,7 @@
       icon: fa-users
       brand: cc dc
       sector: 16-18 19plus apprenticeships university access
-      campus: camborne-campus st-austell-campus rosewarne-campus
+      campus: bicton-campus camborne-campus rosewarne-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -894,7 +894,7 @@
       colour: E54028
       brand: cc
       sector: 16-18 19plus apprenticeships
-      campus: camborne-campus st-austell-campus saltash-campus
+      campus: camborne-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -921,7 +921,7 @@
       a-href: /career-pages/business-school/index.html
       he-image: business-pro.jpg
       icon: fa-gavel
-      campus: camborne-campus stoke-campus st-austell-campus saltash-campus bicton-campus
+      campus: bicton-campus camborne-campus eden-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -991,7 +991,7 @@
       level: 2 3
       brand: cc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus st-austell-campus saltash-campus
+      campus: bicton-campus camborne-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -1030,7 +1030,7 @@
       colour: F18D05
       brand: cc dc bic
       sector: 16-18 19plus access
-      campus: stoke-campus bicton-campus camborne-campus saltash-campus st-austell-campus
+      campus: bicton-campus camborne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html

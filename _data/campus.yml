@@ -178,6 +178,12 @@
       - sub-area-title: Food Technology & Production
         sub-area-link: food-technology-production
 
+    - area-title: Academic Studies
+      area-color: 616161
+      sub-areas:
+      - sub-area-title: GCSE courses
+        sub-area-link: gcse
+
 
 - campus: dbs Music Bristol
   long: 51.4478973
@@ -408,6 +414,12 @@
 
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
+
+    - area-title: Academic Studies
+      area-color: 616161
+      sub-areas:
+      - sub-area-title: GCSE courses
+        sub-area-link: gcse
 
 
 - campus: The Eden Project
@@ -724,6 +736,12 @@
       - sub-area-title: Agriculture & Countryside Management
         sub-area-link: agriculture-countryside-management
 
+    - area-title: Academic Studies
+      area-color: 616161
+      sub-areas:
+      - sub-area-title: GCSE courses
+        sub-area-link: gcse
+
 
 - campus: Duchy College Rosewarne
   long: 50.2234417
@@ -1018,6 +1036,12 @@
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
 
+    - area-title: Academic Studies
+      area-color: 616161
+      sub-areas:
+      - sub-area-title: GCSE courses
+        sub-area-link: gcse
+
 
 - campus: Cornwall College St Austell
   long: 50.3464922
@@ -1116,7 +1140,7 @@
       image-thumb: /st-austell/student-services-thumb.jpg
 
   learning-areas:
-    - area-title: AS & A-levels
+    - area-title: Academic Studies
       area-color: 616161
       sub-areas:
       - sub-area-title: AS & A-level courses
@@ -1199,6 +1223,12 @@
 
       - sub-area-title: Children, Schools & Families
         sub-area-link: children-schools-families
+
+    - area-title: Academic Studies
+      area-color: 616161
+      sub-areas:
+      - sub-area-title: GCSE courses
+        sub-area-link: gcse
 
 
 - campus: Duchy College Stoke Climsland

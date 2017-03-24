@@ -880,6 +880,20 @@
 
   # End of Plans
 
+  #Duchy College & Bicton College Undergraduate Prospectus 2018
+- title: Duchy College & Bicton College Undergraduate Prospectus 2018 # Document name
+  type:  PDF # Document type
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/Duchy College & Bicton College Undergraduate Prospectus 2018.pdf
+  colour: e8d045
+
+  #The Cornwall College Group Undergraduate Prospectus 2018
+- title: The Cornwall College Group Undergraduate Prospectus 2018 # Document name
+  type:  PDF # Document type
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/The Cornwall College Group Undergraduate Prospectus 2018.pdf
+  colour: e8d045
+
   #0012JW0216_DC_BC_HE_Prospectus_pages_2017
 - title: Duchy College, Bicton College Higher Education Prospectus pages 2017 # Document name
   type:  PDF # Document type
@@ -899,13 +913,6 @@
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/Cornwall College FE Prospectus 2017 - Low-Res.pdf
-  colour: e8d045
-
-  #DC HE Web Version 2015
-- title: Duchy College Higher Education Web Version 2015 # Document name
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/DC Higher Education Web Version 2015.pdf
   colour: e8d045
 
   #Duchy College FE Prospectus 2017 - Low-Res
