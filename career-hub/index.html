@@ -15,145 +15,158 @@ career: Career Hub
 <!-- END OF HEADER -->
 
 <!-- BODY SECTION -->
+<!-- SEARCH BAR -->
+<section class="col-sm-12 blue-bg bar2 career-search">
+    <h2 class="text-uppercase">WHAT’S YOUR DREAM <strong style="color:white;">Career</strong>?</h2>
 
-<!-- dream career search -->
-<section class="col-sm-12 blue-bg bar2 career-search"> 
-    <h2 class="text-uppercase">WHAT’S YOUR DREAM <strong style="color:white;">Career</strong>?</h2> 
     <div class="col-sm-6 col-sm-offset-3 ">
-        <form class="form-horizontal" role="form" novalidate="novalidate" onsubmit="return window.restoreZoomAndScrollTo('jobs-input');"> 
-            <label for="jobs-input"><i class="fa fa-search"></i></label> 
-            <input type="text" data-items="10" id="jobs-input" class="form-control" placeholder="search..."> 
+        <form class="form-horizontal" role="form" novalidate="novalidate" onsubmit="return window.restoreZoomAndScrollTo('jobs-input');">
+            <label for="jobs-input"><i class="fa fa-search"></i></label>
+            <input type="text" data-items="10" id="jobs-input" class="form-control" placeholder="search...">
         </form>
         <div>
             <ul id="jobs-results"></ul>
-        </div> 
-    </div> 
-    <div class="col-sm-4 col-sm-offset-4 text-center"> 
-        <a class="btn ghost light" onclick="window.smoothScrollTo('topOfClusters');">
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-sm-offset-3 text-center">
+        <a class="btn ghost light" href="#topOfClusters">
             <span>Not sure, browse our</span>
             <span><strong>learning areas</strong></span>
-        </a> 
-    </div> 
+        </a>
+        <a class="btn ghost light" href="/student-support/careers-information-advice-guidance-support/">
+            <span>Book a free appointment with a Careers Advisor</span>
+        </a>
+    </div>
+
 </section>
 
-    <!-- CAREER SECTION
-====================================================================== -->
+<div class="clearfix"></div>
 
-
+<!-- CAREER SECTION -->
 <section class="container">
 
-  <!-- list of clusters(ish) -->
+  <!-- list of clusters -->
   <section id="career-list" class="container">
 
     <div class="career-filter">
-      <!-- CAREER FILTER OPTIONS -->
       <ul id="topOfClusters">
-          {% for cluster in site.data.sub-clusters %}
+        {% for cluster in site.data.sub-clusters %}
 
-                <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a href="{{ cluster.a-href }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
-                        <ul class="subcluster-list">
-                        {% for subcluster in cluster.subclusters %}
+        <li class="cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <a href="{{ cluster.a-href }}" class="{{ cluster.a-class }}" data-filter="{{ cluster.a-data-filter }}">
+            <ul class="subcluster-list">
+              {% for subcluster in cluster.subclusters %}
 
-                                <li>{{ subcluster.subcluster }}</li>
-  
-                        {% endfor %}
-                        </ul>                                  
-                        <h3>{{ cluster.cluster }}</h3>
-                    </a>
-                </li>
+              <li>{{ subcluster.subcluster }}</li>
 
-                {% endfor %}
+              {% endfor %}
             </ul>
-        </div>
+            <h3>{{ cluster.cluster }}</h3>
+          </a>
+        </li>
 
-        <div class="clearfix"></div>
+        {% endfor %}
+      </ul>
+    </div>
 
-        <section class="career-items container">
-            <a id="career-grid-anchor"></a>
-            <ul id="career-grid" class="grid-layout more-padding hover-effect">
-                {% for cluster in site.data.sub-clusters  %}
-                    {% for subcluster in cluster.subclusters  %}
-                    <li class="col-xs-12 col-sm-6 col-md-4 entry {{ subcluster.filter }}">
-                        <figure>
-                            <picture>
-                                <source srcset="{{ subcluster.image }}" media="(min-width: 769px)" />
-                                <source srcset="{{ subcluster.mobile-image }}" />
-                                <img src="{{ subcluster.image }}" alt="CAREER AREA | {{ cluster.cluster }} | {{ subcluster.subcluster }}" class="img-responsive">
-                            </picture>
-                            <div class="auto-hover">
-                                <h4>{{ subcluster.subcluster }}</h4>
-                                <a href="{{ subcluster.a-href }}" class="icon-btn">
-                                    <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
-                                </a>
-                            </div>
-                        </figure>
-                    </li>
-                    {% endfor %}
-                {% endfor %}
-            </ul>
-        </section>
+    <div class="clearfix"></div>
+
+    <!-- list of sub-clusters -->
+    <section class="career-items container">
+      <a id="career-grid-anchor"></a>
+      <ul id="career-grid" class="grid-layout more-padding hover-effect">
+        {% for cluster in site.data.sub-clusters  %}
+        {% for subcluster in cluster.subclusters  %}
+
+        <li class="col-xs-12 col-sm-6 col-md-4 entry {{ subcluster.filter }}">
+          <figure>
+
+            <picture>
+              <source srcset="{{ subcluster.image }}" media="(min-width: 769px)" />
+              <source srcset="{{ subcluster.mobile-image }}" />
+              <img src="{{ subcluster.image }}" alt="CAREER AREA | {{ cluster.cluster }} | {{ subcluster.subcluster }}" class="img-responsive">
+            </picture>
+
+            <div class="auto-hover">
+              <h4>{{ subcluster.subcluster }}</h4>
+              <a href="{{ subcluster.a-href }}" class="icon-btn">
+                <i class="fa fa-expand" style="margin-right:7px;"></i>Find out more...
+              </a>
+            </div>
+
+          </figure>
+        </li>
+
+        {% endfor %}
+        {% endfor %}
+      </ul>
     </section>
 
-        <div class="clearfix"></div>
-        <!-- <section class="col-sm-12 blue-bg bar2 career-search">
-            <h2 class="text-uppercase">Or <strong style="color:white;">Why Not</strong>...</h2>
-            <div class="col-sm-4 col-sm-offset-4 text-center">
-                <a class="btn ghost light" href="//www.cornwall.ac.uk/advanced-search"><span>Search</span>&nbsp;<span>for a <strong>course</strong></span></a>
-            </div>
-        </section> -->
+  </section>
 
-        <div class="clearfix"></div>
+  <div class="clearfix"></div>
+<!--<section class="col-sm-12 blue-bg bar2 career-search">
+      <h2 class="text-uppercase">Or <strong style="color:white;">Why Not</strong>...</h2>
+      <div class="col-sm-4 col-sm-offset-4 text-center">
+        <a class="btn ghost light" href="//www.cornwall.ac.uk/advanced-search"><span>Search</span>&nbsp;<span>for a <strong>course</strong></span></a>
+      </div>
+    </section> -->
+
+  <div class="clearfix"></div>
 
 </section>
 
 
+<!-- Career Areas Divs -->
+<section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
+  <div id="career-content">
+  </div>
+</section>
+<!-- CAREER section ends -->
 
-    <!-- Career Areas Divs -->
 
-    <section class="career-popup cbp-spmenu cbp-spmenu-vertical career-popup-left">
-        <div id="career-content">
-        </div>
-    </section>
-    <!-- CAREER section ends -->
-
-    <!-- VIDEO section -->
-<section class="container" style="width:80%">
+<!-- VIDEO section -->
+  <section class="container" style="width:80%">
     {% youtube https://youtu.be/fYKuHQQJ0RM %}
-</section>    
-    <!-- why you choose us section -->
+  </section>
+<!-- why you choose us section -->
 
-    <section class="col-md-12  main-section-padding dark-bg intro">
-        <section class="container">
-            <header class="col-sm-12 text-center">
-                <h2 class="text-uppercase">The <strong>College</strong></h2>
-                <p class="lead white">Show us some ambition, we’ll show you a better life.</p>
-            </header>
-            <footer class="item-blocks">
-                <!-- BLOCK 1 -->
-                <article class="col-md-4">
-                    <h4><span class="number">1/</span> Award winning Students’ Union</h4>
-                    <p>Life isn’t all about hard work, our learners’ also have a fantastic wider college experience supported by an outstanding Students’ Union, representing your voice. </p>
-                </article>
-                <!-- BLOCK 2 -->
-                <article class="col-md-4">
-                    <h4><span class="number">2/</span> Breath taking learning environments</h4>
-                    <p>We’ll get you ready for your career by training you in the environment you can expect to be working in, with over £100million spent on practical skills training facilities in recent years.</p>
-                </article>
-                <!-- BLOCK 3 -->
-                <article class="col-md-4">
-                    <h4><span class="number">3/</span> A history of academic success</h4>
-                    <p>Our A-level provisions has seen its best results ever, with a pass rate of 99.2% and an 8% increase in grades A* and A last year, with 40% of learners applying to Russell Group universities.</p>
-                </article>
-            </footer>
-        </section>
-    </section>
+<section class="col-md-12  main-section-padding dark-bg intro">
+  <section class="container">
+    <header class="col-sm-12 text-center">
+      <h2 class="text-uppercase">The <strong>College</strong></h2>
+      <p class="lead white">Show us some ambition, we’ll show you a better life.</p>
+    </header>
+
+    <footer class="item-blocks">
+      <!-- BLOCK 1 -->
+      <article class="col-md-4">
+        <h4><span class="number">1/</span> Award winning Students’ Union</h4>
+        <p>Life isn’t all about hard work, our learners’ also have a fantastic wider college experience supported by an outstanding Students’ Union, representing your voice. </p>
+      </article>
+
+      <!-- BLOCK 2 -->
+      <article class="col-md-4">
+        <h4><span class="number">2/</span> Breath taking learning environments</h4>
+        <p>We’ll get you ready for your career by training you in the environment you can expect to be working in, with over £100million spent on practical skills training facilities in recent years.</p>
+      </article>
+
+      <!-- BLOCK 3 -->
+      <article class="col-md-4">
+        <h4><span class="number">3/</span> A history of academic success</h4>
+        <p>Our A-level provisions has seen its best results ever, with a pass rate of 99.2% and an 8% increase in grades A* and A last year, with 40% of learners applying to Russell Group universities.</p>
+      </article>
+    </footer>
+
+  </section>
+</section>
 
 
-    <!-- action to call section -->
-    <section class="col-sm-12 fulltime-bar clearfix">
-        <div class="container">
-            <h2>Seen enough, apply now! </h2>
-            <a href="{{site.url}}/apply-page?course-title=Career-Area:{{page.career | replace:' ','-' | downcase }}" class="apply-btn btn">Apply NOW</a>
-        </div>
-    </section>
+<!-- action to call section -->
+<section class="col-sm-12 fulltime-bar clearfix">
+  <div class="container">
+    <h2>Seen enough, apply now! </h2>
+    <a href="{{site.url}}/apply-page?course-title=Career-Area:{{page.career | replace:' ','-' | downcase }}" class="apply-btn btn">Apply NOW</a>
+  </div>
+</section>

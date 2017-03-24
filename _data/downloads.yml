@@ -5,26 +5,11 @@
   download-link: /documents/application-form/16-18BursaryApplicationForm2016-17.pdf
   colour: 77BC43
 
-  #16-18 Transport & Bursary application form
-- title: 16-18 Transport & Bursary Application Form - 2015  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/16-18 Transport & Bursary application form - 2015.pdf
-  colour: 77BC43
-
   #19+ application form final 2016-17
 - title: 19+ Application Form Final 2016-17  # Document name
   type: PDF # Document type
   category: application-forms # Document category
   download-link: /documents/application-form/19+ application form final 2016-17.pdf
-  colour: 77BC43
-
-
-  #19+ Bursary application form - 2015
-- title: 19+ Bursary Application Form - 2015  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/19+ Bursary application form - 2015.pdf
   colour: 77BC43
 
   #Additional Travel Information Sheet
@@ -48,13 +33,6 @@
   download-link: /documents/application-form/CC Leisure Application Form.pdf
   colour: 77BC43
 
-  #Cornwall College pass form 2013
-- title: Cornwall College Pass Form 2013  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Cornwall College pass form 2013.pdf
-  colour: 77BC43
-
    #FE Application for Financial Help Towards Childcare
 - title: Further Education Application for Financial Help Towards Childcare  # Document name
   type: Word # Document type
@@ -62,54 +40,11 @@
   download-link: /documents/application-form/FE Application for Financial Help Towards Childcare.docx
   colour: 77BC43
 
-    #FE Application form - Sep 2014
-- title: Further Education Application form - Sep 2014  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/FE Application form - Sep 2014.doc
-  colour: 77BC43
-
-
   #Free College Meals
 - title: Free College Meals  # Document name
   type: Word # Document type
   category: application-forms # Document category
   download-link: /documents/application-form/Free College Meals.docx
-  colour: 77BC43
-
-    #NCS Application Form - Summer 2014
-- title: NCS Application Form - Summer 2014  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/NCS Application Form - Summer 2014.pdf
-  colour: 77BC43
-
-    #NCS Application Form_Summer2015
-- title: NCS Application Form - Summer 2015  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/NCS Application Form_Summer2015.pdf
-  colour: 77BC43
-
-    #ROSE Transport_Application_1213
-- title: ROSE Transport Application 1213  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/ROSE Transport_Application_1213.pdf
-  colour: 77BC43
-
-  #Spark application form - CC
-- title: Spark application form - Cornwall College  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/spark-application-form-cc.pdf
-  colour: 77BC43
-
-  #Spark application form 2015 NEW
-- title: Spark application form 2015 NEW  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Spark application form 2015 NEW.docx
   colour: 77BC43
 
   #Sports Application(1)
@@ -140,13 +75,6 @@
   download-link: /documents/application-form/Teenage Pregnancy FE Project Referral Form 190713.doc
   colour: 77BC43
 
-  #Transport App Form 24.03.14
-- title: Transport App Form 24.03.14  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Transport App Form 24.03.14.pdf
-  colour: 77BC43
-
   #Unaffiliated Dressage ENTRY FORM-test5
 - title: Unaffiliated Dressage ENTRY FORM # Document name
   type: PDF # Document type
@@ -173,27 +101,6 @@
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05352JW0315_CCC_GasOil_flyer.pdf
-  colour: 004B93
-
-  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 1
-- title: Apprentice TCCG Diamond CV tips # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 1.pdf
-  colour: 004B93
-
-  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 2
-- title: Apprentice TCCG Diamond CV Tips 2 # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 2.pdf
-  colour: 004B93
-
-  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 3
-- title: Apprentice TCCG Diamond CV tips 3 # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 3.pdf
   colour: 004B93
 
   #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4
@@ -527,13 +434,6 @@
 
   #End of Course Documents section
 
-  #EandD_Action_Plan_2011-12_(Completed)
-- title: Equality and Diversity Action Plan 2011-12 (Completed) # Document name
-  type: Word # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/EandD_Action_Plan_2011-12_(Completed).docx
-  colour: CC0E0E
-
   #EandD_Annual_Report_2011-12_Final(1)
 - title: Equality and Diversity Annual Report 2011-12 Final # Document name
   type: PDF # Document type
@@ -592,32 +492,11 @@
 
   # End of Equality and diversity section
 
-  #03538JW0213_STAC_Alevel_Plus_info_A5
-- title: Cornwall College St Austell A-level Plus info_A5 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/03538JW0213_STAC_Alevel_Plus_info_A5.pdf
-  colour: 00A5B4
-
   #A level Reforms Flyer
 - title: A level Reforms Flyer # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/A level Reforms Flyer.pdf
-  colour: 00A5B4
-
-  #Access to He leaflet 21.11.14
-- title: Access to Higher Education leaflet 21.11.14 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Access to He leaflet 21.11.14.pdf
-  colour: 00A5B4
-
-  #access to He leaflet x2000
-- title: Access to Higher Education leaflet x2000 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/access to He leaflet x2000.pdf
   colour: 00A5B4
 
   #Accommodation info for HE students_1
@@ -641,32 +520,11 @@
   download-link: /documents/guides/Affiliated Dressage 8th Feb times.pdf
   colour: 00A5B4
 
-  #Affiliated Dressage 21st Dec 2013 times
-- title: Affiliated Dressage 21st Dec 2013 times # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Affiliated Dressage 21st Dec 2013 times.pdf
-  colour: 00A5B4
-
-  #Affiliated Dressage Festival times - Sunday
-- title: Affiliated Dressage Festival times - Sunday # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Affiliated Dressage Festival times - Sunday.pdf
-  colour: 00A5B4
-
   #Animal_Care
 - title: Animal Care # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Animal_Care.pdf
-  colour: 00A5B4
-
-  #App Week Toolkit Employers
-- title: App Week Toolkit Employers # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/App Week Toolkit Employers.pdf
   colour: 00A5B4
 
   #apprenticeship_food_drink_flyer
@@ -676,20 +534,6 @@
   download-link: /documents/guides/apprenticeship_food_drink_flyer.pdf
   colour: 00A5B4
 
-  #ATP Fees
-- title: ATP Fees # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/ATP Fees.docx
-  colour: 00A5B4
-
-  #Camborne Pool Redruth Accommodation 2015_0
-- title: Camborne Pool Redruth Accommodation 2015 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Camborne Pool Redruth Accommodation 2015_0.docx
-  colour: 00A5B4
-
   #CC A-level A5 folded Talker 1
 - title: Cornwall College A-level A5 folded Talker # Document name
   type: PDF # Document type
@@ -697,46 +541,11 @@
   download-link: /documents/guides/CC A-level A5 folded Talker 1.pdf
   colour: 00A5B4
 
-  #CC CAM A3 Fold A5 Parents Guide
-- title: Cornwall College Camborne A3 Fold A5 Parents Guide # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CC CAM A3 Fold A5 Parents Guide.pdf
-  colour: 00A5B4
-
-  #CC CAM Bus times
-- title: Cornwall College Camborne Bus times # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CC CAM Bus times.pdf
-  colour: 00A5B4
-
   #CC HE T&C's 2016
 - title: "Cornwall College Higher Education T &amp; Cs 2016" # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC-HE-TandCs-2016.pdf
-  colour: 00A5B4
-
-  #CC Newquay A3 Fold A5 Parents Guide
-- title: Cornwall College Newquay A3 Fold A5 Parents Guide # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CC NQ A3 Fold A5 Parents Guide.pdf
-  colour: 00A5B4
-
-  #CC SALT A3 Fold A5 Parents Guide
-- title: Cornwall College Saltash A3 Fold A5 Parents Guide # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CC SALT A3 Fold A5 Parents Guide.pdf
-  colour: 00A5B4
-
-  #CC STAC A3 Fold A5 Parents Guide
-- title: Cornwall College St Austell A3 Fold A5 Parents Guide # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CC STAC A3 Fold A5 Parents Guide.pdf
   colour: 00A5B4
 
   #CC_FOI_Scheme_Introduction
@@ -758,20 +567,6 @@
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Charging_Policy_from_2009.pdf
-  colour: 00A5B4
-
-  #Christmas Lunch Menu 2013
-- title: Christmas Lunch Menu 2013 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Christmas Lunch Menu 2013.docx
-  colour: 00A5B4
-
-  #Clinic_Leaflet(1)
-- title: Clinic Leaflet # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Clinic_Leaflet(1).pdf
   colour: 00A5B4
 
   #Complaints_against_Providers_30Nov2012_Final
@@ -809,88 +604,11 @@
   download-link: /documents/guides/Cornwall College NMH rates.docx
   colour: 00A5B4
 
-  #Customer rest dates cal 13 14
-- title: Customer rest dates cal 13-14 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Customer rest dates cal 13 14.docx
-  colour: 00A5B4
-
-  #DC FE Acc. A5 booklet update
-- title: Duchy College Further Education Acc. A5 booklet update # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/DC FE Acc. A5 booklet update.pdf
-  colour: 00A5B4
-
-  #DCR Transport Sheet 13
-- title: Duchy College Rosewarne Transport Sheet 13 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/DCR Transport Sheet 13.pdf
-  colour: 00A5B4
-
-  #dcs transport guide 16.02.15_0
-- title: Duchy College Stoke Climsland Transport Guide 16.02.15 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/dcs transport guide 16.02.15_0.pdf
-  colour: 00A5B4
-
-  #Employer guide_RPA
-- title: Employer guide RPA # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Employer_guide_RPA.pdf
-  colour: 00A5B4
-
   #External lettings form - Rooms
 - title: External lettings form - Rooms # Document name
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/External lettings form - Rooms.docx
-  colour: 00A5B4
-
-  #External Room Booking Charges 2012-2013
-- title: External Room Booking Charges 2012-2013 # Document name
-  type: Excel Spreadsheet # Document type
-  category: guides # Document category
-  download-link: /documents/guides/external-room-booking-charges-2012-2013.xlsx
-  colour: 00A5B4
-
-  #Falmouth Accommodation 2015
-- title: Falmouth Marine School Accommodation 2015 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Falmouth Accommodation 2015.docx
-  colour: 00A5B4
-
-  #FE bursaries sept 2014 24.03.14_0
-- title: Further Education bursaries sept 2014 24.03.14 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/FE bursaries sept 2014 24.03.14_0.pdf
-  colour: 00A5B4
-
-  #fe bursary guidance notes 24.03.14_0
-- title: Further Education bursary guidance notes 24.03.14 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/fe bursary guidance notes 24.03.14_0.pdf
-  colour: 00A5B4
-
-  #FE Bursary Policy  Guidance 2014-15
-- title: Further Education Bursary Policy  Guidance 2014-15 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/FE Bursary Policy 2015-16.doc
-  colour: 00A5B4
-
-  #FE Bursary Policy  2015-16
-- title: Further Education Bursary Policy 2015-16 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/FE Bursary Policy 2015-16.doc
   colour: 00A5B4
 
   #FE Student Services flyer
@@ -921,13 +639,6 @@
   download-link: /documents/guides/game_wildlife_management.pdf
   colour: 00A5B4
 
-  #hair and beauty insides 05.03.13
-- title: hair and beauty insides 05.03.13 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/hair and beauty insides 05 03 13.pdf
-  colour: 00A5B4
-
   #meat_and_poultry
 - title: meat and poultry # Document name
   type: PDF # Document type
@@ -935,39 +646,11 @@
   download-link: /documents/guides/meat_and_poultry.pdf
   colour: 00A5B4
 
-  #NQY External Room Booking Charges 2013-2014
-- title: Cornwall College Newquay External Room Booking Charges 2013-2014 # Document name
-  type: Excel Spreadsheet # Document type
-  category: guides # Document category
-  download-link: /documents/guides/NQY External Room Booking Charges 2013-2014.xlsx
-  colour: 00A5B4
-
-  #Student Accommodation Advice BBEM 2014
-- title: Student Accommodation Advice BBEM 2014 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Student Accommodation Advice BBEM 2014.doc
-  colour: 00A5B4
-
-  #Student Accommodation General Advice 2014
-- title: Student Accommodation General Advice 2014 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Student Accommodation General Advice 2014.doc
-  colour: 00A5B4
-
   #Student Transport  Flyer_0
 - title: Student Transport  Flyer # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Student Transport  Flyer_0.pdf
-  colour: 00A5B4
-
-  #Student_Accommodation_Advice_for_SC_2014
-- title: Student Accommodation Advice for Self-Catering 2014 # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Student_Accommodation_Advice_for_SC_2014.doc
   colour: 00A5B4
 
   #The Business Space Launceston Location Sheet
@@ -993,60 +676,60 @@
 
   # End of Guides
 
-  #CAM_2011_Maps
-- title: Cornwall College Camborne 2011 Map # Document name
+  #Bicton College Campus Map
+- title: Bicton College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/CAM_2015_Maps.pdf
+  download-link: /documents/maps/bicton-college-campus-map.pdf
   colour: 006D43
 
-  #Campus Map Falmouth
+  #Cornwall College Camborne Campus Map
+- title: Cornwall College Camborne Campus Map # Document name
+  type: PDF # Document type
+  category: maps # Document category
+  download-link: /documents/maps/camborne-cornwall-college-campus-map.pdf
+  colour: 006D43
+
+  #Falmouth Marie School Campus Map
 - title: Falmouth Marine School Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/Campus Map Falmouth.pdf
+  download-link: /documents/maps/falmouth-marine-school-campus-map.pdf
   colour: 006D43
 
-  #DCR 2012 3D Map
-- title: Duchy College Rosewarne 2012 Map # Document name
+  #Duchy College Rosewarne Campus Map
+- title: Duchy College Rosewarne Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/DCR 2012 3D Map.pdf
+  download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf.pdf
   colour: 006D43
 
-  #NQ Campus Map
+  #Cornwall College Newquay Campus Map
 - title: Cornwall College Newquay Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/NQ Campus Map.pdf
+  download-link: /documents/maps/newquay-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Saltash Campus Map
+  #Cornwall College Saltash Campus Map
 - title: Cornwall College Saltash Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/Saltash Campus Map.pdf
+  download-link: /documents/maps/saltash-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Site Map St Austell
-- title: Cornwall College St Austell Site Map # Document name
+  #Cornwall College St Austell Campus Map
+- title: Cornwall College St Austell Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/Site Map St Austell.pdf
+  download-link: /documents/maps/st-austell-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #STAC 3D Map 2015
-- title: Cornwall College St Austell Map 2015 # Document name
+  #Duchy College Stoke Climsland Campus Map
+- title: Duchy College Stoke Climsland Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/STAC 3D Map 2015.pdf
-  colour: 006D43
-
-  #Stoke Campus Map
-- title: Cornwall College Stoke Climsland Campus Map # Document name
-  type: PDF # Document type
-  category: maps # Document category
-  download-link: /documents/maps/Stoke Campus Map.pdf
+  download-link: /documents/maps/stoke-climsland-duchy-college-campus-map.pdf
   colour: 006D43
 
   # End of Maps
@@ -1065,25 +748,11 @@
   download-link: /documents/newsletters/04350JW0614_CC_STEM_Journal_5.pdf
   colour: e69900
 
-  #CCB App Recruit ad Insider 2014
-- title: Cornwall College Business App Recruit ad Insider 2014 # Document name
-  type: PDF # Document type
-  category: newsletter # Document category
-  download-link: /documents/newsletters/CCB_App_Recruit_ad_Insider 2014.pdf
-  colour: e69900
-
   #SINNG_Newsletter_01_0
 - title: SINNG Newsletter # Document name
   type: PDF # Document type
   category: newsletter # Document category
   download-link: /documents/newsletters/sinng_newsletter.pdf
-  colour: e69900
-
-  #young peoples project 28.11.14
-- title: Young Peoples Project 28.11.14 # Document name
-  type: PDF # Document type
-  category: newsletter # Document category
-  download-link: /documents/newsletters/young peoples project 28.11.14.pdf
   colour: e69900
 
   # End of newsletters
@@ -1095,13 +764,6 @@
   download-link: /documents/other/05411JW0515_Koko_Pamper_Days_leaflet.pdf
   colour: 961313
 
-  #05503JW0615_CCC_Play_in_a_Week_poster
-- title: Cornwall College Camborne Play in a Week poster # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/05503JW0615_CCC_Play_in_a_Week_poster.pdf
-  colour: 961313
-
   #05682JW1015_TCCG_Counselling_leaflet
 - title: The Cornwall College Group Counselling leaflet # Document name
   type: PDF # Document type
@@ -1109,53 +771,11 @@
   download-link: /documents/other/05682JW1015_TCCG_Counselling_leaflet.pdf
   colour: 961313
 
-  #5820MM1215 BC Lambing Sunday 2016
-- title: Bicton College Lambing Sunday 2016 # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/5820MM1215 BC Lambing Sunday 2016.pdf
-  colour: 961313
-
-  #A guide for FE Students
-- title: A guide for Further Education Students # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/A guide for FE Students.pdf
-  colour: 961313
-
-  #Action Research for Teaching and School Improvement ARTSI
-- title: Action Research for Teaching and School Improvement ARTSI # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Action Research for Teaching and School Improvement ARTSI.pdf
-  colour: 961313
-
   #beauty landscape
 - title: Beauty Landscape # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/beauty landscape.pdf
-  colour: 961313
-
-  #CC CAM Heartlands Xmas Fayre
-- title: Cornwall College Camborne Heartlands Xmas Fayre # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/CC CAM Heartlands Xmas Fayre.pdf
-  colour: 961313
-
-  #CC Schools contact Postcards
-- title: Cornwall College Schools contact Postcards # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/CC Schools contact Postcards.pdf
-  colour: 961313
-
-  #Clare Sansom Clinic App
-- title: Clare Sansom Clinic App # Document name
-  type: Word # Document type
-  category: other # Document category
-  download-link: /documents/other/Clare Sansom Clinic App.docx
   colour: 961313
 
   #Cloisters Bar drinks list
@@ -1179,13 +799,6 @@
   download-link: /documents/other/Cornwall final web.pdf
   colour: 961313
 
-  #Job Description 2015
-- title: Job Description 2015 # Document name
-  type: Word # Document type
-  category: other # Document category
-  download-link: /documents/other/Job Description 2015.doc
-  colour: 961313
-
   #koko price list
 - title: koko price list # Document name
   type: PDF # Document type
@@ -1193,53 +806,11 @@
   download-link: /documents/other/koko price list.pdf
   colour: 961313
 
-  #Kruger Field Course Itinerary and Details
-- title: Kruger Field Course Itinerary and Details # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Kruger Field Course Itinerary and Details.pdf
-  colour: 961313
-
-  #Making Learning Work 4U Nov Dec courses template
-- title: Making Learning Work 4U Nov Dec courses template # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Making Learning Work 4U Nov Dec courses template.pdf
-  colour: 961313
-
   #Nails landscape
 - title: Nails landscape # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Nails landscape.pdf
-  colour: 961313
-
-  #Pathways to careers 16.02.15
-- title: Pathways to careers 16.02.15 # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Pathways to careers 16 02 15.pdf
-  colour: 961313
-
-  #Primary pre-school and children's centres information sheet - Oliver Jeffers
-- title: Primary pre-school and childrens centres information sheet - Oliver Jeffers # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Primary pre-school and childrens centres information sheet - Oliver Jeffers.pdf
-  colour: 961313
-
-  #satartsclub
-- title: Saturday Arts Club # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/satartsclub.pdf
-  colour: 961313
-
-  #Saturday Arts Club-Poster_Latest
-- title: Saturday Arts Club Poster Latest # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Saturday Arts Club-Poster_Latest (2).pdf
   colour: 961313
 
   #Student_Complaints_Procedure_V9
@@ -1275,13 +846,6 @@
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Young Mums Will Achieve Leaflet.pdf
-  colour: 961313
-
-  # CC Apprenticeship Learner A5 Booklet
-- title: Cornwall College Apprenticeship Learner A5 booklet
-  type:  PDF # Document type
-  category: Other # Document category
-  download-link: /documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf
   colour: 961313
 
   #End of other
@@ -1337,11 +901,11 @@
   download-link: /documents/prospectuses/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
   colour: e8d045
 
-  #CC Adult courses flyer
-- title: Cornwall College Adult courses flyer # Document name
+  #CC HE Web Version 2015
+- title: Cornwall College Higher Education Web Version 2015 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/CC Adult courses flyer.pdf
+  download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
   colour: e8d045
 
   #Cornwall College FE Prospectus 2017 - Low-Res
@@ -1388,13 +952,6 @@
 
   #End of Prospectuses
 
-  #020 HE_Strategy 2013 update
-- title: 020 Higher Education Strategy 2013 update
-  type:  Word # Document type
-  category: reports # Document category
-  download-link: /documents/reports/020 HE_Strategy 2013 update.docx
-  colour: bc77ee
-
   #05593JW0815_TCCG_HE_Student_Charter_PDF
 - title: The Cornwall College Group Higher Education Student Charter PDF
   type:  PDF # Document type
@@ -1421,13 +978,6 @@
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/CC SI Update 2015.pdf
-  colour: bc77ee
-
-  #CC SummaryCharter 09
-- title: Cornwall College Summary Charter 09
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/CCSummaryCharter09.pdf
   colour: bc77ee
 
   #Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy
