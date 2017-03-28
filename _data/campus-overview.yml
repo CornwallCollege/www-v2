@@ -31,7 +31,7 @@
 
 
 - campus: Bristol Campus
-  anchor: "dbs"
+  anchor: "dbs-bristol"
   search: "dbs-bristol"
   brand: dBs Music (for diplomas)
   attached-brands: "cc"
@@ -39,7 +39,7 @@
   link: /bristol-campus.html
   contact-number: 0333 344 2235 (FE)
   primary-color: AB1D88
-  email: studentsupport@bristol.dbsmusic.co.uk
+  email: enquiries@dbsmusic.co.uk
   address: BRISTOL FE CENTRE (for diplomas) Temple Studios, Temple Gate, Bristol, BS1 6QA
   opening: 8.30am – 5pm
   images:
@@ -61,6 +61,7 @@
 
   query: https://network.cornwall.ac.uk/campus/dbs-bristol/
 
+
 - campus: Bristol Campus
   anchor: "dbs"
   search: "dbs-bristol"
@@ -70,7 +71,7 @@
   link: /bristol-campus.html
   contact-number: 0333 344 2238 (HE)
   primary-color: AB1D88
-  email: studentsupport@bristol.dbsmusic.co.uk
+  email: enquiries@dbsmusic.co.uk
   address: BRISTOL HE CENTRE (for degrees) 17 St Thomas Street, Bristol, BS1 6JS
   opening: 8.30am – 5pm
   images:
@@ -285,38 +286,6 @@
   query: https://network.cornwall.ac.uk/campus/saltash/
 
 
-- campus: St Austell Campus
-  anchor: "st-austell"
-  search: "st-austell"
-  brand: Cornwall College
-  attached-brands: "cc"
-  copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, A-level centre, an arts block and dedicated construction and engineering skills centre, Koko Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities.</p>
-  link: /st-austell-campus.html
-  contact-number: 0330 123 2523
-  primary-color: 00509B
-  email: info@st-austell.ac.uk
-  address: Tregonissey Road, St Austell, Cornwall, PL25 4DJ
-  opening: Mon-Thurs 8:30am - 5pm and Friday 8:30am - 4:30pm
-  images:
-    - link: /images/locations/StAustell/chloe-potts-A-levels-LG.jpg
-      thumb: /images/locations/StAustell/chloe-potts-A-levels.jpg
-      title: Chloe Potts Writing
-
-    - link: /images/locations/StAustell/cloisters-LG.jpg
-      thumb: /images/locations/StAustell/cloisters.jpg
-      title: Cloisters Hospitality Student
-
-    - link: /images/locations/StAustell/ED-dance-LG.jpg
-      thumb: /images/locations/StAustell/ED-dance.jpg
-      title: Dancing Students
-
-    - link: /images/locations/StAustell/STAC-site-shots-LG.jpg
-      thumb: /images/locations/StAustell/STAC-site-shots.jpg
-      title: St Austell Campus
-
-  query: https://network.cornwall.ac.uk/campus/st-austell/
-
-
 - campus: Stoke Climsland Campus
   anchor: "stoke"
   search: "stoke"
@@ -349,8 +318,72 @@
   query: https://network.cornwall.ac.uk/campus/stoke/
 
 
+- campus: St Austell Campus
+  anchor: "st-austell"
+  search: "st-austell"
+  brand: Cornwall College
+  attached-brands: "cc"
+  copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, A-level centre, an arts block and dedicated construction and engineering skills centre, Koko Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities.</p>
+  link: /st-austell-campus.html
+  contact-number: 0330 123 2523
+  primary-color: 00509B
+  email: info@st-austell.ac.uk
+  address: Tregonissey Road, St Austell, Cornwall, PL25 4DJ
+  opening: Mon-Thurs 8:30am - 5pm and Friday 8:30am - 4:30pm
+  images:
+    - link: /images/locations/StAustell/chloe-potts-A-levels-LG.jpg
+      thumb: /images/locations/StAustell/chloe-potts-A-levels.jpg
+      title: Chloe Potts Writing
+
+    - link: /images/locations/StAustell/cloisters-LG.jpg
+      thumb: /images/locations/StAustell/cloisters.jpg
+      title: Cloisters Hospitality Student
+
+    - link: /images/locations/StAustell/ED-dance-LG.jpg
+      thumb: /images/locations/StAustell/ED-dance.jpg
+      title: Dancing Students
+
+    - link: /images/locations/StAustell/STAC-site-shots-LG.jpg
+      thumb: /images/locations/StAustell/STAC-site-shots.jpg
+      title: St Austell Campus
+
+  query: https://network.cornwall.ac.uk/campus/st-austell/
+
+
+- campus: Plymouth Campus
+  anchor: "dbs-plymouth"
+  search: "dbs-plymouth"
+  brand: dBs Music
+  attached-brands: "cc"
+  copy: <p>Situated right in the heart of Plymouth, the dBs Music Plymouth centre is within walking distance of all major transport links, the thriving commercial centre and the beautiful Plymouth coastline of the historic Barbican and Hoe Foreshore.</p>
+  link: /plymouth-campus.html
+  contact-number: 0333 344 2237
+  primary-color: AB1D88
+  email: enquiries@dbsmusic.co.uk
+  address: 6 Elizabeth Court, Higher Lane, Plymouth, PL1 2AN
+  opening: 8.30am – 5pm
+  images:
+    - link: /images/locations/DBS/dbs-logo-LG.png
+      thumb: /images/locations/DBS/dbs-logo.png
+      title: DBS Music Logo
+
+    - link: /images/locations/DBS/matias-mery-LG.jpg
+      thumb: /images/locations/DBS/matias-mery.jpg
+      title: Matias Mery Producing
+
+    - link: /images/locations/DBS/lauren-adele-martin-LG.jpg
+      thumb: /images/locations/DBS/lauren-adele-martin.jpg
+      title: Lauren Adele Martin Singing
+
+    - link: /images/locations/DBS/matias-mery-2-LG.jpg
+      thumb: /images/locations/DBS/matias-mery-2.jpg
+      title: Matias Mery Producing Lauren Adele Singing
+
+  query: https://network.cornwall.ac.uk/campus/dbs-plymouth/
+
+
 - campus: Plymouth Engineering Skills Centre
-  anchor: "sisna-park"
+  anchor: "sisna-campus"
   search: "sisna-park"
   brand: Cornwall College
   attached-brands: "cc"
@@ -379,6 +412,7 @@
       title: Engineering Student on Lathe
 
   query: https://network.cornwall.ac.uk/campus/sisna-park/
+
 
 - campus: The Centre for Housing & Support
   anchor: "chs"

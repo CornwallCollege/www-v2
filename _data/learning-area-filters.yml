@@ -7,48 +7,53 @@
   value: .camborne-campus
   data-campus: camborne
   brand: cc
-  
+
 - title: dBs Bristol
   value: .bristol-campus
   data-campus: dbs-bristol
-  brand: cc  
-  
+  brand: cc
+
+- title: dBs Plymouth
+  value: .plymouth-campus
+  data-campus: dbs-plymouth
+  brand: cc
+
 - title: Eden
-  value: .eden
+  value: .eden-project-campus
   data-campus: eden-project
   brand: cc dc bic
-  
+
 - title: Falmouth
   value: .falmouth-campus
-  data-campus: falmouth-marine-school  
-  brand: cc fms  
-  
+  data-campus: falmouth-marine-school
+  brand: cc fms
+
 - title: Newquay
   value: .newquay-campus
-  data-campus: newquay  
-  brand: cc  
-  
+  data-campus: newquay
+  brand: cc
+
 - title: Rosewarne
   value: .rosewarne-campus
-  data-campus: rosewarne   
-  brand: cc dc  
-  
+  data-campus: rosewarne
+  brand: cc dc
+
 - title: Saltash
   value: .saltash-campus
-  data-campus: saltash  
-  brand: cc   
-  
+  data-campus: saltash
+  brand: cc
+
 - title: St Austell
   value: .st-austell-campus
-  data-campus: st-austell 
-  brand: cc   
-  
+  data-campus: st-austell
+  brand: cc
+
 - title: Stoke Climsland
   value: .stoke-campus
-  data-campus: stoke  
-  brand: cc dc  
-  
+  data-campus: stoke
+  brand: cc dc
+
 - title: Plymouth Engineering
-  value: .sisna-campus
-  data-campus: sisna-park   
-  brand: cc 
+  value: .sisna-park-campus
+  data-campus: sisna
+  brand: cc

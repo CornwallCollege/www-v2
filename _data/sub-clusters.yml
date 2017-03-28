@@ -59,7 +59,7 @@
       colour: 113F8C
       sector: 16-18 19plus university
       brand: fms
-      campus: camborne-campus eden-campus falmouth-campus newquay-campus
+      campus: camborne-campus eden-project-campus falmouth-campus newquay-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -458,7 +458,7 @@
       icon: fa-envira
       brand: bic dc
       sector: 16-18 19plus apprenticeships university
-      campus: bicton-campus eden-campus rosewarne-campus stoke-campus
+      campus: bicton-campus eden-project-campus rosewarne-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -561,7 +561,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus eden-campus saltash-campus st-austell-campus
+      campus: camborne-campus eden-project-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -595,7 +595,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships university
-      campus: camborne-campus eden-campus saltash-campus st-austell-campus
+      campus: camborne-campus eden-project-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -627,7 +627,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships access
-      campus: bristol-campus camborne-campus eden-campus st-austell-campus
+      campus: bristol-campus camborne-campus eden-project-campus plymouth-campus st-austell-campus
       campus-long:
         - campus-name: Bristol Campus
           campus-link: /bristol-campus.html
@@ -640,6 +640,10 @@
         - campus-name: Eden Campus
           campus-link: /eden-campus.html
           campus-filter: eden-project
+
+        - campus-name: Plymouth Campus
+          campus-link: /plymouth-campus.html
+          campus-filter: dbs-plymouth
 
         - campus-name: St Austell Campus
           campus-link: /st-austell-campus.html
@@ -658,7 +662,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships
-      campus: camborne-campus eden-campus saltash-campus st-austell-campus
+      campus: camborne-campus eden-project-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
@@ -921,7 +925,7 @@
       a-href: /career-pages/business-school/index.html
       he-image: business-pro.jpg
       icon: fa-gavel
-      campus: bicton-campus camborne-campus eden-campus saltash-campus st-austell-campus stoke-campus
+      campus: bicton-campus camborne-campus eden-project-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html

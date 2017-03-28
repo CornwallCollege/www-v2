@@ -190,7 +190,7 @@
   lat: -2.5838925
   link: /location-pages/bristol-campus.html
   code: M
-  anchor: "dbs"
+  anchor: "dbs-bristol"
   slug: "dbs-bristol"
   accesslink: /tag/access/campus/dbs-bristol
   facilities:
@@ -1390,12 +1390,36 @@
         sub-area-link: food-technology-production
 
 
+- campus: dbs Music Plymouth
+  long: 50.369273
+  lat: -4.138562
+  link: /location-pages/plymouth-campus.html
+  code: L
+  anchor: "dbs-plymouth"
+  slug: "dbs-plymouth"
+  accesslink: /tag/access/campus/dbs-plymouth
+  facilities:
+    - title: dBs<br>Music Studios
+      location: Plymouth
+      detail: "Situated right in the heart of Plymouth, the dBs Music Plymouth centre is within walking distance of all major transport links, the thriving commercial centre and the beautiful Plymouth coastline of the historic Barbican and Hoe Foreshore.<br><br>Plymouth students have access to top recording and production equipment, the latest industry standard software packages and IT facilities. The tutors come from a vast range of professional backgrounds and are all still working in some aspect of the music industry.<br><br>Plymouth students also benefit from our 400 capacity, working live venue in the centre of Plymouth, used for live sound training on the dedicated FdA in Live Sound but also for modules on our Diplomas and the other HE Level courses.<br><br><strong>For more information:</strong><br>Call: 0333 344 2237<br>Email: <a href='mailto:enquiries@dbsmusic.co.uk'>enquiries@dbs.co.uk</a><br>Enquiries: 8.30am - 5pm"
+      link: /bristol-learning-area/
+      image: /bristol/dbs-music.jpg
+      image-thumb: /bristol/dbs-music-thumb.jpg
+
+  learning-areas:
+    - area-title: Cultural & Visitor Economy
+      area-color: D0D102
+      sub-areas:
+      - sub-area-title: Music & Performing Arts
+        sub-area-link: music-performing-arts
+
+
 - campus: Plymouth Engineering Skills Centre
   long: 50.4223444
   lat: -4.0955227
   link: /location-pages/sisna-park-campus.html
   code: P
-  anchor: "sisna"
+  anchor: "sisna-campus"
   slug: "sisna-park"
   learning-areas:
     - area-title: Technology
