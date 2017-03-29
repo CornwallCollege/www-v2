@@ -1518,6 +1518,20 @@ div#logo-wrap #bicton{
         white-space: normal;
     }
 }
+
+.blue-background {
+  background: #52B3D9;
+}
+
+.blue-background h2 {
+  color: #FFF;
+}
+
+.blue-background .btn {
+  color: #FFF;
+  border: 5px #FFF solid;
+}
+
 /* USP bar */
 .usp h2{
     color: white;
