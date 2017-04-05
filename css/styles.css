@@ -2864,7 +2864,6 @@ a.selected{
 /* BLOG POST */
 
 #blog {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/blog-cover.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
@@ -3351,7 +3350,6 @@ a.selected{
  */
 
 #blog {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/blog-cover.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
