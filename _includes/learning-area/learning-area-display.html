@@ -18,12 +18,19 @@
             <input type="checkbox" name="sector-radio" value="" >Show all
           </label>
         </div>
+    {% for expander in site.data.learning-area-filters-filters %}
+        <div id="{{expander.data-campus}}-campus-expander">
+                <p>{{expander.data-detail}}</p>
+                <a class="btn ghost" href="{{expander.data-link}}">View the {{expander.title}} campus page</a>
+        </div>  
+    {% endfor %} 
+    
     {% endif %}   
 
         <h5><strong>Sector</strong></h5>
         <div class="btn-group" data-toggle="buttons">   
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he">University
+            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he" data-toggle="collapse" data-target="#sector-university-expander">University
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="sector-radio" value=".16-18" data-course-type="fe16_18">16-18
@@ -40,9 +47,9 @@
           <label class="btn btn-primary area-filter active">
             <input type="checkbox" name="sector-radio" value="" >Show all
           </label>
-        </div>
-
-
+  
+        </div>  
+    
        <!--<p id="output">--</p>-->
 </div>
 </section>

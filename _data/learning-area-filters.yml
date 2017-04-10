@@ -7,6 +7,8 @@
   value: .camborne-campus
   data-campus: camborne
   brand: cc
+  detail: "This is informationa about the Camborne Campus"
+  link: /camborne-campus
 
 - title: dBs Bristol
   value: .bristol-campus
