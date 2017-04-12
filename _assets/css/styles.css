@@ -2557,7 +2557,6 @@ a.selected{
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("owl.video.play.png") no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -2873,7 +2872,6 @@ a.selected{
 /* BLOG POST */
 
 #blog {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/blog-cover.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
@@ -3360,7 +3358,6 @@ a.selected{
  */
 
 #blog {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/blog-cover.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
