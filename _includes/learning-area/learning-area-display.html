@@ -5,32 +5,28 @@
 
     {% if site.brand != 'fms' %}
         <h5><strong>Campus</strong></h5>
-        <div class="btn-group" data-toggle="buttons">
+        <div id="campus-filter" class="btn-group" data-toggle="buttons">
         {% for location in site.data.learning-area-filters %} 
           {% if location.brand contains site.brand %} 
           <label class="area-filter btn btn-primary">
-            <input type="checkbox" name="campus-radio" value="{{location.value}}" data-campus="{{location.data-campus}}" >{{location.title}}
+            <input type="checkbox" name="campus-radio" value="{{location.value}}" data-parent="#campus-filter" data-campus="{{location.data-campus}}" data-campus-target="#{{location.data-campus}}-campus-expander" data-toggle="collapse">{{location.title}}
           </label>
           {% endif %}    
             
         {% endfor %}
           <label class="btn btn-primary area-filter active">
-            <input type="checkbox" name="sector-radio" value="" >Show all
+            <input type="checkbox" name="sector-radio" value="" data-target="-">Show all
           </label>
+         
         </div>
-    {% for expander in site.data.learning-area-filters-filters %}
-        <div id="{{expander.data-campus}}-campus-expander">
-                <p>{{expander.data-detail}}</p>
-                <a class="btn ghost" href="{{expander.data-link}}">View the {{expander.title}} campus page</a>
-        </div>  
-    {% endfor %} 
-    
+ 
+ 
     {% endif %}   
 
         <h5><strong>Sector</strong></h5>
         <div class="btn-group" data-toggle="buttons">   
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he" data-toggle="collapse" data-target="#sector-university-expander">University
+            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he" data-toggle="collapse" data-sector-target="#sector-university-expander">University
           </label>
           <label class="btn btn-primary area-filter">
             <input type="checkbox" name="sector-radio" value=".16-18" data-course-type="fe16_18">16-18
@@ -54,9 +50,20 @@
 </div>
 </section>
 
-
 <!-- Learning Area Divs -->
 <section id="career-list" class="container main-section-margins">
+        <div id="sector-university-expander" class="filter-info panel-collapse collapse" >
+                <h4>university information</h4>
+                <p>This is informationa about the Camborne Campus</p>
+                <a class="btn ghost" href="/location-pages/camborne-campus">Visit the Camborne campus page</a>
+        </div>
+        {% for expander in site.data.learning-area-filters %}
+        <div id="{{expander.data-campus}}-campus-expander" class="filter-info panel-collapse collapse">
+                <h4>{{expander.title}} Campus information</h4>
+                <p>{{expander.detail}}</p>
+                <a class="btn ghost" href="/location-pages{{expander.link}}">Visit the {{expander.title}} campus page</a>
+        </div>  
+        {% endfor %}    
         <div id="career-content" >
 
         {% for cluster in site.data.sub-clusters %}

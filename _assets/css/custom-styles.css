@@ -4453,6 +4453,26 @@ a.learning-area:hover{
     z-index:1;
     position: relative;
 }
+.filter-info{
+    border: solid 1px #ddd;
+    padding:20px 25px;
+    margin-bottom: 15px;
+}
+.filter-info h4{
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.filter-info a.ghost{
+    border: 3px solid #52B3D9;
+    font-size: 12px;
+    padding: 7px 15px;
+    margin-top: 0;
+}
+#career-list .filter-info p{
+    display: block;
+    margin-bottom: 1em;
+}
 
 /*------------------------- EVENT carousel styles -------------------------------------*/
 #event .intro a.btn{
