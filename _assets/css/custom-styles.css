@@ -4093,9 +4093,6 @@ section.key-stats:after{
         margin:0!important;
     }
 /* Campus pages Facilities section */
-.og-grid li {
-    /*position: relative;*/
-}
 ul#og-grid li h4{
     z-index: 1;
     position: relative;
@@ -4108,15 +4105,59 @@ ul#og-grid li h4{
     max-width: 250px;
     width: 100%;
 }
+
 .og-details span{
 	display:none;
 }
+
 .og-details p{
     margin-top:0;
 }
-.og-details h3 {
-    padding: 0 0 10px;
+
+.og-details {
+  padding-right: 20px;
 }
+
+.og-details h3 {
+  margin-top: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 650px) {
+  .og-grid {
+    padding-top: 0;
+  }
+
+  .og-close {
+    top: 5px;
+    right: 5px;
+  }
+
+  .og-expander-inner {
+    padding: 22px 0px 34px;
+  }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+  .og-fullimg {
+    display: none;
+  }
+
+  .og-details {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1051px) {
+  .og-fullimg {
+    width: 40%;
+  }
+
+  .og-details {
+    width: 60%
+  }
+}
+
 /* Campus Overview / Location hub */
 @media(max-width:640px){
     #location-map{
@@ -5314,43 +5355,12 @@ table.contact-overview {
   font-size: .9em
 }
 
-
-/* Location pages Facility sections trial */
-.og-details {
-  padding-right: 20px;
+.apprenticeships .og-grid li {
+    height:80px;
+    width: 23%;
 }
-
-.og-details h3 {
-  margin-top: 0;
-}
-
-@media only screen and (max-width: 650px) {
-  .og-close {
-    top: 5px;
-    right: 5px;
-  }
-
-  .og-expander-inner {
-    padding: 22px 0px 34px;
-  }
-}
-
-@media only screen and (max-width: 1050px) and (min-width: 651px) {
-  .og-fullimg {
-    display: none;
-  }
-
-  .og-details {
-    width: 100%
-  }
-}
-
-@media only screen and (max-width: 1800px) and (min-width: 1051px) {
-  .og-fullimg {
-    width: 40%;
-  }
-
-  .og-details {
-    width: 60%
-  }
-}
+@media(max-width:769px){
+    .apprenticeships .og-grid li {
+        width: 100%;
+    }
+} 

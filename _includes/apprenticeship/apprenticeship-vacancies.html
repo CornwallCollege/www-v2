@@ -1,41 +1,50 @@
-<div class="clearfix"></div>
+<section class="col-md-12 main-section-margins intro">
+  <div class="clearfix"></div>
 
-<div class="container apprenticeship-vaccancies">
-  {% for apprenticeship in site.data.apprenticeships %}
-  <!-- Trigger the modal with a button -->
-  <div class="col-xs-12 col-sm-3">
-    <button style="border-left: 10px solid #{{ apprenticeship.colour }}" type="button" class="btn" data-toggle="modal" data-target="#{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}">{{ apprenticeship.apprenticeship-title }}</button>
-  </div>
+  <article class="col-xs-12">
+    <h2><strong>LATEST</strong> VACANCIES</h2>
+    <p class="lead center">We have many vacancies available throughout the year, click the link to see them listed on the National Apprenticeship Service.</p>
+  </article>
 
-  <!-- Modal -->
-  <div class="modal" id="{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}" role="dialog">
-    <div class="modal-dialog">
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">{{ apprenticeship.apprenticeship-title }}</h4>
+  <div class="container apprenticeship-vaccancies">
+    {% for apprenticeship in site.data.apprenticeships %}
+    <!-- Trigger the modal with a button -->
+    <div class="col-xs-12 col-sm-3">
+      <button style="border-left: 10px solid #{{ apprenticeship.colour }}" type="button" class="btn" data-toggle="modal" data-target="#{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}">{{ apprenticeship.apprenticeship-title }}</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">{{ apprenticeship.apprenticeship-title }}</h4>
+          </div>
+
+          {% if apprenticeship.nas-guid %}
+          <div class="modal-body">
+            <iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>
+          </div>
+
+          {% else %}
+          <div class="modal-body">
+            <p>There are currently no vacancies in this area.</p>
+          </div>
+
+          {% endif %}
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+
         </div>
-
-        {% if apprenticeship.nas-guid %}
-        <div class="modal-body">
-          <iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>
-        </div>
-
-        {% else %}
-        <div class="modal-body">
-          <p>There are currently no vacancies in this area.</p>
-        </div>
-
-        {% endif %}
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+
+</section>
