@@ -932,25 +932,37 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             //get and set brand data value
             brandFilter = $(this).attr("data-brand") || brandFilter;
             //get and set taget data
-            campusTarget = $(this).attr("data-campus-target") || campusTarget;
-            sectorTarget = $(this).attr("data-sector-target") || sectorTarget;
+            //campusTarget = $(this).attr("data-campus-target") || campusTarget;
+            //sectorTarget = $(this).attr("data-sector-target") || sectorTarget;
 
-            $(".panel-collapse").hide(250);
-                    $(campusTarget).show(300);
-                    $(sectorTarget).show(300);
+            //$(".panel-collapse").hide(250);
+            //$(campusTarget).show(300);
+            //$(sectorTarget).show(300);
 
             // inclusive filters from checkboxes
 
             $checkboxes.each(function (i, elem) {
-                // if checkbox, use value if checked
-                if (elem.checked) {
+
+                var item = $(this);
+                var campusItem = $(item.attr("data-campus-target"));
+                var sectorItem = $(item.attr("data-sector-target"));
+
+                if(item.is(":checked")){
+                    campusItem.delay(250).show(300);
+                    sectorItem.delay(250).show(300);   
+                    
                     inclusives.push(elem.value);
                     $sector.show();
-                    $sector.isotope('layout'); 
-
-
-                } 
+                    $sector.isotope('layout');  
+                    
+                }else{
+                    campusItem.hide(200);
+                    sectorItem.hide(200);                       
+                }
+                
             });
+
+            
 
             // combine inclusive filters
             var filterValue = inclusives.length ? inclusives.join('') : '*';
