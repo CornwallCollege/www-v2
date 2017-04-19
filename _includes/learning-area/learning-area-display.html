@@ -52,13 +52,13 @@
 
 <!-- Learning Area Divs -->
 <section id="career-list" class="container main-section-margins">
-        <div id="sector-university-expander" class="filter-info panel-collapse collapse" >
+        <div id="sector-university-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse" >
                 <h4>university information</h4>
                 <p>This is informationa about the Camborne Campus</p>
                 <a class="btn ghost" href="/location-pages/camborne-campus">Visit the Camborne campus page</a>
         </div>
         {% for expander in site.data.learning-area-filters %}
-        <div id="{{expander.data-campus}}-campus-expander" class="filter-info panel-collapse collapse">
+        <div id="{{expander.data-campus}}-campus-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse">
                 <h4>{{expander.title}} Campus information</h4>
                 <p>{{expander.detail}}</p>
                 <a class="btn ghost" href="/location-pages{{expander.link}}">Visit the {{expander.title}} campus page</a>
