@@ -931,16 +931,9 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             campusFilter = $(this).attr("data-campus") || campusFilter;
             //get and set brand data value
             brandFilter = $(this).attr("data-brand") || brandFilter;
-            //get and set taget data
-            //campusTarget = $(this).attr("data-campus-target") || campusTarget;
-            //sectorTarget = $(this).attr("data-sector-target") || sectorTarget;
-
-            //$(".panel-collapse").hide(250);
-            //$(campusTarget).show(300);
-            //$(sectorTarget).show(300);
-
+    
+            $('.filter-title').fadeIn(1500);
             // inclusive filters from checkboxes
-
             $checkboxes.each(function (i, elem) {
 
                 var item = $(this);
@@ -961,8 +954,6 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
                 }
                 
             });
-
-            
 
             // combine inclusive filters
             var filterValue = inclusives.length ? inclusives.join('') : '*';

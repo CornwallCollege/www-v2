@@ -4453,12 +4453,16 @@ a.learning-area:hover{
     z-index:1;
     position: relative;
 }
-.filter-info{
-    border: solid 1px #ddd;
-    padding:20px 25px;
-    margin-bottom: 15px;
+.filter-title{
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 15px
 }
-.filter-info {
+.filter-info{
+    padding:20px 25px;
+    margin: 10px 0 0 0;
+}
+.filter-info:first-child{
+    border-right: solid 1px #ddd;
 }
 .filter-info h4{
     font-size: 1.3em;
