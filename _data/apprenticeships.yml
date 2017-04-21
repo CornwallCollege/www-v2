@@ -23,6 +23,11 @@
   nas-guid: a9c73678d407ebd877a2d4df4ca54b91
   course-link: /course-type/apprenticeship
 
+- apprenticeship-title: Arboriculture
+  colour: 61AE24
+  nas-guid:
+  course-link: /course-type/apprenticeship
+
 - apprenticeship-title: Boatbuilding
   colour: 00A1CB
   nas-guid:
@@ -33,14 +38,24 @@
   nas-guid: 68370c43bf3062d07d6527ae64afc4bf
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Catering & food production
+- apprenticeship-title: Catering & food production - Bicton College
+  colour: D0D102
+  nas-guid:
+  course-link: /course-type/apprenticeship
+
+- apprenticeship-title: Catering & food production - Cornwall College
   colour: D0D102
   nas-guid: 8ca7dc0185b71e6358c04e42f0640d12
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Construction and trades
+- apprenticeship-title: Construction and trades - Bicton College
   colour: 00A1CB
-  nas-guid: ca7d310db787237e4976b13e743b80c3
+  nas-guid:
+  course-link: /course-type/apprenticeship
+
+- apprenticeship-title: Construction and trades - Cornwall College
+  colour: 00A1CB
+  nas-guid: aa61f3d8202078ebdf315b5b54e5239b
   course-link: /course-type/apprenticeship
 
 - apprenticeship-title: Customer service
@@ -48,7 +63,12 @@
   nas-guid: 973230736d3af1c7bca46c188141b99e
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Engineering and groundworks
+- apprenticeship-title: Engineering and groundworks - Bicton College
+  colour: 00A1CB
+  nas-guid:
+  course-link: /course-type/apprenticeship
+
+- apprenticeship-title: Engineering and groundworks - Cornwall College
   colour: 00A1CB
   nas-guid: 0fdb29fba112107b04e89e68071bc73f
   course-link: /course-type/apprenticeship
@@ -84,7 +104,7 @@
   course-link: /course-type/apprenticeship
 
 - apprenticeship-title: Media
-  colour: E54028
+  colour: D0D102
   nas-guid:
   course-link: /course-type/apprenticeship
 
@@ -108,7 +128,12 @@
   nas-guid:
   course-link: /course-type/apprenticeship
 
-- apprenticeship-title: Warehouse and waste management
+- apprenticeship-title: Warehouse and waste management - Bicton College
+  colour: E54028
+  nas-guid:
+  course-link: /course-type/apprenticeship
+
+- apprenticeship-title: Warehouse and waste management -Cornwall College
   colour: E54028
   nas-guid: e18c2b53be6369155982d3bd3e32448f
   course-link: /course-type/apprenticeship
