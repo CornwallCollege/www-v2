@@ -2,53 +2,82 @@
   value: .bicton-campus
   data-campus: bicton
   brand: bic cc
+  detail: "Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland."
+  link: /bicton-campus.html
 
 - title: Camborne
   value: .camborne-campus
   data-campus: camborne
   brand: cc
-  
-- title: dBs Bristol 
+  detail: "Cornwall College Camborne offers a wide range of vocational courses from further education to university, professional qualifications and apprenticeships."
+  link: /camborne-campus.html
+
+- title: dBs Bristol
   value: .bristol-campus
   data-campus: dbs-bristol
-  brand: cc  
-  
+  brand: cc
+  detail: "At dBs Music Bristol we give a true flavor of the music industry in an environment that will inspire, challenge and excite the music professional in you."
+  link: /bristol-campus.html
+
+- title: dBs Plymouth
+  value: .plymouth-campus
+  data-campus: dbs-plymouth
+  brand: cc
+  detail: "Cornwall College Camborne offers a wide range of vocational courses from further education to university, professional qualifications and apprenticeships."
+  link: /camborne-campus  
+
 - title: Eden
-  value: .eden
+  value: .eden-project-campus
   data-campus: eden-project
   brand: cc dc bic
-  
+  detail: "In partnership with the Eden Project, we have developed a unique set of university-level degrees taught on-site at Eden, to complement Eden’s ethos of making the world a better place."
+  link: /eden-campus.html
+
 - title: Falmouth
   value: .falmouth-campus
-  data-campus: falmouth-marine-school  
-  brand: cc fms  
-  
+  data-campus: falmouth-marine-school
+  brand: cc fms
+  detail: "Falmouth Marine School provides a comprehensive selection of courses from introductory to degree level in partnership with Plymouth University. We specialise in Boatbuilding, Leisure & Watersports, Marine Engineering and Marine Science & Biology."
+  link: /falmouth-campus.html 
+
 - title: Newquay
   value: .newquay-campus
-  data-campus: newquay  
-  brand: cc  
-  
+  data-campus: newquay
+  brand: cc
+  detail: "Cornwall College Newquay is a friendly campus specialising in zoology, marine and surf science and is well-known for high quality teaching and research."
+  link: /newquay-campus.html 
+
 - title: Rosewarne
   value: .rosewarne-campus
-  data-campus: rosewarne   
-  brand: cc dc  
-  
+  data-campus: rosewarne
+  brand: cc dc
+  detail: "Duchy College Rosewarne is situated just outside Camborne on a working farm. Our extensive beautiful grounds are spread over approximately 47 hectares and are an excellent horticultural resource with national plant collections on campus."
+  link: /rosewarne-campus.html  
+
 - title: Saltash
   value: .saltash-campus
-  data-campus: saltash  
-  brand: cc   
-  
+  data-campus: saltash
+  brand: cc
+  detail: "The campus at Saltash is based on Church Road, nestled in the heart of a residential area only a few minutes’ walk from the town centre and close to the A38."
+  link: /saltash-campus.html
+
 - title: St Austell
   value: .st-austell-campus
-  data-campus: st-austell 
-  brand: cc   
-  
+  data-campus: st-austell
+  brand: cc
+  detail: "There are six floors in the main building, a bespoke theatre, an A-level centre, an arts block and dedicated construction and engineering skills centre, KoKo Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities."
+  link: /st-austell-campus.html 
+
 - title: Stoke Climsland
   value: .stoke-campus
-  data-campus: stoke  
-  brand: cc dc  
+  data-campus: stoke
+  brand: cc dc
+  detail: "Our campus is nestled in the rural Cornish countryside at Stoke Climsland. The campus offers great land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities."
+  link: /stoke-campus.html
   
 - title: Plymouth Engineering
-  value: .sisna-campus
-  data-campus: sisna-park   
-  brand: cc 
+  value: .sisna-park-campus
+  data-campus: sisna
+  brand: cc
+  detail: "The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth."
+  link: /sisna-park-campus.html  

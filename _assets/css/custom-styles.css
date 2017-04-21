@@ -1518,6 +1518,20 @@ div#logo-wrap #bicton{
         white-space: normal;
     }
 }
+
+.blue-background {
+  background: #52B3D9;
+}
+
+.blue-background h2 {
+  color: #FFF;
+}
+
+.blue-background .btn {
+  color: #FFF;
+  border: 5px #FFF solid;
+}
+
 /* USP bar */
 .usp h2{
     color: white;
@@ -4479,6 +4493,32 @@ a.learning-area:hover{
 .home-page-select-wrap{
     z-index:1;
     position: relative;
+}
+.filter-title{
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 15px
+}
+.filter-info{
+    padding:20px 25px;
+    margin: 10px 0 0 0;
+}
+.filter-info:first-child{
+    border-right: solid 1px #ddd;
+}
+.filter-info h4{
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.filter-info a.ghost{
+    border: 3px solid #52B3D9;
+    font-size: 12px;
+    padding: 7px 15px;
+    margin-top: 0;
+}
+#career-list .filter-info p{
+    display: block;
+    margin-bottom: 1em;
 }
 
 /*------------------------- EVENT carousel styles -------------------------------------*/

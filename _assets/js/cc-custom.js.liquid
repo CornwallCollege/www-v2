@@ -911,6 +911,8 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
         var courseType;
         var campusFilter;
         var brandFilter;
+        var campusTarget;
+        var sectorTarget;
 
         $('#form-ui label.btn').click(function ($event) {
             // Deselect all other options
@@ -929,15 +931,28 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             campusFilter = $(this).attr("data-campus") || campusFilter;
             //get and set brand data value
             brandFilter = $(this).attr("data-brand") || brandFilter;
+    
+            $('.filter-title').fadeIn(1500);
             // inclusive filters from checkboxes
-
             $checkboxes.each(function (i, elem) {
-                // if checkbox, use value if checked
-                if (elem.checked) {
+
+                var item = $(this);
+                var campusItem = $(item.attr("data-campus-target"));
+                var sectorItem = $(item.attr("data-sector-target"));
+
+                if(item.is(":checked")){
+                    campusItem.delay(250).show(300);
+                    sectorItem.delay(250).show(300);   
+                    
                     inclusives.push(elem.value);
                     $sector.show();
-                    $sector.isotope('layout');
+                    $sector.isotope('layout');  
+                    
+                }else{
+                    campusItem.hide(200);
+                    sectorItem.hide(200);                       
                 }
+                
             });
 
             // combine inclusive filters

@@ -7,6 +7,9 @@
     - sub-menu-name: dBs Bristol
       sub-menu-link: location-pages/bristol-campus.html
 
+    - sub-menu-name: dBs Plymouth
+      sub-menu-link: location-pages/plymouth-campus.html
+
     - sub-menu-name: Camborne
       sub-menu-link: location-pages/camborne-campus.html
 
@@ -74,13 +77,13 @@
         sub-menu-link: career-hub/
 
 - menu-name: About Us
-  menu-link: governance   
+  menu-link: governance
   sub-menu:
       - sub-menu-name: "Contact us/ how to find us"
         sub-menu-link: about-pages/contact.html
 
       - sub-menu-name: "College Governance"
-        sub-menu-link: governance  
+        sub-menu-link: governance
 
       - sub-menu-name: "Our Campuses"
         sub-menu-link: location-hub/
@@ -95,7 +98,7 @@
         sub-menu-link: governance/jobs/
 
       - sub-menu-name: "News & Media Centre"
-        sub-menu-link: news   
+        sub-menu-link: news
 
       - sub-menu-name: "Events"
         sub-menu-link: events/whats-on
