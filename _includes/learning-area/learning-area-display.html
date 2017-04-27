@@ -5,51 +5,95 @@
 
     {% if site.brand != 'fms' %}
         <h5><strong>Campus</strong></h5>
-        <div class="btn-group" data-toggle="buttons">
+        <div id="campus-filter" class="btn-group" data-toggle="buttons">
         {% for location in site.data.learning-area-filters %} 
           {% if location.brand contains site.brand %} 
           <label class="area-filter btn btn-primary">
-            <input type="checkbox" name="campus-radio" value="{{location.value}}" data-campus="{{location.data-campus}}" >{{location.title}}
+            <input type="checkbox" name="campus-radio" value="{{location.value}}" data-parent="#campus-filter" data-campus="{{location.data-campus}}" data-campus-target="#{{location.data-campus}}-campus-expander" data-toggle="collapse">{{location.title}}
           </label>
           {% endif %}    
             
         {% endfor %}
           <label class="btn btn-primary area-filter active">
-            <input type="checkbox" name="sector-radio" value="" >Show all
+            <input type="checkbox" name="sector-radio" value="" data-target="">Show all
           </label>
+         
         </div>
+ 
+ 
     {% endif %}   
 
         <h5><strong>Sector</strong></h5>
         <div class="btn-group" data-toggle="buttons">   
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he">University
+            <input type="checkbox" name="sector-radio" value=".university" data-course-type="he" data-toggle="collapse" data-sector-target="#sector-university-expander">University
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".16-18" data-course-type="fe16_18">16-18
+            <input type="checkbox" name="sector-radio" value=".16-18" data-course-type="fe16_18" data-sector-target="#sector-16-18-expander">16-18
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".19plus" data-course-type="fe19plus">Adult 19+
+            <input type="checkbox" name="sector-radio" value=".19plus" data-course-type="fe19plus" data-sector-target="#sector-19-plus-expander">Adult 19+
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".access" data-course-type="access">Access to HE
+            <input type="checkbox" name="sector-radio" value=".access" data-course-type="access" data-sector-target="#sector-access-expander">Access to HE
           </label>
           <label class="btn btn-primary area-filter">
-            <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice">Apprenticeships
+            <input type="checkbox" name="sector-radio" value=".apprenticeships" data-course-type="apprentice" data-sector-target="#sector-apprentice-expander">Apprenticeships
           </label>
           <label class="btn btn-primary area-filter active">
             <input type="checkbox" name="sector-radio" value="" >Show all
           </label>
-        </div>
-
-
+  
+        </div>  
+    
        <!--<p id="output">--</p>-->
 </div>
+
 </section>
+<section class="container">
+        
+    <div class="col-xs-12 header-icon filter-title" style="margin-top:15px; display:none;" >        
 
+    </div>
+        <div id="sector-university-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse" >
+                <h4>University Sector</h4>
+                <p>There's never been a better time to gain a quality degree, with an incredible range of over 80 programmes providing you with real skills to start the career you want.</p>
+                <a class="btn ghost" href="/university-hub/">Visit the University hub</a>
+        </div>   
+        <div id="sector-16-18-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse" >
+                <h4>School Leavers</h4>
+                <p>Our study programme offers you the chance to gain a broad range of experience
+                that will give you the edge when entering the workplace or progressing to university.</p>
+                <a class="btn ghost" href="/16-18-hub/">Visit the School Leavers hub</a>
+        </div>  
+        <div id="sector-19-plus-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse" >
+                <h4>Adult - 19 plus courses</h4>
+                <p>As an adult returning to education you will have many demands on your time. That is why we offer a range of flexible, part-time and short course programmes.</p>
+                <a class="btn ghost" href="/location-pages/camborne-campus">Visit 19+ hub</a>
+        </div>
+        <div id="sector-access-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse" >
+                <h4>Access Courses to Higher Education</h4>
+                <p>If you’d like to study for a degree and are aged 19 and over, but don’t have the qualifications you need, then an Access to Higher Education course could help.</p>
+                <a class="btn ghost" href="/access-hub/">Visit the Access hub</a>
+        </div>     
+        <div id="sector-apprentice-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse" >
+                <h4>Apprenticeships</h4>
+                <p>An apprenticeship is an ideal way for you to earn while you learn in a real job whilst gaining a real qualification and working towards a real future.</p>
+                <a class="btn ghost" href="/apprenticeship-hub/">Visit the Apprenticeship hub</a>
+        </div>        
+  
+        {% for expander in site.data.learning-area-filters %}
+        <div id="{{expander.data-campus}}-campus-expander" class="col-xs-12 col-md-6 filter-info panel-collapse collapse">
+                <h4>{{expander.title}} Campus information</h4>
+                <p>{{expander.detail}}</p>
+                <a class="btn ghost" href="/location-pages{{expander.link}}">Visit the {{expander.title}} campus page</a>
+        </div>  
+        {% endfor %}    
 
+</section> 
 <!-- Learning Area Divs -->
 <section id="career-list" class="container main-section-margins">
+
         <div id="career-content" >
 
         {% for cluster in site.data.sub-clusters %}

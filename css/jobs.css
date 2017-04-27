@@ -1,0 +1,177 @@
+/*CONTENTS*/
+/*Global styles*/
+/*Responsive classes*/
+/*Header styles*/
+/*Job result styles*/
+/*Navigation*/
+/*Footer Styles*/
+/*Get Boostrap styles*/
+@import url('https://www.cornwall.ac.uk//css/bootstrap-3.2.0.min.css');
+@import url('https://www.cornwall.ac.uk//css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+
+/*Global override styles*/
+body {
+    font-family: Raleway,serif
+}
+.standard_bu{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    display: inline-block;
+    background: #52b3d9;
+    padding: 8px 12px;
+    color: #fff;
+    margin-top: 20px;
+    border:none;
+    text-transform:uppercase;
+}
+/*Responsive classes*/
+
+/*Header styles*/
+
+/*Job result styles*/
+
+/*Navigation*/
+
+/*Footer Styles*/
+#footer .main-menu-phone {
+    display: none
+}
+
+#footer {
+    padding: 45px 0
+}
+
+#footer article {
+    padding: 30px;
+    min-height: 300px;
+    text-align: left
+}
+
+@media (min-device-width: 360px) and (max-device-width:425px) and (orientation:portrait) {
+    #footer article {
+        padding:0
+    }
+}
+
+#footer article h5 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase
+}
+
+/*Contact details*/
+.contact-details {
+    margin-bottom: 50px;
+    width: 100%
+}
+
+.contact-details tr td:first-child {
+    padding: 10px 20px;
+    font-family: Raleway;
+    opacity: .9;
+    background-color: #52b3d9
+}
+
+.contact-details tr td:last-child {
+    padding: 20px 20px 0 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    background-color: #52b3d9;
+    color: #fff
+}
+
+.contact-details tr td:last-child a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word
+}
+
+.all-contact-details .contact-details tr td:last-child {
+    background: 0 0
+}
+
+.contact-details td a {
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    color: #fff
+}
+
+.contact-details td i {
+    color: #fff;
+    color: rgba(255,255,255,.6);
+    transition: all .4s
+}
+
+@media(min-device-width: 320px) and (max-device-width:425px) {
+    .contact-details {
+        padding-left:0
+    }
+}
+
+@media(min-width: 320px) and (max-width:425px) {
+    .contact-details td {
+        max-width:235px
+    }
+}
+
+.contact-details:hover td i {
+    color: #fff
+}
+
+#main-contact td a,#main-contact td:last-child {
+    font-size: 16px
+}
+
+@media(min-width: 320px) and (max-width:425px) {
+    #main-contact td a,#main-contact td address,#main-contact td:last-child {
+        font-size:13px;
+        padding-left: 5px
+    }
+}
+.social-icons {
+    display: block;
+    margin-top: 40px
+}
+
+.social-icons a {
+    padding: 10px 12px;
+    letter-spacing: normal;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #52b3d9
+}
+
+.social-icons a:focus,.social-icons a:hover {
+    background: #fff;
+    border-color: #ccc;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0
+}
+
+.social-icons-alt {
+    margin-top: 60px
+}
+
+.social-icons-alt a {
+    border: 1px solid #ccc;
+    color: #333
+}
+
+.social-icons-alt a:hover {
+    border: 1px solid #52b3d9;
+    color: #52b3d9
+}

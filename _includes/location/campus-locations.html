@@ -5,15 +5,15 @@
         {% when 'fms' %}
             {% assign campuscodes = "F" %}
         {% when 'bic' %}
-            {% assign campuscodes = "B, E" %}           
+            {% assign campuscodes = "B, E" %}
     {% else %}
-        {% assign campuscodes= "M,B,C,F,N,R,S,A,D,E" %} 
+        {% assign campuscodes= "L,M,B,C,F,N,R,S,A,D,E" %}
     {% endcase %}
 {% endif %}
 
-<section id="location-map" class="col-md-12 no-padding">  
+<section id="location-map" class="col-md-12 no-padding">
     <script>
-                var campuses = [            
+                var campuses = [
                     {% for campus in site.data.campus %}
                     
                         {% if page.layout == "location-hub" %}
@@ -23,14 +23,13 @@
                         {% else %}
                             {% if page.campuscodes contains campus.code %}
                                 {% include /location/campus-locations-location.html campus=campus %}
-                            {% endif %}                        
+                            {% endif %}
                         {% endif %}
-                    
-                    {% endfor %} 
-                ];      
-    </script>    
+
+                    {% endfor %}
+                ];
+    </script>
 
     <!-- map -->
     <div id="gmap_canvas"></div>
-</section>    
-
+</section>
