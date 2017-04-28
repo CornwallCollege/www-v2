@@ -5403,4 +5403,14 @@ table.contact-overview {
     .apprenticeships .og-grid li {
         width: 100%;
     }
-} 
+}
+
+.accreditations ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.accreditations li {
+  list-style-type: none;
+}
