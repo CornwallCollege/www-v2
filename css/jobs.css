@@ -12,6 +12,31 @@
 
 
 /*Global override styles*/
+#wr_outer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 768px) {
+    #wr_outer {
+        width:750px
+    }
+}
+
+@media (min-width: 992px) {
+    #wr_outer {
+        width:970px
+    }
+}
+
+@media (min-width: 1200px) {
+    #wr_outer {
+        width:1170px
+    }
+}
+
 body {
     font-family: Raleway,serif
 }
@@ -20,11 +45,23 @@ a {
     color: #52b3d9;
     font-size: 1em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     transition: all .4s;
+}
+a.rpg_standard_bu{
+    padding-top:0;
+    color:white;
+}
+a.rpg_standard_bu:hover{
+    background-color: #3071a9;
+    text-decoration: none;
 }
 .standard_bu,
 div.rpg_standard_bu{
+    padding:0;
+    border: none;
+}
+a.rpg_standard_bu{
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -32,15 +69,28 @@ div.rpg_standard_bu{
     -o-border-radius: 0;
     display: inline-block;
     background: #52b3d9;
-    padding: 8px 12px;
+    padding: 8px 12px!important;
     color: #fff;
-    margin-top: 20px;
     border:none;
     text-transform:uppercase;
+    font-weight: 300;
+    
+}
+.standard_bu:hover,
+div.rpg_standard_bu:hover{
+    background-color: #3071a9;
+    color: white;
+    text-decoration: none;
 }
 .div.rpg_standard_bu{
     
 }
+
+#fixednavigation ul li{
+    
+    
+}
+
 /*Responsive classes*/
 
 /*Header styles*/
@@ -90,7 +140,7 @@ img .brand-image {
     transform: scale(1.4)
 }
 #services {
-    background: url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/governance/wp-content/themes/ccg-governance-display-child/images/genral-governance.jpg) 50% 0 no-repeat fixed;
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
@@ -105,7 +155,7 @@ img .brand-image {
 
 @media (min-width: 768px) {
     #services {
-        background-image:url(../images/Teachingshots15.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/governance/wp-content/themes/ccg-governance-display-child/images/genral-governance.jpg) 50% 0 no-repeat fixed;
         background-repeat: no-repeat;
         background-position: 50% 0
     }
