@@ -18,8 +18,19 @@
     margin-right: auto;
     margin-left: auto
 }
-
-body {
+tr.wr_usertext td{
+    padding:25px;
+    font-size: 18px
+}
+td.label{
+    color: #52b3d9;
+    margin:10px 0;
+    display:block
+}
+body,
+table.page_header,
+table.sect_header td.theader h2,
+.data input, .data select, .data menu, td.data, .data textarea{
     font-family: Raleway,serif!important
 }
 a {
@@ -43,7 +54,8 @@ div.rpg_standard_bu{
     padding:0;
     border: none;
 }
-a.rpg_standard_bu{
+a.rpg_standard_bu,
+input.standard_bu{
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -52,7 +64,7 @@ a.rpg_standard_bu{
     display: inline-block;
     background: #52b3d9;
     padding: 8px 20px!important;
-    color: #fff;
+    color: #fff!important;
     border:none;
     text-transform:uppercase;
     font-weight: 300;
@@ -61,16 +73,26 @@ a.rpg_standard_bu{
     
 }
 .page_title{
-    display: none;
+ /*   display: none;*/
+    font-family: Raleway,serif;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 300;
+    padding-bottom:0!important;
+}
+.page_title h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
 }
 .standard_bu:hover,
-div.rpg_standard_bu:hover{
+div.rpg_standard_bu:hover,
+input.standard_bu:hover{
     background-color: #3071a9;
     color: white;
     text-decoration: none;
 }
-.div.rpg_standard_bu{
-    
+table.page_header td.page_title h1{
+    font-family: Raleway,serif!important
 }
 #fixednavigation{
     padding: 25px 0
@@ -101,7 +123,13 @@ div.rpg_standard_bu:hover{
 }
 .theader {
     border-bottom: solid 1px #eee!important;
-    padding-bottom: 15px!important; 
+}
+table.sect_header td.theader{
+    padding-bottom: 15px; 
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    border-right: none;    
 }
 table td.sect_header{
     padding: 0px 30px;
@@ -136,6 +164,56 @@ table.sect_header:hover{
 /*Responsive classes*/
 
 /*Header styles*/
+
+.menu-icon {
+    z-index: 1003;
+    font-weight: 300;
+    font-size: 28px;
+    float: right;
+    display: block;
+    color: #fff;
+    opacity: .9;
+    top: 0;
+    padding: 32px 25px;
+    background: #000;
+    background: rgba(0,0,0,.9);
+    transition: all .4s
+}
+
+.menu-icon:hover {
+    padding: 22px 17px 22px 17px;
+    cursor: pointer;
+    color: #fff
+}
+
+.menu-icon:hover i {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.menu-text {
+    color: #52b3d9;
+    display: inline;
+    font-size: 24px;
+    font-family: Raleway,serif
+}
+
+@media(max-width: 800px) {
+    .menu-text {
+        display:none
+    }
+
+    .menu-icon {
+        font-size: 36px;
+        padding: 27px
+    }
+
+    .menu-icon:hover {
+        padding: 16px 20px
+    }
+}
+
+
 img .brand-image {
     transition: all .3s
 }
@@ -448,7 +526,11 @@ h2 span {
         width:750px
     }
 }
-
+@media(max-width:600px){
+    .sub-brand {
+        display: none;
+    }    
+}
 @media (min-width: 992px) {
     #wr_outer {
         width:970px
@@ -480,6 +562,7 @@ h2 span {
 @media (min-width:1025px){
     #fixednavigation ul {
         padding: 15px 0;
+        width :100%;
     }  
 }
 @media (min-width: 1200px) {
