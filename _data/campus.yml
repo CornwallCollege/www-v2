@@ -469,7 +469,7 @@
 
   learning-areas:
     - area-title: Business & Professional
-      area-color: E54028
+      area-color: E54028 
       sub-areas:
       - sub-area-title: Business School
         sub-area-link: business-school
