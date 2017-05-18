@@ -469,7 +469,7 @@
 
   learning-areas:
     - area-title: Business & Professional
-      area-color: E54028
+      area-color: E54028 
       sub-areas:
       - sub-area-title: Business School
         sub-area-link: business-school
@@ -479,9 +479,6 @@
       sub-areas:
       - sub-area-title: Music & Performing Arts
         sub-area-link: music-performing-arts
-
-      - sub-area-title: Hospitality & Front of House
-        sub-area-link: hospitality-front-house
 
       - sub-area-title: Travel & Tourism
         sub-area-link: travel-tourism

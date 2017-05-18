@@ -12,19 +12,50 @@
 
 
 /*Global override styles*/
-body {
-    font-family: Raleway,serif
+#wr_outer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+tr.wr_usertext td{
+    padding:25px;
+    font-size: 18px
+}
+td.label{
+    color: #52b3d9;
+    margin:10px 0;
+    display:block
+}
+body,
+table.page_header,
+table.sect_header td.theader h2,
+.data input, .data select, .data menu, td.data, .data textarea{
+    font-family: Raleway,serif!important
 }
 a {
     font-family: Raleway,serif;
     color: #52b3d9;
     font-size: 1em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     transition: all .4s;
+}
+a.rpg_standard_bu{
+    padding-top:0;
+    color:white;
+}
+a.rpg_standard_bu:hover{
+    background-color: #3071a9;
+    text-decoration: none;
 }
 .standard_bu,
 div.rpg_standard_bu{
+    padding:0;
+    border: none;
+}
+a.rpg_standard_bu,
+input.standard_bu{
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -32,18 +63,157 @@ div.rpg_standard_bu{
     -o-border-radius: 0;
     display: inline-block;
     background: #52b3d9;
-    padding: 8px 12px;
-    color: #fff;
-    margin-top: 20px;
+    padding: 8px 20px!important;
+    color: #fff!important;
     border:none;
     text-transform:uppercase;
-}
-.div.rpg_standard_bu{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Raleway,serif
     
+}
+.page_title{
+ /*   display: none;*/
+    font-family: Raleway,serif;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 300;
+    padding-bottom:0!important;
+}
+.page_title h1{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.standard_bu:hover,
+div.rpg_standard_bu:hover,
+input.standard_bu:hover{
+    background-color: #3071a9;
+    color: white;
+    text-decoration: none;
+}
+table.page_header td.page_title h1{
+    font-family: Raleway,serif!important
+}
+#fixednavigation{
+    padding: 25px 0
+}
+#fixednavigation ul li{
+    border:3px solid #52b3d9;
+    padding: 5px 10px;
+    color: #52b3d9;
+    background:none;
+}
+#fixednavigation ul li a{
+    color:#52b3d9!important;
+    font-weight:700;
+    font-size: 15px;
+}
+#fixednavigation ul li:hover{
+    background: #52b3d9;
+    color:white;
+}
+#fixednavigation ul li:hover a{
+    color: white!important;
+    text-decoration: none!important;
+}
+.theader h2 a,
+.theader h2{
+    font-size: 32px;
+    text-align: center!important;
+}
+.theader {
+    border-bottom: solid 1px #eee!important;
+}
+table.sect_header td.theader{
+    padding-bottom: 15px; 
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    border-right: none;    
+}
+table td.sect_header{
+    padding: 0px 30px;
+} 
+.sect_header > tbody >tr >td,
+.desc{
+    padding:0 30px;
+}
+table.page_header{
+    background: none;
+    border:white!important;
+}
+table.sect_header{
+    border: solid 2px #eee!important;
+    margin:10px 0;
+}
+table.sect_header:hover{
+    border: solid 2px #52b3d9!important;
+}
+.desc {
+    padding:25px 30px 10px 30px!important;
+}
+.desc{
+    font-size: 21px;
+    font-family: Raleway,serif
+}
+.inline dt{
+    color: #52b3d9;
+    text-transform: uppercase;
+    margin-left: 10px;
 }
 /*Responsive classes*/
 
 /*Header styles*/
+
+.menu-icon {
+    z-index: 1003;
+    font-weight: 300;
+    font-size: 28px;
+    float: right;
+    display: block;
+    color: #fff;
+    opacity: .9;
+    top: 0;
+    padding: 32px 25px;
+    background: #000;
+    background: rgba(0,0,0,.9);
+    transition: all .4s
+}
+
+.menu-icon:hover {
+    padding: 22px 17px 22px 17px;
+    cursor: pointer;
+    color: #fff
+}
+
+.menu-icon:hover i {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.menu-text {
+    color: #52b3d9;
+    display: inline;
+    font-size: 24px;
+    font-family: Raleway,serif
+}
+
+@media(max-width: 800px) {
+    .menu-text {
+        display:none
+    }
+
+    .menu-icon {
+        font-size: 36px;
+        padding: 27px
+    }
+
+    .menu-icon:hover {
+        padding: 16px 20px
+    }
+}
+
+
 img .brand-image {
     transition: all .3s
 }
@@ -90,7 +260,7 @@ img .brand-image {
     transform: scale(1.4)
 }
 #services {
-    background: url(../images/full-time-teaching-mobile.jpg) 50% 0 no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/governance/wp-content/themes/ccg-governance-display-child/images/genral-governance.jpg) 50% 0 no-repeat fixed;
     background-size: -webkit-cover;
     background-size: -o-cover;
     background-size: -moz-cover;
@@ -105,7 +275,7 @@ img .brand-image {
 
 @media (min-width: 768px) {
     #services {
-        background-image:url(../images/Teachingshots15.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/governance/wp-content/themes/ccg-governance-display-child/images/genral-governance.jpg) 50% 0 no-repeat fixed;
         background-repeat: no-repeat;
         background-position: 50% 0
     }
@@ -347,4 +517,56 @@ h2 span {
 .social-icons-alt a:hover {
     border: 1px solid #52b3d9;
     color: #52b3d9
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width: 768px) {
+    #wr_outer {
+        width:750px
+    }
+}
+@media(max-width:600px){
+    .sub-brand {
+        display: none;
+    }    
+}
+@media (min-width: 992px) {
+    #wr_outer {
+        width:970px
+    }
+}
+@media (max-width:1024px){
+    dl.inline dd, dl.inline dt {
+        display: block;
+    }
+    .inline dt {
+        margin-left: 0px;
+    }
+    td div.standard_bu {
+        display: block;
+    }  
+    .sub-brand {
+        top: 15px;
+        }    
+    .sub-brand img {
+        width: 80px;
+        height: 80px;
+    }   
+    .current-brand img {
+        width: 120px;
+        height: 120px;
+        top: 15px;        
+    }
+}
+@media (min-width:1025px){
+    #fixednavigation ul {
+        padding: 15px 0;
+        width :100%;
+    }  
+}
+@media (min-width: 1200px) {
+    #wr_outer {
+        width:1170px
+    }
 }
