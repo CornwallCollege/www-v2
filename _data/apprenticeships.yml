@@ -118,6 +118,11 @@
   nas-guid:
   course-link: /course-type/apprenticeship
 
+- apprenticeship-title: Science
+  colour: E54028
+  nas-guid:
+  course-link: /course-type/apprenticeship
+
 - apprenticeship-title: Sports and leisure
   colour: D70060
   nas-guid:
