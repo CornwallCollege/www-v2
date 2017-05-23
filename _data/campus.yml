@@ -43,6 +43,10 @@
       partner-logo: /images/partnerships/army-be-the-best-logo.jpg
       partner-link: http://www.army.mod.uk/
 
+    - partner-title: Rural Business School
+      partner-logo: /images/partnerships/rural-business-school.png
+      partner-link: https://www.ruralbusinessschool.org.uk/
+
   facilities:
     - title: Learning<br>Centre
       location: Bicton
@@ -469,7 +473,7 @@
 
   learning-areas:
     - area-title: Business & Professional
-      area-color: E54028 
+      area-color: E54028
       sub-areas:
       - sub-area-title: Business School
         sub-area-link: business-school
@@ -784,6 +788,10 @@
     - partner-title: Dairy Crest
       partner-logo: /images/partnerships/dairy-crest.jpg
       partner-link: http://www.dairycrest.co.uk/
+
+    - partner-title: Rural Business School
+      partner-logo: /images/partnerships/rural-business-school.png
+      partner-link: https://www.ruralbusinessschool.org.uk/
 
   facilities:
     - title: Learning <br>Centre
@@ -1274,6 +1282,10 @@
     - partner-title: Army
       partner-logo: /images/partnerships/army-be-the-best-logo.jpg
       partner-link: http://www.army.mod.uk/
+
+    - partner-title: Rural Business School
+      partner-logo: /images/partnerships/rural-business-school.png
+      partner-link: https://www.ruralbusinessschool.org.uk/
 
   facilities:
     - title: Students’ Union
