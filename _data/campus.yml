@@ -155,7 +155,7 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
+      - sub-area-title: Applied Science
         sub-area-link: applied-science-forensics
 
       - sub-area-title: Wildlife Conservation & Zoology
@@ -392,7 +392,7 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
+      - sub-area-title: Applied Science
         sub-area-link: applied-science-forensics
 
       - sub-area-title: Marine & Natural Environment
@@ -723,7 +723,7 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
+      - sub-area-title: Applied Science
         sub-area-link: applied-science-forensics
 
       - sub-area-title: Wildlife Conservation & Zoology
@@ -1022,7 +1022,7 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
+      - sub-area-title: Applied Science
         sub-area-link: applied-science-forensics
 
     - area-title: Technology
@@ -1207,7 +1207,7 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
+      - sub-area-title: Applied Science
         sub-area-link: applied-science-forensics
 
     - area-title: Technology
@@ -1376,7 +1376,7 @@
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:
-      - sub-area-title: Applied Science & Forensic Science
+      - sub-area-title: Applied Science
         sub-area-link: applied-science-forensics
 
     - area-title: Rural Economy

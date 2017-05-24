@@ -5,7 +5,7 @@
   a-class: transition sne
   a-data-filter: .sne
   subclusters:
-    - subcluster: Applied Science & Forensics
+    - subcluster: Applied Science
       university-faculty: Applied Science
       image: /images/sne/applied-forensic-science-desktop.jpg
       mobile-image: /images/sne/applied-forensic-science-mobile.jpg
