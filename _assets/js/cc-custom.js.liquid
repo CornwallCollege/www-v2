@@ -931,7 +931,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
             campusFilter = $(this).attr("data-campus") || campusFilter;
             //get and set brand data value
             brandFilter = $(this).attr("data-brand") || brandFilter;
-    
+
             $('.filter-title').fadeIn(1500);
             // inclusive filters from checkboxes
             $checkboxes.each(function (i, elem) {
@@ -942,17 +942,17 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
 
                 if(item.is(":checked")){
                     campusItem.delay(250).show(300);
-                    sectorItem.delay(250).show(300);   
-                    
+                    sectorItem.delay(250).show(300);
+
                     inclusives.push(elem.value);
                     $sector.show();
-                    $sector.isotope('layout');  
-                    
+                    $sector.isotope('layout');
+
                 }else{
                     campusItem.hide(200);
-                    sectorItem.hide(200);                       
+                    sectorItem.hide(200);
                 }
-                
+
             });
 
             // combine inclusive filters
@@ -1147,7 +1147,8 @@ jQuery(document).ready(function () {
 
 
 //Facility page slide show
-  if (location.pathname.indexOf("facility-pages") !== -1) {
+  if (location.pathname.indexOf("facility-pages") !== -1 ||
+      location.pathname.indexOf("public") !== -1) {
     var slideIndex = 0;
     showSlides();
 
