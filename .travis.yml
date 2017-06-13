@@ -4,7 +4,7 @@ rvm:
 
 
 before_install:
-  - nvm install 4.2
+  - nvm install node
 
 before_script:
   - npm install -g gulp
