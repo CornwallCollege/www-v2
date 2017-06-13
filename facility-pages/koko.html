@@ -8,87 +8,72 @@ postcode: EX9 7BY
 
 {% include /about/about-header.html background-image=hair-beauty-desktop.jpg %}
 
+<div class="container">
+  <section class="col-sm-12 col-md-4 pull-right" style="margin-bottom:15px" >
 
-<section class="col-sm-12 col-md-4 pull-right" style="margin-bottom:15px" >
-
-  <!-- MENUS BOX -->
-  <article class="col-xs-12 col-sm-6 col-md-12 facility-downloads">
-    <a class="btn" href="/documents/other/05411JW0515_Koko_Pamper_Days_leaflet.pdf">Koko Pamper Days Leaflet</a>
-  </article>
-
-  <!-- DIRECTIONS -->
-  <article class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom:30px">
-    <div style="background-color:#f7f7f7; padding:20px">
-      <form action="https://maps.google.com/maps" method="get" target="_blank">
-        <h4>Enter your location</h4>
-        <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
-        <input type="hidden" name="daddr" value="BICTON COLLEGE East Budleigh, Budleigh Salterton, Devon  EX9 7BY"/>
-        <input type="submit" class="icon-btn" value="Get directions" style="color:#fff; background-color:#52b3d9; margin-right:14px"/>
-      </form>
-      <a class="btn" style="color:white; background-color:#52B3D9 font-size:12.5px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a>
+    <!-- MENUS BOX -->
+    <div class="col-xs-12 col-sm-6 col-md-12 facility-downloads">
+      <a class="btn" href="/documents/other/05411JW0515_Koko_Pamper_Days_leaflet.pdf">Koko Pamper Days Leaflet</a>
     </div>
-  </article>
 
-  <!-- Slideshow -->
-  <article class="col-xs-12">
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-          <img src="/images/facilities/slideshow/koko.jpg" alt="KoKo Hair salon at Cornwall College Camborne" style="width:100%">
+    <!-- Slideshow -->
+    <div class="col-xs-12">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+            <img src="/images/facilities/slideshow/koko.jpg" alt="KoKo Hair salon at Cornwall College Camborne" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="/images/facilities/slideshow/koko-hair-beauty-salon.jpg" alt="KoKo Hair salon at Cornwall College St Austell" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="/images/facilities/slideshow/koko-hair-beauty.jpg" alt="KoKo Hair salon at Cornwall College Saltash" style="width:100%">
+          </div>
         </div>
 
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="/images/facilities/slideshow/koko-hair-beauty-salon.jpg" alt="KoKo Hair salon at Cornwall College St Austell" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="/images/facilities/slideshow/koko-hair-beauty.jpg" alt="KoKo Hair salon at Cornwall College Saltash" style="width:100%">
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
       </div>
+  </section>
 
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-    </article>
+  <section class="col-sm-12 col-md-8">
+      <p class="facilities">We offer skin rejuvenation and hair removal with the Lynton Luminette Advance Intense Pulsed Light System (IPL). Contact your nearest Koko salon to check availability and discuss your treatment requirements.</p>
+      <p>The KoKo salons are training salons and we offer a wide range of services and treatments, including barbering, shaving, hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures.</p>
+      <p>As training salons, all services at KoKo are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors. We only use high-quality professional products from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all KoKo salons.</p>
+      <p>Koko Salon is open to the public from Monday – Friday with varying opening hours. We recommend that you give us a call to book your appointment. There is dedicated customer parking available at Camborne and St Austell.  We welcome both men and women clients, but we have age restrictions on a few of our treatments, so please ask about these when booking your appointment.</p>
 
-</section>
+      <hr>
 
-<section class="container">
-    <article class="col-sm-12 col-md-8">
-        <p class="facilities">We offer skin rejuvenation and hair removal with the Lynton Luminette Advance Intense Pulsed Light System (IPL). Contact your nearest Koko salon to check availability and discuss your treatment requirements.</p>
-        <p>The KoKo salons are training salons and we offer a wide range of services and treatments, including barbering, shaving, hair cutting and colouring, massage, facials, body toning wraps, waxing, electrolysis, tanning, manicures and pedicures.</p>
-        <p>As training salons, all services at KoKo are offered at greatly discounted prices compared to high street salons. The stylists and therapists are students being assessed towards their qualifications under close supervision of fully-qualified and highly-experienced tutors. We only use high-quality professional products from brands like Dermalogica, St Tropez, Goldwell, Moroccan Oil and CND. Retail sizes are available to purchase from all KoKo salons.</p>
-        <p>Koko Salon is open to the public from Monday – Friday with varying opening hours. We recommend that you give us a call to book your appointment. There is dedicated customer parking available at Camborne and St Austell.  We welcome both men and women clients, but we have age restrictions on a few of our treatments, so please ask about these when booking your appointment.</p>
+      <h3>Camborne</h3>
+      <p>Hairdressing: 01209 616167</p>
+      <p>Beauty &amp; Holistic Therapies: 01209 616167</p>
+      <p>Email: koko.camborne@cornwall.ac.uk</p>
+      <br>
+      <p>The Complementary Health Therapy: 01209 617796</p>
+      <p>Email: cornwallclinic@hotmail.co.uk</p>
+      <a class="btn" style="margin-top:0" href="/documents/koko-camborne-priceList.pdf">Price List</a>
+      <hr>
 
-        <hr>
+      <h3>Saltash</h3>
+      <p>Hairdressing: 01752 850207</p>
+      <p>Beauty &amp; Holistic Therapies: 01752 850206</p>
+      <p>Email: koko.saltash@cornwall.ac.uk</p>
+      <a class="btn" style="margin-top:0" href="/documents/koko-saltash-priceList.pdf">Price List</a>
+      <hr>
 
-        <h3>Camborne</h3>
-        <p>Hairdressing: 01209 616167</p>
-        <p>Beauty &amp; Holistic Therapies: 01209 616167</p>
-        <p>Email: koko.camborne@cornwall.ac.uk</p>
-        <br>
-        <p>The Complementary Health Therapy: 01209 617796</p>
-        <p>Email: cornwallclinic@hotmail.co.uk</p>
-        <a class="btn" style="margin-top:0" href="/documents/koko-camborne-priceList.pdf">Price List</a>
-        <hr>
+      <h3>St Austell</h3>
+      <p>Hairdressing: 01726 226728</p>
+      <p>Beauty &amp; Holistic Therapies: 01726 226731</p>
+      <p>Email: koko.staustell@cornwall.ac.uk</p>
+      <a class="btn" style="margin-top:0" href="/documents/koko-stAustell-priceList.pdf">Price List</a>
+      <hr>
+  </section>
 
-        <h3>Saltash</h3>
-        <p>Hairdressing: 01752 850207</p>
-        <p>Beauty &amp; Holistic Therapies: 01752 850206</p>
-        <p>Email: koko.saltash@cornwall.ac.uk</p>
-        <a class="btn" style="margin-top:0" href="/documents/koko-saltash-priceList.pdf">Price List</a>
-        <hr>
-
-        <h3>St Austell</h3>
-        <p>Hairdressing: 01726 226728</p>
-        <p>Beauty &amp; Holistic Therapies: 01726 226731</p>
-        <p>Email: koko.staustell@cornwall.ac.uk</p>
-        <a class="btn" style="margin-top:0" href="/documents/koko-stAustell-priceList.pdf">Price List</a>
-        <hr>
-
-    </article>
-</section>
+</div>
