@@ -137,7 +137,7 @@
     - area-title: Technology
       area-color: 00A1CB
       sub-areas:
-      - sub-area-title: Engineering
+      - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
 
     - area-title: Cultral & Visitor Economy
@@ -407,7 +407,7 @@
       - sub-area-title: Motor Vehicle
         sub-area-link: motor-vehicle
 
-      - sub-area-title: Engineering
+      - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
 
     - area-title: Education
@@ -1031,7 +1031,7 @@
       - sub-area-title: Construction Trades
         sub-area-link: construction-trades
 
-      - sub-area-title: Engineering
+      - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
 
     - area-title: Education
@@ -1219,7 +1219,7 @@
       - sub-area-title: Motor Vehicle
         sub-area-link: motor-vehicle
 
-      - sub-area-title: Engineering
+      - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
 
     - area-title: Education
@@ -1361,7 +1361,7 @@
     - area-title: Technology
       area-color: 00A1CB
       sub-areas:
-      - sub-area-title: Engineering
+      - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
 
     - area-title: Education
@@ -1436,5 +1436,5 @@
     - area-title: Technology
       area-color: 00A1CB
       sub-areas:
-      - sub-area-title: Engineering
+      - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
