@@ -1,22 +1,78 @@
-#16-18 Bursary Application Form
-- title: 16-18 Bursary Application Form # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/16-18BursaryApplicationForm2016-17.pdf
-  colour: 77BC43
-
-  #19+ application form final 2016-17
-- title: 19+ Application Form Final 2016-17  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/19+ application form final 2016-17.pdf
-  colour: 77BC43
-
-  #Additional Travel Information Sheet
-- title: Additional Travel Information Sheet  # Document name
+  #Transport Information and Application Form: Cornwall College and Falmouth Marine School
+- title: Transport Information and Application Form&#58; Cornwall College and Falmouth Marine School # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/application-form/Additional Travel Information Sheet.docx
+  download-link: /documents/application-form/Cornwall-College-Falmouth-Marine-School-Transport-Information-and-Application-Form-16-18.pdf
+  colour: 77BC43
+
+  #Transport Information and Application Form: Bicton College
+- title: Transport Information and Application Form&#58; Bicton College # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Bicton-College-Transport-Information-and-Application-Form-16-18.pdf
+  colour: 77BC43
+
+  #Transport Information and Application Form: Duchy College Stoke Climsland
+- title: Transport Information and Application Form&#58; Duchy College Stoke Climsland # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Duchy-College-Stoke-Climsland-Transport-Information-and-Application-Form-16-18.pdf
+  colour: 77BC43
+
+  #Transport Information and Application Form: Duchy College Rosewarne
+- title: Transport Information and Application Form&#58; Duchy College Rosewarne # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Duchy-College-Rosewarne-Transport-Information-and-Application-Form-16-18.pdf
+  colour: 77BC43
+
+  #Funding Information and Application Form: Cornwall College and Falmouth Marine School
+- title: Funding Information and Application Form&#58; Cornwall College and Falmouth Marine School #Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Cornwall-College-Falmouth-Marine-School-Funding-Information-and-Application-Form-19.pdf
+  colour: 77BC43
+
+  #Funding Information and Application Form: Bicton College
+- title: Funding Information and Application Form&#58; Bicton College #Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Bicton-College-Funding-Information-and-Application-Form-19.pdf
+  colour: 77BC43
+
+  #Funding Information and Application Form: Duchy College Stoke Climsland
+- title: Funding Information and Application Form&#58; Duchy College Stoke Climsland #Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Duchy-College-Stoke-Climsland-Funding-Information-and-Application-Form-19.pdf
+  colour: 77BC43
+
+  #Funding Information and Application Form: Duchy College Rosewarne
+- title: Funding Information and Application Form&#58; Duchy College Rosewarne #Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Duchy-College-Rosewarne-Funding-Information-and-Application-Form-19.pdf
+  colour: 77BC43
+
+  #Childcare Support Information and Application Form
+- title: Childcare Support Information and Application Form  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Childcare-Support-Information-and-Application-Form.pdf
+  colour: 77BC43
+
+  #Travel to Bicton College Application Form
+- title: Travel to Bicton College Application Form  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/travel-to-bicton-college-application-form.pdf
+  colour: 77BC43
+
+  #TCCG access agreement 2017-2018
+- title: The Cornwall College Group Access Agreement 2017-2018  # Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/Access-Agreement-2017-2018.pdf
   colour: 77BC43
 
   #Application Day Consent form
@@ -33,20 +89,6 @@
   download-link: /documents/application-form/CC Leisure Application Form.pdf
   colour: 77BC43
 
-   #FE Application for Financial Help Towards Childcare
-- title: Further Education Application for Financial Help Towards Childcare  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/FE Application for Financial Help Towards Childcare.docx
-  colour: 77BC43
-
-  #Free College Meals
-- title: Free College Meals  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Free College Meals.docx
-  colour: 77BC43
-
   #Sports Application(1)
 - title: Sports Application  # Document name
   type: PDF # Document type
@@ -59,13 +101,6 @@
   type: Excel Spreadsheet # Document type
   category: application-forms # Document category
   download-link: /documents/application-form/STAC Room Booking Form.xlsx
-  colour: 77BC43
-
-  #Student Services Bursaries App Form (updated 20 July 2015) AC
-- title: Student Services Bursaries App Form (updated 20 July 2015) AC  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Student Services Bursaries App Form (updated 20 July 2015) AC.docx
   colour: 77BC43
 
   #Teenage Pregnancy FE Project Referral Form 190713
@@ -506,11 +541,18 @@
   download-link: /documents/guides/Accommodation info for HE students_1.pdf
   colour: 00A5B4
 
-  #Advanced Learning loans leaflet 02.03.16
-- title: Advanced Learning loans leaflet 02.03.16 # Document name
+  #Advanced Learning Loans leaflet
+- title: Advanced Learning Loans Information Leaflet # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/Advanced Learning loans leaflet 02.03.16.pdf
+  download-link: /documents/guides/Advanced-Learning-Loans-Leaflet.pdf
+  colour: 00A5B4
+
+  #Advanced Learning Loans Fees Policy 2017
+- title: Advanced Learning Loans Fees Policy 2017 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Advanced-Learner-Loans-Fees-Policy-2017.pdf
   colour: 00A5B4
 
   #Affiliated Dressage 8th Feb times

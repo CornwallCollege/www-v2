@@ -5344,8 +5344,6 @@ table.contact-overview {
 }
 
 .facility-downloads a {
-  display: block;
-  width: 54%;
   margin: 10px auto 0 auto;
   color: white;
 }
@@ -5413,4 +5411,23 @@ table.contact-overview {
 
 .accreditations li {
   list-style-type: none;
+}
+
+.public-modules {
+  margin-top: 36px;
+}
+
+.public-modules .submit {
+  margin-top:12px;
+  border:none;
+  padding:8px 12px;
+  background-color:#52B3D9;
+  color:#FFF;
+  text-transform:uppercase;
+  letter-spacing: 0;
+  transition: all 0.4s;
+}
+
+.public-modules .submit:hover {
+  letter-spacing: 1.5px
 }
