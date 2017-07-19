@@ -29,17 +29,19 @@
           <div class="modal-body">
             <iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>
           </div>
+          <div class="modal-footer">
+            <a style="text-transform:capitalize; letter-spacing:0px" target="_blank" href="//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}" class="btn btn-default">Open map in new tab</a>
+            <button type="button" formaction="" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
 
           {% else %}
           <div class="modal-body">
             <p>There are currently no vacancies in this area.</p>
           </div>
-
-          {% endif %}
-
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
+          {% endif %}
 
         </div>
       </div>

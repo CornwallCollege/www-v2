@@ -7,53 +7,64 @@ postcode: TR15 3RD
 ---
 {% include /about/about-header.html %}
 
+<div class="container">
+  <section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
 
-<section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
-
-  <!-- MENUS BOX -->
-  <article class="col-xs-12 col-sm-6 col-md-12 facility-downloads">
-    <a class="btn" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
-    <a class="btn" href="/documents/other/Trevenson MENU 2.pdf">Trevenson Tasting Menu</a>
-    <a class="btn" href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a>
-  </article>
-
-  <!-- DIRECTIONS -->
-  <article class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom:30px">
-    <div style="background-color:#f7f7f7; padding:20px">
-      <form action="https://maps.google.com/maps" method="get" target="_blank">
-        <h4>Enter your location</h4>
-        <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
-        <input type="hidden" name="daddr" value="CAMBORNE CAMPUS Trevenson Road, Pool, Redruth, Cornwall TR15 3RD"/>
-        <input type="submit" class="icon-btn" value="Get directions" style="color:#fff; background-color:#52b3d9; margin-right:14px"/>
-      </form>
-      <a class="btn" style="color:white; background-color:#52B3D9 font-size:12.5px; margin-top:10px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a>
+    <!-- MENUS BOX -->
+    <div class="col-xs-12 col-sm-6 col-md-12 facility-downloads">
+      <a class="btn" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
+      <a class="btn" href="/documents/other/Trevenson MENU 2.pdf">Trevenson Tasting Menu</a>
+      <a class="btn" href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a>
     </div>
-  </article>
 
-  <!-- Slideshow -->
-  <article class="col-xs-12">
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 2</div>
-        <img src="/images/facilities/slideshow/demo-kitchen.jpg" alt="Demo kitchen at Cornwall college Camborne" style="width:100%">
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 2</div>
-        <img src="/images/facilities/slideshow/training-kitchen.jpg" alt="training kitchen at Cornwall college Camborne" style="width:100%">
+    <!-- DIRECTIONS -->
+    <div class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom:30px">
+      <div style="background-color:#f7f7f7; padding:20px">
+        <form action="https://maps.google.com/maps" method="get" target="_blank">
+          <h4>Enter your location</h4>
+          <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
+          <input type="hidden" name="daddr" value="CAMBORNE CAMPUS Trevenson Road, Pool, Redruth, Cornwall TR15 3RD"/>
+          <input type="submit" class="icon-btn" value="Get directions" style="color:#fff; background-color:#52b3d9; margin-right:14px"/>
+        </form>
+        <a class="btn" style="color:white; background-color:#52B3D9 font-size:12.5px; margin-top:10px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a>
       </div>
     </div>
 
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-    </div>
-  </article>
+    <!-- Slideshow -->
+    <div class="col-xs-12">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="/images/facilities/slideshow/trevenson-flower.jpg" class="img-responsive" alt="Demo kitchen at Cornwall College Camborne" style="width:100%">
+        </div>
 
-</section>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="/images/facilities/slideshow/demo-kitchen.jpg" class="img-responsive" alt="Demo kitchen at Cornwall College Camborne" style="width:100%">
+        </div>
 
-<section class="container">
-  <article class="col-sm-12 col-md-8">
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="/images/facilities/slideshow/trevenson-lecturer.jpg" class="img-responsive" alt="training kitchen at Cornwall college Camborne" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="/images/facilities/slideshow/training-kitchen.jpg" class="img-responsive" alt="training kitchen at Cornwall college Camborne" style="width:100%">
+        </div>
+      </div>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+  </section>
+
+
+  <section class="col-sm-12 col-md-8">
     <p class="facilities"> All our Camborne Restaurants & Cafes have 5 Rating and Platinum Award for Cornwall Healthy Eating Federation.</p>
 
     <h3>Trevenson Restaurant</h3>
@@ -79,5 +90,5 @@ postcode: TR15 3RD
       Telephone: 01209 616211</p>
 
     <h3>If you wish to order any specific items or if you require catering for events or meetings please contact each individual eatery.</h3>
-  </article>
-</section>
+  </section>
+</div>

@@ -5,7 +5,7 @@
   a-class: transition sne
   a-data-filter: .sne
   subclusters:
-    - subcluster: Applied Science & Forensics
+    - subcluster: Applied Science
       university-faculty: Applied Science
       image: /images/sne/applied-forensic-science-desktop.jpg
       mobile-image: /images/sne/applied-forensic-science-mobile.jpg
@@ -275,7 +275,7 @@
       search-link: motor-vehicle
       intro: If you love cars and fixing things, then a career as a vehicle technician could be ideal for you. Motor vehicle technicians repair and service cars, vans, motorbikes, lorries and coaches.
 
-    - subcluster: Engineering
+    - subcluster: Engineering &amp; Electrical
       university-faculty: Engineering
       image: /images/et/engineering.jpg
       mobile-image: /images/et/engineering-mobile.jpg
