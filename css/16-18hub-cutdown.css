@@ -12,7 +12,7 @@
     text-align: center;
     margin-top: 50px;
     text-transform: uppercase;
-} 
+}
 .how-we-work ul {
 	text-align: center;
 	margin-bottom: 48px;
@@ -358,7 +358,7 @@
     }
     .service-section .col-md-6:nth-child(even) > .service-box-inner{
         text-align: right;
-    }    
+    }
 }
 .service-box-inner {
 	display: inline-block;
@@ -898,7 +898,7 @@
 	position: relative;
 	height: 100%;
 	left: -15px;
-	top: -100px;
+	top: -40px;
 	z-index: 99;
 }
 
@@ -1026,10 +1026,10 @@
     }
     .features-section:before {
         display: none;
-    }   
+    }
     .how-we-work ul li:before {
         display: none;
-    }    
+    }
 }
 @media( min-width:451px ) and ( max-width:991px ){
     .how-we-work h2 {
@@ -1046,7 +1046,7 @@
     }
 
     .research{
-        right: 60px;   
+        right: 60px;
     }
     .why-choose:before,
     .features-section:before{
@@ -1059,7 +1059,6 @@
         border-bottom: none;
         border-left: none;
         background: rgba(82,179,217,0.90);
-    }    
-    
-}
+    }
 
+}

@@ -30,60 +30,6 @@ custom_css: /css/16-18hub-cutdown.css
 
 <!-- END OF HEADER -->
 
-
-    <section id="video-block" class="col-sm-12 full-width-video-block">
-
-        <article class="col-md-4 col-xs-12 no-padding">
-            {% youtube https://youtu.be/-AqUfso3nkY %}
-            <div class="text-center caption">
-                <h4>Academy Nathan Outlaw</h4>
-                <p>Train with the best to be the best – the UKs top college for catering</p>
-            </div>
-        </article>
-        <article class="col-md-4 col-xs-12 no-padding">
-            {% youtube https://youtu.be/1fs7XVTcZv0 %}
-            <div class="text-center caption">
-                <h4>iamdigital – a new way of learning</h4>
-                <p>Our NEW Software Development Tech Bacc – train in industry</p>
-            </div>
-        </article>
-        <article class="col-md-4 col-xs-12 no-padding">
-            {% youtube https://youtu.be/qO934r2oINU %}
-            <div class="text-center caption">
-                <h4>STEM Centre of Excellence</h4>
-                <p>Study a wide range of Science, Technology, Engineering &amp; Maths to degree-level</p>
-            </div>
-        </article>
-    </section>
-
-    <section class="col-xs-12 full-width-video-block">
-        <article class="col-md-4 col-xs-12  no-padding">
-            {% youtube https://youtu.be/s7OViF2XR3k %}
-            <div class="text-center caption">
-                <h4>Outstanding alumni</h4>
-                <p>Our learners go on to great things</p>
-            </div>
-        </article>
-        <article class="col-md-4 col-xs-12  no-padding">
-            {% youtube https://youtu.be/0SNqMaTSPG4 %}
-            <div class="text-center caption">
-                <h4>Bicton College &amp; Duchy College</h4>
-                <p>The widest range of specialist courses</p>
-            </div>
-        </article>
-        <article class="col-md-4 col-xs-12 no-padding">
-            {% youtube https://youtu.be/Zuc1Rk4oSNg %}
-            <div class="text-center caption">
-                <h4>Specialist Marine Studies</h4>
-                <p>At Falmouth Marine School</p>
-            </div>
-        </article>
-    </section>
-
-    <!-- BROWSE BY section -->
-    {% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
-    <!-- BROWSE BY section ENDS-->
-
 <section id="how-we-work" class="how-we-work col-xs-12">
         <!-- Section Header -->
         <div class="section-header">
@@ -121,6 +67,7 @@ custom_css: /css/16-18hub-cutdown.css
             </ul>
         </div>
 
+<!--
         <div class="how-we-work-container hidden-xs">
             <div class="research-slope">
                 <div class="research shape-content">
@@ -206,7 +153,7 @@ custom_css: /css/16-18hub-cutdown.css
             </div>
         </div>
     </section>
-
+-->
 <!--------------------------------------------------------------------------------------------->
 
 <div id="service-section" class="service-section col-xs-12">
@@ -286,7 +233,7 @@ custom_css: /css/16-18hub-cutdown.css
     </div>
 
 <!---------------------------------------------------------------------------->
-
+<!--
 <section id="why-choose" class="why-choose">
         <div class="why-choose-inner">
 
@@ -372,7 +319,9 @@ custom_css: /css/16-18hub-cutdown.css
         </div>
     </section>
 
+-->
 
+{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
 
 <!------------------------------------------------------------------->
 
@@ -439,4 +388,51 @@ custom_css: /css/16-18hub-cutdown.css
 
 <!----------------------------------------------------------------------->
 
-{% include two-options.html first-half-text="View Our Learning Areas" first-half-button="Let's Go!" first-half-link="/learning-area-hub" second-half-text="View Our Career Areas" second-half-button="Let's Go!" second-half-link="/career-hub/" %}
+<section id="video-block" class="col-sm-12 full-width-video-block">
+
+    <article class="col-md-4 col-xs-12 no-padding">
+        {% youtube https://youtu.be/-AqUfso3nkY %}
+        <div class="text-center caption">
+            <h4>Academy Nathan Outlaw</h4>
+            <p>Train with the best to be the best – the UKs top college for catering</p>
+        </div>
+    </article>
+    <article class="col-md-4 col-xs-12 no-padding">
+        {% youtube https://youtu.be/1fs7XVTcZv0 %}
+        <div class="text-center caption">
+            <h4>iamdigital – a new way of learning</h4>
+            <p>Our NEW Software Development Tech Bacc – train in industry</p>
+        </div>
+    </article>
+    <article class="col-md-4 col-xs-12 no-padding">
+        {% youtube https://youtu.be/qO934r2oINU %}
+        <div class="text-center caption">
+            <h4>STEM Centre of Excellence</h4>
+            <p>Study a wide range of Science, Technology, Engineering &amp; Maths to degree-level</p>
+        </div>
+    </article>
+</section>
+
+<section class="col-xs-12 full-width-video-block">
+    <article class="col-md-4 col-xs-12  no-padding">
+        {% youtube https://youtu.be/s7OViF2XR3k %}
+        <div class="text-center caption">
+            <h4>Outstanding alumni</h4>
+            <p>Our learners go on to great things</p>
+        </div>
+    </article>
+    <article class="col-md-4 col-xs-12  no-padding">
+        {% youtube https://youtu.be/0SNqMaTSPG4 %}
+        <div class="text-center caption">
+            <h4>Bicton College &amp; Duchy College</h4>
+            <p>The widest range of specialist courses</p>
+        </div>
+    </article>
+    <article class="col-md-4 col-xs-12 no-padding">
+        {% youtube https://youtu.be/Zuc1Rk4oSNg %}
+        <div class="text-center caption">
+            <h4>Specialist Marine Studies</h4>
+            <p>At Falmouth Marine School</p>
+        </div>
+    </article>
+</section>
