@@ -26,7 +26,7 @@
 	margin: 0 ;
 	position: relative;
 }
-.how-we-work ul li:before,
+/* .how-we-work ul li:before,
 .we-perfection ul li:before{
 	position: absolute;
 	border: 1px solid #52B3D9;
@@ -36,7 +36,7 @@
 	top: 39%;
 	left: 110px;
   margin-top: -12px
-}
+} */
 .how-we-work .clean-code ul li,
 .we-perfection ul li
 {
@@ -53,30 +53,16 @@
 	display: none;
 }
 
-.how-we-work ul li a{
-	color: #666;
-	font-size: 16px;
-	text-transform: lowercase;
-	font-weight: bold;
-}
-.how-we-work ul li a i {
-	width: 100px;
-	height: 100px;
+.how-we-work ul li i {
+	width: 128px;
+	height: 128px;
 	display: block;
 	border-radius: 50%;
-	border: 1px solid #52B3D9;
-	font-size: 30px;
-	line-height: 100px;
-	color: #52B3D9;
-	margin: 0 10px 20px 10px;
-  background-color: white;
-}
-.how-we-work ul li:hover a > i {
-	background-color: #52B3D9;
-	color: #fff;
-}
-.how-we-work ul li:hover a {
-	text-decoration: none;
+	font-size: 48px;
+	line-height: 128px;
+	color: white;
+	margin: 0 0 20px 0;
+  background-color: #52B3D9;
 }
 
 .how-we-work-container {
@@ -337,7 +323,7 @@
 .service-section .service-bg > h3 {
 	color: #fff;
 	position: absolute;
-	top: 49%;
+	top: 58%;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
@@ -381,13 +367,13 @@
 .service-box-inner .icon-srv {
 	width: 141px;
 	height: 141px;
-	background-color: #ebebeb;
+	background-color: #52B3D9;
 	border: 7px solid #fff;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 130px;
 	font-size: 48px;
-	color: #666;
+	color: white;
 	display: inline-block;
 	position: relative;
 	-webkit-transition: color 0.3s;
@@ -401,7 +387,7 @@
 
 .service-box-inner:hover .icon-srv {
 	background-color: #52B3D9;
-	color: #fff;
+	color: white;
 }
 
 .service-box-inner .icon-srv:after {
