@@ -1,4 +1,4 @@
-horticulture-floristry-arboriculture/* Custom over writing styles fro the Cornwall COllege child theme of the Ecstasy template
+/* Custom over writing styles fro the Cornwall COllege child theme of the Ecstasy template
 */
 
 /* ----------------------- GOOGLE FONTS ------------------------*/
@@ -1901,13 +1901,13 @@ div#logo-wrap #bicton{
 }
 /* RURAL ECONOMY | horticulture floristry | header bar */
 
-#horticulture-floristry-arboriculture {
+#horticulture-floristry {
     background: url(../images/area-banners/horticulture-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 
 @media(min-width:768px) {
-    #horticulture-floristry-arboriculture {
+    #horticulture-floristry {
         background: url(../images/area-banners/horticulture-desktop.jpg) 50% 0 no-repeat fixed;
         background-size: cover;
     }
@@ -2099,7 +2099,7 @@ div#logo-wrap #bicton{
     #equine,
     #food-production,
     #countryside-management,
-    #horticulture-floristry-arboriculture,
+    #horticulture-floristry,
     #land-based-engineering,
     #animal-science-management,
     #health,
@@ -2564,14 +2564,14 @@ APPLY BARS =====================================================================
     }
 }
 /* RURAL ECONOMY | horticulture floristry | apply now bar */
-.horticulture-floristry-arboriculture-bar {
+.horticulture-floristry-bar {
     background: url(../images/area-banners/horticulture-mobile.jpg);
     /* Standard syntax */
 }
 /*DESKTOP version of the background*/
 
 @media(min-width:768px) {
-    .horticulture-floristry-arboriculture-bar {
+    .horticulture-floristry-bar {
         background: url(../images/area-banners/horticulture-desktop.jpg);
 
         background-position:50% 0;
@@ -2855,7 +2855,7 @@ APPLY BARS =====================================================================
     #equine,
     #food-production,
     #countryside-management,
-    #horticulture-floristry-arboriculture,
+    #horticulture-floristry,
     #land-based-engineering,
     #animal-science-management,
     #health,
@@ -2894,7 +2894,7 @@ APPLY BARS =====================================================================
     .equine-bar,
     .food-production-bar,
     .countryside-management-bar,
-    .horticulture-floristry-arboriculture-bar,
+    .horticulture-floristry-bar,
     .land-based-engineering-bar,
     .animal-science-management-bar,
     .health-bar,
@@ -2939,7 +2939,7 @@ APPLY BARS =====================================================================
     #equine,
     #food-production,
     #countryside-management,
-    #horticulture-floristry-arboriculture,
+    #horticulture-floristry,
     #land-based-engineering,
     #animal-science-management,
     #health,
@@ -3095,19 +3095,19 @@ APPLY BARS =====================================================================
 
 @media(min-width:768px) {
     .career-filter ul li a {
-        min-height: 460px;
+        min-height: 440px;
     }
 }
 
 @media(min-width:992px) {
     .career-filter ul li a {
-        min-height: 370px;
+        min-height: 360px;
     }
 }
 
 @media(min-width:1200px) {
     .career-filter ul li a {
-        min-height: 358px;
+        min-height: 340px;
     }
 }
 /* Cluster colors ends*/

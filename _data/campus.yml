@@ -173,7 +173,7 @@
       - sub-area-title: Equine
         sub-area-link: equine
 
-      - sub-area-title: Horticulture, Floristry & Arboriculture
+      - sub-area-title: Horticulture & Floristry
         sub-area-link: horticulture-floristry
 
       - sub-area-title: Land-based Engineering & Technology
@@ -499,7 +499,7 @@
     - area-title: Rural Economy
       area-color: 61AE24
       sub-areas:
-      - sub-area-title: Horticulture, Floristry & Arboriculture
+      - sub-area-title: Horticulture & Floristry
         sub-area-link: horticulture-floristry
 
 
@@ -870,7 +870,7 @@
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
 
-      - sub-area-title: Horticulture, Floristry & Arboriculture
+      - sub-area-title: Horticulture & Floristry
         sub-area-link: horticulture-floristry
 
       - sub-area-title: Food Technology & Production
@@ -1391,7 +1391,7 @@
       - sub-area-title: Equine
         sub-area-link: equine
 
-      - sub-area-title: Horticulture, Floristry & Arboriculture
+      - sub-area-title: Horticulture & Floristry
         sub-area-link: horticulture-floristry
 
       - sub-area-title: Land-based Engineering & Technology
