@@ -10,12 +10,12 @@
             <div class="home-page-select-wrap">
                 <select class="home-page-select select" data-custom-class="cover_sod no_highlight">
                     <option value="#">Choose an option</option>
-                    <option value="{{ site.falmouth-base-url }}location-hub/index.html">Where you study</option>
-                    <option value="{{ site.falmouth-base-url }}learning-area-hub/">What you study</option>
-                    <option value="{{ site.falmouth-base-url }}sector-hub/">Your next step</option>
-                    <option value="{{ site.falmouth-base-url }}career-hub/index.html">Your Career path</option>
-                    <option value="https://www.ccbtraining.co.uk/">Your business training needs</option>                
-                    <option value="course-search">Just give me a course search</option>
+                    <option value="{{ site.falmouth-base-url }}location-hub/index.html" data-custom-id="fms-location-hub">Where you study</option>
+                    <option value="{{ site.falmouth-base-url }}learning-area-hub/" data-custom-id="fms-learning-area-hub">What you study</option>
+                    <option value="{{ site.falmouth-base-url }}sector-hub/" data-custom-id="fms-next-step-hub">Your next step</option>
+                    <option value="{{ site.falmouth-base-url }}career-hub/index.html" data-custom-id="fms-career-hub">Your Career path</option>
+                    <option value="https://www.ccbtraining.co.uk/" data-custom-id="fms-ccb-training">Your business training needs</option>                
+                    <option value="course-search" data-custom-id="fms-just-search">Just give me a course search</option>
                 </select>
             </div>
             <div class="course-search transition" style="display:none;">
@@ -57,7 +57,7 @@
     </section>
 
 </section>
-<section id="whats-on-falmouth" class="plus-button">
+<section id="whats-on-falmouth" class="plus-button" data-link="whats-on-link">
     <i class="fa fa-arrow-down swiper-button-more text-uppercase"></i>
     <section>
         <p class="text-uppercase white">check out what's happening @Falmouth Marine School</p>
