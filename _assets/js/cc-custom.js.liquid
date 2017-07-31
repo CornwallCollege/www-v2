@@ -764,7 +764,59 @@ $(document).ready(function () {
 
 
 $(document).ready(function(){
+    if(location.pathname.indexOf("apprenticeship-hub") !== -1){
+        var job_of_the_week_feed = "https://network.cornwall.ac.uk/student-support/feed/?post_type=job_of_the_week";   
+        //var job_wrap = $("#job-of-the-week").attr("data-event-campus-id");
 
+        var rssurl = job_of_the_week_feed;
+        $.get(rssurl, function (data) {
+            var $XML = $(data);
+            $XML.find("item").each(function () {
+
+                var $this = $(this),
+                    item = {
+                        title: $this.find("title").text(),
+                        link: $this.find("job_link").text(),
+                        description: $this.find("description").text(),
+                        pubDate: $this.find("pubDate").text(),
+                        appType: $this.find("job_apprenticeship_type").text(),
+                        businessName: $this.find("job_business_name").text(),
+                        jobPostcode: $this.find("job_location_postcode").text(),
+                        //closeDate: $this.find("job_close_date").text(),
+                        wage: $this.find("job_wage").text(),                        
+
+                    };
+                var job = $('<div/>').addClass("owl-item");
+                var article = $('<article/>').addClass("transition text-center");
+                var link = item.link;
+                $(job).append((article).append($('<h3/>').text(item.title)));
+                $(job).append((article).append($('<p/>').text("Company Name: "+item.businessName).addClass("businessName")));
+                $(job).append((article).append($('<p/>').text("Wage: £"+item.wage).addClass("wage")));
+                $(job).append((article).append($('<p/>').text("Closing Date:"+item.closeDate).addClass("closeDate ")));
+                
+                $(job).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View full details</a>"));
+
+                $(".owl-carousel").append(job);
+                //etc...
+
+            });
+
+            if ($("#jobs-carousel").length) {
+                $("#jobs-carousel").show();
+                $("#no-jobs").hide();
+                $('#jobs-carousel').owlCarousel({
+                    items: 1,
+                    margin: 10,
+                    //loop: true,
+                    loop: $('#job-carousel').children().length > 1,
+                    //nav: $('#event-carousel').children().length > 1,
+                    animateOut: 'fadeOut',
+                    autoplay: true,
+                });
+            }
+        });
+    }
+              
     if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ||
     location.pathname.indexOf("16-18-hub") !== -1  ) {
         //jQuery RSS parse for events on campus pages
