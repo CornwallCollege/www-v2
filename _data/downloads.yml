@@ -54,6 +54,13 @@
   download-link: /documents/application-form/Duchy-College-Rosewarne-Funding-Information-and-Application-Form-19.pdf
   colour: 77BC43
 
+  #Funding Information and Application Form: Further Education Funding Support Policy
+- title: Further Education Funding Support Policy #Document name
+  type: Word # Document type
+  category: application-forms # Document category
+  download-link: /documents/application-form/further-education-funding-support-policy -2017-18.doc
+  colour: 77BC43
+
   #Childcare Support Information and Application Form
 - title: Childcare Support Information and Application Form  # Document name
   type: Word # Document type

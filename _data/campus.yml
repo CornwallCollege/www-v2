@@ -173,8 +173,8 @@
       - sub-area-title: Equine
         sub-area-link: equine
 
-      - sub-area-title: Horticulture & Floristry
-        sub-area-link: horticulture-floristry
+      - sub-area-title: Horticulture Floristry & Arboriculture
+        sub-area-link: horticulture-floristry-arboriculture
 
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
@@ -499,8 +499,8 @@
     - area-title: Rural Economy
       area-color: 61AE24
       sub-areas:
-      - sub-area-title: Horticulture & Floristry
-        sub-area-link: horticulture-floristry
+      - sub-area-title: Horticulture Floristry & Arboriculture
+        sub-area-link: horticulture-floristry-arboriculture
 
 
 - campus: Falmouth Marine School
@@ -870,8 +870,8 @@
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
 
-      - sub-area-title: Horticulture & Floristry
-        sub-area-link: horticulture-floristry
+      - sub-area-title: Horticulture Floristry & Arboriculture
+        sub-area-link: horticulture-floristry-arboriculture
 
       - sub-area-title: Food Technology & Production
         sub-area-link: food-technology-production
@@ -1391,8 +1391,8 @@
       - sub-area-title: Equine
         sub-area-link: equine
 
-      - sub-area-title: Horticulture & Floristry
-        sub-area-link: horticulture-floristry
+      - sub-area-title: Horticulture Floristry & Arboriculture
+        sub-area-link: horticulture-floristry-arboriculture
 
       - sub-area-title: Land-based Engineering & Technology
         sub-area-link: land-based-engineering-technology
