@@ -768,10 +768,10 @@ $(document).ready(function(){
         var job_of_the_week_feed = "https://network.cornwall.ac.uk/student-support/feed/?post_type=job_of_the_week";   
         //var job_wrap = $("#job-of-the-week").attr("data-event-campus-id");
 
-        var rssurl = job_of_the_week_feed;
-        $.get(rssurl, function (data) {
-            var $XML = $(data);
-            $XML.find("item").each(function () {
+        var jobfeedurl = job_of_the_week_feed;
+        $.get(jobfeedurl, function (data) {
+            var $RSS = $(data);
+            $RSS.find("item").each(function () {
 
                 var $this = $(this),
                     item = {
@@ -782,7 +782,7 @@ $(document).ready(function(){
                         appType: $this.find("job_apprenticeship_type").text(),
                         businessName: $this.find("job_business_name").text(),
                         jobPostcode: $this.find("job_location_postcode").text(),
-                        //closeDate: $this.find("job_close_date").text(),
+                        closeDate: $this.find("job_closing_date").text(),
                         wage: $this.find("job_wage").text(),                        
 
                     };
@@ -792,28 +792,31 @@ $(document).ready(function(){
                 $(job).append((article).append($('<h3/>').text(item.title)));
                 $(job).append((article).append($('<p/>').text("Company Name: "+item.businessName).addClass("businessName")));
                 $(job).append((article).append($('<p/>').text("Wage: £"+item.wage).addClass("wage")));
-                $(job).append((article).append($('<p/>').text("Closing Date:"+item.closeDate).addClass("closeDate ")));
+                $(job).append((article).append($('<p/>').text("Closing Date: "+item.closeDate).addClass("closeDate ")));
                 
                 $(job).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View full details</a>"));
 
-                $(".owl-carousel").append(job);
+                $(".job-carousel").append(job);
                 //etc...
 
-            });
-
-            if ($("#jobs-carousel").length) {
                 $("#jobs-carousel").show();
                 $("#no-jobs").hide();
-                $('#jobs-carousel').owlCarousel({
-                    items: 1,
-                    margin: 10,
-                    //loop: true,
-                    loop: $('#job-carousel').children().length > 1,
-                    //nav: $('#event-carousel').children().length > 1,
-                    animateOut: 'fadeOut',
-                    autoplay: true,
-                });
-            }
+
+                
+            });
+            
+                if ($("#jobs-carousel").length) {
+                    $('#jobs-carousel').owlCarousel({
+                        items: 1,
+                        margin: 10,
+                        //loop: true,
+                        loop: $('#jobs-carousel').children().length > 1,
+                        //nav: $('#event-carousel').children().length > 1,
+                        animateOut: 'fadeOut',
+                        autoplay: true,
+                    });
+                }
+
         });
     }
               
@@ -865,11 +868,15 @@ $(document).ready(function(){
 
                 $(".owl-carousel").append(event);
                 //etc...
+                //var hasChildren = $(this).children('title').length > 0;
 
+                $("#event-carousel").show();
+                $("#no-events").hide();
+                
             });
-
-            if ($("#event-carousel").length) {
-                $('#event-carousel').owlCarousel({
+            
+            if ($("#event-carousel").length ) {                
+                $('#event-carousel').owlCarousel({    
                     items: 1,
                     margin: 10,
                     //loop: true,
@@ -878,7 +885,7 @@ $(document).ready(function(){
                     animateOut: 'fadeOut',
                     autoplay: true,
                 });
-            }
+            }   
         });
     }
 });
