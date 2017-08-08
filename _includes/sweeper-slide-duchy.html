@@ -9,12 +9,12 @@
             {% endif %}            <div id="home-page-select-wrap">
                 <select class="home-page-select select" data-custom-class="cover_sod no_highlight">
                     <option value="#">Choose an option</option>
-                    <option value="{{ site.duchy-base-url }}location-hub/index.html">Where you study</option>
-                    <option value="{{ site.duchy-base-url }}learning-area-hub/">What you study</option>
-                    <option value="{{ site.duchy-base-url }}sector-hub/">Your next step</option>
-                    <option value="{{ site.duchy-base-url }}career-hub/">Your Career path</option>
-                    <option value="https://www.ccbtraining.co.uk/">Your business training needs</option>                                    
-                    <option value="course-search">Just give me a course search</option>
+                    <option value="{{ site.duchy-base-url }}location-hub/index.html" data-custom-id="dc-location-hub">Where you study</option>
+                    <option value="{{ site.duchy-base-url }}learning-area-hub/" data-custom-id="dc-sector-hub">What you study</option>
+                    <option value="{{ site.duchy-base-url }}sector-hub/" data-custom-id="dc-next-step-hub">Your next step</option>
+                    <option value="{{ site.duchy-base-url }}career-hub/" data-custom-id="dc-career-hub">Your Career path</option>
+                    <option value="https://www.ccbtraining.co.uk/" data-custom-id="dc-ccb-training">Your business training needs</option>                                    
+                    <option value="course-search" data-custom-id="dc-just-search">Just give me a course search</option>
                 </select>
             </div>
             <div class="course-search transition" style="display:none;">
@@ -54,7 +54,7 @@
 
         </section>
     </section>
-    <section id="whats-on-duchy" class="plus-button">
+    <section id="whats-on-duchy" class="plus-button" data-link="whats-on-link">
         <i class="fa fa-arrow-down swiper-button-more text-uppercase"></i>
         <section>
             <p class="text-uppercase white">check out what's happening @Duchy College</p>
