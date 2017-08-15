@@ -33,7 +33,7 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
       <ul>
         {% for business in site.data.open-public %}
         <li class="{{ business.class }} {{ business.short }} cluster-hover" >
-          <a href="{{business.href}}"class="transition"></a>
+          <a href="#{{business.short}}"class="transition"></a>
           <h3>{{ business.business }}</h3>
         </li>
         {% endfor %}
@@ -43,7 +43,6 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
 
   <div class="clearfix"></div>
 
-<!--
   {% for business in site.data.open-public %}
   <section id="{{ business.short }}" style="border-left-color: #{{ business.color }}" class="col-xs-12 col-sm-12 public-body">
 
@@ -106,7 +105,7 @@ background-image: /images/area-banners/hair-beauty-desktop.jpg
   </section>
   {% endfor %}
 </section>
--->
+
 
 
 <!-- Career Areas Divs -->
