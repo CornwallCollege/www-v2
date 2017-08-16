@@ -4,6 +4,7 @@ rvm:
 
 
 before_install:
+  - apt-get install git ruby ruby-dev zlib1g-dev -y
   - nvm install 4.8
 
 before_script:
