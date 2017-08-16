@@ -12,7 +12,6 @@ before_install:
   - sudo bash nodesource_setup.sh
   - sudo apt-get install nodejs
   - sudo npm install --global gulp
-  - nvm install 4.8
 
 before_script:
   - npm install -g gulp
