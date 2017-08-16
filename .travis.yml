@@ -1,17 +1,10 @@
-sudo: required 
-dist: trusty
-
 language: ruby
 rvm:
 - 2.2.5
 
 
 before_install:
-  - sudo apt-get install git ruby ruby-dev zlib1g-dev curl build-essential -y
-  - curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
-  - sudo bash nodesource_setup.sh
-  - sudo apt-get install nodejs
-  - sudo npm install --global gulp
+  - nvm install 4.8
 
 before_script:
   - npm install -g gulp
@@ -28,4 +21,4 @@ env:
   - ENCRYPTION_LABEL: "52cc44cf4ef0"
   - COMMIT_AUTHOR_EMAIL: "mike.trebilcock@duchy.ac.uk"
 
-#sudo: false # route your build to the container-based infrastructure for a faster build
+sudo: false # route your build to the container-based infrastructure for a faster build
