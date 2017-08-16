@@ -7,8 +7,7 @@ rvm:
 
 
 before_install:
-  - sudo apt-get install git ruby ruby-dev zlib1g-dev -y
-  - apt-get install curl build-essential -y
+  - sudo apt-get install git ruby ruby-dev zlib1g-dev curl build-essential -y
   - curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
   - sudo bash nodesource_setup.sh
   - sudo apt-get install nodejs
