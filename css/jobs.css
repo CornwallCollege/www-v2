@@ -12,12 +12,6 @@
 
 
 /*Global override styles*/
-
-/*Make top bar scroll*/
-.navbar-fixed-bottom, .navbar-fixed-top {
-    position: absolute;
-}
-
 #wr_outer {
     padding-right: 15px;
     padding-left: 15px;

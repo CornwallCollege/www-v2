@@ -1,7 +1,7 @@
 <section id="event" class="col-md-12 main-section-margins">
  <section class="container">
     <article class="col-sm-4 col-md-3 intro">
-        <h2>{{page.title | upcase}} <strong>EVENTS</strong> </h2>
+        <h2>Apprenticeship <strong>EVENTS</strong> </h2>
 	
         <p>Click to view all the latest events including courses and careers events, community events and one off spectaculars! Or to see all events across The Cornwall College Group please click below.</p>
         
@@ -11,6 +11,10 @@
 	
     </article>     
   
-  <section id="event-carousel" class="owl-carousel owl-theme col-xs-12 col-sm-8 col-md-8 col-md-offset-1" data-event-campus-id="{{page.event_campus}}"></section>    
+      <section id="event-carousel" style="display: none" class="owl-carousel owl-theme col-xs-12 col-sm-8 col-md-8 col-md-offset-1" data-event-campus-id="{{page.event_campus}}">
+      </section>
+      <section id="no-events" class="owl-theme col-xs-12 col-sm-8 col-md-9" data-event-cat-id="{{page.event_cat_id}}">    <h2 style="margin-top:22%;">Sorry no events to display.</h2></section>    
+      </section>
+    
   </section> 
 </section>
