@@ -763,7 +763,7 @@ $(document).ready(function () {
 
 $(document).ready(function(){
     if(location.pathname.indexOf("apprenticeship-hub") !== -1){
-        var job_of_the_week_feed = "https://network.cornwall.ac.uk/student-support/feed/?post_type=job_of_the_week";   
+        var job_of_the_week_feed = "https://network.cornwall.ac.uk/student-support/feed/?post_type=job_of_the_week";
         //var job_wrap = $("#job-of-the-week").attr("data-event-campus-id");
 
         var jobfeedurl = job_of_the_week_feed;
@@ -781,28 +781,28 @@ $(document).ready(function(){
                         businessName: $this.find("job_business_name").text(),
                         jobPostcode: $this.find("job_location_postcode").text(),
                         closeDate: $this.find("job_closing_date").text(),
-                        wage: $this.find("job_wage").text(),                        
+                        wage: $this.find("job_wage").text(),
 
                     };
-                var job = $('<div/>').addClass("owl-item");
+
+                var event = $('<div/>').addClass("owl-item");
                 var article = $('<article/>').addClass("transition text-center");
                 var link = item.link;
-                $(job).append((article).append($('<h3/>').text(item.title)));
-                $(job).append((article).append($('<p/>').text("Company Name: "+item.businessName).addClass("businessName")));
-                $(job).append((article).append($('<p/>').text("Wage: £"+item.wage).addClass("wage")));
-                $(job).append((article).append($('<p/>').text("Closing Date: "+item.closeDate).addClass("closeDate ")));
-                
-                $(job).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View full details</a>"));
 
-                $(".job-carousel").append(job);
+                $(event).append((article).append($('<h3/>').text(item.title)));
+                $(event).append((article).append($('<p/>').text("Company Name: "+item.businessName).addClass("businessName")));
+                $(event).append((article).append($('<p/>').text("Wage: £"+item.wage).addClass("wage")));
+                $(event).append((article).append($('<p/>').text("Closing Date: "+item.closeDate).addClass("closeDate ")));
+                $(event).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View full details</a>"));
+                $(".job-carousel").append(event);
                 //etc...
 
                 $("#jobs-carousel").show();
                 $("#no-jobs").hide();
 
-                
+
             });
-            
+
                 if ($("#jobs-carousel").length) {
                     $('#jobs-carousel').owlCarousel({
                         items: 1,
@@ -817,7 +817,7 @@ $(document).ready(function(){
 
         });
     }
-              
+
     if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ||
     location.pathname.indexOf("16-18-hub") !== -1  ) {
         //jQuery RSS parse for events on campus pages
@@ -853,28 +853,27 @@ $(document).ready(function(){
                         category: $this.find("category").text(),
 
                     };
+
                 var event = $('<div/>').addClass("owl-item");
                 var article = $('<article/>').addClass("transition text-center");
                 var link = item.link;
+
                 $(event).append((article).append($('<h3/>').text(item.title)));
                 $(event).append((article).append($('<p/>').text(item.organizer).addClass("organizer")));
                 $(event).append((article).append($('<p/>').text(item.venue).addClass("venue")));
                 $(event).append((article).append($('<p/>').text(item.startdate).addClass("startdate ")));
                 if (item.enddate) { $(event).append((article).append($('<p/>').text(item.enddate).addClass("enddate "))); }
-                //$(event).append((article).append($('<p/>').text(item.category).addClass( "category " )));
                 $(event).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='btn pull-right'>View event details</a>"));
-
-                $(".owl-carousel").append(event);
+                $(".event-carousel").append(event);
                 //etc...
-                //var hasChildren = $(this).children('title').length > 0;
 
                 $("#event-carousel").show();
                 $("#no-events").hide();
-                
+
             });
-            
-            if ($("#event-carousel").length ) {                
-                $('#event-carousel').owlCarousel({    
+
+            if ($("#event-carousel").length ) {
+                $('#event-carousel').owlCarousel({
                     items: 1,
                     margin: 10,
                     //loop: true,
@@ -883,7 +882,7 @@ $(document).ready(function(){
                     animateOut: 'fadeOut',
                     autoplay: true,
                 });
-            }   
+            }
         });
     }
 });

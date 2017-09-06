@@ -2,17 +2,17 @@
  <section class="container">
     <article class="col-sm-4 col-md-3 intro">
         <h2><strong>EVENTS</strong> @ {{page.title | upcase}}</h2>
-	
+
         <p>Click to view all the latest events including courses and careers events, community events and one off spectaculars! Or to see all events across The Cornwall College Group please click below.</p>
-        
+
         <a href="{{ site.url }}/events/whats-on/category/{{page.event_cat_slug}}" class=" btn">All Events @ {{page.title }}</a>
-        
-        <a href="{{ site.url }}/events/whats-on" class=" btn">All Events</a>        
-    </article>     
-  
-      <section id="event-carousel" style="display: none" class="owl-carousel owl-theme col-xs-12 col-sm-8 col-md-8 col-md-offset-1" data-event-campus-id="{{page.event_campus}}">
+
+        <a href="{{ site.url }}/events/whats-on" class=" btn">All Events</a>
+    </article>
+
+      <section id="event-carousel" style="display: none" class="owl-carousel event-carousel owl-theme col-xs-12 col-sm-8 col-md-8 col-md-offset-1" data-event-campus-id="{{page.event_campus}}">
       </section>
-      <section id="no-events" class="owl-theme col-xs-12 col-sm-8 col-md-9" data-event-cat-id="{{page.event_cat_id}}">    <h2 style="margin-top:22%;">Sorry no events to display.</h2></section>    
-      </section>   
-  </section> 
+      <section id="no-events" class="owl-theme col-xs-12 col-sm-8 col-md-9" data-event-cat-id="{{page.event_cat_id}}">    <h2 style="margin-top:22%;">Sorry no events to display.</h2></section>
+      </section>
+  </section>
 </section>
