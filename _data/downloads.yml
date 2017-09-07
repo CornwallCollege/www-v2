@@ -716,11 +716,11 @@
   download-link: /documents/guides/ts_and_cs_-_accom(1).pdf
   colour: 00A5B4
 
-  #0157JW0716_CC_Student_Guide_2016
-- title: Cornwall College Student Guide 2016 # Document name
+  #0157JW0716_CC_Student_Guide_2017
+- title: Cornwall College Student Guide 2017 # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/0157JW0716_CC_Student_Guide_2016.pdf
+  download-link: /documents/guides/cornwall-college-student-guide-2017.pdf
   colour: 00A5B4
 
   # End of Guides
@@ -750,7 +750,7 @@
 - title: Duchy College Rosewarne Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf.pdf
+  download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf
   colour: 006D43
 
   #Cornwall College Newquay Campus Map
