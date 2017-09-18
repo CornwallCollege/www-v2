@@ -957,25 +957,25 @@
   download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
   colour: e8d045
 
-  #Cornwall College FE Prospectus 2017 - Low-Res
-- title: Cornwall College Further Education Prospectus 2017 # Document name
+  #Cornwall College FE Prospectus 2018
+- title: Cornwall College Further Education Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/Cornwall College FE Prospectus 2017 - Low-Res.pdf
+  download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2018.pdf
   colour: e8d045
 
-  #Duchy College FE Prospectus 2017 - Low-Res
-- title: Duchy College Further Education Prospectus 2017 # Document name
+  #Duchy College FE Prospectus 2018
+- title: Duchy College Further Education Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/Duchy College FE Prospectus 2017 - Low-Res.pdf
+  download-link: /documents/prospectuses/duchy-college-further-education-prospectus-2018.pdf
   colour: e8d045
 
-  #FMS FE Prospectus 2017 - Low-Res
-- title: Falmouth Marine School Further Education Prospectus 2017 # Document name
+  #FMS FE Prospectus 2018
+- title: Falmouth Marine School Further Education Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/FMS FE Prospectus 2017 - Low-Res.pdf
+  download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2018.pdf
   colour: e8d045
 
   #Leisure Brochure September 2015
