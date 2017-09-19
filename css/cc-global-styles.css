@@ -804,6 +804,21 @@ div.logo-wrap-scroll :nth-child(4) {
     display: none;
 }
 
+
+.bottom-links{
+
+    opacity: 1;
+}
+.bottom-links a{
+    display: block;
+}
+.bottom-links a.ghost{
+    border-width: 1px;
+    padding: 5px 0;
+    font-size: .9em;
+    margin-top: 10px;
+}
+
 /* ------------ Menu styles ENDS --------------*/
 /* =================================
  *
