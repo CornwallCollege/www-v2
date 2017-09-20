@@ -4701,8 +4701,8 @@ jobs-carousel .owl-controls .owl-dot:hover,
 
 .uni-download {
 	position: relative;
-	padding-top: 100px;
-	padding-bottom: 140px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: #f0f0f0;
     margin: 0;
     border: none;
@@ -4715,15 +4715,15 @@ jobs-carousel .owl-controls .owl-dot:hover,
     }
 }
 
-@media (min-width: 768px) and (max-width: 959px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .portfolio-thumb {
         min-height: 350px;
     }
 }
 
-@media (min-width: 960px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .portfolio-thumb {
-        min-height: 410px;
+        min-height: 360px;
     }
 }
 
@@ -4825,6 +4825,16 @@ jobs-carousel .owl-controls .owl-dot:hover,
 .jcarousel-pagination a {
     border: solid 1px #aaa;
 }
+
+.prospectus {
+  min-height: initial;
+  max-width: initial;
+}
+
+.prospectus b {
+  padding-bottom: 15px;
+}
+
 /*----------------- 16-18 hub---------------------------*/
 /*----------- 16-18 header styles -----------*/
 #fe-hub{
@@ -5441,4 +5451,28 @@ table.contact-overview {
 
 .public-modules .submit:hover {
   letter-spacing: 1.5px
+}
+
+/* New button - replace old */
+
+.btn {
+  background-color: #52B3D9;
+  transition: background-color 0.2s;
+}
+
+.btn:visited {
+  background-color: #52B3D9;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #2b9ac5;
+  color: white;
+  letter-spacing: normal;
+}
+
+.btn:active {
+  background-color: #288db5;
+  color: white;
+  letter-spacing: normal;
 }
