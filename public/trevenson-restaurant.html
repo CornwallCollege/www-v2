@@ -4,6 +4,19 @@ title: Trevenson Restaurant
 description: Recent winners of a prestigious Highly Commended AA College Rosette, Trevenson Restaurant is one of several on-site restaurants at Cornwall College Camborne.
 background-image: trevenson-restaurant.jpg
 postcode: TR15 3RD
+
+sidebarbox-buttons:
+    - button: Trevenson Menu
+      href: /documents/other/trevenson-menu.pdf
+
+    - button: Trevenson Take Away Menu
+      href: /documents/other/trevenson-take-away-menu.pdf
+
+    - button: Trevenson Tasting Menu
+      href: /documents/other/trevenson-tasting-menu.pdf
+
+    - button: Trevenson Christmas Menu
+      href: /documents/other/trevenson-christmas-menu.pdf
 ---
 {% include /public/header.html %}
 
@@ -21,12 +34,7 @@ postcode: TR15 3RD
     </div>
 
     <!-- Downloads Box -->
-    <div style="border:1px solid #EEE; padding: 0 0 24px 16px;" class="public-modules facility-downloads">
-      <h3>Downloads:</h3>
-      <a class="btn" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
-      <a class="btn" href="/documents/other/Trevenson MENU 2.pdf">Trevenson Tasting Menu</a>
-      <a class="btn" href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a>
-    </div>
+    {% include /sidebarbox-buttons.html title="Downloads:" %}
 
     <!-- Contact Info -->
     <div class="public-modules" style="border:1px solid #EEE; padding: 0 0 12px 16px;">

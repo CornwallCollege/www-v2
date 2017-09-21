@@ -1,0 +1,8 @@
+<!-- Downloads Box -->
+<section style="border:1px solid #EEE; padding: 0 16px 24px 16px;" class="public-modules facility-downloads">
+  <h3>{{ include.title }}</h3>
+
+  {% for buttons in page.sidebarbox-buttons %}
+    <a class="btn" href="{{ buttons.href }}">{{ buttons.button }}</a>
+  {% endfor %}
+</section>

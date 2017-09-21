@@ -4,31 +4,24 @@ title: Restaurants at Camborne
 description: Recent winners of a prestigious Highly Commended AA College Rosette, Trevenson Restaurant is one of several on-site restaurants at Cornwall College Camborne.
 background-image: trevenson-banner.jpg
 postcode: TR15 3RD
+
+sidebarbox-buttons:
+    - button: Trevenson Menu
+      href: /documents/other/trevenson-menu.pdf
+
+    - button: Trevenson Take Away Menu
+      href: /documents/other/trevenson-take-away-menu.pdf
+
+    - button: Trevenson Tasting Menu
+      href: /documents/other/trevenson-tasting-menu.pdf
+
+    - button: Trevenson Christmas Menu
+      href: /documents/other/trevenson-christmas-menu.pdf
 ---
 {% include /about/about-header.html %}
 
 <div class="container">
   <section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
-
-    <!-- MENUS BOX -->
-    <div class="col-xs-12 col-sm-6 col-md-12 facility-downloads">
-      <a class="btn" href="/documents/other/Trevenson MENU 1.pdf">Trevenson Menu</a>
-      <a class="btn" href="/documents/other/Trevenson MENU 2.pdf">Trevenson Tasting Menu</a>
-      <a class="btn" href="/documents/other/Trevenson CHRISTMAS MENU.pdf">Trevenson Christmas Menu</a>
-    </div>
-
-    <!-- DIRECTIONS -->
-    <div class="col-xs-12 col-sm-6 col-md-12" style="margin-bottom:30px">
-      <div style="background-color:#f7f7f7; padding:20px">
-        <form action="https://maps.google.com/maps" method="get" target="_blank">
-          <h4>Enter your location</h4>
-          <input type="text" name="saddr" style="Padding-bottom:5px" placeholder="Place Name/Postcode"/>
-          <input type="hidden" name="daddr" value="CAMBORNE CAMPUS Trevenson Road, Pool, Redruth, Cornwall TR15 3RD"/>
-          <input type="submit" class="icon-btn" value="Get directions" style="color:#fff; background-color:#52b3d9; margin-right:14px"/>
-        </form>
-        <a class="btn" style="color:white; background-color:#52B3D9 font-size:12.5px; margin-top:10px" href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}">Get Your Location</a>
-      </div>
-    </div>
 
     <!-- Slideshow -->
     <div class="col-xs-12">
@@ -60,6 +53,9 @@ postcode: TR15 3RD
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
+
+      <!-- Downloads Box -->
+      {% include /sidebarbox-buttons.html title="Downloads:" %}
 
   </section>
 

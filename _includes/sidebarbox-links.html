@@ -1,0 +1,15 @@
+<div class="public-modules" style="border:1px solid #EEE; padding: 0 0 12px 16px;">
+  <h3>{{ include.title }}</h3>
+
+  {% if include.telephone %}
+    <p>Tel: <a href="tel:{{ include.telephone | remove: ' ' }}">{{ include.telephone }}</a></p>
+  {% endif %}
+
+  {% if include.facebook %}
+    <p>Like Us: <a href="{{ include.facebook }}">{{ include.facebook | remove: "https://www." }}</a></p>
+  {% endif %}
+
+  {% if include.twitter %}
+    <p>Follow Us: <a href="{{ include.twitter }}">@{{ include.twitter | remove: "https://twitter.com/" }}</a></p>
+  {% endif %}
+</div>
