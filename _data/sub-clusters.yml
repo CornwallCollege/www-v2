@@ -126,7 +126,7 @@
       level: 1 2 3 4 5 6 7
       colour: 01A4A4
       brand: cc dc
-      sector: 16-18 19plus university apprenticeships
+      sector: 16-18 19plus university
       campus: bicton-campus camborne-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
@@ -165,7 +165,7 @@
       level: 1 2 3
       colour: 01A4A4
       brand: cc dc
-      sector: 16-18 access
+      sector: 16-18 access apprenticeships
       campus: camborne-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Camborne Campus
