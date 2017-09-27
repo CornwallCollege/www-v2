@@ -2,14 +2,23 @@
   <h3>{{ include.title }}</h3>
 
   {% if include.telephone %}
-    <p>Tel: <a href="tel:{{ include.telephone | remove: ' ' }}">{{ include.telephone }}</a></p>
+    <p>Call Us: <a href="tel:{{ include.telephone | remove: ' ' }}">{{ include.telephone }}</a></p>
+  {% endif %}
+
+  {% if include.email %}
+    <p>Email Us: <a href="mailto:{{ include.email | remove: ' ' }}">{{ include.email }}</a></p>
   {% endif %}
 
   {% if include.facebook %}
-    <p>Like Us: <a href="{{ include.facebook }}">{{ include.facebook | remove: "https://www." }}</a></p>
+    <p>Like Us: <a href="{{ include.facebook }}">{{ include.facebook | remove: "https://www.facebook.com" }}</a></p>
   {% endif %}
 
   {% if include.twitter %}
     <p>Follow Us: <a href="{{ include.twitter }}">@{{ include.twitter | remove: "https://twitter.com/" }}</a></p>
   {% endif %}
+
+  {% if include.website %}
+    <p>Visit Us At: <a href="{{ include.website }}">{{ include.website | remove: "https://www." }}</a></p>
+  {% endif %}
+  
 </div>
