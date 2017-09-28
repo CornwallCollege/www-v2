@@ -2,10 +2,10 @@
 layout: about-page
 title: Dog Grooming
 description: Duchy College, Rosewarne’s Dog Grooming Salon boasts a range of high quality, state of the art equipment for the students to use whilst training.
-background-image: trevenson-banner.jpg
+background-image: dog-grooming.jpg
 postcode: TR14 0AB
 ---
-{% include /about/about-header.html %}
+{% include /public/header.html %}
 
 <div class="container">
   <section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
@@ -20,11 +20,7 @@ postcode: TR14 0AB
       <p>12:00 - 13:00</p>
     </div>
 
-    <!-- Contact Info -->
-    <div class="public-modules" style="border:1px solid #EEE; padding: 0 0 12px 16px;">
-      <h3>Contact Info:</h3>
-      <p>Tel: <a href="tel:01209-721342">01209 721342</a></p>
-    </div>
+    {% include sidebarbox-links.html title="Contact Info:" telephone="01209 721342" %}
 
     <!-- DIRECTIONS -->
     <div class="public-modules" style="border:1px solid #EEE; padding: 0 0 12px 16px;">

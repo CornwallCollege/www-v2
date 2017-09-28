@@ -192,7 +192,7 @@ $(document).ready(function () {
             access_token: '271458806597899|7c981033b2bd8db6def277242cde6d24' //String: "APP_ID|APP_SECRET"
         },
 
-        // TWITTER
+        /* TWITTER*/
         twitter: {
             accounts: ['@CornwallCollege'],                      //Array: Specify a list of accounts from which to pull tweets
             limit: 5,                                   //Integer: max number of tweets to load
@@ -226,7 +226,7 @@ $(document).ready(function () {
             access_token: '271458806597899|7c981033b2bd8db6def277242cde6d24' //String: "APP_ID|APP_SECRET"
         },
 
-        // TWITTER
+        /* TWITTER*/
         twitter: {
             accounts: ['@DuchyCollege'],                      //Array: Specify a list of accounts from which to pull tweets
             limit: 5,                                   //Integer: max number of tweets to load
@@ -256,14 +256,14 @@ $(document).ready(function () {
             access_token: '271458806597899|7c981033b2bd8db6def277242cde6d24' //String: "APP_ID|APP_SECRET"
         },
 
-        // TWITTER
+        /*TWITTER*/
         twitter: {
             accounts: ['@marineschool'],                      //Array: Specify a list of accounts from which to pull tweets
             limit: 5,                                   //Integer: max number of tweets to load
             consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
             consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
         },
-
+     
         //RSS FEED
         rss: {
             urls: ['{{site.url}}/news/feed/?post_type=article&newsbrand=falmouth-marine-school', '{{site.url}}/events/whats-on/feed/?organizer=8'], //Array: Specifiy a list of rss feed from which to pull posts
@@ -286,7 +286,7 @@ $(document).ready(function () {
             access_token: '271458806597899|7c981033b2bd8db6def277242cde6d24' //String: "APP_ID|APP_SECRET"
         },
 
-        // TWITTER
+        /* TWITTER*/
         twitter: {
             accounts: ['@bictoncollege'],                      //Array: Specify a list of accounts from which to pull tweets
             limit: 5,                                   //Integer: max number of tweets to load
@@ -334,19 +334,21 @@ $(document).ready(function () {
         var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
         //get season from current month
         var season = '';
+        var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
+
             switch (new Date().getMonth())
             {
-               case 2:
+               case 2:                    
                case 3:
                case 4: 
                    season = 'spring';
-                   break;                          
-               case 5:
+                   break; 
+               case 5:                            
                case 6:
                case 7: 
                    season = 'summer';
-                   break;                          
-               case 8:
+                   break;  
+               case 8:                     
                case 9:
                case 10: 
                    season = 'autumn';
@@ -363,30 +365,38 @@ $(document).ready(function () {
 
             if(season == 'autumn'){
                 //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'autumn',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks','leaves','leaves2'] 
+                    }
+                ]                
+            } else {
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['door-crop', 'woman', 'walking-by', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','libary','girl-with-books','girl-writing','girl-writing2'], 
+                        mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus','walking-in-field','walking-in-field2','horses-grazing'],
+                        mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean', 'shimmer','water-reflect','cliff-waves','clouds'],
+                        mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor','walking-in-field','walking-in-field2','horses-grazing'],
+                        mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
+                    },
+                ]
+            
             }
-            var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
-            var video_options = [
-                {
-                    brand: 'cornwall',
-                    videos: ['door-crop', 'woman', 'walking-by', 'wall-sketching',  'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac'], 
-                    mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
-                },
-                {
-                    brand: 'duchy',
-                    videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                    mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
-                },
-                {
-                    brand: 'falmouth',
-                    videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
-                    mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
-                },
-                {
-                    brand: 'bicton',
-                    videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                    mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
-                },
-            ]
 
        /* }*/
 

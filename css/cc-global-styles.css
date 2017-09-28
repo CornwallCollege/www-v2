@@ -50,7 +50,7 @@ img .brand-image {
 	-moz-transition:all .5s ease-in-out;
 	-ms-transition:all .5s ease-in-out;
 	-o-transition:all .5s ease-in-out;
-	transition:all .5s ease-in-out;    
+	transition:all .5s ease-in-out;
 }
 
 .grow:hover {
@@ -58,7 +58,7 @@ img .brand-image {
 	-moz-transform:scale(1.4);
 	-o-transform:scale(1.4);
 	-ms-transform:scale(1.4);
-	transform:scale(1.4);    
+	transform:scale(1.4);
 }
 
 #white-nav-bg {
@@ -110,7 +110,7 @@ div.logo-wrap-scroll :nth-child(4) {
 /* bootstrap menu - custom-header start -- UPDATE in 1.6 */
 
 .visible-navbar {
-    background: rgb(0, 0, 0);    
+    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
     height: 86px;
     -webkit-transition: all 0.4s;
@@ -179,7 +179,7 @@ div.logo-wrap-scroll :nth-child(4) {
 
 @media(max-width: 767px) {
     .navbar-nav > li {
-        background: rgb(0, 0, 0);        
+        background: rgb(0, 0, 0);
         background: rgba(0, 0, 0, 0.8);
     }
     .navbar-nav > li > a {
@@ -209,7 +209,7 @@ div.logo-wrap-scroll :nth-child(4) {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-    border-radius: 0;    
+    border-radius: 0;
     margin-top: -10px;
     margin-right: 0;
     padding-right: 0;
@@ -227,7 +227,7 @@ div.logo-wrap-scroll :nth-child(4) {
     opacity: 0.9;
     top: 0;
     padding: 32px 25px;
-    background: rgb(0, 0, 0);    
+    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.9);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -274,7 +274,7 @@ div.logo-wrap-scroll :nth-child(4) {
 
 .cbp-spmenu {
     position: fixed;
-    background: rgb(255, 255, 255);    
+    background: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.95);
     border: 10px solid #52B3D9;
     -webkit-transition: all 0.3s ease;
@@ -519,7 +519,7 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 #cbp-spmenu-s2 #search-form input,
 #cbp-spmenu-s2 .search-form input{
-    padding: 0 0 0 15px; 
+    padding: 0 0 0 15px;
 }
 
 #search-form input:focus,
@@ -783,16 +783,16 @@ div.logo-wrap-scroll :nth-child(4) {
     }
 }
 .main-menu-phone {
-    padding:5px 15px 0px 15px; 
-    right:0; 
-    bottom:0; 
-    position:absolute; 
-    background:#52B3D9; 
+    padding:5px 15px 0px 15px;
+    right:0;
+    bottom:0;
+    position:absolute;
+    background:#52B3D9;
     font-size:1.2em;
 }
 .main-menu-phone a{
-    color:white; 
-    font-size:1.2em; 
+    color:white;
+    font-size:1.2em;
     border: none;
 }
 .main-menu-phone a:hover{
@@ -833,7 +833,7 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 
 .dark-bg article h5 {
-    color: rgb(255, 255, 255);    
+    color: rgb(255, 255, 255);
     color: rgba(255, 255, 255, 1);
 }
 
@@ -940,8 +940,8 @@ div.logo-wrap-scroll :nth-child(4) {
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-all;
-    word-break: break-word;    
-    
+    word-break: break-word;
+
 }
 .all-contact-details .contact-details tr td:last-child {
     background: none;
@@ -1013,7 +1013,7 @@ a {
 /********************************************BETTERTUBE PLUGIN STYLES*****************************************/
 
 .BetterTube {
-    margin-bottom: 3.5em;
+    margin-bottom: 1.6em;
     display: block;
     position: relative;
     height: 50px;
@@ -1089,7 +1089,7 @@ a {
 .blue-bg a{
     color: white;
     font-weight: bold;
-} 
+}
 .white{
     color:white!important;
 }
@@ -1115,7 +1115,7 @@ a {
     .plus-button,
     .less-button{
         z-index: 0;
-    }    
+    }
 }
 @media(max-width:400px) {
     /*#logo-wrapper {
@@ -1126,11 +1126,11 @@ a {
     }
 }
 @media(max-width:599px){
-    
+
     .plus-button,
     .less-button{
         z-index: 0;
-    }    
+    }
     .sub-brand img,
     .current-brand img{
         width:100px;
@@ -1297,14 +1297,14 @@ a.not-active:hover{
     white-space: normal;
 }
 .btn.ghost{
-  
+
 }
 a.btn.ghost:hover{
     background: #52B3D9;
     letter-spacing: normal;
 }
 .btn.active{
-    -webkit-box-shadow: none;    
+    -webkit-box-shadow: none;
     box-shadow: none;
     padding: 8px 15px;
     margin-top: -6px;
@@ -1329,10 +1329,10 @@ a.search-filter{
 }
 
 @media (max-width: 960px) {
-    #search-form .search-filters a { 
+    #search-form .search-filters a {
       display: none;
     }
-    #search-form .search-filters select {     
+    #search-form .search-filters select {
         display: block;
         padding: 10px 20px;
         margin: 15px 0 5px 0;
@@ -1351,7 +1351,7 @@ a.search-filter{
 }
 a.gs-title:hover{
     letter-spacing: normal;
-} 
+}
 .gs-snippet,
 a.gs-title{
     font-family: 'lato';

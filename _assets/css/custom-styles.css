@@ -4521,7 +4521,7 @@ a.learning-area:hover{
     margin-bottom: 1em;
 }
 
-/*------------------------- EVENT carousel styles -------------------------------------*/
+/*------------------------- EVENT and JOBS carousel styles -------------------------------------*/
 #event .intro a.btn{
     display: block;
     margin-top:7px;
@@ -4532,6 +4532,7 @@ a.learning-area:hover{
     font-size: 40px;
     font-weight: lighter;
 }
+#jobs-carousel .owl-controls .owl-dot,
 #event-carousel .owl-controls .owl-dot,
 #image-carousel .owl-controls .owl-dot {
     display: inline-block;
@@ -4560,11 +4561,12 @@ a.learning-area:hover{
     width:100%;
 }
 #event-carousel .owl-controls .owl-dot.active,
+#jobs-carousel .owl-controls .owl-dot.active,
 #image-carousel .owl-controls .owl-dot.active {
     background-color: #52B3D9;
     border-color: #52B3D9;
 }
-
+jobs-carousel .owl-controls .owl-dot:hover,
 #event-carousel .owl-controls .owl-dot:hover,
 #image-carousel .owl-controls .owl-dot:hover {
     border-color: #52B3D9;
@@ -4577,36 +4579,44 @@ a.learning-area:hover{
 }
 
 @media(max-width: 767px) {
-    #event-carousel .owl-controls .owl-dot, #image-carousel .owl-controls .owl-dot {
+    #jobs-carousel .owl-controls .owl-dot,
+    #event-carousel .owl-controls .owl-dot,
+    #image-carousel .owl-controls .owl-dot {
         margin-top: 30px;
     }
 }
 
-#event-carousel article {
+#event-carousel article,
+#jobs-carousel article{
     border: 1px solid #ddd;
     margin-bottom: 30px;
     padding: 20px;
     display: inline-block;
     width: 99.9%;
 }
+#jobs-carousel article h3,
 #event-carousel article h3 {
     text-transform: uppercase;
 
 }
 @media(max-width: 600px){
-    #event-carousel h3 {
+    #event-carousel h3,
+    #jobs-carousel h3{
         font-size: 20px
     }
 }
-#event-carousel article:hover {
+#event-carousel article:hover,
+#jobs-carousel article:hover{
     border-color: #52B3D9;
 }
 
-#event-carousel div > i {
+#event-carousel div > i,
+#jobs-carousel div > i{
     color: #52B3D9;
 }
 
-#event-carousel p {
+#event-carousel p,
+#jobs-carousel p{
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -4645,7 +4655,8 @@ a.learning-area:hover{
     font-weight: bold;
     color:#52B3D9;
 }
-#event-carousel article .btn{
+#event-carousel article .btn,
+#jobs-carousel article .btn{
     margin-top:0;
 }
 @media(max-width: 767px) {
@@ -4690,8 +4701,8 @@ a.learning-area:hover{
 
 .uni-download {
 	position: relative;
-	padding-top: 100px;
-	padding-bottom: 140px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: #f0f0f0;
     margin: 0;
     border: none;
@@ -4704,15 +4715,15 @@ a.learning-area:hover{
     }
 }
 
-@media (min-width: 768px) and (max-width: 959px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .portfolio-thumb {
         min-height: 350px;
     }
 }
 
-@media (min-width: 960px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .portfolio-thumb {
-        min-height: 410px;
+        min-height: 360px;
     }
 }
 
@@ -4814,6 +4825,16 @@ a.learning-area:hover{
 .jcarousel-pagination a {
     border: solid 1px #aaa;
 }
+
+.prospectus {
+  min-height: initial;
+  max-width: initial;
+}
+
+.prospectus b {
+  padding-bottom: 15px;
+}
+
 /*----------------- 16-18 hub---------------------------*/
 /*----------- 16-18 header styles -----------*/
 #fe-hub{
@@ -5431,3 +5452,29 @@ table.contact-overview {
 .public-modules .submit:hover {
   letter-spacing: 1.5px
 }
+
+/* New button - replace old */
+
+/*
+.btn {
+  background-color: #52B3D9;
+  transition: background-color 0.2s;
+}
+
+.btn:visited {
+  background-color: #52B3D9;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #2b9ac5;
+  color: white;
+  letter-spacing: normal;
+}
+
+.btn:active {
+  background-color: #288db5;
+  color: white;
+  letter-spacing: normal;
+}
+*/

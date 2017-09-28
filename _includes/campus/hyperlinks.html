@@ -1,0 +1,19 @@
+<!-- Downloads Box -->
+<section style="border:1px solid #EEE; padding: 0 0 24px 16px;" class="facility-downloads col-md-5 col-sm-12 col-xs-12">
+  <h3>Useful links:</h3>
+  {% if include.link4 %}
+    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
+    <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
+    <a class="btn" href="{{ include.link3 }}">{{ include.button3 }}</a>
+    <a class="btn" href="{{ include.link4 }}">{{ include.button4 }}</a>
+  {% elsif include.link3 %}
+    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
+    <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
+    <a class="btn" href="{{ include.link3 }}">{{ include.button3 }}</a>
+  {% elsif include.link2 %}
+    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
+    <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
+  {% else %}
+    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
+  {% endif %}
+</section>

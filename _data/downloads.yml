@@ -58,7 +58,7 @@
 - title: Further Education Funding Support Policy #Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/application-form/further-education-funding-support-policy -2017-18.doc
+  download-link: /documents/application-form/further-education-funding-support-policy-2017-18.pdf
   colour: 77BC43
 
   #Childcare Support Information and Application Form
@@ -716,11 +716,11 @@
   download-link: /documents/guides/ts_and_cs_-_accom(1).pdf
   colour: 00A5B4
 
-  #0157JW0716_CC_Student_Guide_2016
-- title: Cornwall College Student Guide 2016 # Document name
+  #0157JW0716_CC_Student_Guide_2017
+- title: Cornwall College Student Guide 2017 # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/0157JW0716_CC_Student_Guide_2016.pdf
+  download-link: /documents/guides/cornwall-college-student-guide-2017.pdf
   colour: 00A5B4
 
   # End of Guides
@@ -750,7 +750,7 @@
 - title: Duchy College Rosewarne Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
-  download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf.pdf
+  download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf
   colour: 006D43
 
   #Cornwall College Newquay Campus Map
@@ -933,7 +933,7 @@
 - title: Duchy College & Bicton College Undergraduate Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/Duchy College & Bicton College Undergraduate Prospectus 2018.pdf
+  download-link: /documents/prospectuses/undergraduate-prospectus-2018-duchy-bicton.pdf
   colour: e8d045
 
   #The Cornwall College Group Undergraduate Prospectus 2018
@@ -957,25 +957,25 @@
   download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
   colour: e8d045
 
-  #Cornwall College FE Prospectus 2017 - Low-Res
-- title: Cornwall College Further Education Prospectus 2017 # Document name
+  #Cornwall College FE Prospectus 2018
+- title: Cornwall College Further Education Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/Cornwall College FE Prospectus 2017 - Low-Res.pdf
+  download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2018.pdf
   colour: e8d045
 
-  #Duchy College FE Prospectus 2017 - Low-Res
-- title: Duchy College Further Education Prospectus 2017 # Document name
+  #Duchy College FE Prospectus 2018
+- title: Duchy College & Bicton College Further Education Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/Duchy College FE Prospectus 2017 - Low-Res.pdf
+  download-link: /documents/prospectuses/duchy-bicton-college-further-education-prospectus-2018.pdf
   colour: e8d045
 
-  #FMS FE Prospectus 2017 - Low-Res
-- title: Falmouth Marine School Further Education Prospectus 2017 # Document name
+  #FMS FE Prospectus 2018
+- title: Falmouth Marine School Further Education Prospectus 2018 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/FMS FE Prospectus 2017 - Low-Res.pdf
+  download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2018.pdf
   colour: e8d045
 
   #Leisure Brochure September 2015

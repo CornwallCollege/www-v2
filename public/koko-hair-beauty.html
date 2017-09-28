@@ -2,9 +2,19 @@
 layout: about-page
 title: Koko Hair, Beauty and Holoistic Therapies
 description: Koko hair and beauty salons are located at three Cornwall College campuses – Saltash, St Austell and Camborne.
-background-image: trevenson-banner.jpg
+background-image: koko-hair-beauty.jpg
+
+sidebarbox-buttons:
+    - button: Koko Camborne Price List
+      href: /documents/koko-camborne-priceList.pdf
+
+    - button: Koko St Austell Price List
+      href: /documents/koko-stAustell-priceList.pdf
+
+    - button: Koko Saltash Price List
+      href: /documents/koko-saltash-priceList.pdf
 ---
-{% include /about/about-header.html %}
+{% include /public/header.html %}
 
 <div class="container">
   <section class="col-xs-12 col-md-4 pull-right" style="margin-bottom:15px" >
@@ -14,12 +24,7 @@ background-image: trevenson-banner.jpg
     </div>
 
     <!-- Downloads Box -->
-    <div style="border:1px solid #EEE; padding: 0 0 24px 16px;" class="public-modules facility-downloads">
-      <h3>Downloads:</h3>
-      <a class="btn" href="/documents/koko-camborne-priceList.pdf">Koko Camborne Price List</a>
-      <a class="btn" href="/documents/koko-stAustell-priceList.pdf">Koko St Austell Price List</a>
-      <a class="btn" href="/documents/koko-saltash-priceList.pdf">Koko Saltash Price List</a>
-    </div>
+    {% include /sidebarbox-buttons.html title="Downloads:" %}
 
     <!-- Contact Info -->
     <div class="public-modules" style="border:1px solid #EEE; padding: 0 0 12px 16px;">
