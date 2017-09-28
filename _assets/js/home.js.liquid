@@ -334,6 +334,8 @@ $(document).ready(function () {
         var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
         //get season from current month
         var season = '';
+        var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
+
             switch (new Date().getMonth())
             {
                case 2:
@@ -363,30 +365,45 @@ $(document).ready(function () {
 
             if(season == 'autumn'){
                 //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks'],                     },
+                    {
+                        brand: 'duchy',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks'],                     },
+                    {
+                        brand: 'falmouth',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks'],                     },
+                    {
+                        brand: 'bicton',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks'],                     },
+                ]                
+            } else {
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['door-crop', 'woman', 'walking-by', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','libary','girl-with-books','girl-writing','girl-writing2'], 
+                        mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus','walking-in-field','walking-in-field2','horses-grazing'],
+                        mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean', 'shimmer','water-reflect','cliff-waves','clouds'],
+                        mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor','walking-in-field','walking-in-field2','horses-grazing'],
+                        mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
+                    },
+                ]
+            
             }
-            var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
-            var video_options = [
-                {
-                    brand: 'cornwall',
-                    videos: ['door-crop', 'woman', 'walking-by', 'wall-sketching',  'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac'], 
-                    mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
-                },
-                {
-                    brand: 'duchy',
-                    videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                    mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
-                },
-                {
-                    brand: 'falmouth',
-                    videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
-                    mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
-                },
-                {
-                    brand: 'bicton',
-                    videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                    mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
-                },
-            ]
 
        /* }*/
 
