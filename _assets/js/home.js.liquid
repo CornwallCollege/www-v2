@@ -334,19 +334,21 @@ $(document).ready(function () {
         var iOS = /iPhone|iPod|Android|BlackBerry|iPhone Simulator/.test(navigator.platform);*/
         //get season from current month
         var season = '';
+        var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
+        var random = Math.floor((Math.random() * 2) );
             switch (new Date().getMonth())
             {
-               case 2:
+               case 2:                    
                case 3:
                case 4: 
                    season = 'spring';
-                   break;                          
-               case 5:
+                   break; 
+               case 5:                            
                case 6:
                case 7: 
                    season = 'summer';
-                   break;                          
-               case 8:
+                   break;  
+               case 8:                     
                case 9:
                case 10: 
                    season = 'autumn';
@@ -358,35 +360,134 @@ $(document).ready(function () {
                    break;
 
                default: 
-                   alert('no-season');
+                   //alert('no-season');
             }
 
-            if(season == 'autumn'){
+            if(season == 'autumn' && random == 1){
                 //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    }        
+                ] 
+            } else if(season == 'spring' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    }                     
+        
+                ] 
+            } else if(season == 'summer' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass'] 
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass'] 
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass'] 
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass'] 
+                    }                    
+                    
+                ]                 
+            } else if(season == 'winter' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    }                    
+                ] 
+                
+                
+            } else {
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['door-crop', 'woman', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','libary','girl-with-books','girl-writing','girl-writing2'], 
+                        mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus','walking-in-field','walking-in-field2','horses-grazing'],
+                        mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean', 'shimmer','water-reflect','cliff-waves','clouds','underwater'],
+                        mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor','walking-in-field','walking-in-field2','horses-grazing'],
+                        mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
+                    },
+                ]
+            
             }
-            var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
-            var video_options = [
-                {
-                    brand: 'cornwall',
-                    videos: ['door-crop', 'woman', 'walking-by', 'wall-sketching',  'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac'], 
-                    mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
-                },
-                {
-                    brand: 'duchy',
-                    videos: ['cow', 'two-cows', 'cows', 'tree', 'equine', 'lamb', 'stoke', 'stoke-campus'],
-                    mobile_videos: ['mobile/cow', 'mobile/two-cows', 'mobile/cows', 'mobile/tree', 'mobile/equine', 'mobile/lamb', 'mobile/stoke', 'mobile/stoke-campus'],
-                },
-                {
-                    brand: 'falmouth',
-                    videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean'],
-                    mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
-                },
-                {
-                    brand: 'bicton',
-                    videos: ['grass', 'two-cows', 'tree', 'dafs', 'equine', 'landscape', 'tractor'],
-                    mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
-                },
-            ]
 
        /* }*/
 
@@ -396,12 +497,14 @@ $(document).ready(function () {
                 return e.brand === brand;
             });
             //if mobile choose from the mobile array of videos
-            if(isMobile){
+            if(isMobile ){
                 var videos = brand_info[0].mobile_videos;  
             } else {
                 var videos = brand_info[0].videos;  
             }
-
+            if(season && random == 1 ){
+              brand = season; 
+            }
             var index = Math.floor(Math.random() * videos.length);
             $(slide).find('.brand-video').html('<video autoplay muted loop id="'+brand+'-video" class="video fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video><canvas id="'+brand+'-canvas" class="video-canvas"></canvas>');
             $(slide).addClass('video-in');
