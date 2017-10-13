@@ -5478,3 +5478,19 @@ table.contact-overview {
   letter-spacing: normal;
 }
 */
+/* change password page */
+.change-password p, .change-password ul {
+  color: white;
+}
+
+.change-password a {
+  margin-bottom: 20px;
+}
+
+.change-password .lead {
+  margin-top:10px;
+}
+
+.change-password > div {
+  padding: 5%;
+}
