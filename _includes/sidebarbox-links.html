@@ -1,4 +1,4 @@
-<div class="public-modules" style="border:1px solid #EEE; padding: 0 0 12px 16px;">
+<div class="public-modules">
   <h3>{{ include.title }}</h3>
 
   {% if include.telephone %}
@@ -20,5 +20,5 @@
   {% if include.website %}
     <p>Visit Us At: <a href="{{ include.website }}">{{ include.website | remove: "https://www." }}</a></p>
   {% endif %}
-  
+
 </div>
