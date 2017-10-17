@@ -763,7 +763,7 @@ $(document).ready(function () {
 
 $(document).ready(function(){
     if(location.pathname.indexOf("apprenticeship-hub") !== -1){
-        var job_of_the_week_feed = "https://network.cornwall.ac.uk/student-support/feed/?post_type=job_of_the_week";
+        var job_of_the_week_feed = "https://www.cornwall.ac.uk/student-support/feed/?post_type=job_of_the_week";
         //var job_wrap = $("#job-of-the-week").attr("data-event-campus-id");
 
         var jobfeedurl = job_of_the_week_feed;
@@ -825,13 +825,13 @@ $(document).ready(function(){
         var campus_id = $("#event-carousel").attr("data-event-campus-id");
 
         if (location.pathname.indexOf("apprenticeship-hub") !== -1){
-            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
+            var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
         } else if (location.pathname.indexOf("university-hub") !== -1){
-            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/university/feed/";
+            var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/university/feed/";
         } else if (location.pathname.indexOf("16-18-hub") !== -1){
-            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/category/16-18-event/feed/";
+            var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/16-18-event/feed/";
         } else {
-            var event_filter = "https://network.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
+            var event_filter = "https://www.cornwall.ac.uk/events/whats-on/feed/?post_type=tribe_events&venue=" + campus_id;
         }
 
         var rssurl = event_filter;

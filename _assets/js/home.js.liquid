@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
 //======================  Search filters  =================================
     // Create the dropdown base
     $("<select />").appendTo(".search-filters");
@@ -19,86 +19,86 @@ $(document).ready(function () {
          "text"              : el.text(),
          "data-name"         : el.attr("data-name"),
          "data-action"       : el.attr("data-action"),
-         "data-placeholder"  : el.attr("data-placeholder")         
+         "data-placeholder"  : el.attr("data-placeholder")
      }).appendTo(".search-filters select");
-    });   
-    
+    });
+
     // Search form update on click
-    $( ".search-filter" ).click(function() { 
+    $( ".search-filter" ).click(function() {
         //get data from link
         var name = $(this).data('name');
         var action = $(this).data('action');
         var placeholder = $(this).data('placeholder');
-        
+
         $('#search-form').attr('action', action );
         $('.form-control').attr("placeholder", placeholder);
         $('.form-control').attr("name", name);
         $( this ).addClass("active").removeClass( "not-active" );
-        $(this).siblings().removeClass( "active" ).addClass("not-active");     
+        $(this).siblings().removeClass( "active" ).addClass("not-active");
     });
-    
+
     //filter change for hidden form
-    $( ".hidden-search-form .search-filter" ).click(function() { 
+    $( ".hidden-search-form .search-filter" ).click(function() {
         //get data from link
         var name = $(this).data('name');
         var action = $(this).data('action');
         var placeholder = $(this).data('placeholder');
-        
+
         $('#hidden-search-form').attr('action', action );
         $('.form-control').attr("placeholder", placeholder);
         $('.form-control').attr("name", name);
         $( this ).addClass("active").removeClass( "not-active" );
-        $(this).siblings().removeClass( "active" ).addClass("not-active");     
+        $(this).siblings().removeClass( "active" ).addClass("not-active");
     });
-    
-    
+
+
     //Watch for value change on select
     $('.search-filters select').on('change', function() {
         //get data from link
         var name = $(this).find(':selected').data('name');
         var action = $(this).find(':selected').data('action');
         var placeholder = $(this).find(':selected').data('placeholder');
-        
+
         $('#search-form').attr('action', action );
         $('.form-control').attr("placeholder", placeholder);
-        $('.form-control').attr("name", name);        
-        
+        $('.form-control').attr("name", name);
+
     });
 //======================  Search filters ENDS  =================================
-   
+
     $("#main-menu").load("/global-menu.html");
     $("#footer").load("/global-footer.html");
-    
+
     $('#loader').fadeOut(400);
 
     /* Set brand cookie on home */
 
-    
-    //set the brand hash    
+
+    //set the brand hash
     var hash = location.hash;
 
     //set brand on home page visit
 
         //get the hash from the URL
 
-        if (hash == '') {        
-            Cookies.set('brand', '#{{site.hash}}' );             
+        if (hash == '') {
+            Cookies.set('brand', '#{{site.hash}}' );
             Cookies.set('course-brand', '#{{site.hash}}', {
                 domain: '{{site.cookie-domain}}'
             });
 
         } else {
-            Cookies.set('brand', hash );             
+            Cookies.set('brand', hash );
             Cookies.set('course-brand', hash, {
             domain: '{{site.cookie-domain}}'
             });
 
         }
-      
+
 
     var brand_cookie = Cookies.get('brand');
-    
-    
+
+
     // resposive logo; first click open second click follow link
     $('.brand-image').click(function (e) {
         var scroll = $(window).scrollTop();
@@ -115,9 +115,9 @@ $(document).ready(function () {
             }
 
         }
-    });   
-    
-    
+    });
+
+
     /* MENU TOGGLING - 1.7 update*/
     if ($("#cbp-spmenu-s2").length) {
         var openRightPush = document.getElementById('openRightPush'),
@@ -151,9 +151,9 @@ $(document).ready(function () {
 
     }
 
-    /* end of 1.7 update */    
-    
-    
+    /* end of 1.7 update */
+
+
 /* SWIPER options (home page)*/
 
     var swiperH = new Swiper('.swiper-container-h', {
@@ -165,7 +165,7 @@ $(document).ready(function () {
         initialSlide: '{{site.initial-slide}}'
     });
 
-    function initSwiper() {    
+    function initSwiper() {
         var swiperV = new Swiper('.swiper-container-v', {
             pagination: '.swiper-pagination-v',
             paginationClickable: true,
@@ -180,7 +180,7 @@ $(document).ready(function () {
             freeMode: true,
             preloadImages: false,
             lazyLoading: true
-        });     
+        });
     }
     // SOCIALFEED init
     $('.social-feed-ccg-group').socialfeed({
@@ -204,14 +204,14 @@ $(document).ready(function () {
             urls: ['{{site.url}}/news/feed/?post_type=article&newsbrand=cornwall-college','{{site.url}}/events/whats-on/feed/?organizer=6'], //Array: Specifiy a list of rss feed from which to pull posts
             limit: 3
         },
-        
+
 
         // GENERAL SETTINGS
         show_media: true,
         show_https_media_only: true,
         length: 280, //Integer: For posts with text longer than this length, show an ellipsis.
-        callback: function() { 
-            initSwiper();            
+        callback: function() {
+            initSwiper();
             console.log("All posts collected!");
         }
     });
@@ -263,7 +263,7 @@ $(document).ready(function () {
             consumer_key: 'oAGN8K7HC0yzTdFFnT1Na1hID',          //String: consumer key. make sure to have your app read-only
             consumer_secret: 'T7jxqpvN2U9Hf4LZPzbpxg6pfpdK7fKQ4JPKSrLUG4WXkj9WSb',//String: consumer secret key. make sure to have your app read-only
         },
-     
+
         //RSS FEED
         rss: {
             urls: ['{{site.url}}/news/feed/?post_type=article&newsbrand=falmouth-marine-school', '{{site.url}}/events/whats-on/feed/?organizer=8'], //Array: Specifiy a list of rss feed from which to pull posts
@@ -308,9 +308,9 @@ $(document).ready(function () {
 
     //check is it is an IOS device
     function is_IOS() {
-      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);  
+      var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
         return isIOS;
-    }    
+    }
 
 
 
@@ -322,10 +322,10 @@ $(document).ready(function () {
 
             if(!$(this).hasClass('is-playing') ){
                this.className += ' is-playing';
-            } 
+            }
 
         });
-    }     
+    }
 
 
     function loadVideo(slide) {
@@ -335,49 +335,140 @@ $(document).ready(function () {
         //get season from current month
         var season = '';
         var isMobile = /android|iPad|iPhone|iPod/.test(navigator.platform);
-
+        var random = Math.floor((Math.random() * 2) );
             switch (new Date().getMonth())
             {
-               case 2:                    
+               case 2:
                case 3:
-               case 4: 
+               case 4:
                    season = 'spring';
-                   break; 
-               case 5:                            
+                   break;
+               case 5:
                case 6:
-               case 7: 
+               case 7:
                    season = 'summer';
-                   break;  
-               case 8:                     
+                   break;
+               case 8:
                case 9:
-               case 10: 
+               case 10:
                    season = 'autumn';
-                   break;                          
+                   break;
                case 11:
                case 0:
-               case 1: 
+               case 1:
                    season = 'winter';
                    break;
 
-               default: 
-                   alert('no-season');
+               default:
+                   //alert('no-season');
             }
 
-            if(season == 'autumn'){
+            if(season == 'autumn' && random == 1){
                 //do somthing seasonal!
                 var video_options = [
                     {
-                        brand: 'autumn',
-                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks'],
-                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks','leaves','leaves2'] 
+                        brand: 'cornwall',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2'],
+                        mobile_videos: ['falling-leaves', 'falling-leaves2', 'fireworks' , 'leaves', 'leaves2']
                     }
-                ]                
+                ]
+            } else if(season == 'spring' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves'],
+                        mobile_videos: ['bee', 'blossom', 'dappled-light' , 'magnolia', 'spring-leaves']
+                    }
+
+                ]
+            } else if(season == 'summer' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['sunset-grass-2', 'sunset-grass'],
+                        mobile_videos: ['sunset-grass-2', 'sunset-grass']
+                    }
+
+                ]
+            } else if(season == 'winter' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
+                    }
+                ]
+
+
             } else {
                 var video_options = [
                     {
                         brand: 'cornwall',
-                        videos: ['door-crop', 'woman', 'walking-by', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','libary','girl-with-books','girl-writing','girl-writing2'], 
-                        mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'], 
+                        videos: ['door-crop', 'woman', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','library','girl-with-books','girl-writing','girl-writing2'], 
+                        mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'],
                     },
                     {
                         brand: 'duchy',
@@ -386,7 +477,7 @@ $(document).ready(function () {
                     },
                     {
                         brand: 'falmouth',
-                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean', 'shimmer','water-reflect','cliff-waves','clouds'],
+                        videos: ['boats', 'pier', 'port', 'water', 'pontoon', 'fms-flag', 'ocean', 'shimmer','water-reflect','cliff-waves','clouds','underwater'],
                         mobile_videos: ['mobile/boats', 'mobile/pier', 'mobile/port', 'mobile/water', 'mobile/pontoon', 'mobile/fms-flag', 'mobile/ocean'],
                     },
                     {
@@ -395,7 +486,7 @@ $(document).ready(function () {
                         mobile_videos: ['mobile/grass', 'mobile/two-cows', 'mobile/tree', 'mobile/dafs', 'mobile/equine', 'mobile/landscape', 'mobile/tractor'],
                     },
                 ]
-            
+
             }
 
        /* }*/
@@ -406,12 +497,14 @@ $(document).ready(function () {
                 return e.brand === brand;
             });
             //if mobile choose from the mobile array of videos
-            if(isMobile){
-                var videos = brand_info[0].mobile_videos;  
+            if(isMobile ){
+                var videos = brand_info[0].mobile_videos;
             } else {
-                var videos = brand_info[0].videos;  
+                var videos = brand_info[0].videos;
             }
-
+            if(season && random == 1 ){
+              brand = season;
+            }
             var index = Math.floor(Math.random() * videos.length);
             $(slide).find('.brand-video').html('<video autoplay muted loop id="'+brand+'-video" class="video fade-in-video"><source src="videos/' + brand + '/' + videos[index] + '.mp4" type="video/mp4"></video><canvas id="'+brand+'-canvas" class="video-canvas"></canvas>');
             $(slide).addClass('video-in');
@@ -423,16 +516,16 @@ $(document).ready(function () {
                         this.className += ' is-playing';
                     }
                 });
-            }  
+            }
 
-             auto_play_on_ios(brand); 
+             auto_play_on_ios(brand);
         }
 
     }
 
 
 
-    //if ios device work around 
+    //if ios device work around
     function auto_play_on_ios(brand) {
 
         if (is_IOS()) {
@@ -452,7 +545,7 @@ $(document).ready(function () {
             // Use HTML5 video
             document.querySelectorAll('.video-canvas')[0].style.display = 'none';
 
-        }   
+        }
     }
 
 
@@ -483,10 +576,10 @@ $(document).ready(function () {
     }
 
     // onSwipe stack logos function
-    function stackLogosSwipe() {    
+    function stackLogosSwipe() {
         //get hash from url
         var swipeBrand = window.location.hash
-        //set cookie based on hash 
+        //set cookie based on hash
         var brand_cookie = Cookies.set('brand', swipeBrand );
         //set cross domain cookie
         var course_brand_cookie = Cookies.set('course-brand', swipeBrand, { domain: '{{site.cookie-domain}}' });
@@ -502,8 +595,8 @@ $(document).ready(function () {
            $(this).css("z-index", 999 - offset);
             offset++;
 
-        });  
-    }        
+        });
+    }
 
 
     $('#cc-logo').click(function (e) {
@@ -533,7 +626,7 @@ $(document).ready(function () {
     //set brand on logo click
     $(".brand-image").click(function () {
         var clickBrand = $(this).parent().parent().prop("hash");
-        var brand_cookie = Cookies.set('brand', clickBrand );        
+        var brand_cookie = Cookies.set('brand', clickBrand );
         var course_brand_cookie = Cookies.set('course-brand', clickBrand, { domain: '{{site.cookie-domain}}' });
 
             //apply z-index to correctly stack the logos
@@ -550,7 +643,7 @@ $(document).ready(function () {
         });
 
         //now close the menu if its open
-        var openRightPush = document.getElementById('openRightPush')            
+        var openRightPush = document.getElementById('openRightPush')
         if ($( '#openRightPush' ).hasClass('active')) {
             //change the text and icon back
             $('.menu-icon > i').toggleClass("fa-bars");
@@ -595,14 +688,14 @@ $(document).ready(function () {
     });
 
 
-// Select or die dropdown 
-    
+// Select or die dropdown
+
     /*reset select on load/back
     $("select.home-page-select").each(function () {
         $(this).val($(this).find('option[selected]').val());
     });*/
     $( "select.home-page-select" ).val($("select.home-page-select option:first").val());
-    
+
     $("select.home-page-select").selectOrDie({
         // Option below is not needed
         placeholderOption: true,
@@ -629,5 +722,5 @@ $(document).ready(function () {
         }
     });
 
-    
+
 });

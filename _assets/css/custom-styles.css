@@ -3477,32 +3477,32 @@ APPLY BARS =====================================================================
 }
 
 .public-filter ul .flying a {
-    border-color: #0624a2;
-    background-color: #0624a2;
+    border-color: #f39c12;
+    background-color: #f39c12;
 }
 
 .public-filter ul .flying a:hover {
-    border-color: #0624a2;
-    color: #0624a2;
+    border-color: #f39c12;
+    color: #f39c12;
 }
 
 .public-filter ul .flying:hover h3 {
-    color: #0624a2;
+    color: #f39c12;
 }
 
 
 .public-filter ul .evolve a {
-    border-color: #37aae3;
-    background-color: #37aae3;
+    border-color: #3498db;
+    background-color: #3498db;
 }
 
 .public-filter ul .evolve a:hover {
-    border-color: #37aae3;
-    color: #37aae3;
+    border-color: #3498db;
+    color: #3498db;
 }
 
 .public-filter ul .evolve:hover h3 {
-    color: #37aae3;
+    color: #3498db;
 }
 
 
@@ -3537,92 +3537,107 @@ APPLY BARS =====================================================================
 
 
 .public-filter ul .cloisters a {
-    border-color: #ca1b3c;
-    background-color: #ca1b3c;
+    border-color: #e74c3c;
+    background-color: #e74c3c;
 }
 
 .public-filter ul .cloisters a:hover {
-    border-color: #ca1b3c;
-    color: #ca1b3c;
+    border-color: #e74c3c;
+    color: #e74c3c;
 }
 
 .public-filter ul .cloisters:hover h3 {
-    color: #ca1b3c;
+    color: #e74c3c;
 }
 
 
 .public-filter ul .room a {
-    border-color: #203d7c;
-    background-color: #203d7c;
+    border-color: #c0392b;
+    background-color: #c0392b;
 }
 
 .public-filter ul .room a:hover {
-    border-color: #203d7c;
-    color: #203d7c;
+    border-color: #c0392b;
+    color: #c0392b;
 }
 
 .public-filter ul .room:hover h3 {
-    color: #203d7c;
+    color: #c0392b;
 }
 
 
 .public-filter ul .CDP a {
-    border-color: #37aae3;
-    background-color: #37aae3;
+    border-color: #2980b9;
+    background-color: #2980b9;
 }
 
 .public-filter ul .CDP a:hover {
-    border-color: #37aae3;
-    color: #37aae3;
+    border-color: #2980b9;
+    color: #2980b9;
 }
 
 .public-filter ul .CDP:hover h3 {
-    color: #37aae3;
+    color: #2980b9;
 }
 
 
 .public-filter ul .equine1 a {
-    border-color: #007B4C;
-    background-color: #007B4C;
+    border-color: #1abc9c;
+    background-color: #1abc9c;
 }
 
 .public-filter ul .equine1 a:hover {
-    border-color: #007B4C;
-    color: #007B4C;
+    border-color: #1abc9c;
+    color: #1abc9c;
 }
 
 .public-filter ul .equine1:hover h3 {
-    color: #007B4C;
+    color: #1abc9c;
 }
 
 
 .public-filter ul .dog-grooming a {
-    border-color: #77BC43;
-    background-color: #77BC43;
+    border-color: #27ae60;
+    background-color: #27ae60;
 }
 
 .public-filter ul .dog-grooming a:hover {
-    border-color: #77BC43;
-    color: #77BC43;
+    border-color: #27ae60;
+    color: #27ae60;
 }
 
 .public-filter ul .dog-grooming:hover h3 {
-    color: #77BC43;
+    color: #27ae60;
 }
 
 
 .public-filter ul .nursery a {
-    border-color: #0a7316;
-    background-color: #0a7316;
+    border-color: #2ecc71;
+    background-color: #2ecc71;
 }
 
 .public-filter ul .nursery a:hover {
-    border-color: #0a7316;
-    color: #0a7316;
+    border-color: #2ecc71;
+    color: #2ecc71;
 }
 
 .public-filter ul .nursery:hover h3 {
-    color: #0a7316;
+    color: #2ecc71;
+}
+
+
+.public-filter ul .football-academy a {
+    border-color: #e67e22;
+    background-color: #e67e22;
+}
+
+.public-filter ul .football-academy a:hover {
+    border-color: #e67e22;
+    color: #e67e22;
+}
+
+.public-filter ul .football-academy:hover h3 {
+    color: #e67e22;
 }
 /* Cluster colors ends*/
 
@@ -3665,21 +3680,17 @@ APPLY BARS =====================================================================
       background-image: url(/images/public/childcare.jpg);
   }
 
-  .public-filter ul .flying a:hover {
-      background-color: #0624A2;
-  }
-
   .public-filter ul .flying h3 {
-      background-color: #0624a2;
+      background-color: #f39c12;
   }
 
 
   .public-filter ul .evolve a {
-      background-image: url(/images/public/sport-fitness.jpg);
+      background-image: url(/images/public/evolve/evolve.jpg);
   }
 
   .public-filter ul .evolve h3 {
-      background-color: #37aae3;
+      background-color: #3498db;
   }
 
 
@@ -3706,7 +3717,7 @@ APPLY BARS =====================================================================
   }
 
   .public-filter ul .cloisters h3 {
-      background-color: #ca1b3c;
+      background-color: #e74c3c;
   }
 
 
@@ -3715,7 +3726,7 @@ APPLY BARS =====================================================================
   }
 
   .public-filter ul .room h3 {
-      background-color: #203d7c;
+      background-color: #c0392b;
   }
 
 
@@ -3724,7 +3735,7 @@ APPLY BARS =====================================================================
   }
 
   .public-filter ul .CDP h3 {
-      background-color: #37aae3;
+      background-color: #2980b9;
   }
 
 
@@ -3733,7 +3744,7 @@ APPLY BARS =====================================================================
   }
 
   .public-filter ul .equine1 h3 {
-      background-color: #007B4C;
+      background-color: #1abc9c;
   }
 
 
@@ -3742,7 +3753,7 @@ APPLY BARS =====================================================================
   }
 
   .public-filter ul .dog-grooming h3 {
-      background-color: #77BC43;
+      background-color: #27ae60;
   }
 
 
@@ -3751,7 +3762,16 @@ APPLY BARS =====================================================================
   }
 
   .public-filter ul .nursery h3 {
-      background-color: #0a7316;
+      background-color: #2ecc71;
+  }
+
+
+  .public-filter ul .football-academy a {
+      background-image: url(/images/public/football-academy.jpg);
+  }
+
+  .public-filter ul .football-academy h3 {
+      background-color: #e67e22;
   }
 }
 
@@ -5478,3 +5498,93 @@ table.contact-overview {
   letter-spacing: normal;
 }
 */
+
+/* Image Navigation */
+.image-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.image-nav li {
+   list-style: none;
+}
+
+.image-nav h5 {
+  position: absolute;
+  bottom: 5%;
+  top: initial;
+  width: initial;
+  padding: 8px 16px;
+  background-color: white;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.image-nav a:hover h5 {
+  color: #52B3D9;
+  background-color: white;
+}
+
+.image-nav a {
+  transition: opacity 0.2s;
+}
+
+.image-nav a:hover {
+  opacity: 0.8;
+}
+
+/* Affix for side bar */
+.affix-top,
+.affix {
+ position: static;
+}
+
+@media (min-width:991px) {
+  .affix-top {
+    position: relative;
+  }
+
+  .affix {
+    top: 122px;
+    position: fixed;
+  }
+
+  .affix,
+  .affix-bottom {
+    width: 293.33px;
+  }
+
+  .affix-bottom {
+    position: absolute;
+  }
+}
+
+@media (min-width:1200px) {
+  .affix,
+  .affix-bottom {
+    width: 360px;
+  }
+}
+
+/* Intro */
+.page-intro p {
+  margin-top: 20px;
+}
+
+/* change password page */
+.change-password p, .change-password ul {
+  color: white;
+}
+
+.change-password a {
+  margin-bottom: 20px;
+}
+
+.change-password .lead {
+  margin-top:10px;
+}
+
+.change-password > div {
+  padding: 5%;
+}
