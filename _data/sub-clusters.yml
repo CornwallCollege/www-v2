@@ -127,7 +127,7 @@
       colour: 01A4A4
       brand: cc dc
       sector: 16-18 19plus university
-      campus: bicton-campus camborne-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
+      campus: bicton-campus camborne-campus eden-project-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -136,6 +136,10 @@
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
           campus-filter: camborne
+
+        - campus-name: Eden Campus
+          campus-link: /eden-campus.html
+          campus-filter: eden-project
 
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html
@@ -627,7 +631,7 @@
       colour: D0D102
       brand: cc
       sector: 16-18 19plus apprenticeships access
-      campus: bristol-campus camborne-campus eden-project-campus plymouth-campus st-austell-campus
+      campus: bristol-campus camborne-campus plymouth-campus st-austell-campus
       campus-long:
         - campus-name: Bristol Campus
           campus-link: /bristol-campus.html
@@ -636,10 +640,6 @@
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
           campus-filter: camborne
-
-        - campus-name: Eden Campus
-          campus-link: /eden-campus.html
-          campus-filter: eden-project
 
         - campus-name: Plymouth Campus
           campus-link: /plymouth-campus.html

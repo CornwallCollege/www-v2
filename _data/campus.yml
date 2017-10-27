@@ -481,14 +481,17 @@
     - area-title: Cultural & Visitor Economy
       area-color: D0D102
       sub-areas:
-      - sub-area-title: Music & Performing Arts
-        sub-area-link: music-performing-arts
-
       - sub-area-title: Travel & Tourism
         sub-area-link: travel-tourism
 
       - sub-area-title: Catering & Academy Nathan Outlaw
         sub-area-link: catering-academy-nathan-outlaw
+
+    - area-title: Education
+      area-color: 01A4A4
+      sub-areas:
+      - sub-area-title: Teaching & Education
+        sub-area-link: teaching-education
 
     - area-title: Science & Natural Environment
       area-color: 113F8C
