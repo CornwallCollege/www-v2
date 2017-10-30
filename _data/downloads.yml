@@ -898,7 +898,7 @@
   colour: 961313
 
   #Student Transport Policy
-- title: Student Transport  # Document name
+- title: Student Transport Policy # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Student_Transport_Policy_2017-18.pdf
