@@ -3053,6 +3053,8 @@ APPLY BARS =====================================================================
 
 .career-filter ul {
     padding-left: 0;
+    font-size: 14px;
+    color: white;
 }
 
 .career-filter ul li {
