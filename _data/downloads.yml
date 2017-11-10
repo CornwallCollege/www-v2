@@ -542,10 +542,10 @@
   colour: 00A5B4
 
   #Accommodation info for HE students_1
-- title: Accommodation info for Higher Education students # Document name
+- title: Accommodation guide for University students # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/Accommodation info for HE students_1.pdf
+  download-link: /documents/guides/Accommodation-Guide-University-2017-18.pdf
   colour: 00A5B4
 
   #Advanced Learning Loans leaflet
@@ -733,7 +733,7 @@
   colour: 006D43
 
   #Cornwall College Camborne Campus Map
-- title: Cornwall College Camborne Campus Map # Document name
+- title: Camborne Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/camborne-cornwall-college-campus-map.pdf
@@ -747,35 +747,35 @@
   colour: 006D43
 
   #Duchy College Rosewarne Campus Map
-- title: Duchy College Rosewarne Campus Map # Document name
+- title: Rosewarne Duchy College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf
   colour: 006D43
 
   #Cornwall College Newquay Campus Map
-- title: Cornwall College Newquay Campus Map # Document name
+- title: Newquay Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/newquay-cornwall-college-campus-map.pdf
   colour: 006D43
 
   #Cornwall College Saltash Campus Map
-- title: Cornwall College Saltash Campus Map # Document name
+- title: Saltash Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/saltash-cornwall-college-campus-map.pdf
   colour: 006D43
 
   #Cornwall College St Austell Campus Map
-- title: Cornwall College St Austell Campus Map # Document name
+- title: St Austell Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/st-austell-cornwall-college-campus-map.pdf
   colour: 006D43
 
   #Duchy College Stoke Climsland Campus Map
-- title: Duchy College Stoke Climsland Campus Map # Document name
+- title: Stoke Climsland Duchy College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/stoke-climsland-duchy-college-campus-map.pdf
@@ -827,18 +827,39 @@
   download-link: /documents/other/beauty landscape.pdf
   colour: 961313
 
-  #Cloisters Bar drinks list
-- title: Cloisters Bar drinks list # Document name
-  type: Word # Document type
+  #Cloisters opening times
+- title: Cloisters Restaurant Opening Times # Document name
+  type: pdf # Document type
   category: other # Document category
-  download-link: /documents/other/Cloisters Bar drinks list.docx
+  download-link: /documents/cloisters-menus/opening-times.pdf
+  colour: 961313
+
+  #Cloisters lunch menu
+- title: Cloisters Restaurant Lunch Menu # Document name
+  type: pdf # Document type
+  category: other # Document category
+  download-link: /documents/cloisters-menus/lunch-menu.pdf
+  colour: 961313
+
+  #Cloisters drinks list
+- title: Cloisters Restaurant Drinks list # Document name
+  type: pdf # Document type
+  category: other # Document category
+  download-link: /documents/cloisters-menus/drinks-list.pdf
   colour: 961313
 
   #Cloisters Wine List
-- title: Cloisters Wine List # Document name
-  type: Word # Document type
+- title: Cloisters Restaurant Wine List # Document name
+  type: pdf # Document type
   category: other # Document category
-  download-link: /documents/other/Cloisters Wine List.doc
+  download-link: /documents/cloisters-menus/wine-list.pdf
+  colour: 961313
+
+  #Cloisters Christmas Menu
+- title: Cloisters Restaurant Christmas Menu # Document name
+  type: pdf # Document type
+  category: other # Document category
+  download-link: /documents/cloisters-menus/christmas-2017-menu.pdf
   colour: 961313
 
   #Cornwall final web
@@ -895,6 +916,13 @@
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Young Mums Will Achieve Leaflet.pdf
+  colour: 961313
+
+  #Student Transport Policy
+- title: Student Transport Policy # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/Student_Transport_Policy_2017-18.pdf
   colour: 961313
 
   #End of other

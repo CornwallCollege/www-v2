@@ -3,7 +3,7 @@
 # www-v2
 
 
-##Setting up local environment for dev
+## Setting up local environment for dev
 Firstly, clone this repo to your local machine.
 
 The website is based upon Jekyll, so follow the instructions for installing that first [Jekyll](https://jekyllrb.com/docs/installation/).
@@ -77,4 +77,3 @@ gulp build-duchy
 ```bash
 gulp build-falmouth
 ```
-
