@@ -1,0 +1,93 @@
+---
+---
+<!DOCTYPE html>
+{% include site-html-tag.html %}
+
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Prata" rel="stylesheet">
+  {% include head.html %}
+
+  <body style="background: #328332" itemscope="" itemtype='{{site.schema-college}}'>
+
+    {% include menu.html %}
+
+    {% include back-button.html %}
+    {{ content }}
+
+
+    <!-- FOOTER START -->
+    <a href="{{ site.url }}/ask-a-question/?" id="question" class="course-offering-apply btn" style="position:fixed; bottom:0; right:5%; z-index:999;">Ask a Question</a>
+
+    <div id="top-of-footer"></div>
+    <section style="background:white" id="footer" class="col-sm-12 clearfix" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+        <div class="container">
+            <!-- footer column 1 -->
+            <article class="col-sm-6 col-md-4">
+                <h5 itemprop="name">The Cornwall College Group</h5>
+                <p itemprop="description">We are the largest education and training provider in the region, with over 35,000 learners each year, 2,000 of whom are studying a university programme with us. Our achievements are plentiful and our proven track record of over 10,000 apprentices in ten years makes us the most successful provider of work based learning in the South West.</p><a href="{{ site.url }}/governance/" data-proofer-ignore>more</a>
+            </article>
+
+
+            <!-- footer column 2 -->
+            <article class="col-sm-6 col-md-4">
+                <h5>Contact Us</h5>
+                <table class="contact-details">
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-phone fa-2x"></i>
+                            </td>
+                            <td>
+                                <address>
+                    <span itemprop="telephone"><a href="tel:0330 123 2523">0330 123 2523</a></span>
+                  </address>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-envelope fa-2x"></i>
+                            </td>
+                            <td>
+                                <address>
+                    <a href="mailto:enquiries@cornwall.ac.uk" itemprop="email">enquiries@cornwall.ac.uk</a>
+                  </address>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><i class="fa fa-comments-o fa-2x"></i>
+                            </td>
+                            <td><a href="{{site.url}}/about-pages/contact.html">Contact Details</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <!-- footer column 3 -->
+            <article class="col-md-4 ccg-brands">
+                <!-- photo stream section -->
+                <h5>The Cornwall College Group</h5>
+                <div class="col-xs-12">
+                    <a href="/location-hub/index.html">
+                        <img src="{{site.url}}/images/cornwall-college-group.png" alt="Cornwall College Group" class="img-responsive" /></a>
+                </div>
+            </article>
+
+
+            <div class="col-sm-12 " style="clear:both;">
+                {% include socialmedia.html %}
+            </div>
+            <!-- copyright info -->
+            <footer class="col-sm-12 copyright clearfix">
+                <span class="col-sm-12 text-right">Cornwall College &copy; 2016 - All rights reserved. </span>
+            </footer>
+
+        </div>
+    </section>
+    <!-- END OF FOOTER -->
+    <!-- Ask a question section -->
+
+    {% include scripts.html %}
+
+    {% js main %}
+    {% js bundle-non-home %}
+  </body>
+
+</html>
