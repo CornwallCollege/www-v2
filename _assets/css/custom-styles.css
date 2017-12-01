@@ -5612,25 +5612,25 @@ table.contact-overview {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	background-image: -webkit-radial-gradient(
+	background: -webkit-radial-gradient(
 		center,
 		circle farthest-corner,
 		#FFFFFFFF 40%,
 		#FFFFFF00 100%
 	);
-	background-image: -moz-radial-gradient(
+	background: -moz-radial-gradient(
 		center,
 		circle farthest-corner,
 		#FFFFFFFF 40%,
 		#FFFFFF00 100%
 	);
-	background-image: -ms-radial-gradient(
+	background: -ms-radial-gradient(
 		center,
 		circle farthest-corner,
 		#FFFFFFFF 40%,
 		#FFFFFF00 100%
 	);
-	background-image: radial-gradient(
+	background: radial-gradient(
 		center,
 		circle farthest-corner,
 		#FFFFFFFF 40%,
