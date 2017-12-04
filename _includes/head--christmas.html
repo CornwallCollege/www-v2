@@ -1,77 +1,122 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Prata" rel="stylesheet">
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N7BN55');</script>
-    <!-- End Google Tag Manager -->
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Prata" rel="stylesheet">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N7BN55');</script>
+  <!-- End Google Tag Manager -->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if page.title == "redirect" %}
-        <meta http-equiv="refresh" content="15;url={{site.url}}" />
-    {% endif %}
-
-
-    {% include seo-meta.html %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if page.title == "redirect" %}
+      <meta http-equiv="refresh" content="15;url={{site.url}}" />
+  {% endif %}
 
 
-    <link rel="shortcut icon" href="/images/favicon-{{site.hash}}.ico" />
+  {% include seo-meta.html %}
 
 
-<!-- Latest compiled and minified CSS -->
-{% css main %}
+  <link rel="shortcut icon" href="/images/favicon-{{site.hash}}.ico" />
 
-{% if page.custom_css %}
-
-    <link rel="stylesheet" type="text/css" href="{{ page.custom_css }}">
-
-{% endif %}
-
-{% if page.page == 'home' %}
-    <!--<link rel="stylesheet" type="text/css" href="/css/home.css">-->
-    {% css home %}
-
-{% else %}
-
-{% endif %}
-    {% css custom-styles %}
-    <link rel="stylesheet" type="text/css" href="/css/cc-global-styles.css">
-
-<!--[if IE 9]>
-            <link rel="stylesheet" type="text/css" href="/css/IE9.css"></link>
-<![endif]-->
-
-<!-- Crazy egg heat mapping tool -->
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/5657.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-
-<!-- cookie control -->
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#252e39"
-    },
-    "button": {
-      "background": "#14a7d0"
+  <style>
+    #loader {
+        background: #fff;
+        padding-top: 50%;
+        padding-left: 50%;
+        position: fixed;
+        z-index: 2000;
+        width: 100%;
+        height: 100%;
     }
-  },
-  "theme": "edgeless",
-  "content": {
-    "href": "/governance/cookie-policy"
-  }
-})});
 
-</script>
+    #loader > * {
+    position: absolute;
+    top: 48%;
+    }
 
-</head>
+    #loader svg {
+    transform: rotate(45deg);
+    }
+
+    #loader #cornwall-load {
+    animation: orbit 2s linear 0.6s infinite;
+    }
+
+    #loader #duchy-load {
+    animation: orbit 2s linear 0.4s infinite;
+    }
+
+    #loader #falmouth-load {
+    animation: orbit 2s linear 0.2s infinite;
+    }
+
+    #loader #bicton-load {
+    animation: orbit 2s linear infinite;
+    }
+
+    @keyframes orbit {
+    0% { transform: rotate(0deg) translateY(0px) rotate(0deg); }
+    5% { transform: rotate(0deg) translateY(-30px) rotate(0deg); }
+    55% { transform: rotate(360deg) translateY(-30px) rotate(-360deg); }
+    60% { transform: rotate(360deg) translateY(0px) rotate(-360deg); }
+    100% { transform: rotate(360deg) translateY(0px) rotate(-360deg); }
+    }
+  </style>
+
+
+
+  <!-- Latest compiled and minified CSS -->
+  {% css main %}
+
+  {% if page.custom_css %}
+
+      <link rel="stylesheet" type="text/css" href="{{ page.custom_css }}">
+
+  {% endif %}
+
+  {% if page.page == 'home' %}
+      <!--<link rel="stylesheet" type="text/css" href="/css/home.css">-->
+      {% css home %}
+
+  {% else %}
+
+  {% endif %}
+      {% css custom-styles %}
+      <link rel="stylesheet" type="text/css" href="/css/cc-global-styles.css">
+
+  <!--[if IE 9]>
+              <link rel="stylesheet" type="text/css" href="/css/IE9.css"></link>
+  <![endif]-->
+
+  <!-- Crazy egg heat mapping tool -->
+  <script type="text/javascript">
+  setTimeout(function(){var a=document.createElement("script");
+  var b=document.getElementsByTagName("script")[0];
+  a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/5657.js?"+Math.floor(new Date().getTime()/3600000);
+  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+  </script>
+
+  <!-- cookie control -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "theme": "edgeless",
+    "content": {
+      "href": "/governance/cookie-policy"
+    }
+  })});
+  </script>
+
+  </head>
