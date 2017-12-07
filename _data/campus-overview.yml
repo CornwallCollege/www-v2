@@ -9,7 +9,7 @@
   primary-color: 77BC43
   email: customer.services@bicton.ac.uk
   address: East Budleigh, Budleigh Salterton, Devon, EX9 7BH
-  opening: Mon-Thurs 8.30am - 5pm and Friday 8.30am – 4.30pm
+  opening: Mon-Thurs 8:30am-5pm, Fri 8:30am–4:30pm
   images:
     - link: /images/locations/Bicton/bicton-campus-LG.jpg
       thumb: /images/locations/Bicton/bicton-campus.jpg
@@ -41,7 +41,7 @@
   primary-color: AB1D88
   email: enquiries@dbsmusic.co.uk
   address: BRISTOL FE CENTRE (for diplomas) Location House, 14-16 Wilson Place, Bristol, BS2 9HJ
-  opening: 8.30am – 5pm
+  opening: 8:30am–5pm
   images:
     - link: /images/locations/DBS/dbs-logo-LG.png
       thumb: /images/locations/DBS/dbs-logo.png
@@ -73,7 +73,7 @@
   primary-color: AB1D88
   email: enquiries@dbsmusic.co.uk
   address: BRISTOL HE CENTRE (for degrees) 17 St Thomas Street, Bristol, BS1 6JS
-  opening: 8.30am – 5pm
+  opening: 8:30am–5pm
   images:
     - link: /images/locations/DBS/dbs-logo-LG.png
       thumb: /images/locations/DBS/dbs-logo.png
@@ -105,7 +105,7 @@
   primary-color: 00509B
   email: enquiries@cornwall.ac.uk
   address: Trevenson Road, Redruth, Cornwall, TR15 3RD
-  opening: Mon-Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
+  opening: Mon-Thurs 8:30am–5pm, Fri 8:30am–4:30pm
   images:
     - link: /images/locations/Camborne/cam-campus-beauty-LG.jpg
       thumb: /images/locations/Camborne/cam-campus-beauty.jpg
@@ -137,7 +137,7 @@
   primary-color: CC0E0E
   email: enquiries@cornwall.ac.uk
   address: Eden Project, Bodelva, Cornwall, PL24 2SG
-  opening: Mon-Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
+  opening: Mon-Thurs 8:30am–5pm, Fri 8:30am–4:30pm
   images:
     - link: /images/locations/Eden/eden-project-1-LG.jpg
       thumb: /images/locations/Eden/eden-project-1.jpg
@@ -169,7 +169,7 @@
   primary-color: 00AFBF
   email: falenquiries@cornwall.ac.uk
   address: Killigrew Street, Falmouth, Cornwall, TR11 3QS
-  opening: Mon-Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
+  opening: Mon-Thurs 8:30am–5pm, Fri 8:30am–4:30pm
   images:
     - link: /images/locations/FMS/falmouth-campus-LG.jpg
       thumb: /images/locations/FMS/falmouth-campus.jpg
@@ -201,7 +201,7 @@
   primary-color: 00509B
   email: newquay.enquiries@cornwall.ac.uk
   address: Wildflower Lane, Trenance Gardens, Newquay, Cornwall, TR7 2LZ
-  opening: Mon-Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
+  opening: Mon-Thurs 8:30am–5pm, Fri 8:30am–4:30pm
   images:
     - link: /images/locations/Newquay/blue-reef-logo-LG.jpg
       thumb: /images/locations/Newquay/blue-reef-logo.jpg
@@ -233,7 +233,7 @@
   primary-color: 007B4C
   email: rosewarne.enquiries@duchy.ac.uk
   address: Duchy College Rosewarne, Camborne, Cornwall, TR14 0AB
-  opening: Mon-Thurs 8.30am – 5pm and Friday 8.30am – 4.30pm
+  opening: Mon-Thurs 8:30am–5pm, Fri 8:30am–4:30pm
   images:
     - link: /images/locations/Rosewarne/charlie-bullingham-LG.jpg
       thumb: /images/locations/Rosewarne/charlie-bullingham.jpg
@@ -265,7 +265,7 @@
   primary-color: 00509B
   email: info@saltash.ac.uk
   address: Church Rd, Saltash, Cornwall, PL12 4AE
-  opening: Mon-Thurs 8:30am - 5pm and Fri 8:30am - 4:30pm
+  opening: Mon-Thurs 8:30am-5pm, Fri 8:30am-4:30pm
   images:
     - link: /images/locations/Saltash/H-and-B-LG.jpg
       thumb: /images/locations/Saltash/H-and-B.jpg
@@ -297,7 +297,7 @@
   primary-color: 007B4C
   email: stoke.enquiries@duchy.ac.uk
   address: Stoke Climsland, Callington, Cornwall, PL17 8PB
-  opening: Mon-Thurs 8.30am - 5pm and Friday 8:30am - 4:30pm
+  opening: Mon-Thurs 8:30am-5pm, Fri 8:30am-4:30pm
   images:
     - link: /images/locations/Stoke/equine-field-LG.jpg
       thumb: /images/locations/Stoke/equine-field.jpg
@@ -329,7 +329,7 @@
   primary-color: 00509B
   email: info@st-austell.ac.uk
   address: Tregonissey Road, St Austell, Cornwall, PL25 4DJ
-  opening: Mon-Thurs 8:30am - 5pm and Friday 8:30am - 4:30pm
+  opening: Mon-Thurs 8:30am-5pm, Fri 8:30am-4:30pm
   images:
     - link: /images/locations/StAustell/chloe-potts-A-levels-LG.jpg
       thumb: /images/locations/StAustell/chloe-potts-A-levels.jpg
@@ -361,7 +361,7 @@
   primary-color: AB1D88
   email: enquiries@dbsmusic.co.uk
   address: 6 Elizabeth Court, Higher Lane, Plymouth, PL1 2AN
-  opening: 8.30am – 5pm
+  opening: 8:30am–5pm
   images:
     - link: /images/locations/DBS/dbs-logo-LG.png
       thumb: /images/locations/DBS/dbs-logo.png
@@ -393,7 +393,7 @@
   primary-color: 777777
   email: enquiries@cornwall.ac.uk
   address: 87-89, Sisna Park Road, Plymouth, PL6 7AE
-  opening: Mon-Thurs 8.30am - 5pm and Friday 8:30am - 4:30pm
+  opening: Mon-Thurs 8:30am-5pm, Fri 8:30am-4:30pm
   images:
     - link: /images/locations/Sisna/campus-overview-1-LG.jpg
       thumb: /images/locations/Sisna/campus-overview-1.jpg
@@ -426,5 +426,5 @@
   primary-color: F8A132
   email: info@chs.ac.uk
   address: Kirkham House, John Comyn Drive, Worcester, WR3 7NS
-  opening: 8.30am - 5.00pm
+  opening: 8:30am-5:00pm
   query: http://www.chs.ac.uk/index.php?page=_Home
