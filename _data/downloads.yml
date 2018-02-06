@@ -159,25 +159,11 @@
   download-link: /documents/course-documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf
   colour: 004B93
 
- #BSc HCSS Handbook 2015 - electronic
-- title: BSc HCSS Handbook 2015 - electronic # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/BSc HCSS Handbook 2015 - electronic.docx
-  colour: 004B93
-
   #CC UP Infographic ESF Dissemination
 - title: Cornwall College UP Infographic ESF Dissemination # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/CC UP Infographic ESF Dissemination.pdf
-  colour: 004B93
-
-  #HE Term Dates 2016-17
-- title: Higher Education Term Dates 2016-17 # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/HE Term Dates 2016-17.doc
   colour: 004B93
 
   #ILM Course Outline
@@ -192,34 +178,6 @@
   type: Word # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/Operational Specification - HNC Marine Engineering.docx
-  colour: 004B93
-
-  #Programme Details - Modules and Resources - HNC Marine Engineering
-- title: Programme Details-Modules and Resources -HNC Marine Engineering Engineering # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme Details - Modules and Resources - HNC Marine Engineering.docx
-  colour: 004B93
-
-  #Programme Quality Handbook BSc (Hons) Rural Business Management 2015-16_0
-- title: Programme Quality Handbook BSc (Hons) Rural Business Management 2015-16 # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme Quality Handbook BSc (Hons) Rural Business Management 2015-16_0.pdf
-  colour: 004B93
-
-  #Programme Specification - HNC Marine Engineering
-- title: Programme Specification - HNC Marine Engineering # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme Specification - HNC Marine Engineering.docx
-  colour: 004B93
-
-  #Programme_Quality_BA Business Enterprise Management
-- title: Programme Quality BA Business Enterprise Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BA Business Enterprise Management.docx
   colour: 004B93
 
   #Programme_Quality_BA Contemporary Creative Practice
@@ -467,49 +425,7 @@
   download-link: /documents/course-documents/Programme_Quality_HNCD Music Performance and Technology.docx
   colour: 004B93
 
-  #Seale Hayne Booklet 30.03.15
-- title: Seale Hayne Booklet 30.03.15 # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Seale Hayne Booklet 30.03.15.pdf
-  colour: 004B93
-
   #End of Course Documents section
-
-  #EandD_Annual_Report_2011-12_Final(1)
-- title: Equality and Diversity Annual Report 2011-12 Final # Document name
-  type: PDF # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/EandD_Annual_Report_2011-12_Final(1).pdf
-  colour: CC0E0E
-
-  #Equality and Diversity Action Plan 2012-13 (Completed)
-- title: Equality and Diversity Action Plan 2012-13 (Completed) # Document name
-  type: Word # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/Equality and Diversity Action Plan 2012-13 (Completed).docx
-  colour: CC0E0E
-
-  #Equality and Diversity Action Plan 2013-14
-- title: Equality and Diversity Action Plan 2013-14 # Document name
-  type: Word # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/Equality and Diversity Action Plan 2013-14.docx
-  colour: CC0E0E
-
-  #Equality and Diversity Annual Report 2012-13
-- title: Equality and Diversity Annual Report 2012-13 # Document name
-  type: Word # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/Equality and Diversity Annual Report 2012-13.docx
-  colour: CC0E0E
-
-  #Equality and Diversity Policy 2013 06
-- title: Equality and Diversity Policy 2013 # Document name
-  type: Word # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/Equality and Diversity Policy 2013 06.docx
-  colour: CC0E0E
 
   #final final local offer brochure/Special Educational Needs and Disability Local Offer
 - title: Special Educational Needs and Disability Local Offer # Document name
@@ -518,28 +434,7 @@
   download-link: /documents/equality-and-diversity/final final local offer brochure.pdf
   colour: CC0E0E
 
-  #Final_Artwork-02517JW0611_CC_ED_annual_report
-- title: Final Artwork Cornwall College ED annual report # Document name
-  type: PDF # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/Final_Artwork-02517JW0611_CC_ED_annual_report.pdf
-  colour: CC0E0E
-
-  #Single_Equality_Scheme_2012-15_(2)
-- title: Single Equality Scheme 2012-15 # Document name
-  type: PDF # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/Single_Equality_Scheme_2012-15_(2).pdf
-  colour: CC0E0E
-
   # End of Equality and diversity section
-
-  #A level Reforms Flyer
-- title: A level Reforms Flyer # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/A level Reforms Flyer.pdf
-  colour: 00A5B4
 
   #Accommodation info for HE students_1
 - title: Accommodation guide for University students # Document name
@@ -560,13 +455,6 @@
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Advanced-Learner-Loans-Fees-Policy-2017.pdf
-  colour: 00A5B4
-
-  #Affiliated Dressage 8th Feb times
-- title: Affiliated Dressage 8th Feb times # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Affiliated Dressage 8th Feb times.pdf
   colour: 00A5B4
 
   #Animal_Care
@@ -611,20 +499,6 @@
   download-link: /documents/guides/CCES_FOI_Scheme_Introduction.pdf
   colour: 00A5B4
 
-  #Charging_Policy_from_2009
-- title: Charging Policy from 2009 # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Charging_Policy_from_2009.pdf
-  colour: 00A5B4
-
-  #Complaints_against_Providers_30Nov2012_Final
-- title: Complaints against Providers 30Nov2012 Final # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Complaints_against_Providers_30Nov2012_Final.pdf
-  colour: 00A5B4
-
   #Complaints_Procedure
 - title: Complaints Procedure # Document name
   type: PDF # Document type
@@ -667,13 +541,6 @@
   download-link: /documents/guides/FE Student Services flyer.pdf
   colour: 00A5B4
 
-  #FINAL VERSION 205147JW1114_CC_Cornish_Language_postcard2
-- title: FINAL VERSION Cornwall College Cornish Language postcard # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/FINAL VERSION 205147JW1114_CC_Cornish_Language_postcard2.pdf
-  colour: 00A5B4
-
   #FOI__Guide_to__information__CC
 - title: Freedom Of Information Act Guide to information Cornwall College # Document name
   type: PDF # Document type
@@ -693,13 +560,6 @@
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/meat_and_poultry.pdf
-  colour: 00A5B4
-
-  #Student Transport  Flyer_0
-- title: Student Transport  Flyer # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Student Transport  Flyer_0.pdf
   colour: 00A5B4
 
   #The Business Space Launceston Location Sheet
@@ -948,13 +808,6 @@
   download-link: /documents/plans/CC SI MLW Complete.pdf
   colour: fd96f6
 
-  #Cornwall College Strategic Plan 2010-15
-- title: Cornwall College Strategic Plan 2010-15 # Document name
-  type:  PDF # Document type
-  category: plans # Document category
-  download-link: /documents/plans/Cornwall College Strategic Plan 2010-15.pdf
-  colour: fd96f6
-
   # End of Plans
 
   #Duchy College & Bicton College Undergraduate Prospectus 2018
@@ -969,20 +822,6 @@
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/The Cornwall College Group Undergraduate Prospectus 2018.pdf
-  colour: e8d045
-
-  #0012JW0216_DC_BC_HE_Prospectus_pages_2017
-- title: Duchy College, Bicton College Higher Education Prospectus pages 2017 # Document name
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/0012JW0216_DC_BC_HE_Prospectus_pages_2017.pdf
-  colour: e8d045
-
-  #CC HE Web Version 2015
-- title: Cornwall College Higher Education Web Version 2015 # Document name
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/CC HE Web Version 2015.pdf
   colour: e8d045
 
   #Cornwall College FE Prospectus 2018
@@ -1004,13 +843,6 @@
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2018.pdf
-  colour: e8d045
-
-  #Leisure Brochure September 2015
-- title: Leisure Brochure September 2015
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/Leisure Brochure September 2015.pdf
   colour: e8d045
 
   #TCCG HE Prospectus 2017 Web
