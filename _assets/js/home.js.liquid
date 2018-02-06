@@ -338,6 +338,7 @@ $(document).ready(function () {
         var random = Math.floor((Math.random() * 2) );
             switch (new Date().getMonth())
             {
+               case 1:
                case 2:
                case 3:
                case 4:
@@ -354,8 +355,9 @@ $(document).ready(function () {
                    season = 'autumn';
                    break;
                case 11:
+                   season = "christmas";
+                   break;
                case 0:
-               case 1:
                    season = 'winter';
                    break;
 
@@ -437,7 +439,7 @@ $(document).ready(function () {
                     }
 
                 ]
-            } else if(season == 'winter' && random == 1){
+            } else if(season == 'christmas' && random == 1){
                 //do somthing seasonal!
                 var video_options = [
                     {
@@ -461,13 +463,37 @@ $(document).ready(function () {
                         mobile_videos: ['christmas-lights', 'christmas-tree', 'frosty-branches', 'frosty-branches2', 'snow']
                     }
                 ]
+            } else if(season == 'winter' && random == 1){
+                //do somthing seasonal!
+                var video_options = [
+                    {
+                        brand: 'cornwall',
+                        videos: ['frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'duchy',
+                        videos: ['frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'bicton',
+                        videos: ['frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['frosty-branches', 'frosty-branches2', 'snow']
+                    },
+                    {
+                        brand: 'falmouth',
+                        videos: ['frosty-branches', 'frosty-branches2', 'snow', 'fireworks'],
+                        mobile_videos: ['frosty-branches', 'frosty-branches2', 'snow']
+                    }
+                ]
 
 
             } else {
                 var video_options = [
                     {
                         brand: 'cornwall',
-                        videos: ['door-crop', 'woman', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','library','girl-with-books','girl-writing','girl-writing2'], 
+                        videos: ['door-crop', 'woman', 'landscape', 'landscape-2', 'landscape-6', 'mines', 'stac','library','girl-with-books','girl-writing','girl-writing2'],
                         mobile_videos: ['mobile/landscape', 'mobile/woman', 'mobile/landscape-2', 'mobile/landscape-4', 'mobile/landscape-6', 'mobile/mines', 'mobile/stac'],
                     },
                     {
