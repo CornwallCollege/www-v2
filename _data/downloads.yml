@@ -436,7 +436,15 @@
 
   # End of Equality and diversity section
 
-  #Accommodation info for HE students_1
+
+  #Professional & Skills Training Guide For Adults 2018
+- title: Professional & Skills Training Guide For Adults 2018 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/Professional-and-Skills-Training-Guide-for-Adults-2018.pdf
+  colour: 00A5B4
+
+  #Accommodation info for HE students
 - title: Accommodation guide for University students # Document name
   type: PDF # Document type
   category: guides # Document category
