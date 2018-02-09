@@ -376,11 +376,15 @@
       colour: 61AE24
       brand: bic dc
       sector: 16-18 19plus apprenticeships university
-      campus: bicton-campus rosewarne-campus stoke-campus
+      campus: bicton-campus newquay-campus rosewarne-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
           campus-filter: bicton
+
+        - campus-name: Newquay Campus
+          campus-link: /newquay-campus.html
+          campus-filter: newquay
 
         - campus-name: Rosewarne Campus
           campus-link: /rosewarne-campus.html

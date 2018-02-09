@@ -1,9 +1,10 @@
-sudo: required 
+sudo: required
 dist: trusty
+group: deprecated-2017Q4
 
 language: ruby
 rvm:
-- 2.2.5
+- 2.5.0
 
 
 before_install:
@@ -21,11 +22,11 @@ script: gulp deploy && script/deploy
 
 git:
   depth: 3
-  
+
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
   - ENCRYPTION_LABEL: "52cc44cf4ef0"
-  - COMMIT_AUTHOR_EMAIL: "mike.trebilcock@duchy.ac.uk"
+  - COMMIT_AUTHOR_EMAIL: "ashley.uterhark@cornwall.ac.uk"
 
 #sudo: false # route your build to the container-based infrastructure for a faster build
