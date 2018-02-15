@@ -8,109 +8,113 @@ page: home
 {% if site.hash == 'cornwall' %}
 <!-- Swiper -->
 <div class="swiper-container swiper-container-h">
-    <div class="swiper-wrapper">
-        <div id="cornwall-brand" class="swiper-slide home" data-logo="cc" data-hash="cornwall">
-            <div class="swiper-container swiper-container-v">
-                <div id="cc-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
-                </div>
-            </div>
+  <div class="swiper-wrapper">
+    <div id="cornwall-brand" class="swiper-slide home" data-logo="cc" data-hash="cornwall">
+      <div class="swiper-container swiper-container-v">
+        <div id="cc-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 {% elsif site.hash == 'duchy' %}
 
 <div class="swiper-container swiper-container-h">
-    <div class="swiper-wrapper">
-        <!-- Horizontal slides here -->
-        <div id="duchy-brand" class="swiper-slide" data-logo="dc" data-hash="duchy">
-            <div class="swiper-container swiper-container-v">
-               <div id="dc-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-duchy.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-duchy.html %}</div>
-                </div>
-            </div>
+  <div class="swiper-wrapper">
+    <!-- Horizontal slides here -->
+    <div id="duchy-brand" class="swiper-slide" data-logo="dc" data-hash="duchy">
+      <div class="swiper-container swiper-container-v">
+        <div id="dc-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-duchy.html %}</div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 {% elsif site.hash == 'falmouth' %}
 
 <div class="swiper-container swiper-container-h">
-    <div class="swiper-wrapper">
-        <div id="falmouth-brand" class="swiper-slide" data-logo="fms" data-hash="falmouth">
-            <div class="swiper-container swiper-container-v">
-                <div id="fms-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-falmouth.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-falmouth.html %}</div>
-                </div>
-            </div>
+  <div class="swiper-wrapper">
+    <div id="falmouth-brand" class="swiper-slide" data-logo="fms" data-hash="falmouth">
+      <div class="swiper-container swiper-container-v">
+        <div id="fms-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-falmouth.html %}</div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 {% elsif site.hash == 'bicton' %}
 
 <div class="swiper-container swiper-container-h">
-    <div class="swiper-wrapper">
-        <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">
-            <div class="swiper-container swiper-container-v">
-                <div id="bic-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-bicton.html %}</div>
-                </div>
-            </div>
+  <div class="swiper-wrapper">
+    <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">
+      <div class="swiper-container swiper-container-v">
+        <div id="bic-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-bicton.html %}</div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 {% else %}
 
 <div class="swiper-container swiper-container-h">
-    <div class="swiper-wrapper">
-        <div id="cornwall-brand" class="swiper-slide home" data-logo="cc" data-hash="cornwall">
-            <div class="swiper-container swiper-container-v">
-                <div id="cc-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
-                </div>
-            </div>
+  <div class="swiper-wrapper">
+    <!-- Horizontal slides here -->
+    <div id="cornwall-brand" class="swiper-slide home" data-logo="cc" data-hash="cornwall">
+      <div class="swiper-container swiper-container-v">
+        <div id="cc-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
         </div>
-        <!-- Horizontal slides here -->
-        <div id="duchy-brand" class="swiper-slide" data-logo="dc" data-hash="duchy">
-            <div class="swiper-container swiper-container-v">
-               <div id="dc-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-duchy.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-duchy.html %}</div>
-                </div>
-            </div>
-        </div>
-        <div id="falmouth-brand" class="swiper-slide" data-logo="fms" data-hash="falmouth">
-            <div class="swiper-container swiper-container-v">
-                <div id="fms-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-falmouth.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-falmouth.html %}</div>
-                </div>
-            </div>
-        </div>
-        <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">
-            <div class="swiper-container swiper-container-v">
-                <div id="bic-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-bicton.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-bicton.html %}</div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <div id="duchy-brand" class="swiper-slide" data-logo="dc" data-hash="duchy">
+      <div class="swiper-container swiper-container-v">
+        <div id="dc-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-duchy.html %}</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="falmouth-brand" class="swiper-slide" data-logo="fms" data-hash="falmouth">
+      <div class="swiper-container swiper-container-v">
+        <div id="fms-video" class="brand-video"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-falmouth.html %}</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">
+      <div class="swiper-container swiper-container-v">
+        <div id="bic-video" class="brand-video"></div>
+        
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home">{% include sweeper-slide-bicton.html %}</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% endif %}
