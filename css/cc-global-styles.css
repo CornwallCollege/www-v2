@@ -498,6 +498,7 @@ div.logo-wrap-scroll :nth-child(4) {
 /* menu search form */
 
 #search-form,
+#search__form--home,
 .search-form{
     clear: both;
     margin-top: 10%;
@@ -505,6 +506,7 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 
 #search-form input,
+#search__form--home input,
 .search-form input{
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -518,12 +520,15 @@ div.logo-wrap-scroll :nth-child(4) {
     padding: 26px;
 }
 #cbp-spmenu-s2 #search-form input,
+#cbp-spmenu-s2 #search__form--home input,
 #cbp-spmenu-s2 .search-form input{
     padding: 0 0 0 15px;
 }
 
 #search-form input:focus,
 #search-form input:hover,
+#search__form--home input:focus,
+#search__form--home input:hover,
 .search-form input:focus,
 .search-form input:hover {
     border-color: #000;
@@ -533,6 +538,8 @@ div.logo-wrap-scroll :nth-child(4) {
 
 #search-form:hover .input-group-addon,
 #search-form input:focus + .input-group-addon,
+#search__form--home:hover .input-group-addon,
+#search__form--home input:focus + .input-group-addon,
 .search-form:hover .input-group-addon,
 .search-form input:focus + .input-group-addon{
     background: #000;
@@ -540,6 +547,7 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 
 #search-form:hover input,
+#search__form--home:hover input,
 .search-form:hover input{
     border-color: #000;
 }
@@ -601,7 +609,9 @@ div.logo-wrap-scroll :nth-child(4) {
 .course-search button,
 .search-submit,
 #search-form .search-submit,
-.search-form .search-submit{
+#search__form--home .search-submit,
+.search-form .search-submit,
+{
     background: none;
     border: none;
     padding: 0px 15px;
@@ -611,6 +621,7 @@ div.logo-wrap-scroll :nth-child(4) {
 
 .input-group-addon i,
 #search-form .input-group-addon i,
+#search__form--home .input-group-addon i,
 .search-form .input-group-addon i{
 	color: white;
 }
@@ -713,12 +724,14 @@ div.logo-wrap-scroll :nth-child(4) {
 }
 /* menu search form */
 
-#search-form {
+#search-form,
+#search__form--home {
     margin-top: 20%;
 }
 
 @media(min-width: 681px) and (max-width: 991px) {
     #search-form,
+		#search__form--home,
     .search-form{
         margin-top: 25%;
     }
@@ -726,6 +739,7 @@ div.logo-wrap-scroll :nth-child(4) {
 
 @media(max-width: 680px) {
     #search-form,
+		#search__form--home,
     .search-form {
         margin-top: 30%;
     }
@@ -1329,10 +1343,12 @@ a.search-filter{
 }
 
 @media (max-width: 960px) {
-    #search-form .search-filters a {
+    #search-form .search-filters a,
+		#search__form--home .search-filters a {
       display: none;
     }
-    #search-form .search-filters select {
+    #search-form .search-filters select,
+		#search__form--home .search-filters select {
         display: block;
         padding: 10px 20px;
         margin: 15px 0 5px 0;

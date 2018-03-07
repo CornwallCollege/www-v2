@@ -401,7 +401,8 @@ a.ask-a-question:focus {
 .form-horizontal label i {
     color: dimgrey;
 }
-#search-form .leisure{
+#search-form .leisure,
+#search__form--home .leisure{
   margin-top: 0;
 }
 
@@ -3922,7 +3923,8 @@ a h2 span.readmore {
     border: none;
 }
 
-#search-form .input-group-addon {
+#search-form .input-group-addon,
+#search__form--home .input-group-addon {
     padding: 0;
 }
 .blocks article {
