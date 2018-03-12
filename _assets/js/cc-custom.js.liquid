@@ -1289,3 +1289,30 @@ jQuery(document).ready(function () {
   s0.parentNode.insertBefore(s1,s0);
   })();
   // End of Tawk.to Script
+
+
+  $(function() {
+    if ( $('#cornwall').hasClass('current-brand') ) {
+      var videoFiles = ['girl-writing', 'girl-writing2', 'landscape', 'landscape-2', 'landscape-4', 'landscape-6', 'library', 'mines', 'stac' ];
+      var videoFile = ( '/videos/cornwall/' + videoFiles[Math.floor(Math.random() * videoFiles.length)] + '.mp4' );
+    }
+    else if ( $('#duchy').hasClass('current-brand') ) {
+      var videoFiles = ['cow', 'equine', 'horses-grazing', 'tree', 'two-cows'];
+      var videoFile = ( '/videos/duchy/' + videoFiles[Math.floor(Math.random() * videoFiles.length)] + '.mp4' );
+    }
+    else if ( $('#falmouth').hasClass('current-brand') ) {
+      var videoFiles = ['boats', 'fms-flag', 'ocean', 'pier', 'pontoon', 'port', 'shimmer', 'underwater', 'water-reflect'];
+      var videoFile = ( '/videos/falmouth/' + videoFiles[Math.floor(Math.random() * videoFiles.length)] + '.mp4' );
+    }
+    else if ( $('#bicton').hasClass('current-brand') ) {
+      var videoFiles = ['dafs', 'equine', 'grass', 'horses-grazing', 'landscape', 'tractor', 'tree', 'two-cows'];
+      var videoFile = ( '/videos/bicton/' + videoFiles[Math.floor(Math.random() * videoFiles.length)] + '.mp4' );
+    }
+    else {
+      var videoFiles = ['/cornwall/door-crop1.mp4', '/cornwall/girl-with-books.mp4', '/cornwall/landscape-6.mp4', '/cornwall/library.mp4'];
+      var videoFile = ( '/videos/cornwall/' + videoFiles[Math.floor(Math.random() * videoFiles.length)] + '.mp4' );
+    }
+
+    $('#video__source').attr('src', videoFile);
+    $("#video")[0].load();
+  });
