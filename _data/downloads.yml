@@ -819,17 +819,17 @@
   # End of Plans
 
   #Duchy College & Bicton College Undergraduate Prospectus 2018
-- title: Duchy College & Bicton College Undergraduate Prospectus 2018 # Document name
+- title: Duchy College & Bicton College Undergraduate Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/undergraduate-prospectus-2018-duchy-bicton.pdf
+  download-link: /documents/prospectuses/duchy-college-bicton-college-undergraduate-prospectus-2019.pdf
   colour: e8d045
 
-  #The Cornwall College Group Undergraduate Prospectus 2018
-- title: The Cornwall College Group Undergraduate Prospectus 2018 # Document name
+  #The Cornwall College Group Undergraduate Prospectus 2019
+- title: The Cornwall College Group Undergraduate Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/The Cornwall College Group Undergraduate Prospectus 2018.pdf
+  download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2019.pdf
   colour: e8d045
 
   #Cornwall College FE Prospectus 2018
@@ -851,13 +851,6 @@
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2018.pdf
-  colour: e8d045
-
-  #TCCG HE Prospectus 2017 Web
-- title: The Cornwall College Group Higher Education Prospectus 2017 Web
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/TCCG HE Prospectus 2017 Web.pdf
   colour: e8d045
 
     #Access to HE flyer
