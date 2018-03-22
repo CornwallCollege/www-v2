@@ -1,48 +1,343 @@
---- 
-layout: landing 
-title: Home 
-link: index.html 
+---
+layout: landing
+title: Home
+link: index.html
 page: home
 ---
-<!-- Swiper -->
-<div class="swiper-container swiper-container-h">
-    <div class="swiper-wrapper">
-        <div id="cornwall-brand" class="swiper-slide home" data-logo="cc" data-hash="cornwall">
-            <div class="swiper-container swiper-container-v">
-                <div id="cc-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-home.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on.html %}</div>
-                </div>
-            </div>
-        </div>
-        <!-- Horizontal slides here -->
-        <div id="duchy-brand" class="swiper-slide" data-logo="dc" data-hash="duchy">
-            <div class="swiper-container swiper-container-v">
-               <div id="dc-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-duchy.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-duchy.html %}</div>
-                </div>
-            </div>    
-        </div>
-        <div id="falmouth-brand" class="swiper-slide" data-logo="fms" data-hash="falmouth">
-            <div class="swiper-container swiper-container-v">
-                <div id="fms-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-falmouth.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-falmouth.html %}</div>
-                </div>                
-            </div>
-        </div>
-        <div id="bicton-brand" class="swiper-slide" data-logo="bic" data-hash="bicton">
-            <div class="swiper-container swiper-container-v">
-                <div id="bic-video" class="brand-video"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide home">{% include sweeper-slide-bicton.html %}</div>
-                    <div class="swiper-slide whats-on">{% include sweeper-slide-whats-on-bicton.html %}</div>
-                </div>                
-            </div>
-        </div>
+
+{% if site.hash == 'cornwall' %}
+
+<section class="hero-section">
+
+  <div class="background background--cornwall">
+    <div class="video__container">
+      <video autoplay muted loop id="video" class="video">
+        <source id="video__source" src="/videos/cornwall/landscape.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
     </div>
-</div>
+  </div>
+
+  <div class="hero-section__content">
+    <div class="container">
+      <div class="row">
+          <h1 class="title">Let's Go!</h1>
+          <!-- MENU SEARCH FORM -->
+          <form name="course-search" id="search__form--home" role="search" method="GET" action="{{site.url}}/search" style="margin-top:0; margin-bottom:0">
+            <div class="no-padding col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 search-filters search__filters--home">
+              <a id="course-search" class="btn active search-filter search__filter--home"  data-name="a" data-placeholder="Course Search" data-action="'/search">Course Search</a>
+
+              <a id="site-search" class="btn not-active search-filter search__filter--menu" data-name="b" data-placeholder="Search the whole site" data-action="/site-search.html">Site Search</a>
+            </div>
+
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+              {% if site.hash != 'cornwall' %}
+              <input name="brand" value="{{site.brand-long}}" type="hidden" />
+              {% endif %}
+
+              <input id="site-search-input" style="font-weight:bolder; font-size:20px; border:none" class="form-control" name="s" type="text" placeholder="Course Search">
+
+              <div class="button--blue--no-shadow input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-2x"></i></button></div>
+            </div>
+          </form>
+          <div>
+            <p class="description">We have a diverse range of courses for all ages in locations across the soutwest.</p>
+          </div>
+
+          <div class="four-buttons">
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/16-18-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">16-18</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/university-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">University</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/19plus-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">19+</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/apprenticeship-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">Apprenticeship</span>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% elsif site.hash == 'duchy' %}
+
+<section class="hero-section">
+
+  <div class="background background--duchy">
+    <div class="video__container">
+      <video autoplay muted loop id="video" class="video">
+        <source id="video__source" src="/videos/duchy/equine.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  </div>
+
+  <div class="hero-section__content">
+    <div class="container">
+      <div class="row">
+          <h1 class="title">Let's Go!</h1>
+          <!-- MENU SEARCH FORM -->
+          <form name="course-search" id="search__form--home" role="search" method="GET" action="{{site.url}}/search" style="margin-top:0; margin-bottom:0">
+            <div class="no-padding col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 search-filters search__filters--home">
+              <a id="course-search" class="btn active search-filter search__filter--home"  data-name="a" data-placeholder="Course Search" data-action="'/search">Course Search</a>
+
+              <a id="site-search" class="btn not-active search-filter search__filter--menu" data-name="b" data-placeholder="Search the whole site" data-action="/site-search.html">Site Search</a>
+            </div>
+
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+              {% if site.hash != 'cornwall' %}
+              <input name="brand" value="{{site.brand-long}}" type="hidden" />
+              {% endif %}
+
+              <input id="site-search-input" style="font-weight:bolder; font-size:20px; border:none" class="form-control" name="s" type="text" placeholder="Course Search">
+
+              <div class="button--blue--no-shadow input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-2x"></i></button></div>
+            </div>
+          </form>
+          <div>
+            <p class="description">We have a diverse range of courses for all ages in locations across the soutwest.</p>
+          </div>
+
+          <div class="four-buttons">
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/16-18-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">16-18</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/university-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">University</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/19plus-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">19+</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/apprenticeship-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">Apprenticeship</span>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% elsif site.hash == 'falmouth' %}
+
+<section class="hero-section">
+
+  <div class="background background--falmouth">
+    <div class="video__container">
+      <video autoplay muted loop id="video" class="video">
+        <source id="video__source" src="/videos/falmouth/ocean.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  </div>
+
+  <div class="hero-section__content">
+    <div class="container">
+      <div class="row">
+          <h1 class="title">Let's Go!</h1>
+          <!-- MENU SEARCH FORM -->
+          <form name="course-search" id="search__form--home" role="search" method="GET" action="{{site.url}}/search" style="margin-top:0; margin-bottom:0">
+            <div class="no-padding col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 search-filters search__filters--home">
+              <a id="course-search" class="btn active search-filter search__filter--home"  data-name="a" data-placeholder="Course Search" data-action="'/search">Course Search</a>
+
+              <a id="site-search" class="btn not-active search-filter search__filter--menu" data-name="b" data-placeholder="Search the whole site" data-action="/site-search.html">Site Search</a>
+            </div>
+
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+              {% if site.hash != 'cornwall' %}
+              <input name="brand" value="{{site.brand-long}}" type="hidden" />
+              {% endif %}
+
+              <input id="site-search-input" style="font-weight:bolder; font-size:20px; border:none" class="form-control" name="s" type="text" placeholder="Course Search">
+
+              <div class="button--blue--no-shadow input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-2x"></i></button></div>
+            </div>
+          </form>
+          <div>
+            <p class="description">We have a diverse range of courses for all ages in locations across the soutwest.</p>
+          </div>
+
+          <div class="four-buttons">
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/16-18-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">16-18</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/university-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">University</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/19plus-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">19+</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/apprenticeship-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">Apprenticeship</span>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% elsif site.hash == 'bicton' %}
+
+<section class="hero-section">
+
+  <div class="background background--bicton">
+    <div class="video__container">
+      <video autoplay muted loop id="video" class="video">
+        <source id="video__source" src="/videos/bicton/two-cows.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  </div>
+
+  <div class="hero-section__content">
+    <div class="container">
+      <div class="row">
+          <h1 class="title">Let's Go!</h1>
+          <!-- MENU SEARCH FORM -->
+          <form name="course-search" id="search__form--home" role="search" method="GET" action="{{site.url}}/search" style="margin-top:0; margin-bottom:0">
+            <div class="no-padding col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 search-filters search__filters--home">
+              <a id="course-search" class="btn active search-filter search__filter--home"  data-name="a" data-placeholder="Course Search" data-action="'/search">Course Search</a>
+
+              <a id="site-search" class="btn not-active search-filter search__filter--menu" data-name="b" data-placeholder="Search the whole site" data-action="/site-search.html">Site Search</a>
+            </div>
+
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+              {% if site.hash != 'cornwall' %}
+              <input name="brand" value="{{site.brand-long}}" type="hidden" />
+              {% endif %}
+
+              <input id="site-search-input" style="font-weight:bolder; font-size:20px; border:none" class="form-control" name="s" type="text" placeholder="Course Search">
+
+              <div class="button--blue--no-shadow input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-2x"></i></button></div>
+            </div>
+          </form>
+          <div>
+            <p class="description">We have a diverse range of courses for all ages in locations across the soutwest.</p>
+          </div>
+
+          <div class="four-buttons">
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/16-18-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">16-18</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/university-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">University</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/19plus-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">19+</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/apprenticeship-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">Apprenticeship</span>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% else %}
+
+<section class="hero-section">
+
+  <div class="background background--cornwall">
+    <div class="video__container">
+      <video autoplay muted loop id="video" class="video">
+        <source id="video__source" src="/videos/cornwall/girl-writing.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  </div>
+
+  <div class="hero-section__content">
+    <div class="container">
+      <div class="row">
+          <h1 class="title">Let's Go!</h1>
+          <!-- MENU SEARCH FORM -->
+          <form name="course-search" id="search__form--home" role="search" method="GET" action="{{site.url}}/search" style="margin-top:0; margin-bottom:0">
+            <div class="no-padding col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 search-filters search__filters--home">
+              <a id="course-search" class="btn active search-filter search__filter--home"  data-name="a" data-placeholder="Course Search" data-action="'/search">Course Search</a>
+
+              <a id="site-search" class="btn not-active search-filter search__filter--menu" data-name="b" data-placeholder="Search the whole site" data-action="/site-search.html">Site Search</a>
+            </div>
+
+            <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+              {% if site.hash != 'cornwall' %}
+              <input name="brand" value="{{site.brand-long}}" type="hidden" />
+              {% endif %}
+
+              <input id="site-search-input" style="font-weight:bolder; font-size:20px; border:none" class="form-control" name="s" type="text" placeholder="Course Search">
+
+              <div class="button--blue--no-shadow input-group-addon transition"><button type="submit" class="search-submit"><i class="fa fa-search fa-2x"></i></button></div>
+            </div>
+          </form>
+          <div>
+            <p class="description">We have a diverse range of courses for all ages in locations across the soutwest.</p>
+          </div>
+
+          <div class="four-buttons">
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/16-18-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">16-18</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/university-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">University</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/19plus-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">19+</span>
+              </a>
+            </div>
+            <div class="four-button">
+              <a href="https://www.cornwall.ac.uk/apprenticeship-hub/index.html" class="four-button__link">
+                <span class="four-button__link__span">Apprenticeship</span>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% endif %}

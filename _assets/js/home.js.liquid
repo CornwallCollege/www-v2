@@ -65,6 +65,71 @@ $(document).ready(function () {
 
     });
 //======================  Search filters ENDS  =================================
+//======================  Home Page Search filters  =================================
+  // Create the dropdown base
+  $("<select />").appendTo(".search-filters--home");
+
+  // Create default option "Go to..."
+  $("<option />", {
+     "selected": "selected",
+     "value"   : "",
+     "text"    : "Change Search..."
+  }).appendTo(".search-filters--home select");
+
+  // Populate dropdown with menu items
+  $(".search-filters--home a").each(function() {
+   var el = $(this);
+   $("<option />", {
+       "value"             : el.attr("href"),
+       "text"              : el.text(),
+       "data-name"         : el.attr("data-name"),
+       "data-action"       : el.attr("data-action"),
+       "data-placeholder"  : el.attr("data-placeholder")
+   }).appendTo(".search-filters--home select");
+  });
+
+  // Search form update on click
+  $( ".search-filter--home__tab" ).click(function() {
+      //get data from link
+      var name = $(this).data('name');
+      var action = $(this).data('action');
+      var placeholder = $(this).data('placeholder');
+
+      $('#search-form').attr('action', action );
+      $('.form-control').attr("placeholder", placeholder);
+      $('.form-control').attr("name", name);
+      $( this ).addClass("active").removeClass( "not-active" );
+      $(this).siblings().removeClass( "active" ).addClass("not-active");
+  });
+
+  //filter change for hidden form
+  $( ".hidden-search-form .search-filter--home__tab" ).click(function() {
+      //get data from link
+      var name = $(this).data('name');
+      var action = $(this).data('action');
+      var placeholder = $(this).data('placeholder');
+
+      $('#hidden-search-form').attr('action', action );
+      $('.form-control').attr("placeholder", placeholder);
+      $('.form-control').attr("name", name);
+      $( this ).addClass("active").removeClass( "not-active" );
+      $(this).siblings().removeClass( "active" ).addClass("not-active");
+  });
+
+
+  //Watch for value change on select
+  $('.search-filters--home select').on('change', function() {
+      //get data from link
+      var name = $(this).find(':selected').data('name');
+      var action = $(this).find(':selected').data('action');
+      var placeholder = $(this).find(':selected').data('placeholder');
+
+      $('#search-form').attr('action', action );
+      $('.form-control').attr("placeholder", placeholder);
+      $('.form-control').attr("name", name);
+
+  });
+//======================  Home Page Search filters ENDS  =================================
 
     $("#main-menu").load("/global-menu.html");
     $("#footer").load("/global-footer.html");
