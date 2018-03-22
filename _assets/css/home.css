@@ -32,7 +32,7 @@
 
 .search__filter--home,
 .search__filter--menu {
-  
+
 }
 
 @media (min-width: 992px) {
@@ -58,7 +58,7 @@
   text-align: center;
 }
 
-.video__container {
+.background {
   position: absolute;
   overflow: hidden;
   height: 100%;
@@ -66,9 +66,45 @@
   background-image: radial-gradient(circle, rgba(0, 0, 0,0.4) 20%,rgba(0, 0, 0,0.6) 100%);
 }
 
+@media (max-width: 749px) {
+  .background--cornwall {
+    background: #676767 url('/images/homepage/cornwall-college--mobile.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .background--duchy {
+    background: #676767 url('/images/homepage/duchy-college--mobile.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .background--falmouth {
+    background: #676767 url('/images/homepage/falmouth-marine-school--mobile.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .background--bicton {
+    background: #676767 url('/images/homepage/bicton-college--mobile.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+
+.video__container {
+  display: none;
+}
+
 .video {
-  min-width:100%;
-  min-height: 100%;
+  z-index: -1;
+}
+
+@media (min-width: 750px) {
+  .video__container {
+    display: block;
+  }
+
+  .video {
+    min-width:100%;
+    min-height: 100%;
+  }
 }
 
 .four-buttons {
