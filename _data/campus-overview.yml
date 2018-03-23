@@ -215,8 +215,8 @@
       thumb: /images/locations/Newquay/zoo.jpg
       title: Student at Newquay Zoo
 
-    - link: /images/locations/Newquay/newquay-zoo-logo-LG.jpg
-      thumb: /images/locations/Newquay/newquay-zoo-logo.jpg
+    - link: /images/locations/Newquay/newquay-zoo-logo-LG.png
+      thumb: /images/locations/Newquay/newquay-zoo-logo.png
       title: Newquay Zoo Logo
 
   query: https://network.cornwall.ac.uk/campus/newquay/

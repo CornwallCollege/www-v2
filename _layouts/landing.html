@@ -5,12 +5,15 @@
 
   {% include head.html %}
 
-  <body class="home" itemscope="" itemtype='{{site.schema-college}}'>
+  <body itemscope="" itemtype='{{site.schema-college}}'>
 
     {% include menu.html %}
 
-
     {{ content }}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
 
     {% js main %}
     {% js bundle-home %}
