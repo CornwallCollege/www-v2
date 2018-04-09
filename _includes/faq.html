@@ -1,17 +1,18 @@
 <section class="faqs main-section-margins">
-    <header class="col-sm-12 text-center"> <h2 class="text-uppercase">{{ page.faq-main-title }}</h2>
+  <header class="col-sm-12 text-center">
+    <h2 class="text-uppercase">{{ page.faq-main-title }}</h2>
+  </header>
 
-    </header>
-        <section class="container">
-            <p class="lead">{{ page.faq-intro }}</p>
-            {% for faq in page.faqs %}
+  <section class="container">
+    <p class="lead">{{ page.faq-intro }}</p>
+      {% for faq in page.faqs %}
 
-            <button type="button" class="faq-question collapsed" data-toggle="collapse" data-target="#{{ faq.id }}"><h3>{{ faq.question }}</h3></button>
-            <div id="{{ faq.id }}" class="collapse">
-                <p>{{ faq.answer }}</p>
-            </div>
+      <button type="button" class="faq-question collapsed" data-toggle="collapse" data-target="#{{ faq.id }}"><h3>{{ faq.question }}</h3></button>
+      <div id="{{ faq.id }}" class="collapse">
+        <p>{{ faq.answer }}</p>
+      </div>
 
-            {% endfor %}
+      {% endfor %}
 
-        </section>
+    </section>
 </section>
