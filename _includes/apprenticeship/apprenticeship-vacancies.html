@@ -1,12 +1,9 @@
 <section class="col-md-12 main-section-margins intro">
   <div class="clearfix"></div>
-
-    <h2><strong>LATEST</strong> VACANCIES</h2>
-
     <section id="job-of-the-week" style="display: none;" class="col-md-12 main-section-margins">
       <section class="container">
         <article class="col-sm-4 col-md-3 intro pull-right">
-          <h2 style="text-align: left;"><strong>jobs</strong> of the week</h2>
+          <h2 style="text-align: left;"><strong>Jobs</strong> of the week</h2>
 
           <p>Take a look at our latest apprenticeship vacancies available with businesses across the South West.</p>
 
@@ -17,52 +14,55 @@
         <section id="jobs-carousel" style="display: none;" class="owl-carousel job-carousel owl-theme col-xs-12 col-sm-8 col-md-9" data-event-cat-id="{{page.event_cat_id}}"></section>
       </section>
     </section>
+  </section>
 
-</section>
+  <section class="col-sm-12 color-bg events">
+    <header class="col-sm-12 text-center">
+      <h2 class="text-uppercase">LATEST APPRENTICESHIP VACANCIES</h2>
+    </header>
 
+      <div class="container apprenticeship-vaccancies">
+        <p class="lead center col-xs-12 col-sm-10 col-sm-offset-1 white">We have many vacancies available throughout the year. Click on your preferred college to see them listed on the National Apprenticeship Service.</p>
 
-<div class="container apprenticeship-vaccancies">
-  <p class="lead center col-xs-12 col-sm-10 col-sm-offset-1">We have many vacancies available throughout the year, click the link to see them listed on the National Apprenticeship Service.</p>
+        {% for apprenticeship in site.data.apprenticeships %}
 
-  {% for apprenticeship in site.data.apprenticeships %}
-  <!-- Trigger the modal with a button -->
-  <div class="col-xs-12 col-sm-3">
-    <button style="border-left: 10px solid #{{ apprenticeship.colour }}" type="button" class="btn" data-toggle="modal" data-target="#{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}">{{ apprenticeship.apprenticeship-title }}</button>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal" id="{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">{{ apprenticeship.apprenticeship-title }}</h4>
+        <!-- Trigger the modal with a button -->
+        <div class="col-xs-12 col-sm-4">
+          <button style="border-left: 10px solid #{{ apprenticeship.colour }}" type="button" class="btn" data-toggle="modal" data-target="#{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}">{{ apprenticeship.apprenticeship-title }}</button>
         </div>
 
-        {% if apprenticeship.nas-guid %}
-        <div class="modal-body">
-          <iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>
-        </div>
-        <div class="modal-footer">
-          <a style="text-transform:capitalize; letter-spacing:0px" target="_blank" href="//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}" class="btn btn-default">Open map in new tab</a>
-          <button type="button" formaction="" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+        <!-- Modal -->
+        <div class="modal" id="{{ apprenticeship.apprenticeship-title | remove:' ' | remove: '-' | remove: ',' | remove:'&' }}" role="dialog">
+          <div class="modal-dialog">
 
-        {% else %}
-        <div class="modal-body">
-          <p>There are currently no vacancies in this area.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-        {% endif %}
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">{{ apprenticeship.apprenticeship-title }}</h4>
+              </div>
 
+              {% if apprenticeship.nas-guid %}
+              <div class="modal-body">
+                <iframe class='apprenticeships' height=500 width=100% src='//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}'><p>Your browser does not support iframes.</p></iframe>
+              </div>
+              <div class="modal-footer">
+                <a style="text-transform:capitalize; letter-spacing:0px" target="_blank" href="//avlive.apprenticeships.org.uk/remote/{{ apprenticeship.nas-guid }}" class="btn btn-default">Open map in new tab</a>
+                <button type="button" formaction="" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+
+              {% else %}
+              <div class="modal-body">
+                <p>There are currently no vacancies in this area.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+              {% endif %}
+
+            </div>
+          </div>
+        </div>
+        {% endfor %}
       </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-
-</section>
+  </section>
