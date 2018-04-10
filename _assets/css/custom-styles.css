@@ -4509,7 +4509,7 @@ a.learning-area{
     background:white;
     /*opacity: .7;*/
     font-weight: bold;
-    font-size:0.9em;
+    font-size:0.7em;
 }
 a.learning-area:hover{
     letter-spacing: normal;
@@ -5593,4 +5593,11 @@ table.contact-overview {
 
 .change-password > div {
   padding: 5%;
+}
+
+/* Media Query Changes March 2018 */
+@media (min-width: 1303px){
+  a.learning-area {
+    font-size: 0.9em;
+  }
 }
