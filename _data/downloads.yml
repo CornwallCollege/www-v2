@@ -529,10 +529,10 @@
   colour: 00A5B4
 
   #Cornwall College NMH rates
-- title: Cornwall College NMH rates # Document name
-  type: Word # Document type
+- title: Cornwall College NMH Rates and Contact Information - 2018 # Document name
+  type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/Cornwall College NMH rates.docx
+  download-link: /documents/guides/Cornwall College NMH Rates and Contact Information - 2018.pdf
   colour: 00A5B4
 
   #External lettings form - Rooms
@@ -937,13 +937,6 @@
   type:  Word # Document type
   category: reports # Document category
   download-link: /documents/reports/Embedding Brilliant Learning.docx
-  colour: bc77ee
-
-  #NMH Rates for CCG Web_0
-- title: NMH Rates for CCG Web
-  type:  Word # Document type
-  category: reports # Document category
-  download-link: /documents/reports/NMH Rates for CCG Web_0.docx
   colour: bc77ee
 
   #Scholarship_Report_2008-2009
