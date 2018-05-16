@@ -121,7 +121,7 @@
       mobile-image: /images/bpi/education-mobile.jpg
       filter: ed
       a-href: /career-pages/teaching-education/index.html
-      he-image: school-of-education-professional-development.jpg
+      he-image: education.jpg
       icon: fa-graduation-cap
       level: 1 2 3 4 5 6 7
       colour: 01A4A4
@@ -162,14 +162,17 @@
       intro: Inspiring others to achieve their potential is a great vocation, to be able to capture imagination, build and develop ideas and motivate a generation to become more than they thought possible requires knowledge, patience, good communication skills and a sense of humour.
 
     - subcluster: Children, Schools & Families
+      university-faculty: Children, Schools & Families
       image: /images/hw/childcare.jpg
       mobile-image: /images/hw/childcare-mobile.jpg
       filter: ed
       a-href: /career-pages/children-schools/index.html
+      he-image: school-of-education-professional-development.jpg
+      icon: fa-star
       level: 1 2 3
       colour: 01A4A4
       brand: cc dc
-      sector: 16-18 access apprenticeships
+      sector: 16-18 access apprenticeships university
       campus: camborne-campus rosewarne-campus saltash-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Camborne Campus
