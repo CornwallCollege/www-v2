@@ -1177,13 +1177,13 @@ div#logo-wrap #bicton{
 /*----------- 19 Plus header styles ENDS -----------*/
 /*----------- Uni header styles -----------*/
 #university-hub{
-    background: url(../images/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
+    background: url(../images/university-hub/headers/19-plus-mobile.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 }
 @media(min-width:768px) {
 
     #university-hub{
-        background-image: url(../images/19-plus.jpg);
+        background-image: url(../images/university-hub/headers/19-plus.jpg);
         background-repeat: no-repeat;
         background-position:50% 0 ;
 
