@@ -651,11 +651,11 @@
 
   # End of Maps
 
-  #03796JW0813_CC_STEM_Journal_4
-- title: Cornwall College STEM Journal 4 # Document name
+  #TCCG_education_news_2018
+- title: TCCG Education Newsletter 2018 # Document name
   type: PDF # Document type
   category: newsletter # Document category
-  download-link: /documents/newsletters/03796JW0813_CC_STEM_Journal_4.pdf
+  download-link: /documents/newsletters/TCCG_education_news_2018.pdf
   colour: e69900
 
   #04350JW0614_CC_STEM_Journal_5
@@ -665,8 +665,15 @@
   download-link: /documents/newsletters/04350JW0614_CC_STEM_Journal_5.pdf
   colour: e69900
 
+  #03796JW0813_CC_STEM_Journal_4
+- title: Cornwall College STEM Journal 4 # Document name
+  type: PDF # Document type
+  category: newsletter # Document category
+  download-link: /documents/newsletters/03796JW0813_CC_STEM_Journal_4.pdf
+  colour: e69900
+
   #SINNG_Newsletter_01_0
-- title: SINNG Newsletter # Document name
+- title: SINNG Journal 1 # Document name
   type: PDF # Document type
   category: newsletter # Document category
   download-link: /documents/newsletters/sinng_newsletter.pdf
@@ -890,7 +897,7 @@
   type:  PDF # Document type
   category: policies # Document category
   download-link: /documents/policies/higher-education-admissions-policy-2018.pdf
-  colour: fd96f6  
+  colour: fd96f6
 
   #Determination of Higher Education Programme Fees 2018-19
 - title: Determination of Higher Education Programme Fees 2018-19 # Document name
