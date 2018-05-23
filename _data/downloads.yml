@@ -132,31 +132,24 @@
   colour: 004B93
 
   #05336JW0315_CCB_Higher_Skills_Food_flyer
-- title: Cornwall College Business Higher Skills Food flyer # Document name
+- title: Cornwall College Business Higher Skills Food Flyer # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05336JW0315_CCB_Higher_Skills_Food_flyer.pdf
   colour: 004B93
 
   #05352JW0315_CCC_GasOil_flyer
-- title: Cornwall College Camborne GasOil flyer # Document name
+- title: Cornwall College Camborne GasOil Flyer # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05352JW0315_CCC_GasOil_flyer.pdf
   colour: 004B93
 
   #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4
-- title: Apprentice TCCG Diamond CV tips 4 # Document name
+- title: TCCG Apprenticeship Tips # Document name
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4.pdf
-  colour: 004B93
-
-  #05819JW1215_CC_Apprenticeship_Learner_A5_booklet
-- title: Cornwall College Apprenticeship Learner booklet tips # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05819JW1215_CC_Apprenticeship_Learner_A5_booklet.pdf
   colour: 004B93
 
   #CC UP Infographic ESF Dissemination
@@ -438,14 +431,14 @@
 
 
   #Professional & Skills Training Guide For Adults 2018
-- title: Professional & Skills Training Guide For Adults 2018 # Document name
+- title: Professional & Skills Training Guide for Adults 2018 # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Professional-and-Skills-Training-Guide-for-Adults-2018.pdf
   colour: 00A5B4
 
   #Accommodation info for HE students
-- title: Accommodation guide for University students # Document name
+- title: Accommodation Guide for University Students # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Accommodation-Guide-University-2017-18.pdf
@@ -473,14 +466,14 @@
   colour: 00A5B4
 
   #apprenticeship_food_drink_flyer
-- title: Apprenticeship Food Drink Flyer # Document name
+- title: Apprenticeship Food and Drink Flyer # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/apprenticeship_food_drink_flyer.pdf
   colour: 00A5B4
 
   #CC A-level A5 folded Talker 1
-- title: Cornwall College A-level A5 folded Talker # Document name
+- title: Cornwall College A-level Flyer # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC A-level A5 folded Talker 1.pdf
@@ -494,14 +487,14 @@
   colour: 00A5B4
 
   #CC_FOI_Scheme_Introduction
-- title: Cornwall College Freedom Of Information Scheme Introduction # Document name
+- title: Cornwall College Freedom of Information Scheme Introduction # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CC_FOI_Scheme_Introduction.pdf
   colour: 00A5B4
 
   #CCES_FOI_Scheme_Introduction
-- title: CCES Freedom Of Information Scheme Introduction # Document name
+- title: CCES Freedom of Information Scheme Introduction # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/CCES_FOI_Scheme_Introduction.pdf
@@ -515,7 +508,7 @@
   colour: 00A5B4
 
   #Conditions for external hire of college premises (4) - Copy
-- title: Conditions for external hire of college premises # Document name
+- title: Conditions for External Hire of College Premises # Document name
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/Conditions for external hire of college premises (4) - Copy.doc
@@ -536,21 +529,21 @@
   colour: 00A5B4
 
   #External lettings form - Rooms
-- title: External lettings form - Rooms # Document name
+- title: External Lettings Form - Rooms # Document name
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/External lettings form - Rooms.docx
   colour: 00A5B4
 
   #FE Student Services flyer
-- title: Further Education Student Services flyer # Document name
+- title: Further Education Student Services Flyer # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/FE Student Services flyer.pdf
   colour: 00A5B4
 
   #FOI__Guide_to__information__CC
-- title: Freedom Of Information Act Guide to information Cornwall College # Document name
+- title: Freedom of Information Act Guide to information Cornwall College # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/FOI__Guide_to__information__CC.pdf
@@ -564,7 +557,7 @@
   colour: 00A5B4
 
   #meat_and_poultry
-- title: meat and poultry # Document name
+- title: Meat and Poultry Industry Qualification # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/meat_and_poultry.pdf
@@ -682,21 +675,21 @@
   # End of newsletters
 
   #05411JW0515_Koko_Pamper_Days_leaflet
-- title: Koko Pamper Days leaflet # Document name
+- title: Koko Pamper Days Leaflet # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/05411JW0515_Koko_Pamper_Days_leaflet.pdf
   colour: 961313
 
   #05682JW1015_TCCG_Counselling_leaflet
-- title: The Cornwall College Group Counselling leaflet # Document name
+- title: The Cornwall College Group Counselling Leaflet # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/05682JW1015_TCCG_Counselling_leaflet.pdf
   colour: 961313
 
   #beauty landscape
-- title: Beauty Landscape # Document name
+- title: Koko Beauty Treatments Price List # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/beauty landscape.pdf
@@ -738,35 +731,35 @@
   colour: 961313
 
   #Cornwall final web
-- title: Cornwall final web # Document name
+- title: Cornwall Business App # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/Cornwall final web.pdf
   colour: 961313
 
   #koko price list
-- title: koko price list # Document name
+- title: Koko Hair and Beauty Price List # Document name
   type: PDF # Document type
   category: other # Document category
   download-link: /documents/other/koko price list.pdf
   colour: 961313
 
   #Nails landscape
-- title: Nails landscape # Document name
+- title: Koko Nails Services Price List # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Nails landscape.pdf
   colour: 961313
 
   #Student_Complaints_Procedure_V9
-- title: Student Complaints Procedure V9 # Document name
+- title: Student Complaints Procedure # Document name
   type:  Word # Document type
   category: other # Document category
   download-link: /documents/other/Student_Complaints_Procedure_V9.doc
   colour: 961313
 
   #Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15
-- title: Subcontracting Funding Report for Publication on The Cornwall College Group Website-13-14 to 14-15 # Document name
+- title: Subcontracting Funding Report for Publication on The Cornwall College Group Website # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15.pdf
@@ -801,14 +794,14 @@
   colour: 961313
 
   #Bicton Doc 26.11.14
-- title: Bicton College Doc 26.11.14 # Document name
+- title: Bicton College Information Booklet 1 # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Bicton Doc 26.11.14.pdf
   colour: 961313
 
   #Bicton Doc V2 01.04.15
-- title: Bicton College Doc V2 01.04.15 # Document name
+- title: Bicton College Information Booklet 2 # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Bicton Doc V2 01.04.15.pdf
@@ -959,7 +952,7 @@
   colour: e8d045
 
     #Access to HE flyer
-- title: Access to Higher Education flyer
+- title: Access to Higher Education Flyer
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/2018-access-to-he-leaflet.pdf
@@ -975,7 +968,7 @@
   colour: bc77ee
 
   #Bicton Doc V3 05.08.15 (Final)
-- title: Bicton College Doc V3 05.08.15 (Final)
+- title: Bicton College Information Booklet 3
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/Bicton Doc V3 05.08.15 (Final).pdf
@@ -1010,7 +1003,7 @@
   colour: bc77ee
 
   #Cornwall College - 31 July 2015 - Signed
-- title: Cornwall College - 31 July 2015 - Signed
+- title: Cornwall College Board Report 2015
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/Cornwall College - 31 July 2015 - Signed.pdf
@@ -1045,7 +1038,7 @@
   colour: bc77ee
 
   #TCCG Ofsted Jan-16
-- title: The Cornwall College Group Ofsted Jan-16
+- title: The Cornwall College Group Ofsted Report 2015
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/TCCG-ofsted-jan-16.pdf
