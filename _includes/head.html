@@ -21,13 +21,14 @@
 
 <style>
   #loader {
-      background: #fff;
-      padding-top: 50%;
-      padding-left: 50%;
       position: fixed;
       z-index: 2000;
+      display: none;
+      padding-top: 50%;
+      padding-left: 50%;
       width: 100%;
       height: 100%;
+      background: #fff;
   }
 
   #loader > * {
@@ -68,17 +69,17 @@
 
 <!-- Latest compiled and minified CSS -->
 {% css main %}
-    
+
 {% if page.custom_css %}
-    
+
     <link rel="stylesheet" type="text/css" href="{{ page.custom_css }}">
-    
+
 {% endif %}
 
 {% if page.page == 'home' %}
     <!--<link rel="stylesheet" type="text/css" href="/css/home.css">-->
     {% css home %}
-    
+
 {% else %}
 
 {% endif %}
@@ -89,15 +90,17 @@
             <link rel="stylesheet" type="text/css" href="/css/IE9.css"></link>
 <![endif]-->
 
-<!-- Crazy egg heat mapping tool -->
 <script type="text/javascript">
+document.getElementById('#loader').style.display = 'block'
+
+<!-- Crazy egg heat mapping tool -->
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/5657.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
-    
-<!-- cookie control -->    
+
+<!-- cookie control -->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
@@ -116,6 +119,6 @@ window.cookieconsent.initialise({
     "href": "/governance/cookie-policy"
   }
 })});
-</script>    
+</script>
 
 </head>

@@ -1,0 +1,50 @@
+<!-- Download a Prospectus -->
+<section id="download" class="uni-download col-xs-12 main-section-margins">
+	<section class="container">
+
+
+		<!-- Thumbnails -->
+		<div class="row margin equal">
+			<!-- The title -->
+			<header class="col-sm-12 text-center ">
+				<h2>Download a <span>Prospectus</span></h2>
+			</header>
+
+				{% if page.prospectus[1] %}
+					{% for prospectus in page.prospectus %}
+						{% if forloop.first == true %}
+							<div class="col-xs-12 col-sm-4 col-sm-offset-2">
+						{% else %}
+							<div class="col-xs-12 col-sm-4">
+						{% endif %}
+								<div class="portfolio-thumb prospectus">
+									<a href="/documents/prospectuses/{{prospectus.link}}">
+				            <img src="/images/{{prospectus.image}}" class="img-responsive" alt="cornwall college HE">
+				            <i class="fa fa-download"></i>
+				            <b>{{prospectus.title}}</b>
+				          </a>
+								</div>
+							</div>
+
+					{% endfor %}
+				{% else %}
+
+					{% for prospectus in page.prospectus %}
+
+						<div class="col-xs-12 col-sm-4 col-sm-offset-4 ">
+							<div class="portfolio-thumb prospectus">
+								<a href="/documents/prospectuses/{{prospectus.link}}">
+									<img src="/images/{{prospectus.image}}" class="img-responsive" alt="cornwall college HE">
+									<i class="fa fa-download"></i>
+									<b>{{prospectus.title}}</b>
+								</a>
+							</div>
+						</div>
+
+					{% endfor %}
+
+				{% endif %}
+
+		</div>
+	</section>
+</section>

@@ -4558,8 +4558,15 @@ a.learning-area:hover{
     font-size: 40px;
     font-weight: lighter;
 }
+#event-carousel--uni {
+  padding-bottom: 40px
+}
+#event-carousel--uni .owl-controls {
+  float: right
+}
 #jobs-carousel .owl-controls .owl-dot,
 #event-carousel .owl-controls .owl-dot,
+#event-carousel--uni .owl-controls .owl-dot,
 #image-carousel .owl-controls .owl-dot {
     display: inline-block;
     width: 35px;
@@ -4583,21 +4590,33 @@ a.learning-area:hover{
     -o-transform: rotate(319deg);
     -ms-transform: rotate(319deg);
 }
+#event-carousel--uni .owl-controls .owl-dot {
+    border-color: white;
+}
 .owl-carousel .owl-item{
     width:100%;
 }
 #event-carousel .owl-controls .owl-dot.active,
+#event-carousel--uni .owl-controls .owl-dot.active,
 #jobs-carousel .owl-controls .owl-dot.active,
 #image-carousel .owl-controls .owl-dot.active {
     background-color: #52B3D9;
     border-color: #52B3D9;
 }
-jobs-carousel .owl-controls .owl-dot:hover,
+#event-carousel--uni .owl-controls .owl-dot.active {
+    background-color: white;
+    border-color: white;
+}
+#jobs-carousel .owl-controls .owl-dot:hover,
 #event-carousel .owl-controls .owl-dot:hover,
 #image-carousel .owl-controls .owl-dot:hover {
+    background-color: white;
     border-color: #52B3D9;
 }
-
+#event-carousel--uni .owl-controls .owl-dot:hover {
+    background-color: white;
+    border-color: white;
+}
 @media(max-width: 991px) {
     #image-carousel .owl-controls .owl-dot {
         margin-bottom: 50px;
@@ -4607,83 +4626,113 @@ jobs-carousel .owl-controls .owl-dot:hover,
 @media(max-width: 767px) {
     #jobs-carousel .owl-controls .owl-dot,
     #event-carousel .owl-controls .owl-dot,
+    #event-carousel--uni .owl-controls .owl-dot,
     #image-carousel .owl-controls .owl-dot {
         margin-top: 30px;
     }
 }
 
 #event-carousel article,
+#event-carousel--uni article,
 #jobs-carousel article{
-    border: 1px solid #ddd;
-    margin-bottom: 30px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: inline-block;
     width: 99.9%;
 }
 #jobs-carousel article h3,
 #event-carousel article h3 {
     text-transform: uppercase;
-
+    color: #676767
+}
+#event-carousel--uni article h3 {
+    text-transform: uppercase;
+    color: white
 }
 @media(max-width: 600px){
     #event-carousel h3,
+    #event-carousel--uni h3,
     #jobs-carousel h3{
         font-size: 20px
     }
 }
 #event-carousel article:hover,
+#event-carousel--uni article:hover,
 #jobs-carousel article:hover{
     border-color: #52B3D9;
 }
 
 #event-carousel div > i,
+#event-carousel--uni div > i,
 #jobs-carousel div > i{
     color: #52B3D9;
 }
 
 #event-carousel p,
+#event-carousel--uni p,
 #jobs-carousel p{
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
-#event-carousel article .organizer{
+#event-carousel article .organizer {
     font-size: 1.3em;
     margin-bottom: 20px;
 }
-#event-carousel article .organizer:before{
+#event-carousel article .organizer:before {
     content: "Organiser: ";
     font-weight: bold;
     color:#52B3D9;
 }
-#event-carousel article .venue{
-    margin-bottom: 5px;
-    border-top:1px solid #ddd;
-    padding-top: 20px;
+#event-carousel article .venue,
+#event-carousel--uni article .venue {
     font-size:1.2em;
 }
-#event-carousel article .venue:before{
+#event-carousel--uni article .venue {
+    font-size:1.2em;
+}
+#event-carousel article .venue:before {
     content: "Venue: ";
     font-weight: bold;
     color:#52B3D9;
 }
+#event-carousel--uni article .venue:before {
+    content: "Venue: ";
+    font-weight: bold;
+    color: white;
+}
 #event-carousel article .startdate,
-#event-carousel article .enddate
-{
+#event-carousel article .enddate,
+#event-carousel--uni article .startdate,
+#event-carousel--uni article .enddate {
     margin-bottom:10px;
 }
-#event-carousel article .startdate:before{
-    content: "Event Start: ";
+#event-carousel article .startdate:before {
+    content: "Start: ";
     font-weight: bold;
     color:#52B3D9;
 }
-#event-carousel article .enddate:before{
-    content: "Event End: ";
+#event-carousel--uni article .startdate:before {
+    content: "Start: ";
+    font-weight: bold;
+    color: white;
+}
+#event-carousel article .enddate:before {
+    content: "Finish: ";
     font-weight: bold;
     color:#52B3D9;
+}
+#event-carousel--uni article .enddate:before {
+    content: "Finish: ";
+    font-weight: bold;
+    color: white;
 }
 #event-carousel article .btn,
+#event-carousel--uni article .btn,
 #jobs-carousel article .btn{
     margin-top:0;
+}
+#event-carousel--uni article p {
+  color: white;
+  font-weight: bold;
 }
 @media(max-width: 767px) {
     #testimonial article {
@@ -5040,15 +5089,15 @@ div.btn-group .area-filter:hover{
  */
 
 .partner-logo img {
-    opacity: 0.7;
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 10px;
+    transition: all 0.2s;
 }
 
 .partner-logo a:hover > img {
-    opacity: 1;
     border: 1px solid #52B3D9;
+    transform: scale3d(1.05, 1.05, 1);
 }
 
 @media(max-width: 767px) {
@@ -5599,5 +5648,65 @@ table.contact-overview {
 @media (min-width: 1303px){
   a.learning-area {
     font-size: 0.9em;
+  }
+}
+
+
+/*new styles*/
+.button--white {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 0;
+  border: 4px #FFF solid;
+  margin-top: 20px;
+  color: white;
+  transition: all .1s linear;
+}
+
+.button--white:hover {
+  color: #676767;
+  background-color: white;
+  letter-spacing: normal;
+}
+
+.button--grey {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 0;
+  border: 4px #676767 solid;
+  margin-top: 20px;
+  color: #676767;
+  transition: all .1s linear;
+}
+
+.button--grey:hover {
+  color: white;
+  background-color: #676767;
+  letter-spacing: normal;
+}
+
+.expanding-button--no-borders img {
+  transition: all 0.2s;
+}
+
+.expanding-button--no-borders:hover img {
+    border: 1px solid #52B3D9;
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+.side-stacker {
+  display: flex;
+  flex-direction: column;
+}
+
+@media(min-width:570px) {
+  .side-stacker--570 {
+    flex-direction: row;
+  }
+}
+
+@media(min-width:767px) {
+  .side-stacker--767 {
+    flex-direction: row;
   }
 }
