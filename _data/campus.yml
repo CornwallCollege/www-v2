@@ -126,7 +126,7 @@
       area-color: D70060
       sub-areas:
       - sub-area-title: Public Services & Military Academy
-        sub-area-link: public-services-military-academy
+        sub-area-link: military-protective-services-academy
 
       - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
@@ -363,7 +363,7 @@
         sub-area-link: sports-fitness
 
       - sub-area-title: Public Services & Military Academy
-        sub-area-link: public-services-military-academy
+        sub-area-link: military-protective-services-academy
 
       - sub-area-title: Hairdressing & Beauty Therapy
         sub-area-link: hairdressing-beauty-therapy
@@ -1002,7 +1002,7 @@
       area-color: D70060
       sub-areas:
       - sub-area-title: Public Services & Military Academy
-        sub-area-link: public-services-military-academy
+        sub-area-link: military-protective-services-academy
 
       - sub-area-title: Hairdressing & Beauty Therapy
         sub-area-link: hairdressing-beauty-therapy
@@ -1359,7 +1359,7 @@
       area-color: D70060
       sub-areas:
       - sub-area-title: Public Services & Military Academy
-        sub-area-link: public-services-military-academy
+        sub-area-link: military-protective-services-academy
 
       - sub-area-title: Sports, Fitness & Outdoor Adventure
         sub-area-link: sports-fitness
