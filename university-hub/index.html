@@ -50,48 +50,53 @@ prospectus:
 <!-- END OF HEADER -->
 
 
+<!--
 <section class="col-xs-12">
   <div class="container main-section-margins">
     <button id="portfolio-posts-btn">Load portfolio related blog posts</button>
     <div id="course-list-container"></div>
   </div>
 </section>
+-->
 
 
-<section class="col-xs-12">
-  <section class="container main-section-margins">
-    <div class="col-sm-6">
-      <a href="{{ site.url }}/course_type/he" class="button--grey">View All Courses</a>
-    </div>
-    <div class="col-sm-6">
-      <a style="color:#676767" href="tel:+443301232523">0330 123 2523</a></br>
-      <a style="color:#676767" href="mailto:uni@cornwall.ac.uk">uni@cornwall.ac.uk</a>
+  <section class="col-xs-12 container main-section-margins">
+    <div class="container">
+      <div class="side-stacker side-stacker--767">
+        <div class="col-sm-7" style="background-color:#52B3D9; color:white; padding:20px 40px 60px">
+          <h3 style="color:white">Courses</h3>
+          <p style="color:white">See what we can offer you.</p>
+          <a href="{{ site.url }}/course_type/he" class="button--white">See All Courses</a>
+        </div>
+        <div class="col-sm-5" style="background-color:#f3f3f3; padding:40px 40px 60px">
+          <a href="tel:+443301232523" class="link--grey"><i class="fa fa-phone" aria-hidden="true"></i> 0330 123 2523</a></br>
+          <a href="mailto:uni@cornwall.ac.uk" class="link--grey"><i class="fa fa-envelope" aria-hidden="true"></i> uni@cornwall.ac.uk</a>
+        </div>
+      </div>
     </div>
   </section>
-</section>
 
 {% include /university/he-events.html %}
 
 
-<!-- MONEY / ACCOMMODATION SECTION -->
-<section class="col-xs-12">
-  <section class="container main-section-margins">
-    <div class="equal-wrap">
-      <article class="col-xs-12 col-sm-6" style="padding:40px; background-color:#d97852; color:white">
-        <h3>Supporting Your Learning</h3>
-        <p style="color:white">We understand that finding the right place to live is just as important as finding the right course to study. Here at the Cornwall College Group we have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
-        <a href="{{ site.url }}/accommodation/" class="button--white">Find out more</a>
-        <i class="fa fa-users fa-5x" style="position:absolute; right:4%; top:2%; color:#c5572b"></i>
-      </article>
-
-      <article class="col-xs-12 col-sm-6" style="padding:40px; background-color:#52d978; color:white">
-        <h3>How To Apply</h3>
-        <p style="color:white">If you are planning to join us in 2018 and live in the EU you will be glad to know that our fees are set from £8,400 per year. A range of scholarships and bursaries are available.</p>
-        <a href="{{ site.url }}/student-support/financial-support/#uni-programme-applicants" class="button--white">Find out more</a>
-        <i class="fa fa-question-circle-o fa-5x" style="position:absolute; right: 4%; top:2%; color:#2bc557"></i>
-      </article>
+<section class="col-sm-12 side-stacker side-stacker--767">
+  <div class="full-width" style="background-color:#d97852; color:white">
+    <div style="position:relative; max-width:600px; margin-left:auto; padding:50px 40px 90px;">
+      <h3>Supporting Your Learning</h3>
+      <p style="color:white">We understand that finding the right place to live is just as important as finding the right course to study. We have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
+      <a href="{{ site.url }}/accommodation/" class="button--white">Find out more</a>
+      <i class="fa fa-users fa-5x" style="position:absolute; right:4%; top:5%; color:#c5572b"></i>
     </div>
-  </section>
+  </div>
+
+  <div class="full-width" style="background-color:#52d978; color:white">
+    <div style="position:relative; max-width:600px; padding:50px 40px 90px;">
+      <h3>How To Apply</h3>
+      <p style="color:white">If you are planning to join us in 2018 and live in the EU you will be glad to know that our fees are set from £8,400 per year. A range of scholarships and bursaries are available.</p>
+      <a href="{{ site.url }}/student-support/financial-support/#uni-programme-applicants" class="button--white">Find out more</a>
+      <i class="fa fa-question-circle-o fa-5x" style="position:absolute; right:4%; top:5%; color:#2bc557"></i>
+    </div>
+  </div>
 </section>
 
 
@@ -129,24 +134,24 @@ prospectus:
 {% include /university/prospectus.html %}
 
 
-<section class="col-xs-12">
-  <section class="container main-section-margins">
-    <div class="equal-wrap">
-      <article class="col-xs-12 col-sm-6" style="padding:40px; background-color:#52d978; color:white">
-        <h3>Accommodation</h3>
-        <p style="color:white">We understand that finding the right place to live is just as important as finding the right course to study. Here at the Cornwall College Group we have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
-        <a href="{{ site.url }}/accommodation/" class="button--white">Find out more</a>
-        <i class="fa fa-bed fa-5x" style="position:absolute; right: 4%; top:2%; color:#2bc557"></i>
-      </article>
-
-      <article class="col-xs-12 col-sm-6" style="padding:40px; background-color:#d97852; color:white">
-        <h3>Money</h3>
-        <p style="color:white">If you are planning to join us in 2018 and live in the EU you will be glad to know that our fees are set from £8,400 per year. A range of scholarships and bursaries are available.</p>
-        <a href="{{ site.url }}/student-support/financial-support/#uni-programme-applicants" class="button--white">Find out more</a>
-        <i class="fa fa-money fa-5x" style="position:absolute; right: 4%; top:2%; color:#c5572b"></i>
-      </article>
+<section class="col-sm-12" style="display:flex; flex-direction:row">
+  <div style="width:50%; background-color:#52d978; color:white">
+    <div style="position:relative; max-width:600px; margin-left:auto; padding:50px 40px 90px;">
+      <h3>Accommodation</h3>
+      <p style="color:white">We understand that finding the right place to live is just as important as finding the right course to study. We have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
+      <a href="{{ site.url }}/accommodation/" class="button--white">Find out more</a>
+      <i class="fa fa-bed fa-5x" style="position:absolute; right:4%; top:5%; color:#2bc557"></i>
     </div>
-  </section>
+  </div>
+
+  <div style="width:50%; background-color:#d97852; color:white">
+    <div style="position:relative; max-width:600px; padding:50px 40px 90px;">
+      <h3>Money</h3>
+      <p style="color:white">If you are planning to join us in 2018 and live in the EU you will be glad to know that our fees are set from £8,400 per year. A range of scholarships and bursaries are available.</p>
+      <a href="{{ site.url }}/student-support/financial-support/#uni-programme-applicants" class="button--white">Find out more</a>
+      <i class="fa fa-money fa-5x" style="position:absolute; right:4%; top:5%; color:#c5572b"></i>
+    </div>
+  </div>
 </section>
 
 
@@ -192,7 +197,7 @@ prospectus:
       </article>
 
 
-      <div class="col-xs-12 col-sm-4" style="margin-bottom:10px; padding:40px; background-color:#52B3D9; color:white">
+      <div class="col-xs-12 col-sm-4" style="margin-bottom:10px; padding:20px 40px; background-color:#52B3D9; color:white">
         <h3>UNISTATS</h3>
         <p style="color:white">Compare official course data from universities and colleges</p>
         <a href="https://unistats.ac.uk/" class="button--white" style="text-align:center">Find out more</a>

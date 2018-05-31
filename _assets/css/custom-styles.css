@@ -5685,6 +5685,17 @@ table.contact-overview {
   letter-spacing: normal;
 }
 
+.link--grey {
+  color: #676767;
+  font-size: 1.8em;
+  transition: all .1s linear;
+}
+
+.link--grey:hover {
+  color: black;
+  letter-spacing: 0;
+}
+
 .expanding-button--no-borders img {
   transition: all 0.2s;
 }
@@ -5708,5 +5719,15 @@ table.contact-overview {
 @media(min-width:767px) {
   .side-stacker--767 {
     flex-direction: row;
+  }
+}
+
+.side-stacker .full-width {
+  width:100%;
+}
+
+@media(min-width:767px) {
+  .side-stacker--767 .full-width {
+    width: 50%;
   }
 }
