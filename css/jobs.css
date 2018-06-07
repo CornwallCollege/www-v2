@@ -121,11 +121,7 @@ table.page_header td.page_title h1{
     font-size: 32px;
     text-align: center!important;
 }
-.theader {
-    border-bottom: solid 1px #eee!important;
-}
 table.sect_header td.theader{
-    padding-bottom: 15px;
     border-top:none;
     border-bottom:none;
     border-left:none;
@@ -553,11 +549,6 @@ h2 span {
         width :100%;
     }
 }
-@media (min-width: 1200px) {
-    #wr_outer {
-        width:1170px
-    }
-}
 
 .header__images img {
   width: 80%;
@@ -565,7 +556,7 @@ h2 span {
 }
 
 @media (min-width: 600px) {
-  .header__images {
+  .header__images img {
     width: 24%
   }
 }
@@ -588,3 +579,19 @@ h2 span {
   width: 30%;
   margin: 1%;
 }
+
+.button--grey {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 0;
+  border: 4px #676767 solid;
+  margin-top: 20px;
+  color: #676767;
+  transition: all .1s linear;
+}
+
+.button--grey:hover {
+  color: white;
+  background-color: #676767;
+  letter-spacing: normal;
+} 
