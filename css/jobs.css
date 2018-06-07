@@ -70,7 +70,7 @@ input.standard_bu{
     font-weight: 300;
     font-size: 18px;
     font-family: Raleway,serif
-    
+
 }
 .page_title{
  /*   display: none;*/
@@ -125,15 +125,15 @@ table.page_header td.page_title h1{
     border-bottom: solid 1px #eee!important;
 }
 table.sect_header td.theader{
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
     border-top:none;
     border-bottom:none;
     border-left:none;
-    border-right: none;    
+    border-right: none;
 }
 table td.sect_header{
     padding: 0px 30px;
-} 
+}
 .sect_header > tbody >tr >td,
 .desc{
     padding:0 30px;
@@ -143,12 +143,10 @@ table.page_header{
     border:white!important;
 }
 table.sect_header{
-    border: solid 2px #eee!important;
+    border: none;
     margin:10px 0;
 }
-table.sect_header:hover{
-    border: solid 2px #52b3d9!important;
-}
+
 .desc {
     padding:25px 30px 10px 30px!important;
 }
@@ -285,7 +283,7 @@ img .brand-image {
     opacity: 1;
     padding-top: 225px;
     height: 370px;
-    text-align:left;    
+    text-align:left;
 }
 h2 {
     font-size: 40px;
@@ -520,22 +518,12 @@ h2 span {
 }
 
 /*MEDIA QUERY*/
-
-@media (min-width: 768px) {
-    #wr_outer {
-        width:750px
-    }
-}
 @media(max-width:600px){
     .sub-brand {
         display: none;
-    }    
-}
-@media (min-width: 992px) {
-    #wr_outer {
-        width:970px
     }
 }
+
 @media (max-width:1024px){
     dl.inline dd, dl.inline dt {
         display: block;
@@ -545,28 +533,58 @@ h2 span {
     }
     td div.standard_bu {
         display: block;
-    }  
+    }
     .sub-brand {
         top: 15px;
-        }    
+        }
     .sub-brand img {
         width: 80px;
         height: 80px;
-    }   
+    }
     .current-brand img {
         width: 120px;
         height: 120px;
-        top: 15px;        
+        top: 15px;
     }
 }
 @media (min-width:1025px){
     #fixednavigation ul {
         padding: 15px 0;
         width :100%;
-    }  
+    }
 }
 @media (min-width: 1200px) {
     #wr_outer {
         width:1170px
     }
+}
+
+.header__images img {
+  width: 80%;
+  margin: 12px;
+}
+
+@media (min-width: 600px) {
+  .header__images {
+    width: 24%
+  }
+}
+
+.footer__images {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 600px) {
+  .footer__images {
+    width: 24%;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+}
+
+.footer__images img {
+  width: 30%;
+  margin: 1%;
 }
