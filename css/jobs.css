@@ -23,9 +23,10 @@ tr.wr_usertext td{
     font-size: 18px
 }
 td.label{
-    color: #52b3d9;
+    display:block;
     margin:10px 0;
-    display:block
+    text-align: right;
+    font-size: 1em;
 }
 body,
 table.page_header,
@@ -550,15 +551,22 @@ h2 span {
     }
 }
 
-.header__images img {
+.header__images {
   width: 80%;
-  margin: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 600px) {
   .header__images img {
-    width: 24%
+    width: 24%;
+    margin-left: 20px;
   }
+}
+
+.header__images img {
+  width: 100%;
+  margin: 1%
 }
 
 .footer__images {
@@ -594,4 +602,4 @@ h2 span {
   color: white;
   background-color: #676767;
   letter-spacing: normal;
-} 
+}
