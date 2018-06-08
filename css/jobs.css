@@ -25,6 +25,7 @@ tr.wr_usertext td{
 td.label{
     display:block;
     margin:10px 0;
+    color: #333;
     text-align: right;
     font-size: 1em;
 }
@@ -558,7 +559,7 @@ h2 span {
 }
 
 @media (min-width: 600px) {
-  .header__images img {
+  .header__images {
     width: 24%;
     margin-left: 20px;
   }
