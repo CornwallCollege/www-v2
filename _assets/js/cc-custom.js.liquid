@@ -1399,6 +1399,8 @@ $(document).ready(function(){
     var portfolioPostsBtn = document.getElementById("portfolio-posts-btn");
     var courseListContainer = document.getElementById("course-list-container");
 
+
+
 /*
     if (portfolioPostsBtn) {
       portfolioPostsBtn.addEventListener("click", function() {
@@ -1425,6 +1427,7 @@ $(document).ready(function(){
 */
 
     function createHTML(postsData) {
+      var alphabeticalCourses = {};
       var unorderedData = [];
       var letters = [];
       var ourHTMLString ='';
@@ -1434,27 +1437,40 @@ $(document).ready(function(){
       var a ='';
 
       for (i = 0; i < postsData.length; i++) {
-        var regex = new RegExp(/^(BA \(hons\)|FdA|BSc \(Hons\)|FdSc|HNC \/ HND|HNC|HND|MSc) (.+)/, "i")
-        unorderedData[i] = postsData[i].title.rendered.replace(regex, "$2 $1") + postsData[i].link;
+        var regex = new RegExp(/^(BA \(hons\)|FdA|BSc \(Hons\)|FdSc|HNC \/ HND|HNC|HND|MSc) (.+)/, "i");
+        var displayTitle = postsData[i].title.rendered.replace(regex, "$2 $1");
+        postsData[i].displayTitle = displayTitle;
+        unorderedData[i] = displayTitle;
+        var letter = displayTitle.charAt(0).toLowerCase();
+        if (!alphabeticalCourses[letter]) {
+          alphabeticalCourses[letter] = [];
+        }
+        alphabeticalCourses[letter].push(postsData[i]);
       }
+      console.log(alphabeticalCourses);
 
       unorderedData.sort();
 
-      for (j = 0; j < unorderedData.length; j++) {
-        letters[j] = unorderedData[j].charAt(0);
-        if (letters[j] != singleLetter) {
-          ourHTMLString += '<button id="' + unorderedData[j] + '">' + letters[j] + '</button>';
-        }
-        singleLetter = letters[j];
-      }
-
-      courseListContainer.innerHTML = ourHTMLString;
-
-      for (k = 0; k < unorderedData.length; k++) {
-        if (courseGrouping = unorderedData[k].charAt(0)) {
-          a += '<a id="' + unorderedData[k] + '">' + letters[k] + '</a>';
-        }
-      }
+      // for (j = 0; j < unorderedData.length; j++) {
+      //   letters[j] = unorderedData[j].charAt(0);
+      //   if (letters[j] != singleLetter) {
+      //     ourHTMLString += '<button id="' + unorderedData[j] + '">' + letters[j] + '</button>';
+      //   }
+      //   singleLetter = letters[j];
+      // }
+      Object.keys(alphabeticalCourses).sort().forEach(function(letter) {
+         ourHTMLString += '<button class="js-course-letter-button" data-course-letter="' + letter + '">' + letter + '</button>';
+      })
+      //courseListContainer.innerHTML = ourHTMLString;
+      $("#course-list-container").html(ourHTMLString);
+      $("#course-list-container button").on("click",function(e){
+        console.log("click" + $(e.currentTarget).data("course-letter"));
+      })
+      // for (k = 0; k < unorderedData.length; k++) {
+      //   if (courseGrouping = unorderedData[k].charAt(0)) {
+      //     a += '<a id="' + unorderedData[k] + '">' + letters[k] + '</a>';
+      //   }
+      // }
 
     }
 
