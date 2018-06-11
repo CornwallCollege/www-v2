@@ -5708,6 +5708,12 @@ table.contact-overview {
 .side-stacker {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.side-stacker p,
+.side-stacker i {
+  display: none;
 }
 
 @media(min-width:570px) {
@@ -5719,6 +5725,14 @@ table.contact-overview {
 @media(min-width:767px) {
   .side-stacker--767 {
     flex-direction: row;
+    text-align: left;
+  }
+
+  .side-stacker p {
+    display: block;
+  }
+  .side-stacker i {
+    display: inline;
   }
 }
 
