@@ -66,7 +66,7 @@ div.rpg_standard_bu{
 }
 
 a.rpg_standard_bu,
-input.standard_bu{
+input.standard_bu {
     padding: 8px 12px;
     border-radius: 0;
     border: 4px #FFF solid;
@@ -77,11 +77,13 @@ input.standard_bu{
     font-family: Raleway,serif;
     transition: all .1s linear;
 }
+
 a.rpg_standard_bu:hover,
 input.standard_bu:hover {
     color: white;
     background-color: #676767;
 }
+
 .page_title{
  /*   display: none;*/
     font-family: Raleway,serif;
@@ -125,14 +127,6 @@ table.page_header td.page_title h1{
 #fixednavigation ul li:hover a{
     display: inherit;
     color: white!important;
-}
-
-@media (max-width: 1024px) {
-  .loginbox td {
-      text-align: left;
-      display: block;
-  }
-}
     text-decoration: none!important;
 }
 .theader h2 a,
