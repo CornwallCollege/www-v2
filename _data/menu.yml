@@ -95,7 +95,7 @@
         sub-menu-link: about-pages/open-public.html
 
       - sub-menu-name: "Jobs at the College"
-        sub-menu-link: governance/jobs/
+        sub-menu-link: https://jobs.cornwall.ac.uk
 
       - sub-menu-name: "News & Media Centre"
         sub-menu-link: news
