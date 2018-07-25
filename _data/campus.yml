@@ -402,7 +402,7 @@
       area-color: 00A1CB
       sub-areas:
       - sub-area-title: Construction Trades
-        sub-area-link: construction-trades
+        sub-area-link: construction
 
       - sub-area-title: Motor Vehicle
         sub-area-link: motor-vehicle
@@ -1035,7 +1035,7 @@
       area-color: 00A1CB
       sub-areas:
       - sub-area-title: Construction Trades
-        sub-area-link: construction-trades
+        sub-area-link: construction
 
       - sub-area-title: Engineering &amp; Electrical
         sub-area-link: engineering
@@ -1220,7 +1220,7 @@
       area-color: 00A1CB
       sub-areas:
       - sub-area-title: Construction Trades
-        sub-area-link: construction-trades
+        sub-area-link: construction
 
       - sub-area-title: Motor Vehicle
         sub-area-link: motor-vehicle
