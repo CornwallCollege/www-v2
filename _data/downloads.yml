@@ -1,59 +1,3 @@
-  #Transport Information and Application Form: Cornwall College and Falmouth Marine School
-- title: Transport Information and Application Form&#58; Cornwall College and Falmouth Marine School # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Cornwall-College-Falmouth-Marine-School-Transport-Information-and-Application-Form-16-18.pdf
-  colour: 77BC43
-
-  #Transport Information and Application Form: Bicton College
-- title: Transport Information and Application Form&#58; Bicton College # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Bicton-College-Transport-Information-and-Application-Form-16-18.pdf
-  colour: 77BC43
-
-  #Transport Information and Application Form: Duchy College Stoke Climsland
-- title: Transport Information and Application Form&#58; Duchy College Stoke Climsland # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Duchy-College-Stoke-Climsland-Transport-Information-and-Application-Form-16-18.pdf
-  colour: 77BC43
-
-  #Transport Information and Application Form: Duchy College Rosewarne
-- title: Transport Information and Application Form&#58; Duchy College Rosewarne # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Duchy-College-Rosewarne-Transport-Information-and-Application-Form-16-18.pdf
-  colour: 77BC43
-
-  #Funding Information and Application Form: Cornwall College and Falmouth Marine School
-- title: Funding Information and Application Form&#58; Cornwall College and Falmouth Marine School #Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Cornwall-College-Falmouth-Marine-School-Funding-Information-and-Application-Form-19.pdf
-  colour: 77BC43
-
-  #Funding Information and Application Form: Bicton College
-- title: Funding Information and Application Form&#58; Bicton College #Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Bicton-College-Funding-Information-and-Application-Form-19.pdf
-  colour: 77BC43
-
-  #Funding Information and Application Form: Duchy College Stoke Climsland
-- title: Funding Information and Application Form&#58; Duchy College Stoke Climsland #Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Duchy-College-Stoke-Climsland-Funding-Information-and-Application-Form-19.pdf
-  colour: 77BC43
-
-  #Funding Information and Application Form: Duchy College Rosewarne
-- title: Funding Information and Application Form&#58; Duchy College Rosewarne #Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Duchy-College-Rosewarne-Funding-Information-and-Application-Form-19.pdf
-  colour: 77BC43
-
   #Funding Information and Application Form: Further Education Funding Support Policy
 - title: Further Education Funding Support Policy #Document name
   type: Word # Document type
@@ -66,13 +10,6 @@
   type: Word # Document type
   category: application-forms # Document category
   download-link: /documents/application-form/Childcare-Support-Information-and-Application-Form.pdf
-  colour: 77BC43
-
-  #Travel to Bicton College Application Form
-- title: Travel to Bicton College Application Form  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/travel-to-bicton-college-application-form.pdf
   colour: 77BC43
 
   #TCCG access agreement 2017-2018
@@ -96,13 +33,6 @@
   download-link: /documents/application-form/CC Leisure Application Form.pdf
   colour: 77BC43
 
-  #Sports Application(1)
-- title: Sports Application  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Sports Application(1).pdf
-  colour: 77BC43
-
   #STAC Room Booking Form
 - title: Cornwall College St Austell Room Booking Form  # Document name
   type: Excel Spreadsheet # Document type
@@ -124,27 +54,6 @@
   download-link: /documents/application-form/Unaffiliated Dressage ENTRY FORM-test5.pdf
   colour: 77BC43
 
-    #30 x iamdigital Booklets
-- title: I am Digital Guide # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/30 x iamdigital Booklets.pdf
-  colour: 004B93
-
-  #05336JW0315_CCB_Higher_Skills_Food_flyer
-- title: Cornwall College Business Higher Skills Food Flyer # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05336JW0315_CCB_Higher_Skills_Food_flyer.pdf
-  colour: 004B93
-
-  #05352JW0315_CCC_GasOil_flyer
-- title: Cornwall College Camborne GasOil Flyer # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05352JW0315_CCC_GasOil_flyer.pdf
-  colour: 004B93
-
   #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4
 - title: TCCG Apprenticeship Tips # Document name
   type: PDF # Document type
@@ -157,265 +66,6 @@
   type: PDF # Document type
   category: course-documents # Document category
   download-link: /documents/course-documents/CC UP Infographic ESF Dissemination.pdf
-  colour: 004B93
-
-  #ILM Course Outline
-- title: ILM Course Outline # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/ILM Course Outline.pdf
-  colour: 004B93
-
-  #Operational Specification - HNC Marine Engineering
-- title: Operational Specification - HNC Marine Engineering # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Operational Specification - HNC Marine Engineering.docx
-  colour: 004B93
-
-  #Programme_Quality_BA Contemporary Creative Practice
-- title: Programme Quality BA Contemporary Creative Practice # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BA Contemporary Creative Practice.docx
-  colour: 004B93
-
-  #Programme_Quality_BA Counselling Studies
-- title: Programme Quality BA Counselling Studies # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BA Counselling Studies.docx
-  colour: 004B93
-
-  #Programme_Quality_BSc Applied Zoology and Conservation
-- title: Programme Quality BSc Applied Zoology and Conservation # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BSc Applied Zoology and Conservation.docx
-  colour: 004B93
-
-  #Programme_Quality_BSc Applied Zoology
-- title: Programme Quality BSc Applied Zoology # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BSc Applied Zoology.docx
-  colour: 004B93
-
-  #Programme_Quality_BSc Environmental Resource Management_0
-- title: Programme Quality BSc Environmental Resource Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BSc Environmental Resource Management_0.docx
-  colour: 004B93
-
-  #Programme_Quality_BSc Renewable Energy and Carbon Management
-- title: Programme Quality BSc Renewable Energy and Carbon Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BSc Renewable Energy and Carbon Management.docx
-  colour: 004B93
-
-  #Programme_Quality_BSc Sports Performance and Coaching
-- title: Programme Quality BSc Sports Performance and Coaching # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_BSc Sports Performance and Coaching.docx
-  colour: 004B93
-
-  #Programme_Quality_Certificate in Advanced Counselling Studies
-- title: Programme Quality Certificate in Advanced Counselling Studies # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_Certificate in Advanced Counselling Studies.docx
-  colour: 004B93
-
-  #Programme_Quality_Diploma in Person-Centred Counselling and Therapy
-- title: Programme Quality Diploma in Person-Centred Counselling and Therapy # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_Diploma in Person-Centred Counselling and Therapy.docx
-  colour: 004B93
-
-  #Programme_Quality_FdA Children and Young Peoples Workforce
-- title: Programme Quality FdA Children and Young Peoples Workforce # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdA Children and Young Peoples Workforce.docx
-  colour: 004B93
-
-  #Programme_Quality_FdA Children and Young Peoples Workforce
-- title: Programme Quality FdA Children and Young Peoples Workforce # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdA Children and Young Peoples Workforce.docx
-  colour: 004B93
-
-  #Programme_Quality_FdA Contemporary Creative Practice
-- title: Programme Quality FdA Contemporary Creative Practice # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdA Contemporary Creative Practice.docx
-  colour: 004B93
-
-  #Programme_Quality_FdA Early Childhood Studies
-- title: Programme Quality FdA Early Childhood Studies # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdA Early Childhood Studies.docx
-  colour: 004B93
-
-  #Programme_Quality_FdA Event Management
-- title: Programme Quality FdA Event Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdA Event Management.docx
-  colour: 004B93
-
-  #Programme_Quality_FdA Hospitality and Tourism Management
-- title: Programme Quality FdA Hospitality and Tourism Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdA Hospitality and Tourism Management.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Animal Behaviour and Psychology
-- title: Programme Quality FdSc Animal Behaviour and Psychology # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Animal Behaviour and Psychology.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Animal Health and Management
-- title: Programme Quality FdSc Animal Health and Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Animal Health and Management.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Animal Husbandry and Welfare
-- title: Programme Quality FdSc Animal Husbandry and Welfare # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Animal Husbandry and Welfare.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Computing, Networking and Software Development
-- title: Programme Quality FdSc Computing, Networking and Software Development # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Computing, Networking and Software Development.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Conservation and Ecology
-- title: Programme Quality FdSc Conservation and Ecology # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Conservation and Ecology.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Engineering
-- title: Programme Quality FdSc Engineering # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Engineering.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Marine Conservation
-- title: Programme Quality FdSc Marine Conservation # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Marine Conservation.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Sport Health and Fitness
-- title: Programme Quality FdSc Sport Health and Fitness # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Sport Health and Fitness.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Sports Development and Coaching
-- title: Programme Quality FdSc Sports Development and Coaching # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Sports Development and Coaching.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Surf Science and Technology
-- title: Programme Quality FdSc Surf Science and Technology # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Surf Science and Technology.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Wildlife Education and Media
-- title: Programme Quality FdSc Wildlife Education and Media # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Wildlife Education and Media.docx
-  colour: 004B93
-
-  #Programme_Quality_FdSc Zoological Conservation
-- title: Programme Quality FdSc Zoological Conservation # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_FdSc Zoological Conservation.docx
-  colour: 004B93
-
-  #Programme_Quality_HNC Children and Young Peoples Workforce
-- title: Programme Quality HNC Children and Young Peoples Workforce # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNC Children and Young Peoples Workforce.docx
-  colour: 004B93
-
-  #Programme_Quality_HNC Engineering
-- title: Programme Quality HNC Engineering # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNC Engineering.docx
-  colour: 004B93
-
-  #Programme_Quality_HNC Marine Leisure Management_0
-- title: Programme Quality HNC Marine Leisure Management # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNC Marine Leisure Management_0.docx
-  colour: 004B93
-
-  #Programme_Quality_HNCD DJ and Electronic Music Production
-- title: Programme Quality HNCD DJ and Electronic Music Production # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNCD DJ and Electronic Music Production.docx
-  colour: 004B93
-
-  #Programme_Quality_HNCD Games Design for Industry_0
-- title: Programme Quality HNCD Games Design for Industry # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNCD Games Design for Industry_0.docx
-  colour: 004B93
-
-  #Programme_Quality_HNCD Media Production
-- title: Programme Quality HNCD Media Production # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNCD Media Production.docx
-  colour: 004B93
-
-  #Programme_Quality_HNCD Music for Film and Television
-- title: Programme Quality HNCD Music for Film and Television # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNCD Music for Film and Television.docx
-  colour: 004B93
-
-  #Programme_Quality_HNCD Music Performance and Technology
-- title: Programme Quality HNCD Music Performance and Technology # Document name
-  type: Word # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/Programme_Quality_HNCD Music Performance and Technology.docx
   colour: 004B93
 
   #End of Course Documents section
@@ -437,13 +87,6 @@
   download-link: /documents/guides/Professional-and-Skills-Training-Guide-for-Adults-2018.pdf
   colour: 00A5B4
 
-  #Accommodation info for HE students
-- title: Accommodation Guide for University Students # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Accommodation-Guide-University-2017-18.pdf
-  colour: 00A5B4
-
   #Advanced Learning Loans leaflet
 - title: Advanced Learning Loans Information Leaflet # Document name
   type: PDF # Document type
@@ -456,27 +99,6 @@
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Advanced-Learner-Loans-Fees-Policy-2017.pdf
-  colour: 00A5B4
-
-  #Animal_Care
-- title: Animal Care # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Animal_Care.pdf
-  colour: 00A5B4
-
-  #apprenticeship_food_drink_flyer
-- title: Apprenticeship Food and Drink Flyer # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/apprenticeship_food_drink_flyer.pdf
-  colour: 00A5B4
-
-  #CC A-level A5 folded Talker 1
-- title: Cornwall College A-level Flyer # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CC A-level A5 folded Talker 1.pdf
   colour: 00A5B4
 
   #CC HE T&C's 2016
@@ -547,34 +169,6 @@
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/FOI__Guide_to__information__CC.pdf
-  colour: 00A5B4
-
-  #game_wildlife_management
-- title: Game Wildlife Management # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/game_wildlife_management.pdf
-  colour: 00A5B4
-
-  #meat_and_poultry
-- title: Meat and Poultry Industry Qualification # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/meat_and_poultry.pdf
-  colour: 00A5B4
-
-  #The Business Space Launceston Location Sheet
-- title: The Business Space Launceston Location Sheet # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/The Business Space Launceston Location Sheet.pdf
-  colour: 00A5B4
-
-  #ts_and_cs_accom(1)
-- title: Terms and Conditions Accommodation # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/ts_and_cs_-_accom(1).pdf
   colour: 00A5B4
 
   #0157JW0716_CC_Student_Guide_2017
@@ -651,105 +245,7 @@
   download-link: /documents/newsletters/TCCG_education_news_2018.pdf
   colour: e69900
 
-  #04350JW0614_CC_STEM_Journal_5
-- title: Cornwall College STEM Journal 5 # Document name
-  type: PDF # Document type
-  category: newsletter # Document category
-  download-link: /documents/newsletters/04350JW0614_CC_STEM_Journal_5.pdf
-  colour: e69900
-
-  #03796JW0813_CC_STEM_Journal_4
-- title: Cornwall College STEM Journal 4 # Document name
-  type: PDF # Document type
-  category: newsletter # Document category
-  download-link: /documents/newsletters/03796JW0813_CC_STEM_Journal_4.pdf
-  colour: e69900
-
-  #SINNG_Newsletter_01_0
-- title: SINNG Journal 1 # Document name
-  type: PDF # Document type
-  category: newsletter # Document category
-  download-link: /documents/newsletters/sinng_newsletter.pdf
-  colour: e69900
-
   # End of newsletters
-
-  #05411JW0515_Koko_Pamper_Days_leaflet
-- title: Koko Pamper Days Leaflet # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/05411JW0515_Koko_Pamper_Days_leaflet.pdf
-  colour: 961313
-
-  #05682JW1015_TCCG_Counselling_leaflet
-- title: The Cornwall College Group Counselling Leaflet # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/05682JW1015_TCCG_Counselling_leaflet.pdf
-  colour: 961313
-
-  #beauty landscape
-- title: Koko Beauty Treatments Price List # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/beauty landscape.pdf
-  colour: 961313
-
-  #Cloisters opening times
-- title: Cloisters Restaurant Opening Times # Document name
-  type: pdf # Document type
-  category: other # Document category
-  download-link: /documents/cloisters-menus/opening-times.pdf
-  colour: 961313
-
-  #Cloisters lunch menu
-- title: Cloisters Restaurant Lunch Menu # Document name
-  type: pdf # Document type
-  category: other # Document category
-  download-link: /documents/cloisters-menus/lunch-menu.pdf
-  colour: 961313
-
-  #Cloisters drinks list
-- title: Cloisters Restaurant Drinks list # Document name
-  type: pdf # Document type
-  category: other # Document category
-  download-link: /documents/cloisters-menus/drinks-list.pdf
-  colour: 961313
-
-  #Cloisters Wine List
-- title: Cloisters Restaurant Wine List # Document name
-  type: pdf # Document type
-  category: other # Document category
-  download-link: /documents/cloisters-menus/wine-list.pdf
-  colour: 961313
-
-  #Cloisters Christmas Menu
-- title: Cloisters Restaurant Christmas Menu # Document name
-  type: pdf # Document type
-  category: other # Document category
-  download-link: /documents/cloisters-menus/christmas-2018-menu.pdf
-  colour: 961313
-
-  #Cornwall final web
-- title: Cornwall Business App # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Cornwall final web.pdf
-  colour: 961313
-
-  #koko price list
-- title: Koko Hair and Beauty Price List # Document name
-  type: PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/koko price list.pdf
-  colour: 961313
-
-  #Nails landscape
-- title: Koko Nails Services Price List # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Nails landscape.pdf
-  colour: 961313
 
   #Student_Complaints_Procedure_V9
 - title: Student Complaints Procedure # Document name
@@ -765,46 +261,11 @@
   download-link: /documents/other/Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15.pdf
   colour: 961313
 
-  #TCCG_Counselling_leaflet
-- title: The Cornwall College Group Counselling Leaflet # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/TCCG_Counselling_leaflet.pdf
-  colour: 961313
-
   #Web Version Safeguarding Policy and Procedures
 - title: Web Version Safeguarding Policy and Procedures # Document name
   type:  Word # Document type
   category: other # Document category
   download-link: /documents/other/web-version-safeguarding-policy-procedures.doc
-  colour: 961313
-
-  #Young Mums Will Achieve Leaflet
-- title: Young Mums Will Achieve Leaflet # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Young Mums Will Achieve Leaflet.pdf
-  colour: 961313
-
-  #Student Transport Policy
-- title: Student Transport Policy # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Student_Transport_Policy_2017-18.pdf
-  colour: 961313
-
-  #Bicton Doc 26.11.14
-- title: Bicton College Information Booklet 1 # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Bicton Doc 26.11.14.pdf
-  colour: 961313
-
-  #Bicton Doc V2 01.04.15
-- title: Bicton College Information Booklet 2 # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Bicton Doc V2 01.04.15.pdf
   colour: 961313
 
   #CC SI MLW Complete
@@ -902,20 +363,6 @@
 
   # End of Policies
 
-  #Duchy College & Bicton College Undergraduate Prospectus 2018
-- title: Duchy College & Bicton College Undergraduate Prospectus 2018 # Document name
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/duchy-college-bicton-college-undergraduate-prospectus-2018.pdf
-  colour: e8d045
-
-  #The Cornwall College Group Undergraduate Prospectus 2018
-- title: The Cornwall College Group Undergraduate Prospectus 2018 # Document name
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2018.pdf
-  colour: e8d045
-
   #Duchy College & Bicton College Undergraduate Prospectus 2019
 - title: Duchy College & Bicton College Undergraduate Prospectus 2019 # Document name
   type:  PDF # Document type
@@ -930,32 +377,25 @@
   download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2019.pdf
   colour: e8d045
 
-  #Cornwall College FE Prospectus 2018
-- title: Cornwall College Further Education Prospectus 2018 # Document name
+  #Cornwall College FE Prospectus 2019
+- title: Cornwall College Further Education Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2018.pdf
+  download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2019.pdf
   colour: e8d045
 
-  #Duchy College FE Prospectus 2018
-- title: Duchy College & Bicton College Further Education Prospectus 2018 # Document name
+  #Duchy College FE Prospectus 2019
+- title: Duchy College & Bicton College Further Education Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/duchy-bicton-college-further-education-prospectus-2018.pdf
+  download-link: /documents/prospectuses/duchy-bicton-college-further-education-prospectus-2019.pdf
   colour: e8d045
 
-  #FMS FE Prospectus 2018
-- title: Falmouth Marine School Further Education Prospectus 2018 # Document name
+  #FMS FE Prospectus 2019
+- title: Falmouth Marine School Further Education Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2018.pdf
-  colour: e8d045
-
-    #Access to HE flyer
-- title: Access to Higher Education Flyer
-  type:  PDF # Document type
-  category: prospectuses # Document category
-  download-link: /documents/prospectuses/2018-access-to-he-leaflet.pdf
+  download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2019.pdf
   colour: e8d045
 
   #End of Prospectuses
@@ -965,13 +405,6 @@
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
-  colour: bc77ee
-
-  #Bicton Doc V3 05.08.15 (Final)
-- title: Bicton College Information Booklet 3
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Bicton Doc V3 05.08.15 (Final).pdf
   colour: bc77ee
 
   #CC Annual Report
@@ -986,41 +419,6 @@
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/CC SI Update 2015.pdf
-  colour: bc77ee
-
-  #Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy
-- title: Coastal Academies Report 2015 final 2 Tanya Ovenden-Hope and Rowena Passy
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Coastal Academies Report_2015_final_2 Tanya Ovenden-Hope and Rowena Passy.pdf
-  colour: bc77ee
-
-  #College Charter
-- title: College Charter
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/CollegeCharter.pdf
-  colour: bc77ee
-
-  #Cornwall College - 31 July 2015 - Signed
-- title: Cornwall College Board Report 2015
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Cornwall College - 31 July 2015 - Signed.pdf
-  colour: bc77ee
-
-  #Cornwall College Further Education Corporation
-- title: Cornwall College Further Education Corporation
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Cornwall College Further Education Corporation.pdf
-  colour: bc77ee
-
-  #Embedding Brilliant Learning
-- title: Embedding Brilliant Learning
-  type:  Word # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Embedding Brilliant Learning.docx
   colour: bc77ee
 
   #Scholarship_Report_2008-2009
