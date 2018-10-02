@@ -3629,21 +3629,6 @@ APPLY BARS =====================================================================
 .public-filter ul .nursery:hover h3 {
     color: #2ecc71;
 }
-
-
-.public-filter ul .football-academy a {
-    border-color: #e67e22;
-    background-color: #e67e22;
-}
-
-.public-filter ul .football-academy a:hover {
-    border-color: #e67e22;
-    color: #e67e22;
-}
-
-.public-filter ul .football-academy:hover h3 {
-    color: #e67e22;
-}
 /* Cluster colors ends*/
 
 /* Cluster Tile Background Pictures */
@@ -3768,15 +3753,6 @@ APPLY BARS =====================================================================
 
   .public-filter ul .nursery h3 {
       background-color: #2ecc71;
-  }
-
-
-  .public-filter ul .football-academy a {
-      background-image: url(/images/public/football-academy.jpg);
-  }
-
-  .public-filter ul .football-academy h3 {
-      background-color: #e67e22;
   }
 }
 
