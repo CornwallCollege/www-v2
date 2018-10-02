@@ -145,7 +145,7 @@
 
 - business: "Childcare"
   color: f39c12
-  class: col-xs-12 col-sm-3
+  class: col-xs-12 col-sm-4
   short: flying
   image: /images/public/childcare.jpg
   href: /public/childcare.html
@@ -170,7 +170,7 @@
 
 - business: Cloisters Restaurant
   color: e74c3c
-  class: col-xs-12 col-sm-3
+  class: col-xs-12 col-sm-4
   short: cloisters
   image: /images/public/cloisters.jpg
   href: /public/cloisters-restaurant.html
@@ -208,7 +208,7 @@
 
 - business: "Venue Hire"
   color: c0392b
-  class: col-xs-12 col-sm-3
+  class: col-xs-12 col-sm-4
   short: room
   image: /images/public/venue-hire.jpg
   href: /public/venue-hire.html
@@ -219,7 +219,7 @@
 
 - business: "Trevenson Restaurant"
   color: 5f5f5f
-  class: col-xs-12 col-sm-3
+  class: col-xs-12 col-sm-4
   short: trevenson
   logo: /images/public/trevenson-logo.jpg
   image: /images/public/food-all-in-one.jpg
