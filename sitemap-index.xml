@@ -10,17 +10,26 @@
        </sitemap>
        <sitemap>
           <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-leisure.xml</loc>
-       </sitemap>            
+       </sitemap>
        <sitemap>
           <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-governance.xml</loc>
-       </sitemap>  
+       </sitemap>
        <sitemap>
           <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-news.xml</loc>
-       </sitemap> 
+       </sitemap>
        <sitemap>
           <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-student-support.xml</loc>
-       </sitemap>  
+       </sitemap>
        <sitemap>
           <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-events.xml</loc>
-       </sitemap>        
+       </sitemap>
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-campaign.xml</loc>
+       </sitemap>
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-join-in.xml</loc>
+       </sitemap>
+       <sitemap>
+          <loc>{{site.url}}/wp-sitemaps/sitemap-{{site.hash}}-uni-join-in.xml</loc>
+       </sitemap>
    </sitemapindex>
