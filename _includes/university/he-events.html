@@ -1,19 +1,30 @@
-<section id="event" class="col-xs-12 main-section-margins">
-  <div class="container">
-    <div class="side-stacker side-stacker--767">
-      <div class="col-xs-12 col-sm-5 intro" style="background-color:#f3f3f3; padding:20px 40px">
-        <h3 style="color:#676767; text-align:left">Open Days</h3>
+<section id="event" class="col-sm-4 pull-right">
+  <div style="background-color:#ccecf0">
+    <div class="intro" style="background-color:#f3f3f3; padding:20px 40px">
+      <h3 style="color:#676767; text-align:left">Open Days</h3>
 
-        <p style="font-weight:bolder">Get a feel for the place by coming along to one of our open day</p>
+      <p style="font-weight:bolder">Get a feel for the place by coming along to one of our open day</p>
 
-        <a href="{{ site.url }}/events/whats-on" class="button--grey">See All Events</a>
-      </div>
-
-      <div class="col-xs-12 col-sm-7" style="background-color:#d15aaf">
-        <section id="event-carousel--uni" style="display: none" class="owl-carousel event-carousel owl-theme" data-event-campus-id="{{page.event_campus}}"></section>
-
-        <section id="no-events" class="owl-theme" data-event-cat-id="{{ page.event_cat_id }}">    <h2 style="margin-top:22%;">Sorry no events to display.</h2></section>
-      </div>
+      <a href="{{ site.url }}/events/whats-on" class="button--grey">See All Events</a>
     </div>
+
+    <section id="event-carousel--uni" style="display: none" class="owl-carousel event-carousel owl-theme" data-event-campus-id="{{page.event_campus}}"></section>
+
+    <section id="no-events" class="owl-theme" data-event-cat-id="{{ page.event_cat_id }}">    <h2 style="margin-top:22%;">Sorry no events to display.</h2></section>
   </div>
+
+  <div class="main-section-margins" style="margin-bottom:10px; padding:20px 40px; background-color:#99d9e1; color:#676767">
+    <h3>Useful Info</h3>
+    <a href="/governance/useful-info/" class="button--grey" style="text-align:center">Find out more</a>
+  </div>
+
+  <div class="main-section-margins" style="margin-bottom:10px; padding:20px 40px; background-color:#99d9e1; color:#676767">
+    <h3>UNISTATS</h3>
+    <p style="color:#676767">Compare official course data from universities and colleges</p>
+    <a href="https://unistats.ac.uk/" class="button--grey" style="text-align:center">Find out more</a>
+  </div>
+
+  <a href="/campaign/landing-page/tef/" title='TEF logo' class="expanding-button--no-borders">
+    <img src="/images/university-hub/TEF-Silver-logo.jpg" class="img-responsive" style="width:90%; margin-left:auto; margin-right:auto">
+  </a>
 </section>
