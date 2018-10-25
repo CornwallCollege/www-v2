@@ -560,12 +560,12 @@
       search-link: arts-media
       intro: "Whether it's your passion to perform or create beautiful things for the world to enjoy, a career in the arts offers you an amazing variety or opportunities."
 
-    - subcluster: Catering & Academy Nathan Outlaw
-      university-faculty: Catering & Academy Nathan Outlaw
+    - subcluster: Catering
+      university-faculty: Catering
       image: /images/cve/catering-small.jpg
       mobile-image: /images/cve/catering-mobile.jpg
       filter: cve
-      a-href: /career-pages/catering-academy/index.html
+      a-href: /career-pages/catering/index.html
       he-image: catering.jpg
       icon: fa-cutlery
       level: 1 2 4 5 6
@@ -590,8 +590,8 @@
           campus-link: /st-austell-campus.html
           campus-filter: st-austell
 
-      career-link: /catering-academy/index.html
-      search-link: catering-academy-nathan-outlaw
+      career-link: /catering/index.html
+      search-link: catering
       intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries.
 
     - subcluster: Hospitality & Front of House

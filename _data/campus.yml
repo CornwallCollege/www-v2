@@ -233,14 +233,6 @@
       partner-logo: /images/partnerships/microsoft.jpg
       partner-link: https://www.microsoft.com/en-gb
 
-    - partner-title: Mill Autos
-      partner-logo: /images/partnerships/mill-auto-logo.jpg
-      partner-link: http://www.millautosupplies.co.uk
-
-    - partner-title: Nathan Outlaw Academy
-      partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
-      partner-link: http://www.academynathanoutlaw.com
-
     - partner-title: NHS
       partner-logo: /images/partnerships/NHS.jpg
       partner-link: http://www.nhs.uk/pages/home.aspx
@@ -256,10 +248,6 @@
     - partner-title: Cornwall Council
       partner-logo: /images/partnerships/cornwall-council-logo.jpg
       partner-link: https://www.cornwall.gov.uk/
-
-    - partner-title: Ginsters
-      partner-logo: /images/partnerships/ginsters-logo.jpg
-      partner-link: http://www.ginsters.co.uk/
 
     - partner-title: Heartlands
       partner-logo: /images/partnerships/heartlands.jpg
@@ -377,8 +365,8 @@
       - sub-area-title: Arts & Media
         sub-area-link: arts-media
 
-      - sub-area-title: Catering & Academy Nathan Outlaw
-        sub-area-link: catering-academy-nathan-outlaw
+      - sub-area-title: Catering
+        sub-area-link: catering
 
       - sub-area-title: Hospitality & Front of House
         sub-area-link: hospitality-front-house
@@ -484,8 +472,8 @@
       - sub-area-title: Travel & Tourism
         sub-area-link: travel-tourism
 
-      - sub-area-title: Catering & Academy Nathan Outlaw
-        sub-area-link: catering-academy-nathan-outlaw
+      - sub-area-title: Catering
+        sub-area-link: catering
 
     - area-title: Education
       area-color: 01A4A4
@@ -896,14 +884,6 @@
       partner-logo: /images/partnerships/microsoft.jpg
       partner-link: https://www.microsoft.com/en-gb
 
-    - partner-title: Mill Autos
-      partner-logo: /images/partnerships/mill-auto-logo.jpg
-      partner-link: http://www.millautosupplies.co.uk
-
-    - partner-title: Nathan Outlaw Academy
-      partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
-      partner-link: http://www.academynathanoutlaw.com
-
     - partner-title: NHS
       partner-logo: /images/partnerships/NHS.jpg
       partner-link: http://www.nhs.uk/pages/home.aspx
@@ -919,10 +899,6 @@
     - partner-title: Cornwall Council
       partner-logo: /images/partnerships/cornwall-council-logo.jpg
       partner-link: https://www.cornwall.gov.uk/
-
-    - partner-title: Ginsters
-      partner-logo: /images/partnerships/ginsters-logo.jpg
-      partner-link: http://www.ginsters.co.uk/
 
     - partner-title: Heartlands
       partner-logo: /images/partnerships/heartlands.jpg
@@ -1016,8 +992,8 @@
       - sub-area-title: Arts & Media
         sub-area-link: arts-media
 
-      - sub-area-title: Catering & Academy Nathan Outlaw
-        sub-area-link: catering-academy-nathan-outlaw
+      - sub-area-title: Catering
+        sub-area-link: catering
 
       - sub-area-title: Hospitality & Front of House
         sub-area-link: hospitality-front-house
@@ -1065,17 +1041,9 @@
   slug: "st-austell"
   accesslink: /tag/access/campus/st-austell
   partnerships:
-    - partner-title: Nathan Outlaw Academy
-      partner-logo: /images/partnerships/nathan-outlaw-logo.jpg
-      partner-link: http://www.academynathanoutlaw.com
-
     - partner-title: Microsoft
       partner-logo: /images/partnerships/microsoft.jpg
       partner-link: https://www.microsoft.com/en-gb
-
-    - partner-title: Mill Autos
-      partner-logo: /images/partnerships/mill-auto-logo.jpg
-      partner-link: http://www.millautosupplies.co.uk
 
     - partner-title: Cornwall Council
       partner-logo: /images/partnerships/cornwall-council-logo.jpg
@@ -1088,10 +1056,6 @@
     - partner-title: Ocean Group
       partner-logo: /images/partnerships/ocean-group.jpg
       partner-link: http://www.ocean-group.co.uk/
-
-    - partner-title: St Austell Brewery
-      partner-logo: /images/partnerships/staustellbrewery.jpg
-      partner-link: http://www.staustellbrewery.co.uk/
 
     - partner-title: Cornwall Care
       partner-logo: /images/partnerships/cornwall-care.jpg
@@ -1198,8 +1162,8 @@
       - sub-area-title: Arts & Media
         sub-area-link: arts-media
 
-      - sub-area-title: Catering & Academy Nathan Outlaw
-        sub-area-link: catering-academy-nathan-outlaw
+      - sub-area-title: Catering
+        sub-area-link: catering
 
       - sub-area-title: Hospitality & Front of House
         sub-area-link: hospitality-front-house
