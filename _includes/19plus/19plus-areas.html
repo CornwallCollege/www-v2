@@ -11,8 +11,8 @@
 
     {% include sidebar-link.html title='THINKING OF <strong style="color:#52B3D9">UNIVERSITY</strong> STUDY?' text="We offer a wide range of Foundation Degrees, Honours Degrees and postgraduate study. Visit our university hub page here to explore your options." button-title="University Hub" button-href='/university-hub/' %}
 
-    {% include sidebar-search.html title="Learn in your spare time with a leisure course" search-href='//network.cornwall.ac.uk/leisure/' button-title="browse all our leisure courses" button-href='//network.cornwall.ac.uk/leisure/' action="leisure" form-id="leisure-form" place-holder="Leisure Search" add-class="sidebar-search" %}
-      
+    {% include sidebar-search.html title="Learn in your spare time with a leisure course" search-href='/leisure' button-title="browse all our leisure courses" button-href='/leisure' action="leisure" form-id="leisure-form" place-holder="Leisure Search" add-class="sidebar-search" %}
+
   </section>
 
   <article class="col-sm-12 col-md-9 clearfix right apprenticeships">
@@ -22,7 +22,7 @@
             {% for 19plus-area in 19plus-cluster.subclusters %}
 
                     {% if site.brand != 'cc'  %}
-                        {% if 19plus-area.sector contains '19plus' and 19plus-area.brand contains site.brand %}       
+                        {% if 19plus-area.sector contains '19plus' and 19plus-area.brand contains site.brand %}
                             <span class="col-xs-12 col-sm-12 col-md-4 text-center">
                               <a class="learning-area" href="{{ site.url }}/course_type/fe19plus/cluster/{{ 19plus-area.search-link }}/{{site.brand-slug}}" style="border-left:10px solid #{{ 19plus-area.colour }};">
                                 <span class="col-xs-12 19plus-area" >{{ 19plus-area.subcluster }}</span>
@@ -30,13 +30,13 @@
                             </span>
                         {% endif %}
                     {% else %}
-                        {% if 19plus-area.sector contains '19plus' %} 
+                        {% if 19plus-area.sector contains '19plus' %}
                             <span class="col-xs-12 col-sm-12 col-md-4 text-center">
                               <a class="learning-area" href="{{ site.url }}/course_type/fe19plus/cluster/{{ 19plus-area.search-link }}" style="border-left:10px solid #{{ 19plus-area.colour }};">
                                 <span class="col-xs-12 19plus-area" >{{ 19plus-area.subcluster }}</span>
                               </a>
                             </span>
-                        {% endif %}   
+                        {% endif %}
                     {% endif %}
 
 
