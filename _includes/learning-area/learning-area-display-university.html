@@ -1,3 +1,24 @@
+<section class=" container">
+  <div id="form-ui">
+    {% if site.brand != 'fms' %}
+      <h5><strong>Campus</strong></h5>
+      <div id="campus-filter" class="btn-group" data-toggle="buttons">
+      {% for location in site.data.learning-area-filters %} 
+        {% if location.brand contains site.brand %} 
+        <label class="area-filter btn btn-primary">
+          <input type="checkbox" name="campus-radio" value="{{location.value}}" data-parent="#campus-filter" data-campus="{{location.data-campus}}" data-campus-target="#{{location.data-campus}}-campus-expander" data-toggle="collapse">{{location.title}}
+        </label>
+        {% endif %}    
+          
+      {% endfor %}
+        <label class="btn btn-primary area-filter active">
+          <input type="checkbox" name="sector-radio" value="" data-target="">Show all
+        </label>
+      </div>
+    {% endif %}   
+   </div>
+</section>
+
 <!-- Learning Area Divs -->
 <section id="career-list" class="container main-section-margins">
   <div id="career-content" >
@@ -9,7 +30,7 @@
       <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
         <i class="fa fa-times close-icon"></i>
 
-        <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.subcluster }}</h4>
+        <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.university-faculty }}</h4>
 
         <span class="readmore">Read More</span>
       </a>
