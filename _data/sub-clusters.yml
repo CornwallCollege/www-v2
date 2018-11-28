@@ -561,17 +561,14 @@
       intro: "Whether it's your passion to perform or create beautiful things for the world to enjoy, a career in the arts offers you an amazing variety or opportunities."
 
     - subcluster: Catering
-      university-faculty: Catering
       image: /images/cve/catering-small.jpg
       mobile-image: /images/cve/catering-mobile.jpg
       filter: cve
       a-href: /career-pages/catering/index.html
-      he-image: catering.jpg
-      icon: fa-cutlery
       level: 1 2 4 5 6
       colour: D0D102
       brand: cc
-      sector: 16-18 19plus apprenticeships university
+      sector: 16-18 19plus apprenticeships
       campus: camborne-campus eden-project-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
@@ -595,17 +592,14 @@
       intro: Cornwall has seen an incredible gastronomic community grow in recent years, with many Michelin starred chefs choosing the region for their flagship eateries.
 
     - subcluster: Hospitality & Front of House
-      university-faculty: Hospitality & Front of House
       image: /images/cve/hospitality.jpg
       mobile-image: /images/cve/hospitality-mobile.jpg
       filter: cve
       a-href: /career-pages/hospitality-front/index.html
-      he-image: hospitality.jpg
-      icon: fa-beer
       level: 1 2 4 5 6
       colour: D0D102
       brand: cc
-      sector: 16-18 19plus apprenticeships university
+      sector: 16-18 19plus apprenticeships
       campus: camborne-campus eden-project-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
@@ -661,14 +655,17 @@
       intro: Make films, create magazines, explore journalism and design brands. These and many more pathways are available for anyone with a creative soul and passion for new ideas.
 
     - subcluster: Travel & Tourism
+      university-faculty: Travel & Tourism
       image: /images/cve/travel-tourism-small.jpg
       mobile-image: /images/cve/travel-tourism-mobile.jpg
       filter: cve
       a-href: /career-pages/travel-tourism/index.html
+      he-image: travel-tourism.jpg
+      icon: fa fa-plane
       level: 2 3
       colour: D0D102
       brand: cc
-      sector: 16-18 19plus apprenticeships
+      sector: 16-18 19plus apprenticeships university
       campus: camborne-campus eden-project-campus saltash-campus st-austell-campus
       campus-long:
         - campus-name: Camborne Campus
@@ -757,7 +754,7 @@
       intro: "Whether it's creating the latest look for a celebrity or designing a hair and make-up collection for a catwalk show, working in hair and beauty offers variety and an outlet for creativity, beyond simply working in a salon or spa. Film and theatrical make-up also provide unique career opportunities for artists who love to work with people."
 
     - subcluster: Military and Protective Services Academy
-      university-faculty: Military and Protective Services Academy
+      university-faculty: Protective Services Academy
       image: /images/hw/public-services.jpg
       mobile-image: /images/hw/public-services-mobile.jpg
       filter: hw
