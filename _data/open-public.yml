@@ -132,9 +132,9 @@
   class: col-xs-12 col-sm-4
   short: CDP
   image: /images/public/college-print.jpg
-  href: /public/college-design-print.html
+  href: http://cdpcornwall.co.uk/home
   title: "Design and Print Studios"
-  text: "With the latest in innovative software and creative techniques we can produce</p> <ul> <li>Interactive media and presentations</li> <li>DVDs with menu functionality</li> <li>promotional video</li> <li>editing and web conversion</li> <li>iPad and android publication conversion</li> </ul> <p>Take your marketing to the next level by sending movie eshots, adding video to your website, or DVD display media to your offices or promotional areas.</p>"
+  text: "With the latest in innovative software and creative techniques we can produce</p> <ul> <li>Interactive media and presentations</li> <li>DVDs with menu functionality</li> <li>promotional video</li> <li>editing and web conversion</li> <li>iPad and android publication conversion</li> </ul> <p>Take your marketing to the next level by sending movie eshots, adding video to your website, or DVD display media to your offices or promotional areas.</p> <p>Visit us at <a style='color:333' href='http://www.designprintsolutions.org.uk/'>designprintsolutions.org.uk</a>"
   table:
     - icon: fa fa-phone
       detail: 01209 616166
