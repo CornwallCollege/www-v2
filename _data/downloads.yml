@@ -274,6 +274,13 @@
   category: other # Document category
   download-link: /documents/other/CC SI MLW Complete.pdf
   colour: 961313
+
+  #CC Alumni
+- title: Cornwall College Alumni # Document name
+  type:  PDF # Document type
+  category: other # Document category
+  download-link: /documents/other/alumni-cornwall-college.pdf
+  colour: 961313
   #End of other
 
   #HE Repeating Studies Procedure 2018
