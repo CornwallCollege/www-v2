@@ -1,15 +1,15 @@
 /* jQuery codes and functions used in Ecstasy Template */
 (function($) {
-   
+
    "use strict";
-                    
+
    /* PAGE LOADER */
    $(window).load(function(){
      $('#loader').fadeOut(1500);
    });
-   
-     
-   /* TESTIMONIAL CAROUSEL */ 
+
+
+   /* TESTIMONIAL CAROUSEL */
    if ( $( "#testimonial-carousel" ).length ) {
       $('#testimonial-carousel').owlCarousel({
          items:1,
@@ -19,10 +19,10 @@
          autoplay: true,
       });
    }
-   
-   
+
+
    /* IMAGE CAROUSEL */
-   if ( $( "#image-carousel" ).length ) {  
+   if ( $( "#image-carousel" ).length ) {
       $('#image-carousel').owlCarousel({
          items:1,
          margin:10,
@@ -30,74 +30,74 @@
          autoplay: true,
       });
    }
-    
-    
+
+
    /* MENU TOGGLING - 1.7 update
-   
+
    */
    if ( $( "#cbp-spmenu-s2" ).length ){
       var openRightPush = document.getElementById( 'openRightPush' ),
          menuRight = document.getElementById( 'cbp-spmenu-s2' ),
          body = document.body;
-         
+
       openRightPush.onclick = function() {
          classie.toggle( this, 'active' );
          classie.toggle( menuRight, 'cbp-spmenu-open' );
       };
-      
+
    }
-   
+
    /* the id="menu-container" has to be added to the one-page template,
       to the <div class="container"> of the <nav id="cbp-spmenu-s2">
-      
+
    */
-   
+
    if ( $( "#menu-container" ).length ){
       var menuContainer = document.getElementById( 'menu-container' ),
       menuRight = document.getElementById( 'cbp-spmenu-s2' ),
       body = document.body;
-      
+
       menuContainer.onclick = function() {
          classie.toggle( this, 'active' );
          classie.toggle( menuRight, 'cbp-spmenu-open' );
       };
-   
+
    }
-   
+
    /* end of 1.7 update */
-         
-              
+
+
    /* JCAROUSEL RESPONSIVENESS */
    $(function() {
        if ( $( ".jcarousel" ).length ) {
          var jcarousel = $('.jcarousel');
-       
+
          jcarousel
              .on('jcarousel:reload jcarousel:create', function () {
                  var width = jcarousel.innerWidth();
-       
+
                  if (width >= 768) {
                      width = width / 4;
                  } else if (width >= 450) {
-                     width = width / 2;                                     
-                 } 
-       
+                     width = width / 2;
+                 }
+
                  jcarousel.jcarousel('items').css('width', width + 'px');
              })
              .jcarousel({
                  wrap: 'circular'
              });
-   
+
          $('.jcarousel-control-prev')
              .jcarouselControl({
                  target: '-=1'
              });
-       
+
          $('.jcarousel-control-next')
              .jcarouselControl({
                  target: '+=1'
              });
-   
+
          $('.jcarousel-pagination')
              .on('jcarouselpagination:active', 'a', function() {
                  $(this).addClass('active');
@@ -116,9 +116,9 @@
              });
        }
    });
-   
-   
-   
+
+
+
    /* ISOTOPE FOR PORTFOLIO ITEMS */
    if ( $( "#portfolio-grid" ).length ) {
       var $container = $('#portfolio-grid').imagesLoaded( function() {
@@ -130,8 +130,8 @@
          };
          isotope();
       });
-   
-      
+
+
       $('div.portfolio-filter ul a').click(function(){
               var selector = $(this).attr('data-filter');
               $container.isotope({
@@ -144,7 +144,7 @@
               });
         return false;
       });
-   
+
       var $optionSets = $('div.portfolio-filter ul'),
              $optionLinks = $optionSets.find('a');
              $optionLinks.click(function(){
@@ -155,11 +155,11 @@
                 }
          var $optionSet = $this.parents('div.portfolio-filter ul');
          $optionSet.find('.selected').removeClass('selected');
-         $this.addClass('selected'); 
+         $this.addClass('selected');
       });
-        
+
    }
-   
+
       /* ISOTOPE FOR BLOG POST LIST ITEMS */
 
    if ( $( "#blog-grid" ).length ) {
@@ -172,8 +172,8 @@
          };
          isotope();
       });
-   
-      
+
+
       $('div.blog-filter ul a').click(function(){
               var selector = $(this).attr('data-filter');
               $container.isotope({
@@ -186,7 +186,7 @@
               });
         return false;
       });
-   
+
       var $optionSets = $('div.blog-filter ul'),
              $optionLinks = $optionSets.find('a');
              $optionLinks.click(function(){
@@ -197,18 +197,18 @@
                 }
          var $optionSet = $this.parents('div.blog-filter ul');
          $optionSet.find('.selected').removeClass('selected');
-         $this.addClass('selected'); 
+         $this.addClass('selected');
       });
-        
+
    }
-   
-   /* PORTFOLIO EXPANDER GRID INITIALIZER 
+
+   /* PORTFOLIO EXPANDER GRID INITIALIZER
    if ( $( "#og-grid" ).length ) {
       Grid.init();
    }
    */
-   
-   /* FUN FACTS COUNTERS */	
+
+   /* FUN FACTS COUNTERS */
    jQuery(document).ready(function($) {
      if ( $( ".counter" ).length ) {
        $('.counter').counterUp({
@@ -217,20 +217,20 @@
        });
      }
    });
-      
-   
-         
+
+
+
    /* CONTACT FORM VALIDATION SCRIPT */
-     
-      
-      
+
+
+
    /* GOOGLE MAP EMBEDDED IN THE CONTACT PAGE */
-   
+
    if ( $( "#map" ).length ) {
       google.maps.event.addDomListener(window, 'load', init);
-   }        
+   }
       function init() {
-                  
+
                // insert you lattitude/longitute here
                var myLatlng = new google.maps.LatLng(43.642566, -79.387057);
                // edit the position of the marker here
@@ -238,15 +238,15 @@
                var marker = new google.maps.Marker({
                      position: markerPosition,
                });
-   
+
                var mapOptions = {
                   // How zoomed in you want the map to start at (always required)
                   zoom: 11,
-       
+
                   // The latitude and longitude to center the map (always required)
                   center: myLatlng, // Toronto
-       
-                  // How you would like to style the map. 
+
+                  // How you would like to style the map.
                   // This is where you would paste any style found on Snazzy Maps.
                   styles: [
                         {
@@ -413,13 +413,13 @@
                         }
                     ]
                };
-   
+
                var mapElement = document.getElementById('map');
                var map = new google.maps.Map(mapElement, mapOptions);
                marker.setMap(map); // sets the map marker
            }
-           
-           
+
+
    /* SMOOTH SCROLLING - update 1.4 */
    $('[data-toggle="my-scrollspy"]').each(function() {
 	    if($(this).attr('href').indexOf("#") == 0) {
@@ -431,10 +431,10 @@
        });
      }
    });
-    
+
    // end of smooth scrolling
    setTimeout(updateScrollSpy, 1000);
-   
+
       /* scroll spy */
    function updateScrollSpy() {
        jQuery('[data-spy="scroll"]').each(function () {
@@ -458,10 +458,10 @@
 }
 window.onload = init();
 
-    
+
 		var isSequenceComplete = true;
 		$( document ).ready(function(){
-		
+
 		if ($("body").hasClass("home")) {
 			if(isSequenceComplete === false) return true;
 			isSequenceComplete = false;
@@ -488,12 +488,6 @@ window.onload = init();
             threshold : 200,
             effect : "fadeIn"
         });
-    }); 
-    
+    });
+
 })(jQuery);
-
-
-   
-
-
-	

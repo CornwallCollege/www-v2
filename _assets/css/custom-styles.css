@@ -4569,8 +4569,8 @@ a.learning-area:hover{
 #event-carousel--uni .owl-controls .owl-dot,
 #image-carousel .owl-controls .owl-dot {
     display: inline-block;
-    width: 35px;
-    height: 7px;
+    width: 28px;
+    height: 5px;
     margin-right: -10px;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -4596,6 +4596,11 @@ a.learning-area:hover{
 .owl-carousel .owl-item{
     width:100%;
 }
+
+.owl-dots {
+  margin-right: 16px;
+}
+
 #event-carousel .owl-controls .owl-dot.active,
 #event-carousel--uni .owl-controls .owl-dot.active,
 #jobs-carousel .owl-controls .owl-dot.active,
@@ -4645,7 +4650,6 @@ a.learning-area:hover{
     color: #4d4d4d
 }
 #event-carousel--uni article h3 {
-    text-transform: uppercase;
     color: #4d4d4d
 }
 @media(max-width: 600px){

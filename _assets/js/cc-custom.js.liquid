@@ -969,7 +969,6 @@ $(document).ready(function(){
                 $(event).append((article).append($('<h3/>').text(item.title)));
                 $(event).append((article).append($('<p/>').text(item.venue).addClass("venue")));
                 $(event).append((article).append($('<p/>').text(item.startdate).addClass("startdate ")));
-                if (item.enddate) { $(event).append((article).append($('<p/>').text(item.enddate).addClass("enddate "))); }
                 $(event).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='button--grey'>Find Out More</a>"));
                 $(".event-carousel").append(event);
                 //etc...
