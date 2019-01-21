@@ -21,13 +21,14 @@
 
 <style>
   #loader {
-      background: #fff;
-      padding-top: 50%;
-      padding-left: 50%;
       position: fixed;
       z-index: 2000;
+      display: none;
+      padding-top: 50%;
+      padding-left: 50%;
       width: 100%;
       height: 100%;
+      background: #fff;
   }
 
   #loader > * {
@@ -89,8 +90,10 @@
             <link rel="stylesheet" type="text/css" href="/css/IE9.css"></link>
 <![endif]-->
 
-<!-- Crazy egg heat mapping tool -->
 <script type="text/javascript">
+document.getElementById('#loader').style.display = 'block'
+
+<!-- Crazy egg heat mapping tool -->
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/5657.js?"+Math.floor(new Date().getTime()/3600000);

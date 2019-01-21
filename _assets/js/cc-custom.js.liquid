@@ -868,7 +868,7 @@ $(document).ready(function(){
         });
     }
 
-    if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 || location.pathname.indexOf("university-hub") !== -1 ||
+    if ( location.pathname.indexOf("location-pages") !== -1 || location.pathname.indexOf("apprenticeship-hub") !== -1 ||
     location.pathname.indexOf("16-18-hub") !== -1  ) {
         //jQuery RSS parse for events on campus pages
 
@@ -876,8 +876,6 @@ $(document).ready(function(){
 
         if (location.pathname.indexOf("apprenticeship-hub") !== -1){
             var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/apprenticeship-event/feed/";
-        } else if (location.pathname.indexOf("university-hub") !== -1){
-            var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/university/feed/";
         } else if (location.pathname.indexOf("16-18-hub") !== -1){
             var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/16-18-event/feed/";
         } else {
@@ -909,7 +907,6 @@ $(document).ready(function(){
                 var link = item.link;
 
                 $(event).append((article).append($('<h3/>').text(item.title)));
-                $(event).append((article).append($('<p/>').text(item.organizer).addClass("organizer")));
                 $(event).append((article).append($('<p/>').text(item.venue).addClass("venue")));
                 $(event).append((article).append($('<p/>').text(item.startdate).addClass("startdate ")));
                 if (item.enddate) { $(event).append((article).append($('<p/>').text(item.enddate).addClass("enddate "))); }
@@ -928,6 +925,65 @@ $(document).ready(function(){
                     margin: 10,
                     //loop: true,
                     loop: $('#event-carousel').children().length > 1,
+                    //nav: $('#event-carousel').children().length > 1,
+                    animateOut: 'fadeOut',
+                    autoplay: true,
+                });
+            }
+        });
+    }
+
+    if ( location.pathname.indexOf("university-hub") !== -1  ) {
+        //jQuery RSS parse for events on campus pages
+
+        var campus_id = $("#event-carousel").attr("data-event-campus-id");
+
+        if (location.pathname.indexOf("university-hub") !== -1){
+            var event_filter = "https://www.cornwall.ac.uk/events/whats-on/category/university/feed/?tag=open-day";
+        }
+
+        var rssurl = event_filter;
+        $.get(rssurl, function (data) {
+            var $XML = $(data);
+            $XML.find("item").each(function () {
+
+                var $this = $(this),
+                    item = {
+                        title: $this.find("title").text(),
+                        link: $this.find("link").text(),
+                        description: $this.find("description").text(),
+                        pubDate: $this.find("pubDate").text(),
+                        author: $this.find("author").text(),
+                        organizer: $this.find("organizer").text(),
+                        venue: $this.find("venue").text(),
+                        enddate: $this.find("enddate").text(),
+                        startdate: $this.find("startdate").text(),
+                        category: $this.find("category").text(),
+
+                    };
+
+                var event = $('<div/>').addClass("owl-item");
+                var article = $('<article/>').addClass("transition");
+                var link = item.link;
+
+                $(event).append((article).append($('<h3/>').text(item.title)));
+                $(event).append((article).append($('<p/>').text(item.venue).addClass("venue")));
+                $(event).append((article).append($('<p/>').text(item.startdate).addClass("startdate ")));
+                $(event).append((article).append("<a href='" + item.link + "' title='" + item.title + "' class='button--grey'>Find Out More</a>"));
+                $(".event-carousel").append(event);
+                //etc...
+
+                $("#event-carousel--uni").show();
+                $("#no-events").hide();
+
+            });
+
+            if ($("#event-carousel--uni").length ) {
+                $('#event-carousel--uni').owlCarousel({
+                    items: 1,
+                    margin: 10,
+                    //loop: true,
+                    loop: $('#event-carousel--uni').children().length > 1,
                     //nav: $('#event-carousel').children().length > 1,
                     animateOut: 'fadeOut',
                     autoplay: true,
@@ -1118,7 +1174,7 @@ if (location.pathname.indexOf("learning-area-hub") !== -1 || location.pathname.i
         });
 
 }
-if (location.pathname.indexOf("university-hub") !== -1 || location.pathname.indexOf("16-18-hub") !== -1) {
+if (location.pathname.indexOf("16-18-hub") !== -1) {
     //play video on click UNIVERSITY Hub
 
     var instances = plyr.setup({
@@ -1316,3 +1372,109 @@ jQuery(document).ready(function () {
     $('#video__source').attr('src', videoFile);
     $("#video").load();
   });
+
+
+/* javascript course search
+$(document).ready(function(){
+  if ( location.pathname.indexOf("university-hub") !== -1  ) {
+    var courseAToZ = new XMLHttpRequest();
+    //ourRequest.open('GET', 'https://network.cornwall.ac.uk/wp-json/wp/v2/courses?course_type=14&per_page=100&search=animal');
+    courseAToZ.open('GET', 'https://network.cornwall.ac.uk/wp-json/wp/v2/courses?course_type=14&per_page=100');
+    courseAToZ.onload = function() {
+      if (courseAToZ.status >= 200 && courseAToZ.status < 400) {
+        var data = JSON.parse(courseAToZ.responseText);
+        createHTML(data)
+      } else {
+        console.log("We connected to the server, but it returned an error.");
+      }
+    };
+
+    courseAToZ.onerror = function() {
+      console.log("Connection error");
+    };
+
+    courseAToZ.send();
+
+    var portfolioPostsBtn = document.getElementById("portfolio-posts-btn");
+    var courseListContainer = document.getElementById("course-list-container");
+
+
+
+//
+//    if (portfolioPostsBtn) {
+//      portfolioPostsBtn.addEventListener("click", function() {
+//        var ourRequest = new XMLHttpRequest();
+//        //ourRequest.open('GET', 'https://network.cornwall.ac.uk/wp-json/wp/v2/courses?course_type=14&per_page=100&search=animal');
+//        ourRequest.open('GET', 'https://network.cornwall.ac.uk/wp-json/wp/v2/courses?course_type=14&per_page=10&cluster=55');
+//        ourRequest.onload = function() {
+//          if (ourRequest.status >= 200 && ourRequest.status < 400) {
+//            var data = JSON.parse(ourRequest.responseText);
+//            createHTML(data)
+//            portfolioPostsBtn.remove();
+//          } else {
+//            console.log("We connected to the server, but it returned an error.");
+//          }
+//        };
+//
+//        ourRequest.onerror = function() {
+//          console.log("Connection error");
+//        };
+//
+//        ourRequest.send();
+//      });
+//    }
+
+
+
+    function createHTML(postsData) {
+      var alphabeticalCourses = {};
+      var unorderedData = [];
+      var letters = [];
+      var ourHTMLString ='';
+      var singleLetter ='z';
+
+      var courseGrouping ='a';
+      var a ='';
+
+      for (i = 0; i < postsData.length; i++) {
+        var regex = new RegExp(/^(BA \(hons\)|FdA|BSc \(Hons\)|FdSc|HNC \/ HND|HNC|HND|MSc) (.+)/, "i");
+        var displayTitle = postsData[i].title.rendered.replace(regex, "$2 $1");
+        postsData[i].displayTitle = displayTitle;
+        unorderedData[i] = displayTitle;
+        var letter = displayTitle.charAt(0).toLowerCase();
+        if (!alphabeticalCourses[letter]) {
+          alphabeticalCourses[letter] = [];
+        }
+        alphabeticalCourses[letter].push(postsData[i]);
+      }
+      console.log(alphabeticalCourses);
+
+      unorderedData.sort();
+
+      // for (j = 0; j < unorderedData.length; j++) {
+      //   letters[j] = unorderedData[j].charAt(0);
+      //   if (letters[j] != singleLetter) {
+      //     ourHTMLString += '<button id="' + unorderedData[j] + '">' + letters[j] + '</button>';
+      //   }
+      //   singleLetter = letters[j];
+      // }
+      Object.keys(alphabeticalCourses).sort().forEach(function(letter) {
+         ourHTMLString += '<button class="js-course-letter-button" data-course-letter="' + letter + '">' + letter + '</button>';
+      })
+      //courseListContainer.innerHTML = ourHTMLString;
+      $("#course-list-container").html(ourHTMLString);
+      $("#course-list-container button").on("click",function(e){
+        console.log("click" + $(e.currentTarget).data("course-letter"));
+      })
+      // for (k = 0; k < unorderedData.length; k++) {
+      //   if (courseGrouping = unorderedData[k].charAt(0)) {
+      //     a += '<a id="' + unorderedData[k] + '">' + letters[k] + '</a>';
+      //   }
+      // }
+
+    }
+
+    };
+  });
+
+*/

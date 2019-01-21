@@ -1,0 +1,52 @@
+<section class=" container">
+  <div id="form-ui">
+    {% if site.brand != 'fms' %}
+      <h5><strong>Campus</strong></h5>
+      <div id="campus-filter" class="btn-group" data-toggle="buttons">
+      {% for location in site.data.learning-area-filters %} 
+        {% if location.brand contains site.brand %} 
+        <label class="area-filter btn btn-primary">
+          <input type="checkbox" name="campus-radio" value="{{location.value}}" data-parent="#campus-filter" data-campus="{{location.data-campus}}" data-campus-target="#{{location.data-campus}}-campus-expander" data-toggle="collapse">{{location.title}}
+        </label>
+        {% endif %}    
+          
+      {% endfor %}
+        <label class="btn btn-primary area-filter active">
+          <input type="checkbox" name="sector-radio" value="" data-target="">Show all
+        </label>
+      </div>
+    {% endif %}   
+   </div>
+</section>
+
+<!-- Learning Area Divs -->
+<section id="career-list" class="container main-section-margins">
+  <div id="career-content" >
+  {% for cluster in site.data.sub-clusters %}
+    {% for subcluster in cluster.subclusters %}
+
+    {% if subcluster.sector contains "university"  %}
+    <div class="area {{subcluster.campus}} {{subcluster.campus}} {{subcluster.brand}} {{subcluster.sector}} col-xs-12 col-sm-6 col-md-4" style="border-left:solid 10px #{{ subcluster.colour }};">
+      <a data-toggle="collapse" data-target="#{{ subcluster.search-link }}" href="#{{ subcluster.search-link }}"  class="show-more collapsed">
+        <i class="fa fa-times close-icon"></i>
+
+        <h4><span style="color:#{{ subcluster.colour }};">{{ cluster.cluster }}</span>{{ subcluster.university-faculty }}</h4>
+
+        <span class="readmore">Read More</span>
+      </a>
+
+      <div class="detail collapse" style="display:none" id="{{ subcluster.search-link }}">
+        <p>{{ subcluster.intro }}</p>
+
+        <a href="{{site.url}}/course_type/he/cluster/{{ subcluster.search-link }}" title="{{ subcluster.subcluster }}" class="btn course-area">View courses in this area</a>
+      </div>
+    </div>
+    {% endif %}
+
+
+    {% endfor %}
+  {% endfor %}
+  </div>
+</section>
+
+<!--learning area section ends -->

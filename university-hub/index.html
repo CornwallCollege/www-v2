@@ -103,119 +103,160 @@ gallery:
 </section>
 <!-- END OF HEADER -->
 
+<div class="container">
 
-<!-- BODY SECTION -->
+<!-- javascript course list
 <section class="col-xs-12">
-  <section class="container ">
-    <div class="col-sm-12 col-md-8 main-section-margins">
-      <h3>UNDERGRADUATE COURSES WITH THE CORNWALL COLLEGE GROUP</h3>
-      <p class="lead">There's never been a better time to gain a quality degree, with an incredible range of over 80 programmes providing you with real skills to start the career you want straight away. In 2017 we were delighted to be given a Silver award in the <a href="https://www.cornwall.ac.uk/campaign/landing-page/tef/" title="find out more about the Teaching Excellence Framework">Teaching Excellence Framework</a> assessment.</p>
+  <div class="container main-section-margins js-button-container">
+    <button id="portfolio-posts-btn">Load portfolio related blog posts</button>
+    <div id="course-list-container"></div>
+  </div>
+</section>
+-->
+
+<!--
+<section class="col-xs-12 main-section-margins">
+  <div class="container">
+    <div class="col-sm-4">
+      <h3>Real work wexperience on our applied degrees</h3>
     </div>
 
-    <div class="col-sm-12 col-md-4 useful-links main-section-margins">
-      <h3>HELPFUL LINKS</h3>
-      {% for link in page.usefulLinks %}
-      <a class="btn" href="{% if link.baseurl == true %}{{ site.url }}/{{ link.suburl }}{% endif %}{{ link.href }}" title="{{ link.title }}" style="white-space:normal"> {{ link.title | upcase }}</a>
-      {% endfor %}
+    <div class="col-sm-4">
+      <h3>Affordable degrees from £8,400 per year in partnership with the University of Plymouth</h3>
     </div>
-  </section>
+
+    <div class="col-sm-4">
+      <h3>The widest range of specialist degrees in the South West</h3>
+    </div>
+  </div>
+</section>
+-->
+
+{% include /university/he-events.html %}
+
+<section class="col-sm-8">
+  <div style="background-color:#a3b0c6; color:white; padding:20px 40px 60px">
+    <h3 style="color:white">Courses</h3>
+    <p style="color:white">We offer the widest range of specialist degrees locally. With a broad range of two year foundation degrees and HNDs and one year top-up to honours programmes you can fast track your graduate career.</p>
+    <a href="{{ site.url }}/learning-area-hub/university.html" class="button--white">See All Courses</a>
+  </div>
 </section>
 
-
-<!-- usp section -->
-{% include usp.html usp-text='WE HAVE A WIDE RANGE OF SPECIALIST APPLIED UNIVERSITY PROGRAMMES' onclick='faculty-areas'  %}
-
-<!-- MONEY / ACCOMMODATION SECTION -->
-<section class="col-xs-12">
-  <section class="container main-section-margins blocks">
-    <div class="equal-wrap">
-      <article class="col-xs-12 col-sm-6 col-lg-6 text-center">
-        <i class="fa fa-bed fa-3x"></i>
-        <h3>Accommodation</h3>
-        <p>We understand that finding the right place to live is just as important as finding the right course to study. Here at the Cornwall College Group we have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
-        <p><a href="{{ site.url }}/accommodation/" class="btn ghost">Find out more</a></p>
-      </article>
-
-      <article class="col-xs-12 col-sm-6 col-lg-6 text-center">
-        <i class="fa fa-money fa-3x"></i>
-        <h3>Money</h3>
-        <p>If you are planning to join us in 2018 and live in the EU you will be glad to know that our fees are set from £8,400 per year. A range of scholarships and bursaries are available.</p>
-        <p><a href="{{ site.url }}/student-support/financial-support/#uni-programme-applicants" class="btn ghost">Find out more</a></p>
-      </article>
-    </div>
-
-  </section>
+<section class="col-sm-8 main-section-margins">
+  <div style="background-color:#a07f94; color:white; padding:20px 40px 60px">
+    <h3>Supporting Your Learning</h3>
+    <p style="color:white">We are committed to supporting all of our learners, from initial advice on choice of programme to research and study skills. We also offer careers guidance at any time and help with your next steps once you graduate.</p>
+    <a href="{{ site.url }}/student-support/supporting-your-learning/#higher-education" class="button--white">Find out more</a>
+    <i class="fa fa-users fa-5x" style="position:absolute; right:4%; top:5%; color:#dfd4db"></i>
+  </div>
 </section>
 
-<!-- gallery section -->
+<section class="col-sm-8 main-section-margins">
+  <div style="background-color:#a07f94; color:white; padding:20px 40px 60px">
+    <h3>How To Apply</h3>
+    <p style="color:white">How you apply will depend on when you decide to join us and whether it is for full-time or part-time study. Find out more for a full and concise guide to you application.</p>
+    <a href="{{ site.url }}/student-support/how-to-apply/#university" class="button--white">Find out more</a>
+    <i class="fa fa-question-circle-o fa-5x" style="position:absolute; right:4%; top:5%; color:#dfd4db"></i>
+  </div>
+</section>
 
-{% include gallery.html %}
+<section class="col-sm-8 main-section-margins">
+  <div style="background-color:#99c8b4; color:white; padding:20px 40px 60px">
+    <h3>Accommodation</h3>
+    <p style="color:white">We understand that finding the right place to live is just as important as finding the right course to study. We have a list of accommodation around the local areas of each of our campuses that are available to you.</p>
+    <a href="{{ site.url }}/student-support/accommodation/#residential-bursary" class="button--white">Find out more</a>
+    <i class="fa fa-bed fa-5x" style="position:absolute; right:4%; top:5%; color:#cce4da"></i>
+  </div>
+</section>
 
-<!-- faculty areas section -->
+<section class="col-sm-8 main-section-margins">
+  <div style="background-color:#99c8b4; color:white; padding:20px 40px 60px">
+    <h3>Money</h3>
+    <p style="color:white">If you are planning to join us in 2018 and live in the EU you will be glad to know that our fees are set from £8,400 per year. A range of scholarships and bursaries are available.</p>
+    <a href="{{ site.url }}/student-support/financial-support/#uni-programme" class="button--white">Find out more</a>
+    <i class="fa fa-money fa-5x" style="position:absolute; right:4%; top:5%; color:#cce4da"></i>
+  </div>
+</section>
 
-{% include university/he-areas.html %}
+    <div class="col-sm-8">
+      <div class="side-stacker side-stacker--570">
+        <div style="padding:20px; margin-bottom:1%; background-color:#f3f3f3;">
+          <p style="font-weight:bold">Unsure about Higher Education and the UCAS application process? Use this UCAS information guide to clear up any confusion.</p>
+        </div>
 
-{% include prospectus.html %}
-
-<section class="col-xs-12 container main-section-margins clearfix" style="text-align:center">
-  <div class="col-xs-12 col-md-10 col-md-offset-1" style="border:5px solid #C60018">
-    <h2 class="text-uppercase">UCAS interactive<span style="color:#c60018">information guide</span></h2>
-    <p class="lead col-xs-12 col-md-4 col-md-offset-2">Unsure about Higher Education and the UCAS application process? Use this UCAS information guide to clear up any confusion.</p>
-    <div class="col-xs-12 col-md-5" style="margin-bottom:30px">
-      <!--UCAS Adviser widget iframe -->
-      <iframe id="ucas_adviser_widget"
-      src="https://www.ucasdigital.com/widgets/advisers/ucas-adviser-widget.html"
-      width="300" height="250"></iframe>
-      <!-- end UCAS Adviser widget iframe -->
+        <div>
+          <!--UCAS Adviser widget iframe -->
+          <iframe id="ucas_adviser_widget" style="margin-left:auto; border:none; margin-right:auto"
+          src="https://www.ucasdigital.com/widgets/advisers/ucas-adviser-widget.html"
+          width="300" height="250"></iframe>
+          <!-- end UCAS Adviser widget iframe -->
+        </div>
+      </div>
     </div>
+
+<section class="col-sm-8 main-section-margins">
+  <div style="background-color:#99c8b4; color:white; padding:20px 40px 60px">
+    <h3>Want to find out more?</h3>
+    <a href="{{ site.url }}/book-a-call-back/?referrer=University%20Hub%20Page%20Question" class="button--white">Talk to a programme manager</a>
+    <i class="fa fa-money fa-5x" style="position:absolute; right:4%; top:5%; color:#cce4da"></i>
   </div>
 </section>
 
 
-<!-- BROWSE BY section -->
-{% include one-option-solid-background.html one-option-text="Want to find out more about our degrees?" one-option-button-text="Talk to a programme manager" one-option-href="/book-a-call-back/?referrer=University%20Hub%20Page%20Question" %}
-<!-- BROWSE BY section ENDS-->
+{% include /university/prospectus.html %}
 
 
 {% include /university/he-events.html %}
 
 <!-- PARTNERSHIPS -->
-<section class="col-md-12 main-section-margins intro">
-  <section class="container">
-    <article class="col-sm-6 col-md-4 left">
-      <h2>OUR <strong>PARTNERSHIPS</strong></h2>
-    </article>
-
-    <article class="partner-logo col-xs-12 col-sm-6 col-md-8 clearfix right">
+<section class="col-sm-8 main-section-margins">
+  <div style="display:inline-block; background-color:#99c8b4; color:white; padding:20px 40px 60px">
+<!--
+    <div class="col-sm-4">
+      <h3>Our Partners</h3>
+    </div>
+-->
+    <div class="partner-logo col-md-12" style="display:flex; flex-wrap:wrap; justify-content:space-around">
       <!-- PARTNER LOGO 1 -->
-	    <span class="col-xs-6 col-md-4 text-center">
-	      <a href="https://www.plymouth.ac.uk/" title='Plymouth University'>
-          <img src="/images/partnerships/plymouth-university.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='Plymouth University Logo'>
-        </a>
-      </span>
+      <div class="text-center" style="display:inline-block; width:30%">
+          <h3>Our Partners</h3>
+      </div>
 
       <!-- PARTNER LOGO 2 -->
-      <span class="col-xs-6 col-md-4 text-center">
-        <a href="http://www.marjon.ac.uk/" title='University of St Mark & St John'>
-          <img src="/images/partnerships/marjon.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='University of St Mark & St John Logo'>
+      <span class="text-center" style="display:inline-block; width:30%">
+        <a href="https://www.bathspa.ac.uk/" title='Bath Spa University'>
+          <img src="/images/partnerships/bath-spa.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='Plymouth University Logo'>
         </a>
       </span>
 
       <!-- PARTNER LOGO 3 -->
-      <span class="col-xs-6 col-md-4 text-center">
+      <span class="text-center" style="display:inline-block; width:30%">
+        <a href="https://www.plymouth.ac.uk/" title='Plymouth University'>
+          <img src="/images/partnerships/plymouth-university.png"  class="img-responsive transition" style="width:213; height:140px" alt='Plymouth University Logo'>
+        </a>
+      </span>
+
+      <!-- PARTNER LOGO 4 -->
+      <span class="text-center" style="display:inline-block; width:30%">
+        <a href="http://www.marjon.ac.uk/" title='University of St Mark & St John'>
+          <img src="/images/partnerships/marjon.png"  class="img-responsive transition" style="width:213; height:140px" alt='University of St Mark & St John Logo'>
+        </a>
+      </span>
+
+      <!-- PARTNER LOGO 5 -->
+      <span class="text-center" style="display:inline-block; width:30%">
         <a href="https://www.falmouth.ac.uk/" title='Falmouth University'>
           <img src="/images/partnerships/falmouth-university.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='Falmouth University'>
         </a>
       </span>
 
-      <!-- PARTNER LOGO 4 -->
-      <span class="col-xs-6 col-md-4 text-center">
+      <!-- PARTNER LOGO 6 -->
+      <span class="text-center" style="display:inline-block; width:30%">
         <a href="http://uksa.org/" title='UKSA'>
           <img src="/images/partnerships/UKSA.jpg"  class="img-responsive transition" style="width:213; height:140px" alt='UKSA'>
         </a>
       </span>
-    </article>
-  </section>
+    </div>
+  </div>
 </section>
-
-{% include one-option.html one-option-text="Read our Terms &amp; Conditions" background-img="/images/19-plus.jpg" one-option-href="/documents/terms-conditions/cc-he-t&c-2016.pdf" one-option-button-text="Download" %}
+</div>
