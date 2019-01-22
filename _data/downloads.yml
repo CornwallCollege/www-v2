@@ -71,6 +71,13 @@
   #End of Course Documents section
 
   #final final local offer brochure/Special Educational Needs and Disability Local Offer
+- title: Gender Pay Gap Report # Document name
+  type: PDF # Document type
+  category: equality-and-diversity # Document category
+  download-link: /documents/equality-and-diversity/gender-pay-gap-report.pdf
+  colour: CC0E0E
+
+  #final final local offer brochure/Special Educational Needs and Disability Local Offer
 - title: Special Educational Needs and Disability Local Offer # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
