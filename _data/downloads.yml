@@ -185,6 +185,12 @@
   download-link: /documents/guides/cornwall-college-student-guide-2018-2019.pdf
   colour: 00A5B4
 
+- title: Apprenticeship Guide # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/cornwall-college-guide-to-apprenticeships.pdf
+  colour: 00A5B4
+
   # End of Guides
 
   #Bicton College Campus Map
