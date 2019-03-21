@@ -1,0 +1,26 @@
+---
+---
+<!DOCTYPE html>
+{% include site-html-tag.html %}
+
+  {% include head.html %}
+
+  <body itemscope="" itemtype='{{site.schema-college}}'>
+
+    <!-- Google Tag Manager -->
+    {% include tag-manager.html %}
+    <!-- End Google Tag Manager -->
+
+    {% include back-button.html %}
+    {{ content }}
+
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+    {% js main %}
+    {% js bundle-non-home %}
+  </body>
+
+</html>
