@@ -191,6 +191,12 @@
   download-link: /documents/guides/cornwall-college-guide-to-apprenticeships.pdf
   colour: 00A5B4
 
+- title: Access to Higher Education Courses for 2019-20 # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/access-to-higher-education-courses-for-2019-20.pdf
+  colour: 00A5B4
+
   # End of Guides
 
   #Bicton College Campus Map
