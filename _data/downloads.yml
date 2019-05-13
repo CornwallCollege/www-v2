@@ -2,21 +2,14 @@
 - title: Further Education Funding Support Policy #Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/application-form/further-education-funding-support-policy-2017-18.pdf
+  download-link: /documents/application-form/further-education-funding-support-policy-2019-20.pdf
   colour: 77BC43
 
-  #Childcare Support Information and Application Form
-- title: Childcare Support Information and Application Form  # Document name
+  #Cornwall College Access Agreement 2018-19
+- title: Cornwall College Access Agreement 2018-19  # Document name
   type: Word # Document type
   category: application-forms # Document category
-  download-link: /documents/application-form/Childcare-Support-Information-and-Application-Form.pdf
-  colour: 77BC43
-
-  #TCCG access agreement 2017-2018
-- title: The Cornwall College Group Access Agreement 2017-2018  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Access-Agreement-2017-2018.pdf
+  download-link: /documents/application-form/cornwall-college-access-agreement-2018-19.pdf
   colour: 77BC43
 
   #Application Day Consent form
@@ -61,27 +54,20 @@
   download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4.pdf
   colour: 004B93
 
-  #CC UP Infographic ESF Dissemination
-- title: Cornwall College UP Infographic ESF Dissemination # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/CC UP Infographic ESF Dissemination.pdf
-  colour: 004B93
-
   #End of Course Documents section
 
-  #final final local offer brochure/Special Educational Needs and Disability Local Offer
+  #Gender Pay Gap Report
 - title: Gender Pay Gap Report # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
   download-link: /documents/equality-and-diversity/gender-pay-gap-report.pdf
   colour: CC0E0E
 
-  #final final local offer brochure/Special Educational Needs and Disability Local Offer
-- title: Special Educational Needs and Disability Local Offer # Document name
+  #Special Educational Needs Provision Statement
+- title: Special Educational Needs Provision Statement # Document name
   type: PDF # Document type
   category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/final final local offer brochure.pdf
+  download-link: /documents/equality-and-diversity/special-educational-needs-provision-statement.pdf
   colour: CC0E0E
 
   # End of Equality and diversity section
@@ -102,20 +88,20 @@
   colour: 00A5B4
 
   #Advanced Learning Loans Fees Policy 2017
-- title: Advanced Learning Loans Fees Policy 2017 # Document name
+- title: Advanced Learner Loans Fees Policy 2019 # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/Advanced-Learner-Loans-Fees-Policy-2017.pdf
+  download-link: /documents/guides/advanced-learner-loans-fees-policy-2019.pdf
   colour: 00A5B4
 
-  #CC HE T&C's 2016
-- title: "Cornwall College Higher Education T &amp; Cs 2016" # Document name
+  #HE Terms and Conditions (HE Prescribed Programmes) 2019-20
+- title: HE Terms and Conditions (HE Prescribed Programmes) 2019-20 # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/CC-HE-TandCs-2016.pdf
+  download-link: /documents/guides/HE-terms-and-conditions-presribed-programmes-2019-20.pdf
   colour: 00A5B4
 
-  #
+  #Cornwall College Freedom of Information Scheme Introduction
 - title: Cornwall College Freedom of Information Scheme Introduction # Document name
   type: PDF # Document type
   category: guides # Document category
@@ -162,13 +148,6 @@
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/External lettings form - Rooms.docx
-  colour: 00A5B4
-
-  #FE Student Services flyer
-- title: Further Education Student Services Flyer # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/FE Student Services flyer.pdf
   colour: 00A5B4
 
   #FOI__Guide_to__information__CC
@@ -418,6 +397,13 @@
   colour: e8d045
 
   #End of Prospectuses
+
+  #TCCG Strategic Plan 2019
+- title: TCCG Strategic Plan 2019
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/reports/TCCG-strategic-plan-2019.pdf
+  colour: bc77ee
 
   #05593JW0815_TCCG_HE_Student_Charter_PDF
 - title: The Cornwall College Group Higher Education Student Charter PDF

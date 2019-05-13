@@ -16,6 +16,7 @@
     "gulp-uncss": "^1.0.6",
     "gulp-util": "^3.0.8",
     "html-minifier": "^3.5.13",
+    "natives": "^1.1.6",
     "run-sequence": "^2.2.1"
   }
 }
