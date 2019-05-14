@@ -84,7 +84,7 @@
 - title: Advanced Learning Loans Information Leaflet # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/Advanced-Learning-Loans-Leaflet.pdf
+  download-link: /documents/guides/advanced-learning-loans-leaflet.pdf
   colour: 00A5B4
 
   #Advanced Learning Loans Fees Policy 2017
@@ -257,13 +257,6 @@
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15.pdf
-  colour: 961313
-
-  #CC SI MLW Complete
-- title: Cornwall College Strategic Intent MLW Complete # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/CC SI MLW Complete.pdf
   colour: 961313
 
   #CC Alumni
