@@ -389,6 +389,20 @@
   download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2019.pdf
   colour: e8d045
 
+  #Duchy College & Bicton College Undergraduate Prospectus 2020
+- title: Duchy College & Bicton College Undergraduate Prospectus 2020 # Document name
+  type:  PDF # Document type
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/duchy-college-bicton-college-undergraduate-prospectus-2020.pdf
+  colour: e8d045
+
+  #The Cornwall College Group Undergraduate Prospectus 2020
+- title: The Cornwall College Group Undergraduate Prospectus 2020 # Document name
+  type:  PDF # Document type
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2020.pdf
+  colour: e8d045
+
   #End of Prospectuses
 
   #TCCG Strategic Plan 2019
