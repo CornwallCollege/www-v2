@@ -564,12 +564,6 @@
       image: /falmouth/national-maritime-museum-cornwall.jpg
       image-thumb: /falmouth/national-maritime-museum-cornwall-thumb.jpg
 
-    - title: Watersports Centre & Sports Activites
-      detail: "Students are able to take part in free and subsidised sporting and recreational activities whilst at the College. Our College Sportsmaker arranges a varied timetable of sports activities each term.<br><br>Our Watersports Centre is on the banks of the Fal Estuary with easy access to both of the Cornish coastlines. Our kit includes: Kayaks, Stand Up Paddleboards, Windsurfers, Sailing boats and Power Boats<br><br><strong>For more information:</strong><br>Email: <a href='mailto:sportsmaker@cornwall.ac.uk'>sportsmaker@cornwall.ac.uk</a>"
-      link: /falmouth-learning-area/
-      image: /falmouth/watersports-centre.jpg
-      image-thumb: /falmouth/watersports-centre-thumb.jpg
-
     - title: Marine Science<br>Lab
       detail: We have one of the largest aquatic teaching facilities in the UK. We have research tank systems that include:<br>• Sharks<br>• Corals<br>• Seahorses<br>• Fresh water fish<br>• Tropical fish<br>• Piranhas<br><br> We also have fully equipped laboratories to undertake the necessary research work as part of your course.
       link: /falmouth-learning-area/
@@ -583,15 +577,6 @@
       image-thumb: /falmouth/marine-engineering-thumb.jpg
 
   learning-areas:
-    - area-title: Health & Wellbeing
-      area-color: D70060
-      sub-areas:
-      - sub-area-title: Sports, Fitness & Outdoor Adventure
-        sub-area-link: sports-fitness
-
-      - sub-area-title: Watersports
-        sub-area-link: watersports
-
     - area-title: Science & Natural Environment
       area-color: 113F8C
       sub-areas:

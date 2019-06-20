@@ -797,9 +797,9 @@
       icon: fa-futbol-o
       level: 1 2 3 4 5 6
       colour: D70060
-      brand: cc fms dc
+      brand: cc dc
       sector: 16-18 19plus apprenticeships university access
-      campus: bicton-campus camborne-campus falmouth-campus newquay-campus st-austell-campus stoke-campus
+      campus: bicton-campus camborne-campus newquay-campus st-austell-campus stoke-campus
       campus-long:
         - campus-name: Bicton Campus
           campus-link: /bicton-campus.html
@@ -808,10 +808,6 @@
         - campus-name: Camborne Campus
           campus-link: /camborne-campus.html
           campus-filter: camborne
-
-        - campus-name: Falmouth Campus
-          campus-link: /falmouth-campus.html
-          campus-filter: falmouth-marine-school
 
         - campus-name: Newquay Campus
           campus-link: /newquay-campus.html
@@ -866,25 +862,6 @@
       career-link: /health/index.html
       search-link: social-care-health
       intro: "If you're interested in the human body, how it works and heals, and want to work to help people live better lives a pathway to a health career could be for you. From nurses and paramedics to dentists and doctors, there's a massive range of careers in the sector for anyone who cares about people."
-
-    - subcluster: Watersports
-      image: /images/hw/watersports.jpg
-      mobile-image: /images/hw/watersports-mobile.jpg
-      filter: hw
-      a-href: /career-pages/water-sports/index.html
-      level:
-      colour: D70060
-      brand: fms
-      sector:
-      campus: falmouth-campus
-      campus-long:
-        - campus-name: Falmouth Campus
-          campus-link: /falmouth-campus.html
-          campus-filter: falmouth-marine-school
-
-      career-link: /water-sports/index.html
-      search-link: watersports
-      intro: Professional sports are very competitive and only a few reach the pinnacle of their profession but there are also millions of others who lead successful careers in sports and fitness. From coaches and trainers to physiotherapists and leisure managers. Having a career in a subject you are passionate about is a fantastic goal to aim for, whether as an elite athlete or part of the wider industry.
 
 
 #Business & Professional E54028
