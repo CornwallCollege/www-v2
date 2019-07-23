@@ -1,6 +1,6 @@
 //= require ./plyr.js
 //= require ./imagesloaded.pkgd.min
-//= require ./isotope-2.0.0.pkgd.min
+//= require ./isotope.pkgd.min
 //= require ./waypoints-2.0.5.min
 //= require ./grid
 //= require ./BetterTube

@@ -1,21 +1,21 @@
 {
   "private": true,
   "dependencies": {
-    "browser-sync": "^2.23.6",
-    "critical": "^1.2.2",
+    "browser-sync": "^2.26.7",
+    "critical": "^1.3.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.3",
+    "gulp-clean-css": "^3.10.0",
     "gulp-download-stream": "0.0.13",
-    "gulp-git": "^2.5.2",
+    "gulp-git": "^2.9.0",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^4.1.0",
     "gulp-replace": "^0.6.1",
     "gulp-shell": "^0.6.5",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
     "gulp-uncss": "^1.0.6",
     "gulp-util": "^3.0.8",
-    "html-minifier": "^3.5.13",
+    "html-minifier": "^3.5.21",
     "natives": "^1.1.6",
     "run-sequence": "^2.2.1"
   }
