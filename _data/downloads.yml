@@ -12,13 +12,6 @@
   download-link: /documents/application-form/cornwall-college-access-agreement-2018-19.pdf
   colour: 77BC43
 
-  #Application Day Consent form
-- title: Application Day Consent Form  # Document name
-  type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Application Day Consent form.doc
-  colour: 77BC43
-
   #CC Leisure Application Form
 - title: Cornwall College Leisure Application Form  # Document name
   type: PDF # Document type
@@ -101,27 +94,6 @@
   download-link: /documents/guides/HE-terms-and-conditions-presribed-programmes-2019-20.pdf
   colour: 00A5B4
 
-  #Cornwall College Freedom of Information Scheme Introduction
-- title: Cornwall College Freedom of Information Scheme Introduction # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/cornwall-college-freedom-of-information-scheme-introduction.pdf
-  colour: 00A5B4
-
-  #CCES_FOI_Scheme_Introduction
-- title: CCES Freedom of Information Scheme Introduction # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/CCES_FOI_Scheme_Introduction.pdf
-  colour: 00A5B4
-
-  #Complaints_Procedure
-- title: Complaints Procedure # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/Complaints_Procedure.pdf
-  colour: 00A5B4
-
   #Conditions for external hire of college premises (4) - Copy
 - title: Conditions for External Hire of College Premises # Document name
   type: Word # Document type
@@ -148,13 +120,6 @@
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/External lettings form - Rooms.docx
-  colour: 00A5B4
-
-  #FOI__Guide_to__information__CC
-- title: Freedom of Information Act Guide to information Cornwall College # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/FOI__Guide_to__information__CC.pdf
   colour: 00A5B4
 
   #0157JW0716_CC_Student_Guide_2017
@@ -236,27 +201,11 @@
 
   # End of Maps
 
-  #TCCG_education_news_2018
-- title: TCCG Education Newsletter 2018 # Document name
-  type: PDF # Document type
-  category: newsletter # Document category
-  download-link: /documents/newsletters/TCCG_education_news_2018.pdf
-  colour: e69900
-
-  # End of newsletters
-
   #Student_Complaints_Procedure_V9
 - title: Student Complaints Procedure # Document name
   type:  Word # Document type
   category: other # Document category
   download-link: /documents/other/Student_Complaints_Procedure_V9.doc
-  colour: 961313
-
-  #Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15
-- title: Subcontracting Funding Report for Publication on The Cornwall College Group Website # Document name
-  type:  PDF # Document type
-  category: other # Document category
-  download-link: /documents/other/Subcontracting Funding Report for Publication on TCCG Website-13-14 to 14-15.pdf
   colour: 961313
 
   #CC Alumni
@@ -417,34 +366,6 @@
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
-  colour: bc77ee
-
-  #CC Annual Report
-- title: Cornwall College Annual Report
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/CC Annual Report.pdf
-  colour: bc77ee
-
-  #CC SI Update 2015
-- title: Cornwall College Strategic Intent Update 2015
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/CC SI Update 2015.pdf
-  colour: bc77ee
-
-  #Scholarship_Report_2008-2009
-- title: Scholarship Report 2008-2009
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Scholarship_Report_2008-2009.pdf
-  colour: bc77ee
-
-  #Scholarship-Report-2010-2011
-- title: Scholarship Report 2010-2011
-  type:  PDF # Document type
-  category: reports # Document category
-  download-link: /documents/reports/Scholarship-Report-2010-2011.pdf
   colour: bc77ee
 
   #TCCG Ofsted Jan-16
