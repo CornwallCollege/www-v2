@@ -65,7 +65,6 @@
 
   # End of Equality and diversity section
 
-
   #Professional & Skills Training Guide For Adults 2018
 - title: Professional & Skills Training Guide for Adults # Document name
   type: PDF # Document type
@@ -201,6 +200,22 @@
 
   # End of Maps
 
+  #Education News - The Cornwall College Group
+- title: Education News - The Cornwall College Group # Document name
+  type:  PDF # Document type
+  category: newsletter # Document category
+  download-link: /documents/newsletter/the-cornwall-college-group-education-news.pdf
+  colour: e69900
+
+  #Education News - Duchy College
+- title: Education News - Duchy College # Document name
+  type:  PDF # Document type
+  category: newsletter # Document category
+  download-link: /documents/newsletter/duchy-college-education-news.pdf
+  colour: e69900
+
+  # End of Newsletter
+
   #Student_Complaints_Procedure_V9
 - title: Student Complaints Procedure # Document name
   type:  Word # Document type
@@ -299,7 +314,6 @@
   category: policies # Document category
   download-link: /documents/policies/determination-of-higher-education-programme-fees-2018-19.pdf
   colour: fd96f6
-
 
   # End of Policies
 
