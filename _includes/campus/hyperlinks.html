@@ -1,19 +1,21 @@
 <!-- Downloads Box -->
-<section style="border:1px solid #EEE; padding: 0 0 24px 16px;" class="facility-downloads col-md-5 col-sm-12 col-xs-12">
-  <h3>Useful links:</h3>
-  {% if include.link4 %}
-    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
-    <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
-    <a class="btn" href="{{ include.link3 }}">{{ include.button3 }}</a>
-    <a class="btn" href="{{ include.link4 }}">{{ include.button4 }}</a>
-  {% elsif include.link3 %}
-    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
-    <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
-    <a class="btn" href="{{ include.link3 }}">{{ include.button3 }}</a>
-  {% elsif include.link2 %}
-    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
-    <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
-  {% else %}
-    <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
-  {% endif %}
-</section>
+<div class="facility-downloads">
+    <div style="border:1px solid #EEE; padding: 0 20px 24px 20px;">
+    <h3>Useful links:</h3>
+    {% if include.link1 %}
+      <a class="btn" href="{{ include.link1 }}">{{ include.button1 }}</a>
+    {% endif %}
+    {% if include.link2 %}
+      <a class="btn" href="{{ include.link2 }}">{{ include.button2 }}</a>
+    {% endif %}
+    {% if include.link3 %}
+      <a class="btn" href="{{ include.link3 }}">{{ include.button3 }}</a>
+    {% endif %}
+    {% if include.link4 %}
+      <a class="btn" href="{{ include.link4 }}">{{ include.button4 }}</a>
+    {% endif %}
+    {% if include.link4 %}
+      <a class="btn" href="{{ include.link4 }}">{{ include.button4 }}</a>
+    {% endif %}
+  </div>
+</div>

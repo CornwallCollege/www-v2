@@ -25,4 +25,8 @@
       </tbody>
     </table>
     {% include /campus/campus-outreach-btn.html %}
+
+    {% if include.link1 %}
+        {% include /campus/hyperlinks.html button1=include.button1 link1=include.link1 button2=include.button2 link2=include.link2 button3=include.button3 link3=include.link3 button4=include.button4 link4=include.link4 %}
+    {% endif %}
 </section>
