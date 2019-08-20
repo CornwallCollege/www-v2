@@ -1282,7 +1282,7 @@ h2 span {
     font-weight: bold;
     font-size: 1.7em;
     bottom: 0;
-    z-index: 99999999999;
+    z-index: 40;
     display: block;
     width: 100%;
     background: #d97852;
