@@ -1090,12 +1090,6 @@
       image-thumb: /st-austell/student-services-thumb.jpg
 
   learning-areas:
-    - area-title: Academic Studies
-      area-color: 616161
-      sub-areas:
-      - sub-area-title: AS & A-level courses
-        sub-area-link: as-a-level
-
     - area-title: Business & Professional
       area-color: E54028
       sub-areas:

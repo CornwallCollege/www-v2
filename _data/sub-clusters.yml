@@ -689,33 +689,6 @@
       intro: "The 21st century has seen Cornwall emerge as one of the world's iconic destinations for its beaches, culture, watersports, countryside and history."
 
 
-#AS & A-level
-- cluster: A-levels
-  filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
-  cluster-link: #
-  a-class: transition as
-  a-data-filter: .ac
-  subclusters:
-    - subcluster: A-levels
-      image: /images/as/a-levels-desktop.jpg
-      mobile-image: /images/as/a-levels-mobile.jpg
-      filter: ac
-      a-href: /career-pages/a-levels/index.html
-      brand: cc
-      campus: st-austell-campus
-      campus-long:
-        - campus-name: St Austell Campus
-          campus-link: /st-austell-campus.html
-          campus-filter: st-austell
-
-      sector: 16-18 19plus
-      colour: 616161
-      learning-style: academic
-      career-link: /a-levels/index.html
-      search-link: as-a-level
-      intro: Our A-level department has seen its best results ever in 2016, with an overall pass rate of 99.6%, which is the highest in Cornwall. Our students achieved a 100% pass rate in 25 out of 26 subjects and our value added is in the top 1% in the UK! If your focus is university and you want to get a personalised learning experience, plus work experience and a great support network, look no further.
-
-
 #Health & Wellbeing D70060
 - cluster: Health & Wellbeing
   filter: cluster-hover col-xs-12 col-sm-4 col-md-4 col-lg-4
