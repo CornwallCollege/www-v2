@@ -338,18 +338,18 @@
   download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2019.pdf
   colour: e8d045
 
-  #Duchy College FE Prospectus 2019
-- title: Duchy College & Bicton College Further Education Prospectus 2019 # Document name
+  #Duchy College FE Prospectus 2020
+- title: Duchy College & Bicton College Further Education Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/duchy-bicton-college-further-education-prospectus-2019.pdf
+  download-link: /documents/prospectuses/duchy-bicton-college-further-education-prospectus-2020.pdf
   colour: e8d045
 
-  #FMS FE Prospectus 2019
-- title: Falmouth Marine School Further Education Prospectus 2019 # Document name
+  #FMS FE Prospectus 2020
+- title: Falmouth Marine School Further Education Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2019.pdf
+  download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2020.pdf
   colour: e8d045
 
   #Duchy College & Bicton College Undergraduate Prospectus 2020
