@@ -331,11 +331,11 @@
   download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2019.pdf
   colour: e8d045
 
-  #Cornwall College FE Prospectus 2019
-- title: Cornwall College Further Education Prospectus 2019 # Document name
+  #Cornwall College FE Prospectus 2020
+- title: Cornwall College Further Education Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
-  download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2019.pdf
+  download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2020.pdf
   colour: e8d045
 
   #Duchy College FE Prospectus 2020
