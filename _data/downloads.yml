@@ -1,127 +1,89 @@
-  #Funding Information and Application Form: Further Education Funding Support Policy
-- title: Further Education Funding Support Policy #Document name
+  #Forms
+- title: Access Agreement 2018-19  # Document name
   type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/further-education-funding-support-policy-2019-20.pdf
+  category: forms # Document category
+  download-link: /documents/forms/cornwall-college-access-agreement-2018-19.pdf
   colour: 77BC43
 
-  #Cornwall College Access Agreement 2018-19
-- title: Cornwall College Access Agreement 2018-19  # Document name
+- title: Application for the Hire of College Premises # Document name
   type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/cornwall-college-access-agreement-2018-19.pdf
+  category: forms # Document category
+  download-link: /documents/forms/application-for-the-hire-of-college-premises.docx
   colour: 77BC43
 
-  #CC Leisure Application Form
-- title: Cornwall College Leisure Application Form  # Document name
-  type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/CC Leisure Application Form.pdf
-  colour: 77BC43
-
-  #STAC Room Booking Form
 - title: Cornwall College St Austell Room Booking Form  # Document name
   type: Excel Spreadsheet # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/STAC Room Booking Form.xlsx
+  category: forms # Document category
+  download-link: /documents/forms/STAC Room Booking Form.xlsx
   colour: 77BC43
 
-  #Teenage Pregnancy FE Project Referral Form 190713
+- title: Higher Education Accreditation of Prior Learning Application Form #Document name
+  type: Word # Document type
+  category: forms # Document category
+  download-link: /documents/forms/higher-education-accreditation-of-prior-learning-application-form-2019-20.docx
+  colour: 77BC43
+
+- title: Higher Education Declaration of Criminal Convictions #Document name
+  type: Word # Document type
+  category: forms # Document category
+  download-link: /documents/forms/higher-education-criminal-convictions-form-2019.docx
+  colour: 77BC43
+
+- title: Leisure Application Form  # Document name
+  type: PDF # Document type
+  category: forms # Document category
+  download-link: /documents/forms/CC Leisure Application Form.pdf
+  colour: 77BC43
+
 - title: Teenage Pregnancy Further Education Project Referral Form # Document name
   type: Word # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Teenage Pregnancy FE Project Referral Form 190713.doc
+  category: forms # Document category
+  download-link: /documents/forms/Teenage Pregnancy FE Project Referral Form 190713.doc
   colour: 77BC43
 
-  #Unaffiliated Dressage ENTRY FORM-test5
 - title: Unaffiliated Dressage ENTRY FORM # Document name
   type: PDF # Document type
-  category: application-forms # Document category
-  download-link: /documents/application-form/Unaffiliated Dressage ENTRY FORM-test5.pdf
+  category: forms # Document category
+  download-link: /documents/forms/Unaffiliated Dressage ENTRY FORM-test5.pdf
   colour: 77BC43
 
-  #05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4
-- title: TCCG Apprenticeship Tips # Document name
-  type: PDF # Document type
-  category: course-documents # Document category
-  download-link: /documents/course-documents/05687JW1015_Apprentice_TCCG_Diamond_CV_tips_A4 4.pdf
-  colour: 004B93
-
-  #End of Course Documents section
-
-  #Gender Pay Gap Report
-- title: Gender Pay Gap Report # Document name
-  type: PDF # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/gender-pay-gap-report.pdf
-  colour: CC0E0E
-
-  #Special Educational Needs Provision Statement
-- title: Special Educational Needs Provision Statement # Document name
-  type: PDF # Document type
-  category: equality-and-diversity # Document category
-  download-link: /documents/equality-and-diversity/special-educational-needs-provision-statement.pdf
-  colour: CC0E0E
-
-  # End of Equality and diversity section
-
-  #Professional & Skills Training Guide For Adults 2018
-- title: Professional & Skills Training Guide for Adults # Document name
-  type: PDF # Document type
-  category: guides # Document category
-  download-link: /documents/guides/professional-skills-training-guide-adults.pdf
-  colour: 00A5B4
-
-  #Advanced Learning Loans leaflet
+  #Guides
 - title: Advanced Learning Loans Information Leaflet # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/advanced-learning-loans-leaflet.pdf
   colour: 00A5B4
 
-  #Advanced Learning Loans Fees Policy 2017
-- title: Advanced Learner Loans Fees Policy 2019 # Document name
+- title: Professional & Skills Training Guide for Adults # Document name
   type: PDF # Document type
   category: guides # Document category
-  download-link: /documents/guides/advanced-learner-loans-fees-policy-2019.pdf
+  download-link: /documents/guides/professional-skills-training-guide-adults.pdf
   colour: 00A5B4
 
-  #HE Terms and Conditions (HE Prescribed Programmes) 2019-20
 - title: HE Terms and Conditions (HE Prescribed Programmes) 2019-20 # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/HE-terms-and-conditions-presribed-programmes-2019-20.pdf
   colour: 00A5B4
 
-  #Conditions for external hire of college premises (4) - Copy
 - title: Conditions for External Hire of College Premises # Document name
   type: Word # Document type
   category: guides # Document category
-  download-link: /documents/guides/Conditions for external hire of college premises (4) - Copy.doc
+  download-link: /documents/guides/conditions-for-external-hire-of-college-premises.doc
   colour: 00A5B4
 
-  #Cornwall College - Regulations
 - title: Cornwall College - Regulations # Document name
   type: Word # Document type
   category: guides # Document category
   download-link: /documents/guides/Cornwall College - Regulations.docx
   colour: 00A5B4
 
-  #Cornwall College NMH rates
 - title: Cornwall College NMH Rates and Contact Information - 2018 # Document name
   type: PDF # Document type
   category: guides # Document category
   download-link: /documents/guides/Cornwall College NMH Rates and Contact Information - 2018.pdf
   colour: 00A5B4
 
-  #External lettings form - Rooms
-- title: External Lettings Form - Rooms # Document name
-  type: Word # Document type
-  category: guides # Document category
-  download-link: /documents/guides/External lettings form - Rooms.docx
-  colour: 00A5B4
-
-  #0157JW0716_CC_Student_Guide_2017
 - title: The Cornwall College Group Student Guide 2018-2019 # Document name
   type: PDF # Document type
   category: guides # Document category
@@ -140,253 +102,260 @@
   download-link: /documents/guides/access-to-higher-education-courses-for-2019-20.pdf
   colour: 00A5B4
 
-  # End of Guides
+- title: Special Educational Needs Provision Statement # Document name
+  type: PDF # Document type
+  category: guides # Document category
+  download-link: /documents/guides/special-educational-needs-provision-statement.pdf
+  colour: 00A5B4
 
-  #Bicton College Campus Map
+  #Maps
 - title: Bicton College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/bicton-college-campus-map.pdf
   colour: 006D43
 
-  #Cornwall College Camborne Campus Map
 - title: Camborne Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/camborne-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Falmouth Marie School Campus Map
 - title: Falmouth Marine School Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/falmouth-marine-school-campus-map.pdf
   colour: 006D43
 
-  #Duchy College Rosewarne Campus Map
 - title: Rosewarne Duchy College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/rosewarne-duchy-college-campus-map.pdf
   colour: 006D43
 
-  #Cornwall College Newquay Campus Map
 - title: Newquay Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/newquay-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Cornwall College Saltash Campus Map
 - title: Saltash Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/saltash-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Cornwall College St Austell Campus Map
 - title: St Austell Cornwall College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/st-austell-cornwall-college-campus-map.pdf
   colour: 006D43
 
-  #Duchy College Stoke Climsland Campus Map
 - title: Stoke Climsland Duchy College Campus Map # Document name
   type: PDF # Document type
   category: maps # Document category
   download-link: /documents/maps/stoke-climsland-duchy-college-campus-map.pdf
   colour: 006D43
 
-  # End of Maps
-
-  #Education News - The Cornwall College Group
 - title: Education News - The Cornwall College Group # Document name
   type:  PDF # Document type
   category: newsletter # Document category
   download-link: /documents/newsletter/the-cornwall-college-group-education-news.pdf
   colour: e69900
 
-  #Education News - Duchy College
 - title: Education News - Duchy College # Document name
   type:  PDF # Document type
   category: newsletter # Document category
   download-link: /documents/newsletter/duchy-college-education-news.pdf
   colour: e69900
 
-  # End of Newsletter
-
-  #Student_Complaints_Procedure_V9
+  #Other
 - title: Student Complaints Procedure # Document name
   type:  Word # Document type
   category: other # Document category
   download-link: /documents/other/Student_Complaints_Procedure_V9.doc
   colour: 961313
 
-  #CC Alumni
 - title: Cornwall College Alumni # Document name
   type:  PDF # Document type
   category: other # Document category
   download-link: /documents/other/alumni-cornwall-college.pdf
   colour: 961313
-  #End of other
 
-  #HE Repeating Studies Procedure 2018
-- title: Higher Education Repeating Studies Procedure-2018 # Document name
-  type:  PDF # Document type
+  #Policies
+- title: Advanced Learner Loans Fees Policy 2019 # Document name
+  type: PDF # Document type
   category: policies # Document category
-  download-link: /documents/policies/higher-education-repeating-study-procedure-2018.pdf
+  download-link: /documents/guides/advanced-learner-loans-fees-policy-2019.pdf
+  colour: 004B93
+
+- title: Further Education Funding Support Policy #Document name
+  type: Word # Document type
+  category: policies # Document category
+  download-link: /documents/policies/further-education-funding-support-policy-2019-20.pdf
+  colour: 004B93
+
+  #HE Policies
+- title: Higher Education Accommodation Policy &amp; Procedure (Private Sector) # Document name
+  type:  PDF # Document type
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-accommodation-policy-procedure-private-sector-2019-20.pdf
   colour: fd96f6
 
-  #HE Withdrawing and Suspending Studies Procedure 2018
-- title: Higher Education Withdrawing and Suspending Studies Procedure 2018 # Document name
+- title: Higher Education Admissions Policy 2019-20 # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-withdrawing-and-suspending-studies-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-admissions-policy-2019-20.pdf
   colour: fd96f6
 
-  #HE Terms and Conditions
-- title: Higher Education Terms and Conditions (Prescribed Programmes only) # Document name
+- title: Higher Education Course Closure, Refund and Compensation Procedure # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-terms-and-conditions-he-presribed-programmes-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-course-closure-refund-and-compensation-procedure-2019-20.pdf
   colour: fd96f6
 
-  #HE Student Change of Name Procedure 2018
-- title: Higher Education Student Change of Name Procedure 2018 # Document name
+- title: Higher Education Course Transfer Procedure 2019-20 # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-student-change-of-name-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-course-transfer-procedure-2019-20.pdf
   colour: fd96f6
 
-  #HE Student Change of Address Procedure 2018
-- title: Higher Education Student Change of Address Procedure 2018 # Document name
+- title: Higher Education Criminal Convictions Policy # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-student-change-of-address-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-criminal-convictions-policy-2019-20.pdf
   colour: fd96f6
 
-  #HE Resuming Study Procedure 2018
-- title: Higher Education Resuming Study Procedure 2018 # Document name
+- title: Higher Education Criminal Convictions Procedure # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-resuming-study-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-criminal-convictions-procedure-2019.pdf
   colour: fd96f6
 
-  #HE Public Information Procedure 2018
-- title: Higher Education Public Information Procedure 2018 # Document name
-  type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-public-information-procedure-2018.pdf
-  colour: fd96f6
-
-  #HE Outstanding Fees and Deregistration Procedures 2018
 - title: Higher Education Outstanding Fees and Deregistration Procedure 2018 # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-outstanding-fees-and-deregistration-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-outstanding-fees-and-deregistration-procedure-2018.pdf
   colour: fd96f6
 
-  #HE Course Closure Refund and Compensation Procedure 2018
-- title: Higher education Course Closure Refund and Compensation Procedure 2018 # Document name
+- title: Higher Education Public Information Procedure 2019-20 # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-course-closure-refund-and-compensation-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-public-information-procedure-2019-20.pdf
   colour: fd96f6
 
-  #HE Course Transfer Procedure 2018
-- title: Higher education Course Transfer Procedure 2018 # Document name
+- title: Higher Education Repeating Studies Procedure 2019-20 # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-course-transfer-procedure-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-repeating-study-procedure-2019-20.pdf
   colour: fd96f6
 
-  #HE Admissions Policy 2018
-- title: Higher education Admissions Policy 2018 # Document name
+- title: Higher Education Resuming Study Procedure 2019-20 # Document name
   type:  PDF # Document type
-  category: policies # Document category
-  download-link: /documents/policies/higher-education-admissions-policy-2018.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-resuming-study-procedure-2019-20.pdf
   colour: fd96f6
 
-  #Determination of Higher Education Programme Fees 2018-19
-- title: Determination of Higher Education Programme Fees 2018-19 # Document name
+- title: Higher Education Student Change of Name Procedure 2019-20 # Document name
+  type:  PDF # Document type
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-student-change-of-name-procedure-2019-20.pdf
+  colour: fd96f6
+
+- title: Higher Education Student Change of Address Procedure 2019-20 # Document name
+  type:  PDF # Document type
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-student-change-of-address-procedure-2019-20.pdf
+  colour: fd96f6
+
+- title: Higher Education Student Engagement Strategy 2019-20 # Document name
+  type:  PDF # Document type
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-student-engagement-strategy-2019-20.pdf
+  colour: fd96f6
+
+- title: Higher Education Terms and Conditions (Prescribed Programmes only) # Document name
+  type:  PDF # Document type
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-terms-and-conditions-he-presribed-programmes-2018.pdf
+  colour: fd96f6
+
+- title: Determination of Higher Education Programme Fees 2019-20 # Document name
   type:  PDF # Document typ
-  category: policies # Document category
-  download-link: /documents/policies/determination-of-higher-education-programme-fees-2018-19.pdf
+  category: he-policies # Document category
+  download-link: /documents/he-policies/determination-of-higher-education-programme-fees-2019-20.pdf
   colour: fd96f6
 
-  # End of Policies
+- title: Higher Education Withdrawing and Suspending Studies Procedure 2018 # Document name
+  type:  PDF # Document type
+  category: he-policies # Document category
+  download-link: /documents/he-policies/higher-education-withdrawing-and-suspending-studies-procedure-2018.pdf
+  colour: fd96f6
 
-  #Duchy College & Bicton College Undergraduate Prospectus 2019
+  #Prospectuses
 - title: Duchy College & Bicton College Undergraduate Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/duchy-college-bicton-college-undergraduate-prospectus-2019.pdf
   colour: e8d045
 
-  #The Cornwall College Group Undergraduate Prospectus 2019
 - title: The Cornwall College Group Undergraduate Prospectus 2019 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2019.pdf
   colour: e8d045
 
-  #Cornwall College FE Prospectus 2020
 - title: Cornwall College Further Education Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/cornwall-college-further-education-prospectus-2020.pdf
   colour: e8d045
 
-  #Duchy College FE Prospectus 2020
 - title: Duchy College & Bicton College Further Education Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/duchy-bicton-college-further-education-prospectus-2020.pdf
   colour: e8d045
 
-  #FMS FE Prospectus 2020
 - title: Falmouth Marine School Further Education Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/falmouth-marine-school-further-education-prospectus-2020.pdf
   colour: e8d045
 
-  #Duchy College & Bicton College Undergraduate Prospectus 2020
 - title: Duchy College & Bicton College Undergraduate Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/duchy-college-bicton-college-undergraduate-prospectus-2020.pdf
   colour: e8d045
 
-  #The Cornwall College Group Undergraduate Prospectus 2020
 - title: The Cornwall College Group Undergraduate Prospectus 2020 # Document name
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2020.pdf
   colour: e8d045
 
-  #End of Prospectuses
-
-  #TCCG Strategic Plan 2019
+  #Reports
 - title: TCCG Strategic Plan 2019
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/TCCG-strategic-plan-2019.pdf
   colour: bc77ee
 
-  #05593JW0815_TCCG_HE_Student_Charter_PDF
 - title: The Cornwall College Group Higher Education Student Charter PDF
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/05593JW0815_TCCG_HE_Student_Charter_PDF.pdf
   colour: bc77ee
 
-  #TCCG Ofsted Jan-16
 - title: The Cornwall College Group Ofsted Report 2015
   type:  PDF # Document type
   category: reports # Document category
   download-link: /documents/reports/TCCG-ofsted-jan-16.pdf
   colour: bc77ee
 
-  #End of Reports
+- title: Gender Pay Gap Report # Document name
+  type: PDF # Document type
+  category: reports # Document category
+  download-link: /documents/reports/gender-pay-gap-report.pdf
+  colour: bc77ee
