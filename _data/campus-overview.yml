@@ -6,6 +6,7 @@
   copy: <p>Bicton College is based in East Devon in an Outstanding Area of Natural Beauty, just two miles from the Jurassic Coast. The historic Georgian mansion, commercial farm, rugby pitches, Animal Husbandry School as well as modern Veterinary Nursing building are set in over 200 hectares of historic parkland.</p>
   link: /bicton-campus.html
   contact-number: 0330 123 4782
+  absence-number: 01395 562314
   primary-color: 573551
   email: customer.services@bicton.ac.uk
   address: East Budleigh, Budleigh Salterton, Devon, EX9 7BH
@@ -38,6 +39,7 @@
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
   contact-number: 0333 344 2235 (FE)
+  absence-number:
   primary-color: AB1D88
   email: enquiries@dbsmusic.co.uk
   address: BRISTOL FE CENTRE (for diplomas) Location House, 14-16 Wilson Place, Bristol, BS2 9HJ
@@ -70,6 +72,7 @@
   copy: <p>Bristol has long been known for its vibrant and eclectic music scene and has a long list of artists all hailing from the city. Massive Attack, Roni Size and Portishead to name a few. We opened our purpose-built FE facilities in late 2012 in Bristol’s thriving Temple Enterprise Zone, a hub for creative types of all disciplines. </p>
   link: /bristol-campus.html
   contact-number: 0333 344 2238 (HE)
+  absence-number:
   primary-color: AB1D88
   email: enquiries@dbsmusic.co.uk
   address: BRISTOL HE CENTRE (for degrees) 17 St Thomas Street, Bristol, BS1 6JS
@@ -101,7 +104,8 @@
   attached-brands: "cc"
   copy: <p>Cornwall College Camborne is the largest of the three General Further Education campuses in the group, offering a wide variety of vocational courses from further education to university level, professional qualifications and the South’s West largest provider of apprenticeships; earning ourselves a respected reputation across the wider education sector and business community.</p><p>With a focused ethos on careers, progression and opportunity, we have attracted high profile partnerships including Jamie Oliver's Fifteen, Blue Flame Academy and our new Digital Academy.</p>
   link: /camborne-campus.html
-  contact-number:  0330 123 2523
+  contact-number: 0330 123 2523
+  absence-number: 0330 123 2523
   primary-color: 00509B
   email: enquiries@cornwall.ac.uk
   address: Trevenson Road, Redruth, Cornwall, TR15 3RD
@@ -134,6 +138,7 @@
   copy: <p >In partnership with the Eden Project, we have introduced a range of new apprenticeships for enterprising and innovative individuals and businesses that are motivated to make the world a better place. The Eden Project and the Cornwall College Group are working together to train and employ a range of new apprentices in key business areas such as service excellence, cookery and horticulture.</p>
   link: /eden-campus.html
   contact-number: 0330 123 2523
+  absence-number: 01726 226453
   primary-color: CC0E0E
   email: enquiries@cornwall.ac.uk
   address: Eden Project, Bodelva, Cornwall, PL24 2SG
@@ -166,6 +171,7 @@
   copy: <p>Falmouth Marine School provides a comprehensive selection of courses from introductory to degree level in partnership with Plymouth University. We specialise in Boatbuilding, Marine Engineering and Marine Science & Biology.</p>
   link: /falmouth-campus.html
   contact-number: 0330 123 4783
+  absence-number: 0330 123 2523
   primary-color: 00AFBF
   email: falenquiries@cornwall.ac.uk
   address: Killigrew Street, Falmouth, Cornwall, TR11 3QS
@@ -197,7 +203,8 @@
   attached-brands: "cc"
   copy: <p>Cornwall College Newquay is a modern, small and friendly campus located in the heart of the bright and bustling town of Newquay. Specialising in zoology, marine and surf science studies, the campus is well-known in Cornwall as a friendly and inclusive setting for high quality teaching and research.</p><p>Studying in Newquay gives you access to an amazing environment and incredible opportunities, including international field trips and taking advantage of our close partnerships with local businesses including Newquay Zoo, Blue Reef Aquarium, Cornwall Wildlife Trust and The Eden Project.</p>
   link: /newquay-campus.html
-  contact-number:  0330 123 2523
+  contact-number: 0330 123 2523
+  absence-number: 0330 123 2523
   primary-color: 00509B
   email: newquay.enquiries@cornwall.ac.uk
   address: Wildflower Lane, Trenance Gardens, Newquay, Cornwall, TR7 2LZ
@@ -230,6 +237,7 @@
   copy: <p>Duchy College Rosewarne is situated just outside Camborne on a working farm. Our extensive beautiful grounds are spread over approximately 47 hectares and are an excellent horticultural resource with national plant collections on campus. Onsite we also have a working nursery where we grow and sell our own plants, a working farm and protected cropping unit, land-based engineering workshops and specialist veterinary nursing facilities, the only one of its kind in the county. To get you to and from Rosewarne we have our own transport network that will collect you from a range of towns and villages.</p>
   link: /rosewarne-campus.html
   contact-number: 0330 123 4784
+  absence-number: 0330 123 4784
   primary-color: 007B4C
   email: rosewarne.enquiries@duchy.ac.uk
   address: Duchy College Rosewarne, Camborne, Cornwall, TR14 0AB
@@ -262,6 +270,7 @@
   copy: <p>The campus at Saltash is based on Church Road, nestled in the heart of a residential area only a few minutes’ walk from the town centre and close to the A38. We are a small and friendly campus sat in a semi-rural location, perfect if you live in South-East and North Cornwall, Plymouth or South-West Devon. We have excellent facilities including; a higher education centre, construction skills training centre, commercial hair and beauty salons and a state-of-the-art training kitchen.</p>
   link: /saltash-campus.html
   contact-number: 0330 123 2523
+  absence-number: 0330 123 2523
   primary-color: 00509B
   email: info@saltash.ac.uk
   address: Church Rd, Saltash, Cornwall, PL12 4AE
@@ -294,6 +303,7 @@
   copy: <p>Our campus is nestled in the rural Cornish countryside at Stoke Climsland. The campus offers great land-based activities and during your time here you are more than welcome to make use of the grounds and use all of our facilities.</p>
   link: /stoke-campus.html
   contact-number: 0330 123 4784
+  absence-number: 01579 372201
   primary-color: 007B4C
   email: stoke.enquiries@duchy.ac.uk
   address: Stoke Climsland, Callington, Cornwall, PL17 8PB
@@ -326,6 +336,7 @@
   copy: <p>The St Austell campus sits high overlooking the bay and offers panoramic views of the area. There are six floors in the main building, a bespoke theatre, A-level centre, an arts block and dedicated construction and engineering skills centre, Koko Beauty Salons and the award winning Cloisters Restaurant with the very latest real world skills training facilities.</p>
   link: /st-austell-campus.html
   contact-number: 0330 123 2523
+  absence-number: 0330 123 2523
   primary-color: 00509B
   email: info@st-austell.ac.uk
   address: Tregonissey Road, St Austell, Cornwall, PL25 4DJ
@@ -358,6 +369,7 @@
   copy: <p>Situated right in the heart of Plymouth, the dBs Music Plymouth centre is within walking distance of all major transport links, the thriving commercial centre and the beautiful Plymouth coastline of the historic Barbican and Hoe Foreshore.</p>
   link: /plymouth-campus.html
   contact-number: 0333 344 2237
+  absence-number:
   primary-color: AB1D88
   email: enquiries@dbsmusic.co.uk
   address: 6 Elizabeth Court, Higher Lane, Plymouth, PL1 2AN
@@ -390,6 +402,7 @@
   copy: <p>The Cornwall College Group has recently created an engineering skills centre based at Sisna Park on the Estover estate in Plymouth. The centre is two industrial units which have been fitted out with state-of-the-art equipment ; this investment of £200,000 has created fully functional workshops where qualifications can be delivered in welding, cutting and fabrication, engineering and electrical skills.  In addition, there are several classrooms and IT facilities available to support our learners.</p>
   link: /sisna-park-campus.html
   contact-number: 0330 123 2523
+  absence-number: 01752 850083
   primary-color: 777777
   email: enquiries@cornwall.ac.uk
   address: 87-89, Sisna Park Road, Plymouth, PL6 7AE
@@ -412,19 +425,3 @@
       title: Engineering Student on Lathe
 
   query: https://network.cornwall.ac.uk/campus/sisna-park/
-
-
-- campus: The Centre for Housing & Support
-  anchor: "chs"
-  search: "worcester"
-  external-link: http://www.chs.ac.uk
-  link: http://www.chs.ac.uk
-  brand: The Cornwall College Group
-  attached-brands: "cc"
-  copy: <h4>Announcement</h4><p>The Centre for Housing and Support (CHS) will not be starting new courses with immediate effect.</p><p>New housing courses may be available within Devon and Cornwall through the Cornwall College Group – see website for details. Please be assured we are committed to all our existing learners across the country and look forward to successfully completing their programmes of study.</p><p>For general enquiries please contact the Cornwall College Group on 0330 123 2523.</p>
-  contact-number: 01905 727272
-  primary-color: F8A132
-  email: info@chs.ac.uk
-  address: Kirkham House, John Comyn Drive, Worcester, WR3 7NS
-  opening: 8:30am-5:00pm
-  query: http://www.chs.ac.uk/index.php?page=_Home

@@ -24,7 +24,10 @@
                                         </form>
                                 </article>
                                 <article class="col-sm-12 col-md-8">
-                                    <h5>Campus Contact Number: <span  itemprop="telephone"><a style="color:white; font-weight:bold;" href="tel:{{ campus.contact-number }}">{{ campus.contact-number }}</a></span></h5>                        
+                                    <h5>Campus Contact Number: <span  itemprop="telephone"><a style="color:white; font-weight:bold;" href="tel:{{ campus.contact-number }}">{{ campus.contact-number }}</a></span></h5>
+                                    {% if campus.absence-number %}
+                                      <h5>Campus Absence Number: <span  itemprop="telephone"><a style="color:white; font-weight:bold;" href="tel:{{ campus.contact-number }}">{{ campus.absence-number }}</a></span></h5>
+                                    {% endif %}
                                     {{ campus.copy }}
                                 </article>
 
@@ -40,15 +43,15 @@
                             </div>
                         {% endfor %}
 
-                        </section>    
+                        </section>
 
                         <article class="col-sm-12 col-md-12">
                             <a title='view all courses in this area' {% if campus.link contains 'http' %} href='{{ campus.link }}' {% else %} href='/location-pages/{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
-                        </article>    
+                        </article>
 
                     </section>
                 </div>
-            </div>  
+            </div>
         {% endif %}
     {% else %}
         <div id="{{ campus.anchor }}" style="background:#{{ campus.primary-color }};" class="campus-overview" itemscope itemtype="https://schema.org/CollegeOrUniversity">
@@ -73,7 +76,8 @@
                                     </form>
                             </article>
                             <article class="col-sm-12 col-md-8">
-                                <h5>Campus Contact Number: <span itemprop="telephone"><a style="color:white; font-weight:bold;" href="tel:{{ campus.contact-number }}">{{ campus.contact-number }}</a></span></h5>                        
+                                <h5>Campus Contact Number: <span itemprop="telephone"><a style="color:white; font-weight:bold;" href="tel:{{ campus.contact-number }}">{{ campus.contact-number }}</a></span></h5>
+                                <h5>Campus Absence Number: <span itemprop="telephone"><a style="color:white; font-weight:bold;" href="tel:{{ campus.contact-number }}">{{ campus.absence-number }}</a></span></h5>
                                 {{ campus.copy }}
                             </article>
 
@@ -89,15 +93,15 @@
                         </div>
                     {% endfor %}
 
-                    </section>    
+                    </section>
 
                     <article class="col-sm-12 col-md-12">
                         <a title='view all courses in this area' {% if campus.external-link %} href='{{ campus.external-link }}' {% else %} href='/location-pages{{ campus.link }}' {% endif %} class="btn campus-link">View {{ campus.campus }} page</a>
-                    </article>    
+                    </article>
 
                 </section>
             </div>
-        </div>   
+        </div>
     {% endif %}
 
 {% endfor %}
