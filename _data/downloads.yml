@@ -189,8 +189,14 @@
   download-link: /documents/guides/advanced-learner-loans-fees-policy-2019.pdf
   colour: 004B93
 
+- title: Anti Bullying and Harassment Policy #Document name
+  type: PDF # Document type
+  category: policies # Document category
+  download-link: /documents/policies/anti-bullying-and-harassment-policy-learner.pdf
+  colour: 004B93
+
 - title: Further Education Funding Support Policy #Document name
-  type: Word # Document type
+  type: PDF # Document type
   category: policies # Document category
   download-link: /documents/policies/further-education-funding-support-policy-2019-20.pdf
   colour: 004B93
