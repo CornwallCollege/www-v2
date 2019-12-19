@@ -201,6 +201,12 @@
   download-link: /documents/policies/further-education-funding-support-policy-2019-20.pdf
   colour: 004B93
 
+- title: Leisure Courses Terms and Conditions #Document name
+  type: PDF # Document type
+  category: policies # Document category
+  download-link: /documents/policies/leisure-courses-terms-and-conditions.pdf
+  colour: 004B93
+
   #HE Policies
 - title: Higher Education Accommodation Policy &amp; Procedure (Private Sector) # Document name
   type:  PDF # Document type
@@ -339,6 +345,12 @@
   type:  PDF # Document type
   category: prospectuses # Document category
   download-link: /documents/prospectuses/cornwall-college-undergraduate-prospectus-2020.pdf
+  colour: e8d045
+
+- title: The Cornwall College Group Leisure Course Brochure 2020 # Document name
+  type:  PDF # Document type
+  category: prospectuses # Document category
+  download-link: /documents/prospectuses/leisure-course-brochure-cornwall-college-group.pdf
   colour: e8d045
 
   #Reports
