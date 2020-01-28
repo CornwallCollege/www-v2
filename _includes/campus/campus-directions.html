@@ -13,7 +13,7 @@
                 <address style="line-height: 1.7;">
                     <strong>Address:</strong><br>
                     <span itemprop="address">
-					          {{page.campus}} <br>
+					{{page.campus}} <br>
                     {{page.address}} <br>
                     {{page.postcode}}
                     </span>
@@ -25,8 +25,10 @@
 				    <strong>Contact:</strong><br>
 				    <span itemprop="telephone">{{page.phone}}</span><br>
 				    <a href="mailto:{{page.email}}">{{page.email}}</a><br>
-				</address>
-                <a href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}" target="_blank" class="icon-btn">Get Your Location</a>
+                </address>
+                <!---
+                    <a href="https://www.google.com/maps/dir/Current+Location/{{page.postcode | remove: ' ' }}" target="_blank" class="icon-btn">Get Your Location</a>
+                --->
                 <form action="https://maps.google.com/maps" method="get" target="_blank">
                     <label for="saddr" >ENTER YOUR LOCATION</label><br/>
                     <input type="text" name="saddr" style="padding-bottom:5px; margin-bottom:8px; width:80%" placeholder="Place Name/Postcode"/>
