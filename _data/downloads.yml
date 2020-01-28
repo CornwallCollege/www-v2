@@ -354,6 +354,12 @@
   colour: e8d045
 
   #Reports
+- title: Strategic Plan 2020 - 2023 # Document name
+  type:  PDF # Document type
+  category: reports # Document category
+  download-link: /documents/other/Strategic_Plan_2020-23.pdf
+  colour: 961313
+
 - title: TCCG Strategic Plan 2019
   type:  PDF # Document type
   category: reports # Document category
