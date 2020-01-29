@@ -91,9 +91,21 @@
 <![endif]-->
 
 <script type="text/javascript">
-document.getElementById('#loader').style.display = 'block'
 
-<!-- Crazy egg heat mapping tool -->
+// Sets display of loader (Not sure why)
+// 29/01/2020 <- Added in If Statement
+// It was Erroring JS when it was not found
+var documentElementLoader = document.getElementById('loader');
+
+if(
+    typeof(documentElementLoader) != 'undefined' && 
+    documentElementLoader != null && 
+    documentElementLoader.style
+){
+    documentElementLoader.style.display = 'block'
+}
+
+// Crazy egg heat mapping tool
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/5657.js?"+Math.floor(new Date().getTime()/3600000);
