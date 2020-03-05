@@ -160,14 +160,25 @@
   letter-spacing: 0;
 }
 
+.five-button__link {
+  display: inline-block;
+  width: 100%;
+  padding: 4px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
 @media (min-width: 992px) {
-  .four-button__link {
+  .four-button__link, .five-button__link {
     padding: 20px
   }
 }
 
 .four-button__link:hover,
-.four-button__link:active {
+.four-button__link:active,
+.five-button__link:hover,
+.five-button__link:active {
   color: #fff;
   letter-spacing: 0px;
 }
