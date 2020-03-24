@@ -3,7 +3,13 @@
       <tbody>
         <tr>
             <td class="text-center hidden-xs"><i class="fa fa-phone fa-2x"></i></td>
-            <td style="color:white"><address itemprop="telephone">{{page.phone}}</address></td>
+            <td style="color:white">
+                <address>
+                    <span itemprop="telephone"><a href="tel:{{page.phone}}">{{page.phone}}</a></span>
+                    <br>
+                    <span><strong>&nbsp;*This Phone Number Opens: 10am - 3pm Mon - Fri</strong></span>
+                </address>
+            </td>
         </tr>
 
         <tr>
