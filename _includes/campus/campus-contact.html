@@ -1,35 +1,52 @@
-   <section class="col-md-5 col-sm-12 col-xs-12">
+<section class="col-md-5 col-sm-12 col-xs-12">
     <table id="main-contact" class="contact-details">
-      <tbody>
-        <tr>
-            <td class="text-center hidden-xs"><i class="fa fa-phone fa-2x"></i></td>
-            <td style="color:white">
-                <address>
-                    <span itemprop="telephone"><a href="tel:{{page.phone}}">{{page.phone}}</a></span>
-                    <br>
-                    <span><strong>&nbsp;*This Phone Number Opens: 10am - 3pm Mon - Fri</strong></span>
-                </address>
-            </td>
-        </tr>
+        <tbody>
+            <tr>
+                <td class="text-center hidden-xs"><i class="fa fa-phone fa-2x"></i></td>
+                <td style="color:white">
+                    <address>
+                        <span itemprop="telephone"><a href="tel:{{page.phone}}">{{page.phone}}</a></span>
+                        <span><strong>*</strong></span>
+                    </address>
+                </td>
+            </tr>
 
-        <tr>
-            <td class="text-center hidden-xs"><i class="fa fa-location-arrow fa-2x"></i></td>
-            <td style="color:white"><address itemprop="address">{{page.address}}</address></td>
-        </tr>
-        <tr>
-            <td class="text-center hidden-xs"><i class="fa fa-envelope fa-2x"></i></td>
-            <td style="color:white;"><address><a href="mailto:{{page.email}}" itemprop="email">{{page.email}}</a></address></td>
-        </tr>
-        <tr>
-            <td class="text-center hidden-xs" ><i class="fa fa-clock-o fa-2x"></i></td>
-            <td>
-                <address style="color:white">
-                        {{page.opening-times}}
-                </address>
-            </td>
-        </tr>
-      </tbody>
+            <tr>
+                <td class="text-center hidden-xs"><i class="fa fa-location-arrow fa-2x"></i></td>
+                <td style="color:white"><address itemprop="address">{{page.address}}</address></td>
+            </tr>
+            <tr>
+                <td class="text-center hidden-xs"><i class="fa fa-envelope fa-2x"></i></td>
+                <td style="color:white;"><address><a href="mailto:{{page.email}}" itemprop="email">{{page.email}}</a></address></td>
+            </tr>
+            <!---
+                Opening Hours Removed for now due to Coronavirus Shutting College
+                <tr>
+                    <td class="text-center hidden-xs" ><i class="fa fa-clock-o fa-2x"></i></td>
+                    <td>
+                        <address style="color:white">
+                                {{page.opening-times}}
+                        </address>
+                    </td>
+                </tr>
+            --->
+            <tr>
+                <td style="background-color: #b6b6b6;" class="text-center hidden-xs" ><i class="fa fa-exclamation-triangle fa-2x"></i></td>
+                <td style="background-color: #b6b6b6;">
+                    <address style="color:white;">
+                        <span>Please note that this campus is currently closed due to the Coronavirus.</span>
+                        <br><br>
+                    </address>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: transparent; color: black;">
+                    <span><strong>&nbsp;*This Phone Number Opens: 10am - 3pm Mon - Fri</strong></span>
+                </td>
+            </tr>
+        </tbody>
     </table>
+
     {% include /campus/campus-outreach-btn.html %}
 
     {% if include.link1 %}
