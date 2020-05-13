@@ -4,7 +4,11 @@ title: Learning Area Hub
 description: robots
 permalink: robots.txt
 ---
+
 # robots.txt
+
 User-agent: *
 # Disallow: /
+Disallow: /campaign/landing-page/coronavirus-signage
+
 Sitemap: {{ site.url }}/sitemap-index.xml
